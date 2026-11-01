@@ -1,0 +1,24 @@
+# Repositório de assets original (pesado / repositório separado)
+mcgame/
+extracted_char/
+action_previews/
+
+# Imagens de teste temporárias
+*.png
+!web/assets/**/*.png
+!web/assets/**/*.jpg
+
+# Arquivos de compilação Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Configurações de IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sistema operacional
+.DS_Store
+Thumbs.db

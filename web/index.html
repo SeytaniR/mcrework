@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <meta name="mobile-web-app-capable" content="yes">
+  <title>Magic Campus Mobile - Pixi.js Engine (Mapa 1 & Char 1)</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Pixi.js v7 CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/7.3.2/pixi.min.js"></script>
+</head>
+<body>
+  <!-- Container do Jogo (Canvas Pixi.js) -->
+  <div id="game-container"></div>
+
+  <!-- Barra Superior Mobile (Compact HUD) -->
+  <header id="mobile-top-bar">
+    <div class="top-info">
+      <div class="game-badge">
+        <span class="logo-icon">⚔️</span>
+        <div class="title-group">
+          <span class="game-name">Magic Campus</span>
+          <span class="map-name">Xuất Vân Thôn (#1)</span>
+        </div>
+      </div>
+      <div class="status-pills">
+        <div class="pill" id="pill-pos">📍 <span id="pos-display">1000, 1000</span></div>
+        <div class="pill" id="pill-dir">🧭 <span id="dir-display">0 (Sul)</span></div>
+        <div class="pill fps-pill" id="pill-fps">60 FPS</div>
+      </div>
+    </div>
+    <button id="btn-toggle-menu" class="icon-btn" aria-label="Abrir Menu">⚙️</button>
+  </header>
+
+  <!-- Joystick Virtual Analógico (Canto Inferior Esquerdo) -->
+  <div id="joystick-container">
+    <div id="joystick-base">
+      <div class="stick-arrow arrow-n">↑</div>
+      <div class="stick-arrow arrow-e">→</div>
+      <div class="stick-arrow arrow-s">↓</div>
+      <div class="stick-arrow arrow-w">←</div>
+      <div id="joystick-handle"></div>
+    </div>
+  </div>
+
+  <!-- Botões de Ação Mobile (Canto Inferior Direito - Grade 2x4 Compacta) -->
+  <div id="mobile-action-bar">
+    <button id="btn-act-attack" class="action-btn btn-attack" title="Ataque Físico (Ação 3)">
+      <span class="btn-icon">⚔️</span>
+      <span class="btn-label">Ataque</span>
+    </button>
+    <button id="btn-act-cast" class="action-btn btn-cast" title="Magia / Conjuração (Ação 7)">
+      <span class="btn-icon">✨</span>
+      <span class="btn-label">Magia</span>
+    </button>
+    <button id="btn-act-ultimate" class="action-btn btn-ultimate" title="Habilidade Suprema (Ação 10)">
+      <span class="btn-icon">⚡</span>
+      <span class="btn-label">Suprema</span>
+    </button>
+    <button id="btn-act-defense" class="action-btn btn-defense" title="Defesa / Guarda (Ação 6)">
+      <span class="btn-icon">🛡️</span>
+      <span class="btn-label">Defesa</span>
+    </button>
+    <button id="btn-act-hurt" class="action-btn btn-hurt" title="Tomando Dano (Ação 5)">
+      <span class="btn-icon">💥</span>
+      <span class="btn-label">Dano</span>
+    </button>
+    <button id="btn-act-dead" class="action-btn btn-dead" title="Derrotado / Caído (Ação 4)">
+      <span class="btn-icon">💀</span>
+      <span class="btn-label">Caído</span>
+    </button>
+    <button id="btn-act-run" class="action-btn btn-run" title="Correr Rápido (Ação 2)">
+      <span class="btn-icon">🏃</span>
+      <span class="btn-label">Correr</span>
+    </button>
+    <button id="btn-act-stop" class="action-btn btn-stop" title="Parar / Respirar (Ação 0)">
+      <span class="btn-icon">🛑</span>
+      <span class="btn-label">Parar</span>
+    </button>
+  </div>
+
+  <!-- Controles Rápidos de Zoom Mobile -->
+  <div id="mobile-zoom-controls">
+    <button id="btn-zoom-in" class="zoom-btn" title="Aproximar">+</button>
+    <button id="btn-zoom-out" class="zoom-btn" title="Afastar">−</button>
+  </div>
+
+  <!-- Drawer / Menu Lateral de Diagnóstico e Configurações -->
+  <div id="drawer-backdrop" class="hidden"></div>
+  <aside id="debug-drawer" class="drawer-closed">
+    <div class="drawer-header">
+      <h3>⚙️ Painel de Ajustes & Diagnóstico</h3>
+      <button id="btn-close-drawer" class="icon-btn">✕</button>
+    </div>
+
+    <div class="drawer-body">
+      <!-- Status Detalhado -->
+      <section class="drawer-section">
+        <h4 class="section-title">Status do Personagem</h4>
+        <div class="stat-grid">
+          <div class="stat-item">
+            <span class="stat-label">Coordenadas:</span>
+            <strong id="drawer-pos">X: 1000 | Y: 1000</strong>
+          </div>
+          <div class="stat-item">
+            <span class="stat-label">Direção Atual:</span>
+            <strong id="drawer-dir">0 (Sul / Frente)</strong>
+          </div>
+          <div class="stat-item">
+            <span class="stat-label">Animação Ativa:</span>
+            <strong id="drawer-anim">0-0 (Parado)</strong>
+          </div>
+          <div class="stat-item">
+            <span class="stat-label">Colisão no Chão:</span>
+            <strong id="drawer-walkable" class="badge-walkable">LIVRE (Walkable)</strong>
+          </div>
+          <div class="stat-item">
+            <span class="stat-label">Sob Telhado/Árvore:</span>
+            <strong id="drawer-occluded" style="color: #88c0d0;">NÃO (Visível)</strong>
+          </div>
+        </div>
+      </section>
+
+      <!-- Teleportes Rápidos para Testes -->
+      <section class="drawer-section">
+        <h4 class="section-title">Teleportes Rápidos de Teste</h4>
+        <div class="btn-grid-actions">
+          <button id="tp-plaza" class="btn">🎯 Centro (1000, 1000)</button>
+          <button id="tp-tree" class="btn">🌲 Árvore/Telhado (930, 1080)</button>
+          <button id="tp-wall" class="btn">🧱 Parede Casa (1000, 1110)</button>
+          <button id="tp-bridge" class="btn">🌉 Ponte (389, 580)</button>
+        </div>
+      </section>
+
+      <!-- Modelos e Classes de Personagem -->
+      <section class="drawer-section">
+        <h4 class="section-title">Modelo / Classe Ativa</h4>
+        <div class="model-select-grid">
+          <button class="model-btn active" data-model="char11">🛡️ Guerreiro Evoluído (11 Ações / Tier 2)</button>
+          <button class="model-btn" data-model="char1">⚔️ Guerreiro Base (8 Ações / Tier 1)</button>
+          <button class="model-btn" data-model="char2">🔮 Mago Base (8 Ações)</button>
+          <button class="model-btn" data-model="char_mount">🐎 Montaria (Pose)</button>
+        </div>
+      </section>
+
+      <!-- Teste Direto de Animações (Todas as Ações 0..10) -->
+      <section class="drawer-section">
+        <h4 class="section-title">Ações do Personagem (0 a 10)</h4>
+        <div class="btn-grid-actions-8">
+          <button class="btn action-btn-test active" data-action="0">0: Parado</button>
+          <button class="btn action-btn-test" data-action="1">1: Andar</button>
+          <button class="btn action-btn-test" data-action="2">2: Correr (Ativo)</button>
+          <button class="btn action-btn-test" data-action="3">3: Golpe</button>
+          <button class="btn action-btn-test" data-action="4">4: Morto</button>
+          <button class="btn action-btn-test" data-action="5">5: Dano</button>
+          <button class="btn action-btn-test" data-action="6">6: Defesa</button>
+          <button class="btn action-btn-test" data-action="7">7: Magia</button>
+          <button class="btn action-btn-test" data-action="8" id="btn-act8">8: Buff / Postura</button>
+          <button class="btn action-btn-test" data-action="9" id="btn-act9">9: Golpe Pesado</button>
+          <button class="btn action-btn-test" data-action="10" id="btn-act10">10: Suprema (32f)</button>
+        </div>
+      </section>
+
+      <!-- Matriz de Direções 3x3 -->
+      <section class="drawer-section">
+        <h4 class="section-title">Testar Direções (0-7)</h4>
+        <div class="dir-grid">
+          <button class="dir-btn" data-dir="5">↖ 5</button>
+          <button class="dir-btn" data-dir="4">↑ 4</button>
+          <button class="dir-btn" data-dir="3">↗ 3</button>
+          <button class="dir-btn" data-dir="6">← 6</button>
+          <button class="dir-btn center" id="btn-center" title="Resetar Posição">🎯</button>
+          <button class="dir-btn" data-dir="2">→ 2</button>
+          <button class="dir-btn" data-dir="7">↙ 7</button>
+          <button class="dir-btn" data-dir="0">↓ 0</button>
+          <button class="dir-btn" data-dir="1">↘ 1</button>
+        </div>
+      </section>
+
+      <!-- Camadas e Opções -->
+      <section class="drawer-section">
+        <h4 class="section-title">Camadas & Renderização</h4>
+        <div class="toggle-list">
+          <label class="toggle-row">
+            <span>📷 Seguir Câmera</span>
+            <input type="checkbox" id="chk-camera" checked>
+          </label>
+          <label class="toggle-row">
+            <span>👥 Mostrar NPCs</span>
+            <input type="checkbox" id="chk-npcs" checked>
+          </label>
+          <label class="toggle-row highlight-row">
+            <span>🛡️ Malha de Colisão (Overlay Vermelho)</span>
+            <input type="checkbox" id="chk-collision">
+          </label>
+          <label class="toggle-row">
+            <span>🌲 Transparência de Telhados/Árvores</span>
+            <input type="checkbox" id="chk-transparency" checked>
+          </label>
+        </div>
+      </section>
+
+      <!-- Controle de Zoom -->
+      <section class="drawer-section">
+        <h4 class="section-title">Zoom da Câmera (<span id="zoom-val">1.0x</span>)</h4>
+        <div class="zoom-slider-container">
+          <span>0.5x</span>
+          <input type="range" id="zoom-slider" min="0.5" max="2.0" step="0.1" value="1.0">
+          <span>2.0x</span>
+        </div>
+      </section>
+
+      <!-- Velocidade do Personagem -->
+      <section class="drawer-section">
+        <h4 class="section-title">Velocidade de Movimento (<span id="speed-val">140 px/s</span>)</h4>
+        <div class="zoom-slider-container">
+          <span>80</span>
+          <input type="range" id="speed-slider" min="80" max="240" step="5" value="140">
+          <span>240</span>
+        </div>
+      </section>
+
+      <!-- Instruções -->
+      <div class="help-box">
+        💡 <strong>Toque em qualquer lugar do mapa</strong> para andar até lá.<br>
+        Use o <strong>Joystick no canto esquerdo</strong> para mover livremente.<br>
+        Ative <strong>Malha de Colisão (Overlay Vermelho)</strong> para ver todos os obstáculos bloqueados!
+      </div>
+    </div>
+  </aside>
+
+  <script src="main.js"></script>
+</body>
+</html>
