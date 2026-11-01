@@ -36,6 +36,24 @@ Um projeto moderno de recriação e migração de engine para o clássico MMORPG
   * 🔮 **Mago Base** (`PC_MALE_000002` - 8 ações com animações de cajado)
   * 🐎 **Pose de Montaria** (`PC_MALE_100001` - postura montada)
 
+### 👾 Monstros & Simulador de Batalha em Turnos (*Turn-Based Combat*)
+* **Monstro no Mapa 1:** `Cogumelo Selvagem [Nv. 5]` (*Nấm Đồng Cỏ* / `NPC_CRE_000015.swf`), extraído com precisão dos arquivos SWF de criaturas originais, renderizado no mapa com sombra suave e animação de respiração contínua em escala proporcional (`scale = 0.70`).
+* **Entrada em Combate Interativa:** Toque no monstro no mapa para o personagem se aproximar e iniciar a batalha simulada instantaneamente (ou pelo botão de teste rápido no menu lateral).
+* **Arena de Combate 2.5D Autêntica:** Piso tático arcano, dimming cinematográfico e posicionamento clássico de combate do Magic Campus (Jogador à esquerda virado em direção 1/Sudeste, Monstro à direita virado em direção 7/Sudoeste).
+* **Ações de Combate do Jogador:**
+  * `⚔️ Ataque`: Golpe físico veloz com avanço dinâmico e recuperação de energia (+15 SP).
+  * `🔮 Magia`: Rajada arcana elemental de alto impacto (custo: 40 SP).
+  * `⚡ Suprema`: Combo devastador de 32 frames completos com tremor de arena e finalizador crítico (custo: 80 SP).
+  * `🛡️ Defender`: Postura defensiva que reduz o dano do próximo golpe sofrido em 65% e recupera +35 SP.
+  * `🤖 Auto`: Modo de combate contínuo e inteligente que escolhe automaticamente os melhores ataques até a vitória.
+  * `🏃 Fugir`: Chance de retirar-se do combate e voltar com segurança para o mapa.
+* **IA do Monstro e Reações:**
+  * Ataque físico com cabeçada rápida (Ação 3).
+  * Magia de esporos venenosos em área (Ação 7).
+  * Endurecimento de cúpula defensiva (Ação 6).
+  * Flash avermelhado de impacto ao levar dano (Ação 5) e animação de derrota/caído no chão (Ação 4).
+* **HUD e Feedback Visual:** Barras de vida e mana com porcentagens em tempo real, números flutuantes de dano e cura (*Floating Damage Texts*), narrador de combate e modal de vitória com ganhos de EXP e Moedas de Ouro.
+
 ### 📱 Interface Mobile-First
 * **Joystick Analógico Virtual:** Toque dinâmico e resposta vetorial precisa.
 * **Tap-to-Move:** Toque em qualquer ponto livre do mapa para o personagem correr até o local.

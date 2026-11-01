@@ -220,9 +220,18 @@
         </div>
       </section>
 
+      <!-- Batalha Simulada -->
+      <section class="drawer-section">
+        <h4 class="section-title">Combate & Batalha</h4>
+        <button id="btn-drawer-battle" class="model-btn" style="width: 100%; border-color: #bf616a; color: #bf616a; background: rgba(191, 97, 106, 0.15); font-weight: 700; padding: 10px;">
+          ⚔️ Iniciar Batalha com Cogumelo
+        </button>
+      </section>
+
       <!-- Instruções -->
       <div class="help-box">
         💡 <strong>Toque em qualquer lugar do mapa</strong> para andar até lá.<br>
+        Toque no <strong>Monstro (Cogumelo)</strong> para iniciar a batalha!<br>
         Toque em um <strong>NPC</strong> para interagir e conversar.<br>
         Use o <strong>Joystick no canto esquerdo</strong> para mover livremente.<br>
         Ative <strong>Malha de Colisão</strong> para inspecionar os obstáculos!
@@ -241,6 +250,89 @@
       <p id="npc-dialog-text" class="npc-dialog-text">Diálogo do NPC...</p>
       <div class="npc-dialog-actions">
         <button id="btn-ack-npc-dialog" class="npc-action-btn">Continuar</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tela / Simulador de Batalha (Turn-Based Combat) -->
+  <div id="battle-overlay" class="battle-overlay hidden">
+    <!-- Top HUD da Batalha: Barras de Vida e Nomes -->
+    <div class="battle-top-hud">
+      <!-- Lado Jogador -->
+      <div class="battle-entity-card player-card">
+        <div class="entity-header">
+          <span class="entity-badge player-badge">JOGADOR</span>
+          <span class="entity-name" id="btl-player-name">Guerreiro Evoluído</span>
+        </div>
+        <div class="bar-container hp-bar">
+          <div id="battle-player-hp-bar" class="bar-fill hp-fill" style="width: 100%;"></div>
+          <span id="battle-player-hp-text" class="bar-text">1000 / 1000</span>
+        </div>
+        <div class="bar-container sp-bar">
+          <div id="battle-player-sp-bar" class="bar-fill sp-fill" style="width: 100%;"></div>
+          <span id="battle-player-sp-text" class="bar-text">250 / 250</span>
+        </div>
+      </div>
+
+      <!-- Turno / Status Central -->
+      <div class="battle-turn-badge" id="battle-turn-badge">
+        <span id="battle-turn-text">SEU TURNO</span>
+      </div>
+
+      <!-- Lado Monstro -->
+      <div class="battle-entity-card monster-card">
+        <div class="entity-header">
+          <span class="entity-name" id="btl-monster-name">Cogumelo Selvagem</span>
+          <span class="entity-badge monster-badge">NV. 5</span>
+        </div>
+        <div class="bar-container hp-bar">
+          <div id="battle-monster-hp-bar" class="bar-fill monster-hp-fill" style="width: 100%;"></div>
+          <span id="battle-monster-hp-text" class="bar-text">600 / 600</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Banner Flutuante de Narrativa da Ação -->
+    <div id="battle-action-banner" class="battle-action-banner">
+      <span id="battle-action-text">Selecione uma ação para atacar!</span>
+    </div>
+
+    <!-- Controles de Ação na Barra Inferior Mobile -->
+    <div class="battle-bottom-hud">
+      <div class="battle-actions-grid">
+        <button id="btn-btl-attack" class="btl-btn btn-btl-attack" title="Ataque Físico (Ação 3)">
+          <span class="btl-icon">⚔️</span>
+          <span class="btl-label">Ataque</span>
+        </button>
+        <button id="btn-btl-skill" class="btl-btn btn-btl-skill" title="Magia / Conjuração (Ação 7)">
+          <span class="btl-icon">🔮</span>
+          <span class="btl-label">Magia</span>
+        </button>
+        <button id="btn-btl-ultimate" class="btl-btn btn-btl-ultimate" title="Habilidade Suprema (Ação 10)">
+          <span class="btl-icon">⚡</span>
+          <span class="btl-label">Suprema</span>
+        </button>
+        <button id="btn-btl-defend" class="btl-btn btn-btl-defend" title="Postura Defensiva (Ação 6)">
+          <span class="btl-icon">🛡️</span>
+          <span class="btl-label">Defender</span>
+        </button>
+        <button id="btn-btl-auto" class="btl-btn btn-btl-auto" title="Simulação Automática Contínua">
+          <span class="btl-icon">🤖</span>
+          <span class="btl-label">Auto</span>
+        </button>
+        <button id="btn-btl-flee" class="btl-btn btn-btl-flee" title="Fugir da Batalha">
+          <span class="btl-icon">🏃</span>
+          <span class="btl-label">Fugir</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Modal de Resultado (Vitória ou Derrota) -->
+    <div id="battle-result-modal" class="battle-result-modal hidden">
+      <div class="result-card">
+        <h2 id="battle-result-title">🏆 VITÓRIA!</h2>
+        <p id="battle-result-desc">Você derrotou o Cogumelo Selvagem!<br>+150 EXP obtidos | +60 Ouro</p>
+        <button id="btn-battle-finish" class="btn-primary" style="margin-top: 14px; width: 100%; padding: 12px; font-size: 14px; font-weight: 700;">Voltar ao Mapa</button>
       </div>
     </div>
   </div>

@@ -232,4 +232,24 @@ python tools/extract_npcs.py
 ```
 O script lê as coordenadas, nomes e `res_code` de cada NPC em `data_tbl_npc.sql`, decodifica o hash MD5 da URL original no Flash (`UrlUtil.getUrl()`), extrai os bitmaps de respiração (Lossless2 / JPEG3), calcula o bounding box unificado para travar os pés na base `(0.5, 1.0)`, e gera `web/assets/map1/npcs.json` e todos os frames PNG prontos para o Pixi.js.
 
+### Extrair Criaturas e Monstros:
+```bash
+python tools/extract_monster.py
+```
+O script mapeia a criatura a partir de `data_tbl_creature.sql` (ex: ID 14 `Nấm Đồng Cỏ` / Cogumelo Selvagem -> `creature/NPC_CRE_000015.swf`), localiza o arquivo pelo hash MD5 (`28af28f7cb24a4660eccf8576a787c5d`), extrai todos os 704 frames de animação cobrindo as 8 direções e todas as ações (`0`: Idle, `1`: Walk, `3`: Attack, `4`: Dead, `5`: Hurt, `6`: Block, `7`: Magic), unifica o bounding box para manter a ancoragem dos pés cravada em `(0.5, 1.0)`, e gera `web/assets/monsters/mushroom/monster_manifest.json`.
+
 O script cuidará automaticamente da descompressão Zlib, extração de bitmaps, leitura de rótulos de timeline, cálculo do pivô e geração do `char_manifest.json` ou `npcs.json`.
+
+---
+
+## 9. Sistema de Combate em Turnos (Battle Simulator)
+
+O simulador de batalha foi construído seguindo o layout tático 2.5D clássico do Magic Campus:
+1. **Posicionamento e Orientação das Entidades:**
+   * **Jogador (Lado Esquerdo):** Renderizado virado para a Direção 1 (Sudeste / Frente-Direita), apontando diretamente para o oponente.
+   * **Monstro (Lado Direito):** Renderizado virado para a Direção 7 (Sudoeste / Frente-Esquerda), encarando o jogador.
+2. **Loop de Batalha Assíncrono:**
+   * O loop de renderização do mapa (`world`) é pausado enquanto `isBattleActive` for verdadeiro, ativando `updateBattleVisuals()` a 60 FPS dentro de `battleContainer`.
+   * Os ataques executam animações coordenadas (avanço de sprite via `offsetX`, impacto com flash `tint`, screen shake, criação de texto de dano flutuante e retorno à pose de Idle).
+3. **Modo Automático (*Auto Battle*):**
+   * Avalia dinamicamente os pontos de SP do jogador para encadear a Habilidade Suprema (32 frames, custo 80 SP), Magia Elemental (custo 40 SP) ou Ataque Físico comum (+15 SP), alternando turnos com a IA do monstro com intervalos naturais de legibilidade visual (~500ms).
