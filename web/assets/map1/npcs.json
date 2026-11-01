@@ -1,92 +1,276 @@
 [
   {
-    "id": "2613",
+    "id": 2613,
     "name": "Cây Thông Giáng Sinh",
     "x": 922,
-    "y": 671
+    "y": 671,
+    "dir": 0,
+    "res_code": 2060090000173,
+    "res_name": "NPC_FUNC_000173",
+    "frames": [
+      "assets/map1/npcs/NPC_FUNC_000173/frame_0.png"
+    ],
+    "width": 355,
+    "height": 378,
+    "is_animated": false,
+    "shadow_radius_x": 124,
+    "shadow_radius_y": 63
   },
   {
-    "id": "237",
+    "id": 237,
     "name": "Tiệm Pet Mỹ Mỹ",
     "x": 825,
-    "y": 371
+    "y": 371,
+    "dir": 0,
+    "res_code": 2060090000069,
+    "res_name": "NPC_FUNC_000069",
+    "frames": [
+      "assets/map1/npcs/NPC_FUNC_000069/frame_0.png",
+      "assets/map1/npcs/NPC_FUNC_000069/frame_1.png",
+      "assets/map1/npcs/NPC_FUNC_000069/frame_2.png",
+      "assets/map1/npcs/NPC_FUNC_000069/frame_1.png"
+    ],
+    "width": 69,
+    "height": 91,
+    "is_animated": true,
+    "shadow_radius_x": 24,
+    "shadow_radius_y": 12
   },
   {
-    "id": "239",
+    "id": 239,
     "name": "Tiệm Tạp Hóa Ông Triệu",
     "x": 1504,
-    "y": 445
+    "y": 445,
+    "dir": 7,
+    "res_code": 2060090000057,
+    "res_name": "NPC_FUNC_000057",
+    "frames": [
+      "assets/map1/npcs/NPC_FUNC_000057/frame_0.png",
+      "assets/map1/npcs/NPC_FUNC_000057/frame_1.png",
+      "assets/map1/npcs/NPC_FUNC_000057/frame_2.png",
+      "assets/map1/npcs/NPC_FUNC_000057/frame_1.png"
+    ],
+    "width": 58,
+    "height": 93,
+    "is_animated": true,
+    "shadow_radius_x": 20,
+    "shadow_radius_y": 10
   },
   {
-    "id": "240",
+    "id": 240,
     "name": "Tân Thủ Sứ",
     "x": 275,
-    "y": 1052
+    "y": 1052,
+    "dir": 0,
+    "res_code": 2060090000001,
+    "res_name": "NPC_FUNC_000001",
+    "frames": [
+      "assets/map1/npcs/NPC_FUNC_000001/frame_0.png",
+      "assets/map1/npcs/NPC_FUNC_000001/frame_1.png",
+      "assets/map1/npcs/NPC_FUNC_000001/frame_2.png",
+      "assets/map1/npcs/NPC_FUNC_000001/frame_1.png"
+    ],
+    "width": 35,
+    "height": 98,
+    "is_animated": true,
+    "shadow_radius_x": 14,
+    "shadow_radius_y": 7
   },
   {
-    "id": "351",
+    "id": 351,
     "name": "Thùng Thư Xuất Vân",
     "x": 1069,
-    "y": 1119
+    "y": 1119,
+    "dir": 0,
+    "res_code": 2060090000065,
+    "res_name": "NPC_FUNC_000065",
+    "frames": [
+      "assets/map1/npcs/NPC_FUNC_000065/frame_0.png"
+    ],
+    "width": 56,
+    "height": 99,
+    "is_animated": false,
+    "shadow_radius_x": 19,
+    "shadow_radius_y": 10
   },
   {
-    "id": "409",
+    "id": 409,
     "name": "Y Tá Loli",
     "x": 1191,
-    "y": 994
+    "y": 994,
+    "dir": 7,
+    "res_code": 2060090000059,
+    "res_name": "NPC_FUNC_000059",
+    "frames": [
+      "assets/map1/npcs/NPC_FUNC_000059/frame_0.png",
+      "assets/map1/npcs/NPC_FUNC_000059/frame_1.png",
+      "assets/map1/npcs/NPC_FUNC_000059/frame_2.png",
+      "assets/map1/npcs/NPC_FUNC_000059/frame_1.png"
+    ],
+    "width": 34,
+    "height": 100,
+    "is_animated": true,
+    "shadow_radius_x": 14,
+    "shadow_radius_y": 7
   },
   {
-    "id": "455",
+    "id": 455,
     "name": "Vệ Sĩ Xuất Vân",
     "x": 1194,
-    "y": 532
+    "y": 532,
+    "dir": 0,
+    "res_code": 2060090000010,
+    "res_name": "NPC_FUNC_000010",
+    "frames": [
+      "assets/map1/npcs/NPC_FUNC_000010/frame_0.png",
+      "assets/map1/npcs/NPC_FUNC_000010/frame_1.png",
+      "assets/map1/npcs/NPC_FUNC_000010/frame_2.png",
+      "assets/map1/npcs/NPC_FUNC_000010/frame_1.png"
+    ],
+    "width": 117,
+    "height": 102,
+    "is_animated": true,
+    "shadow_radius_x": 40,
+    "shadow_radius_y": 21
   },
   {
-    "id": "1257",
-    "name": "Cây Thông Giáng Sinh",
-    "x": 922,
-    "y": 671
-  },
-  {
-    "id": "232",
+    "id": 232,
     "name": "Tiệm Vũ Khí A Nhĩ",
     "x": 389,
-    "y": 576
+    "y": 576,
+    "dir": 0,
+    "res_code": 2060090000002,
+    "res_name": "NPC_FUNC_000002",
+    "frames": [
+      "assets/map1/npcs/NPC_FUNC_000002/frame_0.png",
+      "assets/map1/npcs/NPC_FUNC_000002/frame_1.png",
+      "assets/map1/npcs/NPC_FUNC_000002/frame_2.png",
+      "assets/map1/npcs/NPC_FUNC_000002/frame_1.png"
+    ],
+    "width": 45,
+    "height": 98,
+    "is_animated": true,
+    "shadow_radius_x": 15,
+    "shadow_radius_y": 8
   },
   {
-    "id": "231",
+    "id": 231,
     "name": "Trưởng Thôn Stoff",
     "x": 389,
-    "y": 893
+    "y": 893,
+    "dir": 0,
+    "res_code": 2060090000014,
+    "res_name": "NPC_FUNC_000014",
+    "frames": [
+      "assets/map1/npcs/NPC_FUNC_000014/frame_0.png",
+      "assets/map1/npcs/NPC_FUNC_000014/frame_1.png",
+      "assets/map1/npcs/NPC_FUNC_000014/frame_2.png",
+      "assets/map1/npcs/NPC_FUNC_000014/frame_1.png"
+    ],
+    "width": 44,
+    "height": 77,
+    "is_animated": true,
+    "shadow_radius_x": 15,
+    "shadow_radius_y": 7
   },
   {
-    "id": "233",
+    "id": 233,
     "name": "Tiệm Thuốc Ông Vương",
     "x": 1610,
-    "y": 1040
+    "y": 1040,
+    "dir": 7,
+    "res_code": 2060090000067,
+    "res_name": "NPC_FUNC_000067",
+    "frames": [
+      "assets/map1/npcs/NPC_FUNC_000067/frame_0.png",
+      "assets/map1/npcs/NPC_FUNC_000067/frame_1.png",
+      "assets/map1/npcs/NPC_FUNC_000067/frame_2.png",
+      "assets/map1/npcs/NPC_FUNC_000067/frame_1.png"
+    ],
+    "width": 48,
+    "height": 89,
+    "is_animated": true,
+    "shadow_radius_x": 16,
+    "shadow_radius_y": 8
   },
   {
-    "id": "238",
+    "id": 238,
     "name": "Tiệm Trang Bị Isla",
     "x": 630,
-    "y": 486
+    "y": 486,
+    "dir": 0,
+    "res_code": 2060090000068,
+    "res_name": "NPC_FUNC_000068",
+    "frames": [
+      "assets/map1/npcs/NPC_FUNC_000068/frame_0.png",
+      "assets/map1/npcs/NPC_FUNC_000068/frame_1.png",
+      "assets/map1/npcs/NPC_FUNC_000068/frame_2.png",
+      "assets/map1/npcs/NPC_FUNC_000068/frame_1.png"
+    ],
+    "width": 56,
+    "height": 92,
+    "is_animated": true,
+    "shadow_radius_x": 19,
+    "shadow_radius_y": 10
   },
   {
-    "id": "247",
+    "id": 247,
     "name": "Thủ Kho",
     "x": 1212,
-    "y": 243
+    "y": 243,
+    "dir": 7,
+    "res_code": 2060090000013,
+    "res_name": "NPC_FUNC_000013",
+    "frames": [
+      "assets/map1/npcs/NPC_FUNC_000013/frame_0.png",
+      "assets/map1/npcs/NPC_FUNC_000013/frame_1.png",
+      "assets/map1/npcs/NPC_FUNC_000013/frame_2.png",
+      "assets/map1/npcs/NPC_FUNC_000013/frame_1.png"
+    ],
+    "width": 49,
+    "height": 90,
+    "is_animated": true,
+    "shadow_radius_x": 17,
+    "shadow_radius_y": 8
   },
   {
-    "id": "951",
+    "id": 951,
     "name": "Người Tiến Cử",
     "x": 815,
-    "y": 768
+    "y": 768,
+    "dir": 0,
+    "res_code": 2060090000001,
+    "res_name": "NPC_FUNC_000001",
+    "frames": [
+      "assets/map1/npcs/NPC_FUNC_000001/frame_0.png",
+      "assets/map1/npcs/NPC_FUNC_000001/frame_1.png",
+      "assets/map1/npcs/NPC_FUNC_000001/frame_2.png",
+      "assets/map1/npcs/NPC_FUNC_000001/frame_1.png"
+    ],
+    "width": 35,
+    "height": 98,
+    "is_animated": true,
+    "shadow_radius_x": 14,
+    "shadow_radius_y": 7
   },
   {
-    "id": "1287",
+    "id": 1287,
     "name": "Vân Đài",
     "x": 1723,
-    "y": 604
+    "y": 604,
+    "dir": 0,
+    "res_code": 2060090000094,
+    "res_name": "NPC_FUNC_000094",
+    "frames": [
+      "assets/map1/npcs/NPC_FUNC_000094/frame_0.png",
+      "assets/map1/npcs/NPC_FUNC_000094/frame_1.png",
+      "assets/map1/npcs/NPC_FUNC_000094/frame_2.png",
+      "assets/map1/npcs/NPC_FUNC_000094/frame_1.png"
+    ],
+    "width": 117,
+    "height": 102,
+    "is_animated": true,
+    "shadow_radius_x": 40,
+    "shadow_radius_y": 21
   }
 ]

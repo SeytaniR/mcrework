@@ -223,11 +223,27 @@
       <!-- Instruções -->
       <div class="help-box">
         💡 <strong>Toque em qualquer lugar do mapa</strong> para andar até lá.<br>
+        Toque em um <strong>NPC</strong> para interagir e conversar.<br>
         Use o <strong>Joystick no canto esquerdo</strong> para mover livremente.<br>
-        Ative <strong>Malha de Colisão (Overlay Vermelho)</strong> para ver todos os obstáculos bloqueados!
+        Ative <strong>Malha de Colisão</strong> para inspecionar os obstáculos!
       </div>
     </div>
   </aside>
+
+  <!-- Modal / Dialog de Interação com NPC Mobile -->
+  <div id="npc-dialog" class="npc-dialog hidden">
+    <div class="npc-dialog-card">
+      <div class="npc-dialog-header">
+        <span class="npc-dialog-badge">NPC</span>
+        <h3 id="npc-dialog-name" class="npc-dialog-name">Nome do NPC</h3>
+        <button id="btn-close-npc-dialog" class="npc-dialog-close">✕</button>
+      </div>
+      <p id="npc-dialog-text" class="npc-dialog-text">Diálogo do NPC...</p>
+      <div class="npc-dialog-actions">
+        <button id="btn-ack-npc-dialog" class="npc-action-btn">Continuar</button>
+      </div>
+    </div>
+  </div>
 
   <script src="main.js"></script>
 </body>

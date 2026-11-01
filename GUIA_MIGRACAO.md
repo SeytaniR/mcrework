@@ -225,4 +225,11 @@ python tools/extract_character.py --swf "caminho/para/PC_MALE_000003.swf" --out 
 ```bash
 python tools/extract_map.py --map-id 2 --res-dir "caminho/para/frontend/s/res" --out "web/assets/map2"
 ```
-O script cuidará automaticamente da descompressão Zlib, extração de bitmaps, leitura de rótulos de timeline, cálculo do pivô e geração do `char_manifest.json`.
+
+### Extrair NPCs de um Mapa:
+```bash
+python tools/extract_npcs.py
+```
+O script lê as coordenadas, nomes e `res_code` de cada NPC em `data_tbl_npc.sql`, decodifica o hash MD5 da URL original no Flash (`UrlUtil.getUrl()`), extrai os bitmaps de respiração (Lossless2 / JPEG3), calcula o bounding box unificado para travar os pés na base `(0.5, 1.0)`, e gera `web/assets/map1/npcs.json` e todos os frames PNG prontos para o Pixi.js.
+
+O script cuidará automaticamente da descompressão Zlib, extração de bitmaps, leitura de rótulos de timeline, cálculo do pivô e geração do `char_manifest.json` ou `npcs.json`.

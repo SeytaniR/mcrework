@@ -6,8 +6,11 @@ Um projeto moderno de recriação e migração de engine para o clássico MMORPG
 
 ## 🌟 Funcionalidades Implementadas
 
-### 🗺️ Sistema de Mapas 2.5D
-* **Renderização em Camadas:** Terreno base (`2000x1500`), marcadores de NPCs, entidades dinâmicas e sobreposições de primeiro plano.
+### 🗺️ Sistema de Mapas 2.5D & NPCs Autênticos
+* **Renderização em Camadas:** Terreno base (`2000x1500`), entidades dinâmicas com Z-Ordering 2.5D e sobreposições de primeiro plano.
+* **NPCs Originais Animados:** Todos os 14 NPCs do Mapa 1 extraídos dos arquivos SWF originais (`creature/NPC_FUNC_*.swf`), com animações completas de respiração/idle em 4 frames em loop, proporção calibrada (`scale = 0.70`, redução de 30% combinando com o jogador), sombras suaves no chão e nomes dourados autênticos.
+* **Interatividade com NPCs:** Toque em qualquer NPC para o personagem correr até ele e abrir o cartão de diálogo mobile com as falas e saudações dos personagens.
+* **Ordenação de Profundidade (Z-Ordering 2.5D):** O jogador passa na frente ou atrás dos NPCs e árvores de forma natural e realista com base na coordenada Y dos pés.
 * **Malha de Colisão Binária (1-Bit Binary Mesh):** Extraída diretamente de `Hit.swf` para um arquivo bruto `collision.bin` (`2031x1531`). Checagem de colisão bitwise ultra-eficiente $O(1)$ sem lag de CPU.
 * **Deslize em Paredes (*Wall Sliding*):** O personagem contorna cantos e desliza pelas quinas suavemente sem travar.
 * **Transparência de Oclusão (*Foreground Occlusion Fading*):** Telhados de casas e copas de árvores ficam transparentes suavemente (`alpha = 0.35`) quando o jogador passa por trás deles.
@@ -38,6 +41,13 @@ Um projeto moderno de recriação e migração de engine para o clássico MMORPG
 * **Tap-to-Move:** Toque em qualquer ponto livre do mapa para o personagem correr até o local.
 * **Grade de Ações Compacta (2x4):** Ataque, Magia, Suprema, Defesa, Dano, Caído, Correr e Parar no alcance do polegar.
 * **Painel de Diagnóstico (Menu ⚙️):** Teleportes rápidos, seletor de classes em tempo real, controle de zoom, slider de velocidade e visualizador da malha de colisão vermelha para testes.
+
+---
+
+## 🌐 Jogar Online (GitHub Pages)
+
+A aplicação está configurada para deploy contínuo no GitHub Pages:
+👉 **[https://seytanir.github.io/mcrework/](https://seytanir.github.io/mcrework/)**
 
 ---
 
