@@ -82,45 +82,123 @@ async function initGame() {
   world.addChild(targetMarker);
   let targetPulseTimer = 0;
 
-  // Camada 4: NPCs do Mapa
-  const npcContainer = new PIXI.Container();
-  world.addChild(npcContainer);
+  // Função centralizada para mover o jogador até um ponto (Map Tap ou NPC Click)
+  function movePlayerTo(targetX, targetY) {
+    if (joystickActive) return;
+    const validTarget = findClosestWalkable(targetX, targetY, 60);
 
+    if (validTarget) {
+      player.targetX = validTarget.x;
+      player.targetY = validTarget.y;
+
+      const dx = player.targetX - player.x;
+      const dy = player.targetY - player.y;
+      setDirection(calculateDirection(dx, dy));
+      setAction(2); // Correr Rápido (Ação 2)
+
+      // Mostrar Marcador de Destino
+      targetMarker.x = validTarget.x;
+      targetMarker.y = validTarget.y;
+      targetMarker.visible = true;
+      targetPulseTimer = 0;
+    }
+  }
+
+  // Função para abrir o diálogo do NPC
+  function showNPCDialog(npc) {
+    const dlg = document.getElementById("npc-dialog");
+    if (!dlg) return;
+    document.getElementById("npc-dialog-name").textContent = npc.name;
+    const greetings = {
+      "Tân Thủ Sứ": "Chào mừng bạn đến với Làng Tân Thủ! Hãy bắt đầu hành trình của mình.",
+      "Trưởng Thôn Stoff": "Ta là Trưởng thôn Stoff. Có việc gì cần ta giúp đỡ chăng?",
+      "Tiệm Vũ Khí A Nhị": "Vũ khí sắc bén nhất vùng, ngươi muốn xem thử chứ?",
+      "Tiệm Trang Bị Isla": "Trang bị phòng thủ kiên cố cho mọi chiến binh!",
+      "Tiệm Pet Mỡ Mỡ": "Những bé Pet dễ thương và trung thành nhất đang chờ ngươi!",
+      "Cây Thông Giáng Sinh": "Chúc mừng Giáng Sinh an lành và may mắn!",
+      "Y Tá Loli": "Để ta hồi phục sinh lực và tinh thần cho bạn nhé!",
+      "Võ Sư Xuất Vận": "Đoàn vận tiêu sẵn sàng xuất phát bất cứ lúc nào!",
+      "Thủ Kho": "Kho đồ an toàn tuyệt đối, gửi gắm bảo vật tại đây.",
+      "Tiệm Tạp Hóa Ông Triệu": "Đầy đủ vật phẩm thiết yếu cho chuyến phiêu lưu.",
+      "Tiệm Thuốc Ông Vương": "Dược thảo và thần dược trị bách bệnh!",
+      "Thùng Thư Xuất Vân": "Bảng thông báo nhiệm vụ và thư từ chuyển phát.",
+      "Người Tiền Sử": "Ugg... đá cổ và bí mật từ ngàn xưa...",
+      "Vận Đội": "Đoàn xe vận tiêu đang kiểm tra hàng hóa trước giờ lên đường."
+    };
+    document.getElementById("npc-dialog-text").textContent = greetings[npc.name] || "Xin chào nhà thám hiểm dũng cảm!";
+    dlg.classList.remove("hidden");
+  }
+
+  // Camada 4 & 5: Entidades Dinâmicas (NPCs e Jogador) com Depth Sorting (Z-Order 2.5D)
+  const entitiesContainer = new PIXI.Container();
+  entitiesContainer.sortableChildren = true;
+  world.addChild(entitiesContainer);
+
+  const npcList = [];
+
+  // Instanciação dos Modelos Reais de NPCs
   npcsData.forEach(npc => {
-    const marker = new PIXI.Container();
-    marker.x = npc.x;
-    marker.y = npc.y;
+    const npcGroup = new PIXI.Container();
+    npcGroup.x = npc.x;
+    npcGroup.y = npc.y;
+    npcGroup.zIndex = Math.round(npc.y);
 
-    // Sombra/Base
-    const base = new PIXI.Graphics();
-    base.beginFill(0x88c0d0, 0.4);
-    base.lineStyle(2, 0x88c0d0, 0.8);
-    base.drawEllipse(0, 0, 16, 8);
-    base.endFill();
-    marker.addChild(base);
+    // Sombra suave calibrada nos pés
+    const sRadiusX = Math.round((npc.shadow_radius_x || 16) * 0.70);
+    const sRadiusY = Math.round((npc.shadow_radius_y || 8) * 0.70);
+    const shadow = new PIXI.Graphics();
+    shadow.beginFill(0x000000, 0.38);
+    shadow.drawEllipse(0, 0, sRadiusX, sRadiusY);
+    shadow.endFill();
+    npcGroup.addChild(shadow);
 
-    // Ícone Amarelo
-    const dot = new PIXI.Graphics();
-    dot.beginFill(0xebcb8b, 1);
-    dot.drawCircle(0, -12, 5);
-    dot.endFill();
-    marker.addChild(dot);
+    // Sprite animado ou estático
+    let sprite;
+    if (npc.is_animated && npc.frames && npc.frames.length > 1) {
+      const textures = npc.frames.map(f => PIXI.Texture.from(f));
+      sprite = new PIXI.AnimatedSprite(textures);
+      sprite.animationSpeed = 0.08;
+      sprite.play();
+    } else if (npc.frames && npc.frames.length > 0) {
+      sprite = new PIXI.Sprite(PIXI.Texture.from(npc.frames[0]));
+    } else {
+      sprite = new PIXI.Sprite();
+    }
 
-    // Nome do NPC
+    // Âncora nos pés (bottom center: 0.5, 1.0)
+    sprite.anchor.set(0.5, 1.0);
+
+    // Escala 0.70 (30% de redução, proporcional ao jogador)
+    // Direção 7 é invertida horizontalmente (scaleX = -0.70)
+    const dirScaleX = (npc.dir === 7) ? -0.70 : 0.70;
+    sprite.scale.set(dirScaleX, 0.70);
+    npcGroup.addChild(sprite);
+
+    // Nome do NPC em tom dourado com contorno escuro
     const text = new PIXI.Text(npc.name, {
-      fontFamily: "sans-serif",
+      fontFamily: "system-ui, -apple-system, sans-serif",
       fontSize: 11,
       fontWeight: "bold",
-      fill: 0xffffff,
+      fill: 0xfff070,
       stroke: 0x000000,
       strokeThickness: 3,
       align: "center"
     });
-    text.anchor.set(0.5, 1);
-    text.y = -18;
-    marker.addChild(text);
+    text.anchor.set(0.5, 1.0);
+    text.y = - Math.round(npc.height * 0.70) - 4;
+    npcGroup.addChild(text);
 
-    npcContainer.addChild(marker);
+    // Interação de Clique/Toque no NPC
+    npcGroup.eventMode = "static";
+    npcGroup.cursor = "pointer";
+    npcGroup.on("pointerdown", (e) => {
+      e.stopPropagation();
+      movePlayerTo(npc.x, npc.y + 16);
+      showNPCDialog(npc);
+    });
+
+    entitiesContainer.addChild(npcGroup);
+    npcList.push(npcGroup);
   });
 
   // Camada 5: Jogador (Entidade Dinâmica)
@@ -128,6 +206,7 @@ async function initGame() {
   const playerContainer = new PIXI.Container();
   playerContainer.x = 1000;
   playerContainer.y = 1000;
+  playerContainer.zIndex = 1000;
 
   // Sombra nos pés (0, 0) - proporção calibrada para escala 0.70 (-30%)
   const shadow = new PIXI.Graphics();
@@ -158,7 +237,7 @@ async function initGame() {
   playerName.y = -70;
   playerContainer.addChild(playerName);
 
-  world.addChild(playerContainer);
+  entitiesContainer.addChild(playerContainer);
 
   // Camada 6: Máscaras de Telhado / Árvores (Foreground / Sobreposição)
   const maskContainer = new PIXI.Container();
@@ -502,25 +581,8 @@ async function initGame() {
   // 12. Tap / Clique no Mapa para Andar
   mapSprite.on("pointerdown", (e) => {
     if (joystickActive) return;
-
     const worldPoint = e.getLocalPosition(mapSprite);
-    const validTarget = findClosestWalkable(worldPoint.x, worldPoint.y, 60);
-
-    if (validTarget) {
-      player.targetX = validTarget.x;
-      player.targetY = validTarget.y;
-
-      const dx = player.targetX - player.x;
-      const dy = player.targetY - player.y;
-      setDirection(calculateDirection(dx, dy));
-      setAction(2); // Correr Rápido (Ação 2)
-
-      // Mostrar Marcador de Destino
-      targetMarker.x = validTarget.x;
-      targetMarker.y = validTarget.y;
-      targetMarker.visible = true;
-      targetPulseTimer = 0;
-    }
+    movePlayerTo(worldPoint.x, worldPoint.y);
   });
 
   // 13. Câmera e Zoom
@@ -651,6 +713,10 @@ async function initGame() {
     }
     drawerOccluded.innerText = anyOccluded ? "SIM (Transparente 35%)" : "NÃO (Visível 100%)";
     drawerOccluded.style.color = anyOccluded ? "#ebcb8b" : "#88c0d0";
+
+    // Z-Ordering dinâmico de entidades no mundo 2.5D
+    playerContainer.zIndex = Math.round(player.y);
+    entitiesContainer.sortChildren();
 
     updatePlayerVisual(deltaSeconds);
     updateCamera();
@@ -821,8 +887,18 @@ async function initGame() {
   };
 
   document.getElementById("chk-npcs").onchange = (e) => {
-    npcContainer.visible = e.target.checked;
+    npcList.forEach(grp => grp.visible = e.target.checked);
   };
+
+  // Fechar diálogo de NPC
+  const closeNpcDlg = () => {
+    const dlg = document.getElementById("npc-dialog");
+    if (dlg) dlg.classList.add("hidden");
+  };
+  const btnCloseDlg = document.getElementById("btn-close-npc-dialog");
+  if (btnCloseDlg) btnCloseDlg.onclick = closeNpcDlg;
+  const btnAckDlg = document.getElementById("btn-ack-npc-dialog");
+  if (btnAckDlg) btnAckDlg.onclick = closeNpcDlg;
 
   document.getElementById("chk-collision").onchange = (e) => {
     colOverlaySprite.visible = e.target.checked;
@@ -848,7 +924,10 @@ async function initGame() {
     canStand,
     teleportTo,
     setCharacterModel,
-    maskSprites
+    maskSprites,
+    npcsData,
+    npcList,
+    showNPCDialog
   };
 
   console.log("Magic Campus Mobile Engine inicializado com sucesso!");

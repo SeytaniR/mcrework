@@ -642,3 +642,109 @@ body, html {
     height: 115px;
   }
 }
+
+
+/* Modal de Diálogo com NPC (Mobile & Desktop) */
+.npc-dialog {
+  position: fixed;
+  bottom: 110px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% - 32px);
+  max-width: 420px;
+  z-index: 80;
+  pointer-events: auto;
+  animation: slideUp 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.npc-dialog.hidden {
+  display: none !important;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translate(-50%, 20px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, 0);
+  }
+}
+
+.npc-dialog-card {
+  background: rgba(30, 36, 48, 0.94);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(235, 203, 139, 0.35);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.65), 0 0 15px rgba(235, 203, 139, 0.15);
+  border-radius: 14px;
+  padding: 14px 16px;
+}
+
+.npc-dialog-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.npc-dialog-badge {
+  background: rgba(235, 203, 139, 0.25);
+  color: #ebcb8b;
+  font-size: 10px;
+  font-weight: 800;
+  padding: 2px 6px;
+  border-radius: 4px;
+  letter-spacing: 0.5px;
+  border: 1px solid rgba(235, 203, 139, 0.5);
+}
+
+.npc-dialog-name {
+  flex: 1;
+  font-size: 14px;
+  font-weight: 700;
+  color: #ebcb8b;
+  margin: 0;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+.npc-dialog-close {
+  background: none;
+  border: none;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  cursor: pointer;
+  padding: 2px 6px;
+  border-radius: 6px;
+}
+.npc-dialog-close:active {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.npc-dialog-text {
+  font-size: 13px;
+  line-height: 1.5;
+  color: #e5e9f0;
+  margin: 0 0 12px 0;
+}
+
+.npc-dialog-actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.npc-action-btn {
+  background: linear-gradient(135deg, #ebcb8b 0%, #d08770 100%);
+  color: #1a1e29;
+  font-weight: 700;
+  font-size: 12px;
+  border: none;
+  border-radius: 8px;
+  padding: 6px 14px;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+.npc-action-btn:active {
+  transform: scale(0.96);
+}
