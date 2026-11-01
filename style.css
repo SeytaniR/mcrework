@@ -37,6 +37,10 @@ body, html {
   color: var(--text-main);
 }
 
+.hidden {
+  display: none !important;
+}
+
 /* Canvas do Jogo */
 #game-container {
   width: 100vw;
@@ -998,6 +1002,10 @@ body, html {
   border-color: #ebcb8b;
   background: rgba(235, 203, 139, 0.35);
   box-shadow: 0 0 10px rgba(235, 203, 139, 0.4);
+}
+
+.battle-result-modal.hidden {
+  display: none !important;
 }
 
 /* Modal de Resultado */

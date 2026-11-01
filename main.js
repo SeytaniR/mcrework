@@ -239,14 +239,18 @@ async function initGame() {
   mapMonsterGroup.addChild(mapMonsterName);
 
   // Interação de Clique/Toque no Monstro para Iniciar Batalha
+  let pendingBattleMonster = null;
   mapMonsterGroup.eventMode = "static";
   mapMonsterGroup.cursor = "pointer";
   mapMonsterGroup.on("pointerdown", (e) => {
     e.stopPropagation();
-    movePlayerTo(1040, 950);
-    setTimeout(() => {
+    const dist = Math.hypot(player.x - 1080, player.y - 950);
+    if (dist <= 110) {
       startBattle("mushroom");
-    }, 450);
+    } else {
+      pendingBattleMonster = "mushroom";
+      movePlayerTo(1040, 950);
+    }
   });
 
   entitiesContainer.addChild(mapMonsterGroup);
@@ -579,6 +583,7 @@ async function initGame() {
 
   function onJoyStart(clientX, clientY) {
     joystickActive = true;
+    pendingBattleMonster = null;
     player.targetX = null;
     player.targetY = null;
     targetMarker.visible = false;
@@ -631,6 +636,7 @@ async function initGame() {
   // 12. Tap / Clique no Mapa para Andar
   mapSprite.on("pointerdown", (e) => {
     if (joystickActive) return;
+    pendingBattleMonster = null;
     const worldPoint = e.getLocalPosition(mapSprite);
     movePlayerTo(worldPoint.x, worldPoint.y);
   });
@@ -1265,6 +1271,7 @@ async function initGame() {
       battleResultTitle.textContent = "🏆 VITÓRIA!";
       battleResultTitle.style.color = "#a3be8c";
       battleResultDesc.innerHTML = `Você derrotou o <strong>Cogumelo Selvagem</strong>!<br><span style="color: #ebcb8b;">+180 EXP obtidos</span> | <span style="color: #88c0d0;">+75 Moedas de Ouro</span>`;
+      battleResultModal.style.display = "flex";
       battleResultModal.classList.remove("hidden");
     }, 700);
   }
@@ -1280,6 +1287,7 @@ async function initGame() {
       battleResultTitle.textContent = "💀 DERROTA...";
       battleResultTitle.style.color = "#bf616a";
       battleResultDesc.innerHTML = `O <strong>Cogumelo Selvagem</strong> derrotou você em combate.<br>Descanse e recupere suas forças para tentar novamente!`;
+      battleResultModal.style.display = "flex";
       battleResultModal.classList.remove("hidden");
     }, 700);
   }
@@ -1315,7 +1323,9 @@ async function initGame() {
     btnBtlAuto.classList.remove("active");
 
     battleOverlay.classList.remove("hidden");
+    battleOverlay.style.display = "flex";
     battleResultModal.classList.add("hidden");
+    battleResultModal.style.display = "none";
     battleContainer.visible = true;
 
     setBattleBanner("⚔️ A batalha começou! Selecione uma ação para atacar.");
@@ -1325,9 +1335,12 @@ async function initGame() {
   function endBattle() {
     isBattleActive = false;
     isAutoBattle = false;
+    pendingBattleMonster = null;
     btnBtlAuto.classList.remove("active");
     battleOverlay.classList.add("hidden");
+    battleOverlay.style.display = "none";
     battleResultModal.classList.add("hidden");
+    battleResultModal.style.display = "none";
     battleContainer.visible = false;
 
     setAction(0);
@@ -1369,6 +1382,15 @@ async function initGame() {
     }
     // 2. Movimento pelo Clique no Mapa (Target Point)
     else if (player.targetX !== null && player.targetY !== null) {
+      if (pendingBattleMonster && Math.hypot(player.x - 1080, player.y - 950) <= 90) {
+        const mon = pendingBattleMonster;
+        pendingBattleMonster = null;
+        player.targetX = null;
+        player.targetY = null;
+        targetMarker.visible = false;
+        startBattle(mon);
+        return;
+      }
       const dx = player.targetX - player.x;
       const dy = player.targetY - player.y;
       const dist = Math.hypot(dx, dy);
