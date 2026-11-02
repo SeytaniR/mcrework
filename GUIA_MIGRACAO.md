@@ -196,7 +196,7 @@ No Flash original, o ponto de registro ficava entre os pés. Ao extrair os bitma
 ## 7. Ferramentas de Extração & Conversão em Lote
 
 ### 7.1. Extrator em Lote com Empacotamento de Atlas (`batch_extract_assets.py`)
-Para converter todos os 351 monstros e 46 classes para Texture Atlases WebP:
+Para converter todos os 543 monstros e 46 classes para Texture Atlases WebP:
 ```bash
 python tools/batch_extract_assets.py --mode all
 ```
@@ -210,6 +210,15 @@ python tools/batch_extract_assets.py --mode all
   7. Cria os catálogos mestres:
      * `web/assets/monsters/catalog.json`
      * `web/assets/characters/catalog.json`
+
+### 7.2. Extração de NPCs, Montarias e Identificação de Pets
+* **NPCs do Mundo Original (`tools/batch_extract_npcs.py`):**
+  * Extrai 365 modelos funcionais de NPCs (`NPC_FUNC_*.swf`) para `web/assets/npcs/{id}/`.
+  * Cruza com `data_tbl_npc.sql` para extrair nomes autênticos, locais de mapa e gerar `web/assets/npcs/catalog.json`.
+* **Estábulo de Montarias (`tools/extract_mounts.py`):**
+  * Extrai as 20 montarias clássicas e divinas (Graus 1 a 10) de `data_tbl_mount_dress.sql` e as skins de cavalgar (`PC_MALE_100000..100006`, `PC_FEMALE_100001..100006`, `PC_FEMALE_010005..010020`) para `web/assets/mounts/{id}/` e gera `web/assets/mounts/catalog.json`.
+* **Identificação de Pets (`tools/tag_pets_in_catalog.py`):**
+  * Cruza o catálogo de monstros com `data_tbl_creature.sql` (`catchable = 1`) e `data_tbl_creature_handbook.sql` (`relate_id`), marcando com exatidão todos os 106 pets e companheiros com insígnias e textos de lore.
 
 ---
 

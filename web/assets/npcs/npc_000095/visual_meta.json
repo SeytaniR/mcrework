@@ -1,0 +1,46 @@
+{
+  "name": "NPC 95",
+  "anchor": [
+    0.5,
+    1.0
+  ],
+  "width": 300,
+  "height": 268,
+  "bbox": [
+    76,
+    95,
+    376,
+    363
+  ],
+  "total_unique_bitmaps": 4,
+  "animations_count": 64,
+  "total_animation_frames": 704,
+  "actions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "directions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "atlas_size_kb": 75.3,
+  "atlas_dimensions": [
+    1024,
+    1024
+  ],
+  "res_path": "creature/NPC_FUNC_000095.swf",
+  "res_code_num": 95,
+  "type": "npc"
+}

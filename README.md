@@ -91,7 +91,11 @@ flowchart TD
 * **Acervo Completo de Classes & Skins:** 46 modelos originais decodificados (19 masculinos e 27 femininos), permitindo criar livremente dezenas de novas classes no Studio.
 
 ### 👾 Monstros, Pets & Sandbox de Teste de Animações
-* **Preservação de Todas as Criaturas:** Extração de todos os 351 monstros e pets para o formato de Spritesheet WebP de alta compressão.
+* **Preservação de Todas as Criaturas:** Extração de todos os 543 monstros e pets para o formato de Spritesheet WebP de alta compressão.
+* **🐾 106 Pets Identificados & Catalogados:** Cruzamento com as tabelas de contratos e handbook do jogo original (`data_tbl_creature.sql` e `data_tbl_creature_handbook.sql`), permitindo filtrar diretamente todos os companheiros capturáveis (ex: *Gấu Trúc Kungfu*, *Rùa Nika*, *Nấm Đông Cô*, *Cát Hải Tinh*, *Linh Long*, *Ác Long*, *Cô Gái Si Tình*, etc.) com lore e insígnias dedicadas.
+* **🐎 20 Montarias Clássicas e Celestiais:** Estábulo dedicado com montarias terrestres e aladas (Graus 1 a 10: *Bạch Mã*, *Hắc Báo*, *Huyết Dực Điểu*, *Bôn Lôi Thú*, *Thanh Long Sư*, *Cửu Vĩ Linh Hồ*, *Hồng Liên Bôn Lôi*, *Hàn Sương Thiểm Điện*, *Viễn Cổ Chiến Hùng*, etc.), equipáveis com animações completas de galope e postura montada!
+* **👥 365 NPCs Funcionais com Spawner no Mapa:** Enciclopédia de todos os NPCs originais (mercadores, ferreiros, mestres de guilda, guardas e emissários) com botão para spawnar instantaneamente qualquer NPC no mundo aberto para teste de diálogos.
+* **🖼️ Miniaturas em Todos os Catálogos:** Todas as 46 classes, 543 monstros/pets, 20 montarias e 365 NPCs possuem thumbnails WebP otimizadas para navegação visual ágil.
 * **Monstro Interativo no Mapa 1:** `Cogumelo Selvagem [Nv. 5]` (*Nấm Đồng Cỏ* / `NPC_CRE_000015.swf`), renderizado no mapa com sombra suave e animação de respiração contínua em escala proporcional (`scale = 0.70`).
 * **Sandbox de Animações de Combate (In-Map):**
   * Permite testar golpes físicos, magias arcanas, defesas, reações de impacto e animações de queda tanto do jogador quanto do monstro.

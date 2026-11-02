@@ -1,0 +1,46 @@
+{
+  "name": "Cổng Dịch Chuyển Trấn Ma Tháp",
+  "anchor": [
+    0.5,
+    1.0
+  ],
+  "width": 121,
+  "height": 161,
+  "bbox": [
+    15,
+    17,
+    136,
+    178
+  ],
+  "total_unique_bitmaps": 1,
+  "animations_count": 64,
+  "total_animation_frames": 704,
+  "actions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "directions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "atlas_size_kb": 10.9,
+  "atlas_dimensions": [
+    256,
+    256
+  ],
+  "res_path": "creature/NPC_FUNC_000077.swf",
+  "res_code_num": 77,
+  "type": "npc"
+}

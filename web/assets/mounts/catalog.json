@@ -1,0 +1,226 @@
+{
+  "total_mounts": 20,
+  "generated_at": "2026-11-02",
+  "mounts": [
+    {
+      "id": "mount_000001",
+      "name": "Bạch Mã (Cavalo Branco)",
+      "rel_path": "creature/PC_MALE_100001.swf",
+      "type": "male_mount",
+      "tier": 1,
+      "atlas": "assets/mounts/mount_000001/atlas.webp",
+      "json": "assets/mounts/mount_000001/atlas.json",
+      "meta": "assets/mounts/mount_000001/visual_meta.json",
+      "thumb": "assets/mounts/mount_000001/thumb.webp"
+    },
+    {
+      "id": "mount_000002",
+      "name": "Hắc Báo (Pantera Negra)",
+      "rel_path": "creature/PC_MALE_100002.swf",
+      "type": "male_mount",
+      "tier": 2,
+      "atlas": "assets/mounts/mount_000002/atlas.webp",
+      "json": "assets/mounts/mount_000002/atlas.json",
+      "meta": "assets/mounts/mount_000002/visual_meta.json",
+      "thumb": "assets/mounts/mount_000002/thumb.webp"
+    },
+    {
+      "id": "mount_000003",
+      "name": "Huyết Dực Điểu (Pássaro de Sangue)",
+      "rel_path": "creature/PC_MALE_100003.swf",
+      "type": "male_mount",
+      "tier": 3,
+      "atlas": "assets/mounts/mount_000003/atlas.webp",
+      "json": "assets/mounts/mount_000003/atlas.json",
+      "meta": "assets/mounts/mount_000003/visual_meta.json",
+      "thumb": "assets/mounts/mount_000003/thumb.webp"
+    },
+    {
+      "id": "mount_000004",
+      "name": "Bôn Lôi Thú (Fera do Trovão)",
+      "rel_path": "creature/PC_MALE_100004.swf",
+      "type": "male_mount",
+      "tier": 4,
+      "atlas": "assets/mounts/mount_000004/atlas.webp",
+      "json": "assets/mounts/mount_000004/atlas.json",
+      "meta": "assets/mounts/mount_000004/visual_meta.json",
+      "thumb": "assets/mounts/mount_000004/thumb.webp"
+    },
+    {
+      "id": "mount_000005",
+      "name": "Thanh Long Sư (Leão Dragão Celeste)",
+      "rel_path": "creature/PC_MALE_100005.swf",
+      "type": "male_mount",
+      "tier": 5,
+      "atlas": "assets/mounts/mount_000005/atlas.webp",
+      "json": "assets/mounts/mount_000005/atlas.json",
+      "meta": "assets/mounts/mount_000005/visual_meta.json",
+      "thumb": "assets/mounts/mount_000005/thumb.webp"
+    },
+    {
+      "id": "mount_000006",
+      "name": "Cực Quang Thần Lộc (Cervo da Aurora)",
+      "rel_path": "creature/PC_MALE_100006.swf",
+      "type": "male_mount",
+      "tier": 6,
+      "atlas": "assets/mounts/mount_000006/atlas.webp",
+      "json": "assets/mounts/mount_000006/atlas.json",
+      "meta": "assets/mounts/mount_000006/visual_meta.json",
+      "thumb": "assets/mounts/mount_000006/thumb.webp"
+    },
+    {
+      "id": "mount_f_000001",
+      "name": "Bạch Tuyết Mã (Égua Branca Polar)",
+      "rel_path": "creature/PC_FEMALE_100001.swf",
+      "type": "female_mount",
+      "tier": 1,
+      "atlas": "assets/mounts/mount_f_000001/atlas.webp",
+      "json": "assets/mounts/mount_f_000001/atlas.json",
+      "meta": "assets/mounts/mount_f_000001/visual_meta.json",
+      "thumb": "assets/mounts/mount_f_000001/thumb.webp"
+    },
+    {
+      "id": "mount_f_000002",
+      "name": "Nguyệt Dạ Hổ (Tigre da Noite Lunar)",
+      "rel_path": "creature/PC_FEMALE_100002.swf",
+      "type": "female_mount",
+      "tier": 2,
+      "atlas": "assets/mounts/mount_f_000002/atlas.webp",
+      "json": "assets/mounts/mount_f_000002/atlas.json",
+      "meta": "assets/mounts/mount_f_000002/visual_meta.json",
+      "thumb": "assets/mounts/mount_f_000002/thumb.webp"
+    },
+    {
+      "id": "mount_f_000003",
+      "name": "Linh Điểu (Pássaro Espiritual)",
+      "rel_path": "creature/PC_FEMALE_100003.swf",
+      "type": "female_mount",
+      "tier": 3,
+      "atlas": "assets/mounts/mount_f_000003/atlas.webp",
+      "json": "assets/mounts/mount_f_000003/atlas.json",
+      "meta": "assets/mounts/mount_f_000003/visual_meta.json",
+      "thumb": "assets/mounts/mount_f_000003/thumb.webp"
+    },
+    {
+      "id": "mount_f_000004",
+      "name": "Thần Thú Viêm Báo (Pantera de Chamas)",
+      "rel_path": "creature/PC_FEMALE_100004.swf",
+      "type": "female_mount",
+      "tier": 4,
+      "atlas": "assets/mounts/mount_f_000004/atlas.webp",
+      "json": "assets/mounts/mount_f_000004/atlas.json",
+      "meta": "assets/mounts/mount_f_000004/visual_meta.json",
+      "thumb": "assets/mounts/mount_f_000004/thumb.webp"
+    },
+    {
+      "id": "mount_f_000005",
+      "name": "Cửu Vĩ Linh Hồ (Raposa Espiritual de 9 Caudas)",
+      "rel_path": "creature/PC_FEMALE_010005.swf",
+      "type": "legendary_mount",
+      "tier": 5,
+      "atlas": "assets/mounts/mount_f_000005/atlas.webp",
+      "json": "assets/mounts/mount_f_000005/atlas.json",
+      "meta": "assets/mounts/mount_f_000005/visual_meta.json",
+      "thumb": "assets/mounts/mount_f_000005/thumb.webp"
+    },
+    {
+      "id": "mount_f_000006",
+      "name": "Kỳ Lân Hoàng Gia (Qilin Real)",
+      "rel_path": "creature/PC_FEMALE_100006.swf",
+      "type": "female_mount",
+      "tier": 6,
+      "atlas": "assets/mounts/mount_f_000006/atlas.webp",
+      "json": "assets/mounts/mount_f_000006/atlas.json",
+      "meta": "assets/mounts/mount_f_000006/visual_meta.json",
+      "thumb": "assets/mounts/mount_f_000006/thumb.webp"
+    },
+    {
+      "id": "mount_dress_010010",
+      "name": "Hồng Liên Bôn Lôi (Lótus Carmesim do Trovão)",
+      "rel_path": "creature/PC_FEMALE_010010.swf",
+      "type": "divine_mount",
+      "tier": 7,
+      "atlas": "assets/mounts/mount_dress_010010/atlas.webp",
+      "json": "assets/mounts/mount_dress_010010/atlas.json",
+      "meta": "assets/mounts/mount_dress_010010/visual_meta.json",
+      "thumb": "assets/mounts/mount_dress_010010/thumb.webp"
+    },
+    {
+      "id": "mount_dress_010011",
+      "name": "Hàn Sương Thiểm Điện (Relâmpago Congelante)",
+      "rel_path": "creature/PC_FEMALE_010011.swf",
+      "type": "divine_mount",
+      "tier": 7,
+      "atlas": "assets/mounts/mount_dress_010011/atlas.webp",
+      "json": "assets/mounts/mount_dress_010011/atlas.json",
+      "meta": "assets/mounts/mount_dress_010011/visual_meta.json",
+      "thumb": "assets/mounts/mount_dress_010011/thumb.webp"
+    },
+    {
+      "id": "mount_dress_010012",
+      "name": "Viễn Cổ Chiến Hùng (Urso de Batalha Ancestral)",
+      "rel_path": "creature/PC_FEMALE_010012.swf",
+      "type": "divine_mount",
+      "tier": 8,
+      "atlas": "assets/mounts/mount_dress_010012/atlas.webp",
+      "json": "assets/mounts/mount_dress_010012/atlas.json",
+      "meta": "assets/mounts/mount_dress_010012/visual_meta.json",
+      "thumb": "assets/mounts/mount_dress_010012/thumb.webp"
+    },
+    {
+      "id": "mount_dress_010016",
+      "name": "Huyễn Ảnh Linh Hồ (Raposa Espectral Fantasma)",
+      "rel_path": "creature/PC_FEMALE_010016.swf",
+      "type": "divine_mount",
+      "tier": 8,
+      "atlas": "assets/mounts/mount_dress_010016/atlas.webp",
+      "json": "assets/mounts/mount_dress_010016/atlas.json",
+      "meta": "assets/mounts/mount_dress_010016/visual_meta.json",
+      "thumb": "assets/mounts/mount_dress_010016/thumb.webp"
+    },
+    {
+      "id": "mount_dress_010017",
+      "name": "Kim Quang Thần Thú (Fera Dourada Celestial)",
+      "rel_path": "creature/PC_FEMALE_010017.swf",
+      "type": "divine_mount",
+      "tier": 9,
+      "atlas": "assets/mounts/mount_dress_010017/atlas.webp",
+      "json": "assets/mounts/mount_dress_010017/atlas.json",
+      "meta": "assets/mounts/mount_dress_010017/visual_meta.json",
+      "thumb": "assets/mounts/mount_dress_010017/thumb.webp"
+    },
+    {
+      "id": "mount_dress_010018",
+      "name": "Tử Lôi Ma Thú (Besta Demoníaca do Trovão Roxo)",
+      "rel_path": "creature/PC_FEMALE_010018.swf",
+      "type": "divine_mount",
+      "tier": 9,
+      "atlas": "assets/mounts/mount_dress_010018/atlas.webp",
+      "json": "assets/mounts/mount_dress_010018/atlas.json",
+      "meta": "assets/mounts/mount_dress_010018/visual_meta.json",
+      "thumb": "assets/mounts/mount_dress_010018/thumb.webp"
+    },
+    {
+      "id": "mount_dress_010019",
+      "name": "Bá Vương Thánh Long (Dragão Sagrado Soberano)",
+      "rel_path": "creature/PC_FEMALE_010019.swf",
+      "type": "mythic_mount",
+      "tier": 10,
+      "atlas": "assets/mounts/mount_dress_010019/atlas.webp",
+      "json": "assets/mounts/mount_dress_010019/atlas.json",
+      "meta": "assets/mounts/mount_dress_010019/visual_meta.json",
+      "thumb": "assets/mounts/mount_dress_010019/thumb.webp"
+    },
+    {
+      "id": "mount_dress_010020",
+      "name": "Vĩnh Hằng Chí Tôn (Montaria Suprema da Eternidade)",
+      "rel_path": "creature/PC_FEMALE_010020.swf",
+      "type": "mythic_mount",
+      "tier": 10,
+      "atlas": "assets/mounts/mount_dress_010020/atlas.webp",
+      "json": "assets/mounts/mount_dress_010020/atlas.json",
+      "meta": "assets/mounts/mount_dress_010020/visual_meta.json",
+      "thumb": "assets/mounts/mount_dress_010020/thumb.webp"
+    }
+  ]
+}

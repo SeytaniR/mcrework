@@ -1,0 +1,42 @@
+{
+  "name": "A Vũ",
+  "anchor": [
+    0.5,
+    1.0
+  ],
+  "width": 44,
+  "height": 91,
+  "bbox": [
+    53,
+    20,
+    97,
+    111
+  ],
+  "total_unique_bitmaps": 3,
+  "animations_count": 32,
+  "total_animation_frames": 352,
+  "actions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "directions": [
+    0,
+    1,
+    4,
+    5
+  ],
+  "atlas_size_kb": 7.9,
+  "atlas_dimensions": [
+    256,
+    256
+  ],
+  "res_path": "creature/NPC_FUNC_000026.swf",
+  "res_code_num": 26,
+  "type": "npc"
+}

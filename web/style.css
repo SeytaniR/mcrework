@@ -1353,6 +1353,9 @@ body, html {
 .badge-tier2 { background: rgba(235, 203, 139, 0.3); color: #ebcb8b; border: 1px solid #ebcb8b; }
 .badge-costume { background: rgba(180, 142, 173, 0.35); color: #b48ead; border: 1px solid #b48ead; }
 .badge-mount { background: rgba(136, 192, 208, 0.3); color: #88c0d0; }
+.badge-pet { background: rgba(163, 190, 140, 0.35); color: #a3be8c; border: 1px solid rgba(163, 190, 140, 0.6); }
+.badge-npc { background: rgba(235, 203, 139, 0.32); color: #ebcb8b; border: 1px solid rgba(235, 203, 139, 0.5); }
+.badge-divine { background: linear-gradient(135deg, rgba(235, 203, 139, 0.35), rgba(191, 97, 106, 0.35)); color: #ffd700; border: 1px solid #ebcb8b; }
 
 .card-meta-text {
   font-size: 10.5px;
@@ -1452,6 +1455,42 @@ body, html {
   border-radius: 10px;
   font-size: 10px;
   font-weight: 800;
+}
+
+.nav-classes {
+  background: rgba(94, 129, 172, 0.22);
+  border-color: rgba(94, 129, 172, 0.45);
+  color: #88c0d0;
+}
+.nav-monsters {
+  background: rgba(191, 97, 106, 0.22);
+  border-color: rgba(191, 97, 106, 0.45);
+  color: #ebcb8b;
+}
+.nav-mounts {
+  background: rgba(136, 192, 208, 0.22);
+  border-color: rgba(136, 192, 208, 0.45);
+  color: #88c0d0;
+}
+.nav-npcs {
+  background: rgba(235, 203, 139, 0.22);
+  border-color: rgba(235, 203, 139, 0.45);
+  color: #ebcb8b;
+}
+
+.card-btn-action.btn-mount {
+  background: #88c0d0;
+  color: #1e222b;
+}
+.card-btn-action.btn-mount:hover {
+  background: #9bd6e6;
+}
+.card-btn-action.btn-npc {
+  background: #ebcb8b;
+  color: #1e222b;
+}
+.card-btn-action.btn-npc:hover {
+  background: #f5dca3;
 }
 
 .top-right-group {

@@ -1,0 +1,46 @@
+{
+  "name": "Trưởng Cận Vệ Mật Đạo",
+  "anchor": [
+    0.5,
+    1.0
+  ],
+  "width": 117,
+  "height": 102,
+  "bbox": [
+    14,
+    13,
+    131,
+    115
+  ],
+  "total_unique_bitmaps": 3,
+  "animations_count": 64,
+  "total_animation_frames": 704,
+  "actions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "directions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "atlas_size_kb": 14.3,
+  "atlas_dimensions": [
+    256,
+    256
+  ],
+  "res_path": "creature/NPC_FUNC_000010.swf",
+  "res_code_num": 10,
+  "type": "npc"
+}

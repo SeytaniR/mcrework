@@ -1,0 +1,46 @@
+{
+  "name": "NPC 100103",
+  "anchor": [
+    0.5,
+    1.0
+  ],
+  "width": 74,
+  "height": 90,
+  "bbox": [
+    30,
+    32,
+    104,
+    122
+  ],
+  "total_unique_bitmaps": 3,
+  "animations_count": 64,
+  "total_animation_frames": 704,
+  "actions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "directions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "atlas_size_kb": 10.0,
+  "atlas_dimensions": [
+    256,
+    256
+  ],
+  "res_path": "creature/NPC_FUNC_100103.swf",
+  "res_code_num": 100103,
+  "type": "npc"
+}
