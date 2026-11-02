@@ -1,0 +1,47 @@
+{
+  "name": "Xà Yêu",
+  "anchor": [
+    0.5,
+    1.0
+  ],
+  "width": 119,
+  "height": 131,
+  "bbox": [
+    25,
+    3,
+    144,
+    134
+  ],
+  "total_unique_bitmaps": 20,
+  "animations_count": 64,
+  "total_animation_frames": 689,
+  "actions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "directions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "atlas_size_kb": 74.6,
+  "atlas_dimensions": [
+    1024,
+    512
+  ],
+  "id": "creature_001067",
+  "db_id": "269",
+  "res_code_num": 1067,
+  "swf_hash": "ef038372f98abda1ea4dd10687d45ef1"
+}

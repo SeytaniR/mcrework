@@ -1,0 +1,46 @@
+{
+  "name": "Khảo Quan Đấu Trường Bàn Địa",
+  "anchor": [
+    0.5,
+    1.0
+  ],
+  "width": 143,
+  "height": 112,
+  "bbox": [
+    0,
+    5,
+    143,
+    117
+  ],
+  "total_unique_bitmaps": 32,
+  "animations_count": 56,
+  "total_animation_frames": 608,
+  "actions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "directions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "atlas_size_kb": 80.2,
+  "atlas_dimensions": [
+    1024,
+    1024
+  ],
+  "id": "creature_200029",
+  "db_id": "336",
+  "res_code_num": 200029,
+  "swf_hash": "8ad62bc6315dec48ce7f6b882a359af9"
+}

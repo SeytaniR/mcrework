@@ -1,0 +1,47 @@
+{
+  "name": "Phân Thân Hiền Triết",
+  "anchor": [
+    0.5,
+    1.0
+  ],
+  "width": 58,
+  "height": 113,
+  "bbox": [
+    24,
+    1,
+    82,
+    114
+  ],
+  "total_unique_bitmaps": 3,
+  "animations_count": 43,
+  "total_animation_frames": 467,
+  "actions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "directions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "atlas_size_kb": 11.0,
+  "atlas_dimensions": [
+    256,
+    256
+  ],
+  "id": "creature_000061",
+  "db_id": "100",
+  "res_code_num": 61,
+  "swf_hash": "0ec19a83552fad7c587677548726c3a2"
+}

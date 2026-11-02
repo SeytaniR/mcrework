@@ -1,0 +1,47 @@
+{
+  "name": "Sứ Giả Băng Tuyết",
+  "anchor": [
+    0.5,
+    1.0
+  ],
+  "width": 110,
+  "height": 107,
+  "bbox": [
+    8,
+    9,
+    118,
+    116
+  ],
+  "total_unique_bitmaps": 18,
+  "animations_count": 64,
+  "total_animation_frames": 704,
+  "actions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "directions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "atlas_size_kb": 62.6,
+  "atlas_dimensions": [
+    1024,
+    256
+  ],
+  "id": "creature_001120",
+  "db_id": "729",
+  "res_code_num": 1120,
+  "swf_hash": "a59a3a8f65cb35169e3ab751810c531a"
+}

@@ -1,122 +1,160 @@
-# Guia Completo de Extração e Modernização: Magic Campus -> Pixi.js (Stack Moderna)
+# Guia Completo de Arquitetura, Migração e Extração de Assets: Magic Campus -> Modern Engine
 
-Este documento descreve detalhadamente o processo de engenharia reversa, decodificação, extração e migração de assets do cliente original Flash (**ActionScript 3 / SWF**) do jogo **Magic Campus** para uma stack moderna baseada em **Web (HTML5, Pixi.js, Canvas 2D/WebGL e JavaScript ES6+)** com suporte a dispositivos móveis.
-
----
-
-## 1. Arquitetura Original do Flash vs. Stack Moderna
-
-| Aspecto | Cliente Original (Flash / AS3) | Stack Moderna (Pixi.js / HTML5) |
-| :--- | :--- | :--- |
-| **Execução** | Flash Player / Adobe AIR plugin | Navegador Web nativo (WebGL / WebGPU / Canvas) |
-| **Formato de Assets** | Arquivos SWF compactados com Zlib (CWS) | PNGs transparentes, JPGs e Manifestos JSON |
-| **Malha de Colisão** | Bytecode ABC + Bitmask RLE em `Hit.swf` | Binário bruto 1-bit (`collision.bin`) em `Uint8Array` |
-| **Camadas (Layers)** | DisplayList hierárquica do Flash | Containers de Camadas ordenadas no PixiJS (`PIXI.Container`) |
-| **Sobreposição / Oclusão** | `hitTestObject` e troca de `alpha` | Caixas Delimitadoras AABB 2.5D com interpolação suave |
-| **Controles** | Teclado e Mouse para Desktop | Joystick Analógico Virtual Mobile + Tap-to-move |
+Este documento documenta formalmente a engenharia reversa, decodificação binária, extração de assets e a nova arquitetura do projeto **Magic Campus Modern Engine**, migrando do antigo cliente monolítico Flash (**ActionScript 3 / SWF**) para uma stack moderna, desacoplada e multiplataforma: **Studio Low-Code (Admin) + Servidor Autoritário + Cliente WebGL/HTML5 (Pixi.js) / Android APK (Capacitor para Google Play)**.
 
 ---
 
-## 2. Sistema de Nomenclatura e Endereçamento de Arquivos (`UrlUtil`)
+## 1. Visão de Game Design: Action Auto-Battler em Arena
 
+### 1.1. Separação Estrita de Lógica e Assets
+* **Descarte de Fórmulas Originais:** O cliente e servidor originais do Magic Campus utilizavam um sistema de turnos lento e engessado baseado em fórmulas obsoletas de ActionScript 3 e tabelas estáticas.
+* **Nova Filosofia:** O projeto utiliza **única e exclusivamente os ativos audiovisuais originais** (spritesheets, direções, ícones, partículas de magia, efeitos sonoros).
+* **Novo Combate:** Um sistema dinâmico de **Action Auto-Battler em Arena em Tempo Real**:
+  * Ao colidir com um monstro no mapa ou aceitar um desafio, as entidades entram em uma arena de batalha.
+  * Jogadores, companheiros (pets) e monstros posicionam-se e combatem automaticamente em tempo real.
+  * O combate é regido por barras de energia/mana, tempos de recarga (*cooldowns*), alcances de ataque e conjuração de habilidades especiais e supremas conforme os personagens acumulam energia.
+  * Todo o sistema de atributos (HP, MP, Ataque Físico, Poder Mágico, Defesa, Velocidade de Ataque, Esquiva, Crítico) e a árvore de habilidades são desenvolvidos **100% do zero**, pensados para balanceamento competitivo moderno.
+
+---
+
+## 2. Arquitetura em 3 Camadas (Studio, Servidor, Cliente)
+
+```mermaid
+flowchart LR
+    subgraph Studio["1. Studio / Engine (Admin)"]
+        direction TB
+        S1["Interface Low-Code"]
+        S2["Editor de Mapas & Spawns"]
+        S3["Compositor de Classes & Skills"]
+        S4["Exportador JSON / Catalogs"]
+    end
+
+    subgraph Server["2. Servidor Autoritário"]
+        direction TB
+        A1["Serviço de Salas / Instâncias"]
+        A2["Simulação de Combate Auto-Battler"]
+        A3["Validação Física e Anti-Cheat"]
+        A4["Persistência de Dados (DB)"]
+    end
+
+    subgraph Client["3. Clientes Multiplataforma"]
+        direction TB
+        C1["Motor Pixi.js (WebGL 2.0)"]
+        C2["Atlases WebP Otimizados"]
+        C3["Web (HTML5 / Desktop & Mobile)"]
+        C4["Android APK (Google Play / Capacitor)"]
+    end
+
+    Studio -->|Configs e Balanço| Server
+    Server <==>|WebSockets / State Sync| Client
+```
+
+### 2.1. Camada 1: Studio Low-Code (Ambiente Administrativo)
+* Inspirado no fluxo de criação de engines visuais (como RPG Maker e Godot):
+  * Permite carregar os mapas 2.5D, posicionar NPCs, definir zonas seguras e áreas de monstros com interface visual interativa de arrastar e soltar.
+  * Catálogo de criação de classes: utiliza o acervo das 46 skins de personagens extraídas para compor novas classes personalizadas, atrelando animações de golpe, magia e supremo.
+  * Gerador de habilidades: associa ícones originais, animações de conjuração e efeitos visuais (VFX) com novos scripts de dano e status.
+  * Gera manifestos JSON unificados consumidos pelo servidor e pelo cliente.
+
+### 2.2. Camada 2: Servidor Autoritário (Authoritative Server)
+* Toda a lógica crítica de jogo reside no servidor:
+  * Posições de jogadores no mapa, validação de colisões com a malha binária (`collision.bin`), inventário e trocas.
+  * Em combate de arena, o servidor roda a simulação física dos auto-ataques e habilidades com *ticks* fixos (ex: 20 a 60 Hz).
+  * O cliente apenas recebe eventos de animação (`PLAY_ATTACK`, `APPLY_DAMAGE`, `CAST_SKILL`), garantindo imunidade total contra manipulação de vida, velocidade ou dano no cliente.
+
+### 2.3. Camada 3: Clientes Multiplataforma (Web & Mobile APK)
+* Desenvolvido em **Pixi.js (JavaScript ES6+ / WebGL 2.0)**:
+  * Um único código-fonte serve tanto para a versão web rodando em qualquer navegador moderno quanto para empacotamento nativo em **Android APK** utilizando **Capacitor**.
+  * Aceleração de hardware com zero dependência de plugins externos.
+  * Interface responsiva com Joystick Analógico Virtual, Tap-to-Move e botões ergonômicos para polegares.
+
+---
+
+## 3. Padrão de Assets: Texture Atlas WebP vs. Arquivos Soltos
+
+### 3.1. O Problema Crítico de Arquivos Soltos
+O acervo do Magic Campus contém mais de **350 criaturas/pets** e **46 modelos de classes/skins**. Cada criatura possui em média 8 direções e até 8 ações, totalizando cerca de **700 frames por criatura**:
+$$\text{Total de frames} \approx 350 \times 700 \approx 245.000 \text{ frames!}$$
+
+Se esses frames fossem extraídos como imagens PNG soltas:
+1. **Colapso de Sistema de Arquivos:** Criar 250.000 arquivos PNG em pastas individuais congela o Windows Explorer, inviabiliza commits no Git e causa erros de estouro de descritores de arquivo.
+2. **Impacto na Rede e Mobile:** Um navegador ou dispositivo móvel teria que abrir milhares de requisições HTTP, tornando o carregamento inicial proibitivamente lento.
+3. **Consumo de Memória de Vídeo (VRAM):** Cada PNG individual vira uma textura avulsa no WebGL, forçando centenas de trocas de textura (*texture binding*) por frame e derrubando o FPS no celular.
+
+### 3.2. A Solução: Spritesheets WebP + JSON Metadata
+Todas as animações de cada entidade são compactadas em **Texture Atlases WebP** (`atlas.webp`) acompanhados de seus metadados (`atlas.json` e `visual_meta.json`):
+* **Formato WebP de Alta Eficiência:** Oferece compressão com ou sem perdas superior ao PNG, reduzindo o tamanho total do acervo para **menos de 100 MB** (dentro do limite recomendado pela Google Play Store para download imediato).
+* **Renderização Otimizada no Pixi.js:** O Pixi.js carrega o atlas diretamente via `PIXI.Assets.load('atlas.json')` como um `PIXI.Spritesheet`. A GPU renderiza todas as animações com **1 único Draw Call**.
+* **Total de Arquivos:** Reduzido de 250.000 para ~700 arquivos no total.
+
+---
+
+## 4. Engenharia Reversa do Flash (AS3 / SWF)
+
+### 4.1. Sistema de Nomenclatura e Endereçamento (`UrlUtil`)
 No cliente original do Magic Campus, todos os arquivos de recursos dentro da pasta `frontend/s/res/` utilizam **MD5 Hashing** no nome para evitar duplicações e facilitar cache HTTP.
 
 A classe `com.qeedoo.game.utils.UrlUtil` e `GamePredef` geram o caminho canônico do arquivo antes de aplicar o hash MD5:
-
 * **Padrão de URL:** `resource/{pasta}/{PREFIXO}_{ID:06d}.swf` (ou `.jpg`, `.png`)
 * **Cálculo do Hash:** `md5("resource/" + caminho_do_recurso)`
 
-### Exemplos de Mapeamento Resolvido:
-* **Mapa 1 (Background):**  
-  `resource/scene/SCENE_000001.jpg`  
-  -> MD5: `36d51dd37392edf908666bced3544007`
-* **Guerreiro Base (Tier 1):**  
-  `resource/creature/PC_MALE_000001.swf`  
-  -> MD5: `b68e68f7e6ed33ca378b507e60664d2b`
-* **Guerreiro Avançado (Tier 2 / Evoluído):**  
-  `resource/creature/PC_MALE_000011.swf`  
-  -> MD5: `05a8cd74b99040be44e03b52f6ff1adb`
-* **Mago Base:**  
-  `resource/creature/PC_MALE_000002.swf`  
-  -> MD5: `a0008db4b557457d3063cafd295ac9df`
-* **Pose de Montaria:**  
-  `resource/creature/PC_MALE_100001.swf`  
-  -> MD5: `64a4277d38b4c4f762a45dfdec017e38`
-* **Máscaras de Sobreposição do Mapa 1:**  
-  `resource/scene/SCENE_000001_MASK.swf`  
-  -> MD5: `02fa35b54203588f7ee339dfd10cfab5`
+#### Exemplos de Mapeamento Resolvido:
+* **Mapa 1 (Background):** `resource/scene/SCENE_000001.jpg` -> MD5: `36d51dd37392edf908666bced3544007`
+* **Guerreiro Base (Tier 1):** `resource/creature/PC_MALE_000001.swf` -> MD5: `b68e68f7e6ed33ca378b507e60664d2b`
+* **Guerreiro Evoluído (Tier 2):** `resource/creature/PC_MALE_000011.swf` -> MD5: `05a8cd74b99040be44e03b52f6ff1adb`
+* **Mago Base:** `resource/creature/PC_MALE_000002.swf` -> MD5: `a0008db4b557457d3063cafd295ac9df`
+* **Pose de Montaria:** `resource/creature/PC_MALE_100001.swf` -> MD5: `64a4277d38b4c4f762a45dfdec017e38`
+* **Máscaras de Sobreposição do Mapa 1:** `resource/scene/SCENE_000001_MASK.swf` -> MD5: `02fa35b54203588f7ee339dfd10cfab5`
+* **Cogumelo Selvagem (Criatura 15):** `resource/creature/NPC_CRE_000015.swf` -> MD5: `28af28f7cb24a4660eccf8576a787c5d`
 
 ---
 
-## 3. Extração e Reconstrução de Mapas
+## 5. Extração e Decodificação de Elementos do Mundo
 
-Um mapa no Magic Campus é composto por 4 elementos fundamentais que precisam ser extraídos e alinhados:
+### 5.1. Imagem de Fundo (Background)
+* Extraída diretamente do hash correspondente a `SCENE_{ID}.jpg` (Mapa 1: `2000 x 1500` pixels).
 
-### 3.1. Imagem de Fundo (Background)
-* **Origem:** Extraída diretamente do hash correspondente a `SCENE_{ID}.jpg` (ex: Mapa 1 tem dimensões de `2000 x 1500` pixels).
-
-### 3.2. Máscaras de Primeiro Plano (Foreground Masks / Telhados e Árvores)
+### 5.2. Máscaras de Primeiro Plano (Foreground Masks / Telhados e Árvores)
 * **Arquivo:** `SCENE_{ID}_MASK.swf`.
-* **Estrutura Interna:** Contém tags SWF `DefineBitsJPEG3` (Tag 35), que armazenam uma imagem JPEG comprimida acompanhada de um canal de transparência Alpha comprimido via Zlib.
-* **Coordenadas de Posicionamento:**
-  * O Flash armazena o posicionamento no palco na tag `PlaceObject2` (Tag 26) ou nos limites da forma `DefineShape` (Tag 2).
-  * As unidades do Flash utilizam **Twips** (`1 pixel = 20 twips`). Para converter para pixels na web:
-    $$\text{pixel} = \frac{\text{twips}}{20}$$
-  * A coordenada superior esquerda $(X, Y)$ e largura/altura $(W, H)$ de cada máscara são exportadas para um arquivo `masks.json`.
+* Contém tags SWF `DefineBitsJPEG3` (Tag 35), que armazenam uma imagem JPEG comprimida acompanhada de um canal de transparência Alpha comprimido via Zlib.
+* Coordenadas convertidas de Twips para Pixels:
+  $$\text{pixel} = \frac{\text{twips}}{20}$$
+* As coordenadas $(X, Y)$ e dimensões $(W, H)$ de cada máscara são exportadas para `masks.json`.
 
-### 3.3. Malha de Colisão Binária (`Hit.swf` -> `collision.bin`)
-* **Problema no Flash:** A colisão original ficava em `Hit.swf` em forma de bytecode ActionScript compactado (RLE - Run-Length Encoding).
-* **Decodificação:**
-  * Descompactamos o array de bytes contido na classe de colisão do mapa.
-  * O algoritmo de descompressão RLE gera uma matriz de bits $(W \times H)$, onde:
-    * `1` = Chão livre para caminhar (*Walkable*).
-    * `0` = Parede, água, montanha ou obstáculo intransponível (*Blocked*).
-  * Para o Mapa 1, a malha tem dimensão de `2031 x 1531` bits = **388.683 bytes**.
-* **Modernização para Web:**
-  * Exportamos esse binário puro descompactado como `collision.bin`.
-  * No cliente web (PixiJS), carregamos via `fetch().arrayBuffer()` diretamente para um `Uint8Array`.
-  * A checagem de colisão em tempo real é feita por operações bitwise ultrarrápidas ($O(1)$ sem custo de CPU):
-    ```javascript
-    function isWalkable(x, y) {
-      const ix = Math.floor(x);
-      const iy = Math.floor(y);
-      if (ix < 0 || ix >= COL_WIDTH || iy < 0 || iy >= COL_HEIGHT) return false;
-      const idx = iy * COL_WIDTH + ix;
-      return (colBytes[idx >> 3] & (1 << (idx & 7))) !== 0;
-    }
-    ```
-
-### 3.4. NPCs e Portais
-* As posições e nomes dos NPCs são extraídos da tabela `data_tbl_npc` (disponível no banco de dados e seeds SQL):
-  * Exemplo: `map_id = 1`:
-    * NPC Chefe da Guarda: `(1050, 980)`
-    * NPC Mestre de Habilidades: `(920, 1150)`
-    * NPC Guia da Vila: `(1120, 1020)`
-* São exportados para `npcs.json` e renderizados como marcadores interativos no mundo.
+### 5.3. Malha de Colisão Binária (`Hit.swf` -> `collision.bin`)
+* **Decodificação:** Descompactamos o array de bytes contido no bytecode de `Hit.swf` com descompressão RLE.
+* A matriz de bits $(W \times H)$ resultante define:
+  * `1` = Chão livre (*Walkable*).
+  * `0` = Parede, obstáculo ou água (*Blocked*).
+  * Para o Mapa 1: `2031 x 1531` bits = **388.683 bytes**.
+* **Execução em Tempo Real na Web/Mobile:**
+  Carregamos via `fetch().arrayBuffer()` para um `Uint8Array`. A checagem de colisão é feita por operações bitwise ultrarrápidas ($O(1)$ sem custo de CPU):
+  ```javascript
+  function isWalkable(x, y) {
+    const ix = Math.floor(x);
+    const iy = Math.floor(y);
+    if (ix < 0 || ix >= COL_WIDTH || iy < 0 || iy >= COL_HEIGHT) return false;
+    const idx = iy * COL_WIDTH + ix;
+    return (colBytes[idx >> 3] & (1 << (idx & 7))) !== 0;
+  }
+  ```
 
 ---
 
-## 4. Extração do Sistema de Personagens e Animações
+## 6. Sistema de Animação e Ponto de Registro Fixo
 
-### 4.1. Estrutura do SWF de Personagens
-Cada personagem é um arquivo SWF autocontido contendo todas as suas direções e ações organizadas por **FrameLabels** (Tag 43):
-* O formato dos rótulos é `{direção}-{ação}`:
-  * Exemplo: `0-0` = Direção 0 (Sul), Ação 0 (Parado).
-  * Exemplo: `2-2` = Direção 2 (Leste), Ação 2 (Correndo).
-  * Exemplo: `6-10` = Direção 6 (Oeste), Ação 10 (Habilidade Suprema).
-
-### 4.2. Mapeamento das 8 Direções Isométricas (2.5D)
-O Magic Campus utiliza 8 direções numeradas de 0 a 7 no sentido anti-horário:
-* `0`: Sul (Frente / Olhando para baixo)
+### 6.1. Mapeamento das 8 Direções Isométricas (0 a 7)
+O Magic Campus utiliza 8 direções numeradas no sentido anti-horário:
+* `0`: Sul (Frente / Baixo)
 * `1`: Sudeste (Baixo-Direita)
 * `2`: Leste (Direita)
 * `3`: Nordeste (Cima-Direita)
-* `4`: Norte (Costas / Olhando para cima)
+* `4`: Norte (Costas / Cima)
 * `5`: Noroeste (Cima-Esquerda)
 * `6`: Oeste (Esquerda)
 * `7`: Sudoeste (Baixo-Esquerda)
 
-A fórmula de conversão matemática angular do analógico para o setor correto é:
+Conversão angular:
 ```javascript
 function calculateDirection(dx, dy) {
   const angle = Math.atan2(dy, dx) * (180 / Math.PI);
@@ -125,7 +163,7 @@ function calculateDirection(dx, dy) {
 }
 ```
 
-### 4.3. Catálogo das 11 Ações de Combate e Movimento
+### 6.2. Catálogo de Ações de Combate e Movimento
 | Ação ID | Constante AS3 Original | Nome / Visual | Qtd. Frames | Comportamento |
 | :---: | :--- | :--- | :---: | :--- |
 | **0** | `BH_BREATH_SLOW` | Parado / Respirando | 27 frames | Loop contínuo (*Idle*) |
@@ -133,123 +171,57 @@ function calculateDirection(dx, dy) {
 | **2** | `BH_RUN_FAST` / `BH_RUSH` | Corrida Rápida | 16 frames | Loop contínuo de movimento |
 | **3** | `BH_ATTACK` | Golpe Físico / Estocada | 10 frames | Toca 1 vez e retorna a 0 |
 | **4** | `BH_DEAD` | Caído / Derrotado | 1 frame | Trava no chão até levantar |
-| **5** | `BH_HURT` | Tomando Dano (Reação) | 7 frames | Toca com flash vermelho e volta a 0 |
-| **6** | `BH_DEFENCE` | Postura de Defesa / Bloqueio | 7 frames | Toca e retorna a 0 |
-| **7** | `BH_MAGIC` | Conjuração / Magia | 12 frames | Toca com pose mágica e volta a 0 |
-| **8** | `BH_PREPARE` | Buff / Postura de Combate | 27 frames | Toca animação tática e volta a 0 |
+| **5** | `BH_HURT` | Tomando Dano (Reação) | 7 frames | Flash vermelho e volta a 0 |
+| **6** | `BH_DEFENCE` | Postura de Defesa / Guarda | 7 frames | Toca e retorna a 0 |
+| **7** | `BH_MAGIC` | Conjuração / Magia | 12 frames | Pose de conjuração e volta a 0 |
+| **8** | `BH_PREPARE` | Buff / Postura Tática | 27 frames | Toca e retorna a 0 |
 | **9** | `BH_HEAVY_ATTACK` | Golpe Pesado / Corte | 16 frames | Golpe avançado e volta a 0 |
-| **10** | `BH_ULTIMATE` | Habilidade Suprema (*Special*) | 32 frames | Efeito supremo completo e volta a 0 |
+| **10** | `BH_ULTIMATE` | Habilidade Suprema (*Special*) | 32 frames | Sequência suprema completa |
 
-> **Nota sobre Classes:**  
-> Personagens Tier 1 (Base, ex: `PC_MALE_000001`) possuem as ações 0 a 7 (64 animações).  
-> Personagens Tier 2 (Evoluídos, ex: `PC_MALE_000011`) possuem as ações 0 a 10 (88 animações).
+### 6.3. Solução do Bounding Box Unificado & Ponto de Registro
+No Flash original, o ponto de registro ficava entre os pés. Ao extrair os bitmaps com cortes individuais, o personagem trepidaria e a sombra desalinharia.
 
----
-
-## 5. Alinhamento de Ponto de Registro e Âncora (Pivot Point)
-
-O maior desafio ao extrair animações de Flash para Canvas/PixiJS é que no Flash o ponto de registro $(0, 0)$ fica exatamente **entre os pés do personagem**, enquanto que imagens PNG são ancoradas pelo canto superior esquerdo $(0, 0)$.
-
-Se ancorar incorretamente, o personagem trepida, o nome fica flutuando longe da cabeça e a sombra se desalinha do corpo ao trocar de direção.
-
-### A Solução Matemática de Âncora Fixa:
-1. Padronizamos a tela de extração em **200 de largura por 150 de altura**.
-2. Nessa resolução:
-   * O centro horizontal fica exatamente em $X = 100$ pixels ($100 / 200 = 0.5$).
-   * O calcanhar/chão fica exatamente em $Y = 110$ pixels ($110 / 150 = 0.733333$).
-3. No Pixi.js, configuramos o sprite:
+**A Solução de Bounding Box Unificado:**
+1. Calculamos o retângulo envolvente máximo (*Union Bounding Box*) de todos os frames da criatura:
+   $$X_{min} = \min(b.left), \quad Y_{min} = \min(b.top), \quad X_{max} = \max(b.right), \quad Y_{max} = \max(b.bottom)$$
+2. Todos os frames são recortados estritamente dentro dessa janela unificada.
+3. No Pixi.js, fixamos o pivô na base central inferior:
    ```javascript
-   charSprite.anchor.set(0.5, 110 / 150);
-   charSprite.position.set(0, 0);
+   sprite.anchor.set(0.5, 1.0);
    ```
-4. A sombra do chão fica na posição `(0, 0)` do container:
-   ```javascript
-   shadow.drawEllipse(0, 0, 16, 7);
-   ```
-5. A etiqueta com o nome do jogador fica centralizada acima da cabeça:
-   ```javascript
-   playerName.anchor.set(0.5, 1);
-   playerName.y = -70; // (ajustado para escala 0.70)
-   ```
-Dessa forma, independentemente da rotação, escala ou animação ativa, os pés, a sombra e o nome permanecem **100% perfeitamente alinhados**.
+4. A sombra é desenhada exatamente em `(0, 0)` do container da entidade, garantindo alinhamento cravado nos pés em 100% dos ângulos e ações.
 
 ---
 
-## 6. Sistema de Renderização em Camadas (Layering)
+## 7. Ferramentas de Extração & Conversão em Lote
 
-No Pixi.js, o mundo 2.5D é montado adicionando containers em ordem estrita de profundidade:
-
-```mermaid
-graph TD
-  World[PIXI.Container: World] --> L1[Camada 1: Terreno / map1.jpg]
-  World --> L2[Camada 2: Overlay de Colisão Debug]
-  World --> L3[Camada 3: Marcador de Destino]
-  World --> L4[Camada 4: NPCs e Portais]
-  World --> L5[Camada 5: Jogador e Pets]
-  World --> L6[Camada 6: Sobreposição / Telhados e Árvores]
+### 7.1. Extrator em Lote com Empacotamento de Atlas (`batch_extract_assets.py`)
+Para converter todos os 351 monstros e 46 classes para Texture Atlases WebP:
+```bash
+python tools/batch_extract_assets.py --mode all
 ```
-
-### Transparência Suave em Primeiro Plano (Occlusion Fading)
-Quando o jogador passa por trás de um telhado ou sob a copa de uma árvore, a camada correspondente tem sua opacidade reduzida suavemente para $35\%$ (`alpha = 0.35`), revelando o personagem:
-```javascript
-const pBox = { left: player.x - 15, right: player.x + 15, top: player.y - 70, bottom: player.y };
-const overlaps = (pBox.right >= mLeft && pBox.left <= mRight && pBox.bottom >= mTop && pBox.top <= mBottom);
-mSprite.alpha = overlaps ? 0.35 : 1.0;
-```
+* **O que o script faz:**
+  1. Varre `mcgame/frontend/s/res` mapeando os hashes MD5 de todos os SWFs de monstros (`NPC_CRE_*.swf`) e classes (`PC_MALE_*.swf`, `PC_FEMALE_*.swf`).
+  2. Descompacta o cabeçalho Zlib (`CWS` -> `FWS`).
+  3. Decodifica tags `DefineBitsLossless2` e `DefineBitsJPEG3` com canal alfa.
+  4. Agrupa os frames por direção e ação (`0-0` até `7-10`).
+  5. Empacota todas as imagens em uma folha de textura WebP (`atlas.webp`) com algoritmo de empacotamento em grade otimizada.
+  6. Gera o manifesto padrão TexturePacker/Pixi.js (`atlas.json`) e o sumário visual (`visual_meta.json`).
+  7. Cria os catálogos mestres:
+     * `web/assets/monsters/catalog.json`
+     * `web/assets/characters/catalog.json`
 
 ---
 
-## 7. Como Executar o Projeto Localmente
+## 8. Como Executar e Testar
 
-1. **Pré-requisitos:** Python 3.8+ instalado.
-2. **Iniciar o Servidor Web:**
-   ```bash
-   python -m http.server 8080 --directory web
-   ```
-3. **Acessar:**
-   * No Computador: `http://localhost:8080/`
-   * No Celular (mesmo Wi-Fi): `http://{IP_DO_PC}:8080/`
-
----
-
-## 8. Como Extrair Novos Mapas ou Personagens
-
-Para converter qualquer outro mapa ou personagem do jogo, utilize os scripts inclusos na pasta `tools/`:
-
-### Extrair um novo Personagem:
+### 8.1. Servidor de Desenvolvimento Local
 ```bash
-python tools/extract_character.py --swf "caminho/para/PC_MALE_000003.swf" --out "web/assets/char3"
+python -m http.server 8080 --directory web
 ```
+Acesse no navegador: `http://localhost:8080/`.
 
-### Extrair um novo Mapa:
-```bash
-python tools/extract_map.py --map-id 2 --res-dir "caminho/para/frontend/s/res" --out "web/assets/map2"
-```
-
-### Extrair NPCs de um Mapa:
-```bash
-python tools/extract_npcs.py
-```
-O script lê as coordenadas, nomes e `res_code` de cada NPC em `data_tbl_npc.sql`, decodifica o hash MD5 da URL original no Flash (`UrlUtil.getUrl()`), extrai os bitmaps de respiração (Lossless2 / JPEG3), calcula o bounding box unificado para travar os pés na base `(0.5, 1.0)`, e gera `web/assets/map1/npcs.json` e todos os frames PNG prontos para o Pixi.js.
-
-### Extrair Criaturas e Monstros:
-```bash
-python tools/extract_monster.py
-```
-O script mapeia a criatura a partir de `data_tbl_creature.sql` (ex: ID 14 `Nấm Đồng Cỏ` / Cogumelo Selvagem -> `creature/NPC_CRE_000015.swf`), localiza o arquivo pelo hash MD5 (`28af28f7cb24a4660eccf8576a787c5d`), extrai todos os 704 frames de animação cobrindo as 8 direções e todas as ações (`0`: Idle, `1`: Walk, `3`: Attack, `4`: Dead, `5`: Hurt, `6`: Block, `7`: Magic), unifica o bounding box para manter a ancoragem dos pés cravada em `(0.5, 1.0)`, e gera `web/assets/monsters/mushroom/monster_manifest.json`.
-
-O script cuidará automaticamente da descompressão Zlib, extração de bitmaps, leitura de rótulos de timeline, cálculo do pivô e geração do `char_manifest.json` ou `npcs.json`.
-
----
-
-## 9. Sistema de Teste de Animações em Combate (Direto no Mapa)
-
-Para validar a fluidez e a sincronia entre as animações do jogador e do monstro, foi implementado um sistema de teste direto no mapa 2.5D:
-1. **Posicionamento e Orientação das Entidades:**
-   * **Jogador:** Posicionado a 60px à esquerda do monstro (`X: 1020, Y: 950`), virado para Direção 2 (Leste) encarando o monstro.
-   * **Monstro:** Posicionado em `(X: 1080, Y: 950)`, virado para Direção 6 (Oeste) encarando o jogador.
-2. **Disparo Direto de Animações:**
-   * O painel permite disparar individualmente cada animação de combate do jogador (Golpe, Magia, Suprema 32f, Guarda, Dano, Caído) e do monstro (Cabeçada, Esporos, Defesa, Dano, Caído).
-   * Os ataques executam animações coordenadas com avanço no eixo X, flash de impacto no alvo e retorno suave ao estado de Idle.
-3. **Modo Sparring Contínuo (Loop Infinito):**
-   * Alterna golpes e reações continuamente em loop sem restrição de turnos ou barras de vida, permitindo inspecionar a cadência visual das ações em tempo real.
+### 8.2. Validação no Sandbox de Combate
+* Aproxime o personagem do Cogumelo Selvagem ou clique no botão do menu lateral.
+* No painel de teste, dispare as animações individuais (Golpe, Magia, Suprema, Defesa, Dano, Caído) para inspecionar os efeitos visuais e o alinhamento corporal.
+* Ative o **🔄 Sparring Contínuo** para validar a execução contínua de loops de batalha.

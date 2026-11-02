@@ -1,0 +1,47 @@
+{
+  "name": "Thanh Anh Ác Ma",
+  "anchor": [
+    0.5,
+    1.0
+  ],
+  "width": 178,
+  "height": 160,
+  "bbox": [
+    96,
+    83,
+    274,
+    243
+  ],
+  "total_unique_bitmaps": 68,
+  "animations_count": 64,
+  "total_animation_frames": 704,
+  "actions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "directions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "atlas_size_kb": 332.3,
+  "atlas_dimensions": [
+    2048,
+    2048
+  ],
+  "id": "creature_001220",
+  "db_id": "1869",
+  "res_code_num": 1220,
+  "swf_hash": "00575f9d40bcf4b109586e716335df1a"
+}

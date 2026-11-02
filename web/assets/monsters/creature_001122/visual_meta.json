@@ -1,0 +1,47 @@
+{
+  "name": "Người Máy Navi",
+  "anchor": [
+    0.5,
+    1.0
+  ],
+  "width": 121,
+  "height": 146,
+  "bbox": [
+    44,
+    53,
+    165,
+    199
+  ],
+  "total_unique_bitmaps": 18,
+  "animations_count": 64,
+  "total_animation_frames": 704,
+  "actions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "directions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "atlas_size_kb": 67.8,
+  "atlas_dimensions": [
+    1024,
+    512
+  ],
+  "id": "creature_001122",
+  "db_id": "730",
+  "res_code_num": 1122,
+  "swf_hash": "8f68d9d45d46a3d888672175eb1e4d17"
+}

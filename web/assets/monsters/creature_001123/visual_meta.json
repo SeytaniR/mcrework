@@ -1,0 +1,47 @@
+{
+  "name": "Tinh Linh Cực Quang",
+  "anchor": [
+    0.5,
+    1.0
+  ],
+  "width": 119,
+  "height": 96,
+  "bbox": [
+    35,
+    34,
+    154,
+    130
+  ],
+  "total_unique_bitmaps": 18,
+  "animations_count": 64,
+  "total_animation_frames": 704,
+  "actions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "directions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "atlas_size_kb": 35.1,
+  "atlas_dimensions": [
+    1024,
+    512
+  ],
+  "id": "creature_001123",
+  "db_id": "732",
+  "res_code_num": 1123,
+  "swf_hash": "58049e7ad65eb886ce65cbe7b2c88bf2"
+}

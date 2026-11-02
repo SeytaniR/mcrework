@@ -15,11 +15,12 @@ async function initGame() {
   container.appendChild(app.view);
 
   // 2. Carregar Metadados do Mapa e Monstro
-  const [npcsData, masksData, colArrayBuffer, monsterManifest] = await Promise.all([
+  const [npcsData, masksData, colArrayBuffer, monsterMeta, monsterSheet] = await Promise.all([
     fetch("assets/map1/npcs.json").then(r => r.json()),
     fetch("assets/map1/masks.json").then(r => r.json()),
     fetch("assets/map1/collision.bin").then(r => r.arrayBuffer()),
-    fetch("assets/monsters/mushroom/monster_manifest.json").then(r => r.json())
+    fetch("assets/monsters/mushroom/visual_meta.json").then(r => r.json()),
+    PIXI.Assets.load("assets/monsters/mushroom/atlas.json")
   ]);
 
   // 3. Malha de Colisão Binária (Uint8Array de 388.683 bytes, 2031x1531)
@@ -232,7 +233,7 @@ async function initGame() {
     align: "center"
   });
   mapMonsterName.anchor.set(0.5, 1.0);
-  mapMonsterName.y = - Math.round(monsterManifest.height * 0.70) - 4;
+  mapMonsterName.y = - Math.round(monsterMeta.height * 0.70) - 4;
   mapMonsterGroup.addChild(mapMonsterName);
 
   // Entidade Monstro & Funções de Ação/Direção
@@ -261,10 +262,10 @@ async function initGame() {
       mapMonsterSprite.tint = 0xffffff;
     } else if (newAction === 5) {
       mapMonsterSprite.tint = 0xff6666;
-      mapMonsterName.y = - Math.round(monsterManifest.height * 0.70) - 4;
+      mapMonsterName.y = - Math.round(monsterMeta.height * 0.70) - 4;
     } else {
       mapMonsterSprite.tint = 0xffffff;
-      mapMonsterName.y = - Math.round(monsterManifest.height * 0.70) - 4;
+      mapMonsterName.y = - Math.round(monsterMeta.height * 0.70) - 4;
       monsterShadow.clear();
       monsterShadow.beginFill(0x000000, 0.38);
       monsterShadow.drawEllipse(0, 0, 16, 7);
@@ -280,7 +281,9 @@ async function initGame() {
 
   function updateMonsterVisual(deltaSeconds) {
     const animKey = `${monster.dir}-${monster.action}`;
-    let animFrames = monsterManifest.animations[animKey] || monsterManifest.animations[`${monster.dir}-0`] || monsterManifest.animations["0-0"];
+    let animFrames = (monsterSheet.animations && monsterSheet.animations[animKey]) ||
+                     (monsterSheet.animations && monsterSheet.animations[`${monster.dir}-0`]) ||
+                     (monsterSheet.animations && monsterSheet.animations["0-0"]);
     if (!animFrames || animFrames.length === 0) return;
 
     monster.frameTimer += deltaSeconds;
@@ -296,10 +299,9 @@ async function initGame() {
       }
     }
 
-    const currentFrame = animFrames[monster.frameIdx % animFrames.length];
-    const tex = PIXI.Texture.from(currentFrame.file);
-    if (tex) {
-      mapMonsterSprite.texture = tex;
+    const currentTexture = animFrames[monster.frameIdx % animFrames.length];
+    if (currentTexture) {
+      mapMonsterSprite.texture = currentTexture;
     }
 
     mapMonsterGroup.x = monster.x + monster.offsetX;

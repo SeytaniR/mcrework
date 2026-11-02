@@ -1,0 +1,47 @@
+{
+  "name": "Xà Yêu Lãnh Chúa",
+  "anchor": [
+    0.5,
+    1.0
+  ],
+  "width": 139,
+  "height": 121,
+  "bbox": [
+    21,
+    22,
+    160,
+    143
+  ],
+  "total_unique_bitmaps": 20,
+  "animations_count": 64,
+  "total_animation_frames": 704,
+  "actions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "directions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "atlas_size_kb": 56.2,
+  "atlas_dimensions": [
+    1024,
+    512
+  ],
+  "id": "creature_001076",
+  "db_id": "55",
+  "res_code_num": 1076,
+  "swf_hash": "679b4caa708a269ac9106fff5496fc87"
+}

@@ -1,6 +1,64 @@
-# Magic Campus Rework (HTML5 / Pixi.js Engine) 🧙‍♂️✨
+# Magic Campus Rework & Modern Engine (Pixi.js / WebGL / Mobile APK) 🧙‍♂️✨
 
-Um projeto moderno de recriação e migração de engine para o clássico MMORPG **Magic Campus (魔力学堂)**, convertendo os assets e lógicas originais em Flash (**ActionScript 3 / SWF**) para uma stack moderna de alta performance em **HTML5, WebGL e Pixi.js**, com suporte completo e otimizado para dispositivos móveis e desktop.
+Um projeto moderno de recriação de engine e modernização do clássico MMORPG **Magic Campus (魔力学堂)**. O projeto migra o acervo original em Flash (**ActionScript 3 / SWF**) para uma arquitetura modular de alta performance baseada em **Web (HTML5, WebGL 2.0, Pixi.js)** e empacotamento mobile nativo para **Android (APK na Google Play via Capacitor)**, acompanhada de um **Studio Low-Code (estilo RPG Maker)** e um **Servidor Autoritário**.
+
+---
+
+## 🎯 Visão do Projeto & Novo Game Design
+
+### 1. Studio Low-Code (Engine Visual estilo RPG Maker)
+* **Objetivo:** Uma suíte de ferramentas administrativas e de criação de conteúdo para desenvolvedores e mestres de jogo.
+* **Recursos do Studio:**
+  * Editor visual de mapas 2.5D com importação de camadas, posicionamento de NPCs e geração de malhas de colisão.
+  * Catálogo visual completo de todos os **351 monstros/pets** e todas as **46 skins/classes**.
+  * Compositor de habilidades: vinculação visual entre ícones originais, animações de conjuração dos personagens e efeitos de impacto (VFX/SFX).
+  * Gerador de tabelas de monstros, grupos de spawn e regras de encontro em arenas.
+
+### 2. Combate: Action Auto-Battler em Arena (Novo Design do Zero)
+* **Afastamento do Flash Original:** O jogo original utilizava um sistema de turnos estático, fórmulas antigas e tabelas rígidas. **Nenhuma fórmula, cálculo de dano ou atributo do jogo original é reaproveitado**.
+* **Novo Combate:** Inspirado em clássicos modernos como *Teamfight Tactics*, *Auto Chess* e *AFK Arena*:
+  * Ao colidir com um monstro ou iniciar um duelo, a batalha ocorre em uma **Arena de Combate Dinâmica**.
+  * Personagens, pets e monstros batalham de forma **automática em tempo real**.
+  * Cada entidade possui barra de energia, intervalos de ataque dinâmicos, tempo de conjuração, alcances táticos e habilidades que disparam automaticamente conforme o fluxo da batalha.
+  * Todas as fórmulas de dano, status, balanceamento, sinergias de classe e inteligência artificial são construídas **100% do zero**.
+
+### 3. Aproveitamento Inteligente de Assets Originais
+* O acervo de dados do jogo original é utilizado **exclusivamente para a extração do patrimônio visual e sonoro**:
+  * 👾 **Monstros e Pets:** Todos os modelos 2.5D com suas animações completas (8 direções × até 8 ações).
+  * 🧙 **Classes e Skins de Personagens:** Todos os modelos masculinos e femininos em alta fidelidade com até 11 ações (incluindo Supremos de 32 frames e montarias).
+  * ✨ **Efeitos Visuais (VFX / Skills):** Explosões mágicas, projéteis arcanos e auras.
+  * 🎨 **Ícones & Interface:** Ícones de habilidades, armaduras, armas e consumíveis.
+
+### 4. Separação Arquitetural em 3 Camadas
+```mermaid
+flowchart TD
+    subgraph Engine["🛠️ Studio / Engine (Admin Low-Code)"]
+        StudioUI["Interface Web Studio (Electron/Vite)"]
+        MapEditor["Editor de Mapas & Spawns"]
+        SkillComposer["Compositor de Skills & VFX"]
+        AssetViewer["Visualizador de Spritesheets & BBox"]
+    end
+
+    subgraph Server["🖥️ Servidor de Jogo (Node.js / Go Autoritário)"]
+        RoomManager["Gerenciador de Salas & Instâncias"]
+        CombatLoop["Simulador de Batalha (Action Auto-Battler)"]
+        StateSync["Sincronização de Estado (WebSocket / UDP)"]
+        DB[(PostgreSQL / Supabase)]
+    end
+
+    subgraph Client["📱 Clientes de Jogo (Pixi.js)"]
+        WebClient["Navegador Web (HTML5 / WebGL)"]
+        ApkClient["Android APK (Google Play via Capacitor)"]
+    end
+
+    Engine -->|Gera JSONs de Configuração| DB
+    Server -->|Persistência e Leitura| DB
+    Server <==>|Comunicação Bidirecional em Tempo Real| Client
+```
+
+1. **Studio / Engine (Admin):** Ambiente administrativo para configurar mapas, monstros, habilidades e balanceamento visualmente sem mexer no código core.
+2. **Servidor Autoritário:** Executa as simulações físicas e cálculos de combate no backend para prevenir trapaças (anti-cheat), gerencia salas de arena e sincroniza posições via WebSockets.
+3. **Cliente Leve e Portável:** Motor gráfico ultra-rápido em Pixi.js, consumindo Spritesheets WebP otimizados. O mesmo código-fonte é executado na Web e compilado para Android APK na Google Play via Capacitor.
 
 ---
 
@@ -8,15 +66,15 @@ Um projeto moderno de recriação e migração de engine para o clássico MMORPG
 
 ### 🗺️ Sistema de Mapas 2.5D & NPCs Autênticos
 * **Renderização em Camadas:** Terreno base (`2000x1500`), entidades dinâmicas com Z-Ordering 2.5D e sobreposições de primeiro plano.
-* **NPCs Originais Animados:** Todos os 14 NPCs do Mapa 1 extraídos dos arquivos SWF originais (`creature/NPC_FUNC_*.swf`), com animações completas de respiração/idle em 4 frames em loop, proporção calibrada (`scale = 0.70`, redução de 30% combinando com o jogador), sombras suaves no chão e nomes dourados autênticos.
-* **Interatividade com NPCs:** Toque em qualquer NPC para o personagem correr até ele e abrir o cartão de diálogo mobile com as falas e saudações dos personagens.
+* **NPCs Originais Animados:** Todos os 14 NPCs do Mapa 1 extraídos dos arquivos SWF originais (`creature/NPC_FUNC_*.swf`), com animações completas de respiração em 4 frames em loop, proporção calibrada (`scale = 0.70`), sombras suaves no chão e nomes dourados autênticos.
+* **Interatividade com NPCs:** Toque em qualquer NPC para o personagem correr até ele e abrir o diálogo mobile com as falas e saudações dos personagens.
 * **Ordenação de Profundidade (Z-Ordering 2.5D):** O jogador passa na frente ou atrás dos NPCs e árvores de forma natural e realista com base na coordenada Y dos pés.
-* **Malha de Colisão Binária (1-Bit Binary Mesh):** Extraída diretamente de `Hit.swf` para um arquivo bruto `collision.bin` (`2031x1531`). Checagem de colisão bitwise ultra-eficiente $O(1)$ sem lag de CPU.
+* **Malha de Colisão Binária (1-Bit Binary Mesh):** Extraída diretamente de `Hit.swf` para um arquivo bruto `collision.bin` (`2031x1531`). Checagem de colisão bitwise ultra-eficiente $O(1)$ sem impacto de CPU.
 * **Deslize em Paredes (*Wall Sliding*):** O personagem contorna cantos e desliza pelas quinas suavemente sem travar.
 * **Transparência de Oclusão (*Foreground Occlusion Fading*):** Telhados de casas e copas de árvores ficam transparentes suavemente (`alpha = 0.35`) quando o jogador passa por trás deles.
 
 ### ⚔️ Sistema de Animações e Personagens
-* **Alinhamento e Pivô Matemático Exato:** Ponto de registro cravado nos pés `(0.5, 110/150)`, garantindo alinhamento perfeito de sombra, modelo e etiqueta de nome em todas as direções e ações.
+* **Alinhamento e Pivô Matemático Exato:** Ponto de registro cravado nos pés `(0.5, 1.0)` através de bounding box unificado, garantindo alinhamento perfeito de sombra, modelo e etiqueta de nome em todas as direções e ações.
 * **8 Direções Isométricas (0 a 7):** Sul, Sudeste, Leste, Nordeste, Norte, Noroeste, Oeste e Sudoeste calculadas via trigonometria angular contínua.
 * **11 Ações de Combate e Movimento:**
   * `0`: Parado / Respirando (*Idle* - 27f)
@@ -30,38 +88,34 @@ Um projeto moderno de recriação e migração de engine para o clássico MMORPG
   * `8`: Buff / Postura tática (*Prepare* - 27f)
   * `9`: Golpe pesado (*Heavy Attack* - 16f)
   * `10`: Habilidade Suprema (*Ultimate* - 32 frames completos!)
-* **Suporte Multi-Classes e Tiers:**
-  * 🛡️ **Guerreiro Evoluído / Tier 2** (`PC_MALE_000011` - 11 ações completas)
-  * ⚔️ **Guerreiro Base / Tier 1** (`PC_MALE_000001` - 8 ações)
-  * 🔮 **Mago Base** (`PC_MALE_000002` - 8 ações com animações de cajado)
-  * 🐎 **Pose de Montaria** (`PC_MALE_100001` - postura montada)
+* **Acervo Completo de Classes & Skins:** 46 modelos originais decodificados (19 masculinos e 27 femininos), permitindo criar livremente dezenas de novas classes no Studio.
 
-### 👾 Monstros & Teste de Animações em Combate (Direto no Mapa)
-* **Monstro no Mapa 1:** `Cogumelo Selvagem [Nv. 5]` (*Nấm Đồng Cỏ* / `NPC_CRE_000015.swf`), extraído com precisão dos arquivos SWF de criaturas originais, renderizado diretamente no mapa com sombra suave e animação de respiração contínua em escala proporcional (`scale = 0.70`).
-* **Engajamento Direto no Mapa:** Ao clicar no monstro (ou via botão do menu lateral), o personagem corre até ele e ambos ficam frente a frente no próprio mapa para testar as animações sem telas separadas ou barras de HP que encerram a sessão.
-* **Painel de Teste de Animações de Combate:**
-  * **Animações do Jogador:**
-    * `⚔️ Golpe`: Golpe físico cortante (Ação 3) com avanço e impacto no monstro.
-    * `🔮 Magia`: Rajada arcana (Ação 7) com efeito visual de conjuração.
-    * `⚡ Suprema`: Sequência completa de 32 frames (Ação 10) com múltiplos hits e finalizador.
-    * `🛡️ Guarda`: Postura de bloqueio e defesa (Ação 6).
-    * `💥 Dano`: Reação de impacto / hurt (Ação 5) com flash avermelhado.
-    * `💀 Caído`: Animação de derrotado / caído no chão (Ação 4).
-  * **Animações do Monstro:**
-    * `🍄 Cabeçada`: Ataque físico com avanço frontal (Ação 3).
-    * `☠️ Esporos`: Magia de liberação de nuvem tóxica de esporos (Ação 7).
-    * `🛡️ Defesa`: Postura de cúpula endurecida (Ação 6).
-    * `💥 Dano`: Reação de impacto / hurt (Ação 5) com flash vermelho.
-    * `💀 Caído`: Animação de derrotado / caído no chão (Ação 4).
-* **🔄 Sparring Contínuo (Loop Infinito):** Modo que faz os combatentes trocarem golpes e reações continuamente em loop sem limite de vida, ideal para apreciar a fluidez das animações combinadas.
-* **Textos Flutuantes de Combate:** Textos animados estilizados sobre os personagens (`💥 GOLPE!`, `🔮 MAGIA!`, `⚡ COMBO!`, `☠️ ESPOROS!`, `🛡️ DEFESA!`).
-* **Sem Interrupções:** Não há telas de "fim de batalha" bloqueando os testes; você pode alternar livremente entre ações e sair para andar pelo mapa quando quiser.
+### 👾 Monstros, Pets & Sandbox de Teste de Animações
+* **Preservação de Todas as Criaturas:** Extração de todos os 351 monstros e pets para o formato de Spritesheet WebP de alta compressão.
+* **Monstro Interativo no Mapa 1:** `Cogumelo Selvagem [Nv. 5]` (*Nấm Đồng Cỏ* / `NPC_CRE_000015.swf`), renderizado no mapa com sombra suave e animação de respiração contínua em escala proporcional (`scale = 0.70`).
+* **Sandbox de Animações de Combate (In-Map):**
+  * Permite testar golpes físicos, magias arcanas, defesas, reações de impacto e animações de queda tanto do jogador quanto do monstro.
+  * Modo **🔄 Sparring Contínuo** em loop infinito para inspecionar a fluidez das trocas de golpes sem interrupções.
+  * Textos flutuantes de combate estilizados (`💥 GOLPE!`, `🔮 MAGIA!`, `⚡ COMBO!`, `☠️ ESPOROS!`, `🛡️ DEFESA!`).
 
-### 📱 Interface Mobile-First
+### 📱 Interface Mobile-First & Portabilidade APK
 * **Joystick Analógico Virtual:** Toque dinâmico e resposta vetorial precisa.
 * **Tap-to-Move:** Toque em qualquer ponto livre do mapa para o personagem correr até o local.
-* **Grade de Ações Compacta (2x4):** Ataque, Magia, Suprema, Defesa, Dano, Caído, Correr e Parar no alcance do polegar.
-* **Painel de Diagnóstico (Menu ⚙️):** Teleportes rápidos, seletor de classes em tempo real, controle de zoom, slider de velocidade e visualizador da malha de colisão vermelha para testes.
+* **Grade de Ações Compacta:** Ataque, Magia, Suprema, Defesa, Dano, Caído, Correr e Parar no alcance do polegar.
+* **Pronto para Google Play (Capacitor):**
+  * Assets compactados em WebP reduzem o instalador APK para menos de 100 MB.
+  * Renderização WebGL acelerada por hardware compatível com Android 8.0+.
+
+---
+
+## 📦 Pipeline de Spritesheets WebP (Adequado para Web e Mobile)
+
+Para suportar 351 monstros e 46 classes sem sobrecarregar o sistema com 250.000 arquivos PNG soltos:
+* Todas as animações são agrupadas em **Texturas Atlas WebP** (`atlas.webp`) acompanhadas de manifesto estruturado (`atlas.json` e `visual_meta.json`).
+* **Vantagens Críticas:**
+  * Redução de mais de **99% no número de arquivos** no repositório e no APK.
+  * Redução do tamanho total de ~2.5 GB (PNGs soltos) para **~60-80 MB** (WebP de alta qualidade).
+  * Carregamento em **1 única requisição HTTP / 1 único upload para GPU**, eliminando gargalos de CPU e quedas de FPS no celular.
 
 ---
 
@@ -88,7 +142,7 @@ python -m http.server 8080 --directory web
 
 ## 📖 Documentação Técnica de Migração
 
-Para entender detalhadamente como os arquivos SWF, as matrizes de bits de colisão e os frames foram revertidos e convertidos, consulte o guia completo:
+Para entender o processo de engenharia reversa dos arquivos SWF, descompressão Zlib, decodificação da malha de colisão e empacotamento de atlas, consulte o guia completo:
 
 👉 **[GUIA_MIGRACAO.md](GUIA_MIGRACAO.md)**
 
@@ -97,7 +151,7 @@ Para entender detalhadamente como os arquivos SWF, as matrizes de bits de colis�
 ## 📁 Estrutura do Repositório
 
 ```text
-├── web/                           # Aplicação Web Pixi.js (Pronta para rodar)
+├── web/                           # Aplicação Web Pixi.js (Pronta para rodar e empacotar em APK)
 │   ├── index.html                 # Interface responsiva mobile
 │   ├── style.css                  # Estilização moderna e layout de botões
 │   ├── main.js                    # Motor Pixi.js, física, colisão e animações
@@ -106,11 +160,16 @@ Para entender detalhadamente como os arquivos SWF, as matrizes de bits de colis�
 │       ├── char1/                 # Guerreiro Base (Tier 1)
 │       ├── char11/                # Guerreiro Evoluído (Tier 2 - Ações 0 a 10)
 │       ├── char2/                 # Mago Base
-│       └── char_mount/            # Poses de Montaria
+│       ├── char_mount/            # Poses de Montaria
+│       ├── monsters/              # Atlases WebP de todos os 351 monstros e pets + catalog.json
+│       └── characters/            # Atlases WebP de todas as 46 skins de classes + catalog.json
 ├── tools/                         # Ferramentas Python de extração e conversão
-│   ├── extract_character.py       # Extrai qualquer SWF de personagem para Pixi
-│   ├── extract_map.py             # Extrai mapas, máscaras e NPCs
+│   ├── batch_extract_assets.py    # Extrator mestre e gerador de Spritesheet Atlases WebP
+│   ├── extract_character.py       # Extrator individual de SWF de personagem
+│   ├── extract_monster.py         # Extrator individual de monstro
+│   ├── extract_npcs.py            # Extrator de NPCs por mapa
+│   ├── extract_map.py             # Extrai mapas, máscaras e posicionamentos
 │   └── extract_collision.py       # Decodifica malhas de colisão RLE de Hit.swf
-├── GUIA_MIGRACAO.md               # Documentação técnica aprofundada da migração
-└── README.md                      # Apresentação do projeto
+├── GUIA_MIGRACAO.md               # Documentação técnica aprofundada da migração e arquitetura
+└── README.md                      # Apresentação do projeto e visão de engenharia
 ```

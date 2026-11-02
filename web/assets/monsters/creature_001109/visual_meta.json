@@ -1,0 +1,47 @@
+{
+  "name": "Mộng Lão Ông",
+  "anchor": [
+    0.5,
+    1.0
+  ],
+  "width": 118,
+  "height": 117,
+  "bbox": [
+    6,
+    11,
+    124,
+    128
+  ],
+  "total_unique_bitmaps": 18,
+  "animations_count": 64,
+  "total_animation_frames": 704,
+  "actions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "directions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "atlas_size_kb": 72.2,
+  "atlas_dimensions": [
+    1024,
+    512
+  ],
+  "id": "creature_001109",
+  "db_id": "613",
+  "res_code_num": 1109,
+  "swf_hash": "0aac2ca5c3eae11aca967206c0cc7d82"
+}

@@ -1,0 +1,47 @@
+{
+  "name": "Ếch Độc Đầm Lầy",
+  "anchor": [
+    0.5,
+    1.0
+  ],
+  "width": 148,
+  "height": 117,
+  "bbox": [
+    37,
+    19,
+    185,
+    136
+  ],
+  "total_unique_bitmaps": 18,
+  "animations_count": 64,
+  "total_animation_frames": 704,
+  "actions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "directions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "atlas_size_kb": 42.8,
+  "atlas_dimensions": [
+    1024,
+    512
+  ],
+  "id": "creature_001141",
+  "db_id": "983",
+  "res_code_num": 1141,
+  "swf_hash": "89702b2252e5c849a696f564217027ed"
+}

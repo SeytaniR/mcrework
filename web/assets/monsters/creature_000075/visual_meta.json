@@ -1,0 +1,47 @@
+{
+  "name": "Capra【VDRL5Tiểu Quái】",
+  "anchor": [
+    0.5,
+    1.0
+  ],
+  "width": 39,
+  "height": 94,
+  "bbox": [
+    48,
+    19,
+    87,
+    113
+  ],
+  "total_unique_bitmaps": 3,
+  "animations_count": 64,
+  "total_animation_frames": 704,
+  "actions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "directions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "atlas_size_kb": 7.9,
+  "atlas_dimensions": [
+    256,
+    256
+  ],
+  "id": "creature_000075",
+  "db_id": "1831",
+  "res_code_num": 75,
+  "swf_hash": "b443f73fc57300d772af88b2152feaa9"
+}

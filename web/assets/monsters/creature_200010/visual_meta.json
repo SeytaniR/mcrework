@@ -1,0 +1,47 @@
+{
+  "name": "Alumo",
+  "anchor": [
+    0.5,
+    1.0
+  ],
+  "width": 159,
+  "height": 163,
+  "bbox": [
+    10,
+    0,
+    169,
+    163
+  ],
+  "total_unique_bitmaps": 20,
+  "animations_count": 64,
+  "total_animation_frames": 704,
+  "actions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "directions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "atlas_size_kb": 148.3,
+  "atlas_dimensions": [
+    1024,
+    1024
+  ],
+  "id": "creature_200010",
+  "db_id": "160",
+  "res_code_num": 200010,
+  "swf_hash": "a7f55c34d69a73c35565142191351368"
+}
