@@ -1,0 +1,44 @@
+{
+  "name": "Bách Thảo Tinh",
+  "anchor": [
+    0.5,
+    1.0
+  ],
+  "width": 159,
+  "height": 175,
+  "bbox": [
+    11,
+    3,
+    170,
+    178
+  ],
+  "total_unique_bitmaps": 16,
+  "animations_count": 48,
+  "total_animation_frames": 440,
+  "actions": [
+    0,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "directions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "atlas_size_kb": 67.0,
+  "atlas_dimensions": [
+    1024,
+    1024
+  ],
+  "res_path": "creature/NPC_FUNC_100049.swf",
+  "res_code_num": 100049,
+  "type": "npc"
+}

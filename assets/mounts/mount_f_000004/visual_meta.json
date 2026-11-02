@@ -1,0 +1,46 @@
+{
+  "name": "Thần Thú Viêm Báo (Pantera de Chamas)",
+  "anchor": [
+    0.5,
+    1.0
+  ],
+  "width": 125,
+  "height": 134,
+  "bbox": [
+    90,
+    72,
+    215,
+    206
+  ],
+  "total_unique_bitmaps": 32,
+  "animations_count": 56,
+  "total_animation_frames": 616,
+  "actions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "directions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "atlas_size_kb": 89.5,
+  "atlas_dimensions": [
+    1024,
+    1024
+  ],
+  "id": "mount_f_000004",
+  "rel": "creature/PC_FEMALE_100004.swf",
+  "type": "female_mount",
+  "mount_tier": 4
+}

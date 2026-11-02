@@ -1,0 +1,43 @@
+{
+  "name": "NPC 102",
+  "anchor": [
+    0.5,
+    1.0
+  ],
+  "width": 364,
+  "height": 290,
+  "bbox": [
+    6,
+    65,
+    370,
+    355
+  ],
+  "total_unique_bitmaps": 4,
+  "animations_count": 40,
+  "total_animation_frames": 440,
+  "actions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "directions": [
+    0,
+    2,
+    3,
+    4,
+    6
+  ],
+  "atlas_size_kb": 83.4,
+  "atlas_dimensions": [
+    1024,
+    1024
+  ],
+  "res_path": "creature/NPC_FUNC_000102.swf",
+  "res_code_num": 102,
+  "type": "npc"
+}

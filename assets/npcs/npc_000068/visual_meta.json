@@ -1,0 +1,46 @@
+{
+  "name": "Chủ Tiệm Tạp Hóa",
+  "anchor": [
+    0.5,
+    1.0
+  ],
+  "width": 56,
+  "height": 92,
+  "bbox": [
+    28,
+    3,
+    84,
+    95
+  ],
+  "total_unique_bitmaps": 3,
+  "animations_count": 64,
+  "total_animation_frames": 704,
+  "actions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "directions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "atlas_size_kb": 9.4,
+  "atlas_dimensions": [
+    256,
+    256
+  ],
+  "res_path": "creature/NPC_FUNC_000068.swf",
+  "res_code_num": 68,
+  "type": "npc"
+}

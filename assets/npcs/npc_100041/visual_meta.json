@@ -1,0 +1,46 @@
+{
+  "name": "NPC 100041",
+  "anchor": [
+    0.5,
+    1.0
+  ],
+  "width": 54,
+  "height": 55,
+  "bbox": [
+    45,
+    33,
+    99,
+    88
+  ],
+  "total_unique_bitmaps": 2,
+  "animations_count": 64,
+  "total_animation_frames": 632,
+  "actions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "directions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "atlas_size_kb": 4.5,
+  "atlas_dimensions": [
+    256,
+    256
+  ],
+  "res_path": "creature/NPC_FUNC_100041.swf",
+  "res_code_num": 100041,
+  "type": "npc"
+}

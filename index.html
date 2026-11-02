@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
   <meta name="mobile-web-app-capable" content="yes">
   <title>Magic Campus Mobile - Pixi.js Engine (Mapa 1 & Char 1)</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=1.2.0">
   <!-- Pixi.js v7 CDN -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/7.3.2/pixi.min.js"></script>
 </head>
@@ -28,15 +28,23 @@
       </div>
     </div>
 
-    <!-- Centro: Ações Principais (Classes & Monstros) -->
+    <!-- Centro: Ações Principais (Classes, Pets/Monstros, Montarias, NPCs) -->
     <div class="top-center-actions">
       <button id="btn-open-classes-modal" class="nav-pill-btn nav-classes" title="Provador de Classes (46 Visuais)">
         <span class="nav-icon">🧙</span>
         <span class="nav-txt">Classes <span class="nav-count">46</span></span>
       </button>
-      <button id="btn-open-monsters-modal" class="nav-pill-btn nav-monsters" title="Bestiário de Monstros (543 Criaturas)">
-        <span class="nav-icon">👾</span>
-        <span class="nav-txt">Monstros <span class="nav-count">543</span></span>
+      <button id="btn-open-monsters-modal" class="nav-pill-btn nav-monsters" title="Bestiário de Monstros & Pets (543 Criaturas)">
+        <span class="nav-icon">🐾</span>
+        <span class="nav-txt">Pets & Monstros <span class="nav-count">543</span></span>
+      </button>
+      <button id="btn-open-mounts-modal" class="nav-pill-btn nav-mounts" title="Estábulo de Montarias (20 Montarias)">
+        <span class="nav-icon">🐎</span>
+        <span class="nav-txt">Montarias <span class="nav-count">20</span></span>
+      </button>
+      <button id="btn-open-npcs-modal" class="nav-pill-btn nav-npcs" title="Enciclopédia de NPCs (365 NPCs)">
+        <span class="nav-icon">👥</span>
+        <span class="nav-txt">NPCs <span class="nav-count">365</span></span>
       </button>
     </div>
 
@@ -181,7 +189,29 @@
           <button class="mon-quick-btn" data-monster="creature_000039">❄️ General de Gelo</button>
         </div>
         <button id="btn-drawer-all-monsters" class="btn-view-all">
-          🔍 Ver Todos os 543 Monstros no Bestiário ➔
+          🔍 Ver Todos os 543 Monstros & Pets no Bestiário ➔
+        </button>
+      </section>
+
+      <!-- Estábulo de Montarias (20 Montarias) -->
+      <section class="drawer-section">
+        <div class="section-header-row">
+          <h4 class="section-title">🐎 Estábulo de Montarias</h4>
+          <span class="badge-count">20 Montarias</span>
+        </div>
+        <button id="btn-drawer-all-mounts" class="btn-view-all">
+          🐎 Ver Todas as 20 Montarias no Estábulo ➔
+        </button>
+      </section>
+
+      <!-- Enciclopédia de NPCs (365 NPCs) -->
+      <section class="drawer-section">
+        <div class="section-header-row">
+          <h4 class="section-title">👥 NPCs de Cidades e Missões</h4>
+          <span class="badge-count">365 NPCs</span>
+        </div>
+        <button id="btn-drawer-all-npcs" class="btn-view-all">
+          👥 Ver e Spawnar os 365 NPCs do Mundo ➔
         </button>
       </section>
 
@@ -395,7 +425,7 @@
     </div>
   </div>
 
-  <script src="main.js"></script>
+  <script src="main.js?v=1.2.0"></script>
 
   <!-- Modal 1: Provador de Classes & Skins (46 Visuais) -->
   <div id="modal-classes" class="catalog-modal hidden">
@@ -428,29 +458,89 @@
     </div>
   </div>
 
-  <!-- Modal 2: Bestiário & Seletor de Monstros (543 Criaturas) -->
+  <!-- Modal 2: Bestiário & Seletor de Monstros e Pets (543 Criaturas) -->
   <div id="modal-monsters" class="catalog-modal hidden">
     <div class="modal-card">
       <div class="modal-header">
         <div class="modal-title-group">
           <h3>👾 Bestiário de Monstros & Pets</h3>
-          <span class="modal-subtitle">Escolha qualquer um dos 543 monstros para enfrentar no mapa e testar combates!</span>
+          <span class="modal-subtitle">Escolha qualquer um dos 543 monstros ou 106 pets para enfrentar ou testar no mapa!</span>
         </div>
         <button id="btn-close-monsters-modal" class="modal-close-btn">✕</button>
       </div>
 
       <div class="modal-search-bar">
-        <input type="text" id="monsters-search-input" placeholder="🔍 Buscar monstro por nome, ID ou código (ex: Dragão, Esqueleto, 15)..." />
+        <input type="text" id="monsters-search-input" placeholder="🔍 Buscar por nome, ID ou tipo (ex: Nấm Đông Cô, Pet, Dragão, 15)..." />
       </div>
 
       <div class="modal-filter-pills" id="monsters-filter-pills">
         <button class="pill-filter active" data-filter="all">🌟 Todos (543)</button>
+        <button class="pill-filter" data-filter="pets">🐾 Pets & Companheiros (106)</button>
+        <button class="pill-filter" data-filter="monsters">👹 Monstros Selvagens (437)</button>
         <button class="pill-filter" data-filter="named">👾 Nomes Originais (364)</button>
         <button class="pill-filter" data-filter="boss">🔥 Chefes & Especiais</button>
       </div>
 
       <div class="modal-grid-container" id="monsters-grid-container">
         <!-- Renderizado dinamicamente via JS a partir de assets/monsters/catalog.json -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 3: Estábulo de Montarias (20 Montarias) -->
+  <div id="modal-mounts" class="catalog-modal hidden">
+    <div class="modal-card">
+      <div class="modal-header">
+        <div class="modal-title-group">
+          <h3>🐎 Estábulo de Montarias</h3>
+          <span class="modal-subtitle">Cavalgue em cavalos, feras celestiais, tigres, lobos, raposas e dragões de Magic Campus!</span>
+        </div>
+        <button id="btn-close-mounts-modal" class="modal-close-btn">✕</button>
+      </div>
+
+      <div class="modal-search-bar">
+        <input type="text" id="mounts-search-input" placeholder="🔍 Buscar montaria por nome, grau ou estilo (ex: Tigre, Fogo, Relâmpago)..." />
+      </div>
+
+      <div class="modal-filter-pills" id="mounts-filter-pills">
+        <button class="pill-filter active" data-filter="all">🌟 Todas (20)</button>
+        <button class="pill-filter" data-filter="classic">🐎 Terrestres & Clássicas (1-6)</button>
+        <button class="pill-filter" data-filter="divine">🔥 Celestiais & Divinas (Tier 7-10)</button>
+        <button class="pill-filter" data-filter="male">♂ Masculinas</button>
+        <button class="pill-filter" data-filter="female">♀ Femininas</button>
+      </div>
+
+      <div class="modal-grid-container" id="mounts-grid-container">
+        <!-- Renderizado dinamicamente via JS a partir de assets/mounts/catalog.json -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 4: Enciclopédia de NPCs do Mundo (365 NPCs) -->
+  <div id="modal-npcs" class="catalog-modal hidden">
+    <div class="modal-card">
+      <div class="modal-header">
+        <div class="modal-title-group">
+          <h3>👥 Enciclopédia de NPCs do Mundo</h3>
+          <span class="modal-subtitle">Inspecione e spawne qualquer um dos 365 NPCs funcionais de vilas, academias e missões!</span>
+        </div>
+        <button id="btn-close-npcs-modal" class="modal-close-btn">✕</button>
+      </div>
+
+      <div class="modal-search-bar">
+        <input type="text" id="npcs-search-input" placeholder="🔍 Buscar NPC por nome ou ID (ex: Long Tộc, Madoff, Cammy, Fetocci)..." />
+      </div>
+
+      <div class="modal-filter-pills" id="npcs-filter-pills">
+        <button class="pill-filter active" data-filter="all">🌟 Todos (365)</button>
+        <button class="pill-filter" data-filter="shops">🛒 Lojas & Comerciantes</button>
+        <button class="pill-filter" data-filter="masters">📜 Mestres & Instrutores</button>
+        <button class="pill-filter" data-filter="guards">⚔️ Guardas & Chefes</button>
+        <button class="pill-filter" data-filter="academy">🏰 Academias & Vilas</button>
+      </div>
+
+      <div class="modal-grid-container" id="npcs-grid-container">
+        <!-- Renderizado dinamicamente via JS a partir de assets/npcs/catalog.json -->
       </div>
     </div>
   </div>
