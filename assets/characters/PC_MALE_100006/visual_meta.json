@@ -1,0 +1,48 @@
+{
+  "name": "Pose de Montaria Tapete (M)",
+  "anchor": [
+    0.5,
+    1.0
+  ],
+  "width": 145,
+  "height": 120,
+  "bbox": [
+    43,
+    25,
+    188,
+    145
+  ],
+  "total_unique_bitmaps": 32,
+  "animations_count": 64,
+  "total_animation_frames": 704,
+  "actions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "directions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "atlas_size_kb": 93.4,
+  "atlas_dimensions": [
+    1024,
+    1024
+  ],
+  "id": "PC_MALE_100006",
+  "gender": "MALE",
+  "tier": "mount",
+  "res_code_num": 100006,
+  "swf_hash": "20420f6a07e0f7ef7d5b8e5785bfd5e8"
+}

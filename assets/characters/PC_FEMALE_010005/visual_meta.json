@@ -1,0 +1,51 @@
+{
+  "name": "Costume de Gala / Festa (F)",
+  "anchor": [
+    0.5,
+    1.0
+  ],
+  "width": 196,
+  "height": 170,
+  "bbox": [
+    302,
+    236,
+    498,
+    406
+  ],
+  "total_unique_bitmaps": 97,
+  "animations_count": 88,
+  "total_animation_frames": 1304,
+  "actions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "directions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "atlas_size_kb": 515.9,
+  "atlas_dimensions": [
+    2048,
+    2048
+  ],
+  "id": "PC_FEMALE_010005",
+  "gender": "FEMALE",
+  "tier": "costume",
+  "res_code_num": 10005,
+  "swf_hash": "211f72e77dbb07627d9b33e19d7bcd9b"
+}

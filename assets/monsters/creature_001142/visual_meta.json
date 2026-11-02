@@ -1,0 +1,47 @@
+{
+  "name": "Tuyết Thú Mã Não",
+  "anchor": [
+    0.5,
+    1.0
+  ],
+  "width": 117,
+  "height": 136,
+  "bbox": [
+    68,
+    57,
+    185,
+    193
+  ],
+  "total_unique_bitmaps": 18,
+  "animations_count": 64,
+  "total_animation_frames": 704,
+  "actions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "directions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "atlas_size_kb": 60.7,
+  "atlas_dimensions": [
+    1024,
+    512
+  ],
+  "id": "creature_001142",
+  "db_id": "998",
+  "res_code_num": 1142,
+  "swf_hash": "9e71ec7db1275339a7cc63d925657ec1"
+}

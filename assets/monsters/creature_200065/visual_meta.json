@@ -1,0 +1,47 @@
+{
+  "name": "Mamun 【BOSS Liệt Diễm 3】",
+  "anchor": [
+    0.5,
+    1.0
+  ],
+  "width": 164,
+  "height": 168,
+  "bbox": [
+    19,
+    14,
+    183,
+    182
+  ],
+  "total_unique_bitmaps": 18,
+  "animations_count": 64,
+  "total_animation_frames": 704,
+  "actions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "directions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "atlas_size_kb": 81.3,
+  "atlas_dimensions": [
+    1024,
+    512
+  ],
+  "id": "creature_200065",
+  "db_id": "958",
+  "res_code_num": 200065,
+  "swf_hash": "397f3971a48dbf365b23679ae717ebad"
+}

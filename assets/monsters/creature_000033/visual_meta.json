@@ -1,0 +1,47 @@
+{
+  "name": "Rink Kẻ Phục Thù",
+  "anchor": [
+    0.5,
+    1.0
+  ],
+  "width": 35,
+  "height": 93,
+  "bbox": [
+    56,
+    20,
+    91,
+    113
+  ],
+  "total_unique_bitmaps": 3,
+  "animations_count": 64,
+  "total_animation_frames": 704,
+  "actions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "directions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "atlas_size_kb": 7.8,
+  "atlas_dimensions": [
+    256,
+    256
+  ],
+  "id": "creature_000033",
+  "db_id": "221",
+  "res_code_num": 33,
+  "swf_hash": "670ec149f7b39c981d658d1cb2430078"
+}
