@@ -215,11 +215,8 @@ async function initGame() {
   monsterShadow.endFill();
   mapMonsterGroup.addChild(monsterShadow);
 
-  // Sprite animado do Monstro no Mapa (Idle 0-0)
-  const mapMonsterAnimFrames = monsterManifest.animations["0-0"].map(f => PIXI.Texture.from(f.file));
-  const mapMonsterSprite = new PIXI.AnimatedSprite(mapMonsterAnimFrames);
-  mapMonsterSprite.animationSpeed = 0.08;
-  mapMonsterSprite.play();
+  // Sprite dinâmico do Monstro no Mapa (controlado por animações completas)
+  const mapMonsterSprite = new PIXI.Sprite();
   mapMonsterSprite.anchor.set(0.5, 1.0);
   mapMonsterSprite.scale.set(0.70); // Proporcional ao jogador (-30%)
   mapMonsterGroup.addChild(mapMonsterSprite);
@@ -238,22 +235,131 @@ async function initGame() {
   mapMonsterName.y = - Math.round(monsterManifest.height * 0.70) - 4;
   mapMonsterGroup.addChild(mapMonsterName);
 
-  // Interação de Clique/Toque no Monstro para Iniciar Batalha
-  let pendingBattleMonster = null;
+  // Entidade Monstro & Funções de Ação/Direção
+  const monster = {
+    x: 1080,
+    y: 950,
+    dir: 6, // Vira para a esquerda (encarando o jogador)
+    action: 0,
+    frameIdx: 0,
+    frameTimer: 0,
+    frameDuration: 0.08,
+    offsetX: 0,
+    offsetY: 0
+  };
+
+  function setMonsterAction(newAction) {
+    monster.action = newAction;
+    monster.frameIdx = 0;
+    monster.frameTimer = 0;
+    if (newAction === 4) {
+      mapMonsterName.y = -18;
+      monsterShadow.clear();
+      monsterShadow.beginFill(0x000000, 0.38);
+      monsterShadow.drawEllipse(0, 0, 24, 7);
+      monsterShadow.endFill();
+      mapMonsterSprite.tint = 0xffffff;
+    } else if (newAction === 5) {
+      mapMonsterSprite.tint = 0xff6666;
+      mapMonsterName.y = - Math.round(monsterManifest.height * 0.70) - 4;
+    } else {
+      mapMonsterSprite.tint = 0xffffff;
+      mapMonsterName.y = - Math.round(monsterManifest.height * 0.70) - 4;
+      monsterShadow.clear();
+      monsterShadow.beginFill(0x000000, 0.38);
+      monsterShadow.drawEllipse(0, 0, 16, 7);
+      monsterShadow.endFill();
+    }
+  }
+
+  function setMonsterDirection(newDir) {
+    monster.dir = newDir;
+    monster.frameIdx = 0;
+    monster.frameTimer = 0;
+  }
+
+  function updateMonsterVisual(deltaSeconds) {
+    const animKey = `${monster.dir}-${monster.action}`;
+    let animFrames = monsterManifest.animations[animKey] || monsterManifest.animations[`${monster.dir}-0`] || monsterManifest.animations["0-0"];
+    if (!animFrames || animFrames.length === 0) return;
+
+    monster.frameTimer += deltaSeconds;
+    if (monster.frameTimer >= monster.frameDuration) {
+      monster.frameTimer = 0;
+      monster.frameIdx = (monster.frameIdx + 1) % animFrames.length;
+
+      if (monster.action === 4) {
+        monster.frameIdx = animFrames.length - 1; // Trava caído no chão
+      } else if (monster.action >= 3 && monster.frameIdx === 0) {
+        setMonsterAction(0);
+        return;
+      }
+    }
+
+    const currentFrame = animFrames[monster.frameIdx % animFrames.length];
+    const tex = PIXI.Texture.from(currentFrame.file);
+    if (tex) {
+      mapMonsterSprite.texture = tex;
+    }
+
+    mapMonsterGroup.x = monster.x + monster.offsetX;
+    mapMonsterGroup.y = monster.y + monster.offsetY;
+    mapMonsterGroup.zIndex = Math.round(monster.y);
+  }
+
+  // Interação de Clique/Toque no Monstro para Iniciar Modo de Teste de Combate
   mapMonsterGroup.eventMode = "static";
   mapMonsterGroup.cursor = "pointer";
   mapMonsterGroup.on("pointerdown", (e) => {
     e.stopPropagation();
-    const dist = Math.hypot(player.x - 1080, player.y - 950);
-    if (dist <= 110) {
-      startBattle("mushroom");
-    } else {
-      pendingBattleMonster = "mushroom";
-      movePlayerTo(1040, 950);
-    }
+    openCombatTest();
   });
 
   entitiesContainer.addChild(mapMonsterGroup);
+
+  // Textos Flutuantes de Combate no Mundo 2.5D
+  const combatTextContainer = new PIXI.Container();
+  combatTextContainer.zIndex = 9999;
+  world.addChild(combatTextContainer);
+  const combatFloatingTexts = [];
+
+  function spawnCombatText(text, wx, wy, color = 0xffe066) {
+    const txt = new PIXI.Text(text, {
+      fontFamily: "system-ui, -apple-system, sans-serif",
+      fontSize: 13,
+      fontWeight: "900",
+      fill: color,
+      stroke: 0x000000,
+      strokeThickness: 3,
+      align: "center",
+      dropShadow: true,
+      dropShadowColor: 0x000000,
+      dropShadowDistance: 2
+    });
+    txt.anchor.set(0.5, 1.0);
+    txt.x = wx;
+    txt.y = wy;
+    combatTextContainer.addChild(txt);
+    combatFloatingTexts.push({
+      sprite: txt,
+      life: 0.9,
+      maxLife: 0.9,
+      vy: -40
+    });
+  }
+
+  function updateCombatTexts(deltaSeconds) {
+    for (let i = combatFloatingTexts.length - 1; i >= 0; i--) {
+      const ft = combatFloatingTexts[i];
+      ft.life -= deltaSeconds;
+      ft.sprite.y += ft.vy * deltaSeconds;
+      ft.sprite.alpha = Math.max(0, ft.life / ft.maxLife);
+      if (ft.life <= 0) {
+        combatTextContainer.removeChild(ft.sprite);
+        combatFloatingTexts.splice(i, 1);
+      }
+    }
+  }
 
   // Camada 5: Jogador (Entidade Dinâmica)
   // ORIGEM (0, 0) são os pés do personagem!
@@ -667,686 +773,280 @@ async function initGame() {
     world.y = camY;
   }
 
-  // 13.5 Sistema de Batalha em Turnos (Simulador de Combate)
-  let isBattleActive = false;
-  let battleTurn = "player"; // "player" | "monster" | "animating"
-  let isAutoBattle = false;
-  let battleShakeTimer = 0;
-  let battleShakeIntensity = 0;
+  // 13.5 Sistema de Teste de Animações em Combate (Direto no Mapa)
+  let isCombatTesting = false;
+  let sparringLoopActive = false;
+  let sparringTimer = null;
+  let sparringStep = 0;
+  let isActionExecuting = false;
 
-  const playerCombat = {
-    name: "Guerreiro Evoluído",
-    maxHp: 1000,
-    hp: 1000,
-    maxSp: 250,
-    sp: 250,
-    isDefending: false,
-    dir: 1, // Facing Southeast em direção ao monstro
-    action: 0,
-    frameIdx: 0,
-    frameTimer: 0,
-    frameDuration: 0.08,
-    offsetX: 0,
-    offsetY: 0
-  };
+  const combatTestPanel = document.getElementById("combat-test-panel");
+  const combatStatusText = document.getElementById("combat-status-text");
+  const mobileActionBar = document.getElementById("mobile-action-bar");
 
-  const monsterCombat = {
-    name: "Cogumelo Selvagem",
-    level: 5,
-    maxHp: 650,
-    hp: 650,
-    isDefending: false,
-    dir: 7, // Facing Southwest em direção ao jogador
-    action: 0,
-    frameIdx: 0,
-    frameTimer: 0,
-    frameDuration: 0.08,
-    offsetX: 0,
-    offsetY: 0
-  };
-
-  // Container PixiJS da Batalha (renderizado na camada superior do stage)
-  const battleContainer = new PIXI.Container();
-  battleContainer.visible = false;
-  app.stage.addChild(battleContainer);
-
-  const battleDimBg = new PIXI.Graphics();
-  battleContainer.addChild(battleDimBg);
-
-  const battleArenaFloor = new PIXI.Graphics();
-  battleContainer.addChild(battleArenaFloor);
-
-  const battlePlayerGroup = new PIXI.Container();
-  const battleMonsterGroup = new PIXI.Container();
-  battleContainer.addChild(battlePlayerGroup);
-  battleContainer.addChild(battleMonsterGroup);
-
-  const floatingTextContainer = new PIXI.Container();
-  battleContainer.addChild(floatingTextContainer);
-
-  // Sombra e Sprite do Jogador na Batalha
-  const btlPlayerShadow = new PIXI.Graphics();
-  btlPlayerShadow.beginFill(0x000000, 0.45);
-  btlPlayerShadow.drawEllipse(0, 0, 24, 10);
-  btlPlayerShadow.endFill();
-  battlePlayerGroup.addChild(btlPlayerShadow);
-
-  const battlePlayerSprite = new PIXI.Sprite();
-  battlePlayerSprite.anchor.set(0.5, 110 / 150);
-  battlePlayerSprite.scale.set(0.95);
-  battlePlayerGroup.addChild(battlePlayerSprite);
-
-  // Sombra e Sprite do Monstro na Batalha
-  const btlMonsterShadow = new PIXI.Graphics();
-  btlMonsterShadow.beginFill(0x000000, 0.45);
-  btlMonsterShadow.drawEllipse(0, 0, 26, 11);
-  btlMonsterShadow.endFill();
-  battleMonsterGroup.addChild(btlMonsterShadow);
-
-  const battleMonsterSprite = new PIXI.Sprite();
-  battleMonsterSprite.anchor.set(0.5, 1.0);
-  battleMonsterSprite.scale.set(1.15);
-  battleMonsterGroup.addChild(battleMonsterSprite);
-
-  // Textos de Dano e Cura Flutuantes
-  const floatingTexts = [];
-
-  function spawnDamageText(text, x, y, color = 0xffe066) {
-    const txt = new PIXI.Text(text, {
-      fontFamily: "system-ui, -apple-system, sans-serif",
-      fontSize: 22,
-      fontWeight: "900",
-      fill: color,
-      stroke: 0x000000,
-      strokeThickness: 4,
-      align: "center",
-      dropShadow: true,
-      dropShadowColor: 0x000000,
-      dropShadowDistance: 2
-    });
-    txt.anchor.set(0.5, 1.0);
-    txt.x = x;
-    txt.y = y;
-    floatingTextContainer.addChild(txt);
-    floatingTexts.push({
-      sprite: txt,
-      life: 0.9,
-      maxLife: 0.9,
-      vy: -55
-    });
+  function setCombatStatus(msg) {
+    if (combatStatusText) combatStatusText.textContent = msg;
   }
 
-  // Elementos do DOM da Batalha
-  const btlPlayerName = document.getElementById("btl-player-name");
-  const btlPlayerHpBar = document.getElementById("battle-player-hp-bar");
-  const btlPlayerHpText = document.getElementById("battle-player-hp-text");
-  const btlPlayerSpBar = document.getElementById("battle-player-sp-bar");
-  const btlPlayerSpText = document.getElementById("battle-player-sp-text");
-  const battleTurnBadge = document.getElementById("battle-turn-badge");
-  const battleTurnText = document.getElementById("battle-turn-text");
-  const btlMonsterName = document.getElementById("btl-monster-name");
-  const btlMonsterHpBar = document.getElementById("battle-monster-hp-bar");
-  const btlMonsterHpText = document.getElementById("battle-monster-hp-text");
-  const battleActionText = document.getElementById("battle-action-text");
-  const battleOverlay = document.getElementById("battle-overlay");
-  const battleResultModal = document.getElementById("battle-result-modal");
-  const battleResultTitle = document.getElementById("battle-result-title");
-  const battleResultDesc = document.getElementById("battle-result-desc");
-  const btnBattleFinish = document.getElementById("btn-battle-finish");
-  const btnBtlAttack = document.getElementById("btn-btl-attack");
-  const btnBtlSkill = document.getElementById("btn-btl-skill");
-  const btnBtlUltimate = document.getElementById("btn-btl-ultimate");
-  const btnBtlDefend = document.getElementById("btn-btl-defend");
-  const btnBtlAuto = document.getElementById("btn-btl-auto");
-  const btnBtlFlee = document.getElementById("btn-btl-flee");
-
-  function setBattleBanner(msg) {
-    if (battleActionText) battleActionText.textContent = msg;
-  }
-
-  function updateBattleHUD() {
-    if (!btlPlayerHpBar) return;
-    const pPct = Math.max(0, Math.min(100, (playerCombat.hp / playerCombat.maxHp) * 100));
-    const sPct = Math.max(0, Math.min(100, (playerCombat.sp / playerCombat.maxSp) * 100));
-    btlPlayerHpBar.style.width = `${pPct}%`;
-    btlPlayerHpText.textContent = `${playerCombat.hp} / ${playerCombat.maxHp}`;
-    btlPlayerSpBar.style.width = `${sPct}%`;
-    btlPlayerSpText.textContent = `${playerCombat.sp} / ${playerCombat.maxSp}`;
-    btlPlayerName.textContent = playerCombat.name;
-
-    const mPct = Math.max(0, Math.min(100, (monsterCombat.hp / monsterCombat.maxHp) * 100));
-    btlMonsterHpBar.style.width = `${mPct}%`;
-    btlMonsterHpText.textContent = `${monsterCombat.hp} / ${monsterCombat.maxHp}`;
-    btlMonsterName.textContent = monsterCombat.name;
-
-    if (battleTurn === "player") {
-      battleTurnBadge.className = "battle-turn-badge turn-player";
-      battleTurnText.textContent = "SEU TURNO";
-    } else if (battleTurn === "monster") {
-      battleTurnBadge.className = "battle-turn-badge turn-monster";
-      battleTurnText.textContent = "TURNO DO MONSTRO";
-    } else {
-      battleTurnBadge.className = "battle-turn-badge turn-animating";
-      battleTurnText.textContent = "EXECUTANDO...";
-    }
-
-    const isPlayerTurn = (battleTurn === "player");
-    document.querySelectorAll(".btl-btn").forEach(btn => {
-      if (btn.id === "btn-btl-auto") return;
-      btn.style.opacity = isPlayerTurn ? "1.0" : "0.45";
-      btn.style.pointerEvents = isPlayerTurn ? "auto" : "none";
-    });
-
-    if (btnBtlSkill && isPlayerTurn && playerCombat.sp < 40) {
-      btnBtlSkill.style.opacity = "0.4";
-    }
-    if (btnBtlUltimate && isPlayerTurn && playerCombat.sp < 80) {
-      btnBtlUltimate.style.opacity = "0.4";
-    }
-  }
-
-  function updateBattleVisuals(deltaSeconds) {
-    const sw = app.screen.width;
-    const sh = app.screen.height;
-
-    // Fundo escuro imersivo
-    battleDimBg.clear();
-    battleDimBg.beginFill(0x070b14, 0.82);
-    battleDimBg.drawRect(0, 0, sw, sh);
-    battleDimBg.endFill();
-
-    const arenaX = sw / 2;
-    const arenaY = sh * 0.54;
-    const arenaRadiusX = Math.min(sw * 0.42, 280);
-    const arenaRadiusY = Math.min(sh * 0.18, 90);
-
-    battleArenaFloor.clear();
-    battleArenaFloor.beginFill(0x131a29, 0.75);
-    battleArenaFloor.drawEllipse(arenaX, arenaY, arenaRadiusX, arenaRadiusY);
-    battleArenaFloor.endFill();
-
-    battleArenaFloor.lineStyle(2, 0x5e81ac, 0.65);
-    battleArenaFloor.drawEllipse(arenaX, arenaY, arenaRadiusX, arenaRadiusY);
-
-    battleArenaFloor.lineStyle(1.5, 0x88c0d0, 0.45);
-    battleArenaFloor.drawEllipse(arenaX, arenaY, arenaRadiusX * 0.68, arenaRadiusY * 0.68);
-    battleArenaFloor.drawEllipse(arenaX, arenaY, arenaRadiusX * 0.35, arenaRadiusY * 0.35);
-
-    let shakeX = 0;
-    let shakeY = 0;
-    if (battleShakeTimer > 0) {
-      battleShakeTimer -= deltaSeconds;
-      shakeX = (Math.random() - 0.5) * battleShakeIntensity;
-      shakeY = (Math.random() - 0.5) * battleShakeIntensity;
-    }
-
-    const pBaseX = arenaX - arenaRadiusX * 0.52 + shakeX;
-    const pBaseY = arenaY + 8 + shakeY;
-    const mBaseX = arenaX + arenaRadiusX * 0.52 + shakeX;
-    const mBaseY = arenaY + 8 + shakeY;
-
-    battlePlayerGroup.x = pBaseX + playerCombat.offsetX;
-    battlePlayerGroup.y = pBaseY + playerCombat.offsetY;
-
-    battleMonsterGroup.x = mBaseX + monsterCombat.offsetX;
-    battleMonsterGroup.y = mBaseY + monsterCombat.offsetY;
-
-    // Sprite do Jogador
-    const pAnimKey = `${playerCombat.dir}-${playerCombat.action}`;
-    let pFrames = activeManifest[pAnimKey] || activeManifest[`${playerCombat.dir}-0`] || activeManifest["0-0"];
-    if (pFrames && pFrames.length > 0) {
-      playerCombat.frameTimer += deltaSeconds;
-      if (playerCombat.frameTimer >= playerCombat.frameDuration) {
-        playerCombat.frameTimer = 0;
-        playerCombat.frameIdx = (playerCombat.frameIdx + 1) % pFrames.length;
-        if (playerCombat.action === 4) {
-          playerCombat.frameIdx = pFrames.length - 1;
-        }
-      }
-      const pFData = pFrames[playerCombat.frameIdx % pFrames.length];
-      const pTex = textureCache[pFData.file];
-      if (pTex) battlePlayerSprite.texture = pTex;
-    }
-
-    // Sprite do Monstro
-    const mAnimKey = `${monsterCombat.dir}-${monsterCombat.action}`;
-    let mFrames = monsterManifest.animations[mAnimKey] || monsterManifest.animations[`${monsterCombat.dir}-0`] || monsterManifest.animations["0-0"];
-    if (mFrames && mFrames.length > 0) {
-      monsterCombat.frameTimer += deltaSeconds;
-      if (monsterCombat.frameTimer >= monsterCombat.frameDuration) {
-        monsterCombat.frameTimer = 0;
-        monsterCombat.frameIdx = (monsterCombat.frameIdx + 1) % mFrames.length;
-        if (monsterCombat.action === 4) {
-          monsterCombat.frameIdx = mFrames.length - 1;
-        }
-      }
-      const mFData = mFrames[monsterCombat.frameIdx % mFrames.length];
-      const mTex = PIXI.Texture.from(mFData.file);
-      if (mTex) battleMonsterSprite.texture = mTex;
-    }
-
-    // Textos Flutuantes
-    for (let i = floatingTexts.length - 1; i >= 0; i--) {
-      const ft = floatingTexts[i];
-      ft.life -= deltaSeconds;
-      ft.sprite.y += ft.vy * deltaSeconds;
-      ft.sprite.alpha = Math.max(0, ft.life / ft.maxLife);
-      if (ft.life <= 0) {
-        floatingTextContainer.removeChild(ft.sprite);
-        floatingTexts.splice(i, 1);
-      }
-    }
-  }
-
-  // Executores de Ação
-  async function executePlayerAttack() {
-    if (battleTurn !== "player" || !isBattleActive) return;
-    battleTurn = "animating";
-    updateBattleHUD();
-    setBattleBanner("⚔️ O Guerreiro avança com um golpe cortante!");
-
-    playerCombat.action = 3; // Attack
-    playerCombat.frameIdx = 0;
-    playerCombat.offsetX = 35;
-
-    await new Promise(r => setTimeout(r, 260));
-
-    let damage = Math.floor(130 + Math.random() * 50);
-    if (monsterCombat.isDefending) {
-      damage = Math.floor(damage * 0.5);
-      monsterCombat.isDefending = false;
-      spawnDamageText(`🛡️ BLOQUEOU! -${damage}`, battleMonsterGroup.x, battleMonsterGroup.y - 65, 0x88c0d0);
-    } else {
-      const isCrit = Math.random() < 0.25;
-      if (isCrit) {
-        damage = Math.floor(damage * 1.5);
-        spawnDamageText(`💥 CRÍTICO! -${damage}`, battleMonsterGroup.x, battleMonsterGroup.y - 65, 0xff5555);
-      } else {
-        spawnDamageText(`-${damage}`, battleMonsterGroup.x, battleMonsterGroup.y - 65, 0xffe066);
-      }
-    }
-
-    monsterCombat.hp = Math.max(0, monsterCombat.hp - damage);
-    playerCombat.sp = Math.min(playerCombat.maxSp, playerCombat.sp + 15);
-    spawnDamageText(`+15 SP`, battlePlayerGroup.x, battlePlayerGroup.y - 65, 0x81a1c1);
-
-    monsterCombat.action = 5; // Hurt
-    monsterCombat.frameIdx = 0;
-    battleMonsterSprite.tint = 0xff6666;
-    battleShakeTimer = 0.25;
-    battleShakeIntensity = 6;
-    updateBattleHUD();
-
-    await new Promise(r => setTimeout(r, 280));
-    playerCombat.action = 0;
-    playerCombat.offsetX = 0;
-    battleMonsterSprite.tint = 0xffffff;
-
-    if (monsterCombat.hp <= 0) {
-      onBattleVictory();
-      return;
-    }
-
-    monsterCombat.action = 0;
-    await new Promise(r => setTimeout(r, 350));
-    executeMonsterTurn();
-  }
-
-  async function executePlayerSkill() {
-    if (battleTurn !== "player" || !isBattleActive) return;
-    if (playerCombat.sp < 40) {
-      setBattleBanner("⚠️ SP insuficiente para Magia! (Requer 40 SP)");
-      return;
-    }
-    battleTurn = "animating";
-    playerCombat.sp -= 40;
-    updateBattleHUD();
-    setBattleBanner("🔮 O Guerreiro conjura uma rajada de energia arcana!");
-
-    playerCombat.action = 7; // Magia / Cast
-    playerCombat.frameIdx = 0;
-
-    await new Promise(r => setTimeout(r, 350));
-
-    let damage = Math.floor(240 + Math.random() * 70);
-    if (monsterCombat.isDefending) {
-      damage = Math.floor(damage * 0.5);
-      monsterCombat.isDefending = false;
-      spawnDamageText(`🛡️ BLOQUEOU! -${damage}`, battleMonsterGroup.x, battleMonsterGroup.y - 65, 0x88c0d0);
-    } else {
-      spawnDamageText(`🔮 -${damage}`, battleMonsterGroup.x, battleMonsterGroup.y - 65, 0xb48ead);
-    }
-
-    monsterCombat.hp = Math.max(0, monsterCombat.hp - damage);
-    monsterCombat.action = 5;
-    monsterCombat.frameIdx = 0;
-    battleMonsterSprite.tint = 0xd08770;
-    battleShakeTimer = 0.35;
-    battleShakeIntensity = 8;
-    updateBattleHUD();
-
-    await new Promise(r => setTimeout(r, 350));
-    playerCombat.action = 0;
-    battleMonsterSprite.tint = 0xffffff;
-
-    if (monsterCombat.hp <= 0) {
-      onBattleVictory();
-      return;
-    }
-
-    monsterCombat.action = 0;
-    await new Promise(r => setTimeout(r, 350));
-    executeMonsterTurn();
-  }
-
-  async function executePlayerUltimate() {
-    if (battleTurn !== "player" || !isBattleActive) return;
-    if (playerCombat.sp < 80) {
-      setBattleBanner("⚠️ SP insuficiente para Suprema! (Requer 80 SP)");
-      return;
-    }
-    battleTurn = "animating";
-    playerCombat.sp -= 80;
-    updateBattleHUD();
-    setBattleBanner("⚡ HABILIDADE SUPREMA! Sequência devastadora de golpes!");
-
-    playerCombat.action = activeManifest[`${playerCombat.dir}-10`] ? 10 : 3;
-    playerCombat.frameIdx = 0;
-    playerCombat.frameDuration = 0.05;
-    playerCombat.offsetX = 45;
-
-    // Hit 1
-    await new Promise(r => setTimeout(r, 300));
-    let hit1 = Math.floor(140 + Math.random() * 30);
-    monsterCombat.hp = Math.max(0, monsterCombat.hp - hit1);
-    spawnDamageText(`⚡ -${hit1}`, battleMonsterGroup.x - 15, battleMonsterGroup.y - 70, 0xebcb8b);
-    battleMonsterSprite.tint = 0xebcb8b;
-    battleShakeTimer = 0.2;
-    battleShakeIntensity = 5;
-    updateBattleHUD();
-
-    // Hit 2
-    await new Promise(r => setTimeout(r, 260));
-    let hit2 = Math.floor(160 + Math.random() * 40);
-    monsterCombat.hp = Math.max(0, monsterCombat.hp - hit2);
-    spawnDamageText(`⚡ -${hit2}`, battleMonsterGroup.x + 15, battleMonsterGroup.y - 85, 0xebcb8b);
-    battleMonsterSprite.tint = 0xbf616a;
-    battleShakeTimer = 0.25;
-    battleShakeIntensity = 8;
-    updateBattleHUD();
-
-    // Finisher
-    await new Promise(r => setTimeout(r, 300));
-    let hitFinal = Math.floor(250 + Math.random() * 70);
-    monsterCombat.hp = Math.max(0, monsterCombat.hp - hitFinal);
-    spawnDamageText(`💥 GOLPE FINAL! -${hitFinal}`, battleMonsterGroup.x, battleMonsterGroup.y - 100, 0xff3333);
-    monsterCombat.action = 5;
-    monsterCombat.frameIdx = 0;
-    battleMonsterSprite.tint = 0xff2222;
-    battleShakeTimer = 0.5;
-    battleShakeIntensity = 15;
-    updateBattleHUD();
-
-    await new Promise(r => setTimeout(r, 450));
-    playerCombat.action = 0;
-    playerCombat.frameDuration = 0.08;
-    playerCombat.offsetX = 0;
-    battleMonsterSprite.tint = 0xffffff;
-
-    if (monsterCombat.hp <= 0) {
-      onBattleVictory();
-      return;
-    }
-
-    monsterCombat.action = 0;
-    await new Promise(r => setTimeout(r, 400));
-    executeMonsterTurn();
-  }
-
-  async function executePlayerDefend() {
-    if (battleTurn !== "player" || !isBattleActive) return;
-    battleTurn = "animating";
-    playerCombat.isDefending = true;
-    playerCombat.sp = Math.min(playerCombat.maxSp, playerCombat.sp + 35);
-    updateBattleHUD();
-    setBattleBanner("🛡️ O Guerreiro assume postura defensiva! Dano reduzido em 65%.");
-
-    playerCombat.action = 6; // Defend / Block
-    playerCombat.frameIdx = 0;
-    spawnDamageText(`+35 SP`, battlePlayerGroup.x, battlePlayerGroup.y - 65, 0x88c0d0);
-
-    await new Promise(r => setTimeout(r, 650));
-    executeMonsterTurn();
-  }
-
-  async function executeMonsterTurn() {
-    if (!isBattleActive || monsterCombat.hp <= 0) return;
-    battleTurn = "monster";
-    updateBattleHUD();
-
-    await new Promise(r => setTimeout(r, 450));
-
-    const roll = Math.random();
-    if (roll < 0.60) {
-      setBattleBanner("🍄 Cogumelo Selvagem avança com uma cabeçada veloz!");
-      monsterCombat.action = 3;
-      monsterCombat.frameIdx = 0;
-      monsterCombat.offsetX = -30;
-
-      await new Promise(r => setTimeout(r, 260));
-
-      let dmg = Math.floor(75 + Math.random() * 35);
-      if (playerCombat.isDefending) {
-        dmg = Math.floor(dmg * 0.35);
-        spawnDamageText(`🛡️ DEFESA! -${dmg}`, battlePlayerGroup.x, battlePlayerGroup.y - 65, 0x88c0d0);
-      } else {
-        spawnDamageText(`-${dmg}`, battlePlayerGroup.x, battlePlayerGroup.y - 65, 0xbf616a);
-      }
-
-      playerCombat.hp = Math.max(0, playerCombat.hp - dmg);
-      playerCombat.action = playerCombat.isDefending ? 6 : 5;
-      playerCombat.frameIdx = 0;
-      battlePlayerSprite.tint = 0xff7777;
-      battleShakeTimer = 0.2;
-      battleShakeIntensity = 5;
-      updateBattleHUD();
-
-      await new Promise(r => setTimeout(r, 320));
-      monsterCombat.action = 0;
-      monsterCombat.offsetX = 0;
-      battlePlayerSprite.tint = 0xffffff;
-      playerCombat.action = 0;
-    } else if (roll < 0.88) {
-      setBattleBanner("🍄 Cogumelo Selvagem espalha uma nuvem venenosa de esporos!");
-      monsterCombat.action = 7;
-      monsterCombat.frameIdx = 0;
-
-      await new Promise(r => setTimeout(r, 350));
-
-      let dmg = Math.floor(110 + Math.random() * 45);
-      if (playerCombat.isDefending) {
-        dmg = Math.floor(dmg * 0.40);
-        spawnDamageText(`🛡️ DEFESA! -${dmg}`, battlePlayerGroup.x, battlePlayerGroup.y - 65, 0xa3be8c);
-      } else {
-        spawnDamageText(`☠️ ESPOROS! -${dmg}`, battlePlayerGroup.x, battlePlayerGroup.y - 65, 0xa3be8c);
-      }
-
-      playerCombat.hp = Math.max(0, playerCombat.hp - dmg);
-      playerCombat.action = 5;
-      playerCombat.frameIdx = 0;
-      battlePlayerSprite.tint = 0xa3be8c;
-      battleShakeTimer = 0.3;
-      battleShakeIntensity = 7;
-      updateBattleHUD();
-
-      await new Promise(r => setTimeout(r, 350));
-      monsterCombat.action = 0;
-      battlePlayerSprite.tint = 0xffffff;
-      playerCombat.action = 0;
-    } else {
-      setBattleBanner("🍄 Cogumelo Selvagem endurece seu chapéu para resistir ao próximo golpe!");
-      monsterCombat.action = 6;
-      monsterCombat.frameIdx = 0;
-      monsterCombat.isDefending = true;
-      spawnDamageText(`🛡️ DEFESA`, battleMonsterGroup.x, battleMonsterGroup.y - 65, 0x88c0d0);
-
-      await new Promise(r => setTimeout(r, 600));
-      monsterCombat.action = 0;
-    }
-
-    playerCombat.isDefending = false;
-
-    if (playerCombat.hp <= 0) {
-      onBattleDefeat();
-      return;
-    }
-
-    battleTurn = "player";
-    updateBattleHUD();
-    setBattleBanner("Sua vez! Escolha seu comando.");
-
-    if (isAutoBattle && isBattleActive) {
-      setTimeout(() => {
-        if (battleTurn === "player" && isBattleActive) autoBattleStep();
-      }, 500);
-    }
-  }
-
-  function autoBattleStep() {
-    if (battleTurn !== "player" || !isBattleActive) return;
-    if (playerCombat.sp >= 80) {
-      executePlayerUltimate();
-    } else if (playerCombat.sp >= 40) {
-      executePlayerSkill();
-    } else {
-      executePlayerAttack();
-    }
-  }
-
-  function toggleAutoBattle() {
-    isAutoBattle = !isAutoBattle;
-    btnBtlAuto.classList.toggle("active", isAutoBattle);
-    if (isAutoBattle) {
-      setBattleBanner("🤖 Modo Automático ATIVADO! Lutando continuamente...");
-      if (battleTurn === "player") autoBattleStep();
-    } else {
-      setBattleBanner("🤖 Modo Automático DESATIVADO.");
-    }
-  }
-
-  async function executePlayerFlee() {
-    if (battleTurn !== "player" || !isBattleActive) return;
-    battleTurn = "animating";
-    updateBattleHUD();
-    setBattleBanner("🏃 Tentando fugir da batalha...");
-
-    playerCombat.dir = 6;
-    playerCombat.action = 2;
-    playerCombat.offsetX = -40;
-
-    await new Promise(r => setTimeout(r, 500));
-
-    if (Math.random() < 0.85) {
-      setBattleBanner("🏃 Você conseguiu escapar com sucesso!");
-      await new Promise(r => setTimeout(r, 600));
-      endBattle();
-    } else {
-      setBattleBanner("❌ Falha ao fugir! O Cogumelo bloqueou sua passagem!");
-      playerCombat.dir = 1;
-      playerCombat.action = 0;
-      playerCombat.offsetX = 0;
-      await new Promise(r => setTimeout(r, 600));
-      executeMonsterTurn();
-    }
-  }
-
-  function onBattleVictory() {
-    battleTurn = "animating";
-    monsterCombat.action = 4;
-    monsterCombat.frameIdx = 0;
-    setBattleBanner("🏆 VITÓRIA! O Cogumelo Selvagem foi derrotado!");
-    updateBattleHUD();
-
-    setTimeout(() => {
-      battleResultTitle.textContent = "🏆 VITÓRIA!";
-      battleResultTitle.style.color = "#a3be8c";
-      battleResultDesc.innerHTML = `Você derrotou o <strong>Cogumelo Selvagem</strong>!<br><span style="color: #ebcb8b;">+180 EXP obtidos</span> | <span style="color: #88c0d0;">+75 Moedas de Ouro</span>`;
-      battleResultModal.style.display = "flex";
-      battleResultModal.classList.remove("hidden");
-    }, 700);
-  }
-
-  function onBattleDefeat() {
-    battleTurn = "animating";
-    playerCombat.action = 4;
-    playerCombat.frameIdx = 0;
-    setBattleBanner("💀 DERROTA... O Cogumelo Selvagem superou suas defesas.");
-    updateBattleHUD();
-
-    setTimeout(() => {
-      battleResultTitle.textContent = "💀 DERROTA...";
-      battleResultTitle.style.color = "#bf616a";
-      battleResultDesc.innerHTML = `O <strong>Cogumelo Selvagem</strong> derrotou você em combate.<br>Descanse e recupere suas forças para tentar novamente!`;
-      battleResultModal.style.display = "flex";
-      battleResultModal.classList.remove("hidden");
-    }, 700);
-  }
-
-  function startBattle(monsterId = "mushroom") {
+  function openCombatTest() {
     closeDrawer();
     closeNpcDlg();
 
-    playerCombat.name = modelLabels[currentModel] || "Guerreiro";
-    playerCombat.hp = playerCombat.maxHp;
-    playerCombat.sp = playerCombat.maxSp;
-    playerCombat.dir = 1;
-    playerCombat.action = 0;
-    playerCombat.frameIdx = 0;
-    playerCombat.offsetX = 0;
-    playerCombat.isDefending = false;
-    battlePlayerSprite.tint = 0xffffff;
+    isCombatTesting = true;
+    player.targetX = null;
+    player.targetY = null;
+    targetMarker.visible = false;
 
-    monsterCombat.hp = monsterCombat.maxHp;
-    monsterCombat.dir = 7;
-    monsterCombat.action = 0;
-    monsterCombat.frameIdx = 0;
-    monsterCombat.offsetX = 0;
-    monsterCombat.isDefending = false;
-    battleMonsterSprite.tint = 0xffffff;
+    // Posiciona o jogador a 60px à esquerda do monstro
+    player.x = 1020;
+    player.y = 950;
+    playerContainer.x = player.x;
+    playerContainer.y = player.y;
 
-    floatingTexts.forEach(ft => floatingTextContainer.removeChild(ft.sprite));
-    floatingTexts.length = 0;
+    // Jogador olha para o leste (em direção ao monstro)
+    setDirection(2);
+    setAction(0);
 
-    isBattleActive = true;
-    battleTurn = "player";
-    isAutoBattle = false;
-    btnBtlAuto.classList.remove("active");
+    // Monstro olha para o oeste (em direção ao jogador)
+    monster.x = 1080;
+    monster.y = 950;
+    monster.offsetX = 0;
+    monster.offsetY = 0;
+    setMonsterDirection(6);
+    setMonsterAction(0);
 
-    battleOverlay.classList.remove("hidden");
-    battleOverlay.style.display = "flex";
-    battleResultModal.classList.add("hidden");
-    battleResultModal.style.display = "none";
-    battleContainer.visible = true;
+    // Foca câmera entre os dois combatentes
+    applyZoom(1.2);
+    updateCamera();
 
-    setBattleBanner("⚔️ A batalha começou! Selecione uma ação para atacar.");
-    updateBattleHUD();
+    if (combatTestPanel) combatTestPanel.classList.remove("hidden");
+    if (mobileActionBar) mobileActionBar.style.display = "none";
+    if (joystickContainer) joystickContainer.style.display = "none";
+
+    setCombatStatus("⚔️ Modo de Combate Ativo! Toque em uma ação abaixo ou ative o Sparring Contínuo.");
   }
 
-  function endBattle() {
-    isBattleActive = false;
-    isAutoBattle = false;
-    pendingBattleMonster = null;
-    btnBtlAuto.classList.remove("active");
-    battleOverlay.classList.add("hidden");
-    battleOverlay.style.display = "none";
-    battleResultModal.classList.add("hidden");
-    battleResultModal.style.display = "none";
-    battleContainer.visible = false;
+  function closeCombatTest() {
+    isCombatTesting = false;
+    stopSparring();
+    resetCombatPoses();
 
-    setAction(0);
-    setDirection(0);
-    updateHUD();
+    if (combatTestPanel) combatTestPanel.classList.add("hidden");
+    if (mobileActionBar) mobileActionBar.style.display = "";
+    if (joystickContainer) joystickContainer.style.display = "";
+
     updateCamera();
+  }
+
+  function resetCombatPoses() {
+    stopSparring();
+    setAction(0);
+    setMonsterAction(0);
+    playerContainer.x = player.x;
+    monster.offsetX = 0;
+    charSprite.tint = 0xffffff;
+    mapMonsterSprite.tint = 0xffffff;
+    setCombatStatus("🧍 Poses resetadas para Parado / Idle.");
+  }
+
+  // Ações do Jogador
+  async function testPlayerAttack() {
+    if (isActionExecuting) return;
+    isActionExecuting = true;
+    setCombatStatus("⚔️ Jogador avança com Golpe Físico (Ação 3)!");
+
+    setAction(3); // Golpe Físico
+    playerContainer.x = player.x + 18; // Avanço
+
+    await new Promise(r => setTimeout(r, 260));
+    setMonsterAction(5); // Hurt do Monstro
+    spawnCombatText("💥 GOLPE!", monster.x, monster.y - 65, 0xffe066);
+
+    await new Promise(r => setTimeout(r, 280));
+    playerContainer.x = player.x;
+    setAction(0);
+    setMonsterAction(0);
+    isActionExecuting = false;
+    setCombatStatus("Pronto para o próximo teste de ação.");
+  }
+
+  async function testPlayerSkill() {
+    if (isActionExecuting) return;
+    isActionExecuting = true;
+    setCombatStatus("🔮 Jogador conjura Magia Arcana (Ação 7)!");
+
+    setAction(7); // Magia
+
+    await new Promise(r => setTimeout(r, 350));
+    setMonsterAction(5); // Hurt do Monstro
+    spawnCombatText("🔮 MAGIA!", monster.x, monster.y - 65, 0xb48ead);
+
+    await new Promise(r => setTimeout(r, 350));
+    setAction(0);
+    setMonsterAction(0);
+    isActionExecuting = false;
+    setCombatStatus("Pronto para o próximo teste de ação.");
+  }
+
+  async function testPlayerUltimate() {
+    if (isActionExecuting) return;
+    isActionExecuting = true;
+    setCombatStatus("⚡ Jogador executa Habilidade Suprema (Ação 10: 32 frames)!");
+
+    setAction(activeManifest[`${player.dir}-10`] ? 10 : 3);
+    player.frameDuration = 0.05;
+    playerContainer.x = player.x + 22;
+
+    await new Promise(r => setTimeout(r, 280));
+    spawnCombatText("⚡ COMBO!", monster.x, monster.y - 70, 0xebcb8b);
+
+    await new Promise(r => setTimeout(r, 280));
+    spawnCombatText("⚡ HIT 2!", monster.x, monster.y - 80, 0xebcb8b);
+
+    await new Promise(r => setTimeout(r, 320));
+    setMonsterAction(5);
+    spawnCombatText("💥 FINALIZADOR!", monster.x, monster.y - 90, 0xff3333);
+
+    await new Promise(r => setTimeout(r, 450));
+    player.frameDuration = 0.08;
+    playerContainer.x = player.x;
+    setAction(0);
+    setMonsterAction(0);
+    isActionExecuting = false;
+    setCombatStatus("Pronto para o próximo teste de ação.");
+  }
+
+  function testPlayerDefend() {
+    setCombatStatus("🛡️ Jogador assume Postura de Guarda / Defesa (Ação 6)!");
+    setAction(6);
+    spawnCombatText("🛡️ GUARDA", player.x, player.y - 70, 0x88c0d0);
+  }
+
+  function testPlayerHurt() {
+    setCombatStatus("💥 Jogador executando animação de Tomar Dano (Ação 5)!");
+    setAction(5);
+    spawnCombatText("💥 DANO", player.x, player.y - 70, 0xbf616a);
+  }
+
+  function testPlayerDead() {
+    setCombatStatus("💀 Jogador caído no chão (Ação 4)! Toque em 'Resetar Poses' para levantar.");
+    setAction(4);
+    spawnCombatText("💀 CAÍDO", player.x, player.y - 35, 0xbf616a);
+  }
+
+  // Ações do Monstro
+  async function testMonsterAttack() {
+    if (isActionExecuting) return;
+    isActionExecuting = true;
+    setCombatStatus("🍄 Cogumelo avança com Cabeçada (Ação 3)!");
+
+    setMonsterAction(3); // Ataque
+    monster.offsetX = -18; // Avanço
+
+    await new Promise(r => setTimeout(r, 260));
+    if (player.action === 6) {
+      spawnCombatText("🛡️ BLOQUEADO!", player.x, player.y - 70, 0x88c0d0);
+    } else {
+      setAction(5); // Hurt do Jogador
+      spawnCombatText("🍄 CABEÇADA!", player.x, player.y - 70, 0xbf616a);
+    }
+
+    await new Promise(r => setTimeout(r, 300));
+    monster.offsetX = 0;
+    setMonsterAction(0);
+    if (player.action === 5) setAction(0);
+    isActionExecuting = false;
+    setCombatStatus("Pronto para o próximo teste de ação.");
+  }
+
+  async function testMonsterSkill() {
+    if (isActionExecuting) return;
+    isActionExecuting = true;
+    setCombatStatus("☠️ Cogumelo libera Nuvem de Esporos (Ação 7)!");
+
+    setMonsterAction(7); // Magia
+
+    await new Promise(r => setTimeout(r, 350));
+    setAction(5); // Hurt do Jogador
+    charSprite.tint = 0x86efac;
+    spawnCombatText("☠️ ESPOROS!", player.x, player.y - 70, 0xa3be8c);
+
+    await new Promise(r => setTimeout(r, 380));
+    setMonsterAction(0);
+    setAction(0);
+    charSprite.tint = 0xffffff;
+    isActionExecuting = false;
+    setCombatStatus("Pronto para o próximo teste de ação.");
+  }
+
+  function testMonsterDefend() {
+    setCombatStatus("🛡️ Cogumelo endurece sua cúpula (Ação 6)!");
+    setMonsterAction(6);
+    spawnCombatText("🛡️ DEFESA", monster.x, monster.y - 65, 0x88c0d0);
+  }
+
+  function testMonsterHurt() {
+    setCombatStatus("💥 Cogumelo executando animação de Tomar Dano (Ação 5)!");
+    setMonsterAction(5);
+    spawnCombatText("💥 DANO", monster.x, monster.y - 65, 0xff5555);
+  }
+
+  function testMonsterDead() {
+    setCombatStatus("💀 Cogumelo derrotado e caído no chão (Ação 4)! Toque em 'Resetar Poses' para levantar.");
+    setMonsterAction(4);
+    spawnCombatText("💀 CAÍDO", monster.x, monster.y - 35, 0xff5555);
+  }
+
+  // Sparring em Loop (Duelo Contínuo sem interrupções)
+  function stopSparring() {
+    sparringLoopActive = false;
+    if (sparringTimer) {
+      clearTimeout(sparringTimer);
+      sparringTimer = null;
+    }
+    const btnSpar = document.getElementById("btn-combat-sparring");
+    if (btnSpar) btnSpar.classList.remove("active");
+  }
+
+  function toggleSparring() {
+    sparringLoopActive = !sparringLoopActive;
+    const btnSpar = document.getElementById("btn-combat-sparring");
+    if (btnSpar) btnSpar.classList.toggle("active", sparringLoopActive);
+
+    if (sparringLoopActive) {
+      setCombatStatus("🔄 Sparring Contínuo ATIVADO! Trocando golpes em loop...");
+      sparringStep = 0;
+      runSparringStep();
+    } else {
+      stopSparring();
+      resetCombatPoses();
+    }
+  }
+
+  async function runSparringStep() {
+    if (!sparringLoopActive || !isCombatTesting) return;
+
+    if (sparringStep === 0) {
+      await testPlayerAttack();
+    } else if (sparringStep === 1) {
+      await testMonsterAttack();
+    } else if (sparringStep === 2) {
+      await testPlayerSkill();
+    } else if (sparringStep === 3) {
+      await testMonsterSkill();
+    } else if (sparringStep === 4) {
+      await testPlayerUltimate();
+    } else if (sparringStep === 5) {
+      await testMonsterAttack();
+    }
+
+    sparringStep = (sparringStep + 1) % 6;
+
+    if (sparringLoopActive && isCombatTesting) {
+      sparringTimer = setTimeout(() => {
+        runSparringStep();
+      }, 700);
+    }
   }
 
   // 14. Game Loop Principal
@@ -1368,9 +1068,11 @@ async function initGame() {
       frameCount = 0;
     }
 
-    // Se estiver em Batalha, anima a arena e pausa o mapa
-    if (isBattleActive) {
-      updateBattleVisuals(deltaSeconds);
+    // Se estiver em modo de teste de combate no mapa
+    if (isCombatTesting) {
+      updatePlayerVisual(deltaSeconds);
+      updateMonsterVisual(deltaSeconds);
+      updateCombatTexts(deltaSeconds);
       return;
     }
 
@@ -1472,6 +1174,8 @@ async function initGame() {
     entitiesContainer.sortChildren();
 
     updatePlayerVisual(deltaSeconds);
+    updateMonsterVisual(deltaSeconds);
+    updateCombatTexts(deltaSeconds);
     updateCamera();
   });
 
@@ -1664,20 +1368,44 @@ async function initGame() {
     }
   };
 
-  // Botões de Ação na Tela de Batalha
-  if (btnBtlAttack) btnBtlAttack.onclick = executePlayerAttack;
-  if (btnBtlSkill) btnBtlSkill.onclick = executePlayerSkill;
-  if (btnBtlUltimate) btnBtlUltimate.onclick = executePlayerUltimate;
-  if (btnBtlDefend) btnBtlDefend.onclick = executePlayerDefend;
-  if (btnBtlAuto) btnBtlAuto.onclick = toggleAutoBattle;
-  if (btnBtlFlee) btnBtlFlee.onclick = executePlayerFlee;
-  if (btnBattleFinish) btnBattleFinish.onclick = endBattle;
+  // Botões do Painel de Teste de Combate
+  const btnCloseCombat = document.getElementById("btn-close-combat-test");
+  if (btnCloseCombat) btnCloseCombat.onclick = closeCombatTest;
+
+  const btnPAtk = document.getElementById("test-p-attack");
+  if (btnPAtk) btnPAtk.onclick = testPlayerAttack;
+  const btnPSkl = document.getElementById("test-p-skill");
+  if (btnPSkl) btnPSkl.onclick = testPlayerSkill;
+  const btnPUlt = document.getElementById("test-p-ultimate");
+  if (btnPUlt) btnPUlt.onclick = testPlayerUltimate;
+  const btnPDef = document.getElementById("test-p-defend");
+  if (btnPDef) btnPDef.onclick = testPlayerDefend;
+  const btnPHrt = document.getElementById("test-p-hurt");
+  if (btnPHrt) btnPHrt.onclick = testPlayerHurt;
+  const btnPDed = document.getElementById("test-p-dead");
+  if (btnPDed) btnPDed.onclick = testPlayerDead;
+
+  const btnMAtk = document.getElementById("test-m-attack");
+  if (btnMAtk) btnMAtk.onclick = testMonsterAttack;
+  const btnMSkl = document.getElementById("test-m-skill");
+  if (btnMSkl) btnMSkl.onclick = testMonsterSkill;
+  const btnMDef = document.getElementById("test-m-defend");
+  if (btnMDef) btnMDef.onclick = testMonsterDefend;
+  const btnMHrt = document.getElementById("test-m-hurt");
+  if (btnMHrt) btnMHrt.onclick = testMonsterHurt;
+  const btnMDed = document.getElementById("test-m-dead");
+  if (btnMDed) btnMDed.onclick = testMonsterDead;
+
+  const btnSpar = document.getElementById("btn-combat-sparring");
+  if (btnSpar) btnSpar.onclick = toggleSparring;
+  const btnResetCombat = document.getElementById("btn-combat-reset");
+  if (btnResetCombat) btnResetCombat.onclick = resetCombatPoses;
 
   const btnDrawerBattle = document.getElementById("btn-drawer-battle");
   if (btnDrawerBattle) {
     btnDrawerBattle.onclick = () => {
       closeDrawer();
-      startBattle("mushroom");
+      openCombatTest();
     };
   }
 
@@ -1690,6 +1418,7 @@ async function initGame() {
   // Expor para debug e inspeção
   window.game = {
     player,
+    monster,
     isWalkable,
     canStand,
     teleportTo,
@@ -1698,11 +1427,15 @@ async function initGame() {
     npcsData,
     npcList,
     showNPCDialog,
-    startBattle,
-    endBattle,
-    isBattleActive: () => isBattleActive,
-    playerCombat,
-    monsterCombat
+    openCombatTest,
+    closeCombatTest,
+    isCombatTesting: () => isCombatTesting,
+    testPlayerAttack,
+    testPlayerSkill,
+    testPlayerUltimate,
+    testMonsterAttack,
+    testMonsterSkill,
+    toggleSparring
   };
 
   console.log("Magic Campus Mobile Engine inicializado com sucesso!");

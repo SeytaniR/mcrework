@@ -36,23 +36,26 @@ Um projeto moderno de recriação e migração de engine para o clássico MMORPG
   * 🔮 **Mago Base** (`PC_MALE_000002` - 8 ações com animações de cajado)
   * 🐎 **Pose de Montaria** (`PC_MALE_100001` - postura montada)
 
-### 👾 Monstros & Simulador de Batalha em Turnos (*Turn-Based Combat*)
-* **Monstro no Mapa 1:** `Cogumelo Selvagem [Nv. 5]` (*Nấm Đồng Cỏ* / `NPC_CRE_000015.swf`), extraído com precisão dos arquivos SWF de criaturas originais, renderizado no mapa com sombra suave e animação de respiração contínua em escala proporcional (`scale = 0.70`).
-* **Entrada em Combate Interativa:** Toque no monstro no mapa para o personagem se aproximar e iniciar a batalha simulada instantaneamente (ou pelo botão de teste rápido no menu lateral).
-* **Arena de Combate 2.5D Autêntica:** Piso tático arcano, dimming cinematográfico e posicionamento clássico de combate do Magic Campus (Jogador à esquerda virado em direção 1/Sudeste, Monstro à direita virado em direção 7/Sudoeste).
-* **Ações de Combate do Jogador:**
-  * `⚔️ Ataque`: Golpe físico veloz com avanço dinâmico e recuperação de energia (+15 SP).
-  * `🔮 Magia`: Rajada arcana elemental de alto impacto (custo: 40 SP).
-  * `⚡ Suprema`: Combo devastador de 32 frames completos com tremor de arena e finalizador crítico (custo: 80 SP).
-  * `🛡️ Defender`: Postura defensiva que reduz o dano do próximo golpe sofrido em 65% e recupera +35 SP.
-  * `🤖 Auto`: Modo de combate contínuo e inteligente que escolhe automaticamente os melhores ataques até a vitória.
-  * `🏃 Fugir`: Chance de retirar-se do combate e voltar com segurança para o mapa.
-* **IA do Monstro e Reações:**
-  * Ataque físico com cabeçada rápida (Ação 3).
-  * Magia de esporos venenosos em área (Ação 7).
-  * Endurecimento de cúpula defensiva (Ação 6).
-  * Flash avermelhado de impacto ao levar dano (Ação 5) e animação de derrota/caído no chão (Ação 4).
-* **HUD e Feedback Visual:** Barras de vida e mana com porcentagens em tempo real, números flutuantes de dano e cura (*Floating Damage Texts*), narrador de combate e modal de vitória com ganhos de EXP e Moedas de Ouro.
+### 👾 Monstros & Teste de Animações em Combate (Direto no Mapa)
+* **Monstro no Mapa 1:** `Cogumelo Selvagem [Nv. 5]` (*Nấm Đồng Cỏ* / `NPC_CRE_000015.swf`), extraído com precisão dos arquivos SWF de criaturas originais, renderizado diretamente no mapa com sombra suave e animação de respiração contínua em escala proporcional (`scale = 0.70`).
+* **Engajamento Direto no Mapa:** Ao clicar no monstro (ou via botão do menu lateral), o personagem corre até ele e ambos ficam frente a frente no próprio mapa para testar as animações sem telas separadas ou barras de HP que encerram a sessão.
+* **Painel de Teste de Animações de Combate:**
+  * **Animações do Jogador:**
+    * `⚔️ Golpe`: Golpe físico cortante (Ação 3) com avanço e impacto no monstro.
+    * `🔮 Magia`: Rajada arcana (Ação 7) com efeito visual de conjuração.
+    * `⚡ Suprema`: Sequência completa de 32 frames (Ação 10) com múltiplos hits e finalizador.
+    * `🛡️ Guarda`: Postura de bloqueio e defesa (Ação 6).
+    * `💥 Dano`: Reação de impacto / hurt (Ação 5) com flash avermelhado.
+    * `💀 Caído`: Animação de derrotado / caído no chão (Ação 4).
+  * **Animações do Monstro:**
+    * `🍄 Cabeçada`: Ataque físico com avanço frontal (Ação 3).
+    * `☠️ Esporos`: Magia de liberação de nuvem tóxica de esporos (Ação 7).
+    * `🛡️ Defesa`: Postura de cúpula endurecida (Ação 6).
+    * `💥 Dano`: Reação de impacto / hurt (Ação 5) com flash vermelho.
+    * `💀 Caído`: Animação de derrotado / caído no chão (Ação 4).
+* **🔄 Sparring Contínuo (Loop Infinito):** Modo que faz os combatentes trocarem golpes e reações continuamente em loop sem limite de vida, ideal para apreciar a fluidez das animações combinadas.
+* **Textos Flutuantes de Combate:** Textos animados estilizados sobre os personagens (`💥 GOLPE!`, `🔮 MAGIA!`, `⚡ COMBO!`, `☠️ ESPOROS!`, `🛡️ DEFESA!`).
+* **Sem Interrupções:** Não há telas de "fim de batalha" bloqueando os testes; você pode alternar livremente entre ações e sair para andar pelo mapa quando quiser.
 
 ### 📱 Interface Mobile-First
 * **Joystick Analógico Virtual:** Toque dinâmico e resposta vetorial precisa.

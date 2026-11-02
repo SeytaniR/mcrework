@@ -242,14 +242,14 @@ O script cuidará automaticamente da descompressão Zlib, extração de bitmaps,
 
 ---
 
-## 9. Sistema de Combate em Turnos (Battle Simulator)
+## 9. Sistema de Teste de Animações em Combate (Direto no Mapa)
 
-O simulador de batalha foi construído seguindo o layout tático 2.5D clássico do Magic Campus:
+Para validar a fluidez e a sincronia entre as animações do jogador e do monstro, foi implementado um sistema de teste direto no mapa 2.5D:
 1. **Posicionamento e Orientação das Entidades:**
-   * **Jogador (Lado Esquerdo):** Renderizado virado para a Direção 1 (Sudeste / Frente-Direita), apontando diretamente para o oponente.
-   * **Monstro (Lado Direito):** Renderizado virado para a Direção 7 (Sudoeste / Frente-Esquerda), encarando o jogador.
-2. **Loop de Batalha Assíncrono:**
-   * O loop de renderização do mapa (`world`) é pausado enquanto `isBattleActive` for verdadeiro, ativando `updateBattleVisuals()` a 60 FPS dentro de `battleContainer`.
-   * Os ataques executam animações coordenadas (avanço de sprite via `offsetX`, impacto com flash `tint`, screen shake, criação de texto de dano flutuante e retorno à pose de Idle).
-3. **Modo Automático (*Auto Battle*):**
-   * Avalia dinamicamente os pontos de SP do jogador para encadear a Habilidade Suprema (32 frames, custo 80 SP), Magia Elemental (custo 40 SP) ou Ataque Físico comum (+15 SP), alternando turnos com a IA do monstro com intervalos naturais de legibilidade visual (~500ms).
+   * **Jogador:** Posicionado a 60px à esquerda do monstro (`X: 1020, Y: 950`), virado para Direção 2 (Leste) encarando o monstro.
+   * **Monstro:** Posicionado em `(X: 1080, Y: 950)`, virado para Direção 6 (Oeste) encarando o jogador.
+2. **Disparo Direto de Animações:**
+   * O painel permite disparar individualmente cada animação de combate do jogador (Golpe, Magia, Suprema 32f, Guarda, Dano, Caído) e do monstro (Cabeçada, Esporos, Defesa, Dano, Caído).
+   * Os ataques executam animações coordenadas com avanço no eixo X, flash de impacto no alvo e retorno suave ao estado de Idle.
+3. **Modo Sparring Contínuo (Loop Infinito):**
+   * Alterna golpes e reações continuamente em loop sem restrição de turnos ou barras de vida, permitindo inspecionar a cadência visual das ações em tempo real.
