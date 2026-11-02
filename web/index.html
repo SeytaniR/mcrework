@@ -15,31 +15,36 @@
 
   <!-- Barra Superior Mobile (Compact HUD) -->
   <header id="mobile-top-bar">
-    <div class="top-info">
-      <div class="game-badge">
-        <span class="logo-icon">⚔️</span>
-        <div class="title-group">
-          <span class="game-name">Magic Campus</span>
-          <span class="map-name">Xuất Vân Thôn (#1)</span>
-        </div>
+    <!-- Esquerda: Logo & Mapa -->
+    <div class="game-badge">
+      <span class="logo-icon">⚔️</span>
+      <div class="title-group">
+        <span class="game-name">Magic Campus</span>
+        <span class="map-name">Xuất Vân Thôn (#1)</span>
       </div>
-      <div class="status-pills">
+      <div class="status-pills desktop-only-pills">
         <div class="pill" id="pill-pos">📍 <span id="pos-display">1000, 1000</span></div>
         <div class="pill" id="pill-dir">🧭 <span id="dir-display">0 (Sul)</span></div>
-        <div class="pill fps-pill" id="pill-fps">60 FPS</div>
-      </div>
-      <div class="top-nav-buttons">
-        <button id="btn-open-classes-modal" class="nav-pill-btn nav-classes" title="Provador de Classes (46 Visuais)">
-          <span class="nav-icon">🧙</span>
-          <span class="nav-txt">Classes (46)</span>
-        </button>
-        <button id="btn-open-monsters-modal" class="nav-pill-btn nav-monsters" title="Bestiário de Monstros (543 Criaturas)">
-          <span class="nav-icon">👾</span>
-          <span class="nav-txt">Monstros (543)</span>
-        </button>
       </div>
     </div>
-    <button id="btn-toggle-menu" class="icon-btn" aria-label="Abrir Menu">⚙️</button>
+
+    <!-- Centro: Ações Principais (Classes & Monstros) -->
+    <div class="top-center-actions">
+      <button id="btn-open-classes-modal" class="nav-pill-btn nav-classes" title="Provador de Classes (46 Visuais)">
+        <span class="nav-icon">🧙</span>
+        <span class="nav-txt">Classes <span class="nav-count">46</span></span>
+      </button>
+      <button id="btn-open-monsters-modal" class="nav-pill-btn nav-monsters" title="Bestiário de Monstros (543 Criaturas)">
+        <span class="nav-icon">👾</span>
+        <span class="nav-txt">Monstros <span class="nav-count">543</span></span>
+      </button>
+    </div>
+
+    <!-- Direita: Status e Ajustes -->
+    <div class="top-right-group">
+      <div class="pill fps-pill" id="pill-fps">60 FPS</div>
+      <button id="btn-toggle-menu" class="icon-btn" aria-label="Abrir Menu">⚙️</button>
+    </div>
   </header>
 
   <!-- Joystick Virtual Analógico (Canto Inferior Esquerdo) -->

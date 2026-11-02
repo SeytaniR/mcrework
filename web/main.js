@@ -612,18 +612,26 @@ async function initGame() {
   function updateHUD() {
     const px = Math.round(player.x);
     const py = Math.round(player.y);
-    posDisplay.innerText = `${px}, ${py}`;
-    dirDisplay.innerText = dirNames[player.dir] || player.dir;
+    if (posDisplay) posDisplay.innerText = `${px}, ${py}`;
+    if (dirDisplay) dirDisplay.innerText = dirNames[player.dir] || player.dir;
 
-    drawerPos.innerText = `X: ${px} | Y: ${py}`;
-    drawerDir.innerText = dirNames[player.dir] || player.dir;
+    if (drawerPos) drawerPos.innerText = `X: ${px} | Y: ${py}`;
+    if (drawerDir) drawerDir.innerText = dirNames[player.dir] || player.dir;
+
     const animKey = `${player.dir}-${player.action}`;
-    const totalFrames = activeManifest[animKey]?.length || 1;
-    drawerAnim.innerText = `${animKey} [${player.frameIdx + 1}/${totalFrames}] - ${actionNames[player.action] || 'Ação'}`;
+    let totalFrames = 1;
+    if (currentSpritesheet && currentSpritesheet.animations && currentSpritesheet.animations[animKey]) {
+      totalFrames = currentSpritesheet.animations[animKey].length;
+    } else if (activeManifest && activeManifest[animKey]) {
+      totalFrames = activeManifest[animKey].length;
+    }
+    if (drawerAnim) drawerAnim.innerText = `${animKey} [${player.frameIdx + 1}/${totalFrames}] - ${actionNames[player.action] || 'Ação'}`;
 
     const walkable = canStand(player.x, player.y);
-    drawerWalkable.innerText = walkable ? "LIVRE (Walkable)" : "BLOQUEADO!";
-    drawerWalkable.style.color = walkable ? "#a3be8c" : "#bf616a";
+    if (drawerWalkable) {
+      drawerWalkable.innerText = walkable ? "LIVRE (Walkable)" : "BLOQUEADO!";
+      drawerWalkable.style.color = walkable ? "#a3be8c" : "#bf616a";
+    }
   }
 
   function setAction(newAction) {
@@ -1559,19 +1567,27 @@ async function initGame() {
 
       const actsText = c.actions && c.actions.includes(10) ? "⚡ 11 Ações (com Suprema 32f)" : `${c.actions ? c.actions.length : 8} Ações`;
 
+      const thumbUrl = c.thumb || `assets/characters/${c.id}/thumb.webp`;
       return `
         <div class="asset-card ${isAct ? 'active-item' : ''}" data-class-id="${c.id}">
-          <div class="card-top-row">
-            <h4 class="card-title">${c.name}</h4>
-          </div>
-          <div class="card-badges">
-            ${genderBadge}
-            ${tierBadge}
-          </div>
-          <div class="card-meta-text">
-            <span><strong>ID:</strong> ${c.id}</span>
-            <span><strong>Animações:</strong> ${actsText}</span>
-            <span><strong>Tamanho:</strong> ${c.width}x${c.height}px (${c.atlas_size_kb} KB)</span>
+          <div class="asset-card-inner">
+            <div class="asset-thumb-wrapper">
+              <img src="${thumbUrl}" alt="${c.name}" class="asset-thumb" loading="lazy" />
+            </div>
+            <div class="asset-details">
+              <div class="card-top-row">
+                <h4 class="card-title">${c.name}</h4>
+              </div>
+              <div class="card-badges">
+                ${genderBadge}
+                ${tierBadge}
+              </div>
+              <div class="card-meta-text">
+                <span><strong>ID:</strong> ${c.id}</span>
+                <span><strong>Ações:</strong> ${actsText}</span>
+                <span><strong>Tamanho:</strong> ${c.width}x${c.height}px</span>
+              </div>
+            </div>
           </div>
           <button class="card-btn-action" data-equip-class="${c.id}">
             ${isAct ? '✓ EQUIPADO' : '🎮 EQUIPAR ESTA CLASSE'}
@@ -1609,19 +1625,27 @@ async function initGame() {
     monstersGrid.innerHTML = filtered.map(m => {
       const isAct = currentMonsterId === m.id;
       const lvl = m.db_id ? (parseInt(m.db_id) % 85 + 5) : 5;
+      const thumbUrl = m.thumb || `assets/monsters/${m.id}/thumb.webp`;
       return `
         <div class="asset-card ${isAct ? 'active-item' : ''}" data-mon-id="${m.id}">
-          <div class="card-top-row">
-            <h4 class="card-title">👾 ${m.name}</h4>
-          </div>
-          <div class="card-badges">
-            <span class="badge badge-tier1">NV. ${lvl}</span>
-            <span class="badge badge-mount">${m.actions ? m.actions.length : 8} AÇÕES</span>
-          </div>
-          <div class="card-meta-text">
-            <span><strong>ID:</strong> ${m.id} ${m.db_id ? `(DB: ${m.db_id})` : ''}</span>
-            <span><strong>ResCode:</strong> ${m.res_code_num}</span>
-            <span><strong>Tamanho:</strong> ${m.width}x${m.height}px (${m.atlas_size_kb} KB)</span>
+          <div class="asset-card-inner">
+            <div class="asset-thumb-wrapper mon-thumb-bg">
+              <img src="${thumbUrl}" alt="${m.name}" class="asset-thumb" loading="lazy" />
+            </div>
+            <div class="asset-details">
+              <div class="card-top-row">
+                <h4 class="card-title">👾 ${m.name}</h4>
+              </div>
+              <div class="card-badges">
+                <span class="badge badge-tier1">NV. ${lvl}</span>
+                <span class="badge badge-mount">${m.actions ? m.actions.length : 8} AÇÕES</span>
+              </div>
+              <div class="card-meta-text">
+                <span><strong>ID:</strong> ${m.id} ${m.db_id ? `(DB: ${m.db_id})` : ''}</span>
+                <span><strong>ResCode:</strong> ${m.res_code_num}</span>
+                <span><strong>Tamanho:</strong> ${m.width}x${m.height}px</span>
+              </div>
+            </div>
           </div>
           <button class="card-btn-action btn-mon" data-fight-mon="${m.id}">
             ${isAct ? '⚔️ LUTANDO AGORA' : '⚔️ ENFRENTAR NO MAPA'}
