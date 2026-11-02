@@ -254,85 +254,98 @@
     </div>
   </div>
 
-  <!-- Tela / Simulador de Batalha (Turn-Based Combat) -->
-  <div id="battle-overlay" class="battle-overlay hidden">
-    <!-- Top HUD da Batalha: Barras de Vida e Nomes -->
-    <div class="battle-top-hud">
-      <!-- Lado Jogador -->
-      <div class="battle-entity-card player-card">
-        <div class="entity-header">
-          <span class="entity-badge player-badge">JOGADOR</span>
-          <span class="entity-name" id="btl-player-name">Guerreiro Evoluído</span>
-        </div>
-        <div class="bar-container hp-bar">
-          <div id="battle-player-hp-bar" class="bar-fill hp-fill" style="width: 100%;"></div>
-          <span id="battle-player-hp-text" class="bar-text">1000 / 1000</span>
-        </div>
-        <div class="bar-container sp-bar">
-          <div id="battle-player-sp-bar" class="bar-fill sp-fill" style="width: 100%;"></div>
-          <span id="battle-player-sp-text" class="bar-text">250 / 250</span>
-        </div>
+  <!-- Painel de Teste de Animações em Combate (Mobile-First) -->
+  <div id="combat-test-panel" class="combat-test-panel hidden">
+    <!-- Header com Banner e Botão Fechar -->
+    <div class="combat-test-header">
+      <div class="combat-badge-group">
+        <span class="combat-badge">⚔️ COMBATE MAPA 1</span>
+        <span class="combat-sub">Guerreiro vs Cogumelo Selvagem</span>
       </div>
-
-      <!-- Turno / Status Central -->
-      <div class="battle-turn-badge" id="battle-turn-badge">
-        <span id="battle-turn-text">SEU TURNO</span>
-      </div>
-
-      <!-- Lado Monstro -->
-      <div class="battle-entity-card monster-card">
-        <div class="entity-header">
-          <span class="entity-name" id="btl-monster-name">Cogumelo Selvagem</span>
-          <span class="entity-badge monster-badge">NV. 5</span>
-        </div>
-        <div class="bar-container hp-bar">
-          <div id="battle-monster-hp-bar" class="bar-fill monster-hp-fill" style="width: 100%;"></div>
-          <span id="battle-monster-hp-text" class="bar-text">600 / 600</span>
-        </div>
-      </div>
+      <button id="btn-close-combat-test" class="btn-close-combat" title="Encerrar Modo de Combate e Voltar ao Mapa">✕ Sair do Combate</button>
     </div>
 
-    <!-- Banner Flutuante de Narrativa da Ação -->
-    <div id="battle-action-banner" class="battle-action-banner">
-      <span id="battle-action-text">Selecione uma ação para atacar!</span>
+    <!-- Status da Animação em Execução -->
+    <div class="combat-status-bar">
+      <span id="combat-status-text">Toque em qualquer ação abaixo para testar as animações do Jogador e do Monstro!</span>
     </div>
 
-    <!-- Controles de Ação na Barra Inferior Mobile -->
-    <div class="battle-bottom-hud">
-      <div class="battle-actions-grid">
-        <button id="btn-btl-attack" class="btl-btn btn-btl-attack" title="Ataque Físico (Ação 3)">
-          <span class="btl-icon">⚔️</span>
-          <span class="btl-label">Ataque</span>
-        </button>
-        <button id="btn-btl-skill" class="btl-btn btn-btl-skill" title="Magia / Conjuração (Ação 7)">
-          <span class="btl-icon">🔮</span>
-          <span class="btl-label">Magia</span>
-        </button>
-        <button id="btn-btl-ultimate" class="btl-btn btn-btl-ultimate" title="Habilidade Suprema (Ação 10)">
-          <span class="btl-icon">⚡</span>
-          <span class="btl-label">Suprema</span>
-        </button>
-        <button id="btn-btl-defend" class="btl-btn btn-btl-defend" title="Postura Defensiva (Ação 6)">
-          <span class="btl-icon">🛡️</span>
-          <span class="btl-label">Defender</span>
-        </button>
-        <button id="btn-btl-auto" class="btl-btn btn-btl-auto" title="Simulação Automática Contínua">
-          <span class="btl-icon">🤖</span>
-          <span class="btl-label">Auto</span>
-        </button>
-        <button id="btn-btl-flee" class="btl-btn btn-btl-flee" title="Fugir da Batalha">
-          <span class="btl-icon">🏃</span>
-          <span class="btl-label">Fugir</span>
-        </button>
+    <!-- Controles das Animações -->
+    <div class="combat-controls-body">
+      <!-- Grupo 1: Animações do Jogador -->
+      <div class="combat-row-group">
+        <div class="group-title">
+          <span class="dot-player"></span>
+          <strong>Jogador (Guerreiro):</strong>
+        </div>
+        <div class="combat-actions-grid player-grid">
+          <button id="test-p-attack" class="c-btn btn-p-atk" title="Ação 3: Golpe Físico com avanço">
+            <span class="c-icon">⚔️</span>
+            <span class="c-txt">Golpe</span>
+          </button>
+          <button id="test-p-skill" class="c-btn btn-p-skl" title="Ação 7: Magia Arcana">
+            <span class="c-icon">🔮</span>
+            <span class="c-txt">Magia</span>
+          </button>
+          <button id="test-p-ultimate" class="c-btn btn-p-ult" title="Ação 10: Habilidade Suprema 32 frames">
+            <span class="c-icon">⚡</span>
+            <span class="c-txt">Suprema</span>
+          </button>
+          <button id="test-p-defend" class="c-btn btn-p-def" title="Ação 6: Defesa / Bloqueio">
+            <span class="c-icon">🛡️</span>
+            <span class="c-txt">Guarda</span>
+          </button>
+          <button id="test-p-hurt" class="c-btn btn-p-hrt" title="Ação 5: Tomando Dano / Hurt">
+            <span class="c-icon">💥</span>
+            <span class="c-txt">Dano</span>
+          </button>
+          <button id="test-p-dead" class="c-btn btn-p-ded" title="Ação 4: Derrotado / Caído">
+            <span class="c-icon">💀</span>
+            <span class="c-txt">Caído</span>
+          </button>
+        </div>
       </div>
-    </div>
 
-    <!-- Modal de Resultado (Vitória ou Derrota) -->
-    <div id="battle-result-modal" class="battle-result-modal hidden">
-      <div class="result-card">
-        <h2 id="battle-result-title">🏆 VITÓRIA!</h2>
-        <p id="battle-result-desc">Você derrotou o Cogumelo Selvagem!<br>+150 EXP obtidos | +60 Ouro</p>
-        <button id="btn-battle-finish" class="btn-primary" style="margin-top: 14px; width: 100%; padding: 12px; font-size: 14px; font-weight: 700;">Voltar ao Mapa</button>
+      <!-- Grupo 2: Animações do Monstro (Cogumelo) -->
+      <div class="combat-row-group">
+        <div class="group-title">
+          <span class="dot-monster"></span>
+          <strong>Monstro (Cogumelo Selvagem):</strong>
+        </div>
+        <div class="combat-actions-grid monster-grid">
+          <button id="test-m-attack" class="c-btn btn-m-atk" title="Ação 3: Cabeçada com avanço">
+            <span class="c-icon">🍄</span>
+            <span class="c-txt">Cabeçada</span>
+          </button>
+          <button id="test-m-skill" class="c-btn btn-m-skl" title="Ação 7: Nuvem de Esporos">
+            <span class="c-icon">☠️</span>
+            <span class="c-txt">Esporos</span>
+          </button>
+          <button id="test-m-defend" class="c-btn btn-m-def" title="Ação 6: Cúpula Endurecida">
+            <span class="c-icon">🛡️</span>
+            <span class="c-txt">Defesa</span>
+          </button>
+          <button id="test-m-hurt" class="c-btn btn-m-hrt" title="Ação 5: Tomando Dano / Hurt">
+            <span class="c-icon">💥</span>
+            <span class="c-txt">Dano</span>
+          </button>
+          <button id="test-m-dead" class="c-btn btn-m-ded" title="Ação 4: Derrotado / Caído">
+            <span class="c-icon">💀</span>
+            <span class="c-txt">Caído</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Barra de Ações Especiais: Sparring em Loop & Reset -->
+      <div class="combat-special-bar">
+        <button id="btn-combat-sparring" class="c-special-btn btn-sparring" title="Duelo Contínuo sem interrupções">
+          <span class="spar-icon">🔄</span>
+          <span class="spar-txt">Duelo Contínuo (Sparring em Loop)</span>
+        </button>
+        <button id="btn-combat-reset" class="c-special-btn btn-reset" title="Voltar ambos à pose Parado (0)">
+          <span class="spar-icon">🧍</span>
+          <span class="spar-txt">Resetar Poses</span>
+        </button>
       </div>
     </div>
   </div>

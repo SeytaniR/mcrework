@@ -755,294 +755,280 @@ body, html {
 
 
 /* ==========================================================================
-   TELA & SIMULADOR DE BATALHA (BATTLE OVERLAY & HUD)
+   Painel de Teste de Animações em Combate (Direto no Mapa)
    ========================================================================== */
-.battle-overlay {
+.combat-test-panel {
   position: fixed;
-  inset: 0;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(540px, 98vw);
+  background: rgba(18, 22, 32, 0.94);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-bottom: none;
+  border-radius: 18px 18px 0 0;
+  box-shadow: 0 -8px 32px rgba(0, 0, 0, 0.7);
   z-index: 100;
-  pointer-events: none;
+  padding: 12px 14px 14px 14px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  padding: 12px 12px 14px 12px;
-  animation: fadeIn 0.3s ease-out;
+  gap: 10px;
+  animation: slideUp 0.25s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-.battle-overlay.hidden {
+.combat-test-panel.hidden {
   display: none !important;
 }
 
-@keyframes fadeIn {
-  from { opacity: 0; transform: scale(1.02); }
-  to { opacity: 1; transform: scale(1); }
+@keyframes slideUp {
+  from { transform: translate(-50%, 100%); opacity: 0; }
+  to { transform: translate(-50%, 0); opacity: 1; }
 }
 
-/* Top HUD: Status Cards */
-.battle-top-hud {
-  display: grid;
-  grid-template-columns: 1fr auto 1fr;
-  align-items: center;
-  gap: 8px;
-  pointer-events: auto;
-}
-
-.battle-entity-card {
-  background: rgba(20, 24, 33, 0.88);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
-  border-radius: 10px;
-  padding: 8px 10px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
-}
-
-.player-card {
-  border: 1px solid rgba(136, 192, 208, 0.4);
-}
-
-.monster-card {
-  border: 1px solid rgba(191, 97, 106, 0.4);
-  text-align: right;
-}
-
-.entity-header {
+.combat-test-header {
   display: flex;
   align-items: center;
-  gap: 6px;
-  margin-bottom: 6px;
-}
-.monster-card .entity-header {
-  justify-content: flex-end;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  padding-bottom: 8px;
 }
 
-.entity-name {
+.combat-badge-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.combat-badge {
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.6px;
+  color: #ebcb8b;
+  background: rgba(235, 203, 139, 0.18);
+  border: 1px solid rgba(235, 203, 139, 0.4);
+  padding: 2px 7px;
+  border-radius: 4px;
+}
+
+.combat-sub {
+  font-size: 11px;
+  color: #d8dee9;
+  font-weight: 600;
+}
+
+.btn-close-combat {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  color: #eceff4;
   font-size: 11px;
   font-weight: 700;
-  color: #eceff4;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.entity-badge {
-  font-size: 9px;
-  font-weight: 800;
-  padding: 1px 5px;
-  border-radius: 3px;
-  letter-spacing: 0.5px;
-}
-
-.player-badge {
-  background: rgba(136, 192, 208, 0.2);
-  color: #88c0d0;
-  border: 1px solid rgba(136, 192, 208, 0.4);
-}
-
-.monster-badge {
-  background: rgba(191, 97, 106, 0.25);
-  color: #bf616a;
-  border: 1px solid rgba(191, 97, 106, 0.4);
-}
-
-/* Barras de HP / SP */
-.bar-container {
-  position: relative;
-  height: 12px;
-  background: rgba(0, 0, 0, 0.6);
+  padding: 4px 10px;
   border-radius: 6px;
-  overflow: hidden;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  margin-bottom: 3px;
+  cursor: pointer;
+  transition: all 0.15s ease;
 }
 
-.bar-fill {
-  height: 100%;
-  transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+.btn-close-combat:active {
+  background: rgba(191, 97, 106, 0.3);
+  border-color: #bf616a;
 }
 
-.hp-fill {
-  background: linear-gradient(90deg, #a3be8c, #8fbcbb);
-}
-
-.monster-hp-fill {
-  background: linear-gradient(90deg, #bf616a, #d08770);
-}
-
-.sp-fill {
-  background: linear-gradient(90deg, #81a1c1, #5e81ac);
-}
-
-.bar-text {
-  position: absolute;
-  inset: 0;
+/* Status Bar */
+.combat-status-bar {
+  background: rgba(0, 0, 0, 0.35);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 8px;
+  padding: 6px 10px;
+  font-size: 11.5px;
+  color: #88c0d0;
+  font-weight: 600;
+  text-align: center;
+  min-height: 28px;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 8.5px;
-  font-weight: 800;
-  color: #fff;
-  text-shadow: 0 1px 2px #000;
 }
 
-/* Turn Badge Central */
-.battle-turn-badge {
-  background: rgba(0, 0, 0, 0.7);
-  border: 1px solid rgba(235, 203, 139, 0.5);
-  border-radius: 20px;
-  padding: 4px 10px;
-  font-size: 10px;
-  font-weight: 800;
-  color: #ebcb8b;
-  text-align: center;
-  letter-spacing: 0.8px;
-  box-shadow: 0 0 10px rgba(235, 203, 139, 0.3);
+.combat-controls-body {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
-/* Banner de Ação */
-.battle-action-banner {
-  align-self: center;
-  background: rgba(15, 20, 28, 0.9);
-  border: 1px solid rgba(235, 203, 139, 0.4);
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.7);
-  border-radius: 30px;
-  padding: 8px 18px;
-  pointer-events: auto;
-  transition: all 0.2s ease;
-  margin-top: 10px;
+.combat-row-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
 
-#battle-action-text {
-  font-size: 13px;
-  font-weight: 700;
-  color: #ebcb8b;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
-}
-
-/* Barra de Ações Inferior Mobile */
-.battle-bottom-hud {
-  pointer-events: auto;
-  width: 100%;
-  max-width: 500px;
-  align-self: center;
-}
-
-.battle-actions-grid {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
+.group-title {
+  display: flex;
+  align-items: center;
   gap: 6px;
-  background: rgba(18, 22, 31, 0.92);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  border-radius: 14px;
-  padding: 8px;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
+  font-size: 11px;
+  color: #eceff4;
 }
 
-.btl-btn {
+.dot-player {
+  width: 7px;
+  height: 7px;
+  background: #a3be8c;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot-monster {
+  width: 7px;
+  height: 7px;
+  background: #bf616a;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.combat-actions-grid {
+  display: grid;
+  gap: 5px;
+}
+
+.player-grid {
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.monster-grid {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.c-btn {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   background: rgba(255, 255, 255, 0.05);
   border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 10px;
-  padding: 8px 2px;
+  border-radius: 8px;
+  padding: 6px 2px;
   cursor: pointer;
   color: #eceff4;
-  transition: all 0.15s ease;
-  min-height: 52px;
+  transition: all 0.12s ease;
+  min-height: 44px;
 }
 
-.btl-btn:active {
-  transform: scale(0.94);
+.c-btn:active {
+  transform: scale(0.92);
 }
 
-.btl-btn:disabled {
-  opacity: 0.4;
-  cursor: not-allowed;
-  pointer-events: none;
-}
-
-.btl-icon {
-  font-size: 18px;
+.c-icon {
+  font-size: 15px;
   margin-bottom: 2px;
 }
 
-.btl-label {
-  font-size: 9.5px;
+.c-txt {
+  font-size: 9px;
   font-weight: 700;
   letter-spacing: 0.2px;
 }
 
-.btn-btl-attack {
-  border-color: rgba(191, 97, 106, 0.5);
-  background: rgba(191, 97, 106, 0.15);
+/* Botões do Jogador */
+.btn-p-atk {
+  border-color: rgba(235, 203, 139, 0.45);
+  background: rgba(235, 203, 139, 0.12);
 }
-.btn-btl-attack:active {
-  background: rgba(191, 97, 106, 0.3);
+.btn-p-atk:active { background: rgba(235, 203, 139, 0.3); }
+
+.btn-p-skl {
+  border-color: rgba(180, 142, 173, 0.45);
+  background: rgba(180, 142, 173, 0.12);
 }
 
-.btn-btl-skill {
-  border-color: rgba(180, 142, 173, 0.5);
-  background: rgba(180, 142, 173, 0.15);
-}
-
-.btn-btl-ultimate {
-  border-color: rgba(235, 203, 139, 0.6);
-  background: rgba(235, 203, 139, 0.2);
-}
-
-.btn-btl-defend {
-  border-color: rgba(136, 192, 208, 0.5);
+.btn-p-ult {
+  border-color: rgba(136, 192, 208, 0.55);
   background: rgba(136, 192, 208, 0.15);
 }
 
-.btn-btl-auto.active {
-  border-color: #ebcb8b;
-  background: rgba(235, 203, 139, 0.35);
-  box-shadow: 0 0 10px rgba(235, 203, 139, 0.4);
+.btn-p-def {
+  border-color: rgba(94, 129, 172, 0.45);
+  background: rgba(94, 129, 172, 0.12);
 }
 
-.battle-result-modal.hidden {
-  display: none !important;
+.btn-p-hrt {
+  border-color: rgba(208, 135, 112, 0.45);
+  background: rgba(208, 135, 112, 0.12);
 }
 
-/* Modal de Resultado */
-.battle-result-modal {
-  position: absolute;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.75);
-  backdrop-filter: blur(6px);
-  -webkit-backdrop-filter: blur(6px);
+.btn-p-ded {
+  border-color: rgba(191, 97, 106, 0.45);
+  background: rgba(191, 97, 106, 0.12);
+}
+
+/* Botões do Monstro */
+.btn-m-atk {
+  border-color: rgba(191, 97, 106, 0.45);
+  background: rgba(191, 97, 106, 0.15);
+}
+.btn-m-atk:active { background: rgba(191, 97, 106, 0.3); }
+
+.btn-m-skl {
+  border-color: rgba(163, 190, 140, 0.45);
+  background: rgba(163, 190, 140, 0.15);
+}
+
+.btn-m-def {
+  border-color: rgba(94, 129, 172, 0.45);
+  background: rgba(94, 129, 172, 0.12);
+}
+
+.btn-m-hrt {
+  border-color: rgba(208, 135, 112, 0.45);
+  background: rgba(208, 135, 112, 0.12);
+}
+
+.btn-m-ded {
+  border-color: rgba(191, 97, 106, 0.45);
+  background: rgba(191, 97, 106, 0.12);
+}
+
+/* Barra Especial: Sparring & Reset */
+.combat-special-bar {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 6px;
+  margin-top: 2px;
+}
+
+.c-special-btn {
   display: flex;
   align-items: center;
   justify-content: center;
-  pointer-events: auto;
-  z-index: 110;
-  animation: fadeIn 0.25s ease-out;
+  gap: 6px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 11.5px;
+  font-weight: 700;
+  transition: all 0.15s ease;
 }
 
-.result-card {
-  background: rgba(26, 31, 44, 0.96);
-  border: 1px solid rgba(235, 203, 139, 0.5);
-  border-radius: 16px;
-  padding: 24px 20px;
-  text-align: center;
-  max-width: 320px;
-  width: calc(100% - 40px);
-  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.8), 0 0 20px rgba(235, 203, 139, 0.2);
+.btn-sparring {
+  background: rgba(136, 192, 208, 0.12);
+  border: 1px solid rgba(136, 192, 208, 0.35);
+  color: #88c0d0;
 }
 
-.result-card h2 {
-  font-size: 20px;
+.btn-sparring.active {
+  background: rgba(235, 203, 139, 0.28);
+  border-color: #ebcb8b;
   color: #ebcb8b;
-  margin: 0 0 8px 0;
+  box-shadow: 0 0 12px rgba(235, 203, 139, 0.35);
 }
 
-.result-card p {
-  font-size: 13px;
-  line-height: 1.5;
-  color: #d8dee9;
-  margin: 0 0 16px 0;
+.btn-reset {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  color: #eceff4;
+}
+
+.btn-reset:active {
+  background: rgba(255, 255, 255, 0.15);
 }
