@@ -14,14 +14,22 @@ async function initGame() {
   });
   container.appendChild(app.view);
 
-  // 2. Carregar Metadados do Mapa e Monstro
-  const [npcsData, masksData, colArrayBuffer, monsterMeta, monsterSheet] = await Promise.all([
+  // 2. Carregar Metadados do Mapa, Monstro e Catálogos (Spritesheets WebP)
+  const [npcsData, masksData, colArrayBuffer, initialMonsterMeta, initialMonsterSheet, classesCatalogData, monstersCatalogData] = await Promise.all([
     fetch("assets/map1/npcs.json").then(r => r.json()),
     fetch("assets/map1/masks.json").then(r => r.json()),
     fetch("assets/map1/collision.bin").then(r => r.arrayBuffer()),
     fetch("assets/monsters/mushroom/visual_meta.json").then(r => r.json()),
-    PIXI.Assets.load("assets/monsters/mushroom/atlas.json")
+    PIXI.Assets.load("assets/monsters/mushroom/atlas.json"),
+    fetch("assets/characters/catalog.json").then(r => r.json()).catch(() => ({ total_classes: 0, classes: [] })),
+    fetch("assets/monsters/catalog.json").then(r => r.json()).catch(() => ({ total_monsters: 0, monsters: [] }))
   ]);
+
+  let monsterMeta = initialMonsterMeta;
+  let monsterSheet = initialMonsterSheet;
+  let currentMonsterId = "mushroom";
+  let currentSpritesheet = null;
+  let currentMeta = null;
 
   // 3. Malha de Colisão Binária (Uint8Array de 388.683 bytes, 2031x1531)
   const colBytes = new Uint8Array(colArrayBuffer);
@@ -279,6 +287,43 @@ async function initGame() {
     monster.frameTimer = 0;
   }
 
+  async function setMapMonster(monsterId, customMeta = null) {
+    currentMonsterId = monsterId;
+    console.log(`Carregando monstro ${monsterId}...`);
+
+    let metaPath = `assets/monsters/${monsterId}/visual_meta.json`;
+    let atlasPath = `assets/monsters/${monsterId}/atlas.json`;
+
+    try {
+      const [newMeta, newSheet] = await Promise.all([
+        customMeta ? Promise.resolve(customMeta) : fetch(metaPath).then(r => r.json()),
+        PIXI.Assets.load(atlasPath)
+      ]);
+
+      monsterMeta = newMeta;
+      monsterSheet = newSheet;
+
+      const lvl = newMeta.db_id ? (parseInt(newMeta.db_id) % 85 + 5) : 5;
+      mapMonsterName.text = `⚔️ ${newMeta.name} [Nv. ${lvl}]`;
+      mapMonsterName.y = - Math.round(newMeta.height * 0.70) - 4;
+
+      const cbVersus = document.getElementById("combat-versus-text");
+      if (cbVersus) {
+        cbVersus.textContent = `${playerName.text} vs ${newMeta.name}`;
+      }
+
+      setMonsterAction(0);
+      spawnCombatText(`👾 Monstro: ${newMeta.name}!`, monster.x, monster.y - 60, 0xff7777);
+
+      document.querySelectorAll(".mon-quick-btn").forEach(b => {
+        b.classList.toggle("active", b.dataset.monster === monsterId);
+      });
+      console.log(`Monstro ${newMeta.name} ativado com sucesso!`);
+    } catch(err) {
+      console.error(`Erro ao carregar monstro ${monsterId}:`, err);
+    }
+  }
+
   function updateMonsterVisual(deltaSeconds) {
     const animKey = `${monster.dir}-${monster.action}`;
     let animFrames = (monsterSheet.animations && monsterSheet.animations[animKey]) ||
@@ -428,39 +473,77 @@ async function initGame() {
     "char_mount": "Montaria (Pose)"
   };
 
-  async function setCharacterModel(modelId) {
+  async function setCharacterModel(modelId, metaInfo = null) {
     currentModel = modelId;
-    playerName.text = modelLabels[modelId] || "Personagem";
-    console.log(`Carregando animações do modelo ${modelId}...`);
-    activeManifest = await fetch(`assets/${modelId}/char_manifest.json`).then(r => r.json());
+    console.log(`Carregando modelo de personagem ${modelId}...`);
 
-    const loadPromises = [];
-    for (const animKey in activeManifest) {
-      for (const frameInfo of activeManifest[animKey]) {
-        if (!textureCache[frameInfo.file]) {
-          loadPromises.push(
-            PIXI.Assets.load(frameInfo.file).then(tex => {
-              textureCache[frameInfo.file] = tex;
-            })
-          );
+    if (modelId.startsWith("PC_")) {
+      try {
+        const [sheet, meta] = await Promise.all([
+          PIXI.Assets.load(`assets/characters/${modelId}/atlas.json`),
+          metaInfo ? Promise.resolve(metaInfo) : fetch(`assets/characters/${modelId}/visual_meta.json`).then(r => r.json())
+        ]);
+        currentSpritesheet = sheet;
+        currentMeta = meta;
+
+        playerName.text = meta.name || modelId;
+        playerName.y = - Math.round(meta.height * 0.70) - 8;
+
+        const acts = meta.actions || [];
+        const has8 = acts.includes(8);
+        const has9 = acts.includes(9);
+        const has10 = acts.includes(10);
+        const btn8 = document.getElementById("btn-act8");
+        const btn9 = document.getElementById("btn-act9");
+        const btn10 = document.getElementById("btn-act10");
+        const btnUlt = document.getElementById("btn-act-ultimate");
+        if (btn8) btn8.style.display = has8 ? "block" : "none";
+        if (btn9) btn9.style.display = has9 ? "block" : "none";
+        if (btn10) btn10.style.display = has10 ? "block" : "none";
+        if (btnUlt) btnUlt.style.display = has10 ? "flex" : "none";
+
+        const cbVersus = document.getElementById("combat-versus-text");
+        if (cbVersus && monsterMeta) {
+          cbVersus.textContent = `${meta.name} vs ${monsterMeta.name}`;
+        }
+
+        spawnCombatText(`✨ Classe: ${meta.name}!`, player.x, player.y - 60, 0xebcb8b);
+      } catch(e) {
+        console.error(`Erro ao carregar classe ${modelId}:`, e);
+      }
+    } else {
+      currentSpritesheet = null;
+      currentMeta = null;
+      playerName.text = modelLabels[modelId] || "Personagem";
+      playerName.y = -70;
+      activeManifest = await fetch(`assets/${modelId}/char_manifest.json`).then(r => r.json());
+
+      const loadPromises = [];
+      for (const animKey in activeManifest) {
+        for (const frameInfo of activeManifest[animKey]) {
+          if (!textureCache[frameInfo.file]) {
+            loadPromises.push(
+              PIXI.Assets.load(frameInfo.file).then(tex => {
+                textureCache[frameInfo.file] = tex;
+              })
+            );
+          }
         }
       }
-    }
-    await Promise.all(loadPromises);
-    console.log(`Modelo ${modelId} pronto com ${Object.keys(activeManifest).length} animações!`);
+      await Promise.all(loadPromises);
 
-    // Atualizar visibilidade dos botões de ações 8, 9, 10 conforme disponibilidade no modelo
-    const has8 = !!activeManifest[`0-8`];
-    const has9 = !!activeManifest[`0-9`];
-    const has10 = !!activeManifest[`0-10`];
-    const btn8 = document.getElementById("btn-act8");
-    const btn9 = document.getElementById("btn-act9");
-    const btn10 = document.getElementById("btn-act10");
-    const btnUlt = document.getElementById("btn-act-ultimate");
-    if (btn8) btn8.style.display = has8 ? "block" : "none";
-    if (btn9) btn9.style.display = has9 ? "block" : "none";
-    if (btn10) btn10.style.display = has10 ? "block" : "none";
-    if (btnUlt) btnUlt.style.display = has10 ? "flex" : "none";
+      const has8 = !!activeManifest[`0-8`];
+      const has9 = !!activeManifest[`0-9`];
+      const has10 = !!activeManifest[`0-10`];
+      const btn8 = document.getElementById("btn-act8");
+      const btn9 = document.getElementById("btn-act9");
+      const btn10 = document.getElementById("btn-act10");
+      const btnUlt = document.getElementById("btn-act-ultimate");
+      if (btn8) btn8.style.display = has8 ? "block" : "none";
+      if (btn9) btn9.style.display = has9 ? "block" : "none";
+      if (btn10) btn10.style.display = has10 ? "block" : "none";
+      if (btnUlt) btnUlt.style.display = has10 ? "flex" : "none";
+    }
 
     document.querySelectorAll(".model-btn").forEach(b => {
       b.classList.toggle("active", b.dataset.model === modelId);
@@ -600,10 +683,19 @@ async function initGame() {
   // alinhamento com a sombra e nome sob qualquer direção e ação.
   function updatePlayerVisual(deltaSeconds) {
     const animKey = `${player.dir}-${player.action}`;
-    let animFrames = activeManifest[animKey];
+    let animFrames = null;
+    let isSpritesheet = false;
 
-    if (!animFrames || animFrames.length === 0) {
-      animFrames = activeManifest[`${player.dir}-0`] || activeManifest["0-0"];
+    if (currentSpritesheet && currentSpritesheet.animations) {
+      animFrames = currentSpritesheet.animations[animKey] ||
+                   currentSpritesheet.animations[`${player.dir}-0`] ||
+                   currentSpritesheet.animations["0-0"];
+      isSpritesheet = true;
+    } else if (activeManifest) {
+      animFrames = activeManifest[animKey] ||
+                   activeManifest[`${player.dir}-0`] ||
+                   activeManifest["0-0"];
+      isSpritesheet = false;
     }
 
     if (!animFrames || animFrames.length === 0) return;
@@ -613,24 +705,30 @@ async function initGame() {
       player.frameTimer = 0;
       player.frameIdx = (player.frameIdx + 1) % animFrames.length;
 
-      // Ação 4 (Morto): trava no chão
       if (player.action === 4) {
-        player.frameIdx = 0;
-      }
-      // Ações pontuais (3: Ataque, 5: Dano, 6: Defesa, 7: Magia): ao completar voltam a Parado (0)
-      else if (player.action >= 3 && player.frameIdx === 0) {
+        player.frameIdx = animFrames.length - 1;
+      } else if (player.action >= 3 && player.frameIdx === 0) {
         setAction(0);
         return;
       }
       updateHUD();
     }
 
-    const currentFrameData = animFrames[player.frameIdx % animFrames.length];
-    const tex = textureCache[currentFrameData.file];
-    if (tex) {
-      charSprite.texture = tex;
-      charSprite.anchor.set(0.5, 110 / 150);
-      charSprite.position.set(0, 0);
+    if (isSpritesheet) {
+      const tex = animFrames[player.frameIdx % animFrames.length];
+      if (tex) {
+        charSprite.texture = tex;
+        charSprite.anchor.set(0.5, 1.0);
+        charSprite.position.set(0, 0);
+      }
+    } else {
+      const currentFrameData = animFrames[player.frameIdx % animFrames.length];
+      const tex = textureCache[currentFrameData.file];
+      if (tex) {
+        charSprite.texture = tex;
+        charSprite.anchor.set(0.5, 110 / 150);
+        charSprite.position.set(0, 0);
+      }
     }
   }
 
@@ -1412,13 +1510,232 @@ async function initGame() {
   }
 
   // Inicializar com o Guerreiro Evoluído (Tier 2 - Ações 0 a 10)
-  await setCharacterModel("char11");
+  await setCharacterModel("PC_MALE_000011");
 
   updateHUD();
   updateCamera();
 
+  // ==========================================
+  // MODAIS DE CATALOGO (CLASSES & MONSTROS)
+  // ==========================================
+  const modalClasses = document.getElementById("modal-classes");
+  const modalMonsters = document.getElementById("modal-monsters");
+  const classesGrid = document.getElementById("classes-grid-container");
+  const monstersGrid = document.getElementById("monsters-grid-container");
+  const classesSearchInput = document.getElementById("classes-search-input");
+  const monstersSearchInput = document.getElementById("monsters-search-input");
+
+  let classesList = classesCatalogData.classes || [];
+  let monstersList = monstersCatalogData.monsters || [];
+
+  let selectedClassFilter = "all";
+  let selectedMonFilter = "all";
+
+  function renderClassesGrid() {
+    if (!classesGrid) return;
+    const q = (classesSearchInput ? classesSearchInput.value : "").trim().toLowerCase();
+
+    const filtered = classesList.filter(c => {
+      if (selectedClassFilter === "male" && c.gender !== "MALE") return false;
+      if (selectedClassFilter === "female" && c.gender !== "FEMALE") return false;
+      if (selectedClassFilter === "tier1" && c.tier !== 1) return false;
+      if (selectedClassFilter === "tier2" && c.tier !== 2) return false;
+      if (selectedClassFilter === "costume" && c.tier !== "costume") return false;
+      if (selectedClassFilter === "mount" && c.tier !== "mount") return false;
+      if (q) {
+        const str = `${c.name} ${c.id} ${c.gender} tier${c.tier}`.toLowerCase();
+        if (!str.includes(q)) return false;
+      }
+      return true;
+    });
+
+    classesGrid.innerHTML = filtered.map(c => {
+      const isAct = currentModel === c.id;
+      const genderBadge = c.gender === "MALE" ? `<span class="badge badge-male">♂ MASCULINO</span>` : `<span class="badge badge-female">♀ FEMININO</span>`;
+      let tierBadge = `<span class="badge badge-tier1">TIER 1</span>`;
+      if (c.tier === 2) tierBadge = `<span class="badge badge-tier2">⚡ TIER 2 (11 AÇÕES)</span>`;
+      else if (c.tier === "costume") tierBadge = `<span class="badge badge-costume">👑 COSTUME</span>`;
+      else if (c.tier === "mount") tierBadge = `<span class="badge badge-mount">🐎 MONTARIA</span>`;
+
+      const actsText = c.actions && c.actions.includes(10) ? "⚡ 11 Ações (com Suprema 32f)" : `${c.actions ? c.actions.length : 8} Ações`;
+
+      return `
+        <div class="asset-card ${isAct ? 'active-item' : ''}" data-class-id="${c.id}">
+          <div class="card-top-row">
+            <h4 class="card-title">${c.name}</h4>
+          </div>
+          <div class="card-badges">
+            ${genderBadge}
+            ${tierBadge}
+          </div>
+          <div class="card-meta-text">
+            <span><strong>ID:</strong> ${c.id}</span>
+            <span><strong>Animações:</strong> ${actsText}</span>
+            <span><strong>Tamanho:</strong> ${c.width}x${c.height}px (${c.atlas_size_kb} KB)</span>
+          </div>
+          <button class="card-btn-action" data-equip-class="${c.id}">
+            ${isAct ? '✓ EQUIPADO' : '🎮 EQUIPAR ESTA CLASSE'}
+          </button>
+        </div>
+      `;
+    }).join("");
+
+    classesGrid.querySelectorAll("[data-equip-class]").forEach(btn => {
+      btn.addEventListener("click", async (e) => {
+        e.stopPropagation();
+        const cid = btn.dataset.equipClass;
+        const targetMeta = classesList.find(x => x.id === cid);
+        await setCharacterModel(cid, targetMeta);
+        renderClassesGrid();
+        if (modalClasses) modalClasses.classList.add("hidden");
+      });
+    });
+  }
+
+  function renderMonstersGrid() {
+    if (!monstersGrid) return;
+    const q = (monstersSearchInput ? monstersSearchInput.value : "").trim().toLowerCase();
+
+    const filtered = monstersList.filter(m => {
+      if (selectedMonFilter === "named" && m.name.startsWith("Criatura #")) return false;
+      if (selectedMonFilter === "boss" && (!m.db_id || parseInt(m.db_id) < 100)) return false;
+      if (q) {
+        const str = `${m.name} ${m.id} ${m.db_id || ''} ${m.res_code_num}`.toLowerCase();
+        if (!str.includes(q)) return false;
+      }
+      return true;
+    }).slice(0, 150);
+
+    monstersGrid.innerHTML = filtered.map(m => {
+      const isAct = currentMonsterId === m.id;
+      const lvl = m.db_id ? (parseInt(m.db_id) % 85 + 5) : 5;
+      return `
+        <div class="asset-card ${isAct ? 'active-item' : ''}" data-mon-id="${m.id}">
+          <div class="card-top-row">
+            <h4 class="card-title">👾 ${m.name}</h4>
+          </div>
+          <div class="card-badges">
+            <span class="badge badge-tier1">NV. ${lvl}</span>
+            <span class="badge badge-mount">${m.actions ? m.actions.length : 8} AÇÕES</span>
+          </div>
+          <div class="card-meta-text">
+            <span><strong>ID:</strong> ${m.id} ${m.db_id ? `(DB: ${m.db_id})` : ''}</span>
+            <span><strong>ResCode:</strong> ${m.res_code_num}</span>
+            <span><strong>Tamanho:</strong> ${m.width}x${m.height}px (${m.atlas_size_kb} KB)</span>
+          </div>
+          <button class="card-btn-action btn-mon" data-fight-mon="${m.id}">
+            ${isAct ? '⚔️ LUTANDO AGORA' : '⚔️ ENFRENTAR NO MAPA'}
+          </button>
+        </div>
+      `;
+    }).join("");
+
+    monstersGrid.querySelectorAll("[data-fight-mon]").forEach(btn => {
+      btn.addEventListener("click", async (e) => {
+        e.stopPropagation();
+        const mid = btn.dataset.fightMon;
+        const targetMeta = monstersList.find(x => x.id === mid);
+        await setMapMonster(mid, targetMeta);
+        renderMonstersGrid();
+        if (modalMonsters) modalMonsters.classList.add("hidden");
+        openCombatTest();
+      });
+    });
+  }
+
+  function openClassesModal() {
+    if (modalClasses) {
+      modalClasses.classList.remove("hidden");
+      renderClassesGrid();
+    }
+  }
+  function closeClassesModal() {
+    if (modalClasses) modalClasses.classList.add("hidden");
+  }
+
+  function openMonstersModal() {
+    if (modalMonsters) {
+      modalMonsters.classList.remove("hidden");
+      renderMonstersGrid();
+    }
+  }
+  function closeMonstersModal() {
+    if (modalMonsters) modalMonsters.classList.add("hidden");
+  }
+
+  // Top Nav Buttons
+  const btnTopClasses = document.getElementById("btn-open-classes-modal");
+  const btnTopMonsters = document.getElementById("btn-open-monsters-modal");
+  if (btnTopClasses) btnTopClasses.addEventListener("click", openClassesModal);
+  if (btnTopMonsters) btnTopMonsters.addEventListener("click", openMonstersModal);
+
+  // Drawer Buttons
+  const btnDrawerClasses = document.getElementById("btn-drawer-all-classes");
+  const btnDrawerMonsters = document.getElementById("btn-drawer-all-monsters");
+  if (btnDrawerClasses) btnDrawerClasses.addEventListener("click", () => { closeDrawer(); openClassesModal(); });
+  if (btnDrawerMonsters) btnDrawerMonsters.addEventListener("click", () => { closeDrawer(); openMonstersModal(); });
+
+  // Combat Switch Monster Button
+  const btnCbSwitchMon = document.getElementById("btn-combat-switch-mon");
+  if (btnCbSwitchMon) btnCbSwitchMon.addEventListener("click", openMonstersModal);
+
+  // Modal Close Buttons
+  const btnCloseClasses = document.getElementById("btn-close-classes-modal");
+  const btnCloseMonsters = document.getElementById("btn-close-monsters-modal");
+  if (btnCloseClasses) btnCloseClasses.addEventListener("click", closeClassesModal);
+  if (btnCloseMonsters) btnCloseMonsters.addEventListener("click", closeMonstersModal);
+
+  if (modalClasses) {
+    modalClasses.addEventListener("click", (e) => {
+      if (e.target === modalClasses) closeClassesModal();
+    });
+  }
+  if (modalMonsters) {
+    modalMonsters.addEventListener("click", (e) => {
+      if (e.target === modalMonsters) closeMonstersModal();
+    });
+  }
+
+  // Search Inputs
+  if (classesSearchInput) {
+    classesSearchInput.addEventListener("input", renderClassesGrid);
+  }
+  if (monstersSearchInput) {
+    monstersSearchInput.addEventListener("input", renderMonstersGrid);
+  }
+
+  // Filter Pills
+  document.querySelectorAll("#classes-filter-pills .pill-filter").forEach(p => {
+    p.addEventListener("click", () => {
+      document.querySelectorAll("#classes-filter-pills .pill-filter").forEach(b => b.classList.remove("active"));
+      p.classList.add("active");
+      selectedClassFilter = p.dataset.filter;
+      renderClassesGrid();
+    });
+  });
+
+  document.querySelectorAll("#monsters-filter-pills .pill-filter").forEach(p => {
+    p.addEventListener("click", () => {
+      document.querySelectorAll("#monsters-filter-pills .pill-filter").forEach(b => b.classList.remove("active"));
+      p.classList.add("active");
+      selectedMonFilter = p.dataset.filter;
+      renderMonstersGrid();
+    });
+  });
+
+  // Drawer Quick Monster Buttons
+  document.querySelectorAll(".mon-quick-btn").forEach(btn => {
+    btn.addEventListener("click", async () => {
+      const mid = btn.dataset.monster;
+      await setMapMonster(mid);
+    });
+  });
+
   // Expor para debug e inspeção
   window.game = {
+    setMapMonster,
+    openClassesModal,
+    openMonstersModal,
     player,
     monster,
     isWalkable,

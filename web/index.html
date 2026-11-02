@@ -28,6 +28,16 @@
         <div class="pill" id="pill-dir">🧭 <span id="dir-display">0 (Sul)</span></div>
         <div class="pill fps-pill" id="pill-fps">60 FPS</div>
       </div>
+      <div class="top-nav-buttons">
+        <button id="btn-open-classes-modal" class="nav-pill-btn nav-classes" title="Provador de Classes (46 Visuais)">
+          <span class="nav-icon">🧙</span>
+          <span class="nav-txt">Classes (46)</span>
+        </button>
+        <button id="btn-open-monsters-modal" class="nav-pill-btn nav-monsters" title="Bestiário de Monstros (543 Criaturas)">
+          <span class="nav-icon">👾</span>
+          <span class="nav-txt">Monstros (543)</span>
+        </button>
+      </div>
     </div>
     <button id="btn-toggle-menu" class="icon-btn" aria-label="Abrir Menu">⚙️</button>
   </header>
@@ -132,15 +142,42 @@
         </div>
       </section>
 
-      <!-- Modelos e Classes de Personagem -->
+      <!-- Provador de Classes & Skins (46 Visuais) -->
       <section class="drawer-section">
-        <h4 class="section-title">Modelo / Classe Ativa</h4>
-        <div class="model-select-grid">
-          <button class="model-btn active" data-model="char11">🛡️ Guerreiro Evoluído (11 Ações / Tier 2)</button>
-          <button class="model-btn" data-model="char1">⚔️ Guerreiro Base (8 Ações / Tier 1)</button>
-          <button class="model-btn" data-model="char2">🔮 Mago Base (8 Ações)</button>
-          <button class="model-btn" data-model="char_mount">🐎 Montaria (Pose)</button>
+        <div class="section-header-row">
+          <h4 class="section-title">🧙 Classes & Skins (46 Visuais)</h4>
+          <span class="badge-count">46 Prontas</span>
         </div>
+        <div class="model-select-grid">
+          <button class="model-btn active" data-model="PC_MALE_000011">🛡️ Guerreiro Sagrado (M)</button>
+          <button class="model-btn" data-model="PC_FEMALE_010018">⚡ Valquíria da Alvorada (F)</button>
+          <button class="model-btn" data-model="PC_FEMALE_010016">🪽 Asas Angelicais (F)</button>
+          <button class="model-btn" data-model="PC_FEMALE_010020">🐉 Rainha Dracônica (F)</button>
+          <button class="model-btn" data-model="PC_MALE_000012">🔮 Arquimago Supremo (M)</button>
+          <button class="model-btn" data-model="PC_MALE_100003">🐎 Montaria Dragão (M)</button>
+        </div>
+        <button id="btn-drawer-all-classes" class="btn-view-all">
+          🔍 Ver Todas as 46 Classes & Skins ➔
+        </button>
+      </section>
+
+      <!-- Bestiário & Seletor de Monstros (543 Criaturas) -->
+      <section class="drawer-section">
+        <div class="section-header-row">
+          <h4 class="section-title">👾 Monstros & Pets (543 Criaturas)</h4>
+          <span class="badge-count">543 Criaturas</span>
+        </div>
+        <div class="model-select-grid">
+          <button class="mon-quick-btn active" data-monster="mushroom">🍄 Cogumelo Selvagem</button>
+          <button class="mon-quick-btn" data-monster="creature_100000">🐉 Dragão Sombrio (Ác Long)</button>
+          <button class="mon-quick-btn" data-monster="creature_000008">💀 Esqueleto do Mar</button>
+          <button class="mon-quick-btn" data-monster="creature_001069">🦊 Gato Travesso (Mão Yêu)</button>
+          <button class="mon-quick-btn" data-monster="creature_000043">🦂 Escorpião Roxo</button>
+          <button class="mon-quick-btn" data-monster="creature_000039">❄️ General de Gelo</button>
+        </div>
+        <button id="btn-drawer-all-monsters" class="btn-view-all">
+          🔍 Ver Todos os 543 Monstros no Bestiário ➔
+        </button>
       </section>
 
       <!-- Teste Direto de Animações (Todas as Ações 0..10) -->
@@ -260,9 +297,12 @@
     <div class="combat-test-header">
       <div class="combat-badge-group">
         <span class="combat-badge">⚔️ COMBATE MAPA 1</span>
-        <span class="combat-sub">Guerreiro vs Cogumelo Selvagem</span>
+        <span id="combat-versus-text" class="combat-sub">Guerreiro vs Cogumelo Selvagem</span>
       </div>
-      <button id="btn-close-combat-test" class="btn-close-combat" title="Encerrar Modo de Combate e Voltar ao Mapa">✕ Sair do Combate</button>
+      <div class="combat-header-actions">
+        <button id="btn-combat-switch-mon" class="btn-switch-mon" title="Escolher outro monstro do Bestiário">👾 Trocar Monstro (543)</button>
+        <button id="btn-close-combat-test" class="btn-close-combat" title="Encerrar Modo de Combate e Voltar ao Mapa">✕ Sair</button>
+      </div>
     </div>
 
     <!-- Status da Animação em Execução -->
@@ -351,5 +391,64 @@
   </div>
 
   <script src="main.js"></script>
+
+  <!-- Modal 1: Provador de Classes & Skins (46 Visuais) -->
+  <div id="modal-classes" class="catalog-modal hidden">
+    <div class="modal-card">
+      <div class="modal-header">
+        <div class="modal-title-group">
+          <h3>🧙 Provador de Classes & Skins</h3>
+          <span class="modal-subtitle">Escolha qualquer um dos 46 visuais originais para equipar no seu personagem!</span>
+        </div>
+        <button id="btn-close-classes-modal" class="modal-close-btn">✕</button>
+      </div>
+
+      <div class="modal-search-bar">
+        <input type="text" id="classes-search-input" placeholder="🔍 Buscar por nome, ID ou tipo (ex: Valquíria, Mago, Asas, Dragão)..." />
+      </div>
+
+      <div class="modal-filter-pills" id="classes-filter-pills">
+        <button class="pill-filter active" data-filter="all">🌟 Todos (46)</button>
+        <button class="pill-filter" data-filter="male">♂ Masculino (19)</button>
+        <button class="pill-filter" data-filter="female">♀ Feminino (27)</button>
+        <button class="pill-filter" data-filter="tier1">⚔️ Tier 1 Base</button>
+        <button class="pill-filter" data-filter="tier2">⚡ Tier 2 (11 Ações / Suprema)</button>
+        <button class="pill-filter" data-filter="costume">👑 Costumes & Asas</button>
+        <button class="pill-filter" data-filter="mount">🐎 Montarias</button>
+      </div>
+
+      <div class="modal-grid-container" id="classes-grid-container">
+        <!-- Renderizado dinamicamente via JS a partir de assets/characters/catalog.json -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 2: Bestiário & Seletor de Monstros (543 Criaturas) -->
+  <div id="modal-monsters" class="catalog-modal hidden">
+    <div class="modal-card">
+      <div class="modal-header">
+        <div class="modal-title-group">
+          <h3>👾 Bestiário de Monstros & Pets</h3>
+          <span class="modal-subtitle">Escolha qualquer um dos 543 monstros para enfrentar no mapa e testar combates!</span>
+        </div>
+        <button id="btn-close-monsters-modal" class="modal-close-btn">✕</button>
+      </div>
+
+      <div class="modal-search-bar">
+        <input type="text" id="monsters-search-input" placeholder="🔍 Buscar monstro por nome, ID ou código (ex: Dragão, Esqueleto, 15)..." />
+      </div>
+
+      <div class="modal-filter-pills" id="monsters-filter-pills">
+        <button class="pill-filter active" data-filter="all">🌟 Todos (543)</button>
+        <button class="pill-filter" data-filter="named">👾 Nomes Originais (364)</button>
+        <button class="pill-filter" data-filter="boss">🔥 Chefes & Especiais</button>
+      </div>
+
+      <div class="modal-grid-container" id="monsters-grid-container">
+        <!-- Renderizado dinamicamente via JS a partir de assets/monsters/catalog.json -->
+      </div>
+    </div>
+  </div>
+
 </body>
 </html>
