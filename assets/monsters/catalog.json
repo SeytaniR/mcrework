@@ -31,7 +31,8 @@
       "height": 129,
       "total_frames": 704,
       "atlas_size_kb": 69.9,
-      "path": "assets/monsters/creature_000001/atlas.json"
+      "path": "assets/monsters/creature_000001/atlas.json",
+      "thumb": "assets/monsters/creature_000001/thumb.webp"
     },
     {
       "id": "creature_000002",
@@ -62,7 +63,8 @@
       "height": 111,
       "total_frames": 704,
       "atlas_size_kb": 200.1,
-      "path": "assets/monsters/creature_000002/atlas.json"
+      "path": "assets/monsters/creature_000002/atlas.json",
+      "thumb": "assets/monsters/creature_000002/thumb.webp"
     },
     {
       "id": "creature_000002",
@@ -93,7 +95,8 @@
       "height": 87,
       "total_frames": 704,
       "atlas_size_kb": 41.9,
-      "path": "assets/monsters/creature_000002/atlas.json"
+      "path": "assets/monsters/creature_000002/atlas.json",
+      "thumb": "assets/monsters/creature_000002/thumb.webp"
     },
     {
       "id": "creature_000003",
@@ -124,7 +127,8 @@
       "height": 85,
       "total_frames": 704,
       "atlas_size_kb": 210.9,
-      "path": "assets/monsters/creature_000003/atlas.json"
+      "path": "assets/monsters/creature_000003/atlas.json",
+      "thumb": "assets/monsters/creature_000003/thumb.webp"
     },
     {
       "id": "creature_000003",
@@ -155,7 +159,8 @@
       "height": 124,
       "total_frames": 704,
       "atlas_size_kb": 210.9,
-      "path": "assets/monsters/creature_000003/atlas.json"
+      "path": "assets/monsters/creature_000003/atlas.json",
+      "thumb": "assets/monsters/creature_000003/thumb.webp"
     },
     {
       "id": "creature_000004",
@@ -186,7 +191,8 @@
       "height": 133,
       "total_frames": 703,
       "atlas_size_kb": 57.6,
-      "path": "assets/monsters/creature_000004/atlas.json"
+      "path": "assets/monsters/creature_000004/atlas.json",
+      "thumb": "assets/monsters/creature_000004/thumb.webp"
     },
     {
       "id": "creature_000004",
@@ -217,7 +223,8 @@
       "height": 112,
       "total_frames": 704,
       "atlas_size_kb": 198.8,
-      "path": "assets/monsters/creature_000004/atlas.json"
+      "path": "assets/monsters/creature_000004/atlas.json",
+      "thumb": "assets/monsters/creature_000004/thumb.webp"
     },
     {
       "id": "creature_000005",
@@ -248,7 +255,8 @@
       "height": 184,
       "total_frames": 695,
       "atlas_size_kb": 123.5,
-      "path": "assets/monsters/creature_000005/atlas.json"
+      "path": "assets/monsters/creature_000005/atlas.json",
+      "thumb": "assets/monsters/creature_000005/thumb.webp"
     },
     {
       "id": "creature_000005",
@@ -279,7 +287,8 @@
       "height": 107,
       "total_frames": 704,
       "atlas_size_kb": 195.2,
-      "path": "assets/monsters/creature_000005/atlas.json"
+      "path": "assets/monsters/creature_000005/atlas.json",
+      "thumb": "assets/monsters/creature_000005/thumb.webp"
     },
     {
       "id": "creature_000006",
@@ -310,7 +319,8 @@
       "height": 111,
       "total_frames": 704,
       "atlas_size_kb": 167.9,
-      "path": "assets/monsters/creature_000006/atlas.json"
+      "path": "assets/monsters/creature_000006/atlas.json",
+      "thumb": "assets/monsters/creature_000006/thumb.webp"
     },
     {
       "id": "creature_000006",
@@ -341,7 +351,8 @@
       "height": 120,
       "total_frames": 704,
       "atlas_size_kb": 209.9,
-      "path": "assets/monsters/creature_000006/atlas.json"
+      "path": "assets/monsters/creature_000006/atlas.json",
+      "thumb": "assets/monsters/creature_000006/thumb.webp"
     },
     {
       "id": "creature_000006",
@@ -372,7 +383,8 @@
       "height": 67,
       "total_frames": 704,
       "atlas_size_kb": 35.7,
-      "path": "assets/monsters/creature_000006/atlas.json"
+      "path": "assets/monsters/creature_000006/atlas.json",
+      "thumb": "assets/monsters/creature_000006/thumb.webp"
     },
     {
       "id": "creature_000007",
@@ -403,7 +415,8 @@
       "height": 92,
       "total_frames": 704,
       "atlas_size_kb": 35.9,
-      "path": "assets/monsters/creature_000007/atlas.json"
+      "path": "assets/monsters/creature_000007/atlas.json",
+      "thumb": "assets/monsters/creature_000007/thumb.webp"
     },
     {
       "id": "creature_000008",
@@ -434,7 +447,8 @@
       "height": 115,
       "total_frames": 704,
       "atlas_size_kb": 54.0,
-      "path": "assets/monsters/creature_000008/atlas.json"
+      "path": "assets/monsters/creature_000008/atlas.json",
+      "thumb": "assets/monsters/creature_000008/thumb.webp"
     },
     {
       "id": "creature_000009",
@@ -465,7 +479,8 @@
       "height": 78,
       "total_frames": 703,
       "atlas_size_kb": 43.7,
-      "path": "assets/monsters/creature_000009/atlas.json"
+      "path": "assets/monsters/creature_000009/atlas.json",
+      "thumb": "assets/monsters/creature_000009/thumb.webp"
     },
     {
       "id": "creature_000010",
@@ -496,7 +511,8 @@
       "height": 90,
       "total_frames": 704,
       "atlas_size_kb": 63.2,
-      "path": "assets/monsters/creature_000010/atlas.json"
+      "path": "assets/monsters/creature_000010/atlas.json",
+      "thumb": "assets/monsters/creature_000010/thumb.webp"
     },
     {
       "id": "creature_000011",
@@ -527,7 +543,8 @@
       "height": 93,
       "total_frames": 704,
       "atlas_size_kb": 44.3,
-      "path": "assets/monsters/creature_000011/atlas.json"
+      "path": "assets/monsters/creature_000011/atlas.json",
+      "thumb": "assets/monsters/creature_000011/thumb.webp"
     },
     {
       "id": "creature_000012",
@@ -558,7 +575,8 @@
       "height": 111,
       "total_frames": 704,
       "atlas_size_kb": 58.3,
-      "path": "assets/monsters/creature_000012/atlas.json"
+      "path": "assets/monsters/creature_000012/atlas.json",
+      "thumb": "assets/monsters/creature_000012/thumb.webp"
     },
     {
       "id": "creature_000013",
@@ -589,7 +607,8 @@
       "height": 107,
       "total_frames": 704,
       "atlas_size_kb": 48.4,
-      "path": "assets/monsters/creature_000013/atlas.json"
+      "path": "assets/monsters/creature_000013/atlas.json",
+      "thumb": "assets/monsters/creature_000013/thumb.webp"
     },
     {
       "id": "creature_000014",
@@ -620,7 +639,8 @@
       "height": 83,
       "total_frames": 704,
       "atlas_size_kb": 34.9,
-      "path": "assets/monsters/creature_000014/atlas.json"
+      "path": "assets/monsters/creature_000014/atlas.json",
+      "thumb": "assets/monsters/creature_000014/thumb.webp"
     },
     {
       "id": "creature_000015",
@@ -651,7 +671,8 @@
       "height": 74,
       "total_frames": 704,
       "atlas_size_kb": 36.3,
-      "path": "assets/monsters/creature_000015/atlas.json"
+      "path": "assets/monsters/creature_000015/atlas.json",
+      "thumb": "assets/monsters/creature_000015/thumb.webp"
     },
     {
       "id": "creature_000016",
@@ -681,7 +702,8 @@
       "height": 95,
       "total_frames": 615,
       "atlas_size_kb": 47.1,
-      "path": "assets/monsters/creature_000016/atlas.json"
+      "path": "assets/monsters/creature_000016/atlas.json",
+      "thumb": "assets/monsters/creature_000016/thumb.webp"
     },
     {
       "id": "creature_000017",
@@ -712,7 +734,8 @@
       "height": 59,
       "total_frames": 704,
       "atlas_size_kb": 21.6,
-      "path": "assets/monsters/creature_000017/atlas.json"
+      "path": "assets/monsters/creature_000017/atlas.json",
+      "thumb": "assets/monsters/creature_000017/thumb.webp"
     },
     {
       "id": "creature_000018",
@@ -743,7 +766,8 @@
       "height": 109,
       "total_frames": 704,
       "atlas_size_kb": 47.1,
-      "path": "assets/monsters/creature_000018/atlas.json"
+      "path": "assets/monsters/creature_000018/atlas.json",
+      "thumb": "assets/monsters/creature_000018/thumb.webp"
     },
     {
       "id": "creature_000019",
@@ -773,7 +797,8 @@
       "height": 109,
       "total_frames": 616,
       "atlas_size_kb": 47.1,
-      "path": "assets/monsters/creature_000019/atlas.json"
+      "path": "assets/monsters/creature_000019/atlas.json",
+      "thumb": "assets/monsters/creature_000019/thumb.webp"
     },
     {
       "id": "creature_000020",
@@ -804,7 +829,8 @@
       "height": 84,
       "total_frames": 704,
       "atlas_size_kb": 117.0,
-      "path": "assets/monsters/creature_000020/atlas.json"
+      "path": "assets/monsters/creature_000020/atlas.json",
+      "thumb": "assets/monsters/creature_000020/thumb.webp"
     },
     {
       "id": "creature_000021",
@@ -835,7 +861,8 @@
       "height": 133,
       "total_frames": 704,
       "atlas_size_kb": 202.4,
-      "path": "assets/monsters/creature_000021/atlas.json"
+      "path": "assets/monsters/creature_000021/atlas.json",
+      "thumb": "assets/monsters/creature_000021/thumb.webp"
     },
     {
       "id": "creature_000022",
@@ -866,7 +893,8 @@
       "height": 121,
       "total_frames": 704,
       "atlas_size_kb": 58.0,
-      "path": "assets/monsters/creature_000022/atlas.json"
+      "path": "assets/monsters/creature_000022/atlas.json",
+      "thumb": "assets/monsters/creature_000022/thumb.webp"
     },
     {
       "id": "creature_000023",
@@ -897,7 +925,8 @@
       "height": 179,
       "total_frames": 704,
       "atlas_size_kb": 123.3,
-      "path": "assets/monsters/creature_000023/atlas.json"
+      "path": "assets/monsters/creature_000023/atlas.json",
+      "thumb": "assets/monsters/creature_000023/thumb.webp"
     },
     {
       "id": "creature_000024",
@@ -928,7 +957,8 @@
       "height": 142,
       "total_frames": 704,
       "atlas_size_kb": 95.9,
-      "path": "assets/monsters/creature_000024/atlas.json"
+      "path": "assets/monsters/creature_000024/atlas.json",
+      "thumb": "assets/monsters/creature_000024/thumb.webp"
     },
     {
       "id": "creature_000025",
@@ -959,7 +989,8 @@
       "height": 180,
       "total_frames": 704,
       "atlas_size_kb": 87.4,
-      "path": "assets/monsters/creature_000025/atlas.json"
+      "path": "assets/monsters/creature_000025/atlas.json",
+      "thumb": "assets/monsters/creature_000025/thumb.webp"
     },
     {
       "id": "creature_000026",
@@ -990,7 +1021,8 @@
       "height": 100,
       "total_frames": 704,
       "atlas_size_kb": 49.1,
-      "path": "assets/monsters/creature_000026/atlas.json"
+      "path": "assets/monsters/creature_000026/atlas.json",
+      "thumb": "assets/monsters/creature_000026/thumb.webp"
     },
     {
       "id": "creature_000027",
@@ -1021,7 +1053,8 @@
       "height": 108,
       "total_frames": 704,
       "atlas_size_kb": 39.3,
-      "path": "assets/monsters/creature_000027/atlas.json"
+      "path": "assets/monsters/creature_000027/atlas.json",
+      "thumb": "assets/monsters/creature_000027/thumb.webp"
     },
     {
       "id": "creature_000028",
@@ -1052,7 +1085,8 @@
       "height": 99,
       "total_frames": 704,
       "atlas_size_kb": 9.7,
-      "path": "assets/monsters/creature_000028/atlas.json"
+      "path": "assets/monsters/creature_000028/atlas.json",
+      "thumb": "assets/monsters/creature_000028/thumb.webp"
     },
     {
       "id": "creature_000028",
@@ -1083,7 +1117,8 @@
       "height": 130,
       "total_frames": 704,
       "atlas_size_kb": 50.9,
-      "path": "assets/monsters/creature_000028/atlas.json"
+      "path": "assets/monsters/creature_000028/atlas.json",
+      "thumb": "assets/monsters/creature_000028/thumb.webp"
     },
     {
       "id": "creature_000029",
@@ -1114,7 +1149,8 @@
       "height": 120,
       "total_frames": 704,
       "atlas_size_kb": 93.8,
-      "path": "assets/monsters/creature_000029/atlas.json"
+      "path": "assets/monsters/creature_000029/atlas.json",
+      "thumb": "assets/monsters/creature_000029/thumb.webp"
     },
     {
       "id": "creature_000030",
@@ -1145,7 +1181,8 @@
       "height": 112,
       "total_frames": 704,
       "atlas_size_kb": 72.3,
-      "path": "assets/monsters/creature_000030/atlas.json"
+      "path": "assets/monsters/creature_000030/atlas.json",
+      "thumb": "assets/monsters/creature_000030/thumb.webp"
     },
     {
       "id": "creature_000031",
@@ -1176,7 +1213,8 @@
       "height": 99,
       "total_frames": 704,
       "atlas_size_kb": 8.8,
-      "path": "assets/monsters/creature_000031/atlas.json"
+      "path": "assets/monsters/creature_000031/atlas.json",
+      "thumb": "assets/monsters/creature_000031/thumb.webp"
     },
     {
       "id": "creature_000031",
@@ -1207,7 +1245,8 @@
       "height": 147,
       "total_frames": 704,
       "atlas_size_kb": 90.8,
-      "path": "assets/monsters/creature_000031/atlas.json"
+      "path": "assets/monsters/creature_000031/atlas.json",
+      "thumb": "assets/monsters/creature_000031/thumb.webp"
     },
     {
       "id": "creature_000032",
@@ -1238,7 +1277,8 @@
       "height": 119,
       "total_frames": 704,
       "atlas_size_kb": 65.5,
-      "path": "assets/monsters/creature_000032/atlas.json"
+      "path": "assets/monsters/creature_000032/atlas.json",
+      "thumb": "assets/monsters/creature_000032/thumb.webp"
     },
     {
       "id": "creature_000033",
@@ -1269,7 +1309,8 @@
       "height": 156,
       "total_frames": 704,
       "atlas_size_kb": 100.8,
-      "path": "assets/monsters/creature_000033/atlas.json"
+      "path": "assets/monsters/creature_000033/atlas.json",
+      "thumb": "assets/monsters/creature_000033/thumb.webp"
     },
     {
       "id": "creature_000033",
@@ -1300,7 +1341,8 @@
       "height": 93,
       "total_frames": 704,
       "atlas_size_kb": 7.8,
-      "path": "assets/monsters/creature_000033/atlas.json"
+      "path": "assets/monsters/creature_000033/atlas.json",
+      "thumb": "assets/monsters/creature_000033/thumb.webp"
     },
     {
       "id": "creature_000034",
@@ -1331,7 +1373,8 @@
       "height": 117,
       "total_frames": 704,
       "atlas_size_kb": 46.2,
-      "path": "assets/monsters/creature_000034/atlas.json"
+      "path": "assets/monsters/creature_000034/atlas.json",
+      "thumb": "assets/monsters/creature_000034/thumb.webp"
     },
     {
       "id": "creature_000035",
@@ -1362,7 +1405,8 @@
       "height": 97,
       "total_frames": 704,
       "atlas_size_kb": 56.0,
-      "path": "assets/monsters/creature_000035/atlas.json"
+      "path": "assets/monsters/creature_000035/atlas.json",
+      "thumb": "assets/monsters/creature_000035/thumb.webp"
     },
     {
       "id": "creature_000036",
@@ -1393,7 +1437,8 @@
       "height": 94,
       "total_frames": 704,
       "atlas_size_kb": 46.2,
-      "path": "assets/monsters/creature_000036/atlas.json"
+      "path": "assets/monsters/creature_000036/atlas.json",
+      "thumb": "assets/monsters/creature_000036/thumb.webp"
     },
     {
       "id": "creature_000037",
@@ -1424,7 +1469,8 @@
       "height": 111,
       "total_frames": 704,
       "atlas_size_kb": 49.6,
-      "path": "assets/monsters/creature_000037/atlas.json"
+      "path": "assets/monsters/creature_000037/atlas.json",
+      "thumb": "assets/monsters/creature_000037/thumb.webp"
     },
     {
       "id": "creature_000038",
@@ -1455,7 +1501,8 @@
       "height": 129,
       "total_frames": 704,
       "atlas_size_kb": 58.8,
-      "path": "assets/monsters/creature_000038/atlas.json"
+      "path": "assets/monsters/creature_000038/atlas.json",
+      "thumb": "assets/monsters/creature_000038/thumb.webp"
     },
     {
       "id": "creature_000039",
@@ -1486,7 +1533,8 @@
       "height": 203,
       "total_frames": 704,
       "atlas_size_kb": 227.2,
-      "path": "assets/monsters/creature_000039/atlas.json"
+      "path": "assets/monsters/creature_000039/atlas.json",
+      "thumb": "assets/monsters/creature_000039/thumb.webp"
     },
     {
       "id": "creature_000040",
@@ -1517,7 +1565,8 @@
       "height": 190,
       "total_frames": 704,
       "atlas_size_kb": 65.5,
-      "path": "assets/monsters/creature_000040/atlas.json"
+      "path": "assets/monsters/creature_000040/atlas.json",
+      "thumb": "assets/monsters/creature_000040/thumb.webp"
     },
     {
       "id": "creature_000041",
@@ -1548,7 +1597,8 @@
       "height": 74,
       "total_frames": 704,
       "atlas_size_kb": 71.0,
-      "path": "assets/monsters/creature_000041/atlas.json"
+      "path": "assets/monsters/creature_000041/atlas.json",
+      "thumb": "assets/monsters/creature_000041/thumb.webp"
     },
     {
       "id": "creature_000042",
@@ -1579,7 +1629,8 @@
       "height": 142,
       "total_frames": 704,
       "atlas_size_kb": 104.2,
-      "path": "assets/monsters/creature_000042/atlas.json"
+      "path": "assets/monsters/creature_000042/atlas.json",
+      "thumb": "assets/monsters/creature_000042/thumb.webp"
     },
     {
       "id": "creature_000043",
@@ -1610,7 +1661,8 @@
       "height": 112,
       "total_frames": 704,
       "atlas_size_kb": 60.8,
-      "path": "assets/monsters/creature_000043/atlas.json"
+      "path": "assets/monsters/creature_000043/atlas.json",
+      "thumb": "assets/monsters/creature_000043/thumb.webp"
     },
     {
       "id": "creature_000044",
@@ -1641,7 +1693,8 @@
       "height": 136,
       "total_frames": 704,
       "atlas_size_kb": 63.7,
-      "path": "assets/monsters/creature_000044/atlas.json"
+      "path": "assets/monsters/creature_000044/atlas.json",
+      "thumb": "assets/monsters/creature_000044/thumb.webp"
     },
     {
       "id": "creature_000045",
@@ -1672,7 +1725,8 @@
       "height": 229,
       "total_frames": 704,
       "atlas_size_kb": 141.9,
-      "path": "assets/monsters/creature_000045/atlas.json"
+      "path": "assets/monsters/creature_000045/atlas.json",
+      "thumb": "assets/monsters/creature_000045/thumb.webp"
     },
     {
       "id": "creature_000046",
@@ -1703,7 +1757,8 @@
       "height": 142,
       "total_frames": 704,
       "atlas_size_kb": 55.0,
-      "path": "assets/monsters/creature_000046/atlas.json"
+      "path": "assets/monsters/creature_000046/atlas.json",
+      "thumb": "assets/monsters/creature_000046/thumb.webp"
     },
     {
       "id": "creature_000047",
@@ -1734,7 +1789,8 @@
       "height": 127,
       "total_frames": 704,
       "atlas_size_kb": 82.1,
-      "path": "assets/monsters/creature_000047/atlas.json"
+      "path": "assets/monsters/creature_000047/atlas.json",
+      "thumb": "assets/monsters/creature_000047/thumb.webp"
     },
     {
       "id": "creature_000048",
@@ -1765,7 +1821,8 @@
       "height": 162,
       "total_frames": 704,
       "atlas_size_kb": 71.5,
-      "path": "assets/monsters/creature_000048/atlas.json"
+      "path": "assets/monsters/creature_000048/atlas.json",
+      "thumb": "assets/monsters/creature_000048/thumb.webp"
     },
     {
       "id": "creature_000049",
@@ -1796,7 +1853,8 @@
       "height": 175,
       "total_frames": 704,
       "atlas_size_kb": 75.0,
-      "path": "assets/monsters/creature_000049/atlas.json"
+      "path": "assets/monsters/creature_000049/atlas.json",
+      "thumb": "assets/monsters/creature_000049/thumb.webp"
     },
     {
       "id": "creature_000050",
@@ -1827,7 +1885,8 @@
       "height": 119,
       "total_frames": 704,
       "atlas_size_kb": 61.1,
-      "path": "assets/monsters/creature_000050/atlas.json"
+      "path": "assets/monsters/creature_000050/atlas.json",
+      "thumb": "assets/monsters/creature_000050/thumb.webp"
     },
     {
       "id": "creature_000051",
@@ -1858,7 +1917,8 @@
       "height": 157,
       "total_frames": 704,
       "atlas_size_kb": 86.0,
-      "path": "assets/monsters/creature_000051/atlas.json"
+      "path": "assets/monsters/creature_000051/atlas.json",
+      "thumb": "assets/monsters/creature_000051/thumb.webp"
     },
     {
       "id": "creature_000052",
@@ -1889,7 +1949,8 @@
       "height": 110,
       "total_frames": 704,
       "atlas_size_kb": 69.3,
-      "path": "assets/monsters/creature_000052/atlas.json"
+      "path": "assets/monsters/creature_000052/atlas.json",
+      "thumb": "assets/monsters/creature_000052/thumb.webp"
     },
     {
       "id": "creature_000053",
@@ -1920,7 +1981,8 @@
       "height": 127,
       "total_frames": 704,
       "atlas_size_kb": 53.4,
-      "path": "assets/monsters/creature_000053/atlas.json"
+      "path": "assets/monsters/creature_000053/atlas.json",
+      "thumb": "assets/monsters/creature_000053/thumb.webp"
     },
     {
       "id": "creature_000054",
@@ -1951,7 +2013,8 @@
       "height": 120,
       "total_frames": 704,
       "atlas_size_kb": 52.7,
-      "path": "assets/monsters/creature_000054/atlas.json"
+      "path": "assets/monsters/creature_000054/atlas.json",
+      "thumb": "assets/monsters/creature_000054/thumb.webp"
     },
     {
       "id": "creature_000055",
@@ -1982,7 +2045,8 @@
       "height": 88,
       "total_frames": 704,
       "atlas_size_kb": 41.7,
-      "path": "assets/monsters/creature_000055/atlas.json"
+      "path": "assets/monsters/creature_000055/atlas.json",
+      "thumb": "assets/monsters/creature_000055/thumb.webp"
     },
     {
       "id": "creature_000061",
@@ -2013,7 +2077,8 @@
       "height": 113,
       "total_frames": 467,
       "atlas_size_kb": 11.0,
-      "path": "assets/monsters/creature_000061/atlas.json"
+      "path": "assets/monsters/creature_000061/atlas.json",
+      "thumb": "assets/monsters/creature_000061/thumb.webp"
     },
     {
       "id": "creature_000073",
@@ -2044,7 +2109,8 @@
       "height": 94,
       "total_frames": 704,
       "atlas_size_kb": 41.9,
-      "path": "assets/monsters/creature_000073/atlas.json"
+      "path": "assets/monsters/creature_000073/atlas.json",
+      "thumb": "assets/monsters/creature_000073/thumb.webp"
     },
     {
       "id": "creature_000075",
@@ -2075,7 +2141,8 @@
       "height": 94,
       "total_frames": 704,
       "atlas_size_kb": 7.9,
-      "path": "assets/monsters/creature_000075/atlas.json"
+      "path": "assets/monsters/creature_000075/atlas.json",
+      "thumb": "assets/monsters/creature_000075/thumb.webp"
     },
     {
       "id": "creature_000077",
@@ -2106,7 +2173,8 @@
       "height": 88,
       "total_frames": 704,
       "atlas_size_kb": 48.3,
-      "path": "assets/monsters/creature_000077/atlas.json"
+      "path": "assets/monsters/creature_000077/atlas.json",
+      "thumb": "assets/monsters/creature_000077/thumb.webp"
     },
     {
       "id": "creature_000079",
@@ -2137,7 +2205,8 @@
       "height": 217,
       "total_frames": 704,
       "atlas_size_kb": 111.5,
-      "path": "assets/monsters/creature_000079/atlas.json"
+      "path": "assets/monsters/creature_000079/atlas.json",
+      "thumb": "assets/monsters/creature_000079/thumb.webp"
     },
     {
       "id": "creature_000080",
@@ -2168,7 +2237,8 @@
       "height": 111,
       "total_frames": 704,
       "atlas_size_kb": 55.5,
-      "path": "assets/monsters/creature_000080/atlas.json"
+      "path": "assets/monsters/creature_000080/atlas.json",
+      "thumb": "assets/monsters/creature_000080/thumb.webp"
     },
     {
       "id": "creature_000083",
@@ -2199,7 +2269,8 @@
       "height": 236,
       "total_frames": 705,
       "atlas_size_kb": 177.3,
-      "path": "assets/monsters/creature_000083/atlas.json"
+      "path": "assets/monsters/creature_000083/atlas.json",
+      "thumb": "assets/monsters/creature_000083/thumb.webp"
     },
     {
       "id": "creature_000084",
@@ -2230,7 +2301,8 @@
       "height": 122,
       "total_frames": 704,
       "atlas_size_kb": 81.0,
-      "path": "assets/monsters/creature_000084/atlas.json"
+      "path": "assets/monsters/creature_000084/atlas.json",
+      "thumb": "assets/monsters/creature_000084/thumb.webp"
     },
     {
       "id": "creature_001000",
@@ -2261,7 +2333,8 @@
       "height": 102,
       "total_frames": 704,
       "atlas_size_kb": 127.2,
-      "path": "assets/monsters/creature_001000/atlas.json"
+      "path": "assets/monsters/creature_001000/atlas.json",
+      "thumb": "assets/monsters/creature_001000/thumb.webp"
     },
     {
       "id": "creature_001056",
@@ -2292,7 +2365,8 @@
       "height": 121,
       "total_frames": 703,
       "atlas_size_kb": 49.1,
-      "path": "assets/monsters/creature_001056/atlas.json"
+      "path": "assets/monsters/creature_001056/atlas.json",
+      "thumb": "assets/monsters/creature_001056/thumb.webp"
     },
     {
       "id": "creature_001057",
@@ -2323,7 +2397,8 @@
       "height": 109,
       "total_frames": 703,
       "atlas_size_kb": 67.6,
-      "path": "assets/monsters/creature_001057/atlas.json"
+      "path": "assets/monsters/creature_001057/atlas.json",
+      "thumb": "assets/monsters/creature_001057/thumb.webp"
     },
     {
       "id": "creature_001058",
@@ -2354,7 +2429,8 @@
       "height": 113,
       "total_frames": 695,
       "atlas_size_kb": 46.6,
-      "path": "assets/monsters/creature_001058/atlas.json"
+      "path": "assets/monsters/creature_001058/atlas.json",
+      "thumb": "assets/monsters/creature_001058/thumb.webp"
     },
     {
       "id": "creature_001059",
@@ -2385,7 +2461,8 @@
       "height": 106,
       "total_frames": 704,
       "atlas_size_kb": 77.1,
-      "path": "assets/monsters/creature_001059/atlas.json"
+      "path": "assets/monsters/creature_001059/atlas.json",
+      "thumb": "assets/monsters/creature_001059/thumb.webp"
     },
     {
       "id": "creature_001060",
@@ -2416,7 +2493,8 @@
       "height": 120,
       "total_frames": 704,
       "atlas_size_kb": 50.4,
-      "path": "assets/monsters/creature_001060/atlas.json"
+      "path": "assets/monsters/creature_001060/atlas.json",
+      "thumb": "assets/monsters/creature_001060/thumb.webp"
     },
     {
       "id": "creature_001061",
@@ -2447,7 +2525,8 @@
       "height": 93,
       "total_frames": 704,
       "atlas_size_kb": 59.4,
-      "path": "assets/monsters/creature_001061/atlas.json"
+      "path": "assets/monsters/creature_001061/atlas.json",
+      "thumb": "assets/monsters/creature_001061/thumb.webp"
     },
     {
       "id": "creature_001062",
@@ -2478,7 +2557,8 @@
       "height": 152,
       "total_frames": 694,
       "atlas_size_kb": 69.3,
-      "path": "assets/monsters/creature_001062/atlas.json"
+      "path": "assets/monsters/creature_001062/atlas.json",
+      "thumb": "assets/monsters/creature_001062/thumb.webp"
     },
     {
       "id": "creature_001063",
@@ -2509,7 +2589,8 @@
       "height": 119,
       "total_frames": 704,
       "atlas_size_kb": 42.3,
-      "path": "assets/monsters/creature_001063/atlas.json"
+      "path": "assets/monsters/creature_001063/atlas.json",
+      "thumb": "assets/monsters/creature_001063/thumb.webp"
     },
     {
       "id": "creature_001064",
@@ -2540,7 +2621,8 @@
       "height": 116,
       "total_frames": 704,
       "atlas_size_kb": 59.4,
-      "path": "assets/monsters/creature_001064/atlas.json"
+      "path": "assets/monsters/creature_001064/atlas.json",
+      "thumb": "assets/monsters/creature_001064/thumb.webp"
     },
     {
       "id": "creature_001065",
@@ -2571,7 +2653,8 @@
       "height": 124,
       "total_frames": 704,
       "atlas_size_kb": 204.2,
-      "path": "assets/monsters/creature_001065/atlas.json"
+      "path": "assets/monsters/creature_001065/atlas.json",
+      "thumb": "assets/monsters/creature_001065/thumb.webp"
     },
     {
       "id": "creature_001066",
@@ -2602,7 +2685,8 @@
       "height": 184,
       "total_frames": 704,
       "atlas_size_kb": 104.2,
-      "path": "assets/monsters/creature_001066/atlas.json"
+      "path": "assets/monsters/creature_001066/atlas.json",
+      "thumb": "assets/monsters/creature_001066/thumb.webp"
     },
     {
       "id": "creature_001067",
@@ -2633,7 +2717,8 @@
       "height": 131,
       "total_frames": 689,
       "atlas_size_kb": 74.6,
-      "path": "assets/monsters/creature_001067/atlas.json"
+      "path": "assets/monsters/creature_001067/atlas.json",
+      "thumb": "assets/monsters/creature_001067/thumb.webp"
     },
     {
       "id": "creature_001068",
@@ -2664,7 +2749,8 @@
       "height": 90,
       "total_frames": 700,
       "atlas_size_kb": 51.3,
-      "path": "assets/monsters/creature_001068/atlas.json"
+      "path": "assets/monsters/creature_001068/atlas.json",
+      "thumb": "assets/monsters/creature_001068/thumb.webp"
     },
     {
       "id": "creature_001069",
@@ -2695,7 +2781,8 @@
       "height": 101,
       "total_frames": 704,
       "atlas_size_kb": 148.9,
-      "path": "assets/monsters/creature_001069/atlas.json"
+      "path": "assets/monsters/creature_001069/atlas.json",
+      "thumb": "assets/monsters/creature_001069/thumb.webp"
     },
     {
       "id": "creature_001070",
@@ -2726,7 +2813,8 @@
       "height": 107,
       "total_frames": 704,
       "atlas_size_kb": 48.3,
-      "path": "assets/monsters/creature_001070/atlas.json"
+      "path": "assets/monsters/creature_001070/atlas.json",
+      "thumb": "assets/monsters/creature_001070/thumb.webp"
     },
     {
       "id": "creature_001071",
@@ -2757,7 +2845,8 @@
       "height": 135,
       "total_frames": 617,
       "atlas_size_kb": 77.3,
-      "path": "assets/monsters/creature_001071/atlas.json"
+      "path": "assets/monsters/creature_001071/atlas.json",
+      "thumb": "assets/monsters/creature_001071/thumb.webp"
     },
     {
       "id": "creature_001072",
@@ -2788,7 +2877,8 @@
       "height": 139,
       "total_frames": 617,
       "atlas_size_kb": 74.1,
-      "path": "assets/monsters/creature_001072/atlas.json"
+      "path": "assets/monsters/creature_001072/atlas.json",
+      "thumb": "assets/monsters/creature_001072/thumb.webp"
     },
     {
       "id": "creature_001073",
@@ -2819,7 +2909,8 @@
       "height": 94,
       "total_frames": 694,
       "atlas_size_kb": 41.9,
-      "path": "assets/monsters/creature_001073/atlas.json"
+      "path": "assets/monsters/creature_001073/atlas.json",
+      "thumb": "assets/monsters/creature_001073/thumb.webp"
     },
     {
       "id": "creature_001074",
@@ -2850,7 +2941,8 @@
       "height": 117,
       "total_frames": 704,
       "atlas_size_kb": 37.7,
-      "path": "assets/monsters/creature_001074/atlas.json"
+      "path": "assets/monsters/creature_001074/atlas.json",
+      "thumb": "assets/monsters/creature_001074/thumb.webp"
     },
     {
       "id": "creature_001075",
@@ -2881,7 +2973,8 @@
       "height": 66,
       "total_frames": 704,
       "atlas_size_kb": 30.7,
-      "path": "assets/monsters/creature_001075/atlas.json"
+      "path": "assets/monsters/creature_001075/atlas.json",
+      "thumb": "assets/monsters/creature_001075/thumb.webp"
     },
     {
       "id": "creature_001076",
@@ -2912,7 +3005,8 @@
       "height": 121,
       "total_frames": 704,
       "atlas_size_kb": 56.2,
-      "path": "assets/monsters/creature_001076/atlas.json"
+      "path": "assets/monsters/creature_001076/atlas.json",
+      "thumb": "assets/monsters/creature_001076/thumb.webp"
     },
     {
       "id": "creature_001077",
@@ -2943,7 +3037,8 @@
       "height": 88,
       "total_frames": 704,
       "atlas_size_kb": 48.3,
-      "path": "assets/monsters/creature_001077/atlas.json"
+      "path": "assets/monsters/creature_001077/atlas.json",
+      "thumb": "assets/monsters/creature_001077/thumb.webp"
     },
     {
       "id": "creature_001078",
@@ -2974,7 +3069,8 @@
       "height": 121,
       "total_frames": 693,
       "atlas_size_kb": 52.7,
-      "path": "assets/monsters/creature_001078/atlas.json"
+      "path": "assets/monsters/creature_001078/atlas.json",
+      "thumb": "assets/monsters/creature_001078/thumb.webp"
     },
     {
       "id": "creature_001079",
@@ -3005,7 +3101,8 @@
       "height": 219,
       "total_frames": 704,
       "atlas_size_kb": 341.2,
-      "path": "assets/monsters/creature_001079/atlas.json"
+      "path": "assets/monsters/creature_001079/atlas.json",
+      "thumb": "assets/monsters/creature_001079/thumb.webp"
     },
     {
       "id": "creature_001080",
@@ -3036,7 +3133,8 @@
       "height": 148,
       "total_frames": 704,
       "atlas_size_kb": 91.4,
-      "path": "assets/monsters/creature_001080/atlas.json"
+      "path": "assets/monsters/creature_001080/atlas.json",
+      "thumb": "assets/monsters/creature_001080/thumb.webp"
     },
     {
       "id": "creature_001081",
@@ -3067,7 +3165,8 @@
       "height": 178,
       "total_frames": 704,
       "atlas_size_kb": 76.9,
-      "path": "assets/monsters/creature_001081/atlas.json"
+      "path": "assets/monsters/creature_001081/atlas.json",
+      "thumb": "assets/monsters/creature_001081/thumb.webp"
     },
     {
       "id": "creature_001082",
@@ -3098,7 +3197,8 @@
       "height": 127,
       "total_frames": 704,
       "atlas_size_kb": 62.7,
-      "path": "assets/monsters/creature_001082/atlas.json"
+      "path": "assets/monsters/creature_001082/atlas.json",
+      "thumb": "assets/monsters/creature_001082/thumb.webp"
     },
     {
       "id": "creature_001083",
@@ -3129,7 +3229,8 @@
       "height": 236,
       "total_frames": 705,
       "atlas_size_kb": 177.3,
-      "path": "assets/monsters/creature_001083/atlas.json"
+      "path": "assets/monsters/creature_001083/atlas.json",
+      "thumb": "assets/monsters/creature_001083/thumb.webp"
     },
     {
       "id": "creature_001084",
@@ -3160,7 +3261,8 @@
       "height": 128,
       "total_frames": 704,
       "atlas_size_kb": 277.8,
-      "path": "assets/monsters/creature_001084/atlas.json"
+      "path": "assets/monsters/creature_001084/atlas.json",
+      "thumb": "assets/monsters/creature_001084/thumb.webp"
     },
     {
       "id": "creature_001085",
@@ -3191,7 +3293,8 @@
       "height": 110,
       "total_frames": 704,
       "atlas_size_kb": 73.7,
-      "path": "assets/monsters/creature_001085/atlas.json"
+      "path": "assets/monsters/creature_001085/atlas.json",
+      "thumb": "assets/monsters/creature_001085/thumb.webp"
     },
     {
       "id": "creature_001086",
@@ -3222,7 +3325,8 @@
       "height": 189,
       "total_frames": 704,
       "atlas_size_kb": 129.0,
-      "path": "assets/monsters/creature_001086/atlas.json"
+      "path": "assets/monsters/creature_001086/atlas.json",
+      "thumb": "assets/monsters/creature_001086/thumb.webp"
     },
     {
       "id": "creature_001087",
@@ -3253,7 +3357,8 @@
       "height": 145,
       "total_frames": 704,
       "atlas_size_kb": 80.1,
-      "path": "assets/monsters/creature_001087/atlas.json"
+      "path": "assets/monsters/creature_001087/atlas.json",
+      "thumb": "assets/monsters/creature_001087/thumb.webp"
     },
     {
       "id": "creature_001088",
@@ -3284,7 +3389,8 @@
       "height": 364,
       "total_frames": 704,
       "atlas_size_kb": 218.3,
-      "path": "assets/monsters/creature_001088/atlas.json"
+      "path": "assets/monsters/creature_001088/atlas.json",
+      "thumb": "assets/monsters/creature_001088/thumb.webp"
     },
     {
       "id": "creature_001089",
@@ -3315,7 +3421,8 @@
       "height": 78,
       "total_frames": 704,
       "atlas_size_kb": 41.7,
-      "path": "assets/monsters/creature_001089/atlas.json"
+      "path": "assets/monsters/creature_001089/atlas.json",
+      "thumb": "assets/monsters/creature_001089/thumb.webp"
     },
     {
       "id": "creature_001090",
@@ -3346,7 +3453,8 @@
       "height": 131,
       "total_frames": 683,
       "atlas_size_kb": 62.2,
-      "path": "assets/monsters/creature_001090/atlas.json"
+      "path": "assets/monsters/creature_001090/atlas.json",
+      "thumb": "assets/monsters/creature_001090/thumb.webp"
     },
     {
       "id": "creature_001091",
@@ -3377,7 +3485,8 @@
       "height": 139,
       "total_frames": 704,
       "atlas_size_kb": 77.1,
-      "path": "assets/monsters/creature_001091/atlas.json"
+      "path": "assets/monsters/creature_001091/atlas.json",
+      "thumb": "assets/monsters/creature_001091/thumb.webp"
     },
     {
       "id": "creature_001092",
@@ -3408,7 +3517,8 @@
       "height": 171,
       "total_frames": 704,
       "atlas_size_kb": 99.4,
-      "path": "assets/monsters/creature_001092/atlas.json"
+      "path": "assets/monsters/creature_001092/atlas.json",
+      "thumb": "assets/monsters/creature_001092/thumb.webp"
     },
     {
       "id": "creature_001093",
@@ -3439,7 +3549,8 @@
       "height": 110,
       "total_frames": 704,
       "atlas_size_kb": 66.2,
-      "path": "assets/monsters/creature_001093/atlas.json"
+      "path": "assets/monsters/creature_001093/atlas.json",
+      "thumb": "assets/monsters/creature_001093/thumb.webp"
     },
     {
       "id": "creature_001094",
@@ -3470,7 +3581,8 @@
       "height": 148,
       "total_frames": 704,
       "atlas_size_kb": 377.5,
-      "path": "assets/monsters/creature_001094/atlas.json"
+      "path": "assets/monsters/creature_001094/atlas.json",
+      "thumb": "assets/monsters/creature_001094/thumb.webp"
     },
     {
       "id": "creature_001095",
@@ -3501,7 +3613,8 @@
       "height": 132,
       "total_frames": 704,
       "atlas_size_kb": 116.2,
-      "path": "assets/monsters/creature_001095/atlas.json"
+      "path": "assets/monsters/creature_001095/atlas.json",
+      "thumb": "assets/monsters/creature_001095/thumb.webp"
     },
     {
       "id": "creature_001096",
@@ -3532,7 +3645,8 @@
       "height": 221,
       "total_frames": 704,
       "atlas_size_kb": 110.1,
-      "path": "assets/monsters/creature_001096/atlas.json"
+      "path": "assets/monsters/creature_001096/atlas.json",
+      "thumb": "assets/monsters/creature_001096/thumb.webp"
     },
     {
       "id": "creature_001097",
@@ -3563,7 +3677,8 @@
       "height": 145,
       "total_frames": 704,
       "atlas_size_kb": 98.4,
-      "path": "assets/monsters/creature_001097/atlas.json"
+      "path": "assets/monsters/creature_001097/atlas.json",
+      "thumb": "assets/monsters/creature_001097/thumb.webp"
     },
     {
       "id": "creature_001098",
@@ -3594,7 +3709,8 @@
       "height": 192,
       "total_frames": 698,
       "atlas_size_kb": 100.9,
-      "path": "assets/monsters/creature_001098/atlas.json"
+      "path": "assets/monsters/creature_001098/atlas.json",
+      "thumb": "assets/monsters/creature_001098/thumb.webp"
     },
     {
       "id": "creature_001099",
@@ -3625,7 +3741,8 @@
       "height": 140,
       "total_frames": 704,
       "atlas_size_kb": 374.9,
-      "path": "assets/monsters/creature_001099/atlas.json"
+      "path": "assets/monsters/creature_001099/atlas.json",
+      "thumb": "assets/monsters/creature_001099/thumb.webp"
     },
     {
       "id": "creature_001100",
@@ -3656,7 +3773,8 @@
       "height": 147,
       "total_frames": 698,
       "atlas_size_kb": 66.2,
-      "path": "assets/monsters/creature_001100/atlas.json"
+      "path": "assets/monsters/creature_001100/atlas.json",
+      "thumb": "assets/monsters/creature_001100/thumb.webp"
     },
     {
       "id": "creature_001101",
@@ -3687,7 +3805,8 @@
       "height": 155,
       "total_frames": 704,
       "atlas_size_kb": 52.9,
-      "path": "assets/monsters/creature_001101/atlas.json"
+      "path": "assets/monsters/creature_001101/atlas.json",
+      "thumb": "assets/monsters/creature_001101/thumb.webp"
     },
     {
       "id": "creature_001102",
@@ -3718,7 +3837,8 @@
       "height": 121,
       "total_frames": 704,
       "atlas_size_kb": 56.9,
-      "path": "assets/monsters/creature_001102/atlas.json"
+      "path": "assets/monsters/creature_001102/atlas.json",
+      "thumb": "assets/monsters/creature_001102/thumb.webp"
     },
     {
       "id": "creature_001103",
@@ -3749,7 +3869,8 @@
       "height": 102,
       "total_frames": 704,
       "atlas_size_kb": 53.2,
-      "path": "assets/monsters/creature_001103/atlas.json"
+      "path": "assets/monsters/creature_001103/atlas.json",
+      "thumb": "assets/monsters/creature_001103/thumb.webp"
     },
     {
       "id": "creature_001104",
@@ -3780,7 +3901,8 @@
       "height": 180,
       "total_frames": 704,
       "atlas_size_kb": 85.0,
-      "path": "assets/monsters/creature_001104/atlas.json"
+      "path": "assets/monsters/creature_001104/atlas.json",
+      "thumb": "assets/monsters/creature_001104/thumb.webp"
     },
     {
       "id": "creature_001105",
@@ -3811,7 +3933,8 @@
       "height": 129,
       "total_frames": 704,
       "atlas_size_kb": 209.5,
-      "path": "assets/monsters/creature_001105/atlas.json"
+      "path": "assets/monsters/creature_001105/atlas.json",
+      "thumb": "assets/monsters/creature_001105/thumb.webp"
     },
     {
       "id": "creature_001106",
@@ -3842,7 +3965,8 @@
       "height": 125,
       "total_frames": 686,
       "atlas_size_kb": 43.1,
-      "path": "assets/monsters/creature_001106/atlas.json"
+      "path": "assets/monsters/creature_001106/atlas.json",
+      "thumb": "assets/monsters/creature_001106/thumb.webp"
     },
     {
       "id": "creature_001107",
@@ -3873,7 +3997,8 @@
       "height": 107,
       "total_frames": 704,
       "atlas_size_kb": 40.7,
-      "path": "assets/monsters/creature_001107/atlas.json"
+      "path": "assets/monsters/creature_001107/atlas.json",
+      "thumb": "assets/monsters/creature_001107/thumb.webp"
     },
     {
       "id": "creature_001108",
@@ -3904,7 +4029,8 @@
       "height": 85,
       "total_frames": 704,
       "atlas_size_kb": 37.4,
-      "path": "assets/monsters/creature_001108/atlas.json"
+      "path": "assets/monsters/creature_001108/atlas.json",
+      "thumb": "assets/monsters/creature_001108/thumb.webp"
     },
     {
       "id": "creature_001109",
@@ -3935,7 +4061,8 @@
       "height": 117,
       "total_frames": 704,
       "atlas_size_kb": 72.2,
-      "path": "assets/monsters/creature_001109/atlas.json"
+      "path": "assets/monsters/creature_001109/atlas.json",
+      "thumb": "assets/monsters/creature_001109/thumb.webp"
     },
     {
       "id": "creature_001110",
@@ -3966,7 +4093,8 @@
       "height": 135,
       "total_frames": 704,
       "atlas_size_kb": 90.4,
-      "path": "assets/monsters/creature_001110/atlas.json"
+      "path": "assets/monsters/creature_001110/atlas.json",
+      "thumb": "assets/monsters/creature_001110/thumb.webp"
     },
     {
       "id": "creature_001111",
@@ -3997,7 +4125,8 @@
       "height": 113,
       "total_frames": 704,
       "atlas_size_kb": 78.8,
-      "path": "assets/monsters/creature_001111/atlas.json"
+      "path": "assets/monsters/creature_001111/atlas.json",
+      "thumb": "assets/monsters/creature_001111/thumb.webp"
     },
     {
       "id": "creature_001112",
@@ -4028,7 +4157,8 @@
       "height": 109,
       "total_frames": 704,
       "atlas_size_kb": 63.3,
-      "path": "assets/monsters/creature_001112/atlas.json"
+      "path": "assets/monsters/creature_001112/atlas.json",
+      "thumb": "assets/monsters/creature_001112/thumb.webp"
     },
     {
       "id": "creature_001113",
@@ -4059,7 +4189,8 @@
       "height": 138,
       "total_frames": 704,
       "atlas_size_kb": 68.8,
-      "path": "assets/monsters/creature_001113/atlas.json"
+      "path": "assets/monsters/creature_001113/atlas.json",
+      "thumb": "assets/monsters/creature_001113/thumb.webp"
     },
     {
       "id": "creature_001114",
@@ -4090,7 +4221,8 @@
       "height": 120,
       "total_frames": 704,
       "atlas_size_kb": 62.8,
-      "path": "assets/monsters/creature_001114/atlas.json"
+      "path": "assets/monsters/creature_001114/atlas.json",
+      "thumb": "assets/monsters/creature_001114/thumb.webp"
     },
     {
       "id": "creature_001115",
@@ -4121,7 +4253,8 @@
       "height": 144,
       "total_frames": 704,
       "atlas_size_kb": 86.8,
-      "path": "assets/monsters/creature_001115/atlas.json"
+      "path": "assets/monsters/creature_001115/atlas.json",
+      "thumb": "assets/monsters/creature_001115/thumb.webp"
     },
     {
       "id": "creature_001116",
@@ -4152,7 +4285,8 @@
       "height": 149,
       "total_frames": 704,
       "atlas_size_kb": 251.3,
-      "path": "assets/monsters/creature_001116/atlas.json"
+      "path": "assets/monsters/creature_001116/atlas.json",
+      "thumb": "assets/monsters/creature_001116/thumb.webp"
     },
     {
       "id": "creature_001117",
@@ -4183,7 +4317,8 @@
       "height": 120,
       "total_frames": 704,
       "atlas_size_kb": 67.5,
-      "path": "assets/monsters/creature_001117/atlas.json"
+      "path": "assets/monsters/creature_001117/atlas.json",
+      "thumb": "assets/monsters/creature_001117/thumb.webp"
     },
     {
       "id": "creature_001118",
@@ -4214,7 +4349,8 @@
       "height": 171,
       "total_frames": 704,
       "atlas_size_kb": 73.0,
-      "path": "assets/monsters/creature_001118/atlas.json"
+      "path": "assets/monsters/creature_001118/atlas.json",
+      "thumb": "assets/monsters/creature_001118/thumb.webp"
     },
     {
       "id": "creature_001119",
@@ -4245,7 +4381,8 @@
       "height": 120,
       "total_frames": 704,
       "atlas_size_kb": 68.3,
-      "path": "assets/monsters/creature_001119/atlas.json"
+      "path": "assets/monsters/creature_001119/atlas.json",
+      "thumb": "assets/monsters/creature_001119/thumb.webp"
     },
     {
       "id": "creature_001120",
@@ -4276,7 +4413,8 @@
       "height": 107,
       "total_frames": 704,
       "atlas_size_kb": 62.6,
-      "path": "assets/monsters/creature_001120/atlas.json"
+      "path": "assets/monsters/creature_001120/atlas.json",
+      "thumb": "assets/monsters/creature_001120/thumb.webp"
     },
     {
       "id": "creature_001121",
@@ -4307,7 +4445,8 @@
       "height": 128,
       "total_frames": 704,
       "atlas_size_kb": 63.4,
-      "path": "assets/monsters/creature_001121/atlas.json"
+      "path": "assets/monsters/creature_001121/atlas.json",
+      "thumb": "assets/monsters/creature_001121/thumb.webp"
     },
     {
       "id": "creature_001122",
@@ -4338,7 +4477,8 @@
       "height": 146,
       "total_frames": 704,
       "atlas_size_kb": 67.8,
-      "path": "assets/monsters/creature_001122/atlas.json"
+      "path": "assets/monsters/creature_001122/atlas.json",
+      "thumb": "assets/monsters/creature_001122/thumb.webp"
     },
     {
       "id": "creature_001123",
@@ -4369,7 +4509,8 @@
       "height": 96,
       "total_frames": 704,
       "atlas_size_kb": 35.1,
-      "path": "assets/monsters/creature_001123/atlas.json"
+      "path": "assets/monsters/creature_001123/atlas.json",
+      "thumb": "assets/monsters/creature_001123/thumb.webp"
     },
     {
       "id": "creature_001124",
@@ -4400,7 +4541,8 @@
       "height": 198,
       "total_frames": 704,
       "atlas_size_kb": 89.6,
-      "path": "assets/monsters/creature_001124/atlas.json"
+      "path": "assets/monsters/creature_001124/atlas.json",
+      "thumb": "assets/monsters/creature_001124/thumb.webp"
     },
     {
       "id": "creature_001125",
@@ -4431,7 +4573,8 @@
       "height": 233,
       "total_frames": 704,
       "atlas_size_kb": 94.9,
-      "path": "assets/monsters/creature_001125/atlas.json"
+      "path": "assets/monsters/creature_001125/atlas.json",
+      "thumb": "assets/monsters/creature_001125/thumb.webp"
     },
     {
       "id": "creature_001126",
@@ -4462,7 +4605,8 @@
       "height": 218,
       "total_frames": 704,
       "atlas_size_kb": 485.3,
-      "path": "assets/monsters/creature_001126/atlas.json"
+      "path": "assets/monsters/creature_001126/atlas.json",
+      "thumb": "assets/monsters/creature_001126/thumb.webp"
     },
     {
       "id": "creature_001127",
@@ -4493,7 +4637,8 @@
       "height": 156,
       "total_frames": 704,
       "atlas_size_kb": 203.9,
-      "path": "assets/monsters/creature_001127/atlas.json"
+      "path": "assets/monsters/creature_001127/atlas.json",
+      "thumb": "assets/monsters/creature_001127/thumb.webp"
     },
     {
       "id": "creature_001128",
@@ -4524,7 +4669,8 @@
       "height": 113,
       "total_frames": 704,
       "atlas_size_kb": 188.6,
-      "path": "assets/monsters/creature_001128/atlas.json"
+      "path": "assets/monsters/creature_001128/atlas.json",
+      "thumb": "assets/monsters/creature_001128/thumb.webp"
     },
     {
       "id": "creature_001129",
@@ -4555,7 +4701,8 @@
       "height": 168,
       "total_frames": 704,
       "atlas_size_kb": 89.6,
-      "path": "assets/monsters/creature_001129/atlas.json"
+      "path": "assets/monsters/creature_001129/atlas.json",
+      "thumb": "assets/monsters/creature_001129/thumb.webp"
     },
     {
       "id": "creature_001130",
@@ -4586,7 +4733,8 @@
       "height": 117,
       "total_frames": 704,
       "atlas_size_kb": 115.5,
-      "path": "assets/monsters/creature_001130/atlas.json"
+      "path": "assets/monsters/creature_001130/atlas.json",
+      "thumb": "assets/monsters/creature_001130/thumb.webp"
     },
     {
       "id": "creature_001131",
@@ -4617,7 +4765,8 @@
       "height": 136,
       "total_frames": 704,
       "atlas_size_kb": 265.2,
-      "path": "assets/monsters/creature_001131/atlas.json"
+      "path": "assets/monsters/creature_001131/atlas.json",
+      "thumb": "assets/monsters/creature_001131/thumb.webp"
     },
     {
       "id": "creature_001132",
@@ -4648,7 +4797,8 @@
       "height": 117,
       "total_frames": 704,
       "atlas_size_kb": 223.5,
-      "path": "assets/monsters/creature_001132/atlas.json"
+      "path": "assets/monsters/creature_001132/atlas.json",
+      "thumb": "assets/monsters/creature_001132/thumb.webp"
     },
     {
       "id": "creature_001133",
@@ -4679,7 +4829,8 @@
       "height": 152,
       "total_frames": 704,
       "atlas_size_kb": 205.0,
-      "path": "assets/monsters/creature_001133/atlas.json"
+      "path": "assets/monsters/creature_001133/atlas.json",
+      "thumb": "assets/monsters/creature_001133/thumb.webp"
     },
     {
       "id": "creature_001134",
@@ -4710,7 +4861,8 @@
       "height": 100,
       "total_frames": 704,
       "atlas_size_kb": 171.5,
-      "path": "assets/monsters/creature_001134/atlas.json"
+      "path": "assets/monsters/creature_001134/atlas.json",
+      "thumb": "assets/monsters/creature_001134/thumb.webp"
     },
     {
       "id": "creature_001135",
@@ -4741,7 +4893,8 @@
       "height": 133,
       "total_frames": 704,
       "atlas_size_kb": 233.0,
-      "path": "assets/monsters/creature_001135/atlas.json"
+      "path": "assets/monsters/creature_001135/atlas.json",
+      "thumb": "assets/monsters/creature_001135/thumb.webp"
     },
     {
       "id": "creature_001136",
@@ -4772,7 +4925,8 @@
       "height": 126,
       "total_frames": 704,
       "atlas_size_kb": 168.3,
-      "path": "assets/monsters/creature_001136/atlas.json"
+      "path": "assets/monsters/creature_001136/atlas.json",
+      "thumb": "assets/monsters/creature_001136/thumb.webp"
     },
     {
       "id": "creature_001137",
@@ -4803,7 +4957,8 @@
       "height": 116,
       "total_frames": 704,
       "atlas_size_kb": 184.8,
-      "path": "assets/monsters/creature_001137/atlas.json"
+      "path": "assets/monsters/creature_001137/atlas.json",
+      "thumb": "assets/monsters/creature_001137/thumb.webp"
     },
     {
       "id": "creature_001138",
@@ -4834,7 +4989,8 @@
       "height": 130,
       "total_frames": 704,
       "atlas_size_kb": 188.5,
-      "path": "assets/monsters/creature_001138/atlas.json"
+      "path": "assets/monsters/creature_001138/atlas.json",
+      "thumb": "assets/monsters/creature_001138/thumb.webp"
     },
     {
       "id": "creature_001139",
@@ -4865,7 +5021,8 @@
       "height": 135,
       "total_frames": 704,
       "atlas_size_kb": 56.4,
-      "path": "assets/monsters/creature_001139/atlas.json"
+      "path": "assets/monsters/creature_001139/atlas.json",
+      "thumb": "assets/monsters/creature_001139/thumb.webp"
     },
     {
       "id": "creature_001140",
@@ -4896,7 +5053,8 @@
       "height": 71,
       "total_frames": 704,
       "atlas_size_kb": 32.5,
-      "path": "assets/monsters/creature_001140/atlas.json"
+      "path": "assets/monsters/creature_001140/atlas.json",
+      "thumb": "assets/monsters/creature_001140/thumb.webp"
     },
     {
       "id": "creature_001141",
@@ -4927,7 +5085,8 @@
       "height": 117,
       "total_frames": 704,
       "atlas_size_kb": 42.8,
-      "path": "assets/monsters/creature_001141/atlas.json"
+      "path": "assets/monsters/creature_001141/atlas.json",
+      "thumb": "assets/monsters/creature_001141/thumb.webp"
     },
     {
       "id": "creature_001142",
@@ -4958,7 +5117,8 @@
       "height": 136,
       "total_frames": 704,
       "atlas_size_kb": 60.7,
-      "path": "assets/monsters/creature_001142/atlas.json"
+      "path": "assets/monsters/creature_001142/atlas.json",
+      "thumb": "assets/monsters/creature_001142/thumb.webp"
     },
     {
       "id": "creature_001143",
@@ -4989,7 +5149,8 @@
       "height": 85,
       "total_frames": 704,
       "atlas_size_kb": 40.3,
-      "path": "assets/monsters/creature_001143/atlas.json"
+      "path": "assets/monsters/creature_001143/atlas.json",
+      "thumb": "assets/monsters/creature_001143/thumb.webp"
     },
     {
       "id": "creature_001144",
@@ -5020,7 +5181,8 @@
       "height": 143,
       "total_frames": 704,
       "atlas_size_kb": 177.7,
-      "path": "assets/monsters/creature_001144/atlas.json"
+      "path": "assets/monsters/creature_001144/atlas.json",
+      "thumb": "assets/monsters/creature_001144/thumb.webp"
     },
     {
       "id": "creature_001145",
@@ -5051,7 +5213,8 @@
       "height": 135,
       "total_frames": 704,
       "atlas_size_kb": 175.2,
-      "path": "assets/monsters/creature_001145/atlas.json"
+      "path": "assets/monsters/creature_001145/atlas.json",
+      "thumb": "assets/monsters/creature_001145/thumb.webp"
     },
     {
       "id": "creature_001146",
@@ -5082,7 +5245,8 @@
       "height": 160,
       "total_frames": 704,
       "atlas_size_kb": 284.1,
-      "path": "assets/monsters/creature_001146/atlas.json"
+      "path": "assets/monsters/creature_001146/atlas.json",
+      "thumb": "assets/monsters/creature_001146/thumb.webp"
     },
     {
       "id": "creature_001147",
@@ -5113,7 +5277,8 @@
       "height": 110,
       "total_frames": 704,
       "atlas_size_kb": 196.9,
-      "path": "assets/monsters/creature_001147/atlas.json"
+      "path": "assets/monsters/creature_001147/atlas.json",
+      "thumb": "assets/monsters/creature_001147/thumb.webp"
     },
     {
       "id": "creature_001148",
@@ -5144,7 +5309,8 @@
       "height": 120,
       "total_frames": 704,
       "atlas_size_kb": 154.8,
-      "path": "assets/monsters/creature_001148/atlas.json"
+      "path": "assets/monsters/creature_001148/atlas.json",
+      "thumb": "assets/monsters/creature_001148/thumb.webp"
     },
     {
       "id": "creature_001149",
@@ -5175,7 +5341,8 @@
       "height": 89,
       "total_frames": 704,
       "atlas_size_kb": 47.4,
-      "path": "assets/monsters/creature_001149/atlas.json"
+      "path": "assets/monsters/creature_001149/atlas.json",
+      "thumb": "assets/monsters/creature_001149/thumb.webp"
     },
     {
       "id": "creature_001151",
@@ -5206,7 +5373,8 @@
       "height": 128,
       "total_frames": 704,
       "atlas_size_kb": 61.4,
-      "path": "assets/monsters/creature_001151/atlas.json"
+      "path": "assets/monsters/creature_001151/atlas.json",
+      "thumb": "assets/monsters/creature_001151/thumb.webp"
     },
     {
       "id": "creature_001152",
@@ -5237,7 +5405,8 @@
       "height": 91,
       "total_frames": 704,
       "atlas_size_kb": 50.8,
-      "path": "assets/monsters/creature_001152/atlas.json"
+      "path": "assets/monsters/creature_001152/atlas.json",
+      "thumb": "assets/monsters/creature_001152/thumb.webp"
     },
     {
       "id": "creature_001153",
@@ -5268,7 +5437,8 @@
       "height": 136,
       "total_frames": 704,
       "atlas_size_kb": 87.3,
-      "path": "assets/monsters/creature_001153/atlas.json"
+      "path": "assets/monsters/creature_001153/atlas.json",
+      "thumb": "assets/monsters/creature_001153/thumb.webp"
     },
     {
       "id": "creature_001154",
@@ -5299,7 +5469,8 @@
       "height": 135,
       "total_frames": 704,
       "atlas_size_kb": 84.2,
-      "path": "assets/monsters/creature_001154/atlas.json"
+      "path": "assets/monsters/creature_001154/atlas.json",
+      "thumb": "assets/monsters/creature_001154/thumb.webp"
     },
     {
       "id": "creature_001155",
@@ -5330,7 +5501,8 @@
       "height": 180,
       "total_frames": 704,
       "atlas_size_kb": 123.0,
-      "path": "assets/monsters/creature_001155/atlas.json"
+      "path": "assets/monsters/creature_001155/atlas.json",
+      "thumb": "assets/monsters/creature_001155/thumb.webp"
     },
     {
       "id": "creature_001156",
@@ -5361,7 +5533,8 @@
       "height": 129,
       "total_frames": 704,
       "atlas_size_kb": 69.9,
-      "path": "assets/monsters/creature_001156/atlas.json"
+      "path": "assets/monsters/creature_001156/atlas.json",
+      "thumb": "assets/monsters/creature_001156/thumb.webp"
     },
     {
       "id": "creature_001157",
@@ -5392,7 +5565,8 @@
       "height": 124,
       "total_frames": 704,
       "atlas_size_kb": 76.2,
-      "path": "assets/monsters/creature_001157/atlas.json"
+      "path": "assets/monsters/creature_001157/atlas.json",
+      "thumb": "assets/monsters/creature_001157/thumb.webp"
     },
     {
       "id": "creature_001158",
@@ -5423,7 +5597,8 @@
       "height": 165,
       "total_frames": 704,
       "atlas_size_kb": 82.7,
-      "path": "assets/monsters/creature_001158/atlas.json"
+      "path": "assets/monsters/creature_001158/atlas.json",
+      "thumb": "assets/monsters/creature_001158/thumb.webp"
     },
     {
       "id": "creature_001159",
@@ -5454,7 +5629,8 @@
       "height": 254,
       "total_frames": 704,
       "atlas_size_kb": 161.8,
-      "path": "assets/monsters/creature_001159/atlas.json"
+      "path": "assets/monsters/creature_001159/atlas.json",
+      "thumb": "assets/monsters/creature_001159/thumb.webp"
     },
     {
       "id": "creature_001160",
@@ -5485,7 +5661,8 @@
       "height": 151,
       "total_frames": 704,
       "atlas_size_kb": 68.6,
-      "path": "assets/monsters/creature_001160/atlas.json"
+      "path": "assets/monsters/creature_001160/atlas.json",
+      "thumb": "assets/monsters/creature_001160/thumb.webp"
     },
     {
       "id": "creature_001161",
@@ -5516,7 +5693,8 @@
       "height": 187,
       "total_frames": 704,
       "atlas_size_kb": 81.7,
-      "path": "assets/monsters/creature_001161/atlas.json"
+      "path": "assets/monsters/creature_001161/atlas.json",
+      "thumb": "assets/monsters/creature_001161/thumb.webp"
     },
     {
       "id": "creature_001162",
@@ -5547,7 +5725,8 @@
       "height": 83,
       "total_frames": 704,
       "atlas_size_kb": 109.1,
-      "path": "assets/monsters/creature_001162/atlas.json"
+      "path": "assets/monsters/creature_001162/atlas.json",
+      "thumb": "assets/monsters/creature_001162/thumb.webp"
     },
     {
       "id": "creature_001163",
@@ -5578,7 +5757,8 @@
       "height": 83,
       "total_frames": 704,
       "atlas_size_kb": 114.6,
-      "path": "assets/monsters/creature_001163/atlas.json"
+      "path": "assets/monsters/creature_001163/atlas.json",
+      "thumb": "assets/monsters/creature_001163/thumb.webp"
     },
     {
       "id": "creature_001164",
@@ -5609,7 +5789,8 @@
       "height": 83,
       "total_frames": 704,
       "atlas_size_kb": 110.5,
-      "path": "assets/monsters/creature_001164/atlas.json"
+      "path": "assets/monsters/creature_001164/atlas.json",
+      "thumb": "assets/monsters/creature_001164/thumb.webp"
     },
     {
       "id": "creature_001165",
@@ -5640,7 +5821,8 @@
       "height": 118,
       "total_frames": 704,
       "atlas_size_kb": 210.6,
-      "path": "assets/monsters/creature_001165/atlas.json"
+      "path": "assets/monsters/creature_001165/atlas.json",
+      "thumb": "assets/monsters/creature_001165/thumb.webp"
     },
     {
       "id": "creature_001166",
@@ -5671,7 +5853,8 @@
       "height": 143,
       "total_frames": 704,
       "atlas_size_kb": 409.3,
-      "path": "assets/monsters/creature_001166/atlas.json"
+      "path": "assets/monsters/creature_001166/atlas.json",
+      "thumb": "assets/monsters/creature_001166/thumb.webp"
     },
     {
       "id": "creature_001167",
@@ -5702,7 +5885,8 @@
       "height": 200,
       "total_frames": 704,
       "atlas_size_kb": 382.5,
-      "path": "assets/monsters/creature_001167/atlas.json"
+      "path": "assets/monsters/creature_001167/atlas.json",
+      "thumb": "assets/monsters/creature_001167/thumb.webp"
     },
     {
       "id": "creature_001168",
@@ -5733,7 +5917,8 @@
       "height": 280,
       "total_frames": 704,
       "atlas_size_kb": 48.9,
-      "path": "assets/monsters/creature_001168/atlas.json"
+      "path": "assets/monsters/creature_001168/atlas.json",
+      "thumb": "assets/monsters/creature_001168/thumb.webp"
     },
     {
       "id": "creature_001169",
@@ -5764,7 +5949,8 @@
       "height": 313,
       "total_frames": 704,
       "atlas_size_kb": 51.5,
-      "path": "assets/monsters/creature_001169/atlas.json"
+      "path": "assets/monsters/creature_001169/atlas.json",
+      "thumb": "assets/monsters/creature_001169/thumb.webp"
     },
     {
       "id": "creature_001170",
@@ -5795,7 +5981,8 @@
       "height": 291,
       "total_frames": 704,
       "atlas_size_kb": 55.0,
-      "path": "assets/monsters/creature_001170/atlas.json"
+      "path": "assets/monsters/creature_001170/atlas.json",
+      "thumb": "assets/monsters/creature_001170/thumb.webp"
     },
     {
       "id": "creature_001171",
@@ -5826,7 +6013,8 @@
       "height": 87,
       "total_frames": 704,
       "atlas_size_kb": 164.0,
-      "path": "assets/monsters/creature_001171/atlas.json"
+      "path": "assets/monsters/creature_001171/atlas.json",
+      "thumb": "assets/monsters/creature_001171/thumb.webp"
     },
     {
       "id": "creature_001172",
@@ -5857,7 +6045,8 @@
       "height": 94,
       "total_frames": 704,
       "atlas_size_kb": 126.7,
-      "path": "assets/monsters/creature_001172/atlas.json"
+      "path": "assets/monsters/creature_001172/atlas.json",
+      "thumb": "assets/monsters/creature_001172/thumb.webp"
     },
     {
       "id": "creature_001173",
@@ -5888,7 +6077,8 @@
       "height": 176,
       "total_frames": 704,
       "atlas_size_kb": 464.0,
-      "path": "assets/monsters/creature_001173/atlas.json"
+      "path": "assets/monsters/creature_001173/atlas.json",
+      "thumb": "assets/monsters/creature_001173/thumb.webp"
     },
     {
       "id": "creature_001174",
@@ -5919,7 +6109,8 @@
       "height": 116,
       "total_frames": 704,
       "atlas_size_kb": 141.8,
-      "path": "assets/monsters/creature_001174/atlas.json"
+      "path": "assets/monsters/creature_001174/atlas.json",
+      "thumb": "assets/monsters/creature_001174/thumb.webp"
     },
     {
       "id": "creature_001175",
@@ -5950,7 +6141,8 @@
       "height": 187,
       "total_frames": 704,
       "atlas_size_kb": 271.5,
-      "path": "assets/monsters/creature_001175/atlas.json"
+      "path": "assets/monsters/creature_001175/atlas.json",
+      "thumb": "assets/monsters/creature_001175/thumb.webp"
     },
     {
       "id": "creature_001176",
@@ -5981,7 +6173,8 @@
       "height": 209,
       "total_frames": 704,
       "atlas_size_kb": 335.3,
-      "path": "assets/monsters/creature_001176/atlas.json"
+      "path": "assets/monsters/creature_001176/atlas.json",
+      "thumb": "assets/monsters/creature_001176/thumb.webp"
     },
     {
       "id": "creature_001177",
@@ -6012,7 +6205,8 @@
       "height": 181,
       "total_frames": 704,
       "atlas_size_kb": 216.5,
-      "path": "assets/monsters/creature_001177/atlas.json"
+      "path": "assets/monsters/creature_001177/atlas.json",
+      "thumb": "assets/monsters/creature_001177/thumb.webp"
     },
     {
       "id": "creature_001178",
@@ -6043,7 +6237,8 @@
       "height": 150,
       "total_frames": 704,
       "atlas_size_kb": 251.1,
-      "path": "assets/monsters/creature_001178/atlas.json"
+      "path": "assets/monsters/creature_001178/atlas.json",
+      "thumb": "assets/monsters/creature_001178/thumb.webp"
     },
     {
       "id": "creature_001179",
@@ -6074,7 +6269,8 @@
       "height": 191,
       "total_frames": 704,
       "atlas_size_kb": 350.2,
-      "path": "assets/monsters/creature_001179/atlas.json"
+      "path": "assets/monsters/creature_001179/atlas.json",
+      "thumb": "assets/monsters/creature_001179/thumb.webp"
     },
     {
       "id": "creature_001180",
@@ -6105,7 +6301,8 @@
       "height": 211,
       "total_frames": 704,
       "atlas_size_kb": 455.4,
-      "path": "assets/monsters/creature_001180/atlas.json"
+      "path": "assets/monsters/creature_001180/atlas.json",
+      "thumb": "assets/monsters/creature_001180/thumb.webp"
     },
     {
       "id": "creature_001181",
@@ -6136,7 +6333,8 @@
       "height": 110,
       "total_frames": 704,
       "atlas_size_kb": 180.0,
-      "path": "assets/monsters/creature_001181/atlas.json"
+      "path": "assets/monsters/creature_001181/atlas.json",
+      "thumb": "assets/monsters/creature_001181/thumb.webp"
     },
     {
       "id": "creature_001182",
@@ -6167,7 +6365,8 @@
       "height": 222,
       "total_frames": 704,
       "atlas_size_kb": 498.3,
-      "path": "assets/monsters/creature_001182/atlas.json"
+      "path": "assets/monsters/creature_001182/atlas.json",
+      "thumb": "assets/monsters/creature_001182/thumb.webp"
     },
     {
       "id": "creature_001183",
@@ -6198,7 +6397,8 @@
       "height": 262,
       "total_frames": 704,
       "atlas_size_kb": 684.3,
-      "path": "assets/monsters/creature_001183/atlas.json"
+      "path": "assets/monsters/creature_001183/atlas.json",
+      "thumb": "assets/monsters/creature_001183/thumb.webp"
     },
     {
       "id": "creature_001184",
@@ -6229,7 +6429,8 @@
       "height": 221,
       "total_frames": 704,
       "atlas_size_kb": 282.0,
-      "path": "assets/monsters/creature_001184/atlas.json"
+      "path": "assets/monsters/creature_001184/atlas.json",
+      "thumb": "assets/monsters/creature_001184/thumb.webp"
     },
     {
       "id": "creature_001185",
@@ -6260,7 +6461,8 @@
       "height": 167,
       "total_frames": 704,
       "atlas_size_kb": 210.4,
-      "path": "assets/monsters/creature_001185/atlas.json"
+      "path": "assets/monsters/creature_001185/atlas.json",
+      "thumb": "assets/monsters/creature_001185/thumb.webp"
     },
     {
       "id": "creature_001186",
@@ -6291,7 +6493,8 @@
       "height": 167,
       "total_frames": 704,
       "atlas_size_kb": 213.3,
-      "path": "assets/monsters/creature_001186/atlas.json"
+      "path": "assets/monsters/creature_001186/atlas.json",
+      "thumb": "assets/monsters/creature_001186/thumb.webp"
     },
     {
       "id": "creature_001187",
@@ -6322,7 +6525,8 @@
       "height": 167,
       "total_frames": 704,
       "atlas_size_kb": 245.9,
-      "path": "assets/monsters/creature_001187/atlas.json"
+      "path": "assets/monsters/creature_001187/atlas.json",
+      "thumb": "assets/monsters/creature_001187/thumb.webp"
     },
     {
       "id": "creature_001188",
@@ -6353,7 +6557,8 @@
       "height": 167,
       "total_frames": 704,
       "atlas_size_kb": 226.6,
-      "path": "assets/monsters/creature_001188/atlas.json"
+      "path": "assets/monsters/creature_001188/atlas.json",
+      "thumb": "assets/monsters/creature_001188/thumb.webp"
     },
     {
       "id": "creature_001189",
@@ -6384,7 +6589,8 @@
       "height": 167,
       "total_frames": 704,
       "atlas_size_kb": 229.6,
-      "path": "assets/monsters/creature_001189/atlas.json"
+      "path": "assets/monsters/creature_001189/atlas.json",
+      "thumb": "assets/monsters/creature_001189/thumb.webp"
     },
     {
       "id": "creature_001190",
@@ -6415,7 +6621,8 @@
       "height": 167,
       "total_frames": 704,
       "atlas_size_kb": 206.4,
-      "path": "assets/monsters/creature_001190/atlas.json"
+      "path": "assets/monsters/creature_001190/atlas.json",
+      "thumb": "assets/monsters/creature_001190/thumb.webp"
     },
     {
       "id": "creature_001191",
@@ -6446,7 +6653,8 @@
       "height": 176,
       "total_frames": 704,
       "atlas_size_kb": 168.0,
-      "path": "assets/monsters/creature_001191/atlas.json"
+      "path": "assets/monsters/creature_001191/atlas.json",
+      "thumb": "assets/monsters/creature_001191/thumb.webp"
     },
     {
       "id": "creature_001192",
@@ -6477,7 +6685,8 @@
       "height": 176,
       "total_frames": 704,
       "atlas_size_kb": 167.5,
-      "path": "assets/monsters/creature_001192/atlas.json"
+      "path": "assets/monsters/creature_001192/atlas.json",
+      "thumb": "assets/monsters/creature_001192/thumb.webp"
     },
     {
       "id": "creature_001193",
@@ -6508,7 +6717,8 @@
       "height": 164,
       "total_frames": 704,
       "atlas_size_kb": 170.2,
-      "path": "assets/monsters/creature_001193/atlas.json"
+      "path": "assets/monsters/creature_001193/atlas.json",
+      "thumb": "assets/monsters/creature_001193/thumb.webp"
     },
     {
       "id": "creature_001194",
@@ -6539,7 +6749,8 @@
       "height": 131,
       "total_frames": 704,
       "atlas_size_kb": 158.2,
-      "path": "assets/monsters/creature_001194/atlas.json"
+      "path": "assets/monsters/creature_001194/atlas.json",
+      "thumb": "assets/monsters/creature_001194/thumb.webp"
     },
     {
       "id": "creature_001195",
@@ -6570,7 +6781,8 @@
       "height": 131,
       "total_frames": 704,
       "atlas_size_kb": 158.0,
-      "path": "assets/monsters/creature_001195/atlas.json"
+      "path": "assets/monsters/creature_001195/atlas.json",
+      "thumb": "assets/monsters/creature_001195/thumb.webp"
     },
     {
       "id": "creature_001196",
@@ -6601,7 +6813,8 @@
       "height": 120,
       "total_frames": 704,
       "atlas_size_kb": 189.7,
-      "path": "assets/monsters/creature_001196/atlas.json"
+      "path": "assets/monsters/creature_001196/atlas.json",
+      "thumb": "assets/monsters/creature_001196/thumb.webp"
     },
     {
       "id": "creature_001197",
@@ -6632,7 +6845,8 @@
       "height": 255,
       "total_frames": 704,
       "atlas_size_kb": 395.5,
-      "path": "assets/monsters/creature_001197/atlas.json"
+      "path": "assets/monsters/creature_001197/atlas.json",
+      "thumb": "assets/monsters/creature_001197/thumb.webp"
     },
     {
       "id": "creature_001198",
@@ -6663,7 +6877,8 @@
       "height": 245,
       "total_frames": 704,
       "atlas_size_kb": 707.0,
-      "path": "assets/monsters/creature_001198/atlas.json"
+      "path": "assets/monsters/creature_001198/atlas.json",
+      "thumb": "assets/monsters/creature_001198/thumb.webp"
     },
     {
       "id": "creature_001199",
@@ -6694,7 +6909,8 @@
       "height": 255,
       "total_frames": 704,
       "atlas_size_kb": 613.1,
-      "path": "assets/monsters/creature_001199/atlas.json"
+      "path": "assets/monsters/creature_001199/atlas.json",
+      "thumb": "assets/monsters/creature_001199/thumb.webp"
     },
     {
       "id": "creature_001200",
@@ -6725,7 +6941,8 @@
       "height": 116,
       "total_frames": 704,
       "atlas_size_kb": 158.4,
-      "path": "assets/monsters/creature_001200/atlas.json"
+      "path": "assets/monsters/creature_001200/atlas.json",
+      "thumb": "assets/monsters/creature_001200/thumb.webp"
     },
     {
       "id": "creature_001201",
@@ -6756,7 +6973,8 @@
       "height": 116,
       "total_frames": 704,
       "atlas_size_kb": 158.5,
-      "path": "assets/monsters/creature_001201/atlas.json"
+      "path": "assets/monsters/creature_001201/atlas.json",
+      "thumb": "assets/monsters/creature_001201/thumb.webp"
     },
     {
       "id": "creature_001202",
@@ -6787,7 +7005,8 @@
       "height": 101,
       "total_frames": 704,
       "atlas_size_kb": 158.0,
-      "path": "assets/monsters/creature_001202/atlas.json"
+      "path": "assets/monsters/creature_001202/atlas.json",
+      "thumb": "assets/monsters/creature_001202/thumb.webp"
     },
     {
       "id": "creature_001203",
@@ -6818,7 +7037,8 @@
       "height": 145,
       "total_frames": 704,
       "atlas_size_kb": 225.0,
-      "path": "assets/monsters/creature_001203/atlas.json"
+      "path": "assets/monsters/creature_001203/atlas.json",
+      "thumb": "assets/monsters/creature_001203/thumb.webp"
     },
     {
       "id": "creature_001204",
@@ -6849,7 +7069,8 @@
       "height": 145,
       "total_frames": 704,
       "atlas_size_kb": 224.9,
-      "path": "assets/monsters/creature_001204/atlas.json"
+      "path": "assets/monsters/creature_001204/atlas.json",
+      "thumb": "assets/monsters/creature_001204/thumb.webp"
     },
     {
       "id": "creature_001205",
@@ -6880,7 +7101,8 @@
       "height": 144,
       "total_frames": 704,
       "atlas_size_kb": 269.9,
-      "path": "assets/monsters/creature_001205/atlas.json"
+      "path": "assets/monsters/creature_001205/atlas.json",
+      "thumb": "assets/monsters/creature_001205/thumb.webp"
     },
     {
       "id": "creature_001206",
@@ -6911,7 +7133,8 @@
       "height": 144,
       "total_frames": 704,
       "atlas_size_kb": 195.5,
-      "path": "assets/monsters/creature_001206/atlas.json"
+      "path": "assets/monsters/creature_001206/atlas.json",
+      "thumb": "assets/monsters/creature_001206/thumb.webp"
     },
     {
       "id": "creature_001207",
@@ -6942,7 +7165,8 @@
       "height": 144,
       "total_frames": 704,
       "atlas_size_kb": 195.2,
-      "path": "assets/monsters/creature_001207/atlas.json"
+      "path": "assets/monsters/creature_001207/atlas.json",
+      "thumb": "assets/monsters/creature_001207/thumb.webp"
     },
     {
       "id": "creature_001208",
@@ -6973,7 +7197,8 @@
       "height": 134,
       "total_frames": 704,
       "atlas_size_kb": 207.5,
-      "path": "assets/monsters/creature_001208/atlas.json"
+      "path": "assets/monsters/creature_001208/atlas.json",
+      "thumb": "assets/monsters/creature_001208/thumb.webp"
     },
     {
       "id": "creature_001209",
@@ -7004,7 +7229,8 @@
       "height": 183,
       "total_frames": 704,
       "atlas_size_kb": 217.9,
-      "path": "assets/monsters/creature_001209/atlas.json"
+      "path": "assets/monsters/creature_001209/atlas.json",
+      "thumb": "assets/monsters/creature_001209/thumb.webp"
     },
     {
       "id": "creature_001210",
@@ -7035,7 +7261,8 @@
       "height": 205,
       "total_frames": 704,
       "atlas_size_kb": 311.6,
-      "path": "assets/monsters/creature_001210/atlas.json"
+      "path": "assets/monsters/creature_001210/atlas.json",
+      "thumb": "assets/monsters/creature_001210/thumb.webp"
     },
     {
       "id": "creature_001211",
@@ -7066,7 +7293,8 @@
       "height": 183,
       "total_frames": 704,
       "atlas_size_kb": 334.0,
-      "path": "assets/monsters/creature_001211/atlas.json"
+      "path": "assets/monsters/creature_001211/atlas.json",
+      "thumb": "assets/monsters/creature_001211/thumb.webp"
     },
     {
       "id": "creature_001212",
@@ -7097,7 +7325,8 @@
       "height": 266,
       "total_frames": 704,
       "atlas_size_kb": 558.5,
-      "path": "assets/monsters/creature_001212/atlas.json"
+      "path": "assets/monsters/creature_001212/atlas.json",
+      "thumb": "assets/monsters/creature_001212/thumb.webp"
     },
     {
       "id": "creature_001213",
@@ -7128,7 +7357,8 @@
       "height": 266,
       "total_frames": 704,
       "atlas_size_kb": 558.0,
-      "path": "assets/monsters/creature_001213/atlas.json"
+      "path": "assets/monsters/creature_001213/atlas.json",
+      "thumb": "assets/monsters/creature_001213/thumb.webp"
     },
     {
       "id": "creature_001214",
@@ -7159,7 +7389,8 @@
       "height": 266,
       "total_frames": 704,
       "atlas_size_kb": 765.9,
-      "path": "assets/monsters/creature_001214/atlas.json"
+      "path": "assets/monsters/creature_001214/atlas.json",
+      "thumb": "assets/monsters/creature_001214/thumb.webp"
     },
     {
       "id": "creature_001215",
@@ -7190,7 +7421,8 @@
       "height": 178,
       "total_frames": 704,
       "atlas_size_kb": 214.8,
-      "path": "assets/monsters/creature_001215/atlas.json"
+      "path": "assets/monsters/creature_001215/atlas.json",
+      "thumb": "assets/monsters/creature_001215/thumb.webp"
     },
     {
       "id": "creature_001216",
@@ -7221,7 +7453,8 @@
       "height": 178,
       "total_frames": 704,
       "atlas_size_kb": 214.4,
-      "path": "assets/monsters/creature_001216/atlas.json"
+      "path": "assets/monsters/creature_001216/atlas.json",
+      "thumb": "assets/monsters/creature_001216/thumb.webp"
     },
     {
       "id": "creature_001217",
@@ -7252,7 +7485,8 @@
       "height": 169,
       "total_frames": 704,
       "atlas_size_kb": 265.2,
-      "path": "assets/monsters/creature_001217/atlas.json"
+      "path": "assets/monsters/creature_001217/atlas.json",
+      "thumb": "assets/monsters/creature_001217/thumb.webp"
     },
     {
       "id": "creature_001218",
@@ -7283,7 +7517,8 @@
       "height": 160,
       "total_frames": 704,
       "atlas_size_kb": 213.2,
-      "path": "assets/monsters/creature_001218/atlas.json"
+      "path": "assets/monsters/creature_001218/atlas.json",
+      "thumb": "assets/monsters/creature_001218/thumb.webp"
     },
     {
       "id": "creature_001219",
@@ -7314,7 +7549,8 @@
       "height": 161,
       "total_frames": 704,
       "atlas_size_kb": 300.1,
-      "path": "assets/monsters/creature_001219/atlas.json"
+      "path": "assets/monsters/creature_001219/atlas.json",
+      "thumb": "assets/monsters/creature_001219/thumb.webp"
     },
     {
       "id": "creature_001220",
@@ -7345,7 +7581,8 @@
       "height": 160,
       "total_frames": 704,
       "atlas_size_kb": 332.3,
-      "path": "assets/monsters/creature_001220/atlas.json"
+      "path": "assets/monsters/creature_001220/atlas.json",
+      "thumb": "assets/monsters/creature_001220/thumb.webp"
     },
     {
       "id": "creature_001221",
@@ -7376,7 +7613,8 @@
       "height": 740,
       "total_frames": 704,
       "atlas_size_kb": 91.5,
-      "path": "assets/monsters/creature_001221/atlas.json"
+      "path": "assets/monsters/creature_001221/atlas.json",
+      "thumb": "assets/monsters/creature_001221/thumb.webp"
     },
     {
       "id": "creature_001222",
@@ -7407,7 +7645,8 @@
       "height": 375,
       "total_frames": 704,
       "atlas_size_kb": 42.8,
-      "path": "assets/monsters/creature_001222/atlas.json"
+      "path": "assets/monsters/creature_001222/atlas.json",
+      "thumb": "assets/monsters/creature_001222/thumb.webp"
     },
     {
       "id": "creature_001223",
@@ -7438,7 +7677,8 @@
       "height": 512,
       "total_frames": 704,
       "atlas_size_kb": 196.1,
-      "path": "assets/monsters/creature_001223/atlas.json"
+      "path": "assets/monsters/creature_001223/atlas.json",
+      "thumb": "assets/monsters/creature_001223/thumb.webp"
     },
     {
       "id": "creature_001224",
@@ -7469,7 +7709,8 @@
       "height": 512,
       "total_frames": 704,
       "atlas_size_kb": 163.4,
-      "path": "assets/monsters/creature_001224/atlas.json"
+      "path": "assets/monsters/creature_001224/atlas.json",
+      "thumb": "assets/monsters/creature_001224/thumb.webp"
     },
     {
       "id": "creature_001225",
@@ -7500,7 +7741,8 @@
       "height": 852,
       "total_frames": 704,
       "atlas_size_kb": 135.7,
-      "path": "assets/monsters/creature_001225/atlas.json"
+      "path": "assets/monsters/creature_001225/atlas.json",
+      "thumb": "assets/monsters/creature_001225/thumb.webp"
     },
     {
       "id": "creature_001226",
@@ -7531,7 +7773,8 @@
       "height": 369,
       "total_frames": 704,
       "atlas_size_kb": 44.3,
-      "path": "assets/monsters/creature_001226/atlas.json"
+      "path": "assets/monsters/creature_001226/atlas.json",
+      "thumb": "assets/monsters/creature_001226/thumb.webp"
     },
     {
       "id": "creature_001227",
@@ -7562,7 +7805,8 @@
       "height": 512,
       "total_frames": 704,
       "atlas_size_kb": 208.2,
-      "path": "assets/monsters/creature_001227/atlas.json"
+      "path": "assets/monsters/creature_001227/atlas.json",
+      "thumb": "assets/monsters/creature_001227/thumb.webp"
     },
     {
       "id": "creature_001228",
@@ -7593,7 +7837,8 @@
       "height": 479,
       "total_frames": 704,
       "atlas_size_kb": 171.8,
-      "path": "assets/monsters/creature_001228/atlas.json"
+      "path": "assets/monsters/creature_001228/atlas.json",
+      "thumb": "assets/monsters/creature_001228/thumb.webp"
     },
     {
       "id": "creature_001229",
@@ -7627,7 +7872,8 @@
       "height": 318,
       "total_frames": 1304,
       "atlas_size_kb": 35.1,
-      "path": "assets/monsters/creature_001229/atlas.json"
+      "path": "assets/monsters/creature_001229/atlas.json",
+      "thumb": "assets/monsters/creature_001229/thumb.webp"
     },
     {
       "id": "creature_001230",
@@ -7661,7 +7907,8 @@
       "height": 380,
       "total_frames": 1304,
       "atlas_size_kb": 47.2,
-      "path": "assets/monsters/creature_001230/atlas.json"
+      "path": "assets/monsters/creature_001230/atlas.json",
+      "thumb": "assets/monsters/creature_001230/thumb.webp"
     },
     {
       "id": "creature_001231",
@@ -7695,7 +7942,8 @@
       "height": 348,
       "total_frames": 1304,
       "atlas_size_kb": 41.7,
-      "path": "assets/monsters/creature_001231/atlas.json"
+      "path": "assets/monsters/creature_001231/atlas.json",
+      "thumb": "assets/monsters/creature_001231/thumb.webp"
     },
     {
       "id": "creature_001232",
@@ -7729,7 +7977,8 @@
       "height": 375,
       "total_frames": 1304,
       "atlas_size_kb": 42.1,
-      "path": "assets/monsters/creature_001232/atlas.json"
+      "path": "assets/monsters/creature_001232/atlas.json",
+      "thumb": "assets/monsters/creature_001232/thumb.webp"
     },
     {
       "id": "creature_001233",
@@ -7763,7 +8012,8 @@
       "height": 349,
       "total_frames": 1304,
       "atlas_size_kb": 40.3,
-      "path": "assets/monsters/creature_001233/atlas.json"
+      "path": "assets/monsters/creature_001233/atlas.json",
+      "thumb": "assets/monsters/creature_001233/thumb.webp"
     },
     {
       "id": "creature_001234",
@@ -7797,7 +8047,8 @@
       "height": 377,
       "total_frames": 1304,
       "atlas_size_kb": 42.3,
-      "path": "assets/monsters/creature_001234/atlas.json"
+      "path": "assets/monsters/creature_001234/atlas.json",
+      "thumb": "assets/monsters/creature_001234/thumb.webp"
     },
     {
       "id": "creature_001235",
@@ -7831,7 +8082,8 @@
       "height": 354,
       "total_frames": 1304,
       "atlas_size_kb": 44.7,
-      "path": "assets/monsters/creature_001235/atlas.json"
+      "path": "assets/monsters/creature_001235/atlas.json",
+      "thumb": "assets/monsters/creature_001235/thumb.webp"
     },
     {
       "id": "creature_001236",
@@ -7865,7 +8117,8 @@
       "height": 385,
       "total_frames": 1304,
       "atlas_size_kb": 44.7,
-      "path": "assets/monsters/creature_001236/atlas.json"
+      "path": "assets/monsters/creature_001236/atlas.json",
+      "thumb": "assets/monsters/creature_001236/thumb.webp"
     },
     {
       "id": "creature_001237",
@@ -7899,7 +8152,8 @@
       "height": 194,
       "total_frames": 1304,
       "atlas_size_kb": 388.4,
-      "path": "assets/monsters/creature_001237/atlas.json"
+      "path": "assets/monsters/creature_001237/atlas.json",
+      "thumb": "assets/monsters/creature_001237/thumb.webp"
     },
     {
       "id": "creature_001238",
@@ -7930,7 +8184,8 @@
       "height": 199,
       "total_frames": 609,
       "atlas_size_kb": 322.6,
-      "path": "assets/monsters/creature_001238/atlas.json"
+      "path": "assets/monsters/creature_001238/atlas.json",
+      "thumb": "assets/monsters/creature_001238/thumb.webp"
     },
     {
       "id": "creature_001239",
@@ -7961,7 +8216,8 @@
       "height": 198,
       "total_frames": 704,
       "atlas_size_kb": 379.6,
-      "path": "assets/monsters/creature_001239/atlas.json"
+      "path": "assets/monsters/creature_001239/atlas.json",
+      "thumb": "assets/monsters/creature_001239/thumb.webp"
     },
     {
       "id": "creature_001240",
@@ -7992,7 +8248,8 @@
       "height": 225,
       "total_frames": 704,
       "atlas_size_kb": 583.2,
-      "path": "assets/monsters/creature_001240/atlas.json"
+      "path": "assets/monsters/creature_001240/atlas.json",
+      "thumb": "assets/monsters/creature_001240/thumb.webp"
     },
     {
       "id": "creature_001241",
@@ -8023,7 +8280,8 @@
       "height": 174,
       "total_frames": 704,
       "atlas_size_kb": 379.0,
-      "path": "assets/monsters/creature_001241/atlas.json"
+      "path": "assets/monsters/creature_001241/atlas.json",
+      "thumb": "assets/monsters/creature_001241/thumb.webp"
     },
     {
       "id": "creature_001242",
@@ -8054,7 +8312,8 @@
       "height": 143,
       "total_frames": 680,
       "atlas_size_kb": 363.5,
-      "path": "assets/monsters/creature_001242/atlas.json"
+      "path": "assets/monsters/creature_001242/atlas.json",
+      "thumb": "assets/monsters/creature_001242/thumb.webp"
     },
     {
       "id": "creature_001243",
@@ -8085,7 +8344,8 @@
       "height": 236,
       "total_frames": 704,
       "atlas_size_kb": 469.7,
-      "path": "assets/monsters/creature_001243/atlas.json"
+      "path": "assets/monsters/creature_001243/atlas.json",
+      "thumb": "assets/monsters/creature_001243/thumb.webp"
     },
     {
       "id": "creature_001244",
@@ -8116,7 +8376,8 @@
       "height": 199,
       "total_frames": 700,
       "atlas_size_kb": 435.3,
-      "path": "assets/monsters/creature_001244/atlas.json"
+      "path": "assets/monsters/creature_001244/atlas.json",
+      "thumb": "assets/monsters/creature_001244/thumb.webp"
     },
     {
       "id": "creature_001245",
@@ -8147,7 +8408,8 @@
       "height": 123,
       "total_frames": 672,
       "atlas_size_kb": 254.8,
-      "path": "assets/monsters/creature_001245/atlas.json"
+      "path": "assets/monsters/creature_001245/atlas.json",
+      "thumb": "assets/monsters/creature_001245/thumb.webp"
     },
     {
       "id": "creature_001246",
@@ -8178,7 +8440,8 @@
       "height": 174,
       "total_frames": 704,
       "atlas_size_kb": 371.4,
-      "path": "assets/monsters/creature_001246/atlas.json"
+      "path": "assets/monsters/creature_001246/atlas.json",
+      "thumb": "assets/monsters/creature_001246/thumb.webp"
     },
     {
       "id": "creature_001247",
@@ -8209,7 +8472,8 @@
       "height": 151,
       "total_frames": 704,
       "atlas_size_kb": 336.4,
-      "path": "assets/monsters/creature_001247/atlas.json"
+      "path": "assets/monsters/creature_001247/atlas.json",
+      "thumb": "assets/monsters/creature_001247/thumb.webp"
     },
     {
       "id": "creature_001248",
@@ -8243,7 +8507,8 @@
       "height": 206,
       "total_frames": 1304,
       "atlas_size_kb": 322.9,
-      "path": "assets/monsters/creature_001248/atlas.json"
+      "path": "assets/monsters/creature_001248/atlas.json",
+      "thumb": "assets/monsters/creature_001248/thumb.webp"
     },
     {
       "id": "creature_001249",
@@ -8277,7 +8542,8 @@
       "height": 271,
       "total_frames": 1304,
       "atlas_size_kb": 951.7,
-      "path": "assets/monsters/creature_001249/atlas.json"
+      "path": "assets/monsters/creature_001249/atlas.json",
+      "thumb": "assets/monsters/creature_001249/thumb.webp"
     },
     {
       "id": "creature_001250",
@@ -8308,7 +8574,8 @@
       "height": 241,
       "total_frames": 704,
       "atlas_size_kb": 495.2,
-      "path": "assets/monsters/creature_001250/atlas.json"
+      "path": "assets/monsters/creature_001250/atlas.json",
+      "thumb": "assets/monsters/creature_001250/thumb.webp"
     },
     {
       "id": "creature_001251",
@@ -8339,7 +8606,8 @@
       "height": 207,
       "total_frames": 704,
       "atlas_size_kb": 444.2,
-      "path": "assets/monsters/creature_001251/atlas.json"
+      "path": "assets/monsters/creature_001251/atlas.json",
+      "thumb": "assets/monsters/creature_001251/thumb.webp"
     },
     {
       "id": "creature_001252",
@@ -8373,7 +8641,8 @@
       "height": 113,
       "total_frames": 1304,
       "atlas_size_kb": 234.1,
-      "path": "assets/monsters/creature_001252/atlas.json"
+      "path": "assets/monsters/creature_001252/atlas.json",
+      "thumb": "assets/monsters/creature_001252/thumb.webp"
     },
     {
       "id": "creature_001253",
@@ -8407,7 +8676,8 @@
       "height": 119,
       "total_frames": 1304,
       "atlas_size_kb": 202.1,
-      "path": "assets/monsters/creature_001253/atlas.json"
+      "path": "assets/monsters/creature_001253/atlas.json",
+      "thumb": "assets/monsters/creature_001253/thumb.webp"
     },
     {
       "id": "creature_001254",
@@ -8441,7 +8711,8 @@
       "height": 129,
       "total_frames": 1304,
       "atlas_size_kb": 378.7,
-      "path": "assets/monsters/creature_001254/atlas.json"
+      "path": "assets/monsters/creature_001254/atlas.json",
+      "thumb": "assets/monsters/creature_001254/thumb.webp"
     },
     {
       "id": "creature_001255",
@@ -8475,7 +8746,8 @@
       "height": 150,
       "total_frames": 1304,
       "atlas_size_kb": 189.0,
-      "path": "assets/monsters/creature_001255/atlas.json"
+      "path": "assets/monsters/creature_001255/atlas.json",
+      "thumb": "assets/monsters/creature_001255/thumb.webp"
     },
     {
       "id": "creature_001256",
@@ -8509,7 +8781,8 @@
       "height": 160,
       "total_frames": 1304,
       "atlas_size_kb": 243.7,
-      "path": "assets/monsters/creature_001256/atlas.json"
+      "path": "assets/monsters/creature_001256/atlas.json",
+      "thumb": "assets/monsters/creature_001256/thumb.webp"
     },
     {
       "id": "creature_001257",
@@ -8543,7 +8816,8 @@
       "height": 143,
       "total_frames": 1304,
       "atlas_size_kb": 194.4,
-      "path": "assets/monsters/creature_001257/atlas.json"
+      "path": "assets/monsters/creature_001257/atlas.json",
+      "thumb": "assets/monsters/creature_001257/thumb.webp"
     },
     {
       "id": "creature_001258",
@@ -8574,7 +8848,8 @@
       "height": 371,
       "total_frames": 779,
       "atlas_size_kb": 1298.9,
-      "path": "assets/monsters/creature_001258/atlas.json"
+      "path": "assets/monsters/creature_001258/atlas.json",
+      "thumb": "assets/monsters/creature_001258/thumb.webp"
     },
     {
       "id": "creature_001259",
@@ -8605,7 +8880,8 @@
       "height": 172,
       "total_frames": 779,
       "atlas_size_kb": 256.6,
-      "path": "assets/monsters/creature_001259/atlas.json"
+      "path": "assets/monsters/creature_001259/atlas.json",
+      "thumb": "assets/monsters/creature_001259/thumb.webp"
     },
     {
       "id": "creature_001260",
@@ -8636,7 +8912,8 @@
       "height": 247,
       "total_frames": 779,
       "atlas_size_kb": 817.3,
-      "path": "assets/monsters/creature_001260/atlas.json"
+      "path": "assets/monsters/creature_001260/atlas.json",
+      "thumb": "assets/monsters/creature_001260/thumb.webp"
     },
     {
       "id": "creature_001261",
@@ -8667,7 +8944,8 @@
       "height": 291,
       "total_frames": 779,
       "atlas_size_kb": 760.8,
-      "path": "assets/monsters/creature_001261/atlas.json"
+      "path": "assets/monsters/creature_001261/atlas.json",
+      "thumb": "assets/monsters/creature_001261/thumb.webp"
     },
     {
       "id": "creature_001262",
@@ -8698,7 +8976,8 @@
       "height": 217,
       "total_frames": 779,
       "atlas_size_kb": 811.1,
-      "path": "assets/monsters/creature_001262/atlas.json"
+      "path": "assets/monsters/creature_001262/atlas.json",
+      "thumb": "assets/monsters/creature_001262/thumb.webp"
     },
     {
       "id": "creature_001263",
@@ -8729,7 +9008,8 @@
       "height": 160,
       "total_frames": 779,
       "atlas_size_kb": 518.2,
-      "path": "assets/monsters/creature_001263/atlas.json"
+      "path": "assets/monsters/creature_001263/atlas.json",
+      "thumb": "assets/monsters/creature_001263/thumb.webp"
     },
     {
       "id": "creature_001264",
@@ -8760,7 +9040,8 @@
       "height": 219,
       "total_frames": 779,
       "atlas_size_kb": 548.4,
-      "path": "assets/monsters/creature_001264/atlas.json"
+      "path": "assets/monsters/creature_001264/atlas.json",
+      "thumb": "assets/monsters/creature_001264/thumb.webp"
     },
     {
       "id": "creature_001265",
@@ -8791,7 +9072,8 @@
       "height": 288,
       "total_frames": 779,
       "atlas_size_kb": 730.1,
-      "path": "assets/monsters/creature_001265/atlas.json"
+      "path": "assets/monsters/creature_001265/atlas.json",
+      "thumb": "assets/monsters/creature_001265/thumb.webp"
     },
     {
       "id": "creature_001266",
@@ -8822,7 +9104,8 @@
       "height": 173,
       "total_frames": 779,
       "atlas_size_kb": 278.9,
-      "path": "assets/monsters/creature_001266/atlas.json"
+      "path": "assets/monsters/creature_001266/atlas.json",
+      "thumb": "assets/monsters/creature_001266/thumb.webp"
     },
     {
       "id": "creature_001267",
@@ -8853,7 +9136,8 @@
       "height": 129,
       "total_frames": 779,
       "atlas_size_kb": 207.2,
-      "path": "assets/monsters/creature_001267/atlas.json"
+      "path": "assets/monsters/creature_001267/atlas.json",
+      "thumb": "assets/monsters/creature_001267/thumb.webp"
     },
     {
       "id": "creature_001268",
@@ -8884,7 +9168,8 @@
       "height": 311,
       "total_frames": 779,
       "atlas_size_kb": 895.0,
-      "path": "assets/monsters/creature_001268/atlas.json"
+      "path": "assets/monsters/creature_001268/atlas.json",
+      "thumb": "assets/monsters/creature_001268/thumb.webp"
     },
     {
       "id": "creature_001269",
@@ -8915,7 +9200,8 @@
       "height": 267,
       "total_frames": 779,
       "atlas_size_kb": 871.6,
-      "path": "assets/monsters/creature_001269/atlas.json"
+      "path": "assets/monsters/creature_001269/atlas.json",
+      "thumb": "assets/monsters/creature_001269/thumb.webp"
     },
     {
       "id": "creature_001270",
@@ -8946,7 +9232,8 @@
       "height": 132,
       "total_frames": 779,
       "atlas_size_kb": 87.2,
-      "path": "assets/monsters/creature_001270/atlas.json"
+      "path": "assets/monsters/creature_001270/atlas.json",
+      "thumb": "assets/monsters/creature_001270/thumb.webp"
     },
     {
       "id": "creature_001271",
@@ -8977,7 +9264,8 @@
       "height": 177,
       "total_frames": 779,
       "atlas_size_kb": 844.7,
-      "path": "assets/monsters/creature_001271/atlas.json"
+      "path": "assets/monsters/creature_001271/atlas.json",
+      "thumb": "assets/monsters/creature_001271/thumb.webp"
     },
     {
       "id": "creature_001272",
@@ -9008,7 +9296,8 @@
       "height": 153,
       "total_frames": 779,
       "atlas_size_kb": 606.2,
-      "path": "assets/monsters/creature_001272/atlas.json"
+      "path": "assets/monsters/creature_001272/atlas.json",
+      "thumb": "assets/monsters/creature_001272/thumb.webp"
     },
     {
       "id": "creature_001273",
@@ -9039,7 +9328,8 @@
       "height": 168,
       "total_frames": 705,
       "atlas_size_kb": 469.3,
-      "path": "assets/monsters/creature_001273/atlas.json"
+      "path": "assets/monsters/creature_001273/atlas.json",
+      "thumb": "assets/monsters/creature_001273/thumb.webp"
     },
     {
       "id": "creature_001274",
@@ -9070,7 +9360,8 @@
       "height": 159,
       "total_frames": 704,
       "atlas_size_kb": 495.1,
-      "path": "assets/monsters/creature_001274/atlas.json"
+      "path": "assets/monsters/creature_001274/atlas.json",
+      "thumb": "assets/monsters/creature_001274/thumb.webp"
     },
     {
       "id": "creature_001901",
@@ -9101,7 +9392,8 @@
       "height": 99,
       "total_frames": 779,
       "atlas_size_kb": 298.0,
-      "path": "assets/monsters/creature_001901/atlas.json"
+      "path": "assets/monsters/creature_001901/atlas.json",
+      "thumb": "assets/monsters/creature_001901/thumb.webp"
     },
     {
       "id": "creature_100000",
@@ -9132,7 +9424,8 @@
       "height": 122,
       "total_frames": 704,
       "atlas_size_kb": 74.3,
-      "path": "assets/monsters/creature_100000/atlas.json"
+      "path": "assets/monsters/creature_100000/atlas.json",
+      "thumb": "assets/monsters/creature_100000/thumb.webp"
     },
     {
       "id": "creature_100000",
@@ -9163,7 +9456,8 @@
       "height": 120,
       "total_frames": 704,
       "atlas_size_kb": 71.1,
-      "path": "assets/monsters/creature_100000/atlas.json"
+      "path": "assets/monsters/creature_100000/atlas.json",
+      "thumb": "assets/monsters/creature_100000/thumb.webp"
     },
     {
       "id": "creature_100001",
@@ -9194,7 +9488,8 @@
       "height": 238,
       "total_frames": 704,
       "atlas_size_kb": 751.1,
-      "path": "assets/monsters/creature_100001/atlas.json"
+      "path": "assets/monsters/creature_100001/atlas.json",
+      "thumb": "assets/monsters/creature_100001/thumb.webp"
     },
     {
       "id": "creature_100002",
@@ -9225,7 +9520,8 @@
       "height": 186,
       "total_frames": 704,
       "atlas_size_kb": 503.5,
-      "path": "assets/monsters/creature_100002/atlas.json"
+      "path": "assets/monsters/creature_100002/atlas.json",
+      "thumb": "assets/monsters/creature_100002/thumb.webp"
     },
     {
       "id": "creature_100003",
@@ -9256,7 +9552,8 @@
       "height": 98,
       "total_frames": 704,
       "atlas_size_kb": 111.2,
-      "path": "assets/monsters/creature_100003/atlas.json"
+      "path": "assets/monsters/creature_100003/atlas.json",
+      "thumb": "assets/monsters/creature_100003/thumb.webp"
     },
     {
       "id": "creature_100004",
@@ -9287,7 +9584,8 @@
       "height": 102,
       "total_frames": 704,
       "atlas_size_kb": 162.7,
-      "path": "assets/monsters/creature_100004/atlas.json"
+      "path": "assets/monsters/creature_100004/atlas.json",
+      "thumb": "assets/monsters/creature_100004/thumb.webp"
     },
     {
       "id": "creature_100005",
@@ -9318,7 +9616,8 @@
       "height": 145,
       "total_frames": 704,
       "atlas_size_kb": 69.0,
-      "path": "assets/monsters/creature_100005/atlas.json"
+      "path": "assets/monsters/creature_100005/atlas.json",
+      "thumb": "assets/monsters/creature_100005/thumb.webp"
     },
     {
       "id": "creature_100006",
@@ -9349,7 +9648,8 @@
       "height": 107,
       "total_frames": 704,
       "atlas_size_kb": 223.8,
-      "path": "assets/monsters/creature_100006/atlas.json"
+      "path": "assets/monsters/creature_100006/atlas.json",
+      "thumb": "assets/monsters/creature_100006/thumb.webp"
     },
     {
       "id": "creature_100007",
@@ -9380,7 +9680,8 @@
       "height": 119,
       "total_frames": 704,
       "atlas_size_kb": 178.1,
-      "path": "assets/monsters/creature_100007/atlas.json"
+      "path": "assets/monsters/creature_100007/atlas.json",
+      "thumb": "assets/monsters/creature_100007/thumb.webp"
     },
     {
       "id": "creature_100008",
@@ -9411,7 +9712,8 @@
       "height": 87,
       "total_frames": 704,
       "atlas_size_kb": 209.6,
-      "path": "assets/monsters/creature_100008/atlas.json"
+      "path": "assets/monsters/creature_100008/atlas.json",
+      "thumb": "assets/monsters/creature_100008/thumb.webp"
     },
     {
       "id": "creature_100009",
@@ -9442,7 +9744,8 @@
       "height": 93,
       "total_frames": 704,
       "atlas_size_kb": 209.2,
-      "path": "assets/monsters/creature_100009/atlas.json"
+      "path": "assets/monsters/creature_100009/atlas.json",
+      "thumb": "assets/monsters/creature_100009/thumb.webp"
     },
     {
       "id": "creature_100010",
@@ -9473,7 +9776,8 @@
       "height": 146,
       "total_frames": 705,
       "atlas_size_kb": 261.4,
-      "path": "assets/monsters/creature_100010/atlas.json"
+      "path": "assets/monsters/creature_100010/atlas.json",
+      "thumb": "assets/monsters/creature_100010/thumb.webp"
     },
     {
       "id": "creature_100011",
@@ -9504,7 +9808,8 @@
       "height": 118,
       "total_frames": 704,
       "atlas_size_kb": 60.5,
-      "path": "assets/monsters/creature_100011/atlas.json"
+      "path": "assets/monsters/creature_100011/atlas.json",
+      "thumb": "assets/monsters/creature_100011/thumb.webp"
     },
     {
       "id": "creature_100012",
@@ -9535,7 +9840,8 @@
       "height": 158,
       "total_frames": 704,
       "atlas_size_kb": 236.7,
-      "path": "assets/monsters/creature_100012/atlas.json"
+      "path": "assets/monsters/creature_100012/atlas.json",
+      "thumb": "assets/monsters/creature_100012/thumb.webp"
     },
     {
       "id": "creature_100013",
@@ -9566,7 +9872,8 @@
       "height": 132,
       "total_frames": 704,
       "atlas_size_kb": 278.5,
-      "path": "assets/monsters/creature_100013/atlas.json"
+      "path": "assets/monsters/creature_100013/atlas.json",
+      "thumb": "assets/monsters/creature_100013/thumb.webp"
     },
     {
       "id": "creature_100014",
@@ -9597,7 +9904,8 @@
       "height": 159,
       "total_frames": 704,
       "atlas_size_kb": 325.4,
-      "path": "assets/monsters/creature_100014/atlas.json"
+      "path": "assets/monsters/creature_100014/atlas.json",
+      "thumb": "assets/monsters/creature_100014/thumb.webp"
     },
     {
       "id": "creature_100015",
@@ -9628,7 +9936,8 @@
       "height": 146,
       "total_frames": 704,
       "atlas_size_kb": 296.5,
-      "path": "assets/monsters/creature_100015/atlas.json"
+      "path": "assets/monsters/creature_100015/atlas.json",
+      "thumb": "assets/monsters/creature_100015/thumb.webp"
     },
     {
       "id": "creature_100016",
@@ -9659,7 +9968,8 @@
       "height": 141,
       "total_frames": 704,
       "atlas_size_kb": 109.4,
-      "path": "assets/monsters/creature_100016/atlas.json"
+      "path": "assets/monsters/creature_100016/atlas.json",
+      "thumb": "assets/monsters/creature_100016/thumb.webp"
     },
     {
       "id": "creature_100017",
@@ -9690,7 +10000,8 @@
       "height": 129,
       "total_frames": 704,
       "atlas_size_kb": 175.2,
-      "path": "assets/monsters/creature_100017/atlas.json"
+      "path": "assets/monsters/creature_100017/atlas.json",
+      "thumb": "assets/monsters/creature_100017/thumb.webp"
     },
     {
       "id": "creature_100018",
@@ -9721,7 +10032,8 @@
       "height": 131,
       "total_frames": 704,
       "atlas_size_kb": 196.5,
-      "path": "assets/monsters/creature_100018/atlas.json"
+      "path": "assets/monsters/creature_100018/atlas.json",
+      "thumb": "assets/monsters/creature_100018/thumb.webp"
     },
     {
       "id": "creature_100019",
@@ -9752,7 +10064,8 @@
       "height": 118,
       "total_frames": 704,
       "atlas_size_kb": 212.5,
-      "path": "assets/monsters/creature_100019/atlas.json"
+      "path": "assets/monsters/creature_100019/atlas.json",
+      "thumb": "assets/monsters/creature_100019/thumb.webp"
     },
     {
       "id": "creature_100020",
@@ -9783,7 +10096,8 @@
       "height": 124,
       "total_frames": 704,
       "atlas_size_kb": 201.4,
-      "path": "assets/monsters/creature_100020/atlas.json"
+      "path": "assets/monsters/creature_100020/atlas.json",
+      "thumb": "assets/monsters/creature_100020/thumb.webp"
     },
     {
       "id": "creature_100021",
@@ -9814,7 +10128,8 @@
       "height": 129,
       "total_frames": 704,
       "atlas_size_kb": 443.2,
-      "path": "assets/monsters/creature_100021/atlas.json"
+      "path": "assets/monsters/creature_100021/atlas.json",
+      "thumb": "assets/monsters/creature_100021/thumb.webp"
     },
     {
       "id": "creature_100022",
@@ -9845,7 +10160,8 @@
       "height": 107,
       "total_frames": 704,
       "atlas_size_kb": 198.3,
-      "path": "assets/monsters/creature_100022/atlas.json"
+      "path": "assets/monsters/creature_100022/atlas.json",
+      "thumb": "assets/monsters/creature_100022/thumb.webp"
     },
     {
       "id": "creature_100023",
@@ -9876,7 +10192,8 @@
       "height": 130,
       "total_frames": 704,
       "atlas_size_kb": 344.6,
-      "path": "assets/monsters/creature_100023/atlas.json"
+      "path": "assets/monsters/creature_100023/atlas.json",
+      "thumb": "assets/monsters/creature_100023/thumb.webp"
     },
     {
       "id": "creature_100024",
@@ -9907,7 +10224,8 @@
       "height": 147,
       "total_frames": 704,
       "atlas_size_kb": 215.0,
-      "path": "assets/monsters/creature_100024/atlas.json"
+      "path": "assets/monsters/creature_100024/atlas.json",
+      "thumb": "assets/monsters/creature_100024/thumb.webp"
     },
     {
       "id": "creature_100025",
@@ -9938,7 +10256,8 @@
       "height": 102,
       "total_frames": 704,
       "atlas_size_kb": 180.3,
-      "path": "assets/monsters/creature_100025/atlas.json"
+      "path": "assets/monsters/creature_100025/atlas.json",
+      "thumb": "assets/monsters/creature_100025/thumb.webp"
     },
     {
       "id": "creature_100026",
@@ -9969,7 +10288,8 @@
       "height": 106,
       "total_frames": 704,
       "atlas_size_kb": 129.3,
-      "path": "assets/monsters/creature_100026/atlas.json"
+      "path": "assets/monsters/creature_100026/atlas.json",
+      "thumb": "assets/monsters/creature_100026/thumb.webp"
     },
     {
       "id": "creature_100027",
@@ -10000,7 +10320,8 @@
       "height": 279,
       "total_frames": 704,
       "atlas_size_kb": 608.9,
-      "path": "assets/monsters/creature_100027/atlas.json"
+      "path": "assets/monsters/creature_100027/atlas.json",
+      "thumb": "assets/monsters/creature_100027/thumb.webp"
     },
     {
       "id": "creature_100029",
@@ -10031,7 +10352,8 @@
       "height": 145,
       "total_frames": 704,
       "atlas_size_kb": 311.6,
-      "path": "assets/monsters/creature_100029/atlas.json"
+      "path": "assets/monsters/creature_100029/atlas.json",
+      "thumb": "assets/monsters/creature_100029/thumb.webp"
     },
     {
       "id": "creature_100030",
@@ -10062,7 +10384,8 @@
       "height": 114,
       "total_frames": 704,
       "atlas_size_kb": 191.7,
-      "path": "assets/monsters/creature_100030/atlas.json"
+      "path": "assets/monsters/creature_100030/atlas.json",
+      "thumb": "assets/monsters/creature_100030/thumb.webp"
     },
     {
       "id": "creature_100032",
@@ -10093,7 +10416,8 @@
       "height": 322,
       "total_frames": 704,
       "atlas_size_kb": 1190.4,
-      "path": "assets/monsters/creature_100032/atlas.json"
+      "path": "assets/monsters/creature_100032/atlas.json",
+      "thumb": "assets/monsters/creature_100032/thumb.webp"
     },
     {
       "id": "creature_100033",
@@ -10124,7 +10448,8 @@
       "height": 254,
       "total_frames": 704,
       "atlas_size_kb": 1423.3,
-      "path": "assets/monsters/creature_100033/atlas.json"
+      "path": "assets/monsters/creature_100033/atlas.json",
+      "thumb": "assets/monsters/creature_100033/thumb.webp"
     },
     {
       "id": "creature_100034",
@@ -10155,7 +10480,8 @@
       "height": 331,
       "total_frames": 704,
       "atlas_size_kb": 876.3,
-      "path": "assets/monsters/creature_100034/atlas.json"
+      "path": "assets/monsters/creature_100034/atlas.json",
+      "thumb": "assets/monsters/creature_100034/thumb.webp"
     },
     {
       "id": "creature_100035",
@@ -10186,7 +10512,8 @@
       "height": 186,
       "total_frames": 704,
       "atlas_size_kb": 479.4,
-      "path": "assets/monsters/creature_100035/atlas.json"
+      "path": "assets/monsters/creature_100035/atlas.json",
+      "thumb": "assets/monsters/creature_100035/thumb.webp"
     },
     {
       "id": "creature_100036",
@@ -10217,7 +10544,8 @@
       "height": 206,
       "total_frames": 704,
       "atlas_size_kb": 568.4,
-      "path": "assets/monsters/creature_100036/atlas.json"
+      "path": "assets/monsters/creature_100036/atlas.json",
+      "thumb": "assets/monsters/creature_100036/thumb.webp"
     },
     {
       "id": "creature_100037",
@@ -10248,7 +10576,8 @@
       "height": 206,
       "total_frames": 704,
       "atlas_size_kb": 660.4,
-      "path": "assets/monsters/creature_100037/atlas.json"
+      "path": "assets/monsters/creature_100037/atlas.json",
+      "thumb": "assets/monsters/creature_100037/thumb.webp"
     },
     {
       "id": "creature_100038",
@@ -10279,7 +10608,8 @@
       "height": 262,
       "total_frames": 704,
       "atlas_size_kb": 1364.7,
-      "path": "assets/monsters/creature_100038/atlas.json"
+      "path": "assets/monsters/creature_100038/atlas.json",
+      "thumb": "assets/monsters/creature_100038/thumb.webp"
     },
     {
       "id": "creature_100039",
@@ -10310,7 +10640,8 @@
       "height": 267,
       "total_frames": 704,
       "atlas_size_kb": 1171.5,
-      "path": "assets/monsters/creature_100039/atlas.json"
+      "path": "assets/monsters/creature_100039/atlas.json",
+      "thumb": "assets/monsters/creature_100039/thumb.webp"
     },
     {
       "id": "creature_100040",
@@ -10344,7 +10675,8 @@
       "height": 143,
       "total_frames": 1304,
       "atlas_size_kb": 265.0,
-      "path": "assets/monsters/creature_100040/atlas.json"
+      "path": "assets/monsters/creature_100040/atlas.json",
+      "thumb": "assets/monsters/creature_100040/thumb.webp"
     },
     {
       "id": "creature_100041",
@@ -10375,7 +10707,8 @@
       "height": 194,
       "total_frames": 779,
       "atlas_size_kb": 348.5,
-      "path": "assets/monsters/creature_100041/atlas.json"
+      "path": "assets/monsters/creature_100041/atlas.json",
+      "thumb": "assets/monsters/creature_100041/thumb.webp"
     },
     {
       "id": "creature_100042",
@@ -10406,7 +10739,8 @@
       "height": 252,
       "total_frames": 779,
       "atlas_size_kb": 598.7,
-      "path": "assets/monsters/creature_100042/atlas.json"
+      "path": "assets/monsters/creature_100042/atlas.json",
+      "thumb": "assets/monsters/creature_100042/thumb.webp"
     },
     {
       "id": "creature_100043",
@@ -10437,7 +10771,8 @@
       "height": 113,
       "total_frames": 779,
       "atlas_size_kb": 483.0,
-      "path": "assets/monsters/creature_100043/atlas.json"
+      "path": "assets/monsters/creature_100043/atlas.json",
+      "thumb": "assets/monsters/creature_100043/thumb.webp"
     },
     {
       "id": "creature_100044",
@@ -10468,7 +10803,8 @@
       "height": 141,
       "total_frames": 779,
       "atlas_size_kb": 878.7,
-      "path": "assets/monsters/creature_100044/atlas.json"
+      "path": "assets/monsters/creature_100044/atlas.json",
+      "thumb": "assets/monsters/creature_100044/thumb.webp"
     },
     {
       "id": "creature_100045",
@@ -10499,7 +10835,8 @@
       "height": 206,
       "total_frames": 779,
       "atlas_size_kb": 703.0,
-      "path": "assets/monsters/creature_100045/atlas.json"
+      "path": "assets/monsters/creature_100045/atlas.json",
+      "thumb": "assets/monsters/creature_100045/thumb.webp"
     },
     {
       "id": "creature_100046",
@@ -10530,7 +10867,8 @@
       "height": 166,
       "total_frames": 779,
       "atlas_size_kb": 641.6,
-      "path": "assets/monsters/creature_100046/atlas.json"
+      "path": "assets/monsters/creature_100046/atlas.json",
+      "thumb": "assets/monsters/creature_100046/thumb.webp"
     },
     {
       "id": "creature_100047",
@@ -10561,7 +10899,8 @@
       "height": 110,
       "total_frames": 704,
       "atlas_size_kb": 343.2,
-      "path": "assets/monsters/creature_100047/atlas.json"
+      "path": "assets/monsters/creature_100047/atlas.json",
+      "thumb": "assets/monsters/creature_100047/thumb.webp"
     },
     {
       "id": "creature_100048",
@@ -10592,7 +10931,8 @@
       "height": 110,
       "total_frames": 704,
       "atlas_size_kb": 304.4,
-      "path": "assets/monsters/creature_100048/atlas.json"
+      "path": "assets/monsters/creature_100048/atlas.json",
+      "thumb": "assets/monsters/creature_100048/thumb.webp"
     },
     {
       "id": "creature_100049",
@@ -10623,7 +10963,8 @@
       "height": 109,
       "total_frames": 779,
       "atlas_size_kb": 283.5,
-      "path": "assets/monsters/creature_100049/atlas.json"
+      "path": "assets/monsters/creature_100049/atlas.json",
+      "thumb": "assets/monsters/creature_100049/thumb.webp"
     },
     {
       "id": "creature_100050",
@@ -10654,7 +10995,8 @@
       "height": 108,
       "total_frames": 779,
       "atlas_size_kb": 297.0,
-      "path": "assets/monsters/creature_100050/atlas.json"
+      "path": "assets/monsters/creature_100050/atlas.json",
+      "thumb": "assets/monsters/creature_100050/thumb.webp"
     },
     {
       "id": "creature_100051",
@@ -10685,7 +11027,8 @@
       "height": 161,
       "total_frames": 779,
       "atlas_size_kb": 745.5,
-      "path": "assets/monsters/creature_100051/atlas.json"
+      "path": "assets/monsters/creature_100051/atlas.json",
+      "thumb": "assets/monsters/creature_100051/thumb.webp"
     },
     {
       "id": "creature_100052",
@@ -10716,7 +11059,8 @@
       "height": 275,
       "total_frames": 779,
       "atlas_size_kb": 2518.4,
-      "path": "assets/monsters/creature_100052/atlas.json"
+      "path": "assets/monsters/creature_100052/atlas.json",
+      "thumb": "assets/monsters/creature_100052/thumb.webp"
     },
     {
       "id": "creature_100053",
@@ -10747,7 +11091,8 @@
       "height": 166,
       "total_frames": 779,
       "atlas_size_kb": 936.6,
-      "path": "assets/monsters/creature_100053/atlas.json"
+      "path": "assets/monsters/creature_100053/atlas.json",
+      "thumb": "assets/monsters/creature_100053/thumb.webp"
     },
     {
       "id": "creature_100054",
@@ -10778,7 +11123,8 @@
       "height": 356,
       "total_frames": 779,
       "atlas_size_kb": 2062.3,
-      "path": "assets/monsters/creature_100054/atlas.json"
+      "path": "assets/monsters/creature_100054/atlas.json",
+      "thumb": "assets/monsters/creature_100054/thumb.webp"
     },
     {
       "id": "creature_100055",
@@ -10809,7 +11155,8 @@
       "height": 220,
       "total_frames": 779,
       "atlas_size_kb": 848.9,
-      "path": "assets/monsters/creature_100055/atlas.json"
+      "path": "assets/monsters/creature_100055/atlas.json",
+      "thumb": "assets/monsters/creature_100055/thumb.webp"
     },
     {
       "id": "creature_100056",
@@ -10840,7 +11187,8 @@
       "height": 512,
       "total_frames": 779,
       "atlas_size_kb": 2283.1,
-      "path": "assets/monsters/creature_100056/atlas.json"
+      "path": "assets/monsters/creature_100056/atlas.json",
+      "thumb": "assets/monsters/creature_100056/thumb.webp"
     },
     {
       "id": "creature_100057",
@@ -10871,7 +11219,8 @@
       "height": 157,
       "total_frames": 779,
       "atlas_size_kb": 711.7,
-      "path": "assets/monsters/creature_100057/atlas.json"
+      "path": "assets/monsters/creature_100057/atlas.json",
+      "thumb": "assets/monsters/creature_100057/thumb.webp"
     },
     {
       "id": "creature_100058",
@@ -10902,7 +11251,8 @@
       "height": 182,
       "total_frames": 779,
       "atlas_size_kb": 1578.5,
-      "path": "assets/monsters/creature_100058/atlas.json"
+      "path": "assets/monsters/creature_100058/atlas.json",
+      "thumb": "assets/monsters/creature_100058/thumb.webp"
     },
     {
       "id": "creature_100059",
@@ -10933,7 +11283,8 @@
       "height": 168,
       "total_frames": 779,
       "atlas_size_kb": 942.3,
-      "path": "assets/monsters/creature_100059/atlas.json"
+      "path": "assets/monsters/creature_100059/atlas.json",
+      "thumb": "assets/monsters/creature_100059/thumb.webp"
     },
     {
       "id": "creature_100060",
@@ -10964,7 +11315,8 @@
       "height": 267,
       "total_frames": 779,
       "atlas_size_kb": 3373.6,
-      "path": "assets/monsters/creature_100060/atlas.json"
+      "path": "assets/monsters/creature_100060/atlas.json",
+      "thumb": "assets/monsters/creature_100060/thumb.webp"
     },
     {
       "id": "creature_110000",
@@ -10995,7 +11347,8 @@
       "height": 97,
       "total_frames": 704,
       "atlas_size_kb": 19.4,
-      "path": "assets/monsters/creature_110000/atlas.json"
+      "path": "assets/monsters/creature_110000/atlas.json",
+      "thumb": "assets/monsters/creature_110000/thumb.webp"
     },
     {
       "id": "creature_200001",
@@ -11026,7 +11379,8 @@
       "height": 107,
       "total_frames": 704,
       "atlas_size_kb": 61.2,
-      "path": "assets/monsters/creature_200001/atlas.json"
+      "path": "assets/monsters/creature_200001/atlas.json",
+      "thumb": "assets/monsters/creature_200001/thumb.webp"
     },
     {
       "id": "creature_200002",
@@ -11057,7 +11411,8 @@
       "height": 286,
       "total_frames": 704,
       "atlas_size_kb": 234.4,
-      "path": "assets/monsters/creature_200002/atlas.json"
+      "path": "assets/monsters/creature_200002/atlas.json",
+      "thumb": "assets/monsters/creature_200002/thumb.webp"
     },
     {
       "id": "creature_200003",
@@ -11088,7 +11443,8 @@
       "height": 213,
       "total_frames": 704,
       "atlas_size_kb": 131.8,
-      "path": "assets/monsters/creature_200003/atlas.json"
+      "path": "assets/monsters/creature_200003/atlas.json",
+      "thumb": "assets/monsters/creature_200003/thumb.webp"
     },
     {
       "id": "creature_200004",
@@ -11119,7 +11475,8 @@
       "height": 173,
       "total_frames": 704,
       "atlas_size_kb": 64.8,
-      "path": "assets/monsters/creature_200004/atlas.json"
+      "path": "assets/monsters/creature_200004/atlas.json",
+      "thumb": "assets/monsters/creature_200004/thumb.webp"
     },
     {
       "id": "creature_200005",
@@ -11150,7 +11507,8 @@
       "height": 170,
       "total_frames": 704,
       "atlas_size_kb": 18.5,
-      "path": "assets/monsters/creature_200005/atlas.json"
+      "path": "assets/monsters/creature_200005/atlas.json",
+      "thumb": "assets/monsters/creature_200005/thumb.webp"
     },
     {
       "id": "creature_200005",
@@ -11181,7 +11539,8 @@
       "height": 212,
       "total_frames": 704,
       "atlas_size_kb": 101.0,
-      "path": "assets/monsters/creature_200005/atlas.json"
+      "path": "assets/monsters/creature_200005/atlas.json",
+      "thumb": "assets/monsters/creature_200005/thumb.webp"
     },
     {
       "id": "creature_200006",
@@ -11212,7 +11571,8 @@
       "height": 148,
       "total_frames": 704,
       "atlas_size_kb": 64.0,
-      "path": "assets/monsters/creature_200006/atlas.json"
+      "path": "assets/monsters/creature_200006/atlas.json",
+      "thumb": "assets/monsters/creature_200006/thumb.webp"
     },
     {
       "id": "creature_200007",
@@ -11243,7 +11603,8 @@
       "height": 147,
       "total_frames": 704,
       "atlas_size_kb": 107.0,
-      "path": "assets/monsters/creature_200007/atlas.json"
+      "path": "assets/monsters/creature_200007/atlas.json",
+      "thumb": "assets/monsters/creature_200007/thumb.webp"
     },
     {
       "id": "creature_200008",
@@ -11274,7 +11635,8 @@
       "height": 136,
       "total_frames": 704,
       "atlas_size_kb": 62.6,
-      "path": "assets/monsters/creature_200008/atlas.json"
+      "path": "assets/monsters/creature_200008/atlas.json",
+      "thumb": "assets/monsters/creature_200008/thumb.webp"
     },
     {
       "id": "creature_200009",
@@ -11305,7 +11667,8 @@
       "height": 202,
       "total_frames": 704,
       "atlas_size_kb": 103.1,
-      "path": "assets/monsters/creature_200009/atlas.json"
+      "path": "assets/monsters/creature_200009/atlas.json",
+      "thumb": "assets/monsters/creature_200009/thumb.webp"
     },
     {
       "id": "creature_200010",
@@ -11336,7 +11699,8 @@
       "height": 163,
       "total_frames": 704,
       "atlas_size_kb": 148.3,
-      "path": "assets/monsters/creature_200010/atlas.json"
+      "path": "assets/monsters/creature_200010/atlas.json",
+      "thumb": "assets/monsters/creature_200010/thumb.webp"
     },
     {
       "id": "creature_200011",
@@ -11367,7 +11731,8 @@
       "height": 170,
       "total_frames": 704,
       "atlas_size_kb": 125.3,
-      "path": "assets/monsters/creature_200011/atlas.json"
+      "path": "assets/monsters/creature_200011/atlas.json",
+      "thumb": "assets/monsters/creature_200011/thumb.webp"
     },
     {
       "id": "creature_200012",
@@ -11398,7 +11763,8 @@
       "height": 201,
       "total_frames": 704,
       "atlas_size_kb": 113.9,
-      "path": "assets/monsters/creature_200012/atlas.json"
+      "path": "assets/monsters/creature_200012/atlas.json",
+      "thumb": "assets/monsters/creature_200012/thumb.webp"
     },
     {
       "id": "creature_200013",
@@ -11429,7 +11795,8 @@
       "height": 146,
       "total_frames": 704,
       "atlas_size_kb": 111.6,
-      "path": "assets/monsters/creature_200013/atlas.json"
+      "path": "assets/monsters/creature_200013/atlas.json",
+      "thumb": "assets/monsters/creature_200013/thumb.webp"
     },
     {
       "id": "creature_200014",
@@ -11460,7 +11827,8 @@
       "height": 172,
       "total_frames": 704,
       "atlas_size_kb": 105.5,
-      "path": "assets/monsters/creature_200014/atlas.json"
+      "path": "assets/monsters/creature_200014/atlas.json",
+      "thumb": "assets/monsters/creature_200014/thumb.webp"
     },
     {
       "id": "creature_200015",
@@ -11491,7 +11859,8 @@
       "height": 150,
       "total_frames": 704,
       "atlas_size_kb": 89.0,
-      "path": "assets/monsters/creature_200015/atlas.json"
+      "path": "assets/monsters/creature_200015/atlas.json",
+      "thumb": "assets/monsters/creature_200015/thumb.webp"
     },
     {
       "id": "creature_200016",
@@ -11522,7 +11891,8 @@
       "height": 153,
       "total_frames": 704,
       "atlas_size_kb": 103.3,
-      "path": "assets/monsters/creature_200016/atlas.json"
+      "path": "assets/monsters/creature_200016/atlas.json",
+      "thumb": "assets/monsters/creature_200016/thumb.webp"
     },
     {
       "id": "creature_200017",
@@ -11553,7 +11923,8 @@
       "height": 214,
       "total_frames": 704,
       "atlas_size_kb": 160.0,
-      "path": "assets/monsters/creature_200017/atlas.json"
+      "path": "assets/monsters/creature_200017/atlas.json",
+      "thumb": "assets/monsters/creature_200017/thumb.webp"
     },
     {
       "id": "creature_200018",
@@ -11584,7 +11955,8 @@
       "height": 193,
       "total_frames": 704,
       "atlas_size_kb": 182.0,
-      "path": "assets/monsters/creature_200018/atlas.json"
+      "path": "assets/monsters/creature_200018/atlas.json",
+      "thumb": "assets/monsters/creature_200018/thumb.webp"
     },
     {
       "id": "creature_200019",
@@ -11615,7 +11987,8 @@
       "height": 208,
       "total_frames": 704,
       "atlas_size_kb": 137.9,
-      "path": "assets/monsters/creature_200019/atlas.json"
+      "path": "assets/monsters/creature_200019/atlas.json",
+      "thumb": "assets/monsters/creature_200019/thumb.webp"
     },
     {
       "id": "creature_200020",
@@ -11646,7 +12019,8 @@
       "height": 147,
       "total_frames": 704,
       "atlas_size_kb": 82.9,
-      "path": "assets/monsters/creature_200020/atlas.json"
+      "path": "assets/monsters/creature_200020/atlas.json",
+      "thumb": "assets/monsters/creature_200020/thumb.webp"
     },
     {
       "id": "creature_200021",
@@ -11677,7 +12051,8 @@
       "height": 136,
       "total_frames": 704,
       "atlas_size_kb": 58.3,
-      "path": "assets/monsters/creature_200021/atlas.json"
+      "path": "assets/monsters/creature_200021/atlas.json",
+      "thumb": "assets/monsters/creature_200021/thumb.webp"
     },
     {
       "id": "creature_200022",
@@ -11708,7 +12083,8 @@
       "height": 131,
       "total_frames": 704,
       "atlas_size_kb": 67.1,
-      "path": "assets/monsters/creature_200022/atlas.json"
+      "path": "assets/monsters/creature_200022/atlas.json",
+      "thumb": "assets/monsters/creature_200022/thumb.webp"
     },
     {
       "id": "creature_200023",
@@ -11738,7 +12114,8 @@
       "height": 129,
       "total_frames": 616,
       "atlas_size_kb": 73.3,
-      "path": "assets/monsters/creature_200023/atlas.json"
+      "path": "assets/monsters/creature_200023/atlas.json",
+      "thumb": "assets/monsters/creature_200023/thumb.webp"
     },
     {
       "id": "creature_200024",
@@ -11769,7 +12146,8 @@
       "height": 111,
       "total_frames": 689,
       "atlas_size_kb": 72.7,
-      "path": "assets/monsters/creature_200024/atlas.json"
+      "path": "assets/monsters/creature_200024/atlas.json",
+      "thumb": "assets/monsters/creature_200024/thumb.webp"
     },
     {
       "id": "creature_200025",
@@ -11800,7 +12178,8 @@
       "height": 170,
       "total_frames": 704,
       "atlas_size_kb": 82.2,
-      "path": "assets/monsters/creature_200025/atlas.json"
+      "path": "assets/monsters/creature_200025/atlas.json",
+      "thumb": "assets/monsters/creature_200025/thumb.webp"
     },
     {
       "id": "creature_200026",
@@ -11831,7 +12210,8 @@
       "height": 120,
       "total_frames": 681,
       "atlas_size_kb": 116.3,
-      "path": "assets/monsters/creature_200026/atlas.json"
+      "path": "assets/monsters/creature_200026/atlas.json",
+      "thumb": "assets/monsters/creature_200026/thumb.webp"
     },
     {
       "id": "creature_200027",
@@ -11862,7 +12242,8 @@
       "height": 119,
       "total_frames": 704,
       "atlas_size_kb": 84.2,
-      "path": "assets/monsters/creature_200027/atlas.json"
+      "path": "assets/monsters/creature_200027/atlas.json",
+      "thumb": "assets/monsters/creature_200027/thumb.webp"
     },
     {
       "id": "creature_200028",
@@ -11893,7 +12274,8 @@
       "height": 123,
       "total_frames": 689,
       "atlas_size_kb": 94.1,
-      "path": "assets/monsters/creature_200028/atlas.json"
+      "path": "assets/monsters/creature_200028/atlas.json",
+      "thumb": "assets/monsters/creature_200028/thumb.webp"
     },
     {
       "id": "creature_200029",
@@ -11923,7 +12305,8 @@
       "height": 112,
       "total_frames": 608,
       "atlas_size_kb": 80.2,
-      "path": "assets/monsters/creature_200029/atlas.json"
+      "path": "assets/monsters/creature_200029/atlas.json",
+      "thumb": "assets/monsters/creature_200029/thumb.webp"
     },
     {
       "id": "creature_200030",
@@ -11954,7 +12337,8 @@
       "height": 110,
       "total_frames": 704,
       "atlas_size_kb": 91.9,
-      "path": "assets/monsters/creature_200030/atlas.json"
+      "path": "assets/monsters/creature_200030/atlas.json",
+      "thumb": "assets/monsters/creature_200030/thumb.webp"
     },
     {
       "id": "creature_200031",
@@ -11985,7 +12369,8 @@
       "height": 183,
       "total_frames": 704,
       "atlas_size_kb": 142.5,
-      "path": "assets/monsters/creature_200031/atlas.json"
+      "path": "assets/monsters/creature_200031/atlas.json",
+      "thumb": "assets/monsters/creature_200031/thumb.webp"
     },
     {
       "id": "creature_200032",
@@ -12016,7 +12401,8 @@
       "height": 127,
       "total_frames": 704,
       "atlas_size_kb": 70.6,
-      "path": "assets/monsters/creature_200032/atlas.json"
+      "path": "assets/monsters/creature_200032/atlas.json",
+      "thumb": "assets/monsters/creature_200032/thumb.webp"
     },
     {
       "id": "creature_200033",
@@ -12047,7 +12433,8 @@
       "height": 106,
       "total_frames": 687,
       "atlas_size_kb": 84.5,
-      "path": "assets/monsters/creature_200033/atlas.json"
+      "path": "assets/monsters/creature_200033/atlas.json",
+      "thumb": "assets/monsters/creature_200033/thumb.webp"
     },
     {
       "id": "creature_200034",
@@ -12078,7 +12465,8 @@
       "height": 120,
       "total_frames": 704,
       "atlas_size_kb": 93.4,
-      "path": "assets/monsters/creature_200034/atlas.json"
+      "path": "assets/monsters/creature_200034/atlas.json",
+      "thumb": "assets/monsters/creature_200034/thumb.webp"
     },
     {
       "id": "creature_200037",
@@ -12109,7 +12497,8 @@
       "height": 117,
       "total_frames": 704,
       "atlas_size_kb": 151.7,
-      "path": "assets/monsters/creature_200037/atlas.json"
+      "path": "assets/monsters/creature_200037/atlas.json",
+      "thumb": "assets/monsters/creature_200037/thumb.webp"
     },
     {
       "id": "creature_200038",
@@ -12140,7 +12529,8 @@
       "height": 112,
       "total_frames": 700,
       "atlas_size_kb": 201.0,
-      "path": "assets/monsters/creature_200038/atlas.json"
+      "path": "assets/monsters/creature_200038/atlas.json",
+      "thumb": "assets/monsters/creature_200038/thumb.webp"
     },
     {
       "id": "creature_200040",
@@ -12171,7 +12561,8 @@
       "height": 132,
       "total_frames": 704,
       "atlas_size_kb": 74.8,
-      "path": "assets/monsters/creature_200040/atlas.json"
+      "path": "assets/monsters/creature_200040/atlas.json",
+      "thumb": "assets/monsters/creature_200040/thumb.webp"
     },
     {
       "id": "creature_200041",
@@ -12202,7 +12593,8 @@
       "height": 167,
       "total_frames": 704,
       "atlas_size_kb": 88.5,
-      "path": "assets/monsters/creature_200041/atlas.json"
+      "path": "assets/monsters/creature_200041/atlas.json",
+      "thumb": "assets/monsters/creature_200041/thumb.webp"
     },
     {
       "id": "creature_200042",
@@ -12233,7 +12625,8 @@
       "height": 115,
       "total_frames": 704,
       "atlas_size_kb": 158.8,
-      "path": "assets/monsters/creature_200042/atlas.json"
+      "path": "assets/monsters/creature_200042/atlas.json",
+      "thumb": "assets/monsters/creature_200042/thumb.webp"
     },
     {
       "id": "creature_200043",
@@ -12264,7 +12657,8 @@
       "height": 126,
       "total_frames": 704,
       "atlas_size_kb": 156.9,
-      "path": "assets/monsters/creature_200043/atlas.json"
+      "path": "assets/monsters/creature_200043/atlas.json",
+      "thumb": "assets/monsters/creature_200043/thumb.webp"
     },
     {
       "id": "creature_200044",
@@ -12295,7 +12689,8 @@
       "height": 107,
       "total_frames": 704,
       "atlas_size_kb": 164.6,
-      "path": "assets/monsters/creature_200044/atlas.json"
+      "path": "assets/monsters/creature_200044/atlas.json",
+      "thumb": "assets/monsters/creature_200044/thumb.webp"
     },
     {
       "id": "creature_200045",
@@ -12326,7 +12721,8 @@
       "height": 116,
       "total_frames": 704,
       "atlas_size_kb": 152.6,
-      "path": "assets/monsters/creature_200045/atlas.json"
+      "path": "assets/monsters/creature_200045/atlas.json",
+      "thumb": "assets/monsters/creature_200045/thumb.webp"
     },
     {
       "id": "creature_200046",
@@ -12357,7 +12753,8 @@
       "height": 161,
       "total_frames": 704,
       "atlas_size_kb": 245.4,
-      "path": "assets/monsters/creature_200046/atlas.json"
+      "path": "assets/monsters/creature_200046/atlas.json",
+      "thumb": "assets/monsters/creature_200046/thumb.webp"
     },
     {
       "id": "creature_200047",
@@ -12388,7 +12785,8 @@
       "height": 161,
       "total_frames": 704,
       "atlas_size_kb": 232.1,
-      "path": "assets/monsters/creature_200047/atlas.json"
+      "path": "assets/monsters/creature_200047/atlas.json",
+      "thumb": "assets/monsters/creature_200047/thumb.webp"
     },
     {
       "id": "creature_200048",
@@ -12419,7 +12817,8 @@
       "height": 113,
       "total_frames": 704,
       "atlas_size_kb": 125.4,
-      "path": "assets/monsters/creature_200048/atlas.json"
+      "path": "assets/monsters/creature_200048/atlas.json",
+      "thumb": "assets/monsters/creature_200048/thumb.webp"
     },
     {
       "id": "creature_200049",
@@ -12450,7 +12849,8 @@
       "height": 113,
       "total_frames": 704,
       "atlas_size_kb": 125.7,
-      "path": "assets/monsters/creature_200049/atlas.json"
+      "path": "assets/monsters/creature_200049/atlas.json",
+      "thumb": "assets/monsters/creature_200049/thumb.webp"
     },
     {
       "id": "creature_200050",
@@ -12481,7 +12881,8 @@
       "height": 181,
       "total_frames": 704,
       "atlas_size_kb": 83.6,
-      "path": "assets/monsters/creature_200050/atlas.json"
+      "path": "assets/monsters/creature_200050/atlas.json",
+      "thumb": "assets/monsters/creature_200050/thumb.webp"
     },
     {
       "id": "creature_200051",
@@ -12512,7 +12913,8 @@
       "height": 191,
       "total_frames": 704,
       "atlas_size_kb": 105.1,
-      "path": "assets/monsters/creature_200051/atlas.json"
+      "path": "assets/monsters/creature_200051/atlas.json",
+      "thumb": "assets/monsters/creature_200051/thumb.webp"
     },
     {
       "id": "creature_200052",
@@ -12543,7 +12945,8 @@
       "height": 172,
       "total_frames": 704,
       "atlas_size_kb": 279.6,
-      "path": "assets/monsters/creature_200052/atlas.json"
+      "path": "assets/monsters/creature_200052/atlas.json",
+      "thumb": "assets/monsters/creature_200052/thumb.webp"
     },
     {
       "id": "creature_200053",
@@ -12574,7 +12977,8 @@
       "height": 197,
       "total_frames": 704,
       "atlas_size_kb": 112.0,
-      "path": "assets/monsters/creature_200053/atlas.json"
+      "path": "assets/monsters/creature_200053/atlas.json",
+      "thumb": "assets/monsters/creature_200053/thumb.webp"
     },
     {
       "id": "creature_200054",
@@ -12605,7 +13009,8 @@
       "height": 229,
       "total_frames": 704,
       "atlas_size_kb": 124.1,
-      "path": "assets/monsters/creature_200054/atlas.json"
+      "path": "assets/monsters/creature_200054/atlas.json",
+      "thumb": "assets/monsters/creature_200054/thumb.webp"
     },
     {
       "id": "creature_200055",
@@ -12636,7 +13041,8 @@
       "height": 132,
       "total_frames": 695,
       "atlas_size_kb": 91.3,
-      "path": "assets/monsters/creature_200055/atlas.json"
+      "path": "assets/monsters/creature_200055/atlas.json",
+      "thumb": "assets/monsters/creature_200055/thumb.webp"
     },
     {
       "id": "creature_200056",
@@ -12667,7 +13073,8 @@
       "height": 248,
       "total_frames": 704,
       "atlas_size_kb": 110.0,
-      "path": "assets/monsters/creature_200056/atlas.json"
+      "path": "assets/monsters/creature_200056/atlas.json",
+      "thumb": "assets/monsters/creature_200056/thumb.webp"
     },
     {
       "id": "creature_200057",
@@ -12698,7 +13105,8 @@
       "height": 175,
       "total_frames": 704,
       "atlas_size_kb": 299.8,
-      "path": "assets/monsters/creature_200057/atlas.json"
+      "path": "assets/monsters/creature_200057/atlas.json",
+      "thumb": "assets/monsters/creature_200057/thumb.webp"
     },
     {
       "id": "creature_200058",
@@ -12729,7 +13137,8 @@
       "height": 98,
       "total_frames": 704,
       "atlas_size_kb": 42.2,
-      "path": "assets/monsters/creature_200058/atlas.json"
+      "path": "assets/monsters/creature_200058/atlas.json",
+      "thumb": "assets/monsters/creature_200058/thumb.webp"
     },
     {
       "id": "creature_200059",
@@ -12760,7 +13169,8 @@
       "height": 95,
       "total_frames": 704,
       "atlas_size_kb": 40.8,
-      "path": "assets/monsters/creature_200059/atlas.json"
+      "path": "assets/monsters/creature_200059/atlas.json",
+      "thumb": "assets/monsters/creature_200059/thumb.webp"
     },
     {
       "id": "creature_200060",
@@ -12791,7 +13201,8 @@
       "height": 98,
       "total_frames": 704,
       "atlas_size_kb": 164.8,
-      "path": "assets/monsters/creature_200060/atlas.json"
+      "path": "assets/monsters/creature_200060/atlas.json",
+      "thumb": "assets/monsters/creature_200060/thumb.webp"
     },
     {
       "id": "creature_200061",
@@ -12822,7 +13233,8 @@
       "height": 95,
       "total_frames": 704,
       "atlas_size_kb": 159.7,
-      "path": "assets/monsters/creature_200061/atlas.json"
+      "path": "assets/monsters/creature_200061/atlas.json",
+      "thumb": "assets/monsters/creature_200061/thumb.webp"
     },
     {
       "id": "creature_200062",
@@ -12853,7 +13265,8 @@
       "height": 103,
       "total_frames": 704,
       "atlas_size_kb": 168.5,
-      "path": "assets/monsters/creature_200062/atlas.json"
+      "path": "assets/monsters/creature_200062/atlas.json",
+      "thumb": "assets/monsters/creature_200062/thumb.webp"
     },
     {
       "id": "creature_200063",
@@ -12884,7 +13297,8 @@
       "height": 87,
       "total_frames": 704,
       "atlas_size_kb": 121.6,
-      "path": "assets/monsters/creature_200063/atlas.json"
+      "path": "assets/monsters/creature_200063/atlas.json",
+      "thumb": "assets/monsters/creature_200063/thumb.webp"
     },
     {
       "id": "creature_200064",
@@ -12915,7 +13329,8 @@
       "height": 172,
       "total_frames": 704,
       "atlas_size_kb": 58.9,
-      "path": "assets/monsters/creature_200064/atlas.json"
+      "path": "assets/monsters/creature_200064/atlas.json",
+      "thumb": "assets/monsters/creature_200064/thumb.webp"
     },
     {
       "id": "creature_200065",
@@ -12946,7 +13361,8 @@
       "height": 168,
       "total_frames": 704,
       "atlas_size_kb": 81.3,
-      "path": "assets/monsters/creature_200065/atlas.json"
+      "path": "assets/monsters/creature_200065/atlas.json",
+      "thumb": "assets/monsters/creature_200065/thumb.webp"
     },
     {
       "id": "creature_200066",
@@ -12977,7 +13393,8 @@
       "height": 142,
       "total_frames": 704,
       "atlas_size_kb": 68.0,
-      "path": "assets/monsters/creature_200066/atlas.json"
+      "path": "assets/monsters/creature_200066/atlas.json",
+      "thumb": "assets/monsters/creature_200066/thumb.webp"
     },
     {
       "id": "creature_200067",
@@ -13008,7 +13425,8 @@
       "height": 126,
       "total_frames": 704,
       "atlas_size_kb": 75.9,
-      "path": "assets/monsters/creature_200067/atlas.json"
+      "path": "assets/monsters/creature_200067/atlas.json",
+      "thumb": "assets/monsters/creature_200067/thumb.webp"
     },
     {
       "id": "creature_200068",
@@ -13039,7 +13457,8 @@
       "height": 122,
       "total_frames": 710,
       "atlas_size_kb": 186.8,
-      "path": "assets/monsters/creature_200068/atlas.json"
+      "path": "assets/monsters/creature_200068/atlas.json",
+      "thumb": "assets/monsters/creature_200068/thumb.webp"
     },
     {
       "id": "creature_200069",
@@ -13070,7 +13489,8 @@
       "height": 107,
       "total_frames": 704,
       "atlas_size_kb": 161.4,
-      "path": "assets/monsters/creature_200069/atlas.json"
+      "path": "assets/monsters/creature_200069/atlas.json",
+      "thumb": "assets/monsters/creature_200069/thumb.webp"
     },
     {
       "id": "creature_200070",
@@ -13101,7 +13521,8 @@
       "height": 140,
       "total_frames": 704,
       "atlas_size_kb": 283.8,
-      "path": "assets/monsters/creature_200070/atlas.json"
+      "path": "assets/monsters/creature_200070/atlas.json",
+      "thumb": "assets/monsters/creature_200070/thumb.webp"
     },
     {
       "id": "creature_200071",
@@ -13132,7 +13553,8 @@
       "height": 127,
       "total_frames": 704,
       "atlas_size_kb": 213.0,
-      "path": "assets/monsters/creature_200071/atlas.json"
+      "path": "assets/monsters/creature_200071/atlas.json",
+      "thumb": "assets/monsters/creature_200071/thumb.webp"
     },
     {
       "id": "creature_200072",
@@ -13163,7 +13585,8 @@
       "height": 115,
       "total_frames": 704,
       "atlas_size_kb": 198.0,
-      "path": "assets/monsters/creature_200072/atlas.json"
+      "path": "assets/monsters/creature_200072/atlas.json",
+      "thumb": "assets/monsters/creature_200072/thumb.webp"
     },
     {
       "id": "creature_200073",
@@ -13194,7 +13617,8 @@
       "height": 191,
       "total_frames": 704,
       "atlas_size_kb": 469.5,
-      "path": "assets/monsters/creature_200073/atlas.json"
+      "path": "assets/monsters/creature_200073/atlas.json",
+      "thumb": "assets/monsters/creature_200073/thumb.webp"
     },
     {
       "id": "creature_200074",
@@ -13225,7 +13649,8 @@
       "height": 223,
       "total_frames": 704,
       "atlas_size_kb": 520.9,
-      "path": "assets/monsters/creature_200074/atlas.json"
+      "path": "assets/monsters/creature_200074/atlas.json",
+      "thumb": "assets/monsters/creature_200074/thumb.webp"
     },
     {
       "id": "creature_200075",
@@ -13256,7 +13681,8 @@
       "height": 178,
       "total_frames": 704,
       "atlas_size_kb": 270.9,
-      "path": "assets/monsters/creature_200075/atlas.json"
+      "path": "assets/monsters/creature_200075/atlas.json",
+      "thumb": "assets/monsters/creature_200075/thumb.webp"
     },
     {
       "id": "creature_200076",
@@ -13287,7 +13713,8 @@
       "height": 144,
       "total_frames": 704,
       "atlas_size_kb": 266.4,
-      "path": "assets/monsters/creature_200076/atlas.json"
+      "path": "assets/monsters/creature_200076/atlas.json",
+      "thumb": "assets/monsters/creature_200076/thumb.webp"
     },
     {
       "id": "creature_200077",
@@ -13318,7 +13745,8 @@
       "height": 129,
       "total_frames": 704,
       "atlas_size_kb": 182.5,
-      "path": "assets/monsters/creature_200077/atlas.json"
+      "path": "assets/monsters/creature_200077/atlas.json",
+      "thumb": "assets/monsters/creature_200077/thumb.webp"
     },
     {
       "id": "creature_200078",
@@ -13349,7 +13777,8 @@
       "height": 107,
       "total_frames": 704,
       "atlas_size_kb": 158.5,
-      "path": "assets/monsters/creature_200078/atlas.json"
+      "path": "assets/monsters/creature_200078/atlas.json",
+      "thumb": "assets/monsters/creature_200078/thumb.webp"
     },
     {
       "id": "creature_200083",
@@ -13380,7 +13809,8 @@
       "height": 146,
       "total_frames": 704,
       "atlas_size_kb": 244.5,
-      "path": "assets/monsters/creature_200083/atlas.json"
+      "path": "assets/monsters/creature_200083/atlas.json",
+      "thumb": "assets/monsters/creature_200083/thumb.webp"
     },
     {
       "id": "creature_200084",
@@ -13411,7 +13841,8 @@
       "height": 177,
       "total_frames": 704,
       "atlas_size_kb": 326.5,
-      "path": "assets/monsters/creature_200084/atlas.json"
+      "path": "assets/monsters/creature_200084/atlas.json",
+      "thumb": "assets/monsters/creature_200084/thumb.webp"
     },
     {
       "id": "creature_200085",
@@ -13442,7 +13873,8 @@
       "height": 156,
       "total_frames": 704,
       "atlas_size_kb": 292.8,
-      "path": "assets/monsters/creature_200085/atlas.json"
+      "path": "assets/monsters/creature_200085/atlas.json",
+      "thumb": "assets/monsters/creature_200085/thumb.webp"
     },
     {
       "id": "creature_200086",
@@ -13473,7 +13905,8 @@
       "height": 146,
       "total_frames": 704,
       "atlas_size_kb": 345.2,
-      "path": "assets/monsters/creature_200086/atlas.json"
+      "path": "assets/monsters/creature_200086/atlas.json",
+      "thumb": "assets/monsters/creature_200086/thumb.webp"
     },
     {
       "id": "creature_200087",
@@ -13504,7 +13937,8 @@
       "height": 144,
       "total_frames": 704,
       "atlas_size_kb": 339.0,
-      "path": "assets/monsters/creature_200087/atlas.json"
+      "path": "assets/monsters/creature_200087/atlas.json",
+      "thumb": "assets/monsters/creature_200087/thumb.webp"
     },
     {
       "id": "creature_200088",
@@ -13535,7 +13969,8 @@
       "height": 171,
       "total_frames": 700,
       "atlas_size_kb": 326.1,
-      "path": "assets/monsters/creature_200088/atlas.json"
+      "path": "assets/monsters/creature_200088/atlas.json",
+      "thumb": "assets/monsters/creature_200088/thumb.webp"
     },
     {
       "id": "creature_200089",
@@ -13566,7 +14001,8 @@
       "height": 169,
       "total_frames": 704,
       "atlas_size_kb": 294.6,
-      "path": "assets/monsters/creature_200089/atlas.json"
+      "path": "assets/monsters/creature_200089/atlas.json",
+      "thumb": "assets/monsters/creature_200089/thumb.webp"
     },
     {
       "id": "creature_200090",
@@ -13597,7 +14033,8 @@
       "height": 155,
       "total_frames": 704,
       "atlas_size_kb": 314.0,
-      "path": "assets/monsters/creature_200090/atlas.json"
+      "path": "assets/monsters/creature_200090/atlas.json",
+      "thumb": "assets/monsters/creature_200090/thumb.webp"
     },
     {
       "id": "creature_200091",
@@ -13628,7 +14065,8 @@
       "height": 158,
       "total_frames": 704,
       "atlas_size_kb": 283.0,
-      "path": "assets/monsters/creature_200091/atlas.json"
+      "path": "assets/monsters/creature_200091/atlas.json",
+      "thumb": "assets/monsters/creature_200091/thumb.webp"
     },
     {
       "id": "creature_200092",
@@ -13659,7 +14097,8 @@
       "height": 142,
       "total_frames": 704,
       "atlas_size_kb": 226.7,
-      "path": "assets/monsters/creature_200092/atlas.json"
+      "path": "assets/monsters/creature_200092/atlas.json",
+      "thumb": "assets/monsters/creature_200092/thumb.webp"
     },
     {
       "id": "creature_200093",
@@ -13690,7 +14129,8 @@
       "height": 124,
       "total_frames": 704,
       "atlas_size_kb": 213.4,
-      "path": "assets/monsters/creature_200093/atlas.json"
+      "path": "assets/monsters/creature_200093/atlas.json",
+      "thumb": "assets/monsters/creature_200093/thumb.webp"
     },
     {
       "id": "creature_200094",
@@ -13721,7 +14161,8 @@
       "height": 30,
       "total_frames": 704,
       "atlas_size_kb": 1.9,
-      "path": "assets/monsters/creature_200094/atlas.json"
+      "path": "assets/monsters/creature_200094/atlas.json",
+      "thumb": "assets/monsters/creature_200094/thumb.webp"
     },
     {
       "id": "creature_200095",
@@ -13752,7 +14193,8 @@
       "height": 30,
       "total_frames": 704,
       "atlas_size_kb": 1.6,
-      "path": "assets/monsters/creature_200095/atlas.json"
+      "path": "assets/monsters/creature_200095/atlas.json",
+      "thumb": "assets/monsters/creature_200095/thumb.webp"
     },
     {
       "id": "creature_200096",
@@ -13783,7 +14225,8 @@
       "height": 30,
       "total_frames": 704,
       "atlas_size_kb": 1.5,
-      "path": "assets/monsters/creature_200096/atlas.json"
+      "path": "assets/monsters/creature_200096/atlas.json",
+      "thumb": "assets/monsters/creature_200096/thumb.webp"
     },
     {
       "id": "creature_200097",
@@ -13814,7 +14257,8 @@
       "height": 30,
       "total_frames": 704,
       "atlas_size_kb": 1.4,
-      "path": "assets/monsters/creature_200097/atlas.json"
+      "path": "assets/monsters/creature_200097/atlas.json",
+      "thumb": "assets/monsters/creature_200097/thumb.webp"
     },
     {
       "id": "creature_200098",
@@ -13845,7 +14289,8 @@
       "height": 30,
       "total_frames": 704,
       "atlas_size_kb": 1.4,
-      "path": "assets/monsters/creature_200098/atlas.json"
+      "path": "assets/monsters/creature_200098/atlas.json",
+      "thumb": "assets/monsters/creature_200098/thumb.webp"
     },
     {
       "id": "creature_200099",
@@ -13876,7 +14321,8 @@
       "height": 30,
       "total_frames": 704,
       "atlas_size_kb": 1.5,
-      "path": "assets/monsters/creature_200099/atlas.json"
+      "path": "assets/monsters/creature_200099/atlas.json",
+      "thumb": "assets/monsters/creature_200099/thumb.webp"
     },
     {
       "id": "creature_200100",
@@ -13907,7 +14353,8 @@
       "height": 30,
       "total_frames": 704,
       "atlas_size_kb": 1.6,
-      "path": "assets/monsters/creature_200100/atlas.json"
+      "path": "assets/monsters/creature_200100/atlas.json",
+      "thumb": "assets/monsters/creature_200100/thumb.webp"
     },
     {
       "id": "creature_200101",
@@ -13938,7 +14385,8 @@
       "height": 30,
       "total_frames": 704,
       "atlas_size_kb": 1.5,
-      "path": "assets/monsters/creature_200101/atlas.json"
+      "path": "assets/monsters/creature_200101/atlas.json",
+      "thumb": "assets/monsters/creature_200101/thumb.webp"
     },
     {
       "id": "creature_200102",
@@ -13969,7 +14417,8 @@
       "height": 30,
       "total_frames": 704,
       "atlas_size_kb": 1.6,
-      "path": "assets/monsters/creature_200102/atlas.json"
+      "path": "assets/monsters/creature_200102/atlas.json",
+      "thumb": "assets/monsters/creature_200102/thumb.webp"
     },
     {
       "id": "creature_200103",
@@ -14000,7 +14449,8 @@
       "height": 30,
       "total_frames": 704,
       "atlas_size_kb": 1.6,
-      "path": "assets/monsters/creature_200103/atlas.json"
+      "path": "assets/monsters/creature_200103/atlas.json",
+      "thumb": "assets/monsters/creature_200103/thumb.webp"
     },
     {
       "id": "creature_200104",
@@ -14031,7 +14481,8 @@
       "height": 30,
       "total_frames": 704,
       "atlas_size_kb": 1.3,
-      "path": "assets/monsters/creature_200104/atlas.json"
+      "path": "assets/monsters/creature_200104/atlas.json",
+      "thumb": "assets/monsters/creature_200104/thumb.webp"
     },
     {
       "id": "creature_200105",
@@ -14062,7 +14513,8 @@
       "height": 31,
       "total_frames": 704,
       "atlas_size_kb": 1.6,
-      "path": "assets/monsters/creature_200105/atlas.json"
+      "path": "assets/monsters/creature_200105/atlas.json",
+      "thumb": "assets/monsters/creature_200105/thumb.webp"
     },
     {
       "id": "creature_200106",
@@ -14093,7 +14545,8 @@
       "height": 30,
       "total_frames": 704,
       "atlas_size_kb": 1.4,
-      "path": "assets/monsters/creature_200106/atlas.json"
+      "path": "assets/monsters/creature_200106/atlas.json",
+      "thumb": "assets/monsters/creature_200106/thumb.webp"
     },
     {
       "id": "creature_200107",
@@ -14124,7 +14577,8 @@
       "height": 30,
       "total_frames": 704,
       "atlas_size_kb": 1.6,
-      "path": "assets/monsters/creature_200107/atlas.json"
+      "path": "assets/monsters/creature_200107/atlas.json",
+      "thumb": "assets/monsters/creature_200107/thumb.webp"
     },
     {
       "id": "creature_200108",
@@ -14155,7 +14609,8 @@
       "height": 173,
       "total_frames": 704,
       "atlas_size_kb": 377.1,
-      "path": "assets/monsters/creature_200108/atlas.json"
+      "path": "assets/monsters/creature_200108/atlas.json",
+      "thumb": "assets/monsters/creature_200108/thumb.webp"
     },
     {
       "id": "creature_200111",
@@ -14186,7 +14641,8 @@
       "height": 120,
       "total_frames": 704,
       "atlas_size_kb": 222.5,
-      "path": "assets/monsters/creature_200111/atlas.json"
+      "path": "assets/monsters/creature_200111/atlas.json",
+      "thumb": "assets/monsters/creature_200111/thumb.webp"
     },
     {
       "id": "creature_200112",
@@ -14217,7 +14673,8 @@
       "height": 150,
       "total_frames": 704,
       "atlas_size_kb": 302.2,
-      "path": "assets/monsters/creature_200112/atlas.json"
+      "path": "assets/monsters/creature_200112/atlas.json",
+      "thumb": "assets/monsters/creature_200112/thumb.webp"
     },
     {
       "id": "creature_200113",
@@ -14248,7 +14705,8 @@
       "height": 158,
       "total_frames": 704,
       "atlas_size_kb": 395.0,
-      "path": "assets/monsters/creature_200113/atlas.json"
+      "path": "assets/monsters/creature_200113/atlas.json",
+      "thumb": "assets/monsters/creature_200113/thumb.webp"
     },
     {
       "id": "creature_200114",
@@ -14279,7 +14737,8 @@
       "height": 161,
       "total_frames": 704,
       "atlas_size_kb": 460.8,
-      "path": "assets/monsters/creature_200114/atlas.json"
+      "path": "assets/monsters/creature_200114/atlas.json",
+      "thumb": "assets/monsters/creature_200114/thumb.webp"
     },
     {
       "id": "creature_200115",
@@ -14310,7 +14769,8 @@
       "height": 124,
       "total_frames": 704,
       "atlas_size_kb": 197.1,
-      "path": "assets/monsters/creature_200115/atlas.json"
+      "path": "assets/monsters/creature_200115/atlas.json",
+      "thumb": "assets/monsters/creature_200115/thumb.webp"
     },
     {
       "id": "creature_200116",
@@ -14341,7 +14801,8 @@
       "height": 121,
       "total_frames": 704,
       "atlas_size_kb": 252.8,
-      "path": "assets/monsters/creature_200116/atlas.json"
+      "path": "assets/monsters/creature_200116/atlas.json",
+      "thumb": "assets/monsters/creature_200116/thumb.webp"
     },
     {
       "id": "creature_200117",
@@ -14372,7 +14833,8 @@
       "height": 115,
       "total_frames": 704,
       "atlas_size_kb": 233.3,
-      "path": "assets/monsters/creature_200117/atlas.json"
+      "path": "assets/monsters/creature_200117/atlas.json",
+      "thumb": "assets/monsters/creature_200117/thumb.webp"
     },
     {
       "id": "creature_200118",
@@ -14403,7 +14865,8 @@
       "height": 139,
       "total_frames": 704,
       "atlas_size_kb": 237.3,
-      "path": "assets/monsters/creature_200118/atlas.json"
+      "path": "assets/monsters/creature_200118/atlas.json",
+      "thumb": "assets/monsters/creature_200118/thumb.webp"
     },
     {
       "id": "creature_200119",
@@ -14434,7 +14897,8 @@
       "height": 120,
       "total_frames": 704,
       "atlas_size_kb": 253.8,
-      "path": "assets/monsters/creature_200119/atlas.json"
+      "path": "assets/monsters/creature_200119/atlas.json",
+      "thumb": "assets/monsters/creature_200119/thumb.webp"
     },
     {
       "id": "creature_200120",
@@ -14465,7 +14929,8 @@
       "height": 135,
       "total_frames": 704,
       "atlas_size_kb": 251.4,
-      "path": "assets/monsters/creature_200120/atlas.json"
+      "path": "assets/monsters/creature_200120/atlas.json",
+      "thumb": "assets/monsters/creature_200120/thumb.webp"
     },
     {
       "id": "creature_200121",
@@ -14496,7 +14961,8 @@
       "height": 129,
       "total_frames": 704,
       "atlas_size_kb": 191.4,
-      "path": "assets/monsters/creature_200121/atlas.json"
+      "path": "assets/monsters/creature_200121/atlas.json",
+      "thumb": "assets/monsters/creature_200121/thumb.webp"
     },
     {
       "id": "creature_200122",
@@ -14527,7 +14993,8 @@
       "height": 175,
       "total_frames": 704,
       "atlas_size_kb": 728.5,
-      "path": "assets/monsters/creature_200122/atlas.json"
+      "path": "assets/monsters/creature_200122/atlas.json",
+      "thumb": "assets/monsters/creature_200122/thumb.webp"
     },
     {
       "id": "creature_200123",
@@ -14558,7 +15025,8 @@
       "height": 139,
       "total_frames": 704,
       "atlas_size_kb": 356.2,
-      "path": "assets/monsters/creature_200123/atlas.json"
+      "path": "assets/monsters/creature_200123/atlas.json",
+      "thumb": "assets/monsters/creature_200123/thumb.webp"
     },
     {
       "id": "creature_200124",
@@ -14589,7 +15057,8 @@
       "height": 175,
       "total_frames": 704,
       "atlas_size_kb": 746.6,
-      "path": "assets/monsters/creature_200124/atlas.json"
+      "path": "assets/monsters/creature_200124/atlas.json",
+      "thumb": "assets/monsters/creature_200124/thumb.webp"
     },
     {
       "id": "creature_200125",
@@ -14620,7 +15089,8 @@
       "height": 130,
       "total_frames": 704,
       "atlas_size_kb": 209.3,
-      "path": "assets/monsters/creature_200125/atlas.json"
+      "path": "assets/monsters/creature_200125/atlas.json",
+      "thumb": "assets/monsters/creature_200125/thumb.webp"
     },
     {
       "id": "creature_200126",
@@ -14651,7 +15121,8 @@
       "height": 110,
       "total_frames": 704,
       "atlas_size_kb": 151.2,
-      "path": "assets/monsters/creature_200126/atlas.json"
+      "path": "assets/monsters/creature_200126/atlas.json",
+      "thumb": "assets/monsters/creature_200126/thumb.webp"
     },
     {
       "id": "creature_200127",
@@ -14682,7 +15153,8 @@
       "height": 115,
       "total_frames": 704,
       "atlas_size_kb": 190.1,
-      "path": "assets/monsters/creature_200127/atlas.json"
+      "path": "assets/monsters/creature_200127/atlas.json",
+      "thumb": "assets/monsters/creature_200127/thumb.webp"
     },
     {
       "id": "creature_200128",
@@ -14713,7 +15185,8 @@
       "height": 102,
       "total_frames": 704,
       "atlas_size_kb": 139.1,
-      "path": "assets/monsters/creature_200128/atlas.json"
+      "path": "assets/monsters/creature_200128/atlas.json",
+      "thumb": "assets/monsters/creature_200128/thumb.webp"
     },
     {
       "id": "creature_200129",
@@ -14744,7 +15217,8 @@
       "height": 129,
       "total_frames": 704,
       "atlas_size_kb": 210.6,
-      "path": "assets/monsters/creature_200129/atlas.json"
+      "path": "assets/monsters/creature_200129/atlas.json",
+      "thumb": "assets/monsters/creature_200129/thumb.webp"
     },
     {
       "id": "creature_200130",
@@ -14775,7 +15249,8 @@
       "height": 130,
       "total_frames": 704,
       "atlas_size_kb": 236.5,
-      "path": "assets/monsters/creature_200130/atlas.json"
+      "path": "assets/monsters/creature_200130/atlas.json",
+      "thumb": "assets/monsters/creature_200130/thumb.webp"
     },
     {
       "id": "creature_200131",
@@ -14806,7 +15281,8 @@
       "height": 185,
       "total_frames": 704,
       "atlas_size_kb": 373.0,
-      "path": "assets/monsters/creature_200131/atlas.json"
+      "path": "assets/monsters/creature_200131/atlas.json",
+      "thumb": "assets/monsters/creature_200131/thumb.webp"
     },
     {
       "id": "creature_200132",
@@ -14837,7 +15313,8 @@
       "height": 112,
       "total_frames": 704,
       "atlas_size_kb": 228.3,
-      "path": "assets/monsters/creature_200132/atlas.json"
+      "path": "assets/monsters/creature_200132/atlas.json",
+      "thumb": "assets/monsters/creature_200132/thumb.webp"
     },
     {
       "id": "creature_200133",
@@ -14868,7 +15345,8 @@
       "height": 146,
       "total_frames": 704,
       "atlas_size_kb": 488.7,
-      "path": "assets/monsters/creature_200133/atlas.json"
+      "path": "assets/monsters/creature_200133/atlas.json",
+      "thumb": "assets/monsters/creature_200133/thumb.webp"
     },
     {
       "id": "creature_200134",
@@ -14899,7 +15377,8 @@
       "height": 226,
       "total_frames": 704,
       "atlas_size_kb": 231.3,
-      "path": "assets/monsters/creature_200134/atlas.json"
+      "path": "assets/monsters/creature_200134/atlas.json",
+      "thumb": "assets/monsters/creature_200134/thumb.webp"
     },
     {
       "id": "creature_200135",
@@ -14930,7 +15409,8 @@
       "height": 229,
       "total_frames": 704,
       "atlas_size_kb": 256.1,
-      "path": "assets/monsters/creature_200135/atlas.json"
+      "path": "assets/monsters/creature_200135/atlas.json",
+      "thumb": "assets/monsters/creature_200135/thumb.webp"
     },
     {
       "id": "creature_200136",
@@ -14961,7 +15441,8 @@
       "height": 226,
       "total_frames": 704,
       "atlas_size_kb": 251.5,
-      "path": "assets/monsters/creature_200136/atlas.json"
+      "path": "assets/monsters/creature_200136/atlas.json",
+      "thumb": "assets/monsters/creature_200136/thumb.webp"
     },
     {
       "id": "creature_200137",
@@ -14992,7 +15473,8 @@
       "height": 229,
       "total_frames": 704,
       "atlas_size_kb": 250.0,
-      "path": "assets/monsters/creature_200137/atlas.json"
+      "path": "assets/monsters/creature_200137/atlas.json",
+      "thumb": "assets/monsters/creature_200137/thumb.webp"
     },
     {
       "id": "creature_200138",
@@ -15023,7 +15505,8 @@
       "height": 158,
       "total_frames": 704,
       "atlas_size_kb": 212.3,
-      "path": "assets/monsters/creature_200138/atlas.json"
+      "path": "assets/monsters/creature_200138/atlas.json",
+      "thumb": "assets/monsters/creature_200138/thumb.webp"
     },
     {
       "id": "creature_200139",
@@ -15054,7 +15537,8 @@
       "height": 107,
       "total_frames": 704,
       "atlas_size_kb": 153.2,
-      "path": "assets/monsters/creature_200139/atlas.json"
+      "path": "assets/monsters/creature_200139/atlas.json",
+      "thumb": "assets/monsters/creature_200139/thumb.webp"
     },
     {
       "id": "creature_200140",
@@ -15085,7 +15569,8 @@
       "height": 167,
       "total_frames": 704,
       "atlas_size_kb": 264.3,
-      "path": "assets/monsters/creature_200140/atlas.json"
+      "path": "assets/monsters/creature_200140/atlas.json",
+      "thumb": "assets/monsters/creature_200140/thumb.webp"
     },
     {
       "id": "creature_200141",
@@ -15116,7 +15601,8 @@
       "height": 176,
       "total_frames": 704,
       "atlas_size_kb": 271.9,
-      "path": "assets/monsters/creature_200141/atlas.json"
+      "path": "assets/monsters/creature_200141/atlas.json",
+      "thumb": "assets/monsters/creature_200141/thumb.webp"
     },
     {
       "id": "creature_200142",
@@ -15150,7 +15636,8 @@
       "height": 196,
       "total_frames": 1304,
       "atlas_size_kb": 712.7,
-      "path": "assets/monsters/creature_200142/atlas.json"
+      "path": "assets/monsters/creature_200142/atlas.json",
+      "thumb": "assets/monsters/creature_200142/thumb.webp"
     },
     {
       "id": "creature_200143",
@@ -15184,7 +15671,8 @@
       "height": 165,
       "total_frames": 1304,
       "atlas_size_kb": 736.4,
-      "path": "assets/monsters/creature_200143/atlas.json"
+      "path": "assets/monsters/creature_200143/atlas.json",
+      "thumb": "assets/monsters/creature_200143/thumb.webp"
     },
     {
       "id": "creature_200144",
@@ -15218,7 +15706,8 @@
       "height": 155,
       "total_frames": 1304,
       "atlas_size_kb": 560.5,
-      "path": "assets/monsters/creature_200144/atlas.json"
+      "path": "assets/monsters/creature_200144/atlas.json",
+      "thumb": "assets/monsters/creature_200144/thumb.webp"
     },
     {
       "id": "creature_200145",
@@ -15252,7 +15741,8 @@
       "height": 201,
       "total_frames": 1304,
       "atlas_size_kb": 927.2,
-      "path": "assets/monsters/creature_200145/atlas.json"
+      "path": "assets/monsters/creature_200145/atlas.json",
+      "thumb": "assets/monsters/creature_200145/thumb.webp"
     },
     {
       "id": "creature_200146",
@@ -15286,7 +15776,8 @@
       "height": 140,
       "total_frames": 1304,
       "atlas_size_kb": 422.8,
-      "path": "assets/monsters/creature_200146/atlas.json"
+      "path": "assets/monsters/creature_200146/atlas.json",
+      "thumb": "assets/monsters/creature_200146/thumb.webp"
     },
     {
       "id": "creature_200147",
@@ -15320,7 +15811,8 @@
       "height": 124,
       "total_frames": 1304,
       "atlas_size_kb": 445.5,
-      "path": "assets/monsters/creature_200147/atlas.json"
+      "path": "assets/monsters/creature_200147/atlas.json",
+      "thumb": "assets/monsters/creature_200147/thumb.webp"
     },
     {
       "id": "creature_200148",
@@ -15354,7 +15846,8 @@
       "height": 128,
       "total_frames": 1304,
       "atlas_size_kb": 453.3,
-      "path": "assets/monsters/creature_200148/atlas.json"
+      "path": "assets/monsters/creature_200148/atlas.json",
+      "thumb": "assets/monsters/creature_200148/thumb.webp"
     },
     {
       "id": "creature_200149",
@@ -15388,7 +15881,8 @@
       "height": 129,
       "total_frames": 1304,
       "atlas_size_kb": 210.9,
-      "path": "assets/monsters/creature_200149/atlas.json"
+      "path": "assets/monsters/creature_200149/atlas.json",
+      "thumb": "assets/monsters/creature_200149/thumb.webp"
     },
     {
       "id": "creature_200150",
@@ -15422,7 +15916,8 @@
       "height": 116,
       "total_frames": 1304,
       "atlas_size_kb": 210.7,
-      "path": "assets/monsters/creature_200150/atlas.json"
+      "path": "assets/monsters/creature_200150/atlas.json",
+      "thumb": "assets/monsters/creature_200150/thumb.webp"
     },
     {
       "id": "creature_200151",
@@ -15453,7 +15948,8 @@
       "height": 112,
       "total_frames": 704,
       "atlas_size_kb": 187.1,
-      "path": "assets/monsters/creature_200151/atlas.json"
+      "path": "assets/monsters/creature_200151/atlas.json",
+      "thumb": "assets/monsters/creature_200151/thumb.webp"
     },
     {
       "id": "creature_200152",
@@ -15484,7 +15980,8 @@
       "height": 111,
       "total_frames": 704,
       "atlas_size_kb": 167.9,
-      "path": "assets/monsters/creature_200152/atlas.json"
+      "path": "assets/monsters/creature_200152/atlas.json",
+      "thumb": "assets/monsters/creature_200152/thumb.webp"
     },
     {
       "id": "creature_200153",
@@ -15515,7 +16012,8 @@
       "height": 111,
       "total_frames": 704,
       "atlas_size_kb": 200.1,
-      "path": "assets/monsters/creature_200153/atlas.json"
+      "path": "assets/monsters/creature_200153/atlas.json",
+      "thumb": "assets/monsters/creature_200153/thumb.webp"
     },
     {
       "id": "creature_200154",
@@ -15546,7 +16044,8 @@
       "height": 126,
       "total_frames": 704,
       "atlas_size_kb": 179.3,
-      "path": "assets/monsters/creature_200154/atlas.json"
+      "path": "assets/monsters/creature_200154/atlas.json",
+      "thumb": "assets/monsters/creature_200154/thumb.webp"
     },
     {
       "id": "creature_200155",
@@ -15577,7 +16076,8 @@
       "height": 132,
       "total_frames": 704,
       "atlas_size_kb": 187.0,
-      "path": "assets/monsters/creature_200155/atlas.json"
+      "path": "assets/monsters/creature_200155/atlas.json",
+      "thumb": "assets/monsters/creature_200155/thumb.webp"
     },
     {
       "id": "creature_200156",
@@ -15608,7 +16108,8 @@
       "height": 135,
       "total_frames": 704,
       "atlas_size_kb": 200.5,
-      "path": "assets/monsters/creature_200156/atlas.json"
+      "path": "assets/monsters/creature_200156/atlas.json",
+      "thumb": "assets/monsters/creature_200156/thumb.webp"
     },
     {
       "id": "creature_200157",
@@ -15639,7 +16140,8 @@
       "height": 127,
       "total_frames": 704,
       "atlas_size_kb": 202.9,
-      "path": "assets/monsters/creature_200157/atlas.json"
+      "path": "assets/monsters/creature_200157/atlas.json",
+      "thumb": "assets/monsters/creature_200157/thumb.webp"
     },
     {
       "id": "creature_200158",
@@ -15670,7 +16172,8 @@
       "height": 120,
       "total_frames": 704,
       "atlas_size_kb": 209.9,
-      "path": "assets/monsters/creature_200158/atlas.json"
+      "path": "assets/monsters/creature_200158/atlas.json",
+      "thumb": "assets/monsters/creature_200158/thumb.webp"
     },
     {
       "id": "creature_200159",
@@ -15701,7 +16204,8 @@
       "height": 119,
       "total_frames": 704,
       "atlas_size_kb": 187.3,
-      "path": "assets/monsters/creature_200159/atlas.json"
+      "path": "assets/monsters/creature_200159/atlas.json",
+      "thumb": "assets/monsters/creature_200159/thumb.webp"
     },
     {
       "id": "creature_200160",
@@ -15732,7 +16236,8 @@
       "height": 107,
       "total_frames": 704,
       "atlas_size_kb": 195.2,
-      "path": "assets/monsters/creature_200160/atlas.json"
+      "path": "assets/monsters/creature_200160/atlas.json",
+      "thumb": "assets/monsters/creature_200160/thumb.webp"
     },
     {
       "id": "creature_200161",
@@ -15763,7 +16268,8 @@
       "height": 124,
       "total_frames": 704,
       "atlas_size_kb": 210.9,
-      "path": "assets/monsters/creature_200161/atlas.json"
+      "path": "assets/monsters/creature_200161/atlas.json",
+      "thumb": "assets/monsters/creature_200161/thumb.webp"
     },
     {
       "id": "creature_200162",
@@ -15794,7 +16300,8 @@
       "height": 112,
       "total_frames": 704,
       "atlas_size_kb": 198.8,
-      "path": "assets/monsters/creature_200162/atlas.json"
+      "path": "assets/monsters/creature_200162/atlas.json",
+      "thumb": "assets/monsters/creature_200162/thumb.webp"
     },
     {
       "id": "creature_200163",
@@ -15828,7 +16335,8 @@
       "height": 112,
       "total_frames": 1304,
       "atlas_size_kb": 149.6,
-      "path": "assets/monsters/creature_200163/atlas.json"
+      "path": "assets/monsters/creature_200163/atlas.json",
+      "thumb": "assets/monsters/creature_200163/thumb.webp"
     },
     {
       "id": "creature_200164",
@@ -15862,7 +16370,8 @@
       "height": 122,
       "total_frames": 1304,
       "atlas_size_kb": 178.6,
-      "path": "assets/monsters/creature_200164/atlas.json"
+      "path": "assets/monsters/creature_200164/atlas.json",
+      "thumb": "assets/monsters/creature_200164/thumb.webp"
     },
     {
       "id": "creature_200165",
@@ -15896,7 +16405,8 @@
       "height": 121,
       "total_frames": 1304,
       "atlas_size_kb": 188.2,
-      "path": "assets/monsters/creature_200165/atlas.json"
+      "path": "assets/monsters/creature_200165/atlas.json",
+      "thumb": "assets/monsters/creature_200165/thumb.webp"
     },
     {
       "id": "creature_200166",
@@ -15930,7 +16440,8 @@
       "height": 117,
       "total_frames": 1304,
       "atlas_size_kb": 176.0,
-      "path": "assets/monsters/creature_200166/atlas.json"
+      "path": "assets/monsters/creature_200166/atlas.json",
+      "thumb": "assets/monsters/creature_200166/thumb.webp"
     },
     {
       "id": "creature_200167",
@@ -15964,7 +16475,8 @@
       "height": 133,
       "total_frames": 1304,
       "atlas_size_kb": 229.9,
-      "path": "assets/monsters/creature_200167/atlas.json"
+      "path": "assets/monsters/creature_200167/atlas.json",
+      "thumb": "assets/monsters/creature_200167/thumb.webp"
     },
     {
       "id": "creature_200168",
@@ -15998,7 +16510,8 @@
       "height": 129,
       "total_frames": 1304,
       "atlas_size_kb": 223.9,
-      "path": "assets/monsters/creature_200168/atlas.json"
+      "path": "assets/monsters/creature_200168/atlas.json",
+      "thumb": "assets/monsters/creature_200168/thumb.webp"
     },
     {
       "id": "creature_200169",
@@ -16032,7 +16545,8 @@
       "height": 160,
       "total_frames": 1304,
       "atlas_size_kb": 232.6,
-      "path": "assets/monsters/creature_200169/atlas.json"
+      "path": "assets/monsters/creature_200169/atlas.json",
+      "thumb": "assets/monsters/creature_200169/thumb.webp"
     },
     {
       "id": "creature_200170",
@@ -16063,7 +16577,8 @@
       "height": 256,
       "total_frames": 698,
       "atlas_size_kb": 603.5,
-      "path": "assets/monsters/creature_200170/atlas.json"
+      "path": "assets/monsters/creature_200170/atlas.json",
+      "thumb": "assets/monsters/creature_200170/thumb.webp"
     },
     {
       "id": "creature_200171",
@@ -16094,7 +16609,8 @@
       "height": 238,
       "total_frames": 704,
       "atlas_size_kb": 583.1,
-      "path": "assets/monsters/creature_200171/atlas.json"
+      "path": "assets/monsters/creature_200171/atlas.json",
+      "thumb": "assets/monsters/creature_200171/thumb.webp"
     },
     {
       "id": "creature_200172",
@@ -16125,7 +16641,8 @@
       "height": 210,
       "total_frames": 779,
       "atlas_size_kb": 223.3,
-      "path": "assets/monsters/creature_200172/atlas.json"
+      "path": "assets/monsters/creature_200172/atlas.json",
+      "thumb": "assets/monsters/creature_200172/thumb.webp"
     },
     {
       "id": "creature_200173",
@@ -16156,7 +16673,8 @@
       "height": 142,
       "total_frames": 779,
       "atlas_size_kb": 290.4,
-      "path": "assets/monsters/creature_200173/atlas.json"
+      "path": "assets/monsters/creature_200173/atlas.json",
+      "thumb": "assets/monsters/creature_200173/thumb.webp"
     },
     {
       "id": "creature_200174",
@@ -16187,7 +16705,8 @@
       "height": 243,
       "total_frames": 779,
       "atlas_size_kb": 499.6,
-      "path": "assets/monsters/creature_200174/atlas.json"
+      "path": "assets/monsters/creature_200174/atlas.json",
+      "thumb": "assets/monsters/creature_200174/thumb.webp"
     },
     {
       "id": "creature_200175",
@@ -16218,7 +16737,8 @@
       "height": 596,
       "total_frames": 779,
       "atlas_size_kb": 2731.3,
-      "path": "assets/monsters/creature_200175/atlas.json"
+      "path": "assets/monsters/creature_200175/atlas.json",
+      "thumb": "assets/monsters/creature_200175/thumb.webp"
     },
     {
       "id": "creature_200176",
@@ -16249,7 +16769,8 @@
       "height": 336,
       "total_frames": 779,
       "atlas_size_kb": 1149.4,
-      "path": "assets/monsters/creature_200176/atlas.json"
+      "path": "assets/monsters/creature_200176/atlas.json",
+      "thumb": "assets/monsters/creature_200176/thumb.webp"
     },
     {
       "id": "creature_200177",
@@ -16280,7 +16801,8 @@
       "height": 100,
       "total_frames": 779,
       "atlas_size_kb": 426.0,
-      "path": "assets/monsters/creature_200177/atlas.json"
+      "path": "assets/monsters/creature_200177/atlas.json",
+      "thumb": "assets/monsters/creature_200177/thumb.webp"
     },
     {
       "id": "creature_200178",
@@ -16311,7 +16833,8 @@
       "height": 100,
       "total_frames": 779,
       "atlas_size_kb": 407.6,
-      "path": "assets/monsters/creature_200178/atlas.json"
+      "path": "assets/monsters/creature_200178/atlas.json",
+      "thumb": "assets/monsters/creature_200178/thumb.webp"
     },
     {
       "id": "creature_200179",
@@ -16342,7 +16865,8 @@
       "height": 144,
       "total_frames": 779,
       "atlas_size_kb": 525.0,
-      "path": "assets/monsters/creature_200179/atlas.json"
+      "path": "assets/monsters/creature_200179/atlas.json",
+      "thumb": "assets/monsters/creature_200179/thumb.webp"
     },
     {
       "id": "creature_200180",
@@ -16373,7 +16897,8 @@
       "height": 136,
       "total_frames": 779,
       "atlas_size_kb": 465.8,
-      "path": "assets/monsters/creature_200180/atlas.json"
+      "path": "assets/monsters/creature_200180/atlas.json",
+      "thumb": "assets/monsters/creature_200180/thumb.webp"
     },
     {
       "id": "creature_200181",
@@ -16404,7 +16929,8 @@
       "height": 107,
       "total_frames": 704,
       "atlas_size_kb": 370.8,
-      "path": "assets/monsters/creature_200181/atlas.json"
+      "path": "assets/monsters/creature_200181/atlas.json",
+      "thumb": "assets/monsters/creature_200181/thumb.webp"
     },
     {
       "id": "creature_200182",
@@ -16435,7 +16961,8 @@
       "height": 118,
       "total_frames": 704,
       "atlas_size_kb": 480.1,
-      "path": "assets/monsters/creature_200182/atlas.json"
+      "path": "assets/monsters/creature_200182/atlas.json",
+      "thumb": "assets/monsters/creature_200182/thumb.webp"
     },
     {
       "id": "creature_200183",
@@ -16466,7 +16993,8 @@
       "height": 191,
       "total_frames": 704,
       "atlas_size_kb": 1092.5,
-      "path": "assets/monsters/creature_200183/atlas.json"
+      "path": "assets/monsters/creature_200183/atlas.json",
+      "thumb": "assets/monsters/creature_200183/thumb.webp"
     },
     {
       "id": "creature_200184",
@@ -16497,7 +17025,8 @@
       "height": 132,
       "total_frames": 704,
       "atlas_size_kb": 541.9,
-      "path": "assets/monsters/creature_200184/atlas.json"
+      "path": "assets/monsters/creature_200184/atlas.json",
+      "thumb": "assets/monsters/creature_200184/thumb.webp"
     },
     {
       "id": "creature_200185",
@@ -16528,7 +17057,8 @@
       "height": 152,
       "total_frames": 704,
       "atlas_size_kb": 798.0,
-      "path": "assets/monsters/creature_200185/atlas.json"
+      "path": "assets/monsters/creature_200185/atlas.json",
+      "thumb": "assets/monsters/creature_200185/thumb.webp"
     },
     {
       "id": "creature_200186",
@@ -16559,7 +17089,8 @@
       "height": 101,
       "total_frames": 779,
       "atlas_size_kb": 422.4,
-      "path": "assets/monsters/creature_200186/atlas.json"
+      "path": "assets/monsters/creature_200186/atlas.json",
+      "thumb": "assets/monsters/creature_200186/thumb.webp"
     },
     {
       "id": "creature_200187",
@@ -16590,7 +17121,8 @@
       "height": 116,
       "total_frames": 779,
       "atlas_size_kb": 398.7,
-      "path": "assets/monsters/creature_200187/atlas.json"
+      "path": "assets/monsters/creature_200187/atlas.json",
+      "thumb": "assets/monsters/creature_200187/thumb.webp"
     },
     {
       "id": "creature_200188",
@@ -16621,7 +17153,8 @@
       "height": 127,
       "total_frames": 779,
       "atlas_size_kb": 482.8,
-      "path": "assets/monsters/creature_200188/atlas.json"
+      "path": "assets/monsters/creature_200188/atlas.json",
+      "thumb": "assets/monsters/creature_200188/thumb.webp"
     },
     {
       "id": "creature_200189",
@@ -16652,7 +17185,8 @@
       "height": 194,
       "total_frames": 779,
       "atlas_size_kb": 1145.3,
-      "path": "assets/monsters/creature_200189/atlas.json"
+      "path": "assets/monsters/creature_200189/atlas.json",
+      "thumb": "assets/monsters/creature_200189/thumb.webp"
     },
     {
       "id": "creature_200190",
@@ -16683,7 +17217,8 @@
       "height": 179,
       "total_frames": 779,
       "atlas_size_kb": 898.7,
-      "path": "assets/monsters/creature_200190/atlas.json"
+      "path": "assets/monsters/creature_200190/atlas.json",
+      "thumb": "assets/monsters/creature_200190/thumb.webp"
     },
     {
       "id": "creature_200200",
@@ -16714,7 +17249,8 @@
       "height": 186,
       "total_frames": 779,
       "atlas_size_kb": 385.3,
-      "path": "assets/monsters/creature_200200/atlas.json"
+      "path": "assets/monsters/creature_200200/atlas.json",
+      "thumb": "assets/monsters/creature_200200/thumb.webp"
     },
     {
       "id": "creature_200208",
@@ -16745,7 +17281,8 @@
       "height": 122,
       "total_frames": 779,
       "atlas_size_kb": 404.3,
-      "path": "assets/monsters/creature_200208/atlas.json"
+      "path": "assets/monsters/creature_200208/atlas.json",
+      "thumb": "assets/monsters/creature_200208/thumb.webp"
     },
     {
       "id": "creature_200220",
@@ -16776,7 +17313,8 @@
       "height": 124,
       "total_frames": 779,
       "atlas_size_kb": 412.4,
-      "path": "assets/monsters/creature_200220/atlas.json"
+      "path": "assets/monsters/creature_200220/atlas.json",
+      "thumb": "assets/monsters/creature_200220/thumb.webp"
     },
     {
       "id": "creature_200223",
@@ -16807,7 +17345,8 @@
       "height": 134,
       "total_frames": 779,
       "atlas_size_kb": 396.7,
-      "path": "assets/monsters/creature_200223/atlas.json"
+      "path": "assets/monsters/creature_200223/atlas.json",
+      "thumb": "assets/monsters/creature_200223/thumb.webp"
     },
     {
       "id": "creature_200237",
@@ -16838,7 +17377,8 @@
       "height": 192,
       "total_frames": 779,
       "atlas_size_kb": 1219.3,
-      "path": "assets/monsters/creature_200237/atlas.json"
+      "path": "assets/monsters/creature_200237/atlas.json",
+      "thumb": "assets/monsters/creature_200237/thumb.webp"
     },
     {
       "id": "creature_200238",
@@ -16869,7 +17409,8 @@
       "height": 225,
       "total_frames": 779,
       "atlas_size_kb": 905.1,
-      "path": "assets/monsters/creature_200238/atlas.json"
+      "path": "assets/monsters/creature_200238/atlas.json",
+      "thumb": "assets/monsters/creature_200238/thumb.webp"
     },
     {
       "id": "creature_200263",
@@ -16900,7 +17441,8 @@
       "height": 142,
       "total_frames": 779,
       "atlas_size_kb": 432.0,
-      "path": "assets/monsters/creature_200263/atlas.json"
+      "path": "assets/monsters/creature_200263/atlas.json",
+      "thumb": "assets/monsters/creature_200263/thumb.webp"
     },
     {
       "id": "creature_200264",
@@ -16931,7 +17473,8 @@
       "height": 118,
       "total_frames": 779,
       "atlas_size_kb": 413.4,
-      "path": "assets/monsters/creature_200264/atlas.json"
+      "path": "assets/monsters/creature_200264/atlas.json",
+      "thumb": "assets/monsters/creature_200264/thumb.webp"
     }
   ]
 }

@@ -32,7 +32,8 @@
       "height": 111,
       "total_frames": 704,
       "atlas_size_kb": 189.2,
-      "path": "assets/characters/PC_FEMALE_000001/atlas.json"
+      "path": "assets/characters/PC_FEMALE_000001/atlas.json",
+      "thumb": "assets/characters/PC_FEMALE_000001/thumb.webp"
     },
     {
       "id": "PC_FEMALE_000002",
@@ -64,7 +65,8 @@
       "height": 111,
       "total_frames": 704,
       "atlas_size_kb": 200.1,
-      "path": "assets/characters/PC_FEMALE_000002/atlas.json"
+      "path": "assets/characters/PC_FEMALE_000002/atlas.json",
+      "thumb": "assets/characters/PC_FEMALE_000002/thumb.webp"
     },
     {
       "id": "PC_FEMALE_000003",
@@ -96,7 +98,8 @@
       "height": 120,
       "total_frames": 704,
       "atlas_size_kb": 188.3,
-      "path": "assets/characters/PC_FEMALE_000003/atlas.json"
+      "path": "assets/characters/PC_FEMALE_000003/atlas.json",
+      "thumb": "assets/characters/PC_FEMALE_000003/thumb.webp"
     },
     {
       "id": "PC_FEMALE_000004",
@@ -128,7 +131,8 @@
       "height": 135,
       "total_frames": 704,
       "atlas_size_kb": 200.5,
-      "path": "assets/characters/PC_FEMALE_000004/atlas.json"
+      "path": "assets/characters/PC_FEMALE_000004/atlas.json",
+      "thumb": "assets/characters/PC_FEMALE_000004/thumb.webp"
     },
     {
       "id": "PC_FEMALE_000005",
@@ -160,7 +164,8 @@
       "height": 126,
       "total_frames": 704,
       "atlas_size_kb": 179.2,
-      "path": "assets/characters/PC_FEMALE_000005/atlas.json"
+      "path": "assets/characters/PC_FEMALE_000005/atlas.json",
+      "thumb": "assets/characters/PC_FEMALE_000005/thumb.webp"
     },
     {
       "id": "PC_FEMALE_000006",
@@ -192,7 +197,8 @@
       "height": 111,
       "total_frames": 704,
       "atlas_size_kb": 167.9,
-      "path": "assets/characters/PC_FEMALE_000006/atlas.json"
+      "path": "assets/characters/PC_FEMALE_000006/atlas.json",
+      "thumb": "assets/characters/PC_FEMALE_000006/thumb.webp"
     },
     {
       "id": "PC_FEMALE_000011",
@@ -227,7 +233,8 @@
       "height": 136,
       "total_frames": 1304,
       "atlas_size_kb": 449.3,
-      "path": "assets/characters/PC_FEMALE_000011/atlas.json"
+      "path": "assets/characters/PC_FEMALE_000011/atlas.json",
+      "thumb": "assets/characters/PC_FEMALE_000011/thumb.webp"
     },
     {
       "id": "PC_FEMALE_000012",
@@ -262,7 +269,8 @@
       "height": 141,
       "total_frames": 1304,
       "atlas_size_kb": 548.2,
-      "path": "assets/characters/PC_FEMALE_000012/atlas.json"
+      "path": "assets/characters/PC_FEMALE_000012/atlas.json",
+      "thumb": "assets/characters/PC_FEMALE_000012/thumb.webp"
     },
     {
       "id": "PC_FEMALE_000013",
@@ -297,7 +305,8 @@
       "height": 142,
       "total_frames": 1304,
       "atlas_size_kb": 532.2,
-      "path": "assets/characters/PC_FEMALE_000013/atlas.json"
+      "path": "assets/characters/PC_FEMALE_000013/atlas.json",
+      "thumb": "assets/characters/PC_FEMALE_000013/thumb.webp"
     },
     {
       "id": "PC_FEMALE_000014",
@@ -332,7 +341,8 @@
       "height": 138,
       "total_frames": 1304,
       "atlas_size_kb": 510.1,
-      "path": "assets/characters/PC_FEMALE_000014/atlas.json"
+      "path": "assets/characters/PC_FEMALE_000014/atlas.json",
+      "thumb": "assets/characters/PC_FEMALE_000014/thumb.webp"
     },
     {
       "id": "PC_FEMALE_000015",
@@ -367,7 +377,8 @@
       "height": 138,
       "total_frames": 1304,
       "atlas_size_kb": 449.6,
-      "path": "assets/characters/PC_FEMALE_000015/atlas.json"
+      "path": "assets/characters/PC_FEMALE_000015/atlas.json",
+      "thumb": "assets/characters/PC_FEMALE_000015/thumb.webp"
     },
     {
       "id": "PC_FEMALE_000016",
@@ -402,7 +413,8 @@
       "height": 137,
       "total_frames": 1304,
       "atlas_size_kb": 406.5,
-      "path": "assets/characters/PC_FEMALE_000016/atlas.json"
+      "path": "assets/characters/PC_FEMALE_000016/atlas.json",
+      "thumb": "assets/characters/PC_FEMALE_000016/thumb.webp"
     },
     {
       "id": "PC_FEMALE_010005",
@@ -437,7 +449,8 @@
       "height": 170,
       "total_frames": 1304,
       "atlas_size_kb": 515.9,
-      "path": "assets/characters/PC_FEMALE_010005/atlas.json"
+      "path": "assets/characters/PC_FEMALE_010005/atlas.json",
+      "thumb": "assets/characters/PC_FEMALE_010005/thumb.webp"
     },
     {
       "id": "PC_FEMALE_010010",
@@ -472,7 +485,8 @@
       "height": 316,
       "total_frames": 1304,
       "atlas_size_kb": 1308.7,
-      "path": "assets/characters/PC_FEMALE_010010/atlas.json"
+      "path": "assets/characters/PC_FEMALE_010010/atlas.json",
+      "thumb": "assets/characters/PC_FEMALE_010010/thumb.webp"
     },
     {
       "id": "PC_FEMALE_010011",
@@ -507,7 +521,8 @@
       "height": 315,
       "total_frames": 1304,
       "atlas_size_kb": 1339.4,
-      "path": "assets/characters/PC_FEMALE_010011/atlas.json"
+      "path": "assets/characters/PC_FEMALE_010011/atlas.json",
+      "thumb": "assets/characters/PC_FEMALE_010011/thumb.webp"
     },
     {
       "id": "PC_FEMALE_010012",
@@ -542,7 +557,8 @@
       "height": 234,
       "total_frames": 1304,
       "atlas_size_kb": 574.3,
-      "path": "assets/characters/PC_FEMALE_010012/atlas.json"
+      "path": "assets/characters/PC_FEMALE_010012/atlas.json",
+      "thumb": "assets/characters/PC_FEMALE_010012/thumb.webp"
     },
     {
       "id": "PC_FEMALE_010016",
@@ -577,7 +593,8 @@
       "height": 267,
       "total_frames": 1304,
       "atlas_size_kb": 2217.3,
-      "path": "assets/characters/PC_FEMALE_010016/atlas.json"
+      "path": "assets/characters/PC_FEMALE_010016/atlas.json",
+      "thumb": "assets/characters/PC_FEMALE_010016/thumb.webp"
     },
     {
       "id": "PC_FEMALE_010017",
@@ -612,7 +629,8 @@
       "height": 267,
       "total_frames": 1304,
       "atlas_size_kb": 964.7,
-      "path": "assets/characters/PC_FEMALE_010017/atlas.json"
+      "path": "assets/characters/PC_FEMALE_010017/atlas.json",
+      "thumb": "assets/characters/PC_FEMALE_010017/thumb.webp"
     },
     {
       "id": "PC_FEMALE_010018",
@@ -647,7 +665,8 @@
       "height": 297,
       "total_frames": 1304,
       "atlas_size_kb": 2921.7,
-      "path": "assets/characters/PC_FEMALE_010018/atlas.json"
+      "path": "assets/characters/PC_FEMALE_010018/atlas.json",
+      "thumb": "assets/characters/PC_FEMALE_010018/thumb.webp"
     },
     {
       "id": "PC_FEMALE_010019",
@@ -682,7 +701,8 @@
       "height": 303,
       "total_frames": 1304,
       "atlas_size_kb": 1447.1,
-      "path": "assets/characters/PC_FEMALE_010019/atlas.json"
+      "path": "assets/characters/PC_FEMALE_010019/atlas.json",
+      "thumb": "assets/characters/PC_FEMALE_010019/thumb.webp"
     },
     {
       "id": "PC_FEMALE_010020",
@@ -717,7 +737,8 @@
       "height": 358,
       "total_frames": 1304,
       "atlas_size_kb": 2264.8,
-      "path": "assets/characters/PC_FEMALE_010020/atlas.json"
+      "path": "assets/characters/PC_FEMALE_010020/atlas.json",
+      "thumb": "assets/characters/PC_FEMALE_010020/thumb.webp"
     },
     {
       "id": "PC_FEMALE_100001",
@@ -749,7 +770,8 @@
       "height": 111,
       "total_frames": 704,
       "atlas_size_kb": 81.3,
-      "path": "assets/characters/PC_FEMALE_100001/atlas.json"
+      "path": "assets/characters/PC_FEMALE_100001/atlas.json",
+      "thumb": "assets/characters/PC_FEMALE_100001/thumb.webp"
     },
     {
       "id": "PC_FEMALE_100002",
@@ -780,7 +802,8 @@
       "height": 110,
       "total_frames": 616,
       "atlas_size_kb": 91.9,
-      "path": "assets/characters/PC_FEMALE_100002/atlas.json"
+      "path": "assets/characters/PC_FEMALE_100002/atlas.json",
+      "thumb": "assets/characters/PC_FEMALE_100002/thumb.webp"
     },
     {
       "id": "PC_FEMALE_100003",
@@ -812,7 +835,8 @@
       "height": 117,
       "total_frames": 704,
       "atlas_size_kb": 84.6,
-      "path": "assets/characters/PC_FEMALE_100003/atlas.json"
+      "path": "assets/characters/PC_FEMALE_100003/atlas.json",
+      "thumb": "assets/characters/PC_FEMALE_100003/thumb.webp"
     },
     {
       "id": "PC_FEMALE_100004",
@@ -843,7 +867,8 @@
       "height": 134,
       "total_frames": 616,
       "atlas_size_kb": 89.5,
-      "path": "assets/characters/PC_FEMALE_100004/atlas.json"
+      "path": "assets/characters/PC_FEMALE_100004/atlas.json",
+      "thumb": "assets/characters/PC_FEMALE_100004/thumb.webp"
     },
     {
       "id": "PC_FEMALE_100005",
@@ -875,7 +900,8 @@
       "height": 125,
       "total_frames": 704,
       "atlas_size_kb": 78.8,
-      "path": "assets/characters/PC_FEMALE_100005/atlas.json"
+      "path": "assets/characters/PC_FEMALE_100005/atlas.json",
+      "thumb": "assets/characters/PC_FEMALE_100005/thumb.webp"
     },
     {
       "id": "PC_FEMALE_100006",
@@ -907,7 +933,8 @@
       "height": 111,
       "total_frames": 695,
       "atlas_size_kb": 72.7,
-      "path": "assets/characters/PC_FEMALE_100006/atlas.json"
+      "path": "assets/characters/PC_FEMALE_100006/atlas.json",
+      "thumb": "assets/characters/PC_FEMALE_100006/thumb.webp"
     },
     {
       "id": "PC_MALE_000001",
@@ -939,7 +966,8 @@
       "height": 127,
       "total_frames": 704,
       "atlas_size_kb": 202.9,
-      "path": "assets/characters/PC_MALE_000001/atlas.json"
+      "path": "assets/characters/PC_MALE_000001/atlas.json",
+      "thumb": "assets/characters/PC_MALE_000001/thumb.webp"
     },
     {
       "id": "PC_MALE_000002",
@@ -971,7 +999,8 @@
       "height": 119,
       "total_frames": 704,
       "atlas_size_kb": 187.3,
-      "path": "assets/characters/PC_MALE_000002/atlas.json"
+      "path": "assets/characters/PC_MALE_000002/atlas.json",
+      "thumb": "assets/characters/PC_MALE_000002/thumb.webp"
     },
     {
       "id": "PC_MALE_000003",
@@ -1003,7 +1032,8 @@
       "height": 124,
       "total_frames": 704,
       "atlas_size_kb": 210.9,
-      "path": "assets/characters/PC_MALE_000003/atlas.json"
+      "path": "assets/characters/PC_MALE_000003/atlas.json",
+      "thumb": "assets/characters/PC_MALE_000003/thumb.webp"
     },
     {
       "id": "PC_MALE_000004",
@@ -1035,7 +1065,8 @@
       "height": 112,
       "total_frames": 704,
       "atlas_size_kb": 198.8,
-      "path": "assets/characters/PC_MALE_000004/atlas.json"
+      "path": "assets/characters/PC_MALE_000004/atlas.json",
+      "thumb": "assets/characters/PC_MALE_000004/thumb.webp"
     },
     {
       "id": "PC_MALE_000005",
@@ -1067,7 +1098,8 @@
       "height": 107,
       "total_frames": 704,
       "atlas_size_kb": 195.2,
-      "path": "assets/characters/PC_MALE_000005/atlas.json"
+      "path": "assets/characters/PC_MALE_000005/atlas.json",
+      "thumb": "assets/characters/PC_MALE_000005/thumb.webp"
     },
     {
       "id": "PC_MALE_000006",
@@ -1099,7 +1131,8 @@
       "height": 120,
       "total_frames": 704,
       "atlas_size_kb": 209.9,
-      "path": "assets/characters/PC_MALE_000006/atlas.json"
+      "path": "assets/characters/PC_MALE_000006/atlas.json",
+      "thumb": "assets/characters/PC_MALE_000006/thumb.webp"
     },
     {
       "id": "PC_MALE_000011",
@@ -1134,7 +1167,8 @@
       "height": 149,
       "total_frames": 1304,
       "atlas_size_kb": 504.7,
-      "path": "assets/characters/PC_MALE_000011/atlas.json"
+      "path": "assets/characters/PC_MALE_000011/atlas.json",
+      "thumb": "assets/characters/PC_MALE_000011/thumb.webp"
     },
     {
       "id": "PC_MALE_000012",
@@ -1169,7 +1203,8 @@
       "height": 139,
       "total_frames": 1304,
       "atlas_size_kb": 489.9,
-      "path": "assets/characters/PC_MALE_000012/atlas.json"
+      "path": "assets/characters/PC_MALE_000012/atlas.json",
+      "thumb": "assets/characters/PC_MALE_000012/thumb.webp"
     },
     {
       "id": "PC_MALE_000013",
@@ -1204,7 +1239,8 @@
       "height": 151,
       "total_frames": 1304,
       "atlas_size_kb": 484.1,
-      "path": "assets/characters/PC_MALE_000013/atlas.json"
+      "path": "assets/characters/PC_MALE_000013/atlas.json",
+      "thumb": "assets/characters/PC_MALE_000013/thumb.webp"
     },
     {
       "id": "PC_MALE_000014",
@@ -1239,7 +1275,8 @@
       "height": 127,
       "total_frames": 1304,
       "atlas_size_kb": 466.5,
-      "path": "assets/characters/PC_MALE_000014/atlas.json"
+      "path": "assets/characters/PC_MALE_000014/atlas.json",
+      "thumb": "assets/characters/PC_MALE_000014/thumb.webp"
     },
     {
       "id": "PC_MALE_000015",
@@ -1274,7 +1311,8 @@
       "height": 123,
       "total_frames": 1304,
       "atlas_size_kb": 457.6,
-      "path": "assets/characters/PC_MALE_000015/atlas.json"
+      "path": "assets/characters/PC_MALE_000015/atlas.json",
+      "thumb": "assets/characters/PC_MALE_000015/thumb.webp"
     },
     {
       "id": "PC_MALE_000016",
@@ -1309,7 +1347,8 @@
       "height": 145,
       "total_frames": 1298,
       "atlas_size_kb": 599.0,
-      "path": "assets/characters/PC_MALE_000016/atlas.json"
+      "path": "assets/characters/PC_MALE_000016/atlas.json",
+      "thumb": "assets/characters/PC_MALE_000016/thumb.webp"
     },
     {
       "id": "PC_MALE_100000",
@@ -1341,7 +1380,8 @@
       "height": 120,
       "total_frames": 704,
       "atlas_size_kb": 71.1,
-      "path": "assets/characters/PC_MALE_100000/atlas.json"
+      "path": "assets/characters/PC_MALE_100000/atlas.json",
+      "thumb": "assets/characters/PC_MALE_100000/thumb.webp"
     },
     {
       "id": "PC_MALE_100001",
@@ -1373,7 +1413,8 @@
       "height": 127,
       "total_frames": 704,
       "atlas_size_kb": 91.3,
-      "path": "assets/characters/PC_MALE_100001/atlas.json"
+      "path": "assets/characters/PC_MALE_100001/atlas.json",
+      "thumb": "assets/characters/PC_MALE_100001/thumb.webp"
     },
     {
       "id": "PC_MALE_100002",
@@ -1405,7 +1446,8 @@
       "height": 119,
       "total_frames": 704,
       "atlas_size_kb": 84.2,
-      "path": "assets/characters/PC_MALE_100002/atlas.json"
+      "path": "assets/characters/PC_MALE_100002/atlas.json",
+      "thumb": "assets/characters/PC_MALE_100002/thumb.webp"
     },
     {
       "id": "PC_MALE_100003",
@@ -1437,7 +1479,8 @@
       "height": 123,
       "total_frames": 704,
       "atlas_size_kb": 94.1,
-      "path": "assets/characters/PC_MALE_100003/atlas.json"
+      "path": "assets/characters/PC_MALE_100003/atlas.json",
+      "thumb": "assets/characters/PC_MALE_100003/thumb.webp"
     },
     {
       "id": "PC_MALE_100004",
@@ -1469,7 +1512,8 @@
       "height": 110,
       "total_frames": 704,
       "atlas_size_kb": 88.6,
-      "path": "assets/characters/PC_MALE_100004/atlas.json"
+      "path": "assets/characters/PC_MALE_100004/atlas.json",
+      "thumb": "assets/characters/PC_MALE_100004/thumb.webp"
     },
     {
       "id": "PC_MALE_100005",
@@ -1501,7 +1545,8 @@
       "height": 106,
       "total_frames": 704,
       "atlas_size_kb": 84.5,
-      "path": "assets/characters/PC_MALE_100005/atlas.json"
+      "path": "assets/characters/PC_MALE_100005/atlas.json",
+      "thumb": "assets/characters/PC_MALE_100005/thumb.webp"
     },
     {
       "id": "PC_MALE_100006",
@@ -1533,7 +1578,8 @@
       "height": 120,
       "total_frames": 704,
       "atlas_size_kb": 93.4,
-      "path": "assets/characters/PC_MALE_100006/atlas.json"
+      "path": "assets/characters/PC_MALE_100006/atlas.json",
+      "thumb": "assets/characters/PC_MALE_100006/thumb.webp"
     }
   ]
 }
