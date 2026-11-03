@@ -1,0 +1,40 @@
+{
+  "id": 36,
+  "name": "Thần Di Cảnh",
+  "info": "Vùng đất bị lãng quên và trở thành nơi bắt nguồn của ác ma. Thích hợp cho cấp độ từ 111 - 115.",
+  "level": 100,
+  "width": 3000,
+  "height": 2000,
+  "col_width": 3077,
+  "col_height": 2077,
+  "has_collision": true,
+  "safe_x": 1000,
+  "safe_y": 160,
+  "continent": 1,
+  "world_x": 345,
+  "world_y": 460,
+  "bg_image": "assets/maps/map_36/bg.jpg",
+  "thumb": "assets/maps/map_36/thumb.webp",
+  "collision_bin": "assets/maps/map_36/collision.bin",
+  "portals": [
+    {
+      "id": 1839,
+      "target_name": "Mê Quang Tự",
+      "target_map_id": 29,
+      "x": 744,
+      "y": 5,
+      "dest_x": 1126,
+      "dest_y": 760
+    },
+    {
+      "id": 1840,
+      "target_name": "Thánh Ước Địa",
+      "target_map_id": 20,
+      "x": 2666,
+      "y": 1658,
+      "dest_x": 600,
+      "dest_y": 1200
+    }
+  ],
+  "creatures_count": 4
+}

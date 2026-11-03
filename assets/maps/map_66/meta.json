@@ -1,0 +1,21 @@
+{
+  "id": 66,
+  "name": "Khu Hoang Mạc",
+  "info": "Không ai muốn biết nơi thần bí này. Đây là nơi tận cùng của không gian và thời gian, là nơi an nghỉ của những thủ hộ Vô Ưu. Thích hợp cho cấp độ từ 120-125.",
+  "level": 30,
+  "width": 4070,
+  "height": 2624,
+  "col_width": 2261,
+  "col_height": 1712,
+  "has_collision": true,
+  "safe_x": 2057,
+  "safe_y": 1309,
+  "continent": 2,
+  "world_x": null,
+  "world_y": null,
+  "bg_image": "assets/maps/map_66/bg.jpg",
+  "thumb": "assets/maps/map_66/thumb.webp",
+  "collision_bin": "assets/maps/map_66/collision.bin",
+  "portals": [],
+  "creatures_count": 9
+}

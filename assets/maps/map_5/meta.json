@@ -1,0 +1,40 @@
+{
+  "id": 5,
+  "name": "Lê Dương Thôn",
+  "info": "Thôn nhỏ ven hồ Lê Dương có phong cảnh hữu tình mê hoặc người lữ khách. Thích hợp cho cấp độ từ 51 - 55.",
+  "level": 30,
+  "width": 2000,
+  "height": 1700,
+  "col_width": 2031,
+  "col_height": 1838,
+  "has_collision": true,
+  "safe_x": 885,
+  "safe_y": 753,
+  "continent": 1,
+  "world_x": 355,
+  "world_y": 268,
+  "bg_image": "assets/maps/map_5/bg.jpg",
+  "thumb": "assets/maps/map_5/thumb.webp",
+  "collision_bin": "assets/maps/map_5/collision.bin",
+  "portals": [
+    {
+      "id": 742,
+      "target_name": "Lê Dương Đảo",
+      "target_map_id": 17,
+      "x": 895,
+      "y": -27,
+      "dest_x": 2265,
+      "dest_y": 423
+    },
+    {
+      "id": 743,
+      "target_name": "Lê Dương Nam",
+      "target_map_id": 6,
+      "x": 1718,
+      "y": 1392,
+      "dest_x": 1800,
+      "dest_y": 800
+    }
+  ],
+  "creatures_count": 9
+}

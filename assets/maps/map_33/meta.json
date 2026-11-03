@@ -1,0 +1,49 @@
+{
+  "id": 33,
+  "name": "Lạp Tuyết Địa",
+  "info": "Vùng đất bên ngoài thành Tiên Lạp, băng tuyết phủ đầy trên mặt đất. Thích hợp cho cấp độ từ 21 - 25.",
+  "level": 10,
+  "width": 3000,
+  "height": 2000,
+  "col_width": 2952,
+  "col_height": 2183,
+  "has_collision": true,
+  "safe_x": 1300,
+  "safe_y": 900,
+  "continent": 1,
+  "world_x": 587,
+  "world_y": 325,
+  "bg_image": "assets/maps/map_33/bg.jpg",
+  "thumb": "assets/maps/map_33/thumb.webp",
+  "collision_bin": "assets/maps/map_33/collision.bin",
+  "portals": [
+    {
+      "id": 789,
+      "target_name": "Liêu Vân Tộc",
+      "target_map_id": 13,
+      "x": 110,
+      "y": 48,
+      "dest_x": 1000,
+      "dest_y": 1000
+    },
+    {
+      "id": 790,
+      "target_name": "Thiên Khung Tộc",
+      "target_map_id": 32,
+      "x": 2736,
+      "y": 117,
+      "dest_x": 500,
+      "dest_y": 900
+    },
+    {
+      "id": 791,
+      "target_name": "Tiên Lạp Thành",
+      "target_map_id": 31,
+      "x": 894,
+      "y": 1829,
+      "dest_x": 3000,
+      "dest_y": 1800
+    }
+  ],
+  "creatures_count": 9
+}

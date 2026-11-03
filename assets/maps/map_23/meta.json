@@ -1,0 +1,40 @@
+{
+  "id": 23,
+  "name": "Phục Ma Cốc",
+  "info": "Hang động tối tăm vô cùng đáng sợ. Yêu cầu cấp độ 96 - 100.",
+  "level": 90,
+  "width": 3000,
+  "height": 2000,
+  "col_width": 3012,
+  "col_height": 2085,
+  "has_collision": true,
+  "safe_x": 1440,
+  "safe_y": 970,
+  "continent": 1,
+  "world_x": 358,
+  "world_y": 408,
+  "bg_image": "assets/maps/map_23/bg.jpg",
+  "thumb": "assets/maps/map_23/thumb.webp",
+  "collision_bin": "assets/maps/map_23/collision.bin",
+  "portals": [
+    {
+      "id": 1739,
+      "target_name": "Linh Lan",
+      "target_map_id": 19,
+      "x": 2804,
+      "y": 95,
+      "dest_x": 900,
+      "dest_y": 300
+    },
+    {
+      "id": 1740,
+      "target_name": "Mê Quang Tự",
+      "target_map_id": 29,
+      "x": 83,
+      "y": 1803,
+      "dest_x": 1126,
+      "dest_y": 760
+    }
+  ],
+  "creatures_count": 0
+}

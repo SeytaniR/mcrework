@@ -1,0 +1,40 @@
+{
+  "id": 24,
+  "name": "Hộ Chi Địa",
+  "info": "Việc bảo hộ là mãi mãi, nhưng anh hùng lại không thể bất tử. Thích hợp cho cấp độ từ 101 - 110.",
+  "level": 95,
+  "width": 3000,
+  "height": 2000,
+  "col_width": 3045,
+  "col_height": 2055,
+  "has_collision": true,
+  "safe_x": 1309,
+  "safe_y": 1039,
+  "continent": 1,
+  "world_x": 454,
+  "world_y": 86,
+  "bg_image": "assets/maps/map_24/bg.jpg",
+  "thumb": "assets/maps/map_24/thumb.webp",
+  "collision_bin": "assets/maps/map_24/collision.bin",
+  "portals": [
+    {
+      "id": 1756,
+      "target_name": "Vân Lộc Sơn",
+      "target_map_id": 28,
+      "x": 2733,
+      "y": 50,
+      "dest_x": 900,
+      "dest_y": 1282
+    },
+    {
+      "id": 1764,
+      "target_name": "Cổ Thành",
+      "target_map_id": 37,
+      "x": 17,
+      "y": 929,
+      "dest_x": 1440,
+      "dest_y": 1080
+    }
+  ],
+  "creatures_count": 0
+}

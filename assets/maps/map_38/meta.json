@@ -1,0 +1,40 @@
+{
+  "id": 38,
+  "name": "Bàng Bối Thành",
+  "info": "Thành cổ sừng sững tại tây nam đại lục, được ca tụng là thành trì của anh hùng.",
+  "level": 10,
+  "width": 3000,
+  "height": 2000,
+  "col_width": 2952,
+  "col_height": 2183,
+  "has_collision": true,
+  "safe_x": 1153,
+  "safe_y": 1163,
+  "continent": 1,
+  "world_x": 266,
+  "world_y": 429,
+  "bg_image": "assets/maps/map_38/bg.jpg",
+  "thumb": "assets/maps/map_38/thumb.webp",
+  "collision_bin": "assets/maps/map_38/collision.bin",
+  "portals": [
+    {
+      "id": 773,
+      "target_name": "Thiên Lục Châu",
+      "target_map_id": 40,
+      "x": 2120,
+      "y": 149,
+      "dest_x": 1500,
+      "dest_y": 1200
+    },
+    {
+      "id": 775,
+      "target_name": "Kỵ Bình Nguyên",
+      "target_map_id": 41,
+      "x": 2641,
+      "y": 1797,
+      "dest_x": 1100,
+      "dest_y": 680
+    }
+  ],
+  "creatures_count": 0
+}
