@@ -2,7 +2,7 @@
   "name": "Arquimago Supremo Tier 2 (M)",
   "anchor": [
     0.5,
-    1.0
+    0.8705
   ],
   "width": 138,
   "height": 139,
@@ -47,5 +47,6 @@
   "gender": "MALE",
   "tier": 2,
   "res_code_num": 12,
-  "swf_hash": "f89e5f217bdea0169cc64bea0c875430"
+  "swf_hash": "f89e5f217bdea0169cc64bea0c875430",
+  "feet_y": 121
 }

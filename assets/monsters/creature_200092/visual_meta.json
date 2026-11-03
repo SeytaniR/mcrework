@@ -2,7 +2,7 @@
   "name": "Hộ Vệ Xạ Thủ 【Nam Lv50】",
   "anchor": [
     0.5,
-    1.0
+    0.9859
   ],
   "width": 126,
   "height": 142,
@@ -43,5 +43,6 @@
   "id": "creature_200092",
   "db_id": "1711",
   "res_code_num": 200092,
-  "swf_hash": "5a623fe4c882944ecd3592477b64d176"
+  "swf_hash": "5a623fe4c882944ecd3592477b64d176",
+  "feet_y": 140
 }

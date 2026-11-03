@@ -47,5 +47,6 @@
   "gender": "FEMALE",
   "tier": "costume",
   "res_code_num": 10011,
-  "swf_hash": "badde750e65299deb60de7768e240750"
+  "swf_hash": "badde750e65299deb60de7768e240750",
+  "feet_y": 315
 }

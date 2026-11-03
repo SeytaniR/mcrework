@@ -2,7 +2,7 @@
   "name": "Kim Tước",
   "anchor": [
     0.5,
-    1.0
+    0.9277
   ],
   "width": 181,
   "height": 166,
@@ -43,5 +43,6 @@
   "id": "creature_100053",
   "db_id": "2279",
   "res_code_num": 100053,
-  "swf_hash": "37c337fdd04cfa749e751fb0567c9441"
+  "swf_hash": "37c337fdd04cfa749e751fb0567c9441",
+  "feet_y": 154
 }

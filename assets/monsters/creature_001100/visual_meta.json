@@ -2,7 +2,7 @@
   "name": "Thần Quan Mất Trí",
   "anchor": [
     0.5,
-    1.0
+    0.9184
   ],
   "width": 185,
   "height": 147,
@@ -43,5 +43,6 @@
   "id": "creature_001100",
   "db_id": "614",
   "res_code_num": 1100,
-  "swf_hash": "bb47b423059189f8dc71c48de728d7b9"
+  "swf_hash": "bb47b423059189f8dc71c48de728d7b9",
+  "feet_y": 135
 }

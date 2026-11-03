@@ -2,7 +2,7 @@
   "name": "Chuồn Chuồn Gió",
   "anchor": [
     0.5,
-    1.0
+    0.9914
   ],
   "width": 128,
   "height": 116,
@@ -43,5 +43,6 @@
   "id": "creature_001174",
   "db_id": "1335",
   "res_code_num": 1174,
-  "swf_hash": "cfa88d8acf75dacd1a58dcacb519d99a"
+  "swf_hash": "cfa88d8acf75dacd1a58dcacb519d99a",
+  "feet_y": 115
 }

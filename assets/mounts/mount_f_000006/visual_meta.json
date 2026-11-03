@@ -2,7 +2,7 @@
   "name": "Kỳ Lân Hoàng Gia (Qilin Real)",
   "anchor": [
     0.5,
-    1.0
+    0.8468
   ],
   "width": 117,
   "height": 111,
@@ -43,5 +43,6 @@
   "id": "mount_f_000006",
   "rel": "creature/PC_FEMALE_100006.swf",
   "type": "female_mount",
-  "mount_tier": 6
+  "mount_tier": 6,
+  "feet_y": 94
 }

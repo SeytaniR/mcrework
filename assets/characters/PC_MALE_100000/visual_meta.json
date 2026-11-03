@@ -2,7 +2,7 @@
   "name": "Pose de Montaria Cavalo (M)",
   "anchor": [
     0.5,
-    1.0
+    0.9083
   ],
   "width": 145,
   "height": 120,
@@ -44,5 +44,6 @@
   "gender": "MALE",
   "tier": "mount",
   "res_code_num": 100000,
-  "swf_hash": "f3db99a70be26358d9e1b58837413cad"
+  "swf_hash": "f3db99a70be26358d9e1b58837413cad",
+  "feet_y": 109
 }

@@ -2,7 +2,7 @@
   "name": "Miêu Vương",
   "anchor": [
     0.5,
-    1.0
+    0.8214
   ],
   "width": 89,
   "height": 84,
@@ -43,5 +43,6 @@
   "id": "creature_000020",
   "db_id": "358",
   "res_code_num": 20,
-  "swf_hash": "98ee7568d7dce76f7ce4fa5e6eaa83e0"
+  "swf_hash": "98ee7568d7dce76f7ce4fa5e6eaa83e0",
+  "feet_y": 69
 }

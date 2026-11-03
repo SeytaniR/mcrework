@@ -2,7 +2,7 @@
   "name": "Thống Lĩnh Ma Điện【Quái Chính 4 Chu Ma Điện】",
   "anchor": [
     0.5,
-    1.0
+    0.93
   ],
   "width": 198,
   "height": 200,
@@ -43,5 +43,6 @@
   "id": "creature_001167",
   "db_id": "1244",
   "res_code_num": 1167,
-  "swf_hash": "3fb6189b5be7d8661a6a4316313001f3"
+  "swf_hash": "3fb6189b5be7d8661a6a4316313001f3",
+  "feet_y": 186
 }

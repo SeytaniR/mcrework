@@ -2,7 +2,7 @@
   "name": "Loni",
   "anchor": [
     0.5,
-    1.0
+    0.9804
   ],
   "width": 92,
   "height": 102,
@@ -43,5 +43,6 @@
   "id": "creature_100025",
   "db_id": "1151",
   "res_code_num": 100025,
-  "swf_hash": "c937b3dcf32e006d9ea8f73957e81add"
+  "swf_hash": "c937b3dcf32e006d9ea8f73957e81add",
+  "feet_y": 100
 }

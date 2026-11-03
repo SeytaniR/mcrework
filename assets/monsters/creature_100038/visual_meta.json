@@ -2,7 +2,7 @@
   "name": "Đọa Thiên Sứ",
   "anchor": [
     0.5,
-    1.0
+    0.9771
   ],
   "width": 296,
   "height": 262,
@@ -43,5 +43,6 @@
   "id": "creature_100038",
   "db_id": "2128",
   "res_code_num": 100038,
-  "swf_hash": "8371c34f891cf44841b8c7074dc1c2fc"
+  "swf_hash": "8371c34f891cf44841b8c7074dc1c2fc",
+  "feet_y": 256
 }

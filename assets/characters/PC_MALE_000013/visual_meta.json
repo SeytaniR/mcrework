@@ -2,7 +2,7 @@
   "name": "Franco-Atirador Tier 2 (M)",
   "anchor": [
     0.5,
-    1.0
+    0.8477
   ],
   "width": 152,
   "height": 151,
@@ -47,5 +47,6 @@
   "gender": "MALE",
   "tier": 2,
   "res_code_num": 13,
-  "swf_hash": "95352bd8006672b8fb4e291a4ea069a2"
+  "swf_hash": "95352bd8006672b8fb4e291a4ea069a2",
+  "feet_y": 128
 }

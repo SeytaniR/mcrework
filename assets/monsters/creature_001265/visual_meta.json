@@ -2,7 +2,7 @@
   "name": "Thiên Không Long",
   "anchor": [
     0.5,
-    1.0
+    0.9896
   ],
   "width": 302,
   "height": 288,
@@ -43,5 +43,6 @@
   "id": "creature_001265",
   "db_id": "2148",
   "res_code_num": 1265,
-  "swf_hash": "3c762206d017ca6b0ced39f734da73ab"
+  "swf_hash": "3c762206d017ca6b0ced39f734da73ab",
+  "feet_y": 285
 }

@@ -2,7 +2,7 @@
   "name": "Hộ Vệ Danh Y 【Nam Lv50】",
   "anchor": [
     0.5,
-    1.0
+    0.9315
   ],
   "width": 163,
   "height": 146,
@@ -43,5 +43,6 @@
   "id": "creature_200086",
   "db_id": "1710",
   "res_code_num": 200086,
-  "swf_hash": "2b0fd0320559de2cab75d6ac365e8abc"
+  "swf_hash": "2b0fd0320559de2cab75d6ac365e8abc",
+  "feet_y": 136
 }

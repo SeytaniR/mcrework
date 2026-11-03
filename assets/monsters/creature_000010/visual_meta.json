@@ -2,7 +2,7 @@
   "name": "Bạch Tuộc Máy",
   "anchor": [
     0.5,
-    1.0
+    0.9889
   ],
   "width": 96,
   "height": 90,
@@ -43,5 +43,6 @@
   "id": "creature_000010",
   "db_id": "340",
   "res_code_num": 10,
-  "swf_hash": "15cb5bf8673a720eea443191eb1c7150"
+  "swf_hash": "15cb5bf8673a720eea443191eb1c7150",
+  "feet_y": 89
 }

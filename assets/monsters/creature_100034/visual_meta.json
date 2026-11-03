@@ -2,7 +2,7 @@
   "name": "Hắc Nhân Mã 【Tiến Hóa】",
   "anchor": [
     0.5,
-    1.0
+    0.9758
   ],
   "width": 413,
   "height": 331,
@@ -43,5 +43,6 @@
   "id": "creature_100034",
   "db_id": "1677",
   "res_code_num": 100034,
-  "swf_hash": "fec3fb564622364c719ca07d6cd07bb1"
+  "swf_hash": "fec3fb564622364c719ca07d6cd07bb1",
+  "feet_y": 323
 }

@@ -2,7 +2,7 @@
   "name": "Khâu Lăng Sơn Quái Khổng Lồ",
   "anchor": [
     0.5,
-    1.0
+    0.9055
   ],
   "width": 217,
   "height": 201,
@@ -43,5 +43,6 @@
   "id": "creature_200012",
   "db_id": "250",
   "res_code_num": 200012,
-  "swf_hash": "daa0233ca252b668ff2bd958021d809e"
+  "swf_hash": "daa0233ca252b668ff2bd958021d809e",
+  "feet_y": 182
 }

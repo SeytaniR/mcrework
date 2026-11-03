@@ -2,7 +2,7 @@
   "name": "Thủ Lĩnh Bí Ngô",
   "anchor": [
     0.5,
-    1.0
+    0.9771
   ],
   "width": 189,
   "height": 218,
@@ -43,5 +43,6 @@
   "id": "creature_001126",
   "db_id": "887",
   "res_code_num": 1126,
-  "swf_hash": "2c8e1640c6beb0ee1dc516f80527f6a6"
+  "swf_hash": "2c8e1640c6beb0ee1dc516f80527f6a6",
+  "feet_y": 213
 }

@@ -2,7 +2,7 @@
   "name": "Lorde Místico Tier 2 (M)",
   "anchor": [
     0.5,
-    1.0
+    0.9172
   ],
   "width": 144,
   "height": 145,
@@ -47,5 +47,6 @@
   "gender": "MALE",
   "tier": 2,
   "res_code_num": 16,
-  "swf_hash": "8aa882033919e917a52df47986a83a67"
+  "swf_hash": "8aa882033919e917a52df47986a83a67",
+  "feet_y": 133
 }

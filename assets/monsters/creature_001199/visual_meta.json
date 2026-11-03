@@ -2,7 +2,7 @@
   "name": "Kỵ Sĩ Liên Quân ",
   "anchor": [
     0.5,
-    1.0
+    0.9137
   ],
   "width": 224,
   "height": 255,
@@ -43,5 +43,6 @@
   "id": "creature_001199",
   "db_id": "1865",
   "res_code_num": 1199,
-  "swf_hash": "3950becc596c2d8e410af6c0f0b0cdde"
+  "swf_hash": "3950becc596c2d8e410af6c0f0b0cdde",
+  "feet_y": 233
 }

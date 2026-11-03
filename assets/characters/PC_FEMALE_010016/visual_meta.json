@@ -2,7 +2,7 @@
   "name": "Traje Angelical com Asas Divinas (F)",
   "anchor": [
     0.5,
-    1.0
+    0.9326
   ],
   "width": 463,
   "height": 267,
@@ -47,5 +47,6 @@
   "gender": "FEMALE",
   "tier": "costume",
   "res_code_num": 10016,
-  "swf_hash": "00c35df982abeb019e69f3264b484b1a"
+  "swf_hash": "00c35df982abeb019e69f3264b484b1a",
+  "feet_y": 249
 }

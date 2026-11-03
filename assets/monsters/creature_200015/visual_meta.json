@@ -2,7 +2,7 @@
   "name": "Ốc Vương Ngàn Năm",
   "anchor": [
     0.5,
-    1.0
+    0.8267
   ],
   "width": 142,
   "height": 150,
@@ -43,5 +43,6 @@
   "id": "creature_200015",
   "db_id": "176",
   "res_code_num": 200015,
-  "swf_hash": "5476f949a2315c1fd0eae85da14c146a"
+  "swf_hash": "5476f949a2315c1fd0eae85da14c146a",
+  "feet_y": 124
 }

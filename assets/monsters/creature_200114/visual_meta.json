@@ -2,7 +2,7 @@
   "name": "Kỳ Kỳ【Tiến Hóa】",
   "anchor": [
     0.5,
-    1.0
+    0.9441
   ],
   "width": 214,
   "height": 161,
@@ -43,5 +43,6 @@
   "id": "creature_200114",
   "db_id": "1428",
   "res_code_num": 200114,
-  "swf_hash": "4f015edba767eba2f025bb1136132383"
+  "swf_hash": "4f015edba767eba2f025bb1136132383",
+  "feet_y": 152
 }

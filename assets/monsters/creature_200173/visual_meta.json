@@ -2,7 +2,7 @@
   "name": "Mạc Tà【HLVT】",
   "anchor": [
     0.5,
-    1.0
+    0.9577
   ],
   "width": 154,
   "height": 142,
@@ -43,5 +43,6 @@
   "id": "creature_200173",
   "db_id": "2195",
   "res_code_num": 200173,
-  "swf_hash": "255eb457fa1578aff64ce6e25354c382"
+  "swf_hash": "255eb457fa1578aff64ce6e25354c382",
+  "feet_y": 136
 }

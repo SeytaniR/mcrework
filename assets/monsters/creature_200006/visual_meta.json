@@ -2,7 +2,7 @@
   "name": "Tà Tâm Hắc Lĩnh",
   "anchor": [
     0.5,
-    1.0
+    0.9932
   ],
   "width": 133,
   "height": 148,
@@ -43,5 +43,6 @@
   "id": "creature_200006",
   "db_id": "315",
   "res_code_num": 200006,
-  "swf_hash": "51ba2361c6ffb7836785b045edab0b66"
+  "swf_hash": "51ba2361c6ffb7836785b045edab0b66",
+  "feet_y": 147
 }

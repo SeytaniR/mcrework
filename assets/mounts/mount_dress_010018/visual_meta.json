@@ -2,7 +2,7 @@
   "name": "Tử Lôi Ma Thú (Besta Demoníaca do Trovão Roxo)",
   "anchor": [
     0.5,
-    1.0
+    0.734
   ],
   "width": 414,
   "height": 297,
@@ -46,5 +46,6 @@
   "id": "mount_dress_010018",
   "rel": "creature/PC_FEMALE_010018.swf",
   "type": "divine_mount",
-  "mount_tier": 9
+  "mount_tier": 9,
+  "feet_y": 218
 }

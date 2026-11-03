@@ -2,7 +2,7 @@
   "name": "Điêu Linh Cung Thủ",
   "anchor": [
     0.5,
-    1.0
+    0.942
   ],
   "width": 100,
   "height": 138,
@@ -43,5 +43,6 @@
   "id": "creature_001113",
   "db_id": "822",
   "res_code_num": 1113,
-  "swf_hash": "264d45721fc5bd270498c88ef2097238"
+  "swf_hash": "264d45721fc5bd270498c88ef2097238",
+  "feet_y": 130
 }

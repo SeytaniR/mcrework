@@ -2,7 +2,7 @@
   "name": "Mammon",
   "anchor": [
     0.5,
-    1.0
+    0.7481
   ],
   "width": 165,
   "height": 131,
@@ -43,5 +43,6 @@
   "id": "creature_001090",
   "db_id": "479",
   "res_code_num": 1090,
-  "swf_hash": "4535288c3ddf4cd15bc0d71143acb289"
+  "swf_hash": "4535288c3ddf4cd15bc0d71143acb289",
+  "feet_y": 98
 }

@@ -2,7 +2,7 @@
   "name": "Khảo Quan Liêu Vân",
   "anchor": [
     0.5,
-    1.0
+    0.9083
   ],
   "width": 145,
   "height": 120,
@@ -43,5 +43,6 @@
   "id": "creature_200034",
   "db_id": "92",
   "res_code_num": 200034,
-  "swf_hash": "a61fc7f5ee7ab82d6604ec6fa9c0fad8"
+  "swf_hash": "a61fc7f5ee7ab82d6604ec6fa9c0fad8",
+  "feet_y": 109
 }

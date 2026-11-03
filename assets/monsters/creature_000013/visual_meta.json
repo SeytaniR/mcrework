@@ -2,7 +2,7 @@
   "name": "Ốc Đội Trưởng",
   "anchor": [
     0.5,
-    1.0
+    0.8318
   ],
   "width": 87,
   "height": 107,
@@ -43,5 +43,6 @@
   "id": "creature_000013",
   "db_id": "13",
   "res_code_num": 13,
-  "swf_hash": "75d570d2d4cfea532563363b31f2e39b"
+  "swf_hash": "75d570d2d4cfea532563363b31f2e39b",
+  "feet_y": 89
 }

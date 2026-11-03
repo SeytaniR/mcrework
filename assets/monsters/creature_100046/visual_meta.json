@@ -2,7 +2,7 @@
   "name": "Võ Sĩ Shiba【Tiến Hóa】",
   "anchor": [
     0.5,
-    1.0
+    0.9819
   ],
   "width": 295,
   "height": 166,
@@ -43,5 +43,6 @@
   "id": "creature_100046",
   "db_id": "2247",
   "res_code_num": 100046,
-  "swf_hash": "396f231eaf21f6421732f99ad360efb8"
+  "swf_hash": "396f231eaf21f6421732f99ad360efb8",
+  "feet_y": 163
 }

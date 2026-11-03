@@ -2,7 +2,7 @@
   "name": "Bối Long",
   "anchor": [
     0.5,
-    1.0
+    0.8148
   ],
   "width": 282,
   "height": 162,
@@ -43,5 +43,6 @@
   "id": "creature_000048",
   "db_id": "35",
   "res_code_num": 48,
-  "swf_hash": "cfbd7ec27c010fdd83bfefcac77d21b4"
+  "swf_hash": "cfbd7ec27c010fdd83bfefcac77d21b4",
+  "feet_y": 132
 }

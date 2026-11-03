@@ -2,7 +2,7 @@
   "name": "Huyền Minh Linh Vũ",
   "anchor": [
     0.5,
-    1.0
+    0.95
   ],
   "width": 248,
   "height": 220,
@@ -43,5 +43,6 @@
   "id": "creature_100055",
   "db_id": "2281",
   "res_code_num": 100055,
-  "swf_hash": "6c5c11106857c5ac42b57969c9ce9653"
+  "swf_hash": "6c5c11106857c5ac42b57969c9ce9653",
+  "feet_y": 209
 }

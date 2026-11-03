@@ -2,7 +2,7 @@
   "name": "Bạo Liệt Long",
   "anchor": [
     0.5,
-    1.0
+    0.8542
   ],
   "width": 143,
   "height": 144,
@@ -43,5 +43,6 @@
   "id": "creature_001115",
   "db_id": "824",
   "res_code_num": 1115,
-  "swf_hash": "60cbf96a7cb0b32bf695cbf35c2021e9"
+  "swf_hash": "60cbf96a7cb0b32bf695cbf35c2021e9",
+  "feet_y": 123
 }

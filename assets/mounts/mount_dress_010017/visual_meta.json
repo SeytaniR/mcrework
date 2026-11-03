@@ -46,5 +46,6 @@
   "id": "mount_dress_010017",
   "rel": "creature/PC_FEMALE_010017.swf",
   "type": "divine_mount",
-  "mount_tier": 9
+  "mount_tier": 9,
+  "feet_y": 267
 }

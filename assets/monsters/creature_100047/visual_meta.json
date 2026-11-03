@@ -2,7 +2,7 @@
   "name": "Burin【Tiến Hóa】",
   "anchor": [
     0.5,
-    1.0
+    0.8909
   ],
   "width": 122,
   "height": 110,
@@ -43,5 +43,6 @@
   "id": "creature_100047",
   "db_id": "2250",
   "res_code_num": 100047,
-  "swf_hash": "81f298fec9b8b629d4e0cbaaaa6f4303"
+  "swf_hash": "81f298fec9b8b629d4e0cbaaaa6f4303",
+  "feet_y": 98
 }

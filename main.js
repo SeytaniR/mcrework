@@ -21,11 +21,11 @@ async function initGame() {
     fetch("assets/map1/collision.bin").then(r => r.arrayBuffer()),
     fetch("assets/monsters/mushroom/visual_meta.json").then(r => r.json()),
     PIXI.Assets.load("assets/monsters/mushroom/atlas.json"),
-    fetch("assets/characters/catalog.json?v=1.3.0").then(r => r.json()).catch(() => ({ total_classes: 0, classes: [] })),
-    fetch("assets/monsters/catalog.json?v=1.3.0").then(r => r.json()).catch(() => ({ total_monsters: 0, monsters: [] })),
-    fetch("assets/mounts/catalog.json?v=1.3.0").then(r => r.json()).catch(() => ({ total_mounts: 0, mounts: [] })),
-    fetch("assets/npcs/catalog.json?v=1.3.0").then(r => r.json()).catch(() => ({ total_npcs: 0, npcs: [] })),
-    fetch("assets/maps/catalog.json?v=1.3.0").then(r => r.json()).catch(() => ({ total_maps: 0, maps: [] }))
+    fetch("assets/characters/catalog.json?v=1.3.1").then(r => r.json()).catch(() => ({ total_classes: 0, classes: [] })),
+    fetch("assets/monsters/catalog.json?v=1.3.1").then(r => r.json()).catch(() => ({ total_monsters: 0, monsters: [] })),
+    fetch("assets/mounts/catalog.json?v=1.3.1").then(r => r.json()).catch(() => ({ total_mounts: 0, mounts: [] })),
+    fetch("assets/npcs/catalog.json?v=1.3.1").then(r => r.json()).catch(() => ({ total_npcs: 0, npcs: [] })),
+    fetch("assets/maps/catalog.json?v=1.3.1").then(r => r.json()).catch(() => ({ total_maps: 0, maps: [] }))
   ]);
 
   let mapsCatalog = mapsCatalogData || { total_maps: 0, maps: [] };
@@ -41,13 +41,13 @@ async function initGame() {
   let currentSpritesheet = null;
   let currentMeta = null;
 
-  // 3. Malha de Colisão Binária (Uint8Array de 388.683 bytes, 2031x1531)
+  // 3. Malha de Colisão Binária Calibrada
   let colBytes = new Uint8Array(colArrayBuffer);
-  let COL_WIDTH = 2031;
-  let COL_HEIGHT = 1531;
-  let MAP_WIDTH = 2000;
-  let MAP_HEIGHT = 1500;
-  console.log(`Malha de colisão binária carregada: ${colBytes.length} bytes (${COL_WIDTH}x${COL_HEIGHT})`);
+  let COL_WIDTH = (currentMapMeta && currentMapMeta.col_width) ? currentMapMeta.col_width : 2031;
+  let COL_HEIGHT = (currentMapMeta && currentMapMeta.col_height) ? currentMapMeta.col_height : 1530;
+  let MAP_WIDTH = (currentMapMeta && currentMapMeta.width) ? currentMapMeta.width : 2000;
+  let MAP_HEIGHT = (currentMapMeta && currentMapMeta.height) ? currentMapMeta.height : 1500;
+  console.log(`Malha de colisão binária inicial carregada: ${colBytes.length} bytes (stride ${COL_WIDTH}x${COL_HEIGHT})`);
 
   function isWalkable(x, y) {
     const ix = Math.floor(x);
@@ -56,23 +56,26 @@ async function initGame() {
     if (!colBytes || COL_WIDTH <= 0 || COL_HEIGHT <= 0) return true;
     if (ix >= COL_WIDTH || iy >= COL_HEIGHT) return false;
     const idx = iy * COL_WIDTH + ix;
-    return (colBytes[idx >> 3] & (1 << (idx & 7))) !== 0;
+    const byteIdx = idx >> 3;
+    if (byteIdx >= colBytes.length) return false;
+    return (colBytes[byteIdx] & (1 << (idx & 7))) !== 0;
   }
 
   function canStand(x, y) {
     if (!isWalkable(x, y)) return false;
-    // Pequeno raio de footprint (5px horizontal, 3px vertical) para evitar clipping
-    if (!isWalkable(x - 5, y) || !isWalkable(x + 5, y)) return false;
-    if (!isWalkable(x, y - 3) || !isWalkable(x, y + 3)) return false;
+    // Pequeno footprint de 2px para máxima fluidez em caminhos e pontes estreitas
+    if (!isWalkable(x - 2, y) || !isWalkable(x + 2, y)) return false;
+    if (!isWalkable(x, y - 2) || !isWalkable(x, y + 2)) return false;
     return true;
   }
 
-  function findClosestWalkable(tx, ty, maxRadius = 60) {
+  function findClosestWalkable(tx, ty, maxRadius = 150) {
     if (canStand(tx, ty)) return { x: tx, y: ty };
-    for (let r = 3; r <= maxRadius; r += 3) {
+    if (isWalkable(tx, ty)) return { x: tx, y: ty };
+    for (let r = 2; r <= maxRadius; r += 2) {
       for (let ang = 0; ang < Math.PI * 2; ang += Math.PI / 8) {
-        const testX = tx + Math.cos(ang) * r;
-        const testY = ty + Math.sin(ang) * r;
+        const testX = Math.round(tx + Math.cos(ang) * r);
+        const testY = Math.round(ty + Math.sin(ang) * r);
         if (canStand(testX, testY)) {
           return { x: testX, y: testY };
         }
@@ -233,14 +236,16 @@ async function initGame() {
       // 3. Carregar malha de colisão binária se existir
       if (mapMeta.has_collision && mapMeta.collision_bin) {
         try {
-          const colBuf = await fetch(mapMeta.collision_bin).then(r => r.arrayBuffer());
+          const colBuf = await fetch(`${mapMeta.collision_bin}?v=1.3.1`).then(r => r.arrayBuffer());
           colBytes = new Uint8Array(colBuf);
           COL_WIDTH = mapMeta.col_width;
           COL_HEIGHT = mapMeta.col_height;
+          console.log(`Malha carregada para Mapa ${targetMapId} (${mapMeta.name}): ${colBytes.length} bytes, stride ${COL_WIDTH}x${COL_HEIGHT}`);
         } catch (e) {
           console.warn("Erro ao carregar colisão binária do mapa:", e);
         }
       } else {
+        colBytes = null;
         COL_WIDTH = 0;
         COL_HEIGHT = 0;
       }
@@ -564,6 +569,8 @@ async function initGame() {
     const currentTexture = animFrames[monster.frameIdx % animFrames.length];
     if (currentTexture) {
       mapMonsterSprite.texture = currentTexture;
+      const monAnchorY = monsterMeta && monsterMeta.anchor ? monsterMeta.anchor[1] : 1.0;
+      mapMonsterSprite.anchor.set(0.5, monAnchorY);
     }
 
     mapMonsterGroup.x = monster.x + monster.offsetX;
@@ -944,7 +951,8 @@ async function initGame() {
       const tex = animFrames[player.frameIdx % animFrames.length];
       if (tex) {
         charSprite.texture = tex;
-        charSprite.anchor.set(0.5, 1.0);
+        const anchorY = currentMeta && currentMeta.anchor ? currentMeta.anchor[1] : 1.0;
+        charSprite.anchor.set(0.5, anchorY);
         charSprite.position.set(0, 0);
       }
     } else {
@@ -2508,6 +2516,8 @@ async function initGame() {
   // Expor para debug e inspeção
   window.game = {
     switchMap,
+    movePlayerTo,
+    movePlayer,
     openWorldMapModal,
     mapsCatalog,
     currentMapId: () => currentMapId,

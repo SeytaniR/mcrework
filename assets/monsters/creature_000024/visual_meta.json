@@ -2,7 +2,7 @@
   "name": "Bà Ngoại Sói",
   "anchor": [
     0.5,
-    1.0
+    0.9155
   ],
   "width": 128,
   "height": 142,
@@ -43,5 +43,6 @@
   "id": "creature_000024",
   "db_id": "72",
   "res_code_num": 24,
-  "swf_hash": "11e324a651fb6d1fe82e83323b8abb7a"
+  "swf_hash": "11e324a651fb6d1fe82e83323b8abb7a",
+  "feet_y": 130
 }

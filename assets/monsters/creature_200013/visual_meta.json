@@ -2,7 +2,7 @@
   "name": "Thủ Lĩnh Khổng Lồ",
   "anchor": [
     0.5,
-    1.0
+    0.9658
   ],
   "width": 136,
   "height": 146,
@@ -43,5 +43,6 @@
   "id": "creature_200013",
   "db_id": "166",
   "res_code_num": 200013,
-  "swf_hash": "0af097f9d0aa423127f2d6932df27214"
+  "swf_hash": "0af097f9d0aa423127f2d6932df27214",
+  "feet_y": 141
 }

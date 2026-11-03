@@ -2,7 +2,7 @@
   "name": "Anh Linh",
   "anchor": [
     0.5,
-    1.0
+    0.9847
   ],
   "width": 110,
   "height": 131,
@@ -43,5 +43,6 @@
   "id": "creature_200022",
   "db_id": "301",
   "res_code_num": 200022,
-  "swf_hash": "7b23a1289c21f1baf08c7dc30a99bb71"
+  "swf_hash": "7b23a1289c21f1baf08c7dc30a99bb71",
+  "feet_y": 129
 }

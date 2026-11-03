@@ -2,7 +2,7 @@
   "name": "Hydra (Nhỏ)",
   "anchor": [
     0.5,
-    1.0
+    0.8423
   ],
   "width": 324,
   "height": 279,
@@ -43,5 +43,6 @@
   "id": "creature_100027",
   "db_id": "1256",
   "res_code_num": 100027,
-  "swf_hash": "72cf15be2bf3768ad7f5932ecbd8808e"
+  "swf_hash": "72cf15be2bf3768ad7f5932ecbd8808e",
+  "feet_y": 235
 }

@@ -44,5 +44,6 @@
   "gender": "MALE",
   "tier": "mount",
   "res_code_num": 100005,
-  "swf_hash": "c6eb056b661a6d7bd550a634301cd9eb"
+  "swf_hash": "c6eb056b661a6d7bd550a634301cd9eb",
+  "feet_y": 106
 }

@@ -2,7 +2,7 @@
   "name": "Tinh Linh Cực Quang",
   "anchor": [
     0.5,
-    1.0
+    0.9896
   ],
   "width": 119,
   "height": 96,
@@ -43,5 +43,6 @@
   "id": "creature_001123",
   "db_id": "732",
   "res_code_num": 1123,
-  "swf_hash": "58049e7ad65eb886ce65cbe7b2c88bf2"
+  "swf_hash": "58049e7ad65eb886ce65cbe7b2c88bf2",
+  "feet_y": 95
 }

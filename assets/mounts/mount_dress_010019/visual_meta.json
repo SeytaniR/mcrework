@@ -46,5 +46,6 @@
   "id": "mount_dress_010019",
   "rel": "creature/PC_FEMALE_010019.swf",
   "type": "mythic_mount",
-  "mount_tier": 10
+  "mount_tier": 10,
+  "feet_y": 303
 }

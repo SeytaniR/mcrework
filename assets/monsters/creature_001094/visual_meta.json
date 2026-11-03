@@ -2,7 +2,7 @@
   "name": "Thần Long Viễn Cổ",
   "anchor": [
     0.5,
-    1.0
+    0.9865
   ],
   "width": 165,
   "height": 148,
@@ -43,5 +43,6 @@
   "id": "creature_001094",
   "db_id": "487",
   "res_code_num": 1094,
-  "swf_hash": "d49892176e9fcc85f0494ca24755b51e"
+  "swf_hash": "d49892176e9fcc85f0494ca24755b51e",
+  "feet_y": 146
 }

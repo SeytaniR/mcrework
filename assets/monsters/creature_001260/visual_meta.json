@@ -2,7 +2,7 @@
   "name": "Su Su Sắt",
   "anchor": [
     0.5,
-    1.0
+    0.9514
   ],
   "width": 308,
   "height": 247,
@@ -43,5 +43,6 @@
   "id": "creature_001260",
   "db_id": "2156",
   "res_code_num": 1260,
-  "swf_hash": "6460f733bd4162132b7e606e9fd321dc"
+  "swf_hash": "6460f733bd4162132b7e606e9fd321dc",
+  "feet_y": 235
 }

@@ -2,7 +2,7 @@
   "name": "Nhím Xanh【Quái Vật Sự Kiện Quốc Khánh】",
   "anchor": [
     0.5,
-    1.0
+    0.8051
   ],
   "width": 176,
   "height": 118,
@@ -43,5 +43,6 @@
   "id": "creature_100019",
   "db_id": "1082",
   "res_code_num": 100019,
-  "swf_hash": "a53139fa3a56b91470f36491821c5260"
+  "swf_hash": "a53139fa3a56b91470f36491821c5260",
+  "feet_y": 95
 }

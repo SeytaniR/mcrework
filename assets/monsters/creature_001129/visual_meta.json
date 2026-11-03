@@ -2,7 +2,7 @@
   "name": "Phù Thủy Đen",
   "anchor": [
     0.5,
-    1.0
+    0.9048
   ],
   "width": 170,
   "height": 168,
@@ -43,5 +43,6 @@
   "id": "creature_001129",
   "db_id": "904",
   "res_code_num": 1129,
-  "swf_hash": "c924154be4ac761a86245fe025966a99"
+  "swf_hash": "c924154be4ac761a86245fe025966a99",
+  "feet_y": 152
 }

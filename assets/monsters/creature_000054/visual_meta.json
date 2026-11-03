@@ -2,7 +2,7 @@
   "name": "Xương Rồng Tinh",
   "anchor": [
     0.5,
-    1.0
+    0.7583
   ],
   "width": 112,
   "height": 120,
@@ -43,5 +43,6 @@
   "id": "creature_000054",
   "db_id": "50",
   "res_code_num": 54,
-  "swf_hash": "efdd9f7ef995873d8dc2ed629861ccb2"
+  "swf_hash": "efdd9f7ef995873d8dc2ed629861ccb2",
+  "feet_y": 91
 }

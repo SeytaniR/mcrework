@@ -2,7 +2,7 @@
   "name": "Á Cổ Thú",
   "anchor": [
     0.5,
-    1.0
+    0.9
   ],
   "width": 232,
   "height": 160,
@@ -43,5 +43,6 @@
   "id": "creature_001263",
   "db_id": "2161",
   "res_code_num": 1263,
-  "swf_hash": "dda272bb0ddf478c93592c59ea4b3061"
+  "swf_hash": "dda272bb0ddf478c93592c59ea4b3061",
+  "feet_y": 144
 }

@@ -2,7 +2,7 @@
   "name": "Cương Thi Vương",
   "anchor": [
     0.5,
-    1.0
+    0.8671
   ],
   "width": 126,
   "height": 173,
@@ -43,5 +43,6 @@
   "id": "creature_200004",
   "db_id": "80",
   "res_code_num": 200004,
-  "swf_hash": "1863a9c1b084cca668410bbed452908d"
+  "swf_hash": "1863a9c1b084cca668410bbed452908d",
+  "feet_y": 150
 }

@@ -2,7 +2,7 @@
   "name": "Mestre-Sala",
   "anchor": [
     0.5,
-    1.0
+    0.7442
   ],
   "width": 163,
   "height": 172,
@@ -43,5 +43,6 @@
   "id": "creature_200052",
   "db_id": "1170",
   "res_code_num": 200052,
-  "swf_hash": "a49f41671e6bec814f000eeabfacca57"
+  "swf_hash": "a49f41671e6bec814f000eeabfacca57",
+  "feet_y": 128
 }

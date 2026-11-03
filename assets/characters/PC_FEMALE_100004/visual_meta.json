@@ -2,7 +2,7 @@
   "name": "Pose de Montaria Pássaro (F)",
   "anchor": [
     0.5,
-    1.0
+    0.7313
   ],
   "width": 125,
   "height": 134,
@@ -43,5 +43,6 @@
   "gender": "FEMALE",
   "tier": "mount",
   "res_code_num": 100004,
-  "swf_hash": "b95ebd3e2fb259b98dc61b2b82b88203"
+  "swf_hash": "b95ebd3e2fb259b98dc61b2b82b88203",
+  "feet_y": 98
 }

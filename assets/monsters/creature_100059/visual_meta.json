@@ -2,7 +2,7 @@
   "name": "Lôi Lân Ảnh",
   "anchor": [
     0.5,
-    1.0
+    0.994
   ],
   "width": 198,
   "height": 168,
@@ -43,5 +43,6 @@
   "id": "creature_100059",
   "db_id": "2292",
   "res_code_num": 100059,
-  "swf_hash": "e4d2a1a996f983ecf84a9677d2981342"
+  "swf_hash": "e4d2a1a996f983ecf84a9677d2981342",
+  "feet_y": 167
 }

@@ -2,7 +2,7 @@
   "name": "Thiên Sứ Mít Ướt",
   "anchor": [
     0.5,
-    1.0
+    0.9592
   ],
   "width": 103,
   "height": 98,
@@ -43,5 +43,6 @@
   "id": "creature_100003",
   "db_id": "19",
   "res_code_num": 100003,
-  "swf_hash": "5e72e6fa5945dbdc33ad1fb3882488d8"
+  "swf_hash": "5e72e6fa5945dbdc33ad1fb3882488d8",
+  "feet_y": 94
 }

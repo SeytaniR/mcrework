@@ -2,7 +2,7 @@
   "name": "Tiểu Tiểu Hải Tinh",
   "anchor": [
     0.5,
-    1.0
+    0.8478
   ],
   "width": 84,
   "height": 92,
@@ -43,5 +43,6 @@
   "id": "creature_000007",
   "db_id": "112",
   "res_code_num": 7,
-  "swf_hash": "85060dadf2ca25b708ad767556453211"
+  "swf_hash": "85060dadf2ca25b708ad767556453211",
+  "feet_y": 78
 }

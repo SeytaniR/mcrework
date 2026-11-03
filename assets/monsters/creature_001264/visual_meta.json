@@ -2,7 +2,7 @@
   "name": "Gấu Kungfu",
   "anchor": [
     0.5,
-    1.0
+    0.8676
   ],
   "width": 282,
   "height": 219,
@@ -43,5 +43,6 @@
   "id": "creature_001264",
   "db_id": "2147",
   "res_code_num": 1264,
-  "swf_hash": "d1d6ea1680ecc498a4900927e3391613"
+  "swf_hash": "d1d6ea1680ecc498a4900927e3391613",
+  "feet_y": 190
 }

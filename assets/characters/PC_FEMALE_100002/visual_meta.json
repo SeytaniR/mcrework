@@ -2,7 +2,7 @@
   "name": "Pose de Montaria Tigre (F)",
   "anchor": [
     0.5,
-    1.0
+    0.8909
   ],
   "width": 95,
   "height": 110,
@@ -43,5 +43,6 @@
   "gender": "FEMALE",
   "tier": "mount",
   "res_code_num": 100002,
-  "swf_hash": "c13fcd54ec9bcaa0d3862fd1fe4c399b"
+  "swf_hash": "c13fcd54ec9bcaa0d3862fd1fe4c399b",
+  "feet_y": 98
 }
