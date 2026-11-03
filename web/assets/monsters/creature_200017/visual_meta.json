@@ -2,7 +2,7 @@
   "name": "Pharaoh Cabu III 【Kho Báu Đại Mạc】",
   "anchor": [
     0.5,
-    1.0
+    0.9579
   ],
   "width": 225,
   "height": 214,
@@ -43,5 +43,6 @@
   "id": "creature_200017",
   "db_id": "321",
   "res_code_num": 200017,
-  "swf_hash": "3243f7ca09355a431884a1a3b09e018a"
+  "swf_hash": "3243f7ca09355a431884a1a3b09e018a",
+  "feet_y": 205
 }

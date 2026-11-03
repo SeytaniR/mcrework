@@ -2,7 +2,7 @@
   "name": "Trúc Tinh",
   "anchor": [
     0.5,
-    1.0
+    0.8034
   ],
   "width": 146,
   "height": 178,
@@ -43,5 +43,6 @@
   "id": "creature_001081",
   "db_id": "66",
   "res_code_num": 1081,
-  "swf_hash": "9ee686c8fe2feafacb1297ab392b039c"
+  "swf_hash": "9ee686c8fe2feafacb1297ab392b039c",
+  "feet_y": 143
 }

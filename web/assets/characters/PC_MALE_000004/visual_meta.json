@@ -44,5 +44,6 @@
   "gender": "MALE",
   "tier": 1,
   "res_code_num": 4,
-  "swf_hash": "13641a306a668b7847d0629381ab52bc"
+  "swf_hash": "13641a306a668b7847d0629381ab52bc",
+  "feet_y": 112
 }

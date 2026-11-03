@@ -2,7 +2,7 @@
   "name": "Ác Long Hộ Vệ",
   "anchor": [
     0.5,
-    1.0
+    0.9574
   ],
   "width": 101,
   "height": 94,
@@ -43,5 +43,6 @@
   "id": "creature_000036",
   "db_id": "84",
   "res_code_num": 36,
-  "swf_hash": "256e69f1f20599a4f18ba55ef4a5a324"
+  "swf_hash": "256e69f1f20599a4f18ba55ef4a5a324",
+  "feet_y": 90
 }

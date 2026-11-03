@@ -11,7 +11,11 @@
       "atlas": "assets/mounts/mount_000001/atlas.webp",
       "json": "assets/mounts/mount_000001/atlas.json",
       "meta": "assets/mounts/mount_000001/visual_meta.json",
-      "thumb": "assets/mounts/mount_000001/thumb.webp"
+      "thumb": "assets/mounts/mount_000001/thumb.webp",
+      "anchor": [
+        0.5,
+        0.8504
+      ]
     },
     {
       "id": "mount_000002",
@@ -22,7 +26,11 @@
       "atlas": "assets/mounts/mount_000002/atlas.webp",
       "json": "assets/mounts/mount_000002/atlas.json",
       "meta": "assets/mounts/mount_000002/visual_meta.json",
-      "thumb": "assets/mounts/mount_000002/thumb.webp"
+      "thumb": "assets/mounts/mount_000002/thumb.webp",
+      "anchor": [
+        0.5,
+        0.8571
+      ]
     },
     {
       "id": "mount_000003",
@@ -33,7 +41,11 @@
       "atlas": "assets/mounts/mount_000003/atlas.webp",
       "json": "assets/mounts/mount_000003/atlas.json",
       "meta": "assets/mounts/mount_000003/visual_meta.json",
-      "thumb": "assets/mounts/mount_000003/thumb.webp"
+      "thumb": "assets/mounts/mount_000003/thumb.webp",
+      "anchor": [
+        0.5,
+        0.8618
+      ]
     },
     {
       "id": "mount_000004",
@@ -44,7 +56,11 @@
       "atlas": "assets/mounts/mount_000004/atlas.webp",
       "json": "assets/mounts/mount_000004/atlas.json",
       "meta": "assets/mounts/mount_000004/visual_meta.json",
-      "thumb": "assets/mounts/mount_000004/thumb.webp"
+      "thumb": "assets/mounts/mount_000004/thumb.webp",
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "mount_000005",
@@ -55,7 +71,11 @@
       "atlas": "assets/mounts/mount_000005/atlas.webp",
       "json": "assets/mounts/mount_000005/atlas.json",
       "meta": "assets/mounts/mount_000005/visual_meta.json",
-      "thumb": "assets/mounts/mount_000005/thumb.webp"
+      "thumb": "assets/mounts/mount_000005/thumb.webp",
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "mount_000006",
@@ -66,7 +86,11 @@
       "atlas": "assets/mounts/mount_000006/atlas.webp",
       "json": "assets/mounts/mount_000006/atlas.json",
       "meta": "assets/mounts/mount_000006/visual_meta.json",
-      "thumb": "assets/mounts/mount_000006/thumb.webp"
+      "thumb": "assets/mounts/mount_000006/thumb.webp",
+      "anchor": [
+        0.5,
+        0.9083
+      ]
     },
     {
       "id": "mount_f_000001",
@@ -77,7 +101,11 @@
       "atlas": "assets/mounts/mount_f_000001/atlas.webp",
       "json": "assets/mounts/mount_f_000001/atlas.json",
       "meta": "assets/mounts/mount_f_000001/visual_meta.json",
-      "thumb": "assets/mounts/mount_f_000001/thumb.webp"
+      "thumb": "assets/mounts/mount_f_000001/thumb.webp",
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "mount_f_000002",
@@ -88,7 +116,11 @@
       "atlas": "assets/mounts/mount_f_000002/atlas.webp",
       "json": "assets/mounts/mount_f_000002/atlas.json",
       "meta": "assets/mounts/mount_f_000002/visual_meta.json",
-      "thumb": "assets/mounts/mount_f_000002/thumb.webp"
+      "thumb": "assets/mounts/mount_f_000002/thumb.webp",
+      "anchor": [
+        0.5,
+        0.8909
+      ]
     },
     {
       "id": "mount_f_000003",
@@ -99,7 +131,11 @@
       "atlas": "assets/mounts/mount_f_000003/atlas.webp",
       "json": "assets/mounts/mount_f_000003/atlas.json",
       "meta": "assets/mounts/mount_f_000003/visual_meta.json",
-      "thumb": "assets/mounts/mount_f_000003/thumb.webp"
+      "thumb": "assets/mounts/mount_f_000003/thumb.webp",
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "mount_f_000004",
@@ -110,7 +146,11 @@
       "atlas": "assets/mounts/mount_f_000004/atlas.webp",
       "json": "assets/mounts/mount_f_000004/atlas.json",
       "meta": "assets/mounts/mount_f_000004/visual_meta.json",
-      "thumb": "assets/mounts/mount_f_000004/thumb.webp"
+      "thumb": "assets/mounts/mount_f_000004/thumb.webp",
+      "anchor": [
+        0.5,
+        0.7313
+      ]
     },
     {
       "id": "mount_f_000005",
@@ -121,7 +161,11 @@
       "atlas": "assets/mounts/mount_f_000005/atlas.webp",
       "json": "assets/mounts/mount_f_000005/atlas.json",
       "meta": "assets/mounts/mount_f_000005/visual_meta.json",
-      "thumb": "assets/mounts/mount_f_000005/thumb.webp"
+      "thumb": "assets/mounts/mount_f_000005/thumb.webp",
+      "anchor": [
+        0.5,
+        0.8059
+      ]
     },
     {
       "id": "mount_f_000006",
@@ -132,7 +176,11 @@
       "atlas": "assets/mounts/mount_f_000006/atlas.webp",
       "json": "assets/mounts/mount_f_000006/atlas.json",
       "meta": "assets/mounts/mount_f_000006/visual_meta.json",
-      "thumb": "assets/mounts/mount_f_000006/thumb.webp"
+      "thumb": "assets/mounts/mount_f_000006/thumb.webp",
+      "anchor": [
+        0.5,
+        0.8468
+      ]
     },
     {
       "id": "mount_dress_010010",
@@ -143,7 +191,11 @@
       "atlas": "assets/mounts/mount_dress_010010/atlas.webp",
       "json": "assets/mounts/mount_dress_010010/atlas.json",
       "meta": "assets/mounts/mount_dress_010010/visual_meta.json",
-      "thumb": "assets/mounts/mount_dress_010010/thumb.webp"
+      "thumb": "assets/mounts/mount_dress_010010/thumb.webp",
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "mount_dress_010011",
@@ -154,7 +206,11 @@
       "atlas": "assets/mounts/mount_dress_010011/atlas.webp",
       "json": "assets/mounts/mount_dress_010011/atlas.json",
       "meta": "assets/mounts/mount_dress_010011/visual_meta.json",
-      "thumb": "assets/mounts/mount_dress_010011/thumb.webp"
+      "thumb": "assets/mounts/mount_dress_010011/thumb.webp",
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "mount_dress_010012",
@@ -165,7 +221,11 @@
       "atlas": "assets/mounts/mount_dress_010012/atlas.webp",
       "json": "assets/mounts/mount_dress_010012/atlas.json",
       "meta": "assets/mounts/mount_dress_010012/visual_meta.json",
-      "thumb": "assets/mounts/mount_dress_010012/thumb.webp"
+      "thumb": "assets/mounts/mount_dress_010012/thumb.webp",
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "mount_dress_010016",
@@ -176,7 +236,11 @@
       "atlas": "assets/mounts/mount_dress_010016/atlas.webp",
       "json": "assets/mounts/mount_dress_010016/atlas.json",
       "meta": "assets/mounts/mount_dress_010016/visual_meta.json",
-      "thumb": "assets/mounts/mount_dress_010016/thumb.webp"
+      "thumb": "assets/mounts/mount_dress_010016/thumb.webp",
+      "anchor": [
+        0.5,
+        0.9326
+      ]
     },
     {
       "id": "mount_dress_010017",
@@ -187,7 +251,11 @@
       "atlas": "assets/mounts/mount_dress_010017/atlas.webp",
       "json": "assets/mounts/mount_dress_010017/atlas.json",
       "meta": "assets/mounts/mount_dress_010017/visual_meta.json",
-      "thumb": "assets/mounts/mount_dress_010017/thumb.webp"
+      "thumb": "assets/mounts/mount_dress_010017/thumb.webp",
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "mount_dress_010018",
@@ -198,7 +266,11 @@
       "atlas": "assets/mounts/mount_dress_010018/atlas.webp",
       "json": "assets/mounts/mount_dress_010018/atlas.json",
       "meta": "assets/mounts/mount_dress_010018/visual_meta.json",
-      "thumb": "assets/mounts/mount_dress_010018/thumb.webp"
+      "thumb": "assets/mounts/mount_dress_010018/thumb.webp",
+      "anchor": [
+        0.5,
+        0.734
+      ]
     },
     {
       "id": "mount_dress_010019",
@@ -209,7 +281,11 @@
       "atlas": "assets/mounts/mount_dress_010019/atlas.webp",
       "json": "assets/mounts/mount_dress_010019/atlas.json",
       "meta": "assets/mounts/mount_dress_010019/visual_meta.json",
-      "thumb": "assets/mounts/mount_dress_010019/thumb.webp"
+      "thumb": "assets/mounts/mount_dress_010019/thumb.webp",
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "mount_dress_010020",
@@ -220,7 +296,11 @@
       "atlas": "assets/mounts/mount_dress_010020/atlas.webp",
       "json": "assets/mounts/mount_dress_010020/atlas.json",
       "meta": "assets/mounts/mount_dress_010020/visual_meta.json",
-      "thumb": "assets/mounts/mount_dress_010020/thumb.webp"
+      "thumb": "assets/mounts/mount_dress_010020/thumb.webp",
+      "anchor": [
+        0.5,
+        1.0
+      ]
     }
   ]
 }

@@ -2,7 +2,7 @@
   "name": "Costume de Gala / Festa (F)",
   "anchor": [
     0.5,
-    1.0
+    0.8059
   ],
   "width": 196,
   "height": 170,
@@ -47,5 +47,6 @@
   "gender": "FEMALE",
   "tier": "costume",
   "res_code_num": 10005,
-  "swf_hash": "211f72e77dbb07627d9b33e19d7bcd9b"
+  "swf_hash": "211f72e77dbb07627d9b33e19d7bcd9b",
+  "feet_y": 137
 }

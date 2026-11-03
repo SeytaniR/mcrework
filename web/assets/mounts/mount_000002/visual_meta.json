@@ -2,7 +2,7 @@
   "name": "Hắc Báo (Pantera Negra)",
   "anchor": [
     0.5,
-    1.0
+    0.8571
   ],
   "width": 136,
   "height": 119,
@@ -43,5 +43,6 @@
   "id": "mount_000002",
   "rel": "creature/PC_MALE_100002.swf",
   "type": "male_mount",
-  "mount_tier": 2
+  "mount_tier": 2,
+  "feet_y": 102
 }

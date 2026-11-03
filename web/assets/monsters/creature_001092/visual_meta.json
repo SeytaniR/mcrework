@@ -2,7 +2,7 @@
   "name": "Samael",
   "anchor": [
     0.5,
-    1.0
+    0.9591
   ],
   "width": 212,
   "height": 171,
@@ -43,5 +43,6 @@
   "id": "creature_001092",
   "db_id": "482",
   "res_code_num": 1092,
-  "swf_hash": "897ccf002b43d4dac224328de03649da"
+  "swf_hash": "897ccf002b43d4dac224328de03649da",
+  "feet_y": 164
 }

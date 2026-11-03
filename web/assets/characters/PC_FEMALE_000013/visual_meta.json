@@ -2,7 +2,7 @@
   "name": "Franco-Atiradora Tier 2 (F)",
   "anchor": [
     0.5,
-    1.0
+    0.8944
   ],
   "width": 122,
   "height": 142,
@@ -47,5 +47,6 @@
   "gender": "FEMALE",
   "tier": 2,
   "res_code_num": 13,
-  "swf_hash": "254a0a8cfc5350909fc23091f66d83e5"
+  "swf_hash": "254a0a8cfc5350909fc23091f66d83e5",
+  "feet_y": 127
 }

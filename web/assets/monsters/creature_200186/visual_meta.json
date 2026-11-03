@@ -2,7 +2,7 @@
   "name": "Criatura #200186",
   "anchor": [
     0.5,
-    1.0
+    0.9802
   ],
   "width": 96,
   "height": 101,
@@ -43,5 +43,6 @@
   "id": "creature_200186",
   "db_id": "300186",
   "res_code_num": 200186,
-  "swf_hash": "f54dfb2ba1217bb3271f758b6be6346f"
+  "swf_hash": "f54dfb2ba1217bb3271f758b6be6346f",
+  "feet_y": 99
 }

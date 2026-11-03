@@ -2,7 +2,7 @@
   "name": "BOSS Test",
   "anchor": [
     0.5,
-    1.0
+    0.9583
   ],
   "width": 111,
   "height": 120,
@@ -43,5 +43,6 @@
   "id": "creature_000029",
   "db_id": "106",
   "res_code_num": 29,
-  "swf_hash": "3462eed79bfacbdb1566603bcec1d258"
+  "swf_hash": "3462eed79bfacbdb1566603bcec1d258",
+  "feet_y": 115
 }

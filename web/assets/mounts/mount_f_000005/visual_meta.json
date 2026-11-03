@@ -2,7 +2,7 @@
   "name": "Cửu Vĩ Linh Hồ (Raposa Espiritual de 9 Caudas)",
   "anchor": [
     0.5,
-    1.0
+    0.8059
   ],
   "width": 196,
   "height": 170,
@@ -46,5 +46,6 @@
   "id": "mount_f_000005",
   "rel": "creature/PC_FEMALE_010005.swf",
   "type": "legendary_mount",
-  "mount_tier": 5
+  "mount_tier": 5,
+  "feet_y": 137
 }

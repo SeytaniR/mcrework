@@ -43,5 +43,6 @@
   "id": "mount_000005",
   "rel": "creature/PC_MALE_100005.swf",
   "type": "male_mount",
-  "mount_tier": 5
+  "mount_tier": 5,
+  "feet_y": 106
 }

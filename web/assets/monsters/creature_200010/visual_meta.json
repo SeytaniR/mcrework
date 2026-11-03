@@ -2,7 +2,7 @@
   "name": "Alumo",
   "anchor": [
     0.5,
-    1.0
+    0.9816
   ],
   "width": 159,
   "height": 163,
@@ -43,5 +43,6 @@
   "id": "creature_200010",
   "db_id": "160",
   "res_code_num": 200010,
-  "swf_hash": "a7f55c34d69a73c35565142191351368"
+  "swf_hash": "a7f55c34d69a73c35565142191351368",
+  "feet_y": 160
 }

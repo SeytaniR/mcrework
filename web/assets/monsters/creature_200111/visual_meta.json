@@ -2,7 +2,7 @@
   "name": "Pony【Tiến Hóa】",
   "anchor": [
     0.5,
-    1.0
+    0.9417
   ],
   "width": 122,
   "height": 120,
@@ -43,5 +43,6 @@
   "id": "creature_200111",
   "db_id": "1427",
   "res_code_num": 200111,
-  "swf_hash": "2b67959231ab7ac9b8c2c558ef66736f"
+  "swf_hash": "2b67959231ab7ac9b8c2c558ef66736f",
+  "feet_y": 113
 }

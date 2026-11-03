@@ -2,7 +2,7 @@
   "name": "Gấu Trúc Lâu La",
   "anchor": [
     0.5,
-    1.0
+    0.8632
   ],
   "width": 105,
   "height": 117,
@@ -43,5 +43,6 @@
   "id": "creature_000034",
   "db_id": "374",
   "res_code_num": 34,
-  "swf_hash": "66c80b39810ad50294ffe8bc1a560b97"
+  "swf_hash": "66c80b39810ad50294ffe8bc1a560b97",
+  "feet_y": 101
 }

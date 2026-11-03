@@ -2,7 +2,7 @@
   "name": "Linh Long",
   "anchor": [
     0.5,
-    1.0
+    0.9292
   ],
   "width": 94,
   "height": 113,
@@ -43,5 +43,6 @@
   "id": "creature_001128",
   "db_id": "902",
   "res_code_num": 1128,
-  "swf_hash": "c574f1bd9ef5299b36c15ecc1719449b"
+  "swf_hash": "c574f1bd9ef5299b36c15ecc1719449b",
+  "feet_y": 105
 }

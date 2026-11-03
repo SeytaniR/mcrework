@@ -2,7 +2,7 @@
   "name": "Ác Ma Thú Sơ Cấp",
   "anchor": [
     0.5,
-    1.0
+    0.8598
   ],
   "width": 356,
   "height": 371,
@@ -43,5 +43,6 @@
   "id": "creature_001258",
   "db_id": "2158",
   "res_code_num": 1258,
-  "swf_hash": "dfa232c5d64d3098e0f5cb5dad2ab14f"
+  "swf_hash": "dfa232c5d64d3098e0f5cb5dad2ab14f",
+  "feet_y": 319
 }

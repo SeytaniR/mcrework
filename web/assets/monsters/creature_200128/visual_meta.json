@@ -2,7 +2,7 @@
   "name": "Ác Ma Quấy Phá【Tiến Hóa】",
   "anchor": [
     0.5,
-    1.0
+    0.8627
   ],
   "width": 112,
   "height": 102,
@@ -43,5 +43,6 @@
   "id": "creature_200128",
   "db_id": "1408",
   "res_code_num": 200128,
-  "swf_hash": "a811ea625f26c2a33726d87ccf9a6cf4"
+  "swf_hash": "a811ea625f26c2a33726d87ccf9a6cf4",
+  "feet_y": 88
 }

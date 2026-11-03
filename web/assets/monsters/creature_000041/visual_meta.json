@@ -2,7 +2,7 @@
   "name": "Mao Mao Cầu",
   "anchor": [
     0.5,
-    1.0
+    0.9865
   ],
   "width": 68,
   "height": 74,
@@ -43,5 +43,6 @@
   "id": "creature_000041",
   "db_id": "29",
   "res_code_num": 41,
-  "swf_hash": "aaaceea1b42abcf77a4bc37363b3a56c"
+  "swf_hash": "aaaceea1b42abcf77a4bc37363b3a56c",
+  "feet_y": 73
 }

@@ -2,7 +2,7 @@
   "name": "Sumo Sacerdote Tier 2 (M)",
   "anchor": [
     0.5,
-    1.0
+    0.9843
   ],
   "width": 86,
   "height": 127,
@@ -47,5 +47,6 @@
   "gender": "MALE",
   "tier": 2,
   "res_code_num": 14,
-  "swf_hash": "fcaa14b3bde8c5632bb0ebae19ee28bb"
+  "swf_hash": "fcaa14b3bde8c5632bb0ebae19ee28bb",
+  "feet_y": 125
 }

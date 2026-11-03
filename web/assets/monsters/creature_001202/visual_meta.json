@@ -2,7 +2,7 @@
   "name": "Thuật Sĩ Liên Quân",
   "anchor": [
     0.5,
-    1.0
+    0.9406
   ],
   "width": 88,
   "height": 101,
@@ -43,5 +43,6 @@
   "id": "creature_001202",
   "db_id": "1854",
   "res_code_num": 1202,
-  "swf_hash": "a835fc19ce5fc30b947013b930363725"
+  "swf_hash": "a835fc19ce5fc30b947013b930363725",
+  "feet_y": 95
 }

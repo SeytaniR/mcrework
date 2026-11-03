@@ -2,7 +2,7 @@
   "name": "Hổ Bì Dương",
   "anchor": [
     0.5,
-    1.0
+    0.8195
   ],
   "width": 138,
   "height": 133,
@@ -43,5 +43,6 @@
   "id": "creature_000021",
   "db_id": "91",
   "res_code_num": 21,
-  "swf_hash": "62807a9933247a70ae7d47b0c5fb3324"
+  "swf_hash": "62807a9933247a70ae7d47b0c5fb3324",
+  "feet_y": 109
 }

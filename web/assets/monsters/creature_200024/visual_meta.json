@@ -2,7 +2,7 @@
   "name": "Song Ngư",
   "anchor": [
     0.5,
-    1.0
+    0.8468
   ],
   "width": 117,
   "height": 111,
@@ -43,5 +43,6 @@
   "id": "creature_200024",
   "db_id": "457",
   "res_code_num": 200024,
-  "swf_hash": "99ef5dac6267e2345319a68e54363cd9"
+  "swf_hash": "99ef5dac6267e2345319a68e54363cd9",
+  "feet_y": 94
 }

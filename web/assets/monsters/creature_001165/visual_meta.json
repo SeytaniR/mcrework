@@ -2,7 +2,7 @@
   "name": "Mehdi Em",
   "anchor": [
     0.5,
-    1.0
+    0.9407
   ],
   "width": 132,
   "height": 118,
@@ -43,5 +43,6 @@
   "id": "creature_001165",
   "db_id": "1194",
   "res_code_num": 1165,
-  "swf_hash": "0fbaba58958b8d08e86c13f2761dbc44"
+  "swf_hash": "0fbaba58958b8d08e86c13f2761dbc44",
+  "feet_y": 111
 }

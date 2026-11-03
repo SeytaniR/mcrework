@@ -2,7 +2,7 @@
   "name": "Huyễn Ảnh Linh Hồ (Raposa Espectral Fantasma)",
   "anchor": [
     0.5,
-    1.0
+    0.9326
   ],
   "width": 463,
   "height": 267,
@@ -46,5 +46,6 @@
   "id": "mount_dress_010016",
   "rel": "creature/PC_FEMALE_010016.swf",
   "type": "divine_mount",
-  "mount_tier": 8
+  "mount_tier": 8,
+  "feet_y": 249
 }

@@ -2,7 +2,7 @@
   "name": "Dứa Mật",
   "anchor": [
     0.5,
-    1.0
+    0.9785
   ],
   "width": 107,
   "height": 93,
@@ -43,5 +43,6 @@
   "id": "creature_100009",
   "db_id": "488",
   "res_code_num": 100009,
-  "swf_hash": "d3c6118577cae539b76cc1ac8bfda60b"
+  "swf_hash": "d3c6118577cae539b76cc1ac8bfda60b",
+  "feet_y": 91
 }

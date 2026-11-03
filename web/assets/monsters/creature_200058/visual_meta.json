@@ -2,7 +2,7 @@
   "name": "Phong Hộ Pháp",
   "anchor": [
     0.5,
-    1.0
+    0.9694
   ],
   "width": 76,
   "height": 98,
@@ -43,5 +43,6 @@
   "id": "creature_200058",
   "db_id": "225",
   "res_code_num": 200058,
-  "swf_hash": "08a568e3881de469e602466f280be035"
+  "swf_hash": "08a568e3881de469e602466f280be035",
+  "feet_y": 95
 }

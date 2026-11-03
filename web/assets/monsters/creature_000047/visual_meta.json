@@ -2,7 +2,7 @@
   "name": "Tiểu Thái Dương",
   "anchor": [
     0.5,
-    1.0
+    0.9921
   ],
   "width": 128,
   "height": 127,
@@ -43,5 +43,6 @@
   "id": "creature_000047",
   "db_id": "34",
   "res_code_num": 47,
-  "swf_hash": "6deff9c343258c538b16f97b98e629b5"
+  "swf_hash": "6deff9c343258c538b16f97b98e629b5",
+  "feet_y": 126
 }

@@ -2,7 +2,7 @@
   "name": "Linh Hồn Tà Ác",
   "anchor": [
     0.5,
-    1.0
+    0.9456
   ],
   "width": 186,
   "height": 147,
@@ -43,5 +43,6 @@
   "id": "creature_200007",
   "db_id": "525",
   "res_code_num": 200007,
-  "swf_hash": "6aa1ea4f37c229796879d98828c50f89"
+  "swf_hash": "6aa1ea4f37c229796879d98828c50f89",
+  "feet_y": 139
 }

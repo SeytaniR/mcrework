@@ -2,7 +2,7 @@
   "name": "Phi Ma",
   "anchor": [
     0.5,
-    1.0
+    0.9485
   ],
   "width": 161,
   "height": 136,
@@ -43,5 +43,6 @@
   "id": "creature_000044",
   "db_id": "829",
   "res_code_num": 44,
-  "swf_hash": "c4f26ee0b3667afb01a04914398d2a10"
+  "swf_hash": "c4f26ee0b3667afb01a04914398d2a10",
+  "feet_y": 129
 }

@@ -2,7 +2,7 @@
   "name": "Bò  Cạp Tím",
   "anchor": [
     0.5,
-    1.0
+    0.9162
   ],
   "width": 206,
   "height": 191,
@@ -43,5 +43,6 @@
   "id": "creature_001179",
   "db_id": "1340",
   "res_code_num": 1179,
-  "swf_hash": "4d25db35935fb34f0e4328806f959f50"
+  "swf_hash": "4d25db35935fb34f0e4328806f959f50",
+  "feet_y": 175
 }

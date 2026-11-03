@@ -2,7 +2,7 @@
   "name": "Oan Hồn",
   "anchor": [
     0.5,
-    1.0
+    0.96
   ],
   "width": 72,
   "height": 100,
@@ -43,5 +43,6 @@
   "id": "creature_000026",
   "db_id": "24",
   "res_code_num": 26,
-  "swf_hash": "6abb490f73d4e3651039bf9cdddfd987"
+  "swf_hash": "6abb490f73d4e3651039bf9cdddfd987",
+  "feet_y": 96
 }

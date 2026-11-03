@@ -2,7 +2,7 @@
   "name": "Thỏ Đại Ca",
   "anchor": [
     0.5,
-    1.0
+    0.8318
   ],
   "width": 94,
   "height": 107,
@@ -43,5 +43,6 @@
   "id": "creature_001070",
   "db_id": "202",
   "res_code_num": 1070,
-  "swf_hash": "66c31e36ac20080415ddb9c3142efebb"
+  "swf_hash": "66c31e36ac20080415ddb9c3142efebb",
+  "feet_y": 89
 }

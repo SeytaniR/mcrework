@@ -2,7 +2,7 @@
   "name": "Pose de Montaria Tapete (F)",
   "anchor": [
     0.5,
-    1.0
+    0.8468
   ],
   "width": 117,
   "height": 111,
@@ -44,5 +44,6 @@
   "gender": "FEMALE",
   "tier": "mount",
   "res_code_num": 100006,
-  "swf_hash": "bd04d166f8a9037616c0999f09efeb50"
+  "swf_hash": "bd04d166f8a9037616c0999f09efeb50",
+  "feet_y": 94
 }

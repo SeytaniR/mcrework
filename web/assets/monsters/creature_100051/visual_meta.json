@@ -2,7 +2,7 @@
   "name": "Long Tiểu Thanh",
   "anchor": [
     0.5,
-    1.0
+    0.9814
   ],
   "width": 188,
   "height": 161,
@@ -43,5 +43,6 @@
   "id": "creature_100051",
   "db_id": "2277",
   "res_code_num": 100051,
-  "swf_hash": "3355890d7152f184dcbae51fb5473ba1"
+  "swf_hash": "3355890d7152f184dcbae51fb5473ba1",
+  "feet_y": 158
 }

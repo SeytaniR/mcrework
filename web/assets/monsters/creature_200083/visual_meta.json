@@ -2,7 +2,7 @@
   "name": "Hộ Vệ Hiệp Sĩ 【Nữ Lv50】",
   "anchor": [
     0.5,
-    1.0
+    0.8219
   ],
   "width": 199,
   "height": 146,
@@ -43,5 +43,6 @@
   "id": "creature_200083",
   "db_id": "1719",
   "res_code_num": 200083,
-  "swf_hash": "47efac68f870b27b09dbd155b369b851"
+  "swf_hash": "47efac68f870b27b09dbd155b369b851",
+  "feet_y": 120
 }

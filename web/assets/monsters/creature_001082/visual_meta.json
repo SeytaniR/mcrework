@@ -2,7 +2,7 @@
   "name": "Nắp Ấm Tinh",
   "anchor": [
     0.5,
-    1.0
+    0.9449
   ],
   "width": 184,
   "height": 127,
@@ -43,5 +43,6 @@
   "id": "creature_001082",
   "db_id": "137",
   "res_code_num": 1082,
-  "swf_hash": "baf6bcd14dbce2ed732d0d3c5297c1ad"
+  "swf_hash": "baf6bcd14dbce2ed732d0d3c5297c1ad",
+  "feet_y": 120
 }

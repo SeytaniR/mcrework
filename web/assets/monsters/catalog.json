@@ -37,7 +37,11 @@
       "category": "pet",
       "catchable": true,
       "in_handbook": false,
-      "real_name": "Sa Tặc Cuồng Phong"
+      "real_name": "Sa Tặc Cuồng Phong",
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_000002",
@@ -74,7 +78,11 @@
       "category": "pet",
       "catchable": true,
       "in_handbook": false,
-      "real_name": "Gà Tây May Mắn"
+      "real_name": "Gà Tây May Mắn",
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_000002",
@@ -111,7 +119,11 @@
       "category": "pet",
       "catchable": true,
       "in_handbook": false,
-      "real_name": "Gà Tây May Mắn"
+      "real_name": "Gà Tây May Mắn",
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_000003",
@@ -149,7 +161,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Sinh vật kịch độc trong Mê Huyễn Động, chỉ cần bị gai nhọn đâm vào là có thể chết ngay tức khắc",
-      "real_name": "Xương Rồng Cực Độc"
+      "real_name": "Xương Rồng Cực Độc",
+      "anchor": [
+        0.5,
+        0.9882
+      ]
     },
     {
       "id": "creature_000003",
@@ -187,7 +203,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Sinh vật kịch độc trong Mê Huyễn Động, chỉ cần bị gai nhọn đâm vào là có thể chết ngay tức khắc",
-      "real_name": "Xương Rồng Cực Độc"
+      "real_name": "Xương Rồng Cực Độc",
+      "anchor": [
+        0.5,
+        0.9882
+      ]
     },
     {
       "id": "creature_000004",
@@ -224,7 +244,11 @@
       "category": "pet",
       "catchable": true,
       "in_handbook": false,
-      "real_name": "Cây Ăn Quả Nhỏ"
+      "real_name": "Cây Ăn Quả Nhỏ",
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_000004",
@@ -261,7 +285,11 @@
       "category": "pet",
       "catchable": true,
       "in_handbook": false,
-      "real_name": "Cây Ăn Quả Nhỏ"
+      "real_name": "Cây Ăn Quả Nhỏ",
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_000005",
@@ -296,7 +324,11 @@
       "thumb": "assets/monsters/creature_000005/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_000005",
@@ -331,7 +363,11 @@
       "thumb": "assets/monsters/creature_000005/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_000006",
@@ -368,7 +404,11 @@
       "category": "pet",
       "catchable": true,
       "in_handbook": false,
-      "real_name": "Bạch Tuộc Lục"
+      "real_name": "Bạch Tuộc Lục",
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_000006",
@@ -405,7 +445,11 @@
       "category": "pet",
       "catchable": true,
       "in_handbook": false,
-      "real_name": "Bạch Tuộc Lục"
+      "real_name": "Bạch Tuộc Lục",
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_000006",
@@ -442,7 +486,11 @@
       "category": "pet",
       "catchable": true,
       "in_handbook": false,
-      "real_name": "Bạch Tuộc Lục"
+      "real_name": "Bạch Tuộc Lục",
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_000007",
@@ -479,7 +527,11 @@
       "category": "pet",
       "catchable": true,
       "in_handbook": false,
-      "real_name": "Tiểu Hải Tinh"
+      "real_name": "Tiểu Hải Tinh",
+      "anchor": [
+        0.5,
+        0.8478
+      ]
     },
     {
       "id": "creature_000008",
@@ -517,7 +569,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Máu là nguồn dinh dưỡng nuôi sống hải tinh, và từ lâu hắn luôn mục tiêu có các binh đoàn khát máu chiêu mộ",
-      "real_name": "Hấp Huyết Hải Tinh"
+      "real_name": "Hấp Huyết Hải Tinh",
+      "anchor": [
+        0.5,
+        0.8696
+      ]
     },
     {
       "id": "creature_000009",
@@ -552,7 +608,11 @@
       "thumb": "assets/monsters/creature_000009/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_000010",
@@ -587,7 +647,11 @@
       "thumb": "assets/monsters/creature_000010/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9889
+      ]
     },
     {
       "id": "creature_000011",
@@ -624,7 +688,11 @@
       "category": "pet",
       "catchable": true,
       "in_handbook": false,
-      "real_name": "Ốc Tiểu Binh"
+      "real_name": "Ốc Tiểu Binh",
+      "anchor": [
+        0.5,
+        0.8925
+      ]
     },
     {
       "id": "creature_000012",
@@ -659,7 +727,11 @@
       "thumb": "assets/monsters/creature_000012/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.8198
+      ]
     },
     {
       "id": "creature_000013",
@@ -694,7 +766,11 @@
       "thumb": "assets/monsters/creature_000013/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.8318
+      ]
     },
     {
       "id": "creature_000014",
@@ -731,7 +807,11 @@
       "category": "pet",
       "catchable": true,
       "in_handbook": false,
-      "real_name": "Nấm Yêu"
+      "real_name": "Nấm Yêu",
+      "anchor": [
+        0.5,
+        0.8434
+      ]
     },
     {
       "id": "creature_000015",
@@ -768,7 +848,11 @@
       "category": "pet",
       "catchable": true,
       "in_handbook": false,
-      "real_name": "Nấm Kim Điệp"
+      "real_name": "Nấm Kim Điệp",
+      "anchor": [
+        0.5,
+        0.9459
+      ]
     },
     {
       "id": "creature_000016",
@@ -804,7 +888,11 @@
       "category": "pet",
       "catchable": true,
       "in_handbook": false,
-      "real_name": "Nấm Bắt Được"
+      "real_name": "Nấm Bắt Được",
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_000017",
@@ -841,7 +929,11 @@
       "category": "pet",
       "catchable": true,
       "in_handbook": false,
-      "real_name": "Tiểu Thủy Bào"
+      "real_name": "Tiểu Thủy Bào",
+      "anchor": [
+        0.5,
+        0.9831
+      ]
     },
     {
       "id": "creature_000018",
@@ -878,7 +970,11 @@
       "category": "pet",
       "catchable": true,
       "in_handbook": false,
-      "real_name": "Tiểu Sơn Quái"
+      "real_name": "Tiểu Sơn Quái",
+      "anchor": [
+        0.5,
+        0.9083
+      ]
     },
     {
       "id": "creature_000019",
@@ -914,7 +1010,11 @@
       "category": "pet",
       "catchable": true,
       "in_handbook": false,
-      "real_name": "Độc Nhãn Ốc Đảo"
+      "real_name": "Độc Nhãn Ốc Đảo",
+      "anchor": [
+        0.5,
+        0.9083
+      ]
     },
     {
       "id": "creature_000020",
@@ -952,7 +1052,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Làm nhiều chuyện xấu quá nên phải đeo kính đen để tránh bị truy nã",
-      "real_name": "Mèo Kính Đen"
+      "real_name": "Mèo Kính Đen",
+      "anchor": [
+        0.5,
+        0.8214
+      ]
     },
     {
       "id": "creature_000021",
@@ -990,7 +1094,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Chú dê con bé nhỏ này rất thích hợp cho những người chơi mới do có sức tấn công mạnh, tốc độ nhanh, bạo kích cao, lại có thuộc tính ám hỗ trợ, điểm yếu là lượng HP tương đối thấp và dễ bị pet thuộc tính quang khắc chế.",
-      "real_name": "Hổ Bì Dương"
+      "real_name": "Hổ Bì Dương",
+      "anchor": [
+        0.5,
+        0.8195
+      ]
     },
     {
       "id": "creature_000022",
@@ -1025,7 +1133,11 @@
       "thumb": "assets/monsters/creature_000022/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.8595
+      ]
     },
     {
       "id": "creature_000023",
@@ -1060,7 +1172,11 @@
       "thumb": "assets/monsters/creature_000023/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_000024",
@@ -1095,7 +1211,11 @@
       "thumb": "assets/monsters/creature_000024/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9155
+      ]
     },
     {
       "id": "creature_000025",
@@ -1130,7 +1250,11 @@
       "thumb": "assets/monsters/creature_000025/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9
+      ]
     },
     {
       "id": "creature_000026",
@@ -1165,7 +1289,11 @@
       "thumb": "assets/monsters/creature_000026/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.96
+      ]
     },
     {
       "id": "creature_000027",
@@ -1200,7 +1328,11 @@
       "thumb": "assets/monsters/creature_000027/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.8333
+      ]
     },
     {
       "id": "creature_000028",
@@ -1235,7 +1367,11 @@
       "thumb": "assets/monsters/creature_000028/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.8692
+      ]
     },
     {
       "id": "creature_000028",
@@ -1270,7 +1406,11 @@
       "thumb": "assets/monsters/creature_000028/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.8692
+      ]
     },
     {
       "id": "creature_000029",
@@ -1307,7 +1447,11 @@
       "category": "pet",
       "catchable": true,
       "in_handbook": false,
-      "real_name": "Khổng Lồ Vân Thiên"
+      "real_name": "Khổng Lồ Vân Thiên",
+      "anchor": [
+        0.5,
+        0.9583
+      ]
     },
     {
       "id": "creature_000030",
@@ -1342,7 +1486,11 @@
       "thumb": "assets/monsters/creature_000030/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_000031",
@@ -1377,7 +1525,11 @@
       "thumb": "assets/monsters/creature_000031/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_000031",
@@ -1412,7 +1564,11 @@
       "thumb": "assets/monsters/creature_000031/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_000032",
@@ -1450,7 +1606,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Là yêu nữ của Băng Tuyết, có khả năng đưa người khác vào trạng thái mơ ảo giữa thực và hư",
-      "real_name": "Ảo Mộng Nữ Yêu 【BOSS Phi Hành lv135】"
+      "real_name": "Ảo Mộng Nữ Yêu 【BOSS Phi Hành lv135】",
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_000033",
@@ -1485,7 +1645,11 @@
       "thumb": "assets/monsters/creature_000033/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_000033",
@@ -1520,7 +1684,11 @@
       "thumb": "assets/monsters/creature_000033/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_000034",
@@ -1558,7 +1726,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Tất cả công phu đều là tự luyện thành. Mỗi ngày gấu trúc phải ăn 1 lượng lớn cơm để bồi bổ công lực",
-      "real_name": "Gấu Trúc Kungfu"
+      "real_name": "Gấu Trúc Kungfu",
+      "anchor": [
+        0.5,
+        0.8632
+      ]
     },
     {
       "id": "creature_000035",
@@ -1593,7 +1765,11 @@
       "thumb": "assets/monsters/creature_000035/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9588
+      ]
     },
     {
       "id": "creature_000036",
@@ -1628,7 +1804,11 @@
       "thumb": "assets/monsters/creature_000036/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9574
+      ]
     },
     {
       "id": "creature_000037",
@@ -1666,7 +1846,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "So với đám hải tặc, Phi tặc có tài cướp bóc nhưng trong chốn không người. Ra tay nhanh chóng, gọn lẹ là ưu điểm của chúng",
-      "real_name": "Phi Tặc"
+      "real_name": "Phi Tặc",
+      "anchor": [
+        0.5,
+        0.9279
+      ]
     },
     {
       "id": "creature_000038",
@@ -1704,7 +1888,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Tập đoàn cướp bóc xuyên đại lục, là 1 trong những mối nguy hại hàng đầu của Đại Lục Vô Ưu",
-      "real_name": "Thủ Lĩnh Hải Tặc"
+      "real_name": "Thủ Lĩnh Hải Tặc",
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_000039",
@@ -1739,7 +1927,11 @@
       "thumb": "assets/monsters/creature_000039/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_000040",
@@ -1774,7 +1966,11 @@
       "thumb": "assets/monsters/creature_000040/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.7526
+      ]
     },
     {
       "id": "creature_000041",
@@ -1809,7 +2005,11 @@
       "thumb": "assets/monsters/creature_000041/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9865
+      ]
     },
     {
       "id": "creature_000042",
@@ -1844,7 +2044,11 @@
       "thumb": "assets/monsters/creature_000042/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_000043",
@@ -1879,7 +2083,11 @@
       "thumb": "assets/monsters/creature_000043/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9286
+      ]
     },
     {
       "id": "creature_000044",
@@ -1914,7 +2122,11 @@
       "thumb": "assets/monsters/creature_000044/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9485
+      ]
     },
     {
       "id": "creature_000045",
@@ -1952,7 +2164,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Chỉ thích một cuộc sống yên bình, vì vậy đã sống ẩn dật nhiều năm ở các dãy núi Vân Lộc Sơn. Ai làm phiền Leviathan sẽ phải gánh chịu hậu quả nặng nề",
-      "real_name": "Leviathan"
+      "real_name": "Leviathan",
+      "anchor": [
+        0.5,
+        0.9913
+      ]
     },
     {
       "id": "creature_000046",
@@ -1987,7 +2203,11 @@
       "thumb": "assets/monsters/creature_000046/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_000047",
@@ -2025,7 +2245,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Tuy không có sức nóng công phá như mặt trời thật sự nhưng cũng đủ làm nhân loại một phen điên đảo",
-      "real_name": "Tiểu Thái Dương"
+      "real_name": "Tiểu Thái Dương",
+      "anchor": [
+        0.5,
+        0.9921
+      ]
     },
     {
       "id": "creature_000048",
@@ -2060,7 +2284,11 @@
       "thumb": "assets/monsters/creature_000048/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.8148
+      ]
     },
     {
       "id": "creature_000049",
@@ -2098,7 +2326,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Vua thực vật sinh sống tại Linh Lan, cực mạnh và đầy quyền lực, gần đây hắn đang triệu tập lực lượng để chống lại các gia tộc.",
-      "real_name": "Bách Thảo Tinh"
+      "real_name": "Bách Thảo Tinh",
+      "anchor": [
+        0.5,
+        0.8
+      ]
     },
     {
       "id": "creature_000050",
@@ -2133,7 +2365,11 @@
       "thumb": "assets/monsters/creature_000050/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_000051",
@@ -2171,7 +2407,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Có khả năng tự thay đổi diện mạo một cách nhanh chóng, không ai biết được bộ mặt thật",
-      "real_name": "Thiên Diện Ma Vương"
+      "real_name": "Thiên Diện Ma Vương",
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_000052",
@@ -2206,7 +2446,11 @@
       "thumb": "assets/monsters/creature_000052/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9
+      ]
     },
     {
       "id": "creature_000053",
@@ -2241,7 +2485,11 @@
       "thumb": "assets/monsters/creature_000053/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9764
+      ]
     },
     {
       "id": "creature_000054",
@@ -2276,7 +2524,11 @@
       "thumb": "assets/monsters/creature_000054/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.7583
+      ]
     },
     {
       "id": "creature_000055",
@@ -2311,7 +2563,11 @@
       "thumb": "assets/monsters/creature_000055/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.7841
+      ]
     },
     {
       "id": "creature_000061",
@@ -2346,7 +2602,11 @@
       "thumb": "assets/monsters/creature_000061/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_000073",
@@ -2381,7 +2641,11 @@
       "thumb": "assets/monsters/creature_000073/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_000075",
@@ -2416,7 +2680,11 @@
       "thumb": "assets/monsters/creature_000075/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_000077",
@@ -2451,7 +2719,11 @@
       "thumb": "assets/monsters/creature_000077/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_000079",
@@ -2486,7 +2758,11 @@
       "thumb": "assets/monsters/creature_000079/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.8433
+      ]
     },
     {
       "id": "creature_000080",
@@ -2521,7 +2797,11 @@
       "thumb": "assets/monsters/creature_000080/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.8108
+      ]
     },
     {
       "id": "creature_000083",
@@ -2556,7 +2836,11 @@
       "thumb": "assets/monsters/creature_000083/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_000084",
@@ -2591,7 +2875,11 @@
       "thumb": "assets/monsters/creature_000084/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001000",
@@ -2626,7 +2914,11 @@
       "thumb": "assets/monsters/creature_001000/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.8824
+      ]
     },
     {
       "id": "creature_001056",
@@ -2661,7 +2953,11 @@
       "thumb": "assets/monsters/creature_001056/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001057",
@@ -2696,7 +2992,11 @@
       "thumb": "assets/monsters/creature_001057/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001058",
@@ -2731,7 +3031,11 @@
       "thumb": "assets/monsters/creature_001058/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001059",
@@ -2769,7 +3073,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Là một trong những yêu ma mạnh nhất luôn đối đầu với thế giới chính nghĩa. Khi xuất hiện luôn có ngọn lửa bao quanh người",
-      "real_name": "Ma Thần"
+      "real_name": "Ma Thần",
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001060",
@@ -2804,7 +3112,11 @@
       "thumb": "assets/monsters/creature_001060/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9167
+      ]
     },
     {
       "id": "creature_001061",
@@ -2839,7 +3151,11 @@
       "thumb": "assets/monsters/creature_001061/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001062",
@@ -2874,7 +3190,11 @@
       "thumb": "assets/monsters/creature_001062/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001063",
@@ -2909,7 +3229,11 @@
       "thumb": "assets/monsters/creature_001063/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9664
+      ]
     },
     {
       "id": "creature_001064",
@@ -2944,7 +3268,11 @@
       "thumb": "assets/monsters/creature_001064/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001065",
@@ -2979,7 +3307,11 @@
       "thumb": "assets/monsters/creature_001065/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001066",
@@ -3014,7 +3346,11 @@
       "thumb": "assets/monsters/creature_001066/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001067",
@@ -3049,7 +3385,11 @@
       "thumb": "assets/monsters/creature_001067/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9313
+      ]
     },
     {
       "id": "creature_001068",
@@ -3084,7 +3424,11 @@
       "thumb": "assets/monsters/creature_001068/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001069",
@@ -3122,7 +3466,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Đeo kính mát để che giấu đôi mắt gian xảo, thích trêu ghẹo người khác của mình",
-      "real_name": "Mèo Yêu Tinh Nghịch"
+      "real_name": "Mèo Yêu Tinh Nghịch",
+      "anchor": [
+        0.5,
+        0.8812
+      ]
     },
     {
       "id": "creature_001070",
@@ -3159,7 +3507,11 @@
       "category": "pet",
       "catchable": true,
       "in_handbook": false,
-      "real_name": "Thỏ Lưu Manh"
+      "real_name": "Thỏ Lưu Manh",
+      "anchor": [
+        0.5,
+        0.8318
+      ]
     },
     {
       "id": "creature_001071",
@@ -3197,7 +3549,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Luôn có dã tâm trở lại xâm chiếm Đại Lục Vô Ưu, là 1 trong những mối nguy hại hàng đầu",
-      "real_name": "Phản Quân Đại Tướng"
+      "real_name": "Phản Quân Đại Tướng",
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001072",
@@ -3232,7 +3588,11 @@
       "thumb": "assets/monsters/creature_001072/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.8705
+      ]
     },
     {
       "id": "creature_001073",
@@ -3267,7 +3627,11 @@
       "thumb": "assets/monsters/creature_001073/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001074",
@@ -3302,7 +3666,11 @@
       "thumb": "assets/monsters/creature_001074/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001075",
@@ -3340,7 +3708,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Bề ngoài như 1 đứa con nít dễ thương nhưng thực ra là 1 binh khí chiến đấu lợi hại của vương quốc robot. Tuy không trang bị nhiều đạn dược nhưng cũng đủ làm cho kẻ địch phải lao đao",
-      "real_name": "Búp Bê Máy"
+      "real_name": "Búp Bê Máy",
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001076",
@@ -3375,7 +3747,11 @@
       "thumb": "assets/monsters/creature_001076/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001077",
@@ -3410,7 +3786,11 @@
       "thumb": "assets/monsters/creature_001077/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001078",
@@ -3445,7 +3825,11 @@
       "thumb": "assets/monsters/creature_001078/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001079",
@@ -3480,7 +3864,11 @@
       "thumb": "assets/monsters/creature_001079/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001080",
@@ -3515,7 +3903,11 @@
       "thumb": "assets/monsters/creature_001080/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001081",
@@ -3550,7 +3942,11 @@
       "thumb": "assets/monsters/creature_001081/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.8034
+      ]
     },
     {
       "id": "creature_001082",
@@ -3588,7 +3984,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Tuy hình dáng thật thà, dễ thương nhưng chỉ cần sơ hở là sẽ bị nuốt chửng. Một cái chết bất ngờ và nhẹ nhàng ",
-      "real_name": "Cây Nắp Ấm"
+      "real_name": "Cây Nắp Ấm",
+      "anchor": [
+        0.5,
+        0.9449
+      ]
     },
     {
       "id": "creature_001083",
@@ -3623,7 +4023,11 @@
       "thumb": "assets/monsters/creature_001083/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001084",
@@ -3658,7 +4062,11 @@
       "thumb": "assets/monsters/creature_001084/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001085",
@@ -3693,7 +4101,11 @@
       "thumb": "assets/monsters/creature_001085/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001086",
@@ -3728,7 +4140,11 @@
       "thumb": "assets/monsters/creature_001086/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001087",
@@ -3763,7 +4179,11 @@
       "thumb": "assets/monsters/creature_001087/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9034
+      ]
     },
     {
       "id": "creature_001088",
@@ -3801,7 +4221,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Yêu thú bên cảnh của Ma Vương. Bề ngoài to lớn, hung ác, xấu xí, đủ làm cho mọi người không dám đến gần, huống hồ chi là khiêu chiến",
-      "real_name": "Phủ Ma"
+      "real_name": "Phủ Ma",
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001089",
@@ -3836,7 +4260,11 @@
       "thumb": "assets/monsters/creature_001089/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001090",
@@ -3874,7 +4302,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Núp bóng dưới hình hài 1 con rồng nhỏ dễ thương nhưng thật ra nó chẳng có họ hàng gì với loài rồng",
-      "real_name": "Mammon"
+      "real_name": "Mammon",
+      "anchor": [
+        0.5,
+        0.7481
+      ]
     },
     {
       "id": "creature_001091",
@@ -3912,7 +4344,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Gia nhập vào binh đoàn ác ma từ lâu nên các thủ đoạn tội ác của chúng Lợi Trảo Long đều rất thông thuộc và từ từ mất đi tính tôn quý từ gia tộc Rồng",
-      "real_name": "Lợi Trảo Long"
+      "real_name": "Lợi Trảo Long",
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001092",
@@ -3950,7 +4386,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Không ai có thể tùy tiện bắt nạt được Samael",
-      "real_name": "Samael"
+      "real_name": "Samael",
+      "anchor": [
+        0.5,
+        0.9591
+      ]
     },
     {
       "id": "creature_001093",
@@ -3985,7 +4425,11 @@
       "thumb": "assets/monsters/creature_001093/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001094",
@@ -4023,7 +4467,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Long tộc là chủng tộc pet cao quý trên Vô Ưu Đại Lục, khả năng miễn 70% sát thương khiến cho kẻ địch phải chùn bước. Nếu có thêm các kỹ năng hỗ trợ, pet rồng sẽ khiến cho kẻ nào dám đương đầu đều sẽ hối hận!",
-      "real_name": "Thần Long Viễn Cổ"
+      "real_name": "Thần Long Viễn Cổ",
+      "anchor": [
+        0.5,
+        0.9865
+      ]
     },
     {
       "id": "creature_001095",
@@ -4058,7 +4506,11 @@
       "thumb": "assets/monsters/creature_001095/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001096",
@@ -4096,7 +4548,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Có khả năng khống chế thế giới thực và ảo, tính tình quái dị, ma lực thần bí. Không ai ở Đại Lục Vô Ưu này là không biết độ khủng của bọn chúng",
-      "real_name": "Ma Chiến"
+      "real_name": "Ma Chiến",
+      "anchor": [
+        0.5,
+        0.8914
+      ]
     },
     {
       "id": "creature_001097",
@@ -4134,7 +4590,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Một sinh linh sống tại Mễ Quang Tự. Không ai biết đây là người hay ma, chỉ biết hắn có tài làm người ta rơi vào ảo giác",
-      "real_name": "Mê Hồn Giáo Chủ"
+      "real_name": "Mê Hồn Giáo Chủ",
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001098",
@@ -4169,7 +4629,11 @@
       "thumb": "assets/monsters/creature_001098/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001099",
@@ -4207,7 +4671,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Tâm nguyện luôn muốn trở thành con người, nhưng do hoàn cảnh đưa đẩy mà chỉ biến hình được cái kính mát và khăn đỏ buột đầu. Đừng vì ngoại hình kỳ quái này mà khinh thường rùa ta ~!~",
-      "real_name": "Rùa Nika"
+      "real_name": "Rùa Nika",
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001100",
@@ -4242,7 +4710,11 @@
       "thumb": "assets/monsters/creature_001100/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9184
+      ]
     },
     {
       "id": "creature_001101",
@@ -4277,7 +4749,11 @@
       "thumb": "assets/monsters/creature_001101/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001102",
@@ -4312,7 +4788,11 @@
       "thumb": "assets/monsters/creature_001102/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001103",
@@ -4347,7 +4827,11 @@
       "thumb": "assets/monsters/creature_001103/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001104",
@@ -4382,7 +4866,11 @@
       "thumb": "assets/monsters/creature_001104/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9778
+      ]
     },
     {
       "id": "creature_001105",
@@ -4420,7 +4908,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Là cua nhưng lại thích sống trên cạn hơn dưới nước. Vì vậy mà sức mạnh của nó cũng rất khó lường",
-      "real_name": "Cua Yêu"
+      "real_name": "Cua Yêu",
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001106",
@@ -4455,7 +4947,11 @@
       "thumb": "assets/monsters/creature_001106/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.744
+      ]
     },
     {
       "id": "creature_001107",
@@ -4490,7 +4986,11 @@
       "thumb": "assets/monsters/creature_001107/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.8411
+      ]
     },
     {
       "id": "creature_001108",
@@ -4525,7 +5025,11 @@
       "thumb": "assets/monsters/creature_001108/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001109",
@@ -4560,7 +5064,11 @@
       "thumb": "assets/monsters/creature_001109/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001110",
@@ -4595,7 +5103,11 @@
       "thumb": "assets/monsters/creature_001110/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.8963
+      ]
     },
     {
       "id": "creature_001111",
@@ -4630,7 +5142,11 @@
       "thumb": "assets/monsters/creature_001111/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001112",
@@ -4665,7 +5181,11 @@
       "thumb": "assets/monsters/creature_001112/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001113",
@@ -4700,7 +5220,11 @@
       "thumb": "assets/monsters/creature_001113/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.942
+      ]
     },
     {
       "id": "creature_001114",
@@ -4735,7 +5259,11 @@
       "thumb": "assets/monsters/creature_001114/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001115",
@@ -4773,7 +5301,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Không biết vì nguyên do gì mà từ một con rồng ôn hòa lại trở nên nóng nảy như vậy. Hễ ai chọc giận Bạo Liệt Long là đều có có kết cục đẹp",
-      "real_name": "Bạo Liệt Long"
+      "real_name": "Bạo Liệt Long",
+      "anchor": [
+        0.5,
+        0.8542
+      ]
     },
     {
       "id": "creature_001116",
@@ -4808,7 +5340,11 @@
       "thumb": "assets/monsters/creature_001116/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.8322
+      ]
     },
     {
       "id": "creature_001117",
@@ -4843,7 +5379,11 @@
       "thumb": "assets/monsters/creature_001117/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001118",
@@ -4878,7 +5418,11 @@
       "thumb": "assets/monsters/creature_001118/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001119",
@@ -4913,7 +5457,11 @@
       "thumb": "assets/monsters/creature_001119/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001120",
@@ -4948,7 +5496,11 @@
       "thumb": "assets/monsters/creature_001120/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001121",
@@ -4986,7 +5538,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Nhóm người có trí tuệ thông minh, có khả năng chế tạo các người máy chiến đấu, ẩn cư vùng băng tuyết",
-      "real_name": "Tộc Navi"
+      "real_name": "Tộc Navi",
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001122",
@@ -5021,7 +5577,11 @@
       "thumb": "assets/monsters/creature_001122/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001123",
@@ -5056,7 +5616,11 @@
       "thumb": "assets/monsters/creature_001123/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9896
+      ]
     },
     {
       "id": "creature_001124",
@@ -5094,7 +5658,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Không tà cũng không chính, giết người chủ yếu chỉ là sở thích của Atula Vương",
-      "real_name": "Atula Vương"
+      "real_name": "Atula Vương",
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001125",
@@ -5132,7 +5700,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Vua ma thần vĩ đại, không chỉ cực mạnh mà còn là kẻ đứng đầu ma giới, lãnh đạo 72 ma thần.",
-      "real_name": "Solomon"
+      "real_name": "Solomon",
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001126",
@@ -5167,7 +5739,11 @@
       "thumb": "assets/monsters/creature_001126/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9771
+      ]
     },
     {
       "id": "creature_001127",
@@ -5202,7 +5778,11 @@
       "thumb": "assets/monsters/creature_001127/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001128",
@@ -5240,7 +5820,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Đừng tưởng Long tộc chỉ biết dùng sức mạnh móng vuốt. Linh Long ngoài hình dáng xinh xắn, còn có mê lực hơn người",
-      "real_name": "Linh Long"
+      "real_name": "Linh Long",
+      "anchor": [
+        0.5,
+        0.9292
+      ]
     },
     {
       "id": "creature_001129",
@@ -5275,7 +5859,11 @@
       "thumb": "assets/monsters/creature_001129/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9048
+      ]
     },
     {
       "id": "creature_001130",
@@ -5310,7 +5898,11 @@
       "thumb": "assets/monsters/creature_001130/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001131",
@@ -5345,7 +5937,11 @@
       "thumb": "assets/monsters/creature_001131/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001132",
@@ -5380,7 +5976,11 @@
       "thumb": "assets/monsters/creature_001132/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001133",
@@ -5415,7 +6015,11 @@
       "thumb": "assets/monsters/creature_001133/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001134",
@@ -5450,7 +6054,11 @@
       "thumb": "assets/monsters/creature_001134/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001135",
@@ -5485,7 +6093,11 @@
       "thumb": "assets/monsters/creature_001135/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001136",
@@ -5523,7 +6135,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Là em gái của Linh Long, sắc đẹp cũng như tài năng, không thua kém gì người chị của mình",
-      "real_name": "Tiểu Linh Long"
+      "real_name": "Tiểu Linh Long",
+      "anchor": [
+        0.5,
+        0.9683
+      ]
     },
     {
       "id": "creature_001137",
@@ -5558,7 +6174,11 @@
       "thumb": "assets/monsters/creature_001137/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001138",
@@ -5593,7 +6213,11 @@
       "thumb": "assets/monsters/creature_001138/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001139",
@@ -5628,7 +6252,11 @@
       "thumb": "assets/monsters/creature_001139/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9926
+      ]
     },
     {
       "id": "creature_001140",
@@ -5663,7 +6291,11 @@
       "thumb": "assets/monsters/creature_001140/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001141",
@@ -5701,7 +6333,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Ếch vốn là sinh vật ôn hòa, nhưng vì chịu nguyền rủa của bóng đêm mà thay đổi trở thành độc ác và sẵn sàng bất kỳ ai xâm phạm vào lãnh thổ đầm lầy của nó",
-      "real_name": "Ếch Độc Đầm Lầy"
+      "real_name": "Ếch Độc Đầm Lầy",
+      "anchor": [
+        0.5,
+        0.8803
+      ]
     },
     {
       "id": "creature_001142",
@@ -5736,7 +6372,11 @@
       "thumb": "assets/monsters/creature_001142/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001143",
@@ -5771,7 +6411,11 @@
       "thumb": "assets/monsters/creature_001143/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.8
+      ]
     },
     {
       "id": "creature_001144",
@@ -5806,7 +6450,11 @@
       "thumb": "assets/monsters/creature_001144/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001145",
@@ -5841,7 +6489,11 @@
       "thumb": "assets/monsters/creature_001145/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001146",
@@ -5876,7 +6528,11 @@
       "thumb": "assets/monsters/creature_001146/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9875
+      ]
     },
     {
       "id": "creature_001147",
@@ -5911,7 +6567,11 @@
       "thumb": "assets/monsters/creature_001147/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9636
+      ]
     },
     {
       "id": "creature_001148",
@@ -5946,7 +6606,11 @@
       "thumb": "assets/monsters/creature_001148/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001149",
@@ -5981,7 +6645,11 @@
       "thumb": "assets/monsters/creature_001149/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9663
+      ]
     },
     {
       "id": "creature_001151",
@@ -6016,7 +6684,11 @@
       "thumb": "assets/monsters/creature_001151/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001152",
@@ -6051,7 +6723,11 @@
       "thumb": "assets/monsters/creature_001152/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.989
+      ]
     },
     {
       "id": "creature_001153",
@@ -6086,7 +6762,11 @@
       "thumb": "assets/monsters/creature_001153/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001154",
@@ -6121,7 +6801,11 @@
       "thumb": "assets/monsters/creature_001154/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001155",
@@ -6159,7 +6843,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Truyền thuyết kể rằng, hộ sĩ sau khi chiến đấu ác ma đã rơi vào giấc ngủ say, nhưng không biết vì lý do gì, sau khi tỉnh giấc, hắn hoàn toàn thay đổi, trởi thành linh hồn núp sau loài cây kịch động ở Mê Huyễn, đợi thời cơ tấn công Vô Ưu",
-      "real_name": "Cự Ma Mê Huyễn 【4 BOSS chính Mê Huyễn】"
+      "real_name": "Cự Ma Mê Huyễn 【4 BOSS chính Mê Huyễn】",
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001156",
@@ -6194,7 +6882,11 @@
       "thumb": "assets/monsters/creature_001156/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001157",
@@ -6232,7 +6924,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Nhìn như vũ khí uy lực to lớn, có khả năng phá vỡ bất kỳ tảng băng cứng rắn nào",
-      "real_name": "Cơ Giáp Phá Băng Loại 300"
+      "real_name": "Cơ Giáp Phá Băng Loại 300",
+      "anchor": [
+        0.5,
+        0.9032
+      ]
     },
     {
       "id": "creature_001158",
@@ -6267,7 +6963,11 @@
       "thumb": "assets/monsters/creature_001158/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001159",
@@ -6302,7 +7002,11 @@
       "thumb": "assets/monsters/creature_001159/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001160",
@@ -6337,7 +7041,11 @@
       "thumb": "assets/monsters/creature_001160/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001161",
@@ -6372,7 +7080,11 @@
       "thumb": "assets/monsters/creature_001161/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001162",
@@ -6407,7 +7119,11 @@
       "thumb": "assets/monsters/creature_001162/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001163",
@@ -6442,7 +7158,11 @@
       "thumb": "assets/monsters/creature_001163/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001164",
@@ -6480,7 +7200,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Vì hút quá nhiều máu người nên được phong là vua trong các loài muỗi",
-      "real_name": "Muỗi Đại Vương"
+      "real_name": "Muỗi Đại Vương",
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001165",
@@ -6518,7 +7242,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Đây là con trai của thần Sấm Sét, vì bị thần Hắc Ám đầu độc nên cùng với đứa em trai của mình - thần Sức Mạnh liên kết giết chết cha ruột của mình và sai khiến Solomon hủy diệt Đại Lục Vô Ưu.",
-      "real_name": "Mehdi Anh"
+      "real_name": "Mehdi Anh",
+      "anchor": [
+        0.5,
+        0.9407
+      ]
     },
     {
       "id": "creature_001166",
@@ -6556,7 +7284,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Vị thống soái tàn bạo nhất trong giới ác ma. Là đại diện cho năng lực tà ác",
-      "real_name": "Chu Ma Vương【Quái Chính 5 Chu Ma Điện】"
+      "real_name": "Chu Ma Vương【Quái Chính 5 Chu Ma Điện】",
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001167",
@@ -6591,7 +7323,11 @@
       "thumb": "assets/monsters/creature_001167/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.93
+      ]
     },
     {
       "id": "creature_001168",
@@ -6626,7 +7362,11 @@
       "thumb": "assets/monsters/creature_001168/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001169",
@@ -6661,7 +7401,11 @@
       "thumb": "assets/monsters/creature_001169/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001170",
@@ -6696,7 +7440,11 @@
       "thumb": "assets/monsters/creature_001170/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001171",
@@ -6731,7 +7479,11 @@
       "thumb": "assets/monsters/creature_001171/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001172",
@@ -6769,7 +7521,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Sinh trưởng dưới đáy đại dương, làm kẻ thù phải chết ngạt trong môi trường thiếu oxy",
-      "real_name": "Dây Rong"
+      "real_name": "Dây Rong",
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001173",
@@ -6804,7 +7560,11 @@
       "thumb": "assets/monsters/creature_001173/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001174",
@@ -6839,7 +7599,11 @@
       "thumb": "assets/monsters/creature_001174/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9914
+      ]
     },
     {
       "id": "creature_001175",
@@ -6874,7 +7638,11 @@
       "thumb": "assets/monsters/creature_001175/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001176",
@@ -6909,7 +7677,11 @@
       "thumb": "assets/monsters/creature_001176/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001177",
@@ -6944,7 +7716,11 @@
       "thumb": "assets/monsters/creature_001177/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001178",
@@ -6979,7 +7755,11 @@
       "thumb": "assets/monsters/creature_001178/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001179",
@@ -7014,7 +7794,11 @@
       "thumb": "assets/monsters/creature_001179/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9162
+      ]
     },
     {
       "id": "creature_001180",
@@ -7049,7 +7833,11 @@
       "thumb": "assets/monsters/creature_001180/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001181",
@@ -7084,7 +7872,11 @@
       "thumb": "assets/monsters/creature_001181/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9727
+      ]
     },
     {
       "id": "creature_001182",
@@ -7119,7 +7911,11 @@
       "thumb": "assets/monsters/creature_001182/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.991
+      ]
     },
     {
       "id": "creature_001183",
@@ -7154,7 +7950,11 @@
       "thumb": "assets/monsters/creature_001183/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001184",
@@ -7189,7 +7989,11 @@
       "thumb": "assets/monsters/creature_001184/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001185",
@@ -7224,7 +8028,11 @@
       "thumb": "assets/monsters/creature_001185/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001186",
@@ -7259,7 +8067,11 @@
       "thumb": "assets/monsters/creature_001186/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001187",
@@ -7294,7 +8106,11 @@
       "thumb": "assets/monsters/creature_001187/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001188",
@@ -7329,7 +8145,11 @@
       "thumb": "assets/monsters/creature_001188/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001189",
@@ -7364,7 +8184,11 @@
       "thumb": "assets/monsters/creature_001189/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001190",
@@ -7399,7 +8223,11 @@
       "thumb": "assets/monsters/creature_001190/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001191",
@@ -7434,7 +8262,11 @@
       "thumb": "assets/monsters/creature_001191/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001192",
@@ -7469,7 +8301,11 @@
       "thumb": "assets/monsters/creature_001192/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001193",
@@ -7504,7 +8340,11 @@
       "thumb": "assets/monsters/creature_001193/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001194",
@@ -7539,7 +8379,11 @@
       "thumb": "assets/monsters/creature_001194/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001195",
@@ -7574,7 +8418,11 @@
       "thumb": "assets/monsters/creature_001195/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001196",
@@ -7609,7 +8457,11 @@
       "thumb": "assets/monsters/creature_001196/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001197",
@@ -7644,7 +8496,11 @@
       "thumb": "assets/monsters/creature_001197/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9137
+      ]
     },
     {
       "id": "creature_001198",
@@ -7679,7 +8535,11 @@
       "thumb": "assets/monsters/creature_001198/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9837
+      ]
     },
     {
       "id": "creature_001199",
@@ -7714,7 +8574,11 @@
       "thumb": "assets/monsters/creature_001199/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9137
+      ]
     },
     {
       "id": "creature_001200",
@@ -7749,7 +8613,11 @@
       "thumb": "assets/monsters/creature_001200/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9655
+      ]
     },
     {
       "id": "creature_001201",
@@ -7784,7 +8652,11 @@
       "thumb": "assets/monsters/creature_001201/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9655
+      ]
     },
     {
       "id": "creature_001202",
@@ -7819,7 +8691,11 @@
       "thumb": "assets/monsters/creature_001202/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9406
+      ]
     },
     {
       "id": "creature_001203",
@@ -7854,7 +8730,11 @@
       "thumb": "assets/monsters/creature_001203/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001204",
@@ -7889,7 +8769,11 @@
       "thumb": "assets/monsters/creature_001204/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001205",
@@ -7924,7 +8808,11 @@
       "thumb": "assets/monsters/creature_001205/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001206",
@@ -7959,7 +8847,11 @@
       "thumb": "assets/monsters/creature_001206/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001207",
@@ -7994,7 +8886,11 @@
       "thumb": "assets/monsters/creature_001207/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001208",
@@ -8029,7 +8925,11 @@
       "thumb": "assets/monsters/creature_001208/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001209",
@@ -8064,7 +8964,11 @@
       "thumb": "assets/monsters/creature_001209/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9016
+      ]
     },
     {
       "id": "creature_001210",
@@ -8099,7 +9003,11 @@
       "thumb": "assets/monsters/creature_001210/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9366
+      ]
     },
     {
       "id": "creature_001211",
@@ -8134,7 +9042,11 @@
       "thumb": "assets/monsters/creature_001211/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9016
+      ]
     },
     {
       "id": "creature_001212",
@@ -8169,7 +9081,11 @@
       "thumb": "assets/monsters/creature_001212/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.891
+      ]
     },
     {
       "id": "creature_001213",
@@ -8204,7 +9120,11 @@
       "thumb": "assets/monsters/creature_001213/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.891
+      ]
     },
     {
       "id": "creature_001214",
@@ -8239,7 +9159,11 @@
       "thumb": "assets/monsters/creature_001214/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.891
+      ]
     },
     {
       "id": "creature_001215",
@@ -8274,7 +9198,11 @@
       "thumb": "assets/monsters/creature_001215/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001216",
@@ -8309,7 +9237,11 @@
       "thumb": "assets/monsters/creature_001216/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001217",
@@ -8344,7 +9276,11 @@
       "thumb": "assets/monsters/creature_001217/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001218",
@@ -8379,7 +9315,11 @@
       "thumb": "assets/monsters/creature_001218/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9625
+      ]
     },
     {
       "id": "creature_001219",
@@ -8414,7 +9354,11 @@
       "thumb": "assets/monsters/creature_001219/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9565
+      ]
     },
     {
       "id": "creature_001220",
@@ -8449,7 +9393,11 @@
       "thumb": "assets/monsters/creature_001220/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9625
+      ]
     },
     {
       "id": "creature_001221",
@@ -8484,7 +9432,11 @@
       "thumb": "assets/monsters/creature_001221/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001222",
@@ -8519,7 +9471,11 @@
       "thumb": "assets/monsters/creature_001222/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001223",
@@ -8554,7 +9510,11 @@
       "thumb": "assets/monsters/creature_001223/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001224",
@@ -8589,7 +9549,11 @@
       "thumb": "assets/monsters/creature_001224/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001225",
@@ -8624,7 +9588,11 @@
       "thumb": "assets/monsters/creature_001225/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001226",
@@ -8659,7 +9627,11 @@
       "thumb": "assets/monsters/creature_001226/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001227",
@@ -8694,7 +9666,11 @@
       "thumb": "assets/monsters/creature_001227/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001228",
@@ -8729,7 +9705,11 @@
       "thumb": "assets/monsters/creature_001228/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001229",
@@ -8767,7 +9747,11 @@
       "thumb": "assets/monsters/creature_001229/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001230",
@@ -8805,7 +9789,11 @@
       "thumb": "assets/monsters/creature_001230/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001231",
@@ -8843,7 +9831,11 @@
       "thumb": "assets/monsters/creature_001231/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001232",
@@ -8881,7 +9873,11 @@
       "thumb": "assets/monsters/creature_001232/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001233",
@@ -8919,7 +9915,11 @@
       "thumb": "assets/monsters/creature_001233/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001234",
@@ -8957,7 +9957,11 @@
       "thumb": "assets/monsters/creature_001234/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001235",
@@ -8995,7 +9999,11 @@
       "thumb": "assets/monsters/creature_001235/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001236",
@@ -9033,7 +10041,11 @@
       "thumb": "assets/monsters/creature_001236/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001237",
@@ -9071,7 +10083,11 @@
       "thumb": "assets/monsters/creature_001237/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001238",
@@ -9106,7 +10122,11 @@
       "thumb": "assets/monsters/creature_001238/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001239",
@@ -9141,7 +10161,11 @@
       "thumb": "assets/monsters/creature_001239/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001240",
@@ -9176,7 +10200,11 @@
       "thumb": "assets/monsters/creature_001240/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001241",
@@ -9211,7 +10239,11 @@
       "thumb": "assets/monsters/creature_001241/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001242",
@@ -9246,7 +10278,11 @@
       "thumb": "assets/monsters/creature_001242/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001243",
@@ -9281,7 +10317,11 @@
       "thumb": "assets/monsters/creature_001243/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001244",
@@ -9316,7 +10356,11 @@
       "thumb": "assets/monsters/creature_001244/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001245",
@@ -9351,7 +10395,11 @@
       "thumb": "assets/monsters/creature_001245/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001246",
@@ -9386,7 +10434,11 @@
       "thumb": "assets/monsters/creature_001246/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001247",
@@ -9421,7 +10473,11 @@
       "thumb": "assets/monsters/creature_001247/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001248",
@@ -9459,7 +10515,11 @@
       "thumb": "assets/monsters/creature_001248/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.6942
+      ]
     },
     {
       "id": "creature_001249",
@@ -9497,7 +10557,11 @@
       "thumb": "assets/monsters/creature_001249/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.7601
+      ]
     },
     {
       "id": "creature_001250",
@@ -9532,7 +10596,11 @@
       "thumb": "assets/monsters/creature_001250/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9793
+      ]
     },
     {
       "id": "creature_001251",
@@ -9567,7 +10635,11 @@
       "thumb": "assets/monsters/creature_001251/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001252",
@@ -9605,7 +10677,11 @@
       "thumb": "assets/monsters/creature_001252/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001253",
@@ -9643,7 +10719,11 @@
       "thumb": "assets/monsters/creature_001253/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001254",
@@ -9681,7 +10761,11 @@
       "thumb": "assets/monsters/creature_001254/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9845
+      ]
     },
     {
       "id": "creature_001255",
@@ -9719,7 +10803,11 @@
       "thumb": "assets/monsters/creature_001255/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001256",
@@ -9757,7 +10845,11 @@
       "thumb": "assets/monsters/creature_001256/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001257",
@@ -9795,7 +10887,11 @@
       "thumb": "assets/monsters/creature_001257/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001258",
@@ -9830,7 +10926,11 @@
       "thumb": "assets/monsters/creature_001258/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.8598
+      ]
     },
     {
       "id": "creature_001259",
@@ -9865,7 +10965,11 @@
       "thumb": "assets/monsters/creature_001259/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001260",
@@ -9900,7 +11004,11 @@
       "thumb": "assets/monsters/creature_001260/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9514
+      ]
     },
     {
       "id": "creature_001261",
@@ -9935,7 +11043,11 @@
       "thumb": "assets/monsters/creature_001261/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001262",
@@ -9970,7 +11082,11 @@
       "thumb": "assets/monsters/creature_001262/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9539
+      ]
     },
     {
       "id": "creature_001263",
@@ -10005,7 +11121,11 @@
       "thumb": "assets/monsters/creature_001263/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9
+      ]
     },
     {
       "id": "creature_001264",
@@ -10040,7 +11160,11 @@
       "thumb": "assets/monsters/creature_001264/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.8676
+      ]
     },
     {
       "id": "creature_001265",
@@ -10075,7 +11199,11 @@
       "thumb": "assets/monsters/creature_001265/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9896
+      ]
     },
     {
       "id": "creature_001266",
@@ -10110,7 +11238,11 @@
       "thumb": "assets/monsters/creature_001266/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001267",
@@ -10145,7 +11277,11 @@
       "thumb": "assets/monsters/creature_001267/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001268",
@@ -10180,7 +11316,11 @@
       "thumb": "assets/monsters/creature_001268/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.8971
+      ]
     },
     {
       "id": "creature_001269",
@@ -10215,7 +11355,11 @@
       "thumb": "assets/monsters/creature_001269/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.8539
+      ]
     },
     {
       "id": "creature_001270",
@@ -10250,7 +11394,11 @@
       "thumb": "assets/monsters/creature_001270/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.8561
+      ]
     },
     {
       "id": "creature_001271",
@@ -10285,7 +11433,11 @@
       "thumb": "assets/monsters/creature_001271/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001272",
@@ -10320,7 +11472,11 @@
       "thumb": "assets/monsters/creature_001272/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001273",
@@ -10355,7 +11511,11 @@
       "thumb": "assets/monsters/creature_001273/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001274",
@@ -10390,7 +11550,11 @@
       "thumb": "assets/monsters/creature_001274/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_001901",
@@ -10425,7 +11589,11 @@
       "thumb": "assets/monsters/creature_001901/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_100000",
@@ -10463,7 +11631,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Bất kể là người hay ma thì đều có 1 tuổi thơ và hình ảnh ngậm sữa bình vẫn luôn là đáng nhớ nhất",
-      "real_name": "Ác Long Sơ Sinh"
+      "real_name": "Ác Long Sơ Sinh",
+      "anchor": [
+        0.5,
+        0.9083
+      ]
     },
     {
       "id": "creature_100000",
@@ -10501,7 +11673,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Bất kể là người hay ma thì đều có 1 tuổi thơ và hình ảnh ngậm sữa bình vẫn luôn là đáng nhớ nhất",
-      "real_name": "Ác Long Sơ Sinh"
+      "real_name": "Ác Long Sơ Sinh",
+      "anchor": [
+        0.5,
+        0.9083
+      ]
     },
     {
       "id": "creature_100001",
@@ -10539,7 +11715,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Thực lực của Kim Ngưu là quá rõ ràng, các điểm tư chất cao, sức tấn công mạnh và lượng HP dồi dào, cộng thêm vẻ ngoài đáng sợ đã khiến Kim Ngưu trở thành 1 trong những pet đáng gờm trên Vô Ưu Đại Lục. Một pet Kim Ngưu có kỹ năng Dã Thú Cuồng Vũ chính là m",
-      "real_name": "Tân Niên Kim Ngưu"
+      "real_name": "Tân Niên Kim Ngưu",
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_100002",
@@ -10577,7 +11757,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Thuần chủng máu trâu, thuần chủng sức mạnh, không ai địch lại",
-      "real_name": "Huyết Ngưu Thuần Chủng"
+      "real_name": "Huyết Ngưu Thuần Chủng",
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_100003",
@@ -10615,7 +11799,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Thiên Sứ Mít Ướt là hóa thân của thần Tình Yêu, vì thế có nhiều kỹ năng rất kỳ diệu. Nếu sở hữu Hào Quang Ái Thần, pet sẽ có khả năng trị liệu cho nhiều người, nếu có kỹ năng Mũi Tên Cupid, pet sẽ khiến cho nhiều địch thủ rơi vào trạng thái hỗn loạn, đặc ",
-      "real_name": "Thiên Sứ Mít Ướt"
+      "real_name": "Thiên Sứ Mít Ướt",
+      "anchor": [
+        0.5,
+        0.9592
+      ]
     },
     {
       "id": "creature_100004",
@@ -10653,7 +11841,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Ác Ma Quấy Phá có năng lực phá hoại cực mạnh. Nếu sở hữu Ác Ma Chi Kích, pet sẽ có năng lực sát thương cực mạnh, nếu có Tình Yêu Ngụy Kế, pet sẽ tạo sát thương cho số đông, đặc biệt là kỹ năng Lời Ngọt Ngào có thể cùng lúc gây sát thương cho 10 mục tiêu, ",
-      "real_name": "Ác Ma Quấy Phá"
+      "real_name": "Ác Ma Quấy Phá",
+      "anchor": [
+        0.5,
+        0.8235
+      ]
     },
     {
       "id": "creature_100005",
@@ -10688,7 +11880,11 @@
       "thumb": "assets/monsters/creature_100005/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.931
+      ]
     },
     {
       "id": "creature_100006",
@@ -10726,7 +11922,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Tinh Linh Hộ Thú tuy không sở hữu sức tấn công mạnh mẽ, cũng không có ma pháp huyền diệu, nhưng độ trung thành của pet này là không thể xem thường. Khả năng liều mình ngăn chặn tấn công vật lý cho chủ nhân và đồng đội chắc chắn sẽ khiến bạn yên tâm trên b",
-      "real_name": "Tinh Linh Hộ Thú"
+      "real_name": "Tinh Linh Hộ Thú",
+      "anchor": [
+        0.5,
+        0.8785
+      ]
     },
     {
       "id": "creature_100007",
@@ -10764,7 +11964,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Y Tá MM là một y tá đẳng cấp của gia tộc Đông Huyền, vừa tận tâm, vừa ôn hòa, dễ mến. Bằng tài năng và sự chân thành, có Y Tá MM bên cạnh, mọi vết thương trên người đều sẽ được trị khỏi. Tuy nhiên trong những cuộc chiến sinh tử, Y Tá MM luôn có năng lực s",
-      "real_name": "Y Tá MM"
+      "real_name": "Y Tá MM",
+      "anchor": [
+        0.5,
+        0.9748
+      ]
     },
     {
       "id": "creature_100008",
@@ -10802,7 +12006,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Long tộc là chủng tộc pet cao quý trên Vô Ưu Đại Lục, khả năng miễn 70% sát thương khiến cho kẻ địch phải chùn bước. Nếu có thêm các kỹ năng hỗ trợ, pet rồng sẽ khiến cho kẻ nào dám đương đầu đều sẽ hối hận!",
-      "real_name": "Đinh Long"
+      "real_name": "Đinh Long",
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_100009",
@@ -10840,7 +12048,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Không nên xem thường quả dứa bé nhỏ này, chất độc trên người nó khiến cho loài rồng cũng phải kiêng dè. Các kỹ năng độc và hồi HP của pet này đều rất đáng nể.",
-      "real_name": "Dứa Mật"
+      "real_name": "Dứa Mật",
+      "anchor": [
+        0.5,
+        0.9785
+      ]
     },
     {
       "id": "creature_100010",
@@ -10878,7 +12090,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Là nhân vật hình mẫu của các gia tộc. Vẻ ngoài xinh xắn, nhưng năng lực biến hóa khôn lường. Muốn thử nghiệm thì cứ động thủ !",
-      "real_name": "Tiểu Lương Tử"
+      "real_name": "Tiểu Lương Tử",
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_100011",
@@ -10916,7 +12132,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Linh vật biểu tượng cho sự tài phú. Mèo ta sẵn sàng cho các cư dân một món tài sản kết xù nhưng không phải ai cũng có được dễ dàng. Phải chứng minh mình là người xứng đáng nhé!",
-      "real_name": "Chiêu Tài Mao"
+      "real_name": "Chiêu Tài Mao",
+      "anchor": [
+        0.5,
+        0.8814
+      ]
     },
     {
       "id": "creature_100012",
@@ -10954,7 +12174,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Dê thì phải ăn cỏ thôi, bộ lạ lắm à?",
-      "real_name": "Dê Con II"
+      "real_name": "Dê Con II",
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_100013",
@@ -10992,7 +12216,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Đừng để vẻ đẹp của Công Chúa Ác Ma đánh lừa bạn, khả năng phá hoại của cô ấy khiến cho Ma Vương cũng phải ngán ngẩm, bản lĩnh dẫn dắt sức mạnh ma giới sẽ tạo sát thương cực mạnh cho kẻ địch.",
-      "real_name": "Công Chúa Ác Ma"
+      "real_name": "Công Chúa Ác Ma",
+      "anchor": [
+        0.5,
+        0.9318
+      ]
     },
     {
       "id": "creature_100014",
@@ -11030,7 +12258,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Hoàng Tử Thiên Sứ là niềm tự hào của Tộc Thiên Sứ, có khả năng dẫn dắt sức mạnh thần thánh, bảo vệ và tăng sức chiến đấu cho bản thân và đồng đội.",
-      "real_name": "Hoàng Tử Thiên Sứ"
+      "real_name": "Hoàng Tử Thiên Sứ",
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_100015",
@@ -11068,7 +12300,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Chúa sơn lâm đã xuất hiện! Đừng nhìn vẻ bề ngoài đáng yêu của pet mà xem thường nhé. Các kỹ năng hấp thu HP của Kim Hổ tạo sát thương cực mạnh, khiến cho pet này có năng lực chiến đấu mạnh mẽ trên chiến trường và sức chịu đựng bền bỉ.",
-      "real_name": "Kim Hổ"
+      "real_name": "Kim Hổ",
+      "anchor": [
+        0.5,
+        0.911
+      ]
     },
     {
       "id": "creature_100016",
@@ -11103,7 +12339,11 @@
       "thumb": "assets/monsters/creature_100016/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_100017",
@@ -11141,7 +12381,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Là người thừa kế duy nhất của hoàng tộc vương quốc máy móc, vẻ mặt đáng yêu thánh thiện, Momo sở hữu những kỹ năng sử dụng năng lượng sóng điện như Mê Tâm hay Khóa Mục Tiêu, khiến đối thương trúng sát thương trong chớp mắt. Ngoài ra các kỹ năng hệ máy như",
-      "real_name": "Momo"
+      "real_name": "Momo",
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_100018",
@@ -11179,7 +12423,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Trang điểm xong rồi mặc áo ngủ đi chơi mới là thú vị ^_^",
-      "real_name": "Momo 2"
+      "real_name": "Momo 2",
+      "anchor": [
+        0.5,
+        0.9618
+      ]
     },
     {
       "id": "creature_100019",
@@ -11217,7 +12465,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Nhím Xanh là tinh linh cao cấp, tuy vẻ ngoài đáng yêu và có chút yếu ớt nhưng bên trong lại có sức mạnh kinh hồn mà bản thân chưa biết. Có thể học được tất cả kỹ năng hệ thực vật. Hai kỹ năng đặc biệt nhất là Tiêu Nhược và Phản Xạ. Khi lâm vào hoàn cảnh s",
-      "real_name": "Nhím Xanh"
+      "real_name": "Nhím Xanh",
+      "anchor": [
+        0.5,
+        0.8051
+      ]
     },
     {
       "id": "creature_100020",
@@ -11255,7 +12507,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Tuy có vẻ ngoài vô cùng đáng yêu nhưng sức chiến đấu của pet này thật sự rất đáng nể. Với bản chất thông minh, kế thừa và phát huy được các ưu thế của pet hệ người, ngoài ra còn sở hữu 2 kỹ năng tấn công ma pháp liên tục và ngăn chặn sát thương, Thỏ Baby ",
-      "real_name": "Thỏ Baby"
+      "real_name": "Thỏ Baby",
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_100021",
@@ -11293,7 +12549,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Nấm Điện xuất thân từ vương quốc nấm xa xôi, nghe nói bọn yêu ma từng dụ dỗ Nấm Điện chống lại các gia tộc, nhưng Nấm Điện chính nghĩa đã không nghe theo. Nấm Điện có đòn tấn công sát thương quy mô lớn, là pet thích hợp dùng để luyện cấp 50 - 80.",
-      "real_name": "Nấm Điện"
+      "real_name": "Nấm Điện",
+      "anchor": [
+        0.5,
+        0.9922
+      ]
     },
     {
       "id": "creature_100022",
@@ -11331,7 +12591,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Pony là truyền nhân nhí, dễ thương của gia tộc Ngựa Một Sừng, luôn mong muốn đem lại hòa bình cho thế giới. Sở hữu ma pháp trị liệu thần thánh của gia tộc và rất ghét chiến tranh.",
-      "real_name": "Pony"
+      "real_name": "Pony",
+      "anchor": [
+        0.5,
+        0.9346
+      ]
     },
     {
       "id": "creature_100023",
@@ -11369,7 +12633,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Camy là truyền nhân của dòng tộc ác ma. Nhờ vào những ca khúc 《Linh Hồn Khúc》 ai oán, thần bí mà có thể trói buộc được linh hồn của đối phương, làm kẻ thù mất đi khả năng tự hồi phục và trị liệu. Đây cũng là kỹ năng làm cho người khác khiếp sợ trong hệ Ác",
-      "real_name": "Camy"
+      "real_name": "Camy",
+      "anchor": [
+        0.5,
+        0.9385
+      ]
     },
     {
       "id": "creature_100024",
@@ -11404,7 +12672,11 @@
       "thumb": "assets/monsters/creature_100024/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_100025",
@@ -11442,7 +12714,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Loni vốn là con gải của Đông Hải Long Vương, thông minh, đáng yêu, hiền lành, tốt bụng, và đặc biệt luôn hiếu kỳ với cuộc sống của nhân gian. Sở hữu kỹ năng ma pháp bí chú lợi hại, nhưng do tuổi còn quá nhỏ, công lực bí chú chưa được phát huy ổn định",
-      "real_name": "Loni"
+      "real_name": "Loni",
+      "anchor": [
+        0.5,
+        0.9804
+      ]
     },
     {
       "id": "creature_100026",
@@ -11480,7 +12756,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Người bạn tốt của nông dân là đây …",
-      "real_name": "Chim Ưng"
+      "real_name": "Chim Ưng",
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_100027",
@@ -11518,7 +12798,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Là 1 trong những á ma truyền thuyết,. Một phần thân thể bị giam ở Đăng Vân Địa, nhiều lần toan tính thoát khỏi nhưng đều thất bại, Vì vậy, nhiều phân thân của hắn cứ xuất hiện quấy phá cư dân",
-      "real_name": "Hydra【Kiếp Nạn Vô Ưu - Atula】"
+      "real_name": "Hydra【Kiếp Nạn Vô Ưu - Atula】",
+      "anchor": [
+        0.5,
+        0.8423
+      ]
     },
     {
       "id": "creature_100029",
@@ -11556,7 +12840,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Kỳ Kỳ là một tinh linh của tộc người Naga truyền thuyết, nắm giữ sức mạnh hắc ám vô biên của vùng biển cổ xưa và chỉ có Kỳ Kỳ mới có khả năng thi triển năng lực huyền bí của tộc Naga",
-      "real_name": "Kỳ Kỳ"
+      "real_name": "Kỳ Kỳ",
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_100030",
@@ -11594,7 +12882,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Dù có tin hay không thì nấm điện vẫn là 1 cô gái dễ thương không kém gì mỹ nhân nào ^_^",
-      "real_name": "Nấm Điện【Bản Trưởng Thành】"
+      "real_name": "Nấm Điện【Bản Trưởng Thành】",
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_100032",
@@ -11632,7 +12924,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Thần thú trong truyền thuyết, sở hữu năng lực phi thường",
-      "real_name": "Hắc Nhân Mã"
+      "real_name": "Hắc Nhân Mã",
+      "anchor": [
+        0.5,
+        0.8913
+      ]
     },
     {
       "id": "creature_100033",
@@ -11667,7 +12963,11 @@
       "thumb": "assets/monsters/creature_100033/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9094
+      ]
     },
     {
       "id": "creature_100034",
@@ -11702,7 +13002,11 @@
       "thumb": "assets/monsters/creature_100034/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9758
+      ]
     },
     {
       "id": "creature_100035",
@@ -11737,7 +13041,11 @@
       "thumb": "assets/monsters/creature_100035/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9516
+      ]
     },
     {
       "id": "creature_100036",
@@ -11772,7 +13080,11 @@
       "thumb": "assets/monsters/creature_100036/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_100037",
@@ -11807,7 +13119,11 @@
       "thumb": "assets/monsters/creature_100037/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_100038",
@@ -11842,7 +13158,11 @@
       "thumb": "assets/monsters/creature_100038/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9771
+      ]
     },
     {
       "id": "creature_100039",
@@ -11877,7 +13197,11 @@
       "thumb": "assets/monsters/creature_100039/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_100040",
@@ -11915,7 +13239,11 @@
       "thumb": "assets/monsters/creature_100040/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.993
+      ]
     },
     {
       "id": "creature_100041",
@@ -11953,7 +13281,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Tề Thiên Đại Thánh, nhất thế chí tôn, đi nam về bắc, lên trời xuống đất, thần kỳ bách biến.",
-      "real_name": "Đại Thánh Chí Tôn"
+      "real_name": "Đại Thánh Chí Tôn",
+      "anchor": [
+        0.5,
+        0.9536
+      ]
     },
     {
       "id": "creature_100042",
@@ -11988,7 +13320,11 @@
       "thumb": "assets/monsters/creature_100042/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_100043",
@@ -12026,7 +13362,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Chim phượng hoàng sinh là từ ngọn lửa bất tử phương nam. \\nMỗi lần chết đi, quanh thân sẽ xuất hiện vòng lửa, \\nsau đó tiếp tiếp tục từ lửa mà tái sinh, \\nđồng thời sức mạnh càng tăng gấp bội phần",
-      "real_name": "Moltres"
+      "real_name": "Moltres",
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_100044",
@@ -12061,7 +13401,11 @@
       "thumb": "assets/monsters/creature_100044/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_100045",
@@ -12099,7 +13443,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Vì tấm lòng yêu thương nhân loại, \\nShiba được xem là sứ giả hòa bình may mắn",
-      "real_name": "Võ Sĩ Shiba"
+      "real_name": "Võ Sĩ Shiba",
+      "anchor": [
+        0.5,
+        0.9612
+      ]
     },
     {
       "id": "creature_100046",
@@ -12134,7 +13482,11 @@
       "thumb": "assets/monsters/creature_100046/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9819
+      ]
     },
     {
       "id": "creature_100047",
@@ -12169,7 +13521,11 @@
       "thumb": "assets/monsters/creature_100047/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.8909
+      ]
     },
     {
       "id": "creature_100048",
@@ -12207,7 +13563,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Hóa thân của Hiệp Sĩ Lợn, tiêu trừ cái ác, đem lại hòa bình cho thế giới",
-      "real_name": "Burin"
+      "real_name": "Burin",
+      "anchor": [
+        0.5,
+        0.8909
+      ]
     },
     {
       "id": "creature_100049",
@@ -12245,7 +13605,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Chú chuột thông minh, tài hoa.",
-      "real_name": "Jery"
+      "real_name": "Jery",
+      "anchor": [
+        0.5,
+        0.9725
+      ]
     },
     {
       "id": "creature_100050",
@@ -12280,7 +13644,11 @@
       "thumb": "assets/monsters/creature_100050/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_100051",
@@ -12318,7 +13686,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Sau một trận cuồng phong, \\nLong Tiểu Thanh xuất hiện trên một đám mây",
-      "real_name": "Long Tiểu Thanh"
+      "real_name": "Long Tiểu Thanh",
+      "anchor": [
+        0.5,
+        0.9814
+      ]
     },
     {
       "id": "creature_100052",
@@ -12353,7 +13725,11 @@
       "thumb": "assets/monsters/creature_100052/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9636
+      ]
     },
     {
       "id": "creature_100053",
@@ -12391,7 +13767,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Vân tập sự huyền bí của Nam thất tinh túc",
-      "real_name": "Kim Tước"
+      "real_name": "Kim Tước",
+      "anchor": [
+        0.5,
+        0.9277
+      ]
     },
     {
       "id": "creature_100054",
@@ -12426,7 +13806,11 @@
       "thumb": "assets/monsters/creature_100054/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_100055",
@@ -12464,7 +13848,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Xung quah bao trùm linh khí huyền vũ",
-      "real_name": "Huyền Minh Linh Vũ"
+      "real_name": "Huyền Minh Linh Vũ",
+      "anchor": [
+        0.5,
+        0.95
+      ]
     },
     {
       "id": "creature_100056",
@@ -12499,7 +13887,11 @@
       "thumb": "assets/monsters/creature_100056/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_100057",
@@ -12537,7 +13929,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Hàn khí ngùn ngụt",
-      "real_name": "Bạch Hổ Cuồng Nộ"
+      "real_name": "Bạch Hổ Cuồng Nộ",
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_100058",
@@ -12572,7 +13968,11 @@
       "thumb": "assets/monsters/creature_100058/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.989
+      ]
     },
     {
       "id": "creature_100059",
@@ -12610,7 +14010,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Một sinh vật hùng mạnh mang sức mạnh sấm sét",
-      "real_name": "Lôi Lân Ảnh"
+      "real_name": "Lôi Lân Ảnh",
+      "anchor": [
+        0.5,
+        0.994
+      ]
     },
     {
       "id": "creature_100060",
@@ -12645,7 +14049,11 @@
       "thumb": "assets/monsters/creature_100060/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9401
+      ]
     },
     {
       "id": "creature_110000",
@@ -12680,7 +14088,11 @@
       "thumb": "assets/monsters/creature_110000/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.8454
+      ]
     },
     {
       "id": "creature_200001",
@@ -12715,7 +14127,11 @@
       "thumb": "assets/monsters/creature_200001/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200002",
@@ -12750,7 +14166,11 @@
       "thumb": "assets/monsters/creature_200002/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200003",
@@ -12788,7 +14208,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Đây là hồn phách của thủ lĩnh tử trận năm xưa. Sau khi bị ma khí xâm nhập thể xác đã trở nên cuồng bộ, luôn muốn tấn công vào Tinh Linh Thành",
-      "real_name": "Thành Chủ【Boss Chính Tuyến】"
+      "real_name": "Thành Chủ【Boss Chính Tuyến】",
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200004",
@@ -12823,7 +14247,11 @@
       "thumb": "assets/monsters/creature_200004/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.8671
+      ]
     },
     {
       "id": "creature_200005",
@@ -12858,7 +14286,11 @@
       "thumb": "assets/monsters/creature_200005/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200005",
@@ -12893,7 +14325,11 @@
       "thumb": "assets/monsters/creature_200005/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200006",
@@ -12928,7 +14364,11 @@
       "thumb": "assets/monsters/creature_200006/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9932
+      ]
     },
     {
       "id": "creature_200007",
@@ -12966,7 +14406,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Đôi cánh là binh khí uy lực nhất của sinh vật gia tộc Rồng này",
-      "real_name": "Dực Long"
+      "real_name": "Dực Long",
+      "anchor": [
+        0.5,
+        0.9456
+      ]
     },
     {
       "id": "creature_200008",
@@ -13001,7 +14445,11 @@
       "thumb": "assets/monsters/creature_200008/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200009",
@@ -13036,7 +14484,11 @@
       "thumb": "assets/monsters/creature_200009/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200010",
@@ -13071,7 +14523,11 @@
       "thumb": "assets/monsters/creature_200010/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9816
+      ]
     },
     {
       "id": "creature_200011",
@@ -13106,7 +14562,11 @@
       "thumb": "assets/monsters/creature_200011/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200012",
@@ -13141,7 +14601,11 @@
       "thumb": "assets/monsters/creature_200012/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9055
+      ]
     },
     {
       "id": "creature_200013",
@@ -13176,7 +14640,11 @@
       "thumb": "assets/monsters/creature_200013/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9658
+      ]
     },
     {
       "id": "creature_200014",
@@ -13211,7 +14679,11 @@
       "thumb": "assets/monsters/creature_200014/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200015",
@@ -13246,7 +14718,11 @@
       "thumb": "assets/monsters/creature_200015/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.8267
+      ]
     },
     {
       "id": "creature_200016",
@@ -13284,7 +14760,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Không biết học yêu thuật từ phương nào mà phù thủy này toàn thân đều có mùi lá cây",
-      "real_name": "Phù Thủy Tà Ác 【Lục Tiên Cảnh】"
+      "real_name": "Phù Thủy Tà Ác 【Lục Tiên Cảnh】",
+      "anchor": [
+        0.5,
+        0.902
+      ]
     },
     {
       "id": "creature_200017",
@@ -13322,7 +14802,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Đây là vị cua bạo ngược nhất trong lịch sử, được chôn cất ở lăng mộ nằm sâu trong hoang mạc. Khi phong ấn không còn, hắn sẽ là nỗi kinh hoàng cho tất cả cư dân",
-      "real_name": "Pharaoh Cabu III 【Kho Báu Đại Mạc】"
+      "real_name": "Pharaoh Cabu III 【Kho Báu Đại Mạc】",
+      "anchor": [
+        0.5,
+        0.9579
+      ]
     },
     {
       "id": "creature_200018",
@@ -13357,7 +14841,11 @@
       "thumb": "assets/monsters/creature_200018/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200019",
@@ -13392,7 +14880,11 @@
       "thumb": "assets/monsters/creature_200019/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200020",
@@ -13427,7 +14919,11 @@
       "thumb": "assets/monsters/creature_200020/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.7755
+      ]
     },
     {
       "id": "creature_200021",
@@ -13462,7 +14958,11 @@
       "thumb": "assets/monsters/creature_200021/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200022",
@@ -13497,7 +14997,11 @@
       "thumb": "assets/monsters/creature_200022/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9847
+      ]
     },
     {
       "id": "creature_200023",
@@ -13531,7 +15035,11 @@
       "thumb": "assets/monsters/creature_200023/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200024",
@@ -13566,7 +15074,11 @@
       "thumb": "assets/monsters/creature_200024/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.8468
+      ]
     },
     {
       "id": "creature_200025",
@@ -13601,7 +15113,11 @@
       "thumb": "assets/monsters/creature_200025/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200026",
@@ -13636,7 +15152,11 @@
       "thumb": "assets/monsters/creature_200026/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200027",
@@ -13671,7 +15191,11 @@
       "thumb": "assets/monsters/creature_200027/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.8571
+      ]
     },
     {
       "id": "creature_200028",
@@ -13706,7 +15230,11 @@
       "thumb": "assets/monsters/creature_200028/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.8618
+      ]
     },
     {
       "id": "creature_200029",
@@ -13740,7 +15268,11 @@
       "thumb": "assets/monsters/creature_200029/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200030",
@@ -13775,7 +15307,11 @@
       "thumb": "assets/monsters/creature_200030/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.8909
+      ]
     },
     {
       "id": "creature_200031",
@@ -13810,7 +15346,11 @@
       "thumb": "assets/monsters/creature_200031/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200032",
@@ -13845,7 +15385,11 @@
       "thumb": "assets/monsters/creature_200032/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200033",
@@ -13880,7 +15424,11 @@
       "thumb": "assets/monsters/creature_200033/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200034",
@@ -13915,7 +15463,11 @@
       "thumb": "assets/monsters/creature_200034/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9083
+      ]
     },
     {
       "id": "creature_200037",
@@ -13950,7 +15502,11 @@
       "thumb": "assets/monsters/creature_200037/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200038",
@@ -13985,7 +15541,11 @@
       "thumb": "assets/monsters/creature_200038/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200040",
@@ -14020,7 +15580,11 @@
       "thumb": "assets/monsters/creature_200040/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200041",
@@ -14055,7 +15619,11 @@
       "thumb": "assets/monsters/creature_200041/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200042",
@@ -14090,7 +15658,11 @@
       "thumb": "assets/monsters/creature_200042/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200043",
@@ -14125,7 +15697,11 @@
       "thumb": "assets/monsters/creature_200043/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.8016
+      ]
     },
     {
       "id": "creature_200044",
@@ -14160,7 +15736,11 @@
       "thumb": "assets/monsters/creature_200044/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9907
+      ]
     },
     {
       "id": "creature_200045",
@@ -14195,7 +15775,11 @@
       "thumb": "assets/monsters/creature_200045/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.8621
+      ]
     },
     {
       "id": "creature_200046",
@@ -14230,7 +15814,11 @@
       "thumb": "assets/monsters/creature_200046/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9689
+      ]
     },
     {
       "id": "creature_200047",
@@ -14265,7 +15853,11 @@
       "thumb": "assets/monsters/creature_200047/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9689
+      ]
     },
     {
       "id": "creature_200048",
@@ -14300,7 +15892,11 @@
       "thumb": "assets/monsters/creature_200048/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9646
+      ]
     },
     {
       "id": "creature_200049",
@@ -14335,7 +15931,11 @@
       "thumb": "assets/monsters/creature_200049/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9646
+      ]
     },
     {
       "id": "creature_200050",
@@ -14370,7 +15970,11 @@
       "thumb": "assets/monsters/creature_200050/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200051",
@@ -14408,7 +16012,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Đây là chiến tướng ác ma được phong ấn sâu trong Liệt Diễm Thâm Uyên. Lần theo thời gian, sức phong ấn giảm dần, Abate tìm cách trốn thoát, thống soái ma giới",
-      "real_name": "Abate 【BOSS Liệt Diễm 4】"
+      "real_name": "Abate 【BOSS Liệt Diễm 4】",
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200052",
@@ -14443,7 +16051,11 @@
       "thumb": "assets/monsters/creature_200052/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.7442
+      ]
     },
     {
       "id": "creature_200053",
@@ -14478,7 +16090,11 @@
       "thumb": "assets/monsters/creature_200053/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200054",
@@ -14516,7 +16132,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Sinh vật của dòng dõi Rồng sống tại Bàn Địa Tộc, có sứ mạnh công phá uy dũng",
-      "real_name": "Bàn Thạch Long"
+      "real_name": "Bàn Thạch Long",
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200055",
@@ -14551,7 +16171,11 @@
       "thumb": "assets/monsters/creature_200055/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200056",
@@ -14586,7 +16210,11 @@
       "thumb": "assets/monsters/creature_200056/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200057",
@@ -14621,7 +16249,11 @@
       "thumb": "assets/monsters/creature_200057/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.8057
+      ]
     },
     {
       "id": "creature_200058",
@@ -14656,7 +16288,11 @@
       "thumb": "assets/monsters/creature_200058/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9694
+      ]
     },
     {
       "id": "creature_200059",
@@ -14691,7 +16327,11 @@
       "thumb": "assets/monsters/creature_200059/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9895
+      ]
     },
     {
       "id": "creature_200060",
@@ -14726,7 +16366,11 @@
       "thumb": "assets/monsters/creature_200060/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200061",
@@ -14761,7 +16405,11 @@
       "thumb": "assets/monsters/creature_200061/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200062",
@@ -14796,7 +16444,11 @@
       "thumb": "assets/monsters/creature_200062/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.932
+      ]
     },
     {
       "id": "creature_200063",
@@ -14831,7 +16483,11 @@
       "thumb": "assets/monsters/creature_200063/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.8851
+      ]
     },
     {
       "id": "creature_200064",
@@ -14866,7 +16522,11 @@
       "thumb": "assets/monsters/creature_200064/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9012
+      ]
     },
     {
       "id": "creature_200065",
@@ -14901,7 +16561,11 @@
       "thumb": "assets/monsters/creature_200065/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200066",
@@ -14939,7 +16603,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Được gọi là Tử thần của Cổ Thần, đã tham gia chinh phạt nhiều năm, kinh nghiệm chiến đấu hơn người",
-      "real_name": "Tiểu Binh Cổ Thành【BOSS lv150】"
+      "real_name": "Tiểu Binh Cổ Thành【BOSS lv150】",
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200067",
@@ -14974,7 +16642,11 @@
       "thumb": "assets/monsters/creature_200067/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200068",
@@ -15009,7 +16681,11 @@
       "thumb": "assets/monsters/creature_200068/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200069",
@@ -15044,7 +16720,11 @@
       "thumb": "assets/monsters/creature_200069/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.972
+      ]
     },
     {
       "id": "creature_200070",
@@ -15079,7 +16759,11 @@
       "thumb": "assets/monsters/creature_200070/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200071",
@@ -15114,7 +16798,11 @@
       "thumb": "assets/monsters/creature_200071/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.8898
+      ]
     },
     {
       "id": "creature_200072",
@@ -15149,7 +16837,11 @@
       "thumb": "assets/monsters/creature_200072/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200073",
@@ -15187,7 +16879,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Hình dáng bất định, sức mạnh bất ngờ. Không ai đối đầu nổi với Ma Hồn",
-      "real_name": "Ma Hồn【Kiếp Nạn Vô Ưu - Ma Hồn】"
+      "real_name": "Ma Hồn【Kiếp Nạn Vô Ưu - Ma Hồn】",
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200074",
@@ -15222,7 +16918,11 @@
       "thumb": "assets/monsters/creature_200074/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200075",
@@ -15257,7 +16957,11 @@
       "thumb": "assets/monsters/creature_200075/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200076",
@@ -15292,7 +16996,11 @@
       "thumb": "assets/monsters/creature_200076/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200077",
@@ -15327,7 +17035,11 @@
       "thumb": "assets/monsters/creature_200077/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200078",
@@ -15362,7 +17074,11 @@
       "thumb": "assets/monsters/creature_200078/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9065
+      ]
     },
     {
       "id": "creature_200083",
@@ -15397,7 +17113,11 @@
       "thumb": "assets/monsters/creature_200083/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.8219
+      ]
     },
     {
       "id": "creature_200084",
@@ -15432,7 +17152,11 @@
       "thumb": "assets/monsters/creature_200084/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200085",
@@ -15467,7 +17191,11 @@
       "thumb": "assets/monsters/creature_200085/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200086",
@@ -15502,7 +17230,11 @@
       "thumb": "assets/monsters/creature_200086/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9315
+      ]
     },
     {
       "id": "creature_200087",
@@ -15537,7 +17269,11 @@
       "thumb": "assets/monsters/creature_200087/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.875
+      ]
     },
     {
       "id": "creature_200088",
@@ -15572,7 +17308,11 @@
       "thumb": "assets/monsters/creature_200088/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.8655
+      ]
     },
     {
       "id": "creature_200089",
@@ -15607,7 +17347,11 @@
       "thumb": "assets/monsters/creature_200089/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.8876
+      ]
     },
     {
       "id": "creature_200090",
@@ -15642,7 +17386,11 @@
       "thumb": "assets/monsters/creature_200090/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200091",
@@ -15677,7 +17425,11 @@
       "thumb": "assets/monsters/creature_200091/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.8354
+      ]
     },
     {
       "id": "creature_200092",
@@ -15712,7 +17464,11 @@
       "thumb": "assets/monsters/creature_200092/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9859
+      ]
     },
     {
       "id": "creature_200093",
@@ -15747,7 +17503,11 @@
       "thumb": "assets/monsters/creature_200093/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.871
+      ]
     },
     {
       "id": "creature_200094",
@@ -15782,7 +17542,11 @@
       "thumb": "assets/monsters/creature_200094/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200095",
@@ -15817,7 +17581,11 @@
       "thumb": "assets/monsters/creature_200095/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200096",
@@ -15852,7 +17620,11 @@
       "thumb": "assets/monsters/creature_200096/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200097",
@@ -15887,7 +17659,11 @@
       "thumb": "assets/monsters/creature_200097/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200098",
@@ -15922,7 +17698,11 @@
       "thumb": "assets/monsters/creature_200098/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200099",
@@ -15957,7 +17737,11 @@
       "thumb": "assets/monsters/creature_200099/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200100",
@@ -15992,7 +17776,11 @@
       "thumb": "assets/monsters/creature_200100/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200101",
@@ -16027,7 +17815,11 @@
       "thumb": "assets/monsters/creature_200101/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200102",
@@ -16062,7 +17854,11 @@
       "thumb": "assets/monsters/creature_200102/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200103",
@@ -16097,7 +17893,11 @@
       "thumb": "assets/monsters/creature_200103/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200104",
@@ -16132,7 +17932,11 @@
       "thumb": "assets/monsters/creature_200104/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200105",
@@ -16167,7 +17971,11 @@
       "thumb": "assets/monsters/creature_200105/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200106",
@@ -16202,7 +18010,11 @@
       "thumb": "assets/monsters/creature_200106/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200107",
@@ -16237,7 +18049,11 @@
       "thumb": "assets/monsters/creature_200107/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200108",
@@ -16272,7 +18088,11 @@
       "thumb": "assets/monsters/creature_200108/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200111",
@@ -16307,7 +18127,11 @@
       "thumb": "assets/monsters/creature_200111/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9417
+      ]
     },
     {
       "id": "creature_200112",
@@ -16342,7 +18166,11 @@
       "thumb": "assets/monsters/creature_200112/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9467
+      ]
     },
     {
       "id": "creature_200113",
@@ -16377,7 +18205,11 @@
       "thumb": "assets/monsters/creature_200113/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9747
+      ]
     },
     {
       "id": "creature_200114",
@@ -16412,7 +18244,11 @@
       "thumb": "assets/monsters/creature_200114/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9441
+      ]
     },
     {
       "id": "creature_200115",
@@ -16447,7 +18283,11 @@
       "thumb": "assets/monsters/creature_200115/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200116",
@@ -16482,7 +18322,11 @@
       "thumb": "assets/monsters/creature_200116/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9339
+      ]
     },
     {
       "id": "creature_200117",
@@ -16517,7 +18361,11 @@
       "thumb": "assets/monsters/creature_200117/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9043
+      ]
     },
     {
       "id": "creature_200118",
@@ -16552,7 +18400,11 @@
       "thumb": "assets/monsters/creature_200118/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200119",
@@ -16587,7 +18439,11 @@
       "thumb": "assets/monsters/creature_200119/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200120",
@@ -16622,7 +18478,11 @@
       "thumb": "assets/monsters/creature_200120/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200121",
@@ -16657,7 +18517,11 @@
       "thumb": "assets/monsters/creature_200121/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200122",
@@ -16692,7 +18556,11 @@
       "thumb": "assets/monsters/creature_200122/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200123",
@@ -16727,7 +18595,11 @@
       "thumb": "assets/monsters/creature_200123/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9424
+      ]
     },
     {
       "id": "creature_200124",
@@ -16762,7 +18634,11 @@
       "thumb": "assets/monsters/creature_200124/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9943
+      ]
     },
     {
       "id": "creature_200125",
@@ -16797,7 +18673,11 @@
       "thumb": "assets/monsters/creature_200125/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200126",
@@ -16832,7 +18712,11 @@
       "thumb": "assets/monsters/creature_200126/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200127",
@@ -16867,7 +18751,11 @@
       "thumb": "assets/monsters/creature_200127/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200128",
@@ -16902,7 +18790,11 @@
       "thumb": "assets/monsters/creature_200128/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.8627
+      ]
     },
     {
       "id": "creature_200129",
@@ -16937,7 +18829,11 @@
       "thumb": "assets/monsters/creature_200129/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.938
+      ]
     },
     {
       "id": "creature_200130",
@@ -16972,7 +18868,11 @@
       "thumb": "assets/monsters/creature_200130/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9231
+      ]
     },
     {
       "id": "creature_200131",
@@ -17007,7 +18907,11 @@
       "thumb": "assets/monsters/creature_200131/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200132",
@@ -17042,7 +18946,11 @@
       "thumb": "assets/monsters/creature_200132/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9107
+      ]
     },
     {
       "id": "creature_200133",
@@ -17077,7 +18985,11 @@
       "thumb": "assets/monsters/creature_200133/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.7671
+      ]
     },
     {
       "id": "creature_200134",
@@ -17112,7 +19024,11 @@
       "thumb": "assets/monsters/creature_200134/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200135",
@@ -17147,7 +19063,11 @@
       "thumb": "assets/monsters/creature_200135/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200136",
@@ -17182,7 +19102,11 @@
       "thumb": "assets/monsters/creature_200136/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200137",
@@ -17217,7 +19141,11 @@
       "thumb": "assets/monsters/creature_200137/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200138",
@@ -17252,7 +19180,11 @@
       "thumb": "assets/monsters/creature_200138/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200139",
@@ -17287,7 +19219,11 @@
       "thumb": "assets/monsters/creature_200139/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200140",
@@ -17322,7 +19258,11 @@
       "thumb": "assets/monsters/creature_200140/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9581
+      ]
     },
     {
       "id": "creature_200141",
@@ -17357,7 +19297,11 @@
       "thumb": "assets/monsters/creature_200141/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200142",
@@ -17395,7 +19339,11 @@
       "thumb": "assets/monsters/creature_200142/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9898
+      ]
     },
     {
       "id": "creature_200143",
@@ -17433,7 +19381,11 @@
       "thumb": "assets/monsters/creature_200143/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200144",
@@ -17471,7 +19423,11 @@
       "thumb": "assets/monsters/creature_200144/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200145",
@@ -17509,7 +19465,11 @@
       "thumb": "assets/monsters/creature_200145/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200146",
@@ -17547,7 +19507,11 @@
       "thumb": "assets/monsters/creature_200146/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200147",
@@ -17585,7 +19549,11 @@
       "thumb": "assets/monsters/creature_200147/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200148",
@@ -17623,7 +19591,11 @@
       "thumb": "assets/monsters/creature_200148/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200149",
@@ -17661,7 +19633,11 @@
       "thumb": "assets/monsters/creature_200149/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200150",
@@ -17699,7 +19675,11 @@
       "thumb": "assets/monsters/creature_200150/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9569
+      ]
     },
     {
       "id": "creature_200151",
@@ -17734,7 +19714,11 @@
       "thumb": "assets/monsters/creature_200151/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200152",
@@ -17769,7 +19753,11 @@
       "thumb": "assets/monsters/creature_200152/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.8468
+      ]
     },
     {
       "id": "creature_200153",
@@ -17804,7 +19792,11 @@
       "thumb": "assets/monsters/creature_200153/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.8919
+      ]
     },
     {
       "id": "creature_200154",
@@ -17839,7 +19831,11 @@
       "thumb": "assets/monsters/creature_200154/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.8571
+      ]
     },
     {
       "id": "creature_200155",
@@ -17874,7 +19870,11 @@
       "thumb": "assets/monsters/creature_200155/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.803
+      ]
     },
     {
       "id": "creature_200156",
@@ -17909,7 +19909,11 @@
       "thumb": "assets/monsters/creature_200156/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.7407
+      ]
     },
     {
       "id": "creature_200157",
@@ -17944,7 +19948,11 @@
       "thumb": "assets/monsters/creature_200157/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.8504
+      ]
     },
     {
       "id": "creature_200158",
@@ -17979,7 +19987,11 @@
       "thumb": "assets/monsters/creature_200158/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9083
+      ]
     },
     {
       "id": "creature_200159",
@@ -18014,7 +20026,11 @@
       "thumb": "assets/monsters/creature_200159/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.8571
+      ]
     },
     {
       "id": "creature_200160",
@@ -18049,7 +20065,11 @@
       "thumb": "assets/monsters/creature_200160/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200161",
@@ -18084,7 +20104,11 @@
       "thumb": "assets/monsters/creature_200161/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.8548
+      ]
     },
     {
       "id": "creature_200162",
@@ -18119,7 +20143,11 @@
       "thumb": "assets/monsters/creature_200162/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200163",
@@ -18157,7 +20185,11 @@
       "thumb": "assets/monsters/creature_200163/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200164",
@@ -18195,7 +20227,11 @@
       "thumb": "assets/monsters/creature_200164/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200165",
@@ -18233,7 +20269,11 @@
       "thumb": "assets/monsters/creature_200165/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200166",
@@ -18271,7 +20311,11 @@
       "thumb": "assets/monsters/creature_200166/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9487
+      ]
     },
     {
       "id": "creature_200167",
@@ -18312,7 +20356,11 @@
       "catchable": false,
       "in_handbook": true,
       "desc": "Với kungfu cái thế, Chiến Dương là 1 trong những thần thú đáng gờm nhất Đại Lục Vô Ưu",
-      "real_name": "Chiến Dương"
+      "real_name": "Chiến Dương",
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200168",
@@ -18350,7 +20398,11 @@
       "thumb": "assets/monsters/creature_200168/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200169",
@@ -18388,7 +20440,11 @@
       "thumb": "assets/monsters/creature_200169/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200170",
@@ -18423,7 +20479,11 @@
       "thumb": "assets/monsters/creature_200170/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200171",
@@ -18458,7 +20518,11 @@
       "thumb": "assets/monsters/creature_200171/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200172",
@@ -18493,7 +20557,11 @@
       "thumb": "assets/monsters/creature_200172/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.919
+      ]
     },
     {
       "id": "creature_200173",
@@ -18528,7 +20596,11 @@
       "thumb": "assets/monsters/creature_200173/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9577
+      ]
     },
     {
       "id": "creature_200174",
@@ -18563,7 +20635,11 @@
       "thumb": "assets/monsters/creature_200174/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200175",
@@ -18598,7 +20674,11 @@
       "thumb": "assets/monsters/creature_200175/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200176",
@@ -18633,7 +20713,11 @@
       "thumb": "assets/monsters/creature_200176/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200177",
@@ -18668,7 +20752,11 @@
       "thumb": "assets/monsters/creature_200177/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200178",
@@ -18703,7 +20791,11 @@
       "thumb": "assets/monsters/creature_200178/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200179",
@@ -18738,7 +20830,11 @@
       "thumb": "assets/monsters/creature_200179/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9792
+      ]
     },
     {
       "id": "creature_200180",
@@ -18773,7 +20869,11 @@
       "thumb": "assets/monsters/creature_200180/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9412
+      ]
     },
     {
       "id": "creature_200181",
@@ -18808,7 +20908,11 @@
       "thumb": "assets/monsters/creature_200181/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9065
+      ]
     },
     {
       "id": "creature_200182",
@@ -18843,7 +20947,11 @@
       "thumb": "assets/monsters/creature_200182/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9915
+      ]
     },
     {
       "id": "creature_200183",
@@ -18878,7 +20986,11 @@
       "thumb": "assets/monsters/creature_200183/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9267
+      ]
     },
     {
       "id": "creature_200184",
@@ -18913,7 +21025,11 @@
       "thumb": "assets/monsters/creature_200184/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.8561
+      ]
     },
     {
       "id": "creature_200185",
@@ -18948,7 +21064,11 @@
       "thumb": "assets/monsters/creature_200185/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9211
+      ]
     },
     {
       "id": "creature_200186",
@@ -18983,7 +21103,11 @@
       "thumb": "assets/monsters/creature_200186/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9802
+      ]
     },
     {
       "id": "creature_200187",
@@ -19018,7 +21142,11 @@
       "thumb": "assets/monsters/creature_200187/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9052
+      ]
     },
     {
       "id": "creature_200188",
@@ -19053,7 +21181,11 @@
       "thumb": "assets/monsters/creature_200188/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200189",
@@ -19088,7 +21220,11 @@
       "thumb": "assets/monsters/creature_200189/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9845
+      ]
     },
     {
       "id": "creature_200190",
@@ -19123,7 +21259,11 @@
       "thumb": "assets/monsters/creature_200190/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200200",
@@ -19158,7 +21298,11 @@
       "thumb": "assets/monsters/creature_200200/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200208",
@@ -19193,7 +21337,11 @@
       "thumb": "assets/monsters/creature_200208/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200220",
@@ -19228,7 +21376,11 @@
       "thumb": "assets/monsters/creature_200220/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200223",
@@ -19263,7 +21415,11 @@
       "thumb": "assets/monsters/creature_200223/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.7985
+      ]
     },
     {
       "id": "creature_200237",
@@ -19298,7 +21454,11 @@
       "thumb": "assets/monsters/creature_200237/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9583
+      ]
     },
     {
       "id": "creature_200238",
@@ -19333,7 +21493,11 @@
       "thumb": "assets/monsters/creature_200238/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        1.0
+      ]
     },
     {
       "id": "creature_200263",
@@ -19368,7 +21532,11 @@
       "thumb": "assets/monsters/creature_200263/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9859
+      ]
     },
     {
       "id": "creature_200264",
@@ -19403,7 +21571,11 @@
       "thumb": "assets/monsters/creature_200264/thumb.webp",
       "is_pet": false,
       "category": "monster",
-      "catchable": false
+      "catchable": false,
+      "anchor": [
+        0.5,
+        0.9492
+      ]
     }
   ],
   "total_pets": 106,

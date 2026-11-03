@@ -2,7 +2,7 @@
   "name": "Místico / Assassino Base (M)",
   "anchor": [
     0.5,
-    1.0
+    0.9083
   ],
   "width": 145,
   "height": 120,
@@ -44,5 +44,6 @@
   "gender": "MALE",
   "tier": 1,
   "res_code_num": 6,
-  "swf_hash": "ff25826914665dc4620c39fb661f8224"
+  "swf_hash": "ff25826914665dc4620c39fb661f8224",
+  "feet_y": 109
 }

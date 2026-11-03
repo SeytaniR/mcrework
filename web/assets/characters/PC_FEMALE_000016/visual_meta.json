@@ -2,7 +2,7 @@
   "name": "Lorde Mística Tier 2 (F)",
   "anchor": [
     0.5,
-    1.0
+    0.8613
   ],
   "width": 128,
   "height": 137,
@@ -47,5 +47,6 @@
   "gender": "FEMALE",
   "tier": 2,
   "res_code_num": 16,
-  "swf_hash": "cebf82b63135ea47dd2ab37d262c327d"
+  "swf_hash": "cebf82b63135ea47dd2ab37d262c327d",
+  "feet_y": 118
 }

@@ -2,7 +2,7 @@
   "name": "Khảo Quan Linh Vũ",
   "anchor": [
     0.5,
-    1.0
+    0.8571
   ],
   "width": 136,
   "height": 119,
@@ -43,5 +43,6 @@
   "id": "creature_200027",
   "db_id": "96",
   "res_code_num": 200027,
-  "swf_hash": "aafcd4c18bb6fe2a4dffcff5333e65e4"
+  "swf_hash": "aafcd4c18bb6fe2a4dffcff5333e65e4",
+  "feet_y": 102
 }

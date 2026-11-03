@@ -2,7 +2,7 @@
   "name": "Sơn Quái Hộ Vệ 【Vòng】",
   "anchor": [
     0.5,
-    1.0
+    0.9083
   ],
   "width": 118,
   "height": 109,
@@ -43,5 +43,6 @@
   "id": "creature_000018",
   "db_id": "579",
   "res_code_num": 18,
-  "swf_hash": "898406c771412859837241fa0d975cce"
+  "swf_hash": "898406c771412859837241fa0d975cce",
+  "feet_y": 99
 }

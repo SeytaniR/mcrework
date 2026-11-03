@@ -43,5 +43,6 @@
   "id": "creature_001132",
   "db_id": "101132",
   "res_code_num": 1132,
-  "swf_hash": "5853d7969e5111ffaf9b2110abda60da"
+  "swf_hash": "5853d7969e5111ffaf9b2110abda60da",
+  "feet_y": 117
 }

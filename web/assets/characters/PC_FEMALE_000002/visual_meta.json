@@ -2,7 +2,7 @@
   "name": "Maga Base (F)",
   "anchor": [
     0.5,
-    1.0
+    0.8919
   ],
   "width": 95,
   "height": 111,
@@ -44,5 +44,6 @@
   "gender": "FEMALE",
   "tier": 1,
   "res_code_num": 2,
-  "swf_hash": "25eae425871bb3907239c8de1ca1d7f4"
+  "swf_hash": "25eae425871bb3907239c8de1ca1d7f4",
+  "feet_y": 99
 }

@@ -2,7 +2,7 @@
   "name": "Hộ Vệ Thợ Săn 【Nữ Lv50】",
   "anchor": [
     0.5,
-    1.0
+    0.8354
   ],
   "width": 225,
   "height": 158,
@@ -43,5 +43,6 @@
   "id": "creature_200091",
   "db_id": "1718",
   "res_code_num": 200091,
-  "swf_hash": "1611095afff2a5c4bb54bda65c62d436"
+  "swf_hash": "1611095afff2a5c4bb54bda65c62d436",
+  "feet_y": 132
 }

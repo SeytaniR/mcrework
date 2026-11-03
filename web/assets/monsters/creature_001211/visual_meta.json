@@ -2,7 +2,7 @@
   "name": "Đấu Sĩ Ác Ma",
   "anchor": [
     0.5,
-    1.0
+    0.9016
   ],
   "width": 166,
   "height": 183,
@@ -43,5 +43,6 @@
   "id": "creature_001211",
   "db_id": "1867",
   "res_code_num": 1211,
-  "swf_hash": "55c6cf79b693af5ee64de50472de5766"
+  "swf_hash": "55c6cf79b693af5ee64de50472de5766",
+  "feet_y": 165
 }

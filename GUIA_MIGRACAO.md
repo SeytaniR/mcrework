@@ -121,23 +121,35 @@ A classe `com.qeedoo.game.utils.UrlUtil` e `GamePredef` geram o caminho canônic
   $$\text{pixel} = \frac{\text{twips}}{20}$$
 * As coordenadas $(X, Y)$ e dimensões $(W, H)$ de cada máscara são exportadas para `masks.json`.
 
-### 5.3. Malha de Colisão Binária (`Hit.swf` -> `collision.bin`)
-* **Decodificação:** Descompactamos o array de bytes contido no bytecode de `Hit.swf` com descompressão RLE.
-* A matriz de bits $(W \times H)$ resultante define:
-  * `1` = Chão livre (*Walkable*).
-  * `0` = Parede, obstáculo ou água (*Blocked*).
-  * Para o Mapa 1: `2031 x 1531` bits = **388.683 bytes**.
-* **Execução em Tempo Real na Web/Mobile:**
-  Carregamos via `fetch().arrayBuffer()` para um `Uint8Array`. A checagem de colisão é feita por operações bitwise ultrarrápidas ($O(1)$ sem custo de CPU):
-  ```javascript
+### 5.3. Malha de Colisão Binária dos 76 Mapas (MAP_HIT_NEW.swf -> collision.bin)
+* **Engenharia Reversa de Stride no AVM2:**
+  No Flash original (HitTestContainer.as), a colisão de 1-bit é indexada por:
+  \\text{idx} = (y \\times \\text{\\_mapWidth}) + x
+  \\text{byte\\_idx} = \\text{idx} \\gg 3, \\quad \\text{bit} = (\\text{bytes}[\\text{byte\\_idx}] \\gg (\\text{idx} \\& 7)) \\& 1
+  O parâmetro $\\text{\\_mapWidth}$ atua como o **stride exato da matriz de bits**. Uma diferença de apenas 1 pixel no stride causa um cisalhamento diagonal progressivo de $ pixels a cada linha, corrompendo a caminhabilidade do mapa inteiro.
+* **Extração Direta do Bytecode ActionScript 3 (Tag 72 DoABC):**
+  Em vez de fatorar comprimentos de bits arbitrariamente, o extrator decompila a classe ClassBytes<hash> de cada mapa e localiza as instruções de atribuição de propriedade (setproperty 0x61) para width e height. Os valores são lidos com 100% de precisão de seus opcodes e constant pools:
+  * pushdouble (0x2f) -> constante em cpool.doubles (ex: Mapa 1: 2031.45 x 1530.4).
+  * pushint (0x2d) -> constante em cpool.ints (ex: Mapa 4: 3076 x 2095, Mapa 67: 5760 x 5056).
+  * pushshort (0x25) ou pushbyte (0x24) -> valores imediatos.
+* **Calibração Universal dos 76 Mapas:**
+  Todos os 76 mapas foram calibrados (	ools/update_all_map_metadata.py), garantindo que col_width e col_height correspondam bit a bit à malha binária original.
+* **Sincronização de Texturas Reais:**
+  6 mapas que possuíam dimensões de placeholder no SQL original (como Mapa 66 e Mapa 67) tiveram seus metadados de largura e altura sincronizados com as dimensões reais de suas imagens de fundo (g.jpg).
+* **Execução em Tempo Real na Web/Mobile ((1)$ sem custo de CPU):**
+  `javascript
   function isWalkable(x, y) {
     const ix = Math.floor(x);
     const iy = Math.floor(y);
-    if (ix < 0 || ix >= COL_WIDTH || iy < 0 || iy >= COL_HEIGHT) return false;
+    if (ix < 0 || ix >= MAP_WIDTH || iy < 0 || iy >= MAP_HEIGHT) return false;
+    if (!colBytes || COL_WIDTH <= 0 || COL_HEIGHT <= 0) return true;
+    if (ix >= COL_WIDTH || iy >= COL_HEIGHT) return false;
     const idx = iy * COL_WIDTH + ix;
-    return (colBytes[idx >> 3] & (1 << (idx & 7))) !== 0;
+    const byteIdx = idx >> 3;
+    if (byteIdx >= colBytes.length) return false;
+    return (colBytes[byteIdx] & (1 << (idx & 7))) !== 0;
   }
-  ```
+  `
 
 ---
 
@@ -178,18 +190,27 @@ function calculateDirection(dx, dy) {
 | **9** | `BH_HEAVY_ATTACK` | Golpe Pesado / Corte | 16 frames | Golpe avançado e volta a 0 |
 | **10** | `BH_ULTIMATE` | Habilidade Suprema (*Special*) | 32 frames | Sequência suprema completa |
 
-### 6.3. Solução do Bounding Box Unificado & Ponto de Registro
-No Flash original, o ponto de registro ficava entre os pés. Ao extrair os bitmaps com cortes individuais, o personagem trepidaria e a sombra desalinharia.
+### 6.3. Solução do Bounding Box Unificado & Calibração de Solo (Pés no Chão)
+No Flash original, o ponto de registro ficava entre os pés. Ao extrair os bitmaps de múltiplas animações (incluindo golpes descendentes e a animação de derrotado/caído onde o corpo jaz no solo), a caixa delimitadora unificada (*Union Bounding Box*) torna-se significativamente mais alta que a postura de repouso do personagem.
 
-**A Solução de Bounding Box Unificado:**
-1. Calculamos o retângulo envolvente máximo (*Union Bounding Box*) de todos os frames da criatura:
-   $$X_{min} = \min(b.left), \quad Y_{min} = \min(b.top), \quad X_{max} = \max(b.right), \quad Y_{max} = \max(b.bottom)$$
-2. Todos os frames são recortados estritamente dentro dessa janela unificada.
-3. No Pixi.js, fixamos o pivô na base central inferior:
+**O Problema do Personagem Flutuante:**
+Fixar cegamente o ponto de pivô em `anchor = (0.5, 1.0)` fazia com que personagens de pé ficassem de 15 a 45 pixels acima da sombra/chão, criando a impressão visual de "flutuação".
+
+**A Solução: Calibração Dinâmica de Âncora nos Pés (`tools/calibrate_all_anchors.py`):**
+1. O algoritmo analisa todos os frames de postura de pé / repouso (Ação 0: *Idle/Breath* nas 8 direções).
+2. Para cada frame, localiza a coordenada máxima não-transparente do solo ($Y_{\text{feet}} = \max(\text{bbox}[3])$).
+3. A âncora vertical calibrada é computada proporcionalmente à altura da folha:
+   $$\text{anchor}\_y = \frac{\max(Y_{\text{feet}})}{\text{height}}$$
+4. Essa âncora calibrada é persistida em `visual_meta.json` e no `catalog.json` de:
+   * **46 Classes e Skins de Personagens** (ex: `0.8504` para Guerreiro, alinhando a base dos pés com exatidão matemática a $Y=0$).
+   * **20 Montarias Clássicas e Celestiais**.
+   * **533 Monstros e Pets**.
+5. No cliente Pixi.js, o motor atualiza a âncora dinamicamente de acordo com os metadados do modelo ativo:
    ```javascript
-   sprite.anchor.set(0.5, 1.0);
+   const anchorY = currentMeta && currentMeta.anchor ? currentMeta.anchor[1] : 0.85;
+   charSprite.anchor.set(0.5, anchorY);
    ```
-4. A sombra é desenhada exatamente em `(0, 0)` do container da entidade, garantindo alinhamento cravado nos pés em 100% dos ângulos e ações.
+   A sombra é desenhada em `(0, 0)`, cravando as solas dos pés do personagem perfeitamente em cima da sombra no solo.
 
 ---
 

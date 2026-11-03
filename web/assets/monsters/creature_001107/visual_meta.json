@@ -2,7 +2,7 @@
   "name": "Chim Ưng Cổ",
   "anchor": [
     0.5,
-    1.0
+    0.8411
   ],
   "width": 108,
   "height": 107,
@@ -43,5 +43,6 @@
   "id": "creature_001107",
   "db_id": "608",
   "res_code_num": 1107,
-  "swf_hash": "966d2741fb7ff1cf1465f7c6876fff51"
+  "swf_hash": "966d2741fb7ff1cf1465f7c6876fff51",
+  "feet_y": 90
 }

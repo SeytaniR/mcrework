@@ -2,7 +2,7 @@
   "name": "Tướng Lĩnh Ốc Vương",
   "anchor": [
     0.5,
-    1.0
+    0.8198
   ],
   "width": 107,
   "height": 111,
@@ -43,5 +43,6 @@
   "id": "creature_000012",
   "db_id": "177",
   "res_code_num": 12,
-  "swf_hash": "c5b8ff3a91deb953bc0454c21c1671ce"
+  "swf_hash": "c5b8ff3a91deb953bc0454c21c1671ce",
+  "feet_y": 91
 }

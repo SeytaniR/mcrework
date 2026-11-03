@@ -43,5 +43,6 @@
   "id": "mount_f_000001",
   "rel": "creature/PC_FEMALE_100001.swf",
   "type": "female_mount",
-  "mount_tier": 1
+  "mount_tier": 1,
+  "feet_y": 111
 }

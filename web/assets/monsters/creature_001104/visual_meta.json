@@ -2,7 +2,7 @@
   "name": "Sứ Giả Địa Ngục",
   "anchor": [
     0.5,
-    1.0
+    0.9778
   ],
   "width": 220,
   "height": 180,
@@ -43,5 +43,6 @@
   "id": "creature_001104",
   "db_id": "509",
   "res_code_num": 1104,
-  "swf_hash": "358e9c71bbd4c28a510a6c8066b87838"
+  "swf_hash": "358e9c71bbd4c28a510a6c8066b87838",
+  "feet_y": 176
 }

@@ -2,7 +2,7 @@
   "name": "Xử Nữ",
   "anchor": [
     0.5,
-    1.0
+    0.8909
   ],
   "width": 95,
   "height": 110,
@@ -43,5 +43,6 @@
   "id": "creature_200030",
   "db_id": "454",
   "res_code_num": 200030,
-  "swf_hash": "e7e17c598f8b86722557a5a83ccb70ff"
+  "swf_hash": "e7e17c598f8b86722557a5a83ccb70ff",
+  "feet_y": 98
 }

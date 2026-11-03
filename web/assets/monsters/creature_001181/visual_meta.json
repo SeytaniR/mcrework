@@ -2,7 +2,7 @@
   "name": "Cốt Cá",
   "anchor": [
     0.5,
-    1.0
+    0.9727
   ],
   "width": 130,
   "height": 110,
@@ -43,5 +43,6 @@
   "id": "creature_001181",
   "db_id": "1342",
   "res_code_num": 1181,
-  "swf_hash": "4fcd39dd21ac57d0b05831ec77d3525c"
+  "swf_hash": "4fcd39dd21ac57d0b05831ec77d3525c",
+  "feet_y": 107
 }

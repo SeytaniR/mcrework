@@ -2,7 +2,7 @@
   "name": "Cơ Giáp Phá Băng Loại 9000",
   "anchor": [
     0.5,
-    1.0
+    0.9032
   ],
   "width": 128,
   "height": 124,
@@ -43,5 +43,6 @@
   "id": "creature_001157",
   "db_id": "997",
   "res_code_num": 1157,
-  "swf_hash": "db8279788e785429ed232d5f9ba1bf34"
+  "swf_hash": "db8279788e785429ed232d5f9ba1bf34",
+  "feet_y": 112
 }

@@ -2,7 +2,7 @@
   "name": "Buli-Ảo Thân Ma Ảnh",
   "anchor": [
     0.5,
-    1.0
+    0.9583
   ],
   "width": 248,
   "height": 192,
@@ -43,5 +43,6 @@
   "id": "creature_200237",
   "db_id": "2284",
   "res_code_num": 200237,
-  "swf_hash": "e2a5a1d521041b1f0fd0b3307dd9837c"
+  "swf_hash": "e2a5a1d521041b1f0fd0b3307dd9837c",
+  "feet_y": 184
 }
