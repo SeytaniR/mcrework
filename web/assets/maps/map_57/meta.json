@@ -1,0 +1,31 @@
+{
+  "id": 57,
+  "name": "Nông Trường Số 1",
+  "info": "NULL",
+  "level": 50,
+  "width": 3000,
+  "height": 2000,
+  "col_width": 3036,
+  "col_height": 2174,
+  "has_collision": true,
+  "safe_x": 710,
+  "safe_y": 1520,
+  "continent": 2,
+  "world_x": null,
+  "world_y": null,
+  "bg_image": "assets/maps/map_57/bg.jpg",
+  "thumb": "assets/maps/map_57/thumb.webp",
+  "collision_bin": "assets/maps/map_57/collision.bin",
+  "portals": [
+    {
+      "id": 2018,
+      "target_name": "Điêu Linh Thôn",
+      "target_map_id": 55,
+      "x": 183,
+      "y": 1737,
+      "dest_x": 800,
+      "dest_y": 180
+    }
+  ],
+  "creatures_count": 4
+}

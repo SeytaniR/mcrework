@@ -1,0 +1,40 @@
+{
+  "id": 67,
+  "name": "Vĩnh Dạ Cảng",
+  "info": "Hải cảng thần bí ẩn hiện dưới ánh trăng mờ ảo. Thích hợp cấp độ 105 - 110.",
+  "level": 100,
+  "width": 2200,
+  "height": 1650,
+  "col_width": 2200,
+  "col_height": 1650,
+  "has_collision": true,
+  "safe_x": 1460,
+  "safe_y": 220,
+  "continent": 2,
+  "world_x": 333,
+  "world_y": 415,
+  "bg_image": "assets/maps/map_67/bg.jpg",
+  "thumb": "assets/maps/map_67/thumb.webp",
+  "collision_bin": "assets/maps/map_67/collision.bin",
+  "portals": [
+    {
+      "id": 3411,
+      "target_name": "Tử Tức Đảo",
+      "target_map_id": 61,
+      "x": 75,
+      "y": 1340,
+      "dest_x": 230,
+      "dest_y": 300
+    },
+    {
+      "id": 3439,
+      "target_name": "Mã Thạch Tuyết",
+      "target_map_id": 70,
+      "x": 1933,
+      "y": 577,
+      "dest_x": 1410,
+      "dest_y": 2370
+    }
+  ],
+  "creatures_count": 4
+}

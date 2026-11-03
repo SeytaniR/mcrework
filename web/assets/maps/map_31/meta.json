@@ -1,0 +1,40 @@
+{
+  "id": 31,
+  "name": "Tiên Lạp Thành",
+  "info": "Thành phố xinh đẹp nằm ở đông đảo băng, nổi danh với tên gọi Thành phố của nghệ thuật.",
+  "level": 10,
+  "width": 4500,
+  "height": 2500,
+  "col_width": 4567,
+  "col_height": 2613,
+  "has_collision": true,
+  "safe_x": 3000,
+  "safe_y": 1800,
+  "continent": 1,
+  "world_x": 627,
+  "world_y": 347,
+  "bg_image": "assets/maps/map_31/bg.jpg",
+  "thumb": "assets/maps/map_31/thumb.webp",
+  "collision_bin": "assets/maps/map_31/collision.bin",
+  "portals": [
+    {
+      "id": 794,
+      "target_name": "Lạp Tuyết Địa",
+      "target_map_id": 33,
+      "x": 26,
+      "y": 61,
+      "dest_x": 1300,
+      "dest_y": 900
+    },
+    {
+      "id": 795,
+      "target_name": "Anh Vũ Cảnh",
+      "target_map_id": 34,
+      "x": 4166,
+      "y": 2282,
+      "dest_x": 1150,
+      "dest_y": 1000
+    }
+  ],
+  "creatures_count": 0
+}

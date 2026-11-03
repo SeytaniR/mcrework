@@ -1,0 +1,31 @@
+{
+  "id": 30,
+  "name": "Quyến Cố Thành",
+  "info": "Nhờ được thiên thần bảo hộ mà người dân nơi đây luôn được sống thanh bình.",
+  "level": 50,
+  "width": 3000,
+  "height": 2000,
+  "col_width": 3020,
+  "col_height": 2025,
+  "has_collision": true,
+  "safe_x": 800,
+  "safe_y": 1400,
+  "continent": 1,
+  "world_x": 434,
+  "world_y": 432,
+  "bg_image": "assets/maps/map_30/bg.jpg",
+  "thumb": "assets/maps/map_30/thumb.webp",
+  "collision_bin": "assets/maps/map_30/collision.bin",
+  "portals": [
+    {
+      "id": 1858,
+      "target_name": "Thánh Ước Địa",
+      "target_map_id": 20,
+      "x": 68,
+      "y": 1754,
+      "dest_x": 600,
+      "dest_y": 1200
+    }
+  ],
+  "creatures_count": 0
+}

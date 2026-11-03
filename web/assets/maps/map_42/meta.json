@@ -1,0 +1,40 @@
+{
+  "id": 42,
+  "name": "Cổ Đạo",
+  "info": "Ba nghìn chiến binh đã vùi thân tại đây, ý chí bất diệt, hồn thiêng động trời. Thích hợp cho cấp độ từ 66 - 70.",
+  "level": 50,
+  "width": 3000,
+  "height": 2000,
+  "col_width": 3096,
+  "col_height": 2109,
+  "has_collision": true,
+  "safe_x": 1500,
+  "safe_y": 800,
+  "continent": 1,
+  "world_x": 300,
+  "world_y": 497,
+  "bg_image": "assets/maps/map_42/bg.jpg",
+  "thumb": "assets/maps/map_42/thumb.webp",
+  "collision_bin": "assets/maps/map_42/collision.bin",
+  "portals": [
+    {
+      "id": 782,
+      "target_name": "Kỵ Bình Nguyên",
+      "target_map_id": 41,
+      "x": -12,
+      "y": 64,
+      "dest_x": 1100,
+      "dest_y": 680
+    },
+    {
+      "id": 1459,
+      "target_name": "Chỉ Phong Cốc",
+      "target_map_id": 21,
+      "x": 2134,
+      "y": 1794,
+      "dest_x": 1500,
+      "dest_y": 800
+    }
+  ],
+  "creatures_count": 5
+}

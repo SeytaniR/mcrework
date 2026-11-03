@@ -1,0 +1,31 @@
+{
+  "id": 70,
+  "name": "Mã Thạch Tuyết",
+  "info": "Hoang mạc lạnh giá, quái vật ở đây còn lạnh lùng hơn khí hậu. Thích hợp cho cấp độ 110 - 115.",
+  "level": 105,
+  "width": 3000,
+  "height": 3000,
+  "col_width": 3077,
+  "col_height": 3189,
+  "has_collision": true,
+  "safe_x": 1410,
+  "safe_y": 2370,
+  "continent": 2,
+  "world_x": 383,
+  "world_y": 375,
+  "bg_image": "assets/maps/map_70/bg.jpg",
+  "thumb": "assets/maps/map_70/thumb.webp",
+  "collision_bin": "assets/maps/map_70/collision.bin",
+  "portals": [
+    {
+      "id": 3438,
+      "target_name": "Vĩnh Dạ Cảng",
+      "target_map_id": 67,
+      "x": 61,
+      "y": 2466,
+      "dest_x": 1460,
+      "dest_y": 220
+    }
+  ],
+  "creatures_count": 4
+}

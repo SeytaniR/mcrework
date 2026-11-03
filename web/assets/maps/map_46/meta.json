@@ -1,0 +1,21 @@
+{
+  "id": 46,
+  "name": "Kiếm Hồn Cảnh",
+  "info": "NULL",
+  "level": 1,
+  "width": 1500,
+  "height": 1000,
+  "col_width": 1568,
+  "col_height": 1073,
+  "has_collision": true,
+  "safe_x": 800,
+  "safe_y": 580,
+  "continent": 1,
+  "world_x": null,
+  "world_y": null,
+  "bg_image": "assets/maps/map_46/bg.jpg",
+  "thumb": "assets/maps/map_46/thumb.webp",
+  "collision_bin": "assets/maps/map_46/collision.bin",
+  "portals": [],
+  "creatures_count": 0
+}

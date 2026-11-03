@@ -1,0 +1,31 @@
+{
+  "id": 39,
+  "name": "Huyền Lâm Tộc",
+  "info": "Tộc Huyền Lâm nằm ở bờ tây đại lục, nổi tiếng với những thợ săn dày dạn kinh nghiệm và kỹ năng thuần phục Pet.",
+  "level": 10,
+  "width": 2100,
+  "height": 1500,
+  "col_width": 2100,
+  "col_height": 1641,
+  "has_collision": true,
+  "safe_x": 500,
+  "safe_y": 1000,
+  "continent": 1,
+  "world_x": 266,
+  "world_y": 313,
+  "bg_image": "assets/maps/map_39/bg.jpg",
+  "thumb": "assets/maps/map_39/thumb.webp",
+  "collision_bin": "assets/maps/map_39/collision.bin",
+  "portals": [
+    {
+      "id": 786,
+      "target_name": "Thiên Lục Châu",
+      "target_map_id": 40,
+      "x": 39,
+      "y": 1230,
+      "dest_x": 1500,
+      "dest_y": 1200
+    }
+  ],
+  "creatures_count": 0
+}

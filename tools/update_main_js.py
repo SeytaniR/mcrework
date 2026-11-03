@@ -1,509 +1,616 @@
-import os, sys
+import re
 
-sys.stdout.reconfigure(encoding='utf-8', errors='replace')
+with open('C:/Users/Dell/.gemini/antigravity/scratch/magic-campus-pixi/web/main.js', 'r', encoding='utf-8') as f:
+    code = f.read()
 
-new_code = '''  // ==========================================
-  // MODAIS DE CATALOGO (CLASSES, MONSTROS/PETS, MONTARIAS & NPCS)
-  // ==========================================
-  const modalClasses = document.getElementById("modal-classes");
-  const modalMonsters = document.getElementById("modal-monsters");
-  const modalMounts = document.getElementById("modal-mounts");
-  const modalNpcs = document.getElementById("modal-npcs");
+# 1. Update Promise.all to fetch maps catalog
+old_promise = """  const [npcsData, masksData, colArrayBuffer, initialMonsterMeta, initialMonsterSheet, classesCatalogData, monstersCatalogData, mountsCatalogData, npcsCatalogData] = await Promise.all([
+    fetch("assets/map1/npcs.json").then(r => r.json()),
+    fetch("assets/map1/masks.json").then(r => r.json()),
+    fetch("assets/map1/collision.bin").then(r => r.arrayBuffer()),
+    fetch("assets/monsters/mushroom/visual_meta.json").then(r => r.json()),
+    PIXI.Assets.load("assets/monsters/mushroom/atlas.json"),
+    fetch("assets/characters/catalog.json?v=1.2.1").then(r => r.json()).catch(() => ({ total_classes: 0, classes: [] })),
+    fetch("assets/monsters/catalog.json?v=1.2.1").then(r => r.json()).catch(() => ({ total_monsters: 0, monsters: [] })),
+    fetch("assets/mounts/catalog.json?v=1.2.1").then(r => r.json()).catch(() => ({ total_mounts: 0, mounts: [] })),
+    fetch("assets/npcs/catalog.json?v=1.2.1").then(r => r.json()).catch(() => ({ total_npcs: 0, npcs: [] }))
+  ]);"""
 
-  const classesGrid = document.getElementById("classes-grid-container");
-  const monstersGrid = document.getElementById("monsters-grid-container");
-  const mountsGrid = document.getElementById("mounts-grid-container");
-  const npcsGrid = document.getElementById("npcs-grid-container");
+new_promise = """  const [npcsData, masksData, colArrayBuffer, initialMonsterMeta, initialMonsterSheet, classesCatalogData, monstersCatalogData, mountsCatalogData, npcsCatalogData, mapsCatalogData] = await Promise.all([
+    fetch("assets/map1/npcs.json").then(r => r.json()),
+    fetch("assets/map1/masks.json").then(r => r.json()),
+    fetch("assets/map1/collision.bin").then(r => r.arrayBuffer()),
+    fetch("assets/monsters/mushroom/visual_meta.json").then(r => r.json()),
+    PIXI.Assets.load("assets/monsters/mushroom/atlas.json"),
+    fetch("assets/characters/catalog.json?v=1.3.0").then(r => r.json()).catch(() => ({ total_classes: 0, classes: [] })),
+    fetch("assets/monsters/catalog.json?v=1.3.0").then(r => r.json()).catch(() => ({ total_monsters: 0, monsters: [] })),
+    fetch("assets/mounts/catalog.json?v=1.3.0").then(r => r.json()).catch(() => ({ total_mounts: 0, mounts: [] })),
+    fetch("assets/npcs/catalog.json?v=1.3.0").then(r => r.json()).catch(() => ({ total_npcs: 0, npcs: [] })),
+    fetch("assets/maps/catalog.json?v=1.3.0").then(r => r.json()).catch(() => ({ total_maps: 0, maps: [] }))
+  ]);
 
-  const classesSearchInput = document.getElementById("classes-search-input");
-  const monstersSearchInput = document.getElementById("monsters-search-input");
-  const mountsSearchInput = document.getElementById("mounts-search-input");
-  const npcsSearchInput = document.getElementById("npcs-search-input");
+  let mapsCatalog = mapsCatalogData || { total_maps: 0, maps: [] };
+  let currentMapId = 1;
+  let currentMapMeta = mapsCatalog.maps ? mapsCatalog.maps.find(m => m.id === 1) : null;
+  let currentMapPortals = currentMapMeta ? (currentMapMeta.portals || []) : [];
+  let teleportCooldown = 0;
+  let portalPulseTimer = 0;"""
 
-  let classesList = classesCatalogData.classes || [];
-  let monstersList = monstersCatalogData.monsters || [];
-  let mountsList = mountsCatalogData.mounts || [];
-  let npcsList = npcsCatalogData.npcs || [];
+assert old_promise in code, "old_promise not found!"
+code = code.replace(old_promise, new_promise)
 
-  let selectedClassFilter = "all";
-  let selectedMonFilter = "all";
-  let selectedMountFilter = "all";
-  let selectedNpcFilter = "all";
+# 2. Update collision variables and isWalkable
+old_col = """  // 3. Malha de Colisão Binária (Uint8Array de 388.683 bytes, 2031x1531)
+  const colBytes = new Uint8Array(colArrayBuffer);
+  const COL_WIDTH = 2031;
+  const COL_HEIGHT = 1531;
+  console.log(`Malha de colisão binária carregada: ${colBytes.length} bytes (${COL_WIDTH}x${COL_HEIGHT})`);
 
-  // 1. GRID DE CLASSES (46 Visuais)
-  function renderClassesGrid() {
-    if (!classesGrid) return;
-    const q = (classesSearchInput ? classesSearchInput.value : "").trim().toLowerCase();
+  function isWalkable(x, y) {
+    const ix = Math.floor(x);
+    const iy = Math.floor(y);
+    if (ix < 0 || ix >= COL_WIDTH || iy < 0 || iy >= COL_HEIGHT) return false;
+    const idx = iy * COL_WIDTH + ix;
+    return (colBytes[idx >> 3] & (1 << (idx & 7))) !== 0;
+  }"""
 
-    const filtered = classesList.filter(c => {
-      if (selectedClassFilter === "male" && c.gender !== "MALE") return false;
-      if (selectedClassFilter === "female" && c.gender !== "FEMALE") return false;
-      if (selectedClassFilter === "tier1" && c.tier !== 1) return false;
-      if (selectedClassFilter === "tier2" && c.tier !== 2) return false;
-      if (selectedClassFilter === "costume" && c.tier !== "costume") return false;
-      if (selectedClassFilter === "mount" && c.tier !== "mount") return false;
-      if (q) {
-        const str = `${c.name} ${c.id} ${c.gender} tier${c.tier}`.toLowerCase();
-        if (!str.includes(q)) return false;
-      }
-      return true;
-    });
+new_col = """  // 3. Malha de Colisão Binária (Uint8Array de 388.683 bytes, 2031x1531)
+  let colBytes = new Uint8Array(colArrayBuffer);
+  let COL_WIDTH = 2031;
+  let COL_HEIGHT = 1531;
+  let MAP_WIDTH = 2000;
+  let MAP_HEIGHT = 1500;
+  console.log(`Malha de colisão binária carregada: ${colBytes.length} bytes (${COL_WIDTH}x${COL_HEIGHT})`);
 
-    classesGrid.innerHTML = filtered.map(c => {
-      const isAct = currentModel === c.id;
-      const genderBadge = c.gender === "MALE" ? `<span class="badge badge-male">♂ MASCULINO</span>` : `<span class="badge badge-female">♀ FEMININO</span>`;
-      let tierBadge = `<span class="badge badge-tier1">TIER 1</span>`;
-      if (c.tier === 2) tierBadge = `<span class="badge badge-tier2">⚡ TIER 2 (11 AÇÕES)</span>`;
-      else if (c.tier === "costume") tierBadge = `<span class="badge badge-costume">👑 COSTUME</span>`;
-      else if (c.tier === "mount") tierBadge = `<span class="badge badge-mount">🐎 MONTARIA</span>`;
+  function isWalkable(x, y) {
+    const ix = Math.floor(x);
+    const iy = Math.floor(y);
+    if (ix < 0 || ix >= MAP_WIDTH || iy < 0 || iy >= MAP_HEIGHT) return false;
+    if (!colBytes || COL_WIDTH <= 0 || COL_HEIGHT <= 0) return true;
+    if (ix >= COL_WIDTH || iy >= COL_HEIGHT) return false;
+    const idx = iy * COL_WIDTH + ix;
+    return (colBytes[idx >> 3] & (1 << (idx & 7))) !== 0;
+  }"""
 
-      const actsText = c.actions && c.actions.includes(10) ? "⚡ 11 Ações (com Suprema 32f)" : `${c.actions ? c.actions.length : 8} Ações`;
-      const thumbUrl = c.thumb || `assets/characters/${c.id}/thumb.webp`;
+assert old_col in code, "old_col not found!"
+code = code.replace(old_col, new_col)
 
-      return `
-        <div class="asset-card ${isAct ? 'active-item' : ''}" data-class-id="${c.id}">
-          <div class="asset-card-inner">
-            <div class="asset-thumb-wrapper">
-              <img src="${thumbUrl}" alt="${c.name}" class="asset-thumb" loading="lazy" />
-            </div>
-            <div class="asset-details">
-              <div class="card-top-row">
-                <h4 class="card-title">${c.name}</h4>
-              </div>
-              <div class="card-badges">
-                ${genderBadge}
-                ${tierBadge}
-              </div>
-              <div class="card-meta-text">
-                <span><strong>ID:</strong> ${c.id}</span>
-                <span><strong>Ações:</strong> ${actsText}</span>
-                <span><strong>Tamanho:</strong> ${c.width}x${c.height}px</span>
-              </div>
-            </div>
-          </div>
-          <button class="card-btn-action" data-equip-class="${c.id}">
-            ${isAct ? '✓ EQUIPADO' : '🎮 EQUIPAR ESTA CLASSE'}
-          </button>
-        </div>
-      `;
-    }).join("");
+# 3. Replace const MAP_WIDTH with portalsContainer
+old_map = """  // Camada 1: Terreno / Mapa Base
+  const mapTexture = await PIXI.Assets.load("assets/map1/map1.jpg");
+  const mapSprite = new PIXI.Sprite(mapTexture);
+  mapSprite.eventMode = "static";
+  world.addChild(mapSprite);
 
-    classesGrid.querySelectorAll("[data-equip-class]").forEach(btn => {
-      btn.addEventListener("click", async (e) => {
-        e.stopPropagation();
-        const cid = btn.dataset.equipClass;
-        const targetMeta = classesList.find(x => x.id === cid);
-        await setCharacterModel(cid, targetMeta);
-        renderClassesGrid();
-        if (modalClasses) modalClasses.classList.add("hidden");
-      });
-    });
+  const MAP_WIDTH = 2000;
+  const MAP_HEIGHT = 1500;"""
+
+new_map = """  // Camada 1: Terreno / Mapa Base
+  const mapTexture = await PIXI.Assets.load("assets/map1/map1.jpg");
+  const mapSprite = new PIXI.Sprite(mapTexture);
+  mapSprite.eventMode = "static";
+  world.addChild(mapSprite);
+
+  // Camada 1.5: Portais de Interligação de Mapas
+  const portalsContainer = new PIXI.Container();
+  world.addChild(portalsContainer);"""
+
+assert old_map in code, "old_map not found!"
+code = code.replace(old_map, new_map)
+
+# 4. Insert renderMapPortals, showMapToast, switchMap
+portal_helpers = """
+  // ==========================================================================
+  // SISTEMA DE PORTAIS, TELEPORTE & TROCA DE MAPAS (76 MAPAS)
+  // ==========================================================================
+
+  let toastTimeout = null;
+  function showMapToast(text) {
+    let toast = document.getElementById("map-toast-notification");
+    if (!toast) {
+      toast = document.createElement("div");
+      toast.id = "map-toast-notification";
+      document.body.appendChild(toast);
+    }
+    toast.textContent = text;
+    toast.style.display = "flex";
+    if (toastTimeout) clearTimeout(toastTimeout);
+    toastTimeout = setTimeout(() => {
+      if (toast) toast.style.display = "none";
+    }, 2800);
   }
 
-  // 2. GRID DE MONSTROS E PETS (543 Criaturas: 106 Pets + 437 Monstros)
-  function renderMonstersGrid() {
-    if (!monstersGrid) return;
-    const q = (monstersSearchInput ? monstersSearchInput.value : "").trim().toLowerCase();
+  function renderMapPortals(portals) {
+    portalsContainer.removeChildren();
+    if (!portals || portals.length === 0) return;
 
-    const filtered = monstersList.filter(m => {
-      if (selectedMonFilter === "pets" && !m.is_pet) return false;
-      if (selectedMonFilter === "monsters" && m.is_pet) return false;
-      if (selectedMonFilter === "named" && m.name.startsWith("Criatura #")) return false;
-      if (selectedMonFilter === "boss" && (!m.db_id || parseInt(m.db_id) < 100)) return false;
-      if (q) {
-        const str = `${m.name} ${m.id} ${m.db_id || ''} ${m.res_code_num} ${m.is_pet ? 'pet' : ''}`.toLowerCase();
-        if (!str.includes(q)) return false;
-      }
-      return true;
-    }).slice(0, 160);
+    portals.forEach(portal => {
+      const portalGroup = new PIXI.Container();
+      portalGroup.x = portal.x;
+      portalGroup.y = portal.y;
+      portalGroup.eventMode = "static";
+      portalGroup.cursor = "pointer";
 
-    monstersGrid.innerHTML = filtered.map(m => {
-      const isAct = currentMonsterId === m.id;
-      const lvl = m.db_id ? (parseInt(m.db_id) % 85 + 5) : 5;
-      const thumbUrl = m.thumb || `assets/monsters/${m.id}/thumb.webp`;
-      const isPet = !!m.is_pet;
-      const petBadge = isPet ? `<span class="badge badge-pet">🐾 PET ${m.catchable ? 'CAPTURÁVEL' : 'COMPANHEIRO'}</span>` : '';
-      const typeBadge = isPet ? '' : `<span class="badge badge-tier1">NV. ${lvl}</span>`;
-      const descSnippet = m.desc ? `<span class="card-desc" style="font-size:10px; color:#a3be8c; font-style:italic;">"${m.desc.slice(0, 55)}..."</span>` : '';
+      // Base glowing aura
+      const glow = new PIXI.Graphics();
+      glow.name = "glow";
+      glow.beginFill(0x00e5ff, 0.28);
+      glow.drawEllipse(0, 0, 36, 18);
+      glow.endFill();
+      portalGroup.addChild(glow);
 
-      return `
-        <div class="asset-card ${isAct ? 'active-item' : ''}" data-mon-id="${m.id}">
-          <div class="asset-card-inner">
-            <div class="asset-thumb-wrapper mon-thumb-bg">
-              <img src="${thumbUrl}" alt="${m.name}" class="asset-thumb" loading="lazy" />
-            </div>
-            <div class="asset-details">
-              <div class="card-top-row">
-                <h4 class="card-title">${isPet ? '🐾' : '👾'} ${m.name}</h4>
-              </div>
-              <div class="card-badges">
-                ${petBadge}
-                ${typeBadge}
-                <span class="badge badge-mount">${m.actions ? m.actions.length : 8} AÇÕES</span>
-              </div>
-              <div class="card-meta-text">
-                <span><strong>ID:</strong> ${m.id} ${m.db_id ? `(DB: ${m.db_id})` : ''}</span>
-                <span><strong>ResCode:</strong> ${m.res_code_num}</span>
-                ${descSnippet}
-              </div>
-            </div>
-          </div>
-          <button class="card-btn-action btn-mon" data-fight-mon="${m.id}">
-            ${isAct ? '⚔️ SELECIONADO AGORA' : (isPet ? '🐾 TESTAR / BATALHAR COM PET' : '⚔️ ENFRENTAR NO MAPA')}
-          </button>
-        </div>
-      `;
-    }).join("");
+      // Outer rotating rune ring
+      const outerRing = new PIXI.Graphics();
+      outerRing.name = "outerRing";
+      outerRing.lineStyle(2.5, 0x00e5ff, 0.9);
+      outerRing.drawEllipse(0, 0, 30, 15);
+      outerRing.lineStyle(2, 0xffffff, 0.95);
+      outerRing.moveTo(0, -15); outerRing.lineTo(0, -19);
+      outerRing.moveTo(0, 15); outerRing.lineTo(0, 19);
+      outerRing.moveTo(-30, 0); outerRing.lineTo(-36, 0);
+      outerRing.moveTo(30, 0); outerRing.lineTo(36, 0);
+      portalGroup.addChild(outerRing);
 
-    monstersGrid.querySelectorAll("[data-fight-mon]").forEach(btn => {
-      btn.addEventListener("click", async (e) => {
-        e.stopPropagation();
-        const mid = btn.dataset.fightMon;
-        const targetMeta = monstersList.find(x => x.id === mid);
-        await setMapMonster(mid, targetMeta);
-        renderMonstersGrid();
-        if (modalMonsters) modalMonsters.classList.add("hidden");
-        openCombatTest();
+      // Inner bright luminous core
+      const innerCore = new PIXI.Graphics();
+      innerCore.name = "innerCore";
+      innerCore.beginFill(0x80deea, 0.45);
+      innerCore.drawEllipse(0, 0, 16, 8);
+      innerCore.endFill();
+      portalGroup.addChild(innerCore);
+
+      // Floating text label
+      const labelContainer = new PIXI.Container();
+      labelContainer.y = -32;
+
+      const labelBg = new PIXI.Graphics();
+      const portalTitle = `🌀 ${portal.target_name} (#${portal.target_map_id})`;
+      const labelText = new PIXI.Text(portalTitle, {
+        fontFamily: "system-ui, -apple-system, sans-serif",
+        fontSize: 10.5,
+        fontWeight: "bold",
+        fill: "#00e5ff",
+        stroke: "#0b121e",
+        strokeThickness: 3,
+        align: "center"
       });
-    });
-  }
+      labelText.anchor.set(0.5, 0.5);
 
-  // 3. GRID DE MONTARIAS (20 Montarias)
-  function renderMountsGrid() {
-    if (!mountsGrid) return;
-    const q = (mountsSearchInput ? mountsSearchInput.value : "").trim().toLowerCase();
+      const padX = 8;
+      const padY = 3;
+      const w = labelText.width + padX * 2;
+      const h = labelText.height + padY * 2;
 
-    const filtered = mountsList.filter(m => {
-      if (selectedMountFilter === "classic" && (m.tier > 6)) return false;
-      if (selectedMountFilter === "divine" && (m.tier <= 6)) return false;
-      if (selectedMountFilter === "male" && m.type !== "male_mount") return false;
-      if (selectedMountFilter === "female" && m.type === "male_mount") return false;
-      if (q) {
-        const str = `${m.name} ${m.id} ${m.type} tier${m.tier}`.toLowerCase();
-        if (!str.includes(q)) return false;
-      }
-      return true;
-    });
+      labelBg.beginFill(0x0a101d, 0.88);
+      labelBg.lineStyle(1.2, 0x00e5ff, 0.7);
+      labelBg.drawRoundedRect(-w / 2, -h / 2, w, h, 6);
+      labelBg.endFill();
 
-    mountsGrid.innerHTML = filtered.map(m => {
-      const isAct = currentModel === m.id;
-      const isDivine = m.tier >= 7;
-      const tierBadge = isDivine
-        ? `<span class="badge badge-divine">🔥 GRAU ${m.tier} (DIVINA)</span>`
-        : `<span class="badge badge-mount">🐎 GRAU ${m.tier} (CLÁSSICA)</span>`;
+      labelContainer.addChild(labelBg);
+      labelContainer.addChild(labelText);
+      portalGroup.addChild(labelContainer);
 
-      return `
-        <div class="asset-card ${isAct ? 'active-item' : ''}" data-mount-id="${m.id}">
-          <div class="asset-card-inner">
-            <div class="asset-thumb-wrapper mount-thumb-bg">
-              <img src="${m.thumb}" alt="${m.name}" class="asset-thumb" loading="lazy" />
-            </div>
-            <div class="asset-details">
-              <div class="card-top-row">
-                <h4 class="card-title">🐎 ${m.name}</h4>
-              </div>
-              <div class="card-badges">
-                ${tierBadge}
-                <span class="badge ${m.type === 'male_mount' ? 'badge-male' : 'badge-female'}">${m.type === 'male_mount' ? '♂ MONTARIA M' : '♀ MONTARIA F'}</span>
-              </div>
-              <div class="card-meta-text">
-                <span><strong>ID:</strong> ${m.id}</span>
-                <span><strong>Animações:</strong> Parado & Galope Veloz</span>
-              </div>
-            </div>
-          </div>
-          <button class="card-btn-action btn-mount" data-ride-mount="${m.id}">
-            ${isAct ? '✓ CAVALGANDO AGORA' : '🏇 MONTAR / CAVALGAR'}
-          </button>
-        </div>
-      `;
-    }).join("");
-
-    mountsGrid.querySelectorAll("[data-ride-mount]").forEach(btn => {
-      btn.addEventListener("click", async (e) => {
+      portalGroup.on("pointerdown", (e) => {
         e.stopPropagation();
-        const mid = btn.dataset.rideMount;
-        const targetMeta = mountsList.find(x => x.id === mid);
-        await setCharacterModel(mid, targetMeta);
-        renderMountsGrid();
-        if (modalMounts) modalMounts.classList.add("hidden");
-        spawnCombatText(`🐎 Montando em ${targetMeta.name}!`, player.x, player.y - 65, 0x88c0d0);
-      });
-    });
-  }
-
-  // 4. GRID DE NPCS (365 NPCs com Spawner no Mapa)
-  function renderNpcsGrid() {
-    if (!npcsGrid) return;
-    const q = (npcsSearchInput ? npcsSearchInput.value : "").trim().toLowerCase();
-
-    const filtered = npcsList.filter(n => {
-      const nameLower = n.name.toLowerCase();
-      if (selectedNpcFilter === "shops" && !(nameLower.includes("tiệm") || nameLower.includes("tạp hóa") || nameLower.includes("bảo quản") || nameLower.includes("thương gia") || nameLower.includes("loja") || nameLower.includes("mercador"))) return false;
-      if (selectedNpcFilter === "masters" && !(nameLower.includes("đạo sư") || nameLower.includes("khảo quan") || nameLower.includes("hiền triết") || nameLower.includes("mestre") || nameLower.includes("instrutor"))) return false;
-      if (selectedNpcFilter === "guards" && !(nameLower.includes("hộ vệ") || nameLower.includes("cận vệ") || nameLower.includes("trưởng") || nameLower.includes("tướng") || nameLower.includes("quân") || nameLower.includes("guarda"))) return false;
-      if (selectedNpcFilter === "academy" && !(nameLower.includes("sứ giả") || nameLower.includes("học viện") || nameLower.includes("thôn") || nameLower.includes("chuyên viên"))) return false;
-      if (q) {
-        const str = `${n.name} ${n.id} ${n.res_code_num}`.toLowerCase();
-        if (!str.includes(q)) return false;
-      }
-      return true;
-    }).slice(0, 150);
-
-    npcsGrid.innerHTML = filtered.map(n => {
-      return `
-        <div class="asset-card" data-npc-id="${n.id}">
-          <div class="asset-card-inner">
-            <div class="asset-thumb-wrapper npc-thumb-bg">
-              <img src="${n.thumb}" alt="${n.name}" class="asset-thumb" loading="lazy" />
-            </div>
-            <div class="asset-details">
-              <div class="card-top-row">
-                <h4 class="card-title">👥 ${n.name}</h4>
-              </div>
-              <div class="card-badges">
-                <span class="badge badge-npc">NPC FUNCIONAL</span>
-                <span class="badge badge-tier1">MAPA ${n.map_id || 1}</span>
-              </div>
-              <div class="card-meta-text">
-                <span><strong>ID:</strong> ${n.id}</span>
-                <span><strong>ResCode:</strong> ${n.res_code_num}</span>
-                <span><strong>Ocorrências:</strong> ${n.db_entries_count || 1} no jogo</span>
-              </div>
-            </div>
-          </div>
-          <button class="card-btn-action btn-npc" data-spawn-npc="${n.id}">
-            📍 SPAWNAR NO MAPA
-          </button>
-        </div>
-      `;
-    }).join("");
-
-    npcsGrid.querySelectorAll("[data-spawn-npc]").forEach(btn => {
-      btn.addEventListener("click", (e) => {
-        e.stopPropagation();
-        const nid = btn.dataset.spawnNpc;
-        const targetNpc = npcsList.find(x => x.id === nid);
-        if (targetNpc) {
-          spawnNPCAtPlayer(targetNpc);
-          if (modalNpcs) modalNpcs.classList.add("hidden");
+        const dist = Math.hypot(player.x - portal.x, player.y - portal.y);
+        if (dist <= 60 && teleportCooldown <= 0) {
+          teleportCooldown = 2.5;
+          switchMap(portal.target_map_id, portal.dest_x, portal.dest_y);
+        } else {
+          movePlayerTo(portal.x, portal.y);
         }
       });
+
+      portalsContainer.addChild(portalGroup);
     });
   }
 
-  // Spawner de NPC no mapa ao lado do jogador
-  function spawnNPCAtPlayer(npc) {
-    const spawnX = Math.round(player.x + 45);
-    const spawnY = Math.round(player.y + 15);
+  // Renderizar portais iniciais do Mapa 1
+  renderMapPortals(currentMapPortals);
 
-    const npcGroup = new PIXI.Container();
-    npcGroup.x = spawnX;
-    npcGroup.y = spawnY;
-    npcGroup.zIndex = Math.round(spawnY);
+  async function switchMap(targetMapId, spawnX, spawnY) {
+    const mapMeta = mapsCatalog.maps.find(m => m.id === targetMapId);
+    if (!mapMeta) {
+      console.warn(`Mapa ID ${targetMapId} não encontrado no catálogo.`);
+      return;
+    }
 
-    const shadow = new PIXI.Graphics();
-    shadow.beginFill(0x000000, 0.38);
-    shadow.drawEllipse(0, 0, 16, 8);
-    shadow.endFill();
-    npcGroup.addChild(shadow);
+    showMapToast(`🌀 Viajando para ${mapMeta.name} (#${mapMeta.id})...`);
 
-    const thumbTexture = PIXI.Texture.from(npc.thumb);
-    const sprite = new PIXI.Sprite(thumbTexture);
-    sprite.anchor.set(0.5, 1.0);
-    sprite.scale.set(0.70, 0.70);
-    npcGroup.addChild(sprite);
+    try {
+      // 1. Carregar textura do novo mapa
+      const newTexture = await PIXI.Assets.load(mapMeta.bg_image);
+      mapSprite.texture = newTexture;
+      mapSprite.width = mapMeta.width;
+      mapSprite.height = mapMeta.height;
 
-    const text = new PIXI.Text(npc.name, {
-      fontFamily: "system-ui, -apple-system, sans-serif",
-      fontSize: 11,
-      fontWeight: "bold",
-      fill: "#ffeb3b",
-      stroke: "#111625",
-      strokeThickness: 3
-    });
-    text.anchor.set(0.5, 1.0);
-    text.y = - Math.round(sprite.height * 0.70) - 4;
-    npcGroup.addChild(text);
+      // 2. Atualizar limites de dimensões
+      MAP_WIDTH = mapMeta.width;
+      MAP_HEIGHT = mapMeta.height;
 
-    npcGroup.eventMode = "static";
-    npcGroup.cursor = "pointer";
-    npcGroup.hitArea = new PIXI.Circle(0, -35, 40);
-    npcGroup.on("pointertap", (e) => {
-      e.stopPropagation();
-      showNPCDialog({
-        name: npc.name,
-        dialog: `Olá aventureiro! Eu sou ${npc.name} (ID: ${npc.id}). Em breve estarei pronto para lhe conceder missões, forjar itens e ensinar novas magias!`
-      });
-    });
+      // 3. Carregar malha de colisão binária se existir
+      if (mapMeta.has_collision && mapMeta.collision_bin) {
+        try {
+          const colBuf = await fetch(mapMeta.collision_bin).then(r => r.arrayBuffer());
+          colBytes = new Uint8Array(colBuf);
+          COL_WIDTH = mapMeta.col_width;
+          COL_HEIGHT = mapMeta.col_height;
+        } catch (e) {
+          console.warn("Erro ao carregar colisão binária do mapa:", e);
+        }
+      } else {
+        COL_WIDTH = 0;
+        COL_HEIGHT = 0;
+      }
 
-    entitiesContainer.addChild(npcGroup);
-    entitiesContainer.sortChildren();
-    spawnCombatText(`👥 NPC ${npc.name} Spawnado!`, spawnX, spawnY - 50, 0xebcb8b);
-  }
+      currentMapId = targetMapId;
+      currentMapMeta = mapMeta;
+      currentMapPortals = mapMeta.portals || [];
 
-  // Handlers de Abertura / Fechamento dos Modais
-  function openClassesModal() {
-    if (modalClasses) {
-      modalClasses.classList.remove("hidden");
-      renderClassesGrid();
+      // 4. Posicionar jogador nas coordenadas seguras
+      const targetX = (spawnX !== undefined && spawnX !== null) ? spawnX : (mapMeta.safe_x || Math.round(MAP_WIDTH / 2));
+      const targetY = (spawnY !== undefined && spawnY !== null) ? spawnY : (mapMeta.safe_y || Math.round(MAP_HEIGHT / 2));
+      const safePos = findClosestWalkable(targetX, targetY, 120) || { x: targetX, y: targetY };
+
+      player.x = safePos.x;
+      player.y = safePos.y;
+      player.targetX = null;
+      player.targetY = null;
+      if (playerContainer) {
+        playerContainer.x = player.x;
+        playerContainer.y = player.y;
+        playerContainer.zIndex = Math.round(player.y);
+      }
+      if (targetMarker) targetMarker.visible = false;
+
+      // 5. Renderizar portais deste mapa
+      renderMapPortals(currentMapPortals);
+
+      // 6. Atualizar HUD de Mapa
+      const mapNameEl = document.querySelector(".map-name");
+      if (mapNameEl) mapNameEl.textContent = `${mapMeta.name} (#${mapMeta.id})`;
+
+      const worldCurrentLocEl = document.getElementById("worldmap-current-loc");
+      if (worldCurrentLocEl) worldCurrentLocEl.textContent = `${mapMeta.name} (#${mapMeta.id})`;
+
+      // 7. Visibilidade de elementos específicos do Mapa 1
+      const isMap1 = (targetMapId === 1);
+      if (maskSprites) {
+        maskSprites.forEach(m => { if (m.sprite) m.sprite.visible = isMap1; });
+      }
+      if (npcList) {
+        npcList.forEach(n => { n.visible = isMap1; });
+      }
+      if (mapMonsterGroup) {
+        mapMonsterGroup.visible = isMap1;
+      }
+
+      // 8. Atualizar câmera imediatamente
+      updateCamera();
+
+      // 9. Feedback de chegada
+      showMapToast(`📍 Chegou em: ${mapMeta.name} (#${mapMeta.id})`);
+      spawnCombatText(`📍 ${mapMeta.name}`, player.x, player.y - 65, 0xa3be8c);
+
+      // 10. Atualizar pin ativo no mapa mundi caso esteja aberto
+      updateActiveWorldMapPin();
+
+    } catch (err) {
+      console.error(`Erro ao trocar para o mapa ${targetMapId}:`, err);
+      showMapToast(`❌ Erro ao carregar mapa #${targetMapId}`);
     }
   }
-  function closeClassesModal() {
-    if (modalClasses) modalClasses.classList.add("hidden");
-  }
+"""
 
-  function openMonstersModal() {
-    if (modalMonsters) {
-      modalMonsters.classList.remove("hidden");
-      renderMonstersGrid();
-    }
-  }
-  function closeMonstersModal() {
-    if (modalMonsters) modalMonsters.classList.add("hidden");
-  }
+marker_target = """  // Camada 3: Marcador de Destino (Tap-to-move)"""
+assert marker_target in code, "marker_target not found!"
+code = code.replace(marker_target, portal_helpers + "\n  " + marker_target)
 
-  function openMountsModal() {
-    if (modalMounts) {
-      modalMounts.classList.remove("hidden");
-      renderMountsGrid();
-    }
-  }
-  function closeMountsModal() {
-    if (modalMounts) modalMounts.classList.add("hidden");
-  }
-
-  function openNpcsModal() {
-    if (modalNpcs) {
-      modalNpcs.classList.remove("hidden");
-      renderNpcsGrid();
-    }
-  }
-  function closeNpcsModal() {
-    if (modalNpcs) modalNpcs.classList.add("hidden");
-  }
-
-  // Top Nav Buttons (Classes, Pets/Monstros, Montarias, NPCs)
-  const btnTopClasses = document.getElementById("btn-open-classes-modal");
-  const btnTopMonsters = document.getElementById("btn-open-monsters-modal");
-  const btnTopMounts = document.getElementById("btn-open-mounts-modal");
-  const btnTopNpcs = document.getElementById("btn-open-npcs-modal");
-
-  if (btnTopClasses) btnTopClasses.addEventListener("click", openClassesModal);
-  if (btnTopMonsters) btnTopMonsters.addEventListener("click", openMonstersModal);
-  if (btnTopMounts) btnTopMounts.addEventListener("click", openMountsModal);
-  if (btnTopNpcs) btnTopNpcs.addEventListener("click", openNpcsModal);
-
-  // Drawer Buttons
-  const btnDrawerClasses = document.getElementById("btn-drawer-all-classes");
-  const btnDrawerMonsters = document.getElementById("btn-drawer-all-monsters");
-  const btnDrawerMounts = document.getElementById("btn-drawer-all-mounts");
-  const btnDrawerNpcs = document.getElementById("btn-drawer-all-npcs");
-
-  if (btnDrawerClasses) btnDrawerClasses.addEventListener("click", () => { closeDrawer(); openClassesModal(); });
-  if (btnDrawerMonsters) btnDrawerMonsters.addEventListener("click", () => { closeDrawer(); openMonstersModal(); });
-  if (btnDrawerMounts) btnDrawerMounts.addEventListener("click", () => { closeDrawer(); openMountsModal(); });
-  if (btnDrawerNpcs) btnDrawerNpcs.addEventListener("click", () => { closeDrawer(); openNpcsModal(); });
-
-  // Combat Switch Monster Button
-  const btnCbSwitchMon = document.getElementById("btn-combat-switch-mon");
-  if (btnCbSwitchMon) btnCbSwitchMon.addEventListener("click", openMonstersModal);
-
-  // Modal Close Buttons
-  const btnCloseClasses = document.getElementById("btn-close-classes-modal");
-  const btnCloseMonsters = document.getElementById("btn-close-monsters-modal");
-  const btnCloseMounts = document.getElementById("btn-close-mounts-modal");
-  const btnCloseNpcs = document.getElementById("btn-close-npcs-modal");
-
-  if (btnCloseClasses) btnCloseClasses.addEventListener("click", closeClassesModal);
-  if (btnCloseMonsters) btnCloseMonsters.addEventListener("click", closeMonstersModal);
-  if (btnCloseMounts) btnCloseMounts.addEventListener("click", closeMountsModal);
-  if (btnCloseNpcs) btnCloseNpcs.addEventListener("click", closeNpcsModal);
-
-  // Backdrop click to close
-  [
-    { modal: modalClasses, close: closeClassesModal },
-    { modal: modalMonsters, close: closeMonstersModal },
-    { modal: modalMounts, close: closeMountsModal },
-    { modal: modalNpcs, close: closeNpcsModal }
-  ].forEach(item => {
-    if (item.modal) {
-      item.modal.addEventListener("click", (e) => {
-        if (e.target === item.modal) item.close();
+# 5. In ticker loop: add portal animation and contact check
+ticker_target = """    // 4. Transparência Dinâmica dos Telhados e Árvores (Máscaras de Sobreposição)"""
+ticker_addition = """    // 3.8 Animação e Detecção de Portais de Teleporte
+    if (portalsContainer && portalsContainer.children.length > 0) {
+      portalPulseTimer += deltaSeconds * 3;
+      portalsContainer.children.forEach(pg => {
+        const glow = pg.getChildByName("glow");
+        const outerRing = pg.getChildByName("outerRing");
+        const innerCore = pg.getChildByName("innerCore");
+        if (glow) glow.alpha = 0.22 + Math.sin(portalPulseTimer) * 0.14;
+        if (outerRing) outerRing.scale.set(1.0 + Math.sin(portalPulseTimer * 1.5) * 0.05);
+        if (innerCore) innerCore.alpha = 0.35 + Math.cos(portalPulseTimer * 2) * 0.18;
       });
     }
+
+    if (teleportCooldown > 0) {
+      teleportCooldown -= deltaSeconds;
+    } else if (currentMapPortals && currentMapPortals.length > 0 && !isCombatTesting) {
+      for (const portal of currentMapPortals) {
+        const dist = Math.hypot(player.x - portal.x, player.y - portal.y);
+        if (dist <= 48) {
+          teleportCooldown = 2.5;
+          switchMap(portal.target_map_id, portal.dest_x, portal.dest_y);
+          break;
+        }
+      }
+    }
+
+"""
+assert ticker_target in code, "ticker_target not found!"
+code = code.replace(ticker_target, ticker_addition + ticker_target)
+
+# 6. Add World Map Modal logic and wiring before window.game
+worldmap_controller = """
+  // ==========================================================================
+  // CONTROLLER DO MAPA GERAL DO MUNDO & BUSCA DE MAPAS (76 MAPAS)
+  // ==========================================================================
+
+  const modalWorldmap = document.getElementById("modal-worldmap");
+  const btnOpenWorldmap = document.getElementById("btn-open-worldmap-modal");
+  const btnCloseWorldmap = document.getElementById("btn-close-worldmap-modal");
+  const btnDrawerWorldmap = document.getElementById("btn-drawer-worldmap");
+
+  const worldmapBgImg = document.getElementById("worldmap-bg-img");
+  const worldmapPinsLayer = document.getElementById("worldmap-pins-layer");
+  const worldmapInteractiveView = document.getElementById("worldmap-interactive-view");
+  const worldmapListView = document.getElementById("worldmap-list-view");
+
+  const pinCard = document.getElementById("worldmap-pin-card");
+  const btnClosePinCard = document.getElementById("btn-close-pin-card");
+  const btnTeleportPin = document.getElementById("btn-teleport-pin");
+
+  const mapsSearchInput = document.getElementById("maps-search-input");
+  const mapsGridContainer = document.getElementById("maps-grid-container");
+
+  let currentWorldmapTab = "continent-1";
+  let selectedPinMap = null;
+  let selectedMapFilter = "all";
+
+  function openWorldMapModal() {
+    if (modalWorldmap) {
+      modalWorldmap.classList.remove("hidden");
+      switchWorldmapTab(currentWorldmapTab);
+    }
+  }
+
+  function closeWorldMapModal() {
+    if (modalWorldmap) modalWorldmap.classList.add("hidden");
+    if (pinCard) pinCard.classList.add("hidden");
+  }
+
+  function switchWorldmapTab(tabKey) {
+    currentWorldmapTab = tabKey;
+
+    document.querySelectorAll(".worldmap-tab-btn").forEach(btn => {
+      btn.classList.toggle("active", btn.dataset.tab === tabKey);
+    });
+
+    if (tabKey === "continent-1") {
+      worldmapInteractiveView.classList.remove("hidden");
+      worldmapListView.classList.add("hidden");
+      worldmapBgImg.src = "assets/worldmap/world_map_1.jpg";
+      renderWorldMapPins(1);
+    } else if (tabKey === "continent-2") {
+      worldmapInteractiveView.classList.remove("hidden");
+      worldmapListView.classList.add("hidden");
+      worldmapBgImg.src = "assets/worldmap/world_map_2.jpg";
+      renderWorldMapPins(2);
+    } else if (tabKey === "list") {
+      worldmapInteractiveView.classList.add("hidden");
+      worldmapListView.classList.remove("hidden");
+      renderMapsGrid();
+    }
+  }
+
+  function renderWorldMapPins(continentId) {
+    worldmapPinsLayer.innerHTML = "";
+    if (pinCard) pinCard.classList.add("hidden");
+    if (!mapsCatalog || !mapsCatalog.maps) return;
+
+    const pinnedMaps = mapsCatalog.maps.filter(m => m.continent === continentId && m.world_x !== null && m.world_y !== null);
+
+    pinnedMaps.forEach(m => {
+      const pin = document.createElement("div");
+      pin.className = "worldmap-pin";
+      if (m.name.includes("Thành") || m.name.includes("Thôn")) pin.classList.add("is-town");
+      if (m.id === currentMapId) pin.classList.add("is-current-location");
+
+      pin.style.left = `${m.world_x}px`;
+      pin.style.top = `${m.world_y}px`;
+      pin.dataset.mapId = m.id;
+
+      pin.innerHTML = `
+        ${m.id === currentMapId ? '<div class="radar-ring"></div>' : ''}
+        <div class="pin-icon">${m.name.includes("Thành") ? '🏰' : (m.name.includes("Thôn") ? '🏡' : '📍')}</div>
+        <div class="pin-needle"></div>
+        <div class="pin-label-pill">${m.name}</div>
+      `;
+
+      pin.addEventListener("click", (e) => {
+        e.stopPropagation();
+        showPinCard(m);
+      });
+
+      worldmapPinsLayer.appendChild(pin);
+    });
+  }
+
+  function updateActiveWorldMapPin() {
+    document.querySelectorAll(".worldmap-pin").forEach(pin => {
+      const mid = parseInt(pin.dataset.mapId, 10);
+      const isCur = (mid === currentMapId);
+      pin.classList.toggle("is-current-location", isCur);
+      const existingRadar = pin.querySelector(".radar-ring");
+      if (isCur && !existingRadar) {
+        const ring = document.createElement("div");
+        ring.className = "radar-ring";
+        pin.prepend(ring);
+      } else if (!isCur && existingRadar) {
+        existingRadar.remove();
+      }
+    });
+  }
+
+  function showPinCard(mapObj) {
+    selectedPinMap = mapObj;
+    if (!pinCard) return;
+    pinCard.classList.remove("hidden");
+
+    const imgEl = document.getElementById("pin-card-img");
+    if (imgEl) imgEl.src = mapObj.thumb || `assets/maps/map_${mapObj.id}/thumb.webp`;
+
+    const lvlEl = document.getElementById("pin-card-level-badge");
+    if (lvlEl) lvlEl.textContent = `Lv. ${mapObj.level || 1}+`;
+
+    const nameEl = document.getElementById("pin-card-name");
+    if (nameEl) nameEl.textContent = mapObj.name;
+
+    const idEl = document.getElementById("pin-card-id");
+    if (idEl) idEl.textContent = `#${mapObj.id}`;
+
+    const descEl = document.getElementById("pin-card-desc");
+    if (descEl) descEl.textContent = mapObj.info || "Área explorável do mundo de Magic Campus.";
+
+    const sizeEl = document.getElementById("pin-card-size");
+    if (sizeEl) sizeEl.textContent = `📏 ${mapObj.width} x ${mapObj.height}`;
+
+    const portalsEl = document.getElementById("pin-card-portals");
+    if (portalsEl) portalsEl.textContent = `🌀 ${mapObj.portals ? mapObj.portals.length : 0} Portais`;
+
+    const portalsListEl = document.getElementById("pin-card-portals-list");
+    if (portalsListEl) {
+      if (mapObj.portals && mapObj.portals.length > 0) {
+        portalsListEl.innerHTML = mapObj.portals.map(p => `
+          <span class="portal-link-pill">➔ ${p.target_name} (#${p.target_map_id})</span>
+        `).join("");
+      } else {
+        portalsListEl.innerHTML = '<span class="portal-link-pill" style="opacity:0.6;">Sem portais diretos</span>';
+      }
+    }
+  }
+
+  function renderMapsGrid() {
+    if (!mapsCatalog || !mapsCatalog.maps || !mapsGridContainer) return;
+
+    const query = (mapsSearchInput ? mapsSearchInput.value : "").trim().toLowerCase();
+    const filtered = mapsCatalog.maps.filter(m => {
+      if (selectedMapFilter === "cont1" && m.continent !== 1) return false;
+      if (selectedMapFilter === "cont2" && m.continent !== 2) return false;
+      if (selectedMapFilter === "town" && !m.name.includes("Thành") && !m.name.includes("Thôn")) return false;
+      if (selectedMapFilter === "dungeon" && (m.name.includes("Thành") || m.name.includes("Thôn"))) return false;
+
+      if (query) {
+        const matchName = m.name.toLowerCase().includes(query);
+        const matchId = String(m.id) === query || String(m.id).includes(query);
+        const matchInfo = (m.info || "").toLowerCase().includes(query);
+        if (!matchName && !matchId && !matchInfo) return false;
+      }
+      return true;
+    });
+
+    mapsGridContainer.innerHTML = filtered.map(m => {
+      const isCur = (m.id === currentMapId);
+      const contName = (m.continent === 1) ? "🌐 Vô Ưu" : "✨ Thần Thánh";
+      return `
+        <div class="asset-card ${isCur ? 'active' : ''}">
+          <div class="asset-card-inner">
+            <div class="asset-thumb-wrapper" style="width: 80px; height: 60px; min-width: 80px;">
+              <img class="asset-thumb" src="${m.thumb}" alt="${m.name}" loading="lazy" />
+            </div>
+            <div class="asset-details">
+              <div class="asset-card-header">
+                <span class="asset-title">${m.name}</span>
+                <span class="asset-id">#${m.id}</span>
+              </div>
+              <div class="asset-meta-row">
+                <span class="asset-tag">${contName}</span>
+                <span class="asset-tag">Lv. ${m.level}+</span>
+                <span class="asset-tag">🌀 ${m.portals ? m.portals.length : 0}p</span>
+              </div>
+              <button class="card-btn-action btn-map-tp" data-tp-map="${m.id}">
+                ${isCur ? '📍 AQUI AGORA' : '🚀 TELEPORTAR'}
+              </button>
+            </div>
+          </div>
+        </div>
+      `;
+    }).join("");
+
+    mapsGridContainer.querySelectorAll("[data-tp-map]").forEach(btn => {
+      btn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        const mid = parseInt(btn.dataset.tpMap, 10);
+        closeWorldMapModal();
+        switchMap(mid);
+      });
+    });
+  }
+
+  // Event Listeners: World Map
+  if (btnOpenWorldmap) btnOpenWorldmap.addEventListener("click", openWorldMapModal);
+  if (btnCloseWorldmap) btnCloseWorldmap.addEventListener("click", closeWorldMapModal);
+  if (btnDrawerWorldmap) btnDrawerWorldmap.addEventListener("click", () => { closeDrawer(); openWorldMapModal(); });
+
+  const gameBadgeEl = document.querySelector(".game-badge");
+  if (gameBadgeEl) {
+    gameBadgeEl.style.cursor = "pointer";
+    gameBadgeEl.title = "Clique para abrir o Mapa Geral do Mundo";
+    gameBadgeEl.addEventListener("click", openWorldMapModal);
+  }
+
+  if (btnClosePinCard) btnClosePinCard.addEventListener("click", () => {
+    if (pinCard) pinCard.classList.add("hidden");
   });
 
-  // Search Inputs
-  if (classesSearchInput) classesSearchInput.addEventListener("input", renderClassesGrid);
-  if (monstersSearchInput) monstersSearchInput.addEventListener("input", renderMonstersGrid);
-  if (mountsSearchInput) mountsSearchInput.addEventListener("input", renderMountsGrid);
-  if (npcsSearchInput) npcsSearchInput.addEventListener("input", renderNpcsGrid);
+  if (btnTeleportPin) btnTeleportPin.addEventListener("click", () => {
+    if (selectedPinMap) {
+      closeWorldMapModal();
+      switchMap(selectedPinMap.id, selectedPinMap.safe_x, selectedPinMap.safe_y);
+    }
+  });
 
-  // Filter Pills: Classes
-  document.querySelectorAll("#classes-filter-pills .pill-filter").forEach(p => {
+  document.querySelectorAll(".worldmap-tab-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      switchWorldmapTab(btn.dataset.tab);
+    });
+  });
+
+  if (mapsSearchInput) mapsSearchInput.addEventListener("input", renderMapsGrid);
+
+  document.querySelectorAll("#maps-filter-pills .pill-filter").forEach(p => {
     p.addEventListener("click", () => {
-      document.querySelectorAll("#classes-filter-pills .pill-filter").forEach(b => b.classList.remove("active"));
+      document.querySelectorAll("#maps-filter-pills .pill-filter").forEach(b => b.classList.remove("active"));
       p.classList.add("active");
-      selectedClassFilter = p.dataset.filter;
-      renderClassesGrid();
+      selectedMapFilter = p.dataset.filter;
+      renderMapsGrid();
     });
   });
 
-  // Filter Pills: Monsters & Pets
-  document.querySelectorAll("#monsters-filter-pills .pill-filter").forEach(p => {
-    p.addEventListener("click", () => {
-      document.querySelectorAll("#monsters-filter-pills .pill-filter").forEach(b => b.classList.remove("active"));
-      p.classList.add("active");
-      selectedMonFilter = p.dataset.filter;
-      renderMonstersGrid();
+  if (modalWorldmap) {
+    modalWorldmap.addEventListener("click", (e) => {
+      if (e.target === modalWorldmap) closeWorldMapModal();
     });
-  });
+  }
+"""
 
-  // Filter Pills: Mounts
-  document.querySelectorAll("#mounts-filter-pills .pill-filter").forEach(p => {
-    p.addEventListener("click", () => {
-      document.querySelectorAll("#mounts-filter-pills .pill-filter").forEach(b => b.classList.remove("active"));
-      p.classList.add("active");
-      selectedMountFilter = p.dataset.filter;
-      renderMountsGrid();
-    });
-  });
+window_game_target = """  // Expor para debug e inspeção
+  window.game = {"""
 
-  // Filter Pills: NPCs
-  document.querySelectorAll("#npcs-filter-pills .pill-filter").forEach(p => {
-    p.addEventListener("click", () => {
-      document.querySelectorAll("#npcs-filter-pills .pill-filter").forEach(b => b.classList.remove("active"));
-      p.classList.add("active");
-      selectedNpcFilter = p.dataset.filter;
-      renderNpcsGrid();
-    });
-  });
+assert window_game_target in code, "window_game_target not found!"
+code = code.replace(window_game_target, worldmap_controller + "\n" + window_game_target)
 
-  // Drawer Quick Monster Buttons
-  document.querySelectorAll(".mon-quick-btn").forEach(btn => {
-    btn.addEventListener("click", async () => {
-      const mid = btn.dataset.monster;
-      await setMapMonster(mid);
-    });
-  });
-'''
+# Add switchMap, mapsCatalog, openWorldMapModal to window.game
+game_exp_target = """  window.game = {
+    setMapMonster,"""
+game_exp_new = """  window.game = {
+    switchMap,
+    openWorldMapModal,
+    mapsCatalog,
+    currentMapId: () => currentMapId,
+    setMapMonster,"""
+assert game_exp_target in code, "game_exp_target not found!"
+code = code.replace(game_exp_target, game_exp_new)
 
-with open('web/main.js', 'r', encoding='utf-8') as f:
-    text = f.read()
+with open('C:/Users/Dell/.gemini/antigravity/scratch/magic-campus-pixi/web/main.js', 'w', encoding='utf-8') as f:
+    f.write(code)
 
-start_marker = "  // ==========================================\n  // MODAIS DE CATALOGO (CLASSES & MONSTROS)\n  // =========================================="
-end_marker = "  // Expor para debug e inspeção"
-
-idx1 = text.find(start_marker)
-idx2 = text.find(end_marker)
-
-if idx1 == -1 or idx2 == -1:
-    print("Error: could not find markers in web/main.js")
-    sys.exit(1)
-
-updated_text = text[:idx1] + new_code + "\n" + text[idx2:]
-with open('web/main.js', 'w', encoding='utf-8') as f:
-    f.write(updated_text)
-
-print("web/main.js successfully updated!")
+print('web/main.js updated successfully!')

@@ -1,0 +1,40 @@
+{
+  "id": 10,
+  "name": "Tinh Linh Thành",
+  "info": "Thành phố xanh tươi nằm ven rừng, nổi tiếng với truyền thuyết tinh linh, mang đầy sức sống thiên nhiên.",
+  "level": 10,
+  "width": 2800,
+  "height": 2000,
+  "col_width": 2808,
+  "col_height": 2160,
+  "has_collision": true,
+  "safe_x": 2000,
+  "safe_y": 1000,
+  "continent": 1,
+  "world_x": 515,
+  "world_y": 116,
+  "bg_image": "assets/maps/map_10/bg.jpg",
+  "thumb": "assets/maps/map_10/thumb.webp",
+  "collision_bin": "assets/maps/map_10/collision.bin",
+  "portals": [
+    {
+      "id": 762,
+      "target_name": "Trầm Thụy Lâm",
+      "target_map_id": 27,
+      "x": 1790,
+      "y": 27,
+      "dest_x": 1000,
+      "dest_y": 500
+    },
+    {
+      "id": 761,
+      "target_name": "Quang Bình Nguyên",
+      "target_map_id": 26,
+      "x": 412,
+      "y": 1786,
+      "dest_x": 1300,
+      "dest_y": 1500
+    }
+  ],
+  "creatures_count": 0
+}

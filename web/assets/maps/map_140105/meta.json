@@ -1,0 +1,31 @@
+{
+  "id": 140105,
+  "name": "Mật Đạo 2",
+  "info": "NULL",
+  "level": 30,
+  "width": 1500,
+  "height": 1000,
+  "col_width": 3021,
+  "col_height": 2018,
+  "has_collision": true,
+  "safe_x": 1225,
+  "safe_y": 700,
+  "continent": 2,
+  "world_x": null,
+  "world_y": null,
+  "bg_image": "assets/maps/map_140105/bg.jpg",
+  "thumb": "assets/maps/map_140105/thumb.webp",
+  "collision_bin": "assets/maps/map_140105/collision.bin",
+  "portals": [
+    {
+      "id": 1478,
+      "target_name": "Mật Đạo 1",
+      "target_map_id": 140106,
+      "x": 1323,
+      "y": 685,
+      "dest_x": 216,
+      "dest_y": 122
+    }
+  ],
+  "creatures_count": 0
+}

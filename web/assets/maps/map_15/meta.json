@@ -1,0 +1,31 @@
+{
+  "id": 15,
+  "name": "Lê Dương Bắc",
+  "info": "Phía bắc hồ Lê Dương là nguồn nước của Đông Huyền, tuy phong cảnh hữu tình nhưng khá nguy hiểm. Thích hợp cho cấp độ từ 16 - 20",
+  "level": 10,
+  "width": 3000,
+  "height": 2000,
+  "col_width": 3016,
+  "col_height": 2153,
+  "has_collision": true,
+  "safe_x": 1126,
+  "safe_y": 760,
+  "continent": 1,
+  "world_x": 393,
+  "world_y": 235,
+  "bg_image": "assets/maps/map_15/bg.jpg",
+  "thumb": "assets/maps/map_15/thumb.webp",
+  "collision_bin": "assets/maps/map_15/collision.bin",
+  "portals": [
+    {
+      "id": 737,
+      "target_name": "Đông Huyền Thành",
+      "target_map_id": 9,
+      "x": 2424,
+      "y": 207,
+      "dest_x": 2057,
+      "dest_y": 1309
+    }
+  ],
+  "creatures_count": 9
+}

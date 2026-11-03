@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
   <meta name="mobile-web-app-capable" content="yes">
   <title>Magic Campus Mobile - Pixi.js Engine (Mapa 1 & Char 1)</title>
-  <link rel="stylesheet" href="style.css?v=1.2.1">
+  <link rel="stylesheet" href="style.css?v=1.3.0">
   <!-- Pixi.js v7 CDN -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/7.3.2/pixi.min.js"></script>
 </head>
@@ -28,8 +28,12 @@
       </div>
     </div>
 
-    <!-- Centro: Ações Principais (Classes, Pets/Monstros, Montarias, NPCs) -->
+    <!-- Centro: Ações Principais (Mundo, Classes, Pets/Monstros, Montarias, NPCs) -->
     <div class="top-center-actions">
+      <button id="btn-open-worldmap-modal" class="nav-pill-btn nav-worldmap" title="Mapa Geral do Mundo & Teleporte (76 Mapas)">
+        <span class="nav-icon">🗺️</span>
+        <span class="nav-txt">Mundo <span class="nav-count">76</span></span>
+      </button>
       <button id="btn-open-classes-modal" class="nav-pill-btn nav-classes" title="Provador de Classes (46 Visuais)">
         <span class="nav-icon">🧙</span>
         <span class="nav-txt">Classes <span class="nav-count">46</span></span>
@@ -147,6 +151,9 @@
       <!-- Teleportes Rápidos para Testes -->
       <section class="drawer-section">
         <h4 class="section-title">Teleportes Rápidos de Teste</h4>
+        <button id="btn-drawer-worldmap" class="btn-view-all" style="background: rgba(163, 190, 140, 0.15); border-color: rgba(163, 190, 140, 0.4); color: #a3be8c; margin-bottom: 8px;">
+          🗺️ Abrir Mapa Geral do Mundo (76 Mapas) ➔
+        </button>
         <div class="btn-grid-actions">
           <button id="tp-plaza" class="btn">🎯 Centro (1000, 1000)</button>
           <button id="tp-tree" class="btn">🌲 Árvore/Telhado (930, 1080)</button>
@@ -541,6 +548,102 @@
 
       <div class="modal-grid-container" id="npcs-grid-container">
         <!-- Renderizado dinamicamente via JS a partir de assets/npcs/catalog.json -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 5: Mapa Geral do Mundo & Teleportes (76 Mapas / 2 Continentes) -->
+  <div id="modal-worldmap" class="catalog-modal hidden">
+    <div class="modal-card modal-card-worldmap">
+      <div class="modal-header">
+        <div class="modal-title-group">
+          <h3>🗺️ Mapa Geral do Mundo (Visão Global)</h3>
+          <span class="modal-subtitle">Navegue pelos 2 continentes de Magic Campus, inspecione os portais de interligação e viaje livremente!</span>
+        </div>
+        <button id="btn-close-worldmap-modal" class="modal-close-btn">✕</button>
+      </div>
+
+      <!-- Abas de Navegação do Mapa Mundi -->
+      <div class="worldmap-nav-tabs">
+        <button class="worldmap-tab-btn active" data-tab="continent-1">
+          <span class="tab-icon">🌐</span>
+          <span class="tab-label">Continente 1: Vô Ưu (44 Pinos)</span>
+        </button>
+        <button class="worldmap-tab-btn" data-tab="continent-2">
+          <span class="tab-icon">✨</span>
+          <span class="tab-label">Continente 2: Thần Thánh (6 Pinos)</span>
+        </button>
+        <button class="worldmap-tab-btn" data-tab="list">
+          <span class="tab-icon">📋</span>
+          <span class="tab-label">Todos os 76 Mapas & Dungeons</span>
+        </button>
+      </div>
+
+      <!-- Container do Mapa Interativo (Continente 1 e Continente 2) -->
+      <div id="worldmap-interactive-view" class="worldmap-interactive-view">
+        <div class="worldmap-controls-bar">
+          <div class="worldmap-status-pill">
+            <span class="status-dot"></span>
+            <span>Local Atual: <strong id="worldmap-current-loc">Xuất Vân Thôn (#1)</strong></span>
+          </div>
+          <div class="worldmap-hint">
+            💡 Toque em um pino no mapa para ver informações e teleportar. No celular, arraste com o dedo para rolar o continente.
+          </div>
+        </div>
+
+        <div id="worldmap-stage-wrapper" class="worldmap-stage-wrapper">
+          <div id="worldmap-stage" class="worldmap-stage">
+            <img id="worldmap-bg-img" src="assets/worldmap/world_map_1.jpg" alt="Mapa Mundi" />
+            <div id="worldmap-pins-layer" class="worldmap-pins-layer">
+              <!-- Pinos de mapas gerados dinamicamente com coordenadas de WorldMap.as -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Card Flutuante de Detalhes do Pino Selecionado -->
+        <div id="worldmap-pin-card" class="worldmap-pin-card hidden">
+          <button id="btn-close-pin-card" class="card-close-btn">✕</button>
+          <div class="pin-card-thumb">
+            <img id="pin-card-img" src="" alt="Thumbnail do Mapa" />
+            <span id="pin-card-level-badge" class="level-badge">Lv. 1+</span>
+          </div>
+          <div class="pin-card-info">
+            <div class="pin-card-title-row">
+              <h4 id="pin-card-name">Nome do Mapa</h4>
+              <span id="pin-card-id" class="map-id-tag">#1</span>
+            </div>
+            <p id="pin-card-desc" class="pin-card-desc">Descrição do mapa...</p>
+            <div class="pin-card-meta">
+              <span class="meta-tag" id="pin-card-size">📏 2000 x 1500</span>
+              <span class="meta-tag" id="pin-card-portals">🌀 1 Portal</span>
+            </div>
+            <div id="pin-card-portals-list" class="pin-card-portals-list">
+              <!-- Lista de destinos conectados -->
+            </div>
+            <button id="btn-teleport-pin" class="btn-teleport-action">
+              🚀 Teleportar para cá
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Container da Lista Completa de Mapas (Busca & Filtros) -->
+      <div id="worldmap-list-view" class="worldmap-list-view hidden">
+        <div class="modal-search-bar">
+          <input type="text" id="maps-search-input" placeholder="🔍 Buscar por nome, ID ou descrição (ex: Đông Huyền, Thành, 9, Masmorra)..." />
+        </div>
+
+        <div class="modal-filter-pills" id="maps-filter-pills">
+          <button class="pill-filter active" data-filter="all">🌟 Todos (76)</button>
+          <button class="pill-filter" data-filter="cont1">🌐 Continente Vô Ưu (50)</button>
+          <button class="pill-filter" data-filter="cont2">✨ Continente Thần Thánh (26)</button>
+          <button class="pill-filter" data-filter="town">🏰 Cidades & Vilas Principais</button>
+          <button class="pill-filter" data-filter="dungeon">⚔️ Masmorras & Cavernas</button>
+        </div>
+
+        <div class="modal-grid-container" id="maps-grid-container">
+          <!-- Renderizado dinamicamente via JS a partir de assets/maps/catalog.json -->
+        </div>
       </div>
     </div>
   </div>

@@ -1,0 +1,21 @@
+{
+  "id": 48,
+  "name": "Trấn Ma Tháp",
+  "info": "NULL",
+  "level": 30,
+  "width": 1500,
+  "height": 1000,
+  "col_width": 1568,
+  "col_height": 1073,
+  "has_collision": true,
+  "safe_x": 1050,
+  "safe_y": 220,
+  "continent": 1,
+  "world_x": null,
+  "world_y": null,
+  "bg_image": "assets/maps/map_48/bg.jpg",
+  "thumb": "assets/maps/map_48/thumb.webp",
+  "collision_bin": "assets/maps/map_48/collision.bin",
+  "portals": [],
+  "creatures_count": 0
+}

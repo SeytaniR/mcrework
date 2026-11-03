@@ -1,0 +1,31 @@
+{
+  "id": 17,
+  "name": "Lê Dương Đảo",
+  "info": "Hòn đảo bé nhỏ như con thuyền đậu trên mặt hồ, là nơi đi dễ khó về. Thích hợp cho cấp độ từ 21 - 30.",
+  "level": 10,
+  "width": 3000,
+  "height": 2000,
+  "col_width": 2952,
+  "col_height": 2183,
+  "has_collision": true,
+  "safe_x": 2265,
+  "safe_y": 423,
+  "continent": 1,
+  "world_x": 347,
+  "world_y": 242,
+  "bg_image": "assets/maps/map_17/bg.jpg",
+  "thumb": "assets/maps/map_17/thumb.webp",
+  "collision_bin": "assets/maps/map_17/collision.bin",
+  "portals": [
+    {
+      "id": 1078,
+      "target_name": "Lê Dương Thôn",
+      "target_map_id": 5,
+      "x": 217,
+      "y": 1852,
+      "dest_x": 885,
+      "dest_y": 753
+    }
+  ],
+  "creatures_count": 9
+}

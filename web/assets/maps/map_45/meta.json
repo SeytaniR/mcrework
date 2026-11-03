@@ -1,0 +1,21 @@
+{
+  "id": 45,
+  "name": "Tử Mộng Cảnh",
+  "info": "NULL",
+  "level": 50,
+  "width": 1500,
+  "height": 1000,
+  "col_width": 1500,
+  "col_height": 1000,
+  "has_collision": true,
+  "safe_x": 800,
+  "safe_y": 580,
+  "continent": 1,
+  "world_x": null,
+  "world_y": null,
+  "bg_image": "assets/maps/map_45/bg.jpg",
+  "thumb": "assets/maps/map_45/thumb.webp",
+  "collision_bin": "assets/maps/map_45/collision.bin",
+  "portals": [],
+  "creatures_count": 5
+}

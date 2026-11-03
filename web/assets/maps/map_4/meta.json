@@ -1,0 +1,31 @@
+{
+  "id": 4,
+  "name": "Thiện Tĩnh Địa",
+  "info": "Vùng đất sơ khai, nơi có kiến thức nghìn năm lưu truyền lại. Thích hợp cho cấp độ từ 11 - 15.",
+  "level": 8,
+  "width": 3000,
+  "height": 2000,
+  "col_width": 2952,
+  "col_height": 2183,
+  "has_collision": true,
+  "safe_x": 1500,
+  "safe_y": 800,
+  "continent": 1,
+  "world_x": 290,
+  "world_y": 139,
+  "bg_image": "assets/maps/map_4/bg.jpg",
+  "thumb": "assets/maps/map_4/thumb.webp",
+  "collision_bin": "assets/maps/map_4/collision.bin",
+  "portals": [
+    {
+      "id": 812,
+      "target_name": "Vân Đài",
+      "target_map_id": 3,
+      "x": 176,
+      "y": 1767,
+      "dest_x": 1000,
+      "dest_y": 1000
+    }
+  ],
+  "creatures_count": 9
+}
