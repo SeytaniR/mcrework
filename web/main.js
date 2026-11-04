@@ -1193,14 +1193,23 @@ async function initGame() {
     let hoverBob = 0;
     let charOffsetY = PLAYER_GROUND_OFFSET_Y;
     if (isFlyingMount) {
-      hoverBob = Math.sin(performance.now() * 0.0035) * 4;
-      charOffsetY = PLAYER_GROUND_OFFSET_Y - 30 + hoverBob; // Eleva o herói ~30px acima do chão para montar no veículo
+      hoverBob = Math.sin(performance.now() * 0.003) * 6;
+      // Elevação expressiva do herói: fica a -62px do solo, pousado perfeitamente no convés da montaria
+      charOffsetY = -52 + hoverBob;
       if (shadow) {
-        shadow.scale.set(0.85, 0.85); // Sombra fica menor/mais suave durante o voo
+        shadow.scale.set(0.70, 0.70); // Sombra menor no solo para refletir a alta altitude
+        shadow.alpha = 0.55;
+      }
+      if (typeof playerName !== 'undefined' && playerName) {
+        playerName.y = charOffsetY - 62;
       }
     } else {
       if (shadow) {
         shadow.scale.set(1.0, 1.0);
+        shadow.alpha = 0.85;
+      }
+      if (typeof playerName !== 'undefined' && playerName) {
+        playerName.y = -70;
       }
     }
 
@@ -1237,8 +1246,8 @@ async function initGame() {
             wingSprite.anchor.set(0.5, 0.5);
 
             if (isFlyingMount) {
-              // Montaria voadora posicionada sob os pés do personagem:
-              wingSprite.position.set(0, PLAYER_GROUND_OFFSET_Y - 6 + hoverBob);
+              // Montaria voadora posicionada sob os pés do personagem (flutua a -38px do solo):
+              wingSprite.position.set(0, -36 + hoverBob);
               wingSprite.visible = true;
 
               // O herói deve sempre cavalgar EM CIMA da montaria voadora (renderizar por trás/sob o corpo)
