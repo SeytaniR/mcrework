@@ -5,7 +5,7 @@ sys.stdout.reconfigure(encoding='utf-8', errors='replace')
 ws = r'C:\Users\Dell\.gemini\antigravity\scratch\magic-campus-pixi'
 os.chdir(ws)
 
-print("Starting clean gh-pages deployment for v1.5.2...")
+print("Starting clean gh-pages deployment for v1.5.3...")
 
 # 1. Checkout gh-pages
 print("Checking out gh-pages...")
@@ -38,7 +38,7 @@ if os.path.exists(web_dir):
 
 # 4. Stage ONLY web files on gh-pages
 print("Staging web files on gh-pages...")
-subprocess.run(['git', 'add', 'index.html', 'main.js', 'style.css', 'assets/'], check=True)
+subprocess.run(['git', 'add', 'index.html', 'main.js', 'style.css', 'favicon.ico', 'assets/'], check=True)
 
 # Remove any accidental tracked files if any exist
 for item in ['tools', 'mcgame', 'extracted_char', 'action_previews']:
@@ -46,7 +46,7 @@ for item in ['tools', 'mcgame', 'extracted_char', 'action_previews']:
 
 # 5. Commit
 print("Committing on gh-pages...")
-commit_msg = "deploy(fase-1): update gh-pages v1.5.2 with 36 animated wings, 127 female weapons and wing equip controls"
+commit_msg = "deploy: v1.5.3 mobile ui fixes (wing thumbnails, costume equip, responsive skills/vfx, combat camera framing)"
 res = subprocess.run(['git', 'commit', '-m', commit_msg], capture_output=True, text=True)
 print(res.stdout)
 if res.stderr:
@@ -61,4 +61,4 @@ print("Returning to branch main...")
 subprocess.run(['git', 'checkout', 'main'], check=True)
 subprocess.run(['git', 'checkout', 'HEAD', '--', 'web'], check=True)
 
-print("\nDeployment to gh-pages v1.5.2 completed successfully!")
+print("\nDeployment to gh-pages v1.5.3 completed successfully!")

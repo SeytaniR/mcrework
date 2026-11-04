@@ -1628,7 +1628,7 @@ body, html {
   .combat-test-panel {
     width: 100vw !important;
     max-width: 100vw !important;
-    max-height: 52vh !important;
+    max-height: 44vh !important;
     border-radius: 20px 20px 0 0 !important;
     padding: 10px 12px max(12px, var(--safe-bottom)) 12px !important;
     box-sizing: border-box !important;
@@ -1761,8 +1761,17 @@ body, html {
   min-width: 0;
 }
 
-.modal-grid-container {
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)) !important;
+@media (min-width: 601px) {
+  .modal-grid-container {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+}
+@media (max-width: 600px) {
+  .modal-grid-container {
+    grid-template-columns: 1fr !important;
+    padding: 8px 10px 24px 10px !important;
+    gap: 8px !important;
+  }
 }
 
 
@@ -2721,4 +2730,184 @@ body, html {
   background: rgba(191, 97, 106, 0.25);
   color: #bf616a;
   border-color: #bf616a;
+}
+
+
+/* ==========================================================================
+   Controles Compactos de Combate & Minimizar
+   ========================================================================== */
+.btn-toggle-combat {
+  background: rgba(136, 192, 208, 0.18);
+  border: 1px solid rgba(136, 192, 208, 0.45);
+  color: #88c0d0;
+  font-size: 10.5px;
+  font-weight: 700;
+  padding: 4px 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  white-space: nowrap;
+}
+.btn-toggle-combat:hover {
+  background: rgba(136, 192, 208, 0.35);
+  border-color: #88c0d0;
+}
+
+.combat-test-panel.minimized {
+  max-height: 48px !important;
+  height: 48px !important;
+  overflow: hidden !important;
+  padding: 8px 12px !important;
+  border-radius: 14px 14px 0 0 !important;
+  background: rgba(18, 22, 32, 0.96) !important;
+}
+.combat-test-panel.minimized .combat-status-bar,
+.combat-test-panel.minimized .combat-controls-body {
+  display: none !important;
+}
+
+/* Botão de Equipar Moda / Trajes */
+.btn-costume-equip {
+  background: rgba(180, 142, 173, 0.18);
+  border: 1px solid rgba(180, 142, 173, 0.5);
+  color: #d8bee5;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+.btn-costume-equip:hover, .btn-costume-equip.active {
+  background: #b48ead;
+  border-color: #b48ead;
+  color: #1e222b;
+  box-shadow: 0 0 10px rgba(180, 142, 173, 0.45);
+}
+
+/* Barra Flutuante de Teste de Habilidade / VFX */
+.skills-floating-bar {
+  position: fixed;
+  bottom: max(16px, var(--safe-bottom));
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(420px, calc(100vw - 20px));
+  background: rgba(20, 24, 34, 0.96);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(180, 142, 173, 0.55);
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.75), 0 0 16px rgba(180, 142, 173, 0.3);
+  padding: 8px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  z-index: 1050;
+  animation: slideUp 0.22s ease-out;
+  box-sizing: border-box;
+}
+.skills-floating-bar.hidden {
+  display: none !important;
+}
+.skills-floating-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+  flex: 1;
+}
+.floating-vfx-icon {
+  font-size: 22px;
+  width: 34px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  background: rgba(180, 142, 173, 0.2);
+  border: 1px solid rgba(180, 142, 173, 0.4);
+  flex-shrink: 0;
+}
+.floating-vfx-icon img {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+}
+.skills-floating-col {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  gap: 1px;
+}
+.skills-floating-col strong {
+  font-size: 12.5px;
+  color: #eceff4;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.skills-floating-col span {
+  font-size: 10px;
+  color: #88c0d0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.skills-floating-btns {
+  display: flex;
+  gap: 6px;
+  flex-shrink: 0;
+}
+.btn-floating-action {
+  padding: 6px 10px;
+  border-radius: 8px;
+  font-size: 11px;
+  font-weight: 700;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: rgba(255, 255, 255, 0.08);
+  color: #e5e9f0;
+  transition: all 0.15s;
+}
+.btn-floating-action:active {
+  transform: scale(0.96);
+}
+.btn-floating-accent {
+  background: linear-gradient(135deg, #b48ead, #88c0d0);
+  border: none;
+  color: #1e222b;
+}
+.btn-floating-close {
+  padding: 6px 8px;
+}
+
+.modal-header-btns {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.modal-minimize-btn {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: #eceff4;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 5px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+.modal-minimize-btn:hover {
+  background: rgba(180, 142, 173, 0.3);
+  border-color: #b48ead;
+}
+
+.vfx-thumb-img {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
 }

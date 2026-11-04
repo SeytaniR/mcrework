@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
   <meta name="mobile-web-app-capable" content="yes">
   <title>Magic Campus Mobile - Pixi.js Engine (Mapa 1 & Char 1)</title>
-  <link rel="stylesheet" href="style.css?v=1.5.0">
+  <link rel="stylesheet" href="style.css?v=1.5.3">
   <!-- Pixi.js v7 CDN -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/7.3.2/pixi.min.js"></script>
 </head>
@@ -253,6 +253,9 @@
         <button id="btn-drawer-all-equipment" class="btn-view-all">
           🛡️ Abrir Armaria de Equipamentos, Armas & Sets (1.865 Itens) ➔
         </button>
+        <button id="btn-drawer-all-costumes" class="btn-view-all" style="margin-top: 6px; background: rgba(180, 142, 173, 0.18); border-color: rgba(180, 142, 173, 0.45); color: #d8bee5;">
+          👗 Provar Modas, Trajes & Skins no Personagem (334 Modas) ➔
+        </button>
       </section>
 
       <!-- Enciclopédia de NPCs (365 NPCs) -->
@@ -386,6 +389,7 @@
         <span id="combat-versus-text" class="combat-sub">Guerreiro vs Cogumelo Selvagem</span>
       </div>
       <div class="combat-header-actions">
+        <button id="btn-toggle-combat-panel" class="btn-toggle-combat" title="Minimizar / Expandir Controles">▼ Minimizar</button>
         <button id="btn-combat-switch-mon" class="btn-switch-mon" title="Escolher outro monstro do Bestiário">👾 Trocar Monstro (543)</button>
         <button id="btn-close-combat-test" class="btn-close-combat" title="Encerrar Modo de Combate e Voltar ao Mapa">✕ Sair</button>
       </div>
@@ -476,7 +480,7 @@
     </div>
   </div>
 
-  <script src="main.js?v=1.5.2"></script>
+  <script src="main.js?v=1.5.3"></script>
 
   <!-- Modal 1: Provador de Classes & Skins (46 Visuais) -->
   <div id="modal-classes" class="catalog-modal hidden">
@@ -700,7 +704,10 @@
           <h3>🔮 Grimório de Habilidades & Efeitos Especiais</h3>
           <span class="modal-subtitle">1.923 habilidades e 128 efeitos visuais animados (VFX). Selecione qualquer habilidade para disparar seu efeito visual ao vivo!</span>
         </div>
-        <button id="btn-close-skills-modal" class="modal-close-btn">✕</button>
+        <div class="modal-header-btns">
+          <button id="btn-minimize-skills-modal" class="modal-minimize-btn" title="Minimizar para testar no mapa">▼ Minimizar</button>
+          <button id="btn-close-skills-modal" class="modal-close-btn">✕</button>
+        </div>
       </div>
 
       <div class="modal-search-bar">
@@ -724,6 +731,22 @@
       <div class="modal-grid-container" id="skills-grid-container">
         <!-- Renderizado dinamicamente via JS a partir de assets/skills/catalog.json -->
       </div>
+    </div>
+  </div>
+
+  <!-- Barra Flutuante de Teste de Habilidade / VFX (Ao Vivo no Mapa) -->
+  <div id="skills-floating-bar" class="skills-floating-bar hidden">
+    <div class="skills-floating-info">
+      <span id="skills-floating-icon" class="floating-vfx-icon">✨</span>
+      <div class="skills-floating-col">
+        <strong id="skills-floating-title">Habilidade Disparada</strong>
+        <span id="skills-floating-sub">Executando animação e efeito no mapa...</span>
+      </div>
+    </div>
+    <div class="skills-floating-btns">
+      <button id="btn-floating-repeat" class="btn-floating-action" title="Repetir Disparo">🔁 Repetir</button>
+      <button id="btn-floating-grimorio" class="btn-floating-action btn-floating-accent" title="Voltar ao Grimório">📖 Grimório</button>
+      <button id="btn-floating-close" class="btn-floating-action btn-floating-close" title="Fechar Teste">✕</button>
     </div>
   </div>
 
