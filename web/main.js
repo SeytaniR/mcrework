@@ -25,15 +25,15 @@ async function initGame() {
     fetch("assets/map1/collision.bin").then(r => r.arrayBuffer()),
     fetch("assets/monsters/mushroom/visual_meta.json").then(r => r.json()),
     PIXI.Assets.load("assets/monsters/mushroom/atlas.json"),
-    fetch("assets/characters/catalog.json?v=1.5.2").then(r => r.json()).catch(() => ({ total_classes: 0, classes: [] })),
-    fetch("assets/monsters/catalog.json?v=1.5.2").then(r => r.json()).catch(() => ({ total_monsters: 0, monsters: [] })),
-    fetch("assets/mounts/catalog.json?v=1.5.2").then(r => r.json()).catch(() => ({ total_mounts: 0, mounts: [] })),
-    fetch("assets/npcs/catalog.json?v=1.5.2").then(r => r.json()).catch(() => ({ total_npcs: 0, npcs: [] })),
-    fetch("assets/maps/catalog.json?v=1.5.2").then(r => r.json()).catch(() => ({ total_maps: 0, maps: [] })),
-    fetch("assets/skills/catalog.json?v=1.5.2").then(r => r.json()).catch(() => ([])),
-    fetch("assets/effects/catalog.json?v=1.5.2").then(r => r.json()).catch(() => ([])),
-    fetch("assets/equipment/catalog.json?v=1.5.2").then(r => r.json()).catch(() => ({ items: [] })),
-    fetch("assets/wings/catalog.json?v=1.5.2").then(r => r.json()).catch(() => ([]))
+    fetch("assets/characters/catalog.json?v=1.5.3").then(r => r.json()).catch(() => ({ total_classes: 0, classes: [] })),
+    fetch("assets/monsters/catalog.json?v=1.5.3").then(r => r.json()).catch(() => ({ total_monsters: 0, monsters: [] })),
+    fetch("assets/mounts/catalog.json?v=1.5.3").then(r => r.json()).catch(() => ({ total_mounts: 0, mounts: [] })),
+    fetch("assets/npcs/catalog.json?v=1.5.3").then(r => r.json()).catch(() => ({ total_npcs: 0, npcs: [] })),
+    fetch("assets/maps/catalog.json?v=1.5.3").then(r => r.json()).catch(() => ({ total_maps: 0, maps: [] })),
+    fetch("assets/skills/catalog.json?v=1.5.3").then(r => r.json()).catch(() => ([])),
+    fetch("assets/effects/catalog.json?v=1.5.3").then(r => r.json()).catch(() => ([])),
+    fetch("assets/equipment/catalog.json?v=1.5.3").then(r => r.json()).catch(() => ({ items: [] })),
+    fetch("assets/wings/catalog.json?v=1.5.3").then(r => r.json()).catch(() => ([]))
   ]);
 
   let mapsCatalog = mapsCatalogData || { total_maps: 0, maps: [] };
@@ -818,6 +818,55 @@ async function initGame() {
   let currentWingManifest = null;
   let currentWingModel = null;
 
+  // Sistema de Modas, Trajes & Skins Visuais
+  let playerEquippedCostume = null;
+  const COSTUME_MODELS_POOL = [
+    "PC_FEMALE_010017", // Traje Casual Estudante
+    "PC_FEMALE_010005", // Costume de Gala / Festa
+    "PC_FEMALE_010010", // Vestido Nupcial Real
+    "PC_FEMALE_010012", // Quimono Oriental da Primavera
+    "PC_FEMALE_010016", // Traje Angelical com Asas Divinas
+    "PC_FEMALE_010018", // Armadura Valquíria da Alvorada
+    "PC_FEMALE_010019", // Traje Festivo Celebração
+    "PC_FEMALE_010020", // Armadura Rainha Dracônica
+    "PC_FEMALE_010011"  // Armadura Cerimonial Dourada
+  ];
+
+  function getCostumeModelForItem(item) {
+    const name = (item.name || "").toLowerCase();
+    if (name.includes("học sinh") || name.includes("estudante") || name.includes("escola")) return "PC_FEMALE_010017";
+    if (name.includes("cưới") || name.includes("nupcial") || name.includes("noiva")) return "PC_FEMALE_010010";
+    if (name.includes("gala") || name.includes("festa") || name.includes("dạ hội") || name.includes("lễ phục")) return "PC_FEMALE_010005";
+    if (name.includes("kimono") || name.includes("quimono") || name.includes("trung hoa") || name.includes("âu lạc")) return "PC_FEMALE_010012";
+    if (name.includes("thiên sứ") || name.includes("anjo") || name.includes("angelical") || name.includes("divin")) return "PC_FEMALE_010016";
+    if (name.includes("hoàng kim") || name.includes("valquíria") || name.includes("dourad")) return "PC_FEMALE_010018";
+    if (name.includes("long") || name.includes("dracônica") || name.includes("dragão") || name.includes("rồng")) return "PC_FEMALE_010020";
+    if (name.includes("giáng sinh") || name.includes("natal") || name.includes("năm mới") || name.includes("lễ hội") || name.includes("festivo")) return "PC_FEMALE_010019";
+    if (name.includes("chiến binh") || name.includes("cerimonial")) return "PC_FEMALE_010011";
+
+    return COSTUME_MODELS_POOL[Math.abs(Number(item.id) || 0) % COSTUME_MODELS_POOL.length];
+  }
+
+  async function equipCostume(item) {
+    if (!item) {
+      playerEquippedCostume = null;
+      localStorage.removeItem("mc_equipped_costume_id");
+      await setCharacterModel("PC_MALE_000011");
+      showWeaponToast("Moda desequipada. Guerreiro Evoluído restaurado.");
+      if (typeof renderEquipmentGrid === 'function') renderEquipmentGrid(false);
+      return;
+    }
+
+    const modelId = getCostumeModelForItem(item);
+    playerEquippedCostume = item;
+    localStorage.setItem("mc_equipped_costume_id", String(item.id));
+
+    const targetMeta = Array.isArray(classesList) ? classesList.find(x => x.id === modelId) : null;
+    await setCharacterModel(modelId, targetMeta);
+    showWeaponToast(`👗 Moda Equipada: ${item.name}!`);
+    if (typeof renderEquipmentGrid === 'function') renderEquipmentGrid(false);
+  }
+
   async function equipWing(item) {
     if (!item) {
       playerEquippedWing = null;
@@ -837,7 +886,7 @@ async function initGame() {
     localStorage.setItem("mc_equipped_wing_id", String(item.id));
 
     try {
-      const manifestUrl = `assets/wings/${modelId}/char_manifest.json?v=1.5.2`;
+      const manifestUrl = `assets/wings/${modelId}/char_manifest.json?v=1.5.3`;
       const manifest = await fetch(manifestUrl).then(r => r.json());
       currentWingManifest = manifest;
 
@@ -902,7 +951,7 @@ async function initGame() {
     localStorage.setItem("mc_equipped_weapon_id", String(item.id));
 
     try {
-      const manifestUrl = `assets/weapons/${modelId}/char_manifest.json?v=1.5.1`;
+      const manifestUrl = `assets/weapons/${modelId}/char_manifest.json?v=1.5.3`;
       const manifest = await fetch(manifestUrl).then(r => r.json());
       currentWeaponManifest = manifest;
 
@@ -1332,8 +1381,20 @@ async function initGame() {
     const screenWidth = app.screen.width;
     const screenHeight = app.screen.height;
 
-    let camX = screenWidth / 2 - player.x * zoomLevel;
-    let camY = screenHeight / 2 - player.y * zoomLevel;
+    let targetX = player.x;
+    let targetY = player.y;
+    let anchorYRatio = 0.5;
+
+    // Em modo de combate, foca no ponto médio e ancora no terço superior (26% da tela)
+    // para que os combatentes e suas animações fiquem 100% visíveis acima do painel de batalha
+    if (isCombatTesting && typeof monster !== 'undefined') {
+      targetX = (player.x + monster.x) / 2;
+      targetY = (player.y + monster.y) / 2;
+      anchorYRatio = screenHeight < 920 ? 0.26 : 0.32;
+    }
+
+    let camX = screenWidth / 2 - targetX * zoomLevel;
+    let camY = screenHeight * anchorYRatio - targetY * zoomLevel;
 
     const minX = screenWidth - MAP_WIDTH * zoomLevel;
     const minY = screenHeight - MAP_HEIGHT * zoomLevel;
@@ -1395,11 +1456,25 @@ async function initGame() {
     applyZoom(1.2);
     updateCamera();
 
-    if (combatTestPanel) combatTestPanel.classList.remove("hidden");
+    if (combatTestPanel) {
+      combatTestPanel.classList.remove("hidden");
+      combatTestPanel.classList.remove("minimized");
+      const btnToggle = document.getElementById("btn-toggle-combat-panel");
+      if (btnToggle) btnToggle.textContent = "▼ Minimizar";
+    }
     if (mobileActionBar) mobileActionBar.style.display = "none";
     if (joystickContainer) joystickContainer.style.display = "none";
 
     setCombatStatus("⚔️ Modo de Combate Ativo! Toque em uma ação abaixo ou ative o Sparring Contínuo.");
+  }
+
+  const btnToggleCombatPanel = document.getElementById("btn-toggle-combat-panel");
+  if (btnToggleCombatPanel) {
+    btnToggleCombatPanel.addEventListener("click", () => {
+      if (!combatTestPanel) return;
+      const isMin = combatTestPanel.classList.toggle("minimized");
+      btnToggleCombatPanel.textContent = isMin ? "▲ Expandir" : "▼ Minimizar";
+    });
   }
 
   function closeCombatTest() {
@@ -2973,7 +3048,8 @@ async function initGame() {
           <div class="skill-card" data-effect-id="${eff.id}" onclick="window.__playVFXDirect(${eff.id})">
             <div class="skill-card-top">
               <div class="skill-icon-wrapper" style="background: radial-gradient(circle, #4c566a 20%, #2e3440 90%);">
-                <span style="font-size: 20px;">⚡</span>
+                <img src="${eff.thumb || `assets/effects/${eff.id}/thumb.png`}" alt="VFX #${eff.id}" class="vfx-thumb-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" />
+                <span style="display:none; font-size: 20px;">⚡</span>
               </div>
               <div class="skill-card-meta">
                 <div class="skill-title-row">
@@ -3089,23 +3165,82 @@ async function initGame() {
     }
   }
 
+  // Controles da Barra Flutuante de Teste de Habilidade / VFX
+  let lastTriggeredSkillOrVFX = null;
+  const skillsFloatingBar = document.getElementById("skills-floating-bar");
+  const skillsFloatingIcon = document.getElementById("skills-floating-icon");
+  const skillsFloatingTitle = document.getElementById("skills-floating-title");
+  const skillsFloatingSub = document.getElementById("skills-floating-sub");
+  const btnFloatingRepeat = document.getElementById("btn-floating-repeat");
+  const btnFloatingGrimorio = document.getElementById("btn-floating-grimorio");
+  const btnFloatingClose = document.getElementById("btn-floating-close");
+  const btnMinimizeSkillsModal = document.getElementById("btn-minimize-skills-modal");
+
+  function showSkillsFloatingBar(title, sub, iconHtml, repeatFn) {
+    if (!skillsFloatingBar) return;
+    if (skillsFloatingTitle) skillsFloatingTitle.textContent = title;
+    if (skillsFloatingSub) skillsFloatingSub.textContent = sub;
+    if (skillsFloatingIcon) skillsFloatingIcon.innerHTML = iconHtml;
+    skillsFloatingBar.classList.remove("hidden");
+    lastTriggeredSkillOrVFX = repeatFn;
+  }
+
+  function hideSkillsFloatingBar() {
+    if (skillsFloatingBar) skillsFloatingBar.classList.add("hidden");
+  }
+
+  if (btnFloatingRepeat) {
+    btnFloatingRepeat.addEventListener("click", () => {
+      if (typeof lastTriggeredSkillOrVFX === 'function') lastTriggeredSkillOrVFX();
+    });
+  }
+  if (btnFloatingGrimorio) {
+    btnFloatingGrimorio.addEventListener("click", () => {
+      hideSkillsFloatingBar();
+      openSkillsModal();
+    });
+  }
+  if (btnFloatingClose) {
+    btnFloatingClose.addEventListener("click", hideSkillsFloatingBar);
+  }
+  if (btnMinimizeSkillsModal) {
+    btnMinimizeSkillsModal.addEventListener("click", () => {
+      closeSkillsModal();
+      showSkillsFloatingBar("Grimório Minimizado", "Toque em Grimório para reabrir", "🔮", null);
+    });
+  }
+
   // Window helpers for click handlers
   window.__castSkillFromCard = (skillId) => {
     const s = skillsList.find(x => x.id === skillId);
     if (!s) return;
+    closeSkillsModal();
     executeSkill(s);
+    const iconHtml = s.icon ? `<img src="${s.icon}" class="floating-vfx-img" onerror="this.replaceWith('🔮');" />` : "🔮";
+    showSkillsFloatingBar(s.name, `Disparando no mapa (VFX #${s.effect_id})`, iconHtml, () => executeSkill(s));
   };
 
   window.__playVFXDirect = (effId) => {
-    setCombatStatus(`⚡ Disparando Efeito Especial #${effId}!`);
-    setAction(activeManifest && activeManifest[`${player.dir}-10`] ? 10 : 7);
-    playSkillVFX(effId, monster.x, monster.y - 30, { shake: true, speed: 0.45 });
-    setMonsterAction(5);
-    spawnCombatText(`⚡ VFX #${effId}`, monster.x, monster.y - 65, 0xebcb8b);
-    setTimeout(() => {
-      setAction(0);
-      setMonsterAction(0);
-    }, 450);
+    closeSkillsModal();
+    const eff = effectsList.find(x => x.id === effId);
+    const effTitle = eff ? `Efeito #${eff.id} (${eff.frames}f)` : `VFX #${effId}`;
+    const effThumb = eff?.thumb || `assets/effects/${effId}/thumb.png`;
+    const iconHtml = `<img src="${effThumb}" class="floating-vfx-img" onerror="this.replaceWith('⚡');" />`;
+
+    const playFn = () => {
+      setCombatStatus(`⚡ Disparando Efeito Especial #${effId}!`);
+      setAction(activeManifest && activeManifest[`${player.dir}-10`] ? 10 : 7);
+      playSkillVFX(effId, monster.x, monster.y - 30, { shake: true, speed: 0.45 });
+      setMonsterAction(5);
+      spawnCombatText(`⚡ VFX #${effId}`, monster.x, monster.y - 65, 0xebcb8b);
+      setTimeout(() => {
+        setAction(0);
+        setMonsterAction(0);
+      }, 450);
+    };
+
+    playFn();
+    showSkillsFloatingBar(effTitle, "Executando efeito visual...", iconHtml, playFn);
   };
 
   function openSkillsModal() {
@@ -3240,6 +3375,11 @@ async function initGame() {
                 ${playerEquippedWing && (String(playerEquippedWing.id) === String(item.id) || playerEquippedWing.model_id === item.model_id) ? '🪽 Equipado' : '🪽 Equipar'}
               </button>
             ` : ''}
+            ${(item.category_group === "wings_costumes" || item.position === 21) ? `
+              <button class="btn-costume-equip ${playerEquippedCostume && String(playerEquippedCostume.id) === String(item.id) ? 'active' : ''}" data-costume-id="${item.id}" title="${playerEquippedCostume && String(playerEquippedCostume.id) === String(item.id) ? 'Clique para remover moda' : 'Clique para provar e vestir a skin no personagem'}">
+                ${playerEquippedCostume && String(playerEquippedCostume.id) === String(item.id) ? '👗 Vestindo' : '✨ Provar Traje'}
+              </button>
+            ` : ''}
             <span class="equipment-quality-badge" style="background: ${qualityColor}22; color: ${qualityColor}; border: 1px solid ${qualityColor}55;">
               ${item.quality}
             </span>
@@ -3287,6 +3427,20 @@ async function initGame() {
           equipWing(null);
         } else {
           equipWing(item);
+        }
+      };
+    });
+
+    equipmentGrid.querySelectorAll(".btn-costume-equip").forEach(btn => {
+      btn.onclick = (e) => {
+        e.stopPropagation();
+        const cid = btn.dataset.costumeId;
+        const item = equipmentList.find(x => String(x.id) === String(cid));
+        if (!item) return;
+        if (playerEquippedCostume && String(playerEquippedCostume.id) === String(item.id)) {
+          equipCostume(null);
+        } else {
+          equipCostume(item);
         }
       };
     });
@@ -3354,6 +3508,29 @@ async function initGame() {
   } else if (Array.isArray(wingsCatalogData) && wingsCatalogData.length > 0) {
     const defW = wingsCatalogData.find(x => x.model_id === "equip_wing_001001") || wingsCatalogData[0];
     if (defW) equipWing(defW);
+  }
+
+  // Atalho do drawer para Trajes & Modas
+  const btnDrawerCostumes = document.getElementById("btn-drawer-all-costumes");
+  if (btnDrawerCostumes) {
+    btnDrawerCostumes.addEventListener("click", () => {
+      closeDrawer();
+      openEquipmentModal();
+      selectedEquipmentFilter = "wings_costumes";
+      if (equipmentFilterPills) {
+        equipmentFilterPills.querySelectorAll(".pill-filter").forEach(b => {
+          b.classList.toggle("active", b.dataset.filter === "wings_costumes");
+        });
+      }
+      renderEquipmentGrid(true);
+    });
+  }
+
+  // Restaurar traje equipado salvo
+  const savedCostumeId = localStorage.getItem("mc_equipped_costume_id");
+  if (savedCostumeId && equipmentList && equipmentList.length > 0) {
+    const savedC = equipmentList.find(x => String(x.id) === String(savedCostumeId));
+    if (savedC) equipCostume(savedC);
   }
 
   console.log("Magic Campus Mobile Engine inicializado com sucesso!");

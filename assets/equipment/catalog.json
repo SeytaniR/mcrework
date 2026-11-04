@@ -79271,7 +79271,7 @@
           "value": "+1150"
         }
       ],
-      "icon": "assets/equipment/icons/equip_normal_180001.png",
+      "icon": "assets/wings/equip_wing_001002/thumb.png",
       "has_model": true,
       "model_swf": "equip/EQUIP_WING_001001.swf",
       "model_id": "equip_wing_001002",
@@ -79324,7 +79324,7 @@
           "value": "+2300"
         }
       ],
-      "icon": "assets/equipment/icons/equip_normal_180004.png",
+      "icon": "assets/wings/equip_wing_004002/thumb.png",
       "has_model": true,
       "model_swf": "equip/EQUIP_WING_004001.swf",
       "model_id": "equip_wing_004002",
@@ -79377,7 +79377,7 @@
           "value": "+2300"
         }
       ],
-      "icon": "assets/equipment/icons/equip_normal_180003.png",
+      "icon": "assets/wings/equip_wing_003002/thumb.png",
       "has_model": true,
       "model_swf": "equip/EQUIP_WING_003001.swf",
       "model_id": "equip_wing_003002",
@@ -79430,7 +79430,7 @@
           "value": "+2300"
         }
       ],
-      "icon": "assets/equipment/icons/equip_normal_180002.png",
+      "icon": "assets/wings/equip_wing_002002/thumb.png",
       "has_model": true,
       "model_swf": "equip/EQUIP_WING_002001.swf",
       "model_id": "equip_wing_002002",
@@ -79483,7 +79483,7 @@
           "value": "+2300"
         }
       ],
-      "icon": "assets/equipment/icons/equip_normal_180005.png",
+      "icon": "assets/wings/equip_wing_005003/thumb.png",
       "has_model": true,
       "model_swf": "equip/EQUIP_WING_005003.swf",
       "model_id": "equip_wing_005003",
@@ -79588,7 +79588,7 @@
           "value": "+2300"
         }
       ],
-      "icon": "assets/equipment/icons/equip_normal_600009.png",
+      "icon": "assets/wings/equip_wing_061003/thumb.png",
       "has_model": true,
       "model_swf": "equip/EQUIP_WING_061003.swf",
       "model_id": "equip_wing_061003",
@@ -79641,7 +79641,7 @@
           "value": "+2300"
         }
       ],
-      "icon": "assets/equipment/icons/equip_normal_600009.png",
+      "icon": "assets/wings/equip_wing_062003/thumb.png",
       "has_model": true,
       "model_swf": "equip/EQUIP_WING_062003.swf",
       "model_id": "equip_wing_062003",
@@ -79694,7 +79694,7 @@
           "value": "+2300"
         }
       ],
-      "icon": "assets/equipment/icons/equip_normal_600009.png",
+      "icon": "assets/wings/equip_wing_063003/thumb.png",
       "has_model": true,
       "model_swf": "equip/EQUIP_WING_063003.swf",
       "model_id": "equip_wing_063003",
@@ -79709,7 +79709,7 @@
       "name": "Cánh Ánh Sáng",
       "model_id": "equip_wing_001001",
       "manifest_url": "assets/wings/equip_wing_001001/char_manifest.json",
-      "icon": "assets/equipment/icons/EQUIP_NORMAL_180001.png",
+      "icon": "assets/wings/equip_wing_001001/thumb.png",
       "description": "Hãy tung cánh bay lượn nào!",
       "type": "wing"
     },
@@ -79718,7 +79718,7 @@
       "name": "Cánh Ma Pháp 1002",
       "model_id": "equip_wing_001002",
       "manifest_url": "assets/wings/equip_wing_001002/char_manifest.json",
-      "icon": "assets/equipment/icons/EQUIP_NORMAL_180001.png",
+      "icon": "assets/wings/equip_wing_001002/thumb.png",
       "description": "Asas visuais de alto nível (equip_wing_001002). Concede poder e imponência ao personagem.",
       "type": "wing"
     },
@@ -79727,7 +79727,7 @@
       "name": "Cánh Ma Pháp 1003",
       "model_id": "equip_wing_001003",
       "manifest_url": "assets/wings/equip_wing_001003/char_manifest.json",
-      "icon": "assets/equipment/icons/EQUIP_NORMAL_180001.png",
+      "icon": "assets/wings/equip_wing_001003/thumb.png",
       "description": "Asas visuais de alto nível (equip_wing_001003). Concede poder e imponência ao personagem.",
       "type": "wing"
     },
@@ -79736,7 +79736,7 @@
       "name": "Cánh Bích Không",
       "model_id": "equip_wing_002001",
       "manifest_url": "assets/wings/equip_wing_002001/char_manifest.json",
-      "icon": "assets/equipment/icons/EQUIP_NORMAL_180002.png",
+      "icon": "assets/wings/equip_wing_002001/thumb.png",
       "description": "Đôi cánh đại diện cho tinh thần Vô Ưu Đại Lục",
       "type": "wing"
     },
@@ -79745,7 +79745,7 @@
       "name": "Cánh Ma Pháp 2002",
       "model_id": "equip_wing_002002",
       "manifest_url": "assets/wings/equip_wing_002002/char_manifest.json",
-      "icon": "assets/equipment/icons/EQUIP_NORMAL_180001.png",
+      "icon": "assets/wings/equip_wing_002002/thumb.png",
       "description": "Asas visuais de alto nível (equip_wing_002002). Concede poder e imponência ao personagem.",
       "type": "wing"
     },
@@ -79754,7 +79754,7 @@
       "name": "Cánh Ma Pháp 2003",
       "model_id": "equip_wing_002003",
       "manifest_url": "assets/wings/equip_wing_002003/char_manifest.json",
-      "icon": "assets/equipment/icons/EQUIP_NORMAL_180001.png",
+      "icon": "assets/wings/equip_wing_002003/thumb.png",
       "description": "Asas visuais de alto nível (equip_wing_002003). Concede poder e imponência ao personagem.",
       "type": "wing"
     },
@@ -79763,7 +79763,7 @@
       "name": "Cánh Ác Ma",
       "model_id": "equip_wing_003001",
       "manifest_url": "assets/wings/equip_wing_003001/char_manifest.json",
-      "icon": "assets/equipment/icons/EQUIP_NORMAL_180003.png",
+      "icon": "assets/wings/equip_wing_003001/thumb.png",
       "description": "Đôi cánh mang đầy vẻ tà ác của ác ma",
       "type": "wing"
     },
@@ -79772,7 +79772,7 @@
       "name": "Cánh Ma Pháp 3002",
       "model_id": "equip_wing_003002",
       "manifest_url": "assets/wings/equip_wing_003002/char_manifest.json",
-      "icon": "assets/equipment/icons/EQUIP_NORMAL_180001.png",
+      "icon": "assets/wings/equip_wing_003002/thumb.png",
       "description": "Asas visuais de alto nível (equip_wing_003002). Concede poder e imponência ao personagem.",
       "type": "wing"
     },
@@ -79781,7 +79781,7 @@
       "name": "Cánh Ma Pháp 3003",
       "model_id": "equip_wing_003003",
       "manifest_url": "assets/wings/equip_wing_003003/char_manifest.json",
-      "icon": "assets/equipment/icons/EQUIP_NORMAL_180001.png",
+      "icon": "assets/wings/equip_wing_003003/thumb.png",
       "description": "Asas visuais de alto nível (equip_wing_003003). Concede poder e imponência ao personagem.",
       "type": "wing"
     },
@@ -79790,7 +79790,7 @@
       "name": "Cánh Thiên Sứ",
       "model_id": "equip_wing_004001",
       "manifest_url": "assets/wings/equip_wing_004001/char_manifest.json",
-      "icon": "assets/equipment/icons/EQUIP_NORMAL_180004.png",
+      "icon": "assets/wings/equip_wing_004001/thumb.png",
       "description": "Đôi cánh thiên thần mang lại lời chúc phúc",
       "type": "wing"
     },
@@ -79799,7 +79799,7 @@
       "name": "Cánh Ma Pháp 4002",
       "model_id": "equip_wing_004002",
       "manifest_url": "assets/wings/equip_wing_004002/char_manifest.json",
-      "icon": "assets/equipment/icons/EQUIP_NORMAL_180001.png",
+      "icon": "assets/wings/equip_wing_004002/thumb.png",
       "description": "Asas visuais de alto nível (equip_wing_004002). Concede poder e imponência ao personagem.",
       "type": "wing"
     },
@@ -79808,7 +79808,7 @@
       "name": "Cánh Ma Pháp 4003",
       "model_id": "equip_wing_004003",
       "manifest_url": "assets/wings/equip_wing_004003/char_manifest.json",
-      "icon": "assets/equipment/icons/EQUIP_NORMAL_180001.png",
+      "icon": "assets/wings/equip_wing_004003/thumb.png",
       "description": "Asas visuais de alto nível (equip_wing_004003). Concede poder e imponência ao personagem.",
       "type": "wing"
     },
@@ -79817,7 +79817,7 @@
       "name": "Cánh Chiến Thần",
       "model_id": "equip_wing_005003",
       "manifest_url": "assets/wings/equip_wing_005003/char_manifest.json",
-      "icon": "assets/equipment/icons/EQUIP_NORMAL_180005.png",
+      "icon": "assets/wings/equip_wing_005003/thumb.png",
       "description": "Kết tinh của tự do và lòng can đảm của đại lục, \nmang theo ước mơ mãi vươn cao.",
       "type": "wing"
     },
@@ -79826,7 +79826,7 @@
       "name": "Cánh Ma Pháp 6003",
       "model_id": "equip_wing_006003",
       "manifest_url": "assets/wings/equip_wing_006003/char_manifest.json",
-      "icon": "assets/equipment/icons/EQUIP_NORMAL_180001.png",
+      "icon": "assets/wings/equip_wing_006003/thumb.png",
       "description": "Asas visuais de alto nível (equip_wing_006003). Concede poder e imponência ao personagem.",
       "type": "wing"
     },
@@ -79835,7 +79835,7 @@
       "name": "Cánh Ma Pháp 7003",
       "model_id": "equip_wing_007003",
       "manifest_url": "assets/wings/equip_wing_007003/char_manifest.json",
-      "icon": "assets/equipment/icons/EQUIP_NORMAL_180001.png",
+      "icon": "assets/wings/equip_wing_007003/thumb.png",
       "description": "Asas visuais de alto nível (equip_wing_007003). Concede poder e imponência ao personagem.",
       "type": "wing"
     },
@@ -79844,7 +79844,7 @@
       "name": "Cánh Ma Pháp 8003",
       "model_id": "equip_wing_008003",
       "manifest_url": "assets/wings/equip_wing_008003/char_manifest.json",
-      "icon": "assets/equipment/icons/EQUIP_NORMAL_180001.png",
+      "icon": "assets/wings/equip_wing_008003/thumb.png",
       "description": "Asas visuais de alto nível (equip_wing_008003). Concede poder e imponência ao personagem.",
       "type": "wing"
     },
@@ -79853,7 +79853,7 @@
       "name": "Cánh Ma Pháp 9003",
       "model_id": "equip_wing_009003",
       "manifest_url": "assets/wings/equip_wing_009003/char_manifest.json",
-      "icon": "assets/equipment/icons/EQUIP_NORMAL_180001.png",
+      "icon": "assets/wings/equip_wing_009003/thumb.png",
       "description": "Asas visuais de alto nível (equip_wing_009003). Concede poder e imponência ao personagem.",
       "type": "wing"
     },
@@ -79862,7 +79862,7 @@
       "name": "Cánh Ma Pháp 60003",
       "model_id": "equip_wing_060003",
       "manifest_url": "assets/wings/equip_wing_060003/char_manifest.json",
-      "icon": "assets/equipment/icons/EQUIP_NORMAL_180001.png",
+      "icon": "assets/wings/equip_wing_060003/thumb.png",
       "description": "Asas visuais de alto nível (equip_wing_060003). Concede poder e imponência ao personagem.",
       "type": "wing"
     },
@@ -79871,7 +79871,7 @@
       "name": "Cánh Khổng Tước Lam",
       "model_id": "equip_wing_061003",
       "manifest_url": "assets/wings/equip_wing_061003/char_manifest.json",
-      "icon": "assets/equipment/icons/EQUIP_NORMAL_600009.png",
+      "icon": "assets/wings/equip_wing_061003/thumb.png",
       "description": "Không",
       "type": "wing"
     },
@@ -79880,7 +79880,7 @@
       "name": "Cánh Khổng Tước Đỏ",
       "model_id": "equip_wing_062003",
       "manifest_url": "assets/wings/equip_wing_062003/char_manifest.json",
-      "icon": "assets/equipment/icons/EQUIP_NORMAL_600009.png",
+      "icon": "assets/wings/equip_wing_062003/thumb.png",
       "description": "Không",
       "type": "wing"
     },
@@ -79889,7 +79889,7 @@
       "name": "Cánh Hồ Khổng Tước Vàng",
       "model_id": "equip_wing_063003",
       "manifest_url": "assets/wings/equip_wing_063003/char_manifest.json",
-      "icon": "assets/equipment/icons/EQUIP_NORMAL_600009.png",
+      "icon": "assets/wings/equip_wing_063003/thumb.png",
       "description": "Không",
       "type": "wing"
     },
@@ -79898,7 +79898,7 @@
       "name": "Cánh Phi Thiên 04",
       "model_id": "equip_fly_000004",
       "manifest_url": "assets/wings/equip_fly_000004/char_manifest.json",
-      "icon": "assets/equipment/icons/EQUIP_NORMAL_180001.png",
+      "icon": "assets/wings/equip_fly_000004/thumb.png",
       "description": "Asas visuais de alto nível (equip_fly_000004). Concede poder e imponência ao personagem.",
       "type": "wing"
     },
@@ -79907,7 +79907,7 @@
       "name": "Cánh Phi Thiên 06",
       "model_id": "equip_fly_000006",
       "manifest_url": "assets/wings/equip_fly_000006/char_manifest.json",
-      "icon": "assets/equipment/icons/EQUIP_NORMAL_180001.png",
+      "icon": "assets/wings/equip_fly_000006/thumb.png",
       "description": "Asas visuais de alto nível (equip_fly_000006). Concede poder e imponência ao personagem.",
       "type": "wing"
     },
@@ -79916,7 +79916,7 @@
       "name": "Cánh Phi Thiên 07",
       "model_id": "equip_fly_000007",
       "manifest_url": "assets/wings/equip_fly_000007/char_manifest.json",
-      "icon": "assets/equipment/icons/EQUIP_NORMAL_180001.png",
+      "icon": "assets/wings/equip_fly_000007/thumb.png",
       "description": "Asas visuais de alto nível (equip_fly_000007). Concede poder e imponência ao personagem.",
       "type": "wing"
     },
@@ -79925,7 +79925,7 @@
       "name": "Cánh Phi Thiên 08",
       "model_id": "equip_fly_000008",
       "manifest_url": "assets/wings/equip_fly_000008/char_manifest.json",
-      "icon": "assets/equipment/icons/EQUIP_NORMAL_180001.png",
+      "icon": "assets/wings/equip_fly_000008/thumb.png",
       "description": "Asas visuais de alto nível (equip_fly_000008). Concede poder e imponência ao personagem.",
       "type": "wing"
     },
@@ -79934,7 +79934,7 @@
       "name": "Cánh Phi Thiên 09",
       "model_id": "equip_fly_000009",
       "manifest_url": "assets/wings/equip_fly_000009/char_manifest.json",
-      "icon": "assets/equipment/icons/EQUIP_NORMAL_180001.png",
+      "icon": "assets/wings/equip_fly_000009/thumb.png",
       "description": "Asas visuais de alto nível (equip_fly_000009). Concede poder e imponência ao personagem.",
       "type": "wing"
     },
@@ -79943,7 +79943,7 @@
       "name": "Cánh Phi Thiên 10",
       "model_id": "equip_fly_000010",
       "manifest_url": "assets/wings/equip_fly_000010/char_manifest.json",
-      "icon": "assets/equipment/icons/EQUIP_NORMAL_180001.png",
+      "icon": "assets/wings/equip_fly_000010/thumb.png",
       "description": "Asas visuais de alto nível (equip_fly_000010). Concede poder e imponência ao personagem.",
       "type": "wing"
     },
@@ -79952,7 +79952,7 @@
       "name": "Cánh Phi Thiên 11",
       "model_id": "equip_fly_000011",
       "manifest_url": "assets/wings/equip_fly_000011/char_manifest.json",
-      "icon": "assets/equipment/icons/EQUIP_NORMAL_180001.png",
+      "icon": "assets/wings/equip_fly_000011/thumb.png",
       "description": "Asas visuais de alto nível (equip_fly_000011). Concede poder e imponência ao personagem.",
       "type": "wing"
     },
@@ -79961,7 +79961,7 @@
       "name": "Cánh Phi Thiên 14",
       "model_id": "equip_fly_000014",
       "manifest_url": "assets/wings/equip_fly_000014/char_manifest.json",
-      "icon": "assets/equipment/icons/EQUIP_NORMAL_180001.png",
+      "icon": "assets/wings/equip_fly_000014/thumb.png",
       "description": "Asas visuais de alto nível (equip_fly_000014). Concede poder e imponência ao personagem.",
       "type": "wing"
     },
@@ -79970,7 +79970,7 @@
       "name": "Cánh Phi Thiên 15",
       "model_id": "equip_fly_000015",
       "manifest_url": "assets/wings/equip_fly_000015/char_manifest.json",
-      "icon": "assets/equipment/icons/EQUIP_NORMAL_180001.png",
+      "icon": "assets/wings/equip_fly_000015/thumb.png",
       "description": "Asas visuais de alto nível (equip_fly_000015). Concede poder e imponência ao personagem.",
       "type": "wing"
     },
@@ -79979,7 +79979,7 @@
       "name": "Cánh Phi Thiên 17",
       "model_id": "equip_fly_000017",
       "manifest_url": "assets/wings/equip_fly_000017/char_manifest.json",
-      "icon": "assets/equipment/icons/EQUIP_NORMAL_180001.png",
+      "icon": "assets/wings/equip_fly_000017/thumb.png",
       "description": "Asas visuais de alto nível (equip_fly_000017). Concede poder e imponência ao personagem.",
       "type": "wing"
     },
@@ -79988,7 +79988,7 @@
       "name": "Cánh Phi Thiên 18",
       "model_id": "equip_fly_000018",
       "manifest_url": "assets/wings/equip_fly_000018/char_manifest.json",
-      "icon": "assets/equipment/icons/EQUIP_NORMAL_180001.png",
+      "icon": "assets/wings/equip_fly_000018/thumb.png",
       "description": "Asas visuais de alto nível (equip_fly_000018). Concede poder e imponência ao personagem.",
       "type": "wing"
     },
@@ -79997,7 +79997,7 @@
       "name": "Cánh Phi Thiên 19",
       "model_id": "equip_fly_000019",
       "manifest_url": "assets/wings/equip_fly_000019/char_manifest.json",
-      "icon": "assets/equipment/icons/EQUIP_NORMAL_180001.png",
+      "icon": "assets/wings/equip_fly_000019/thumb.png",
       "description": "Asas visuais de alto nível (equip_fly_000019). Concede poder e imponência ao personagem.",
       "type": "wing"
     },
@@ -80006,7 +80006,7 @@
       "name": "Cánh Phi Thiên 20",
       "model_id": "equip_fly_000020",
       "manifest_url": "assets/wings/equip_fly_000020/char_manifest.json",
-      "icon": "assets/equipment/icons/EQUIP_NORMAL_180001.png",
+      "icon": "assets/wings/equip_fly_000020/thumb.png",
       "description": "Asas visuais de alto nível (equip_fly_000020). Concede poder e imponência ao personagem.",
       "type": "wing"
     },
@@ -80015,7 +80015,7 @@
       "name": "Cánh Phi Thiên 21",
       "model_id": "equip_fly_000021",
       "manifest_url": "assets/wings/equip_fly_000021/char_manifest.json",
-      "icon": "assets/equipment/icons/EQUIP_NORMAL_180001.png",
+      "icon": "assets/wings/equip_fly_000021/thumb.png",
       "description": "Asas visuais de alto nível (equip_fly_000021). Concede poder e imponência ao personagem.",
       "type": "wing"
     },
@@ -80024,7 +80024,7 @@
       "name": "Cánh Phi Thiên 22",
       "model_id": "equip_fly_000022",
       "manifest_url": "assets/wings/equip_fly_000022/char_manifest.json",
-      "icon": "assets/equipment/icons/EQUIP_NORMAL_180001.png",
+      "icon": "assets/wings/equip_fly_000022/thumb.png",
       "description": "Asas visuais de alto nível (equip_fly_000022). Concede poder e imponência ao personagem.",
       "type": "wing"
     }
