@@ -173,8 +173,14 @@ Para entender o processo de engenharia reversa dos arquivos SWF, descompressão 
 │       ├── char11/                # Guerreiro Evoluído (Tier 2 - Ações 0 a 10)
 │       ├── char2/                 # Mago Base
 │       ├── char_mount/            # Poses de Montaria
-│       ├── monsters/              # Atlases WebP de todos os 351 monstros e pets + catalog.json
-│       └── characters/            # Atlases WebP de todas as 46 skins de classes + catalog.json
+│       ├── monsters/              # Atlases WebP de todos os 543 monstros e pets + catalog.json
+│       ├── characters/            # Atlases WebP de todas as 46 skins de classes + catalog.json
+│       ├── mounts/                # Catálogo de 20 montarias oficiais
+│       ├── npcs/                  # 365 NPCs catalogados
+│       ├── maps/                  # 76 mapas navegáveis com portais e colisões
+│       ├── skills/                # 1.923 habilidades catalogadas com 411 ícones oficiais
+│       ├── effects/               # 128 animações VFX de efeitos especiais em WebP
+│       └── equipment/             # 1.865 equipamentos e armas com 1.565 ícones e 248 conjuntos
 ├── tools/                         # Ferramentas Python de extração e conversão
 │   ├── batch_extract_assets.py    # Extrator mestre e gerador de Spritesheet Atlases WebP
 │   ├── extract_character.py       # Extrator individual de SWF de personagem
