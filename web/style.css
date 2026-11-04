@@ -2911,3 +2911,56 @@ body, html {
   height: 36px;
   object-fit: contain;
 }
+
+/* Fix para Cards de Habilidades & Efeitos Especiais (Anti-Espremimento) */
+.modal-grid-container {
+  grid-auto-rows: min-content !important;
+  align-items: start !important;
+}
+
+.skill-card {
+  min-height: fit-content !important;
+  height: auto !important;
+  box-sizing: border-box !important;
+  padding: 12px 14px !important;
+  overflow: visible !important;
+}
+
+.skill-card-desc {
+  min-height: auto !important;
+  line-height: 1.45 !important;
+}
+
+.modal-subfilter-pills {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 16px 8px 16px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.modal-subfilter-pills.hidden {
+  display: none !important;
+}
+.pill-subfilter {
+  padding: 4px 10px;
+  font-size: 11px;
+  font-weight: 600;
+  border-radius: 12px;
+  border: 1px solid rgba(180, 142, 173, 0.35);
+  background: rgba(180, 142, 173, 0.12);
+  color: #d8bee5;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+.pill-subfilter:hover {
+  background: rgba(180, 142, 173, 0.25);
+  border-color: #b48ead;
+}
+.pill-subfilter.active {
+  background: #b48ead;
+  color: #1e222b;
+  font-weight: 700;
+  border-color: #b48ead;
+  box-shadow: 0 0 8px rgba(180, 142, 173, 0.4);
+}

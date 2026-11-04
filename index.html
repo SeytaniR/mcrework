@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
   <meta name="mobile-web-app-capable" content="yes">
   <title>Magic Campus Mobile - Pixi.js Engine (Mapa 1 & Char 1)</title>
-  <link rel="stylesheet" href="style.css?v=1.5.3">
+  <link rel="stylesheet" href="style.css?v=1.5.4">
   <!-- Pixi.js v7 CDN -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/7.3.2/pixi.min.js"></script>
 </head>
@@ -480,7 +480,7 @@
     </div>
   </div>
 
-  <script src="main.js?v=1.5.3"></script>
+  <script src="main.js?v=1.5.4"></script>
 
   <!-- Modal 1: Provador de Classes & Skins (46 Visuais) -->
   <div id="modal-classes" class="catalog-modal hidden">
@@ -772,10 +772,17 @@
         <button class="pill-filter" data-filter="offhand">🛡️ Armas Secundárias (101)</button>
         <button class="pill-filter" data-filter="armor">🥋 Armaduras (600)</button>
         <button class="pill-filter" data-filter="jewelry">💍 Joias & Acessórios (137)</button>
-        <button class="pill-filter" data-filter="wings">🪽 Asas Animadas (36)</button>
-        <button class="pill-filter" data-filter="wings_costumes">👗 Trajes & Visuais (334)</button>
+        <button class="pill-filter" data-filter="wings">🪽 Asas & Montarias (36)</button>
+        <button class="pill-filter" data-filter="wings_costumes">👗 Modas & Trajes (334)</button>
         <button class="pill-filter" data-filter="pet">🐾 Pets (570)</button>
         <button class="pill-filter" data-filter="suits">👑 Conjuntos / Sets (248)</button>
+      </div>
+
+      <div class="modal-subfilter-pills hidden" id="wings-subfilter-pills">
+        <span style="font-size: 11px; color: #88c0d0; font-weight: bold; margin-right: 4px;">Tipo:</span>
+        <button class="pill-subfilter active" data-subfilter="all">🌟 Todas (36)</button>
+        <button class="pill-subfilter" data-subfilter="wings">🪽 Asas Místicas (21)</button>
+        <button class="pill-subfilter" data-subfilter="mounts">🧹 Montarias Voadoras (15)</button>
       </div>
 
       <div class="modal-grid-container" id="equipment-grid-container">

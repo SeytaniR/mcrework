@@ -6,7 +6,10 @@
     "manifest_url": "assets/wings/equip_wing_001001/char_manifest.json",
     "icon": "assets/wings/equip_wing_001001/thumb.png",
     "description": "Hãy tung cánh bay lượn nào!",
-    "type": "wing"
+    "type": "wing",
+    "is_fly_mount": false,
+    "category_type": "wing",
+    "type_label": "Asa Mística"
   },
   {
     "id": 3002,
@@ -15,7 +18,10 @@
     "manifest_url": "assets/wings/equip_wing_001002/char_manifest.json",
     "icon": "assets/wings/equip_wing_001002/thumb.png",
     "description": "Asas visuais de alto nível (equip_wing_001002). Concede poder e imponência ao personagem.",
-    "type": "wing"
+    "type": "wing",
+    "is_fly_mount": false,
+    "category_type": "wing",
+    "type_label": "Asa Mística"
   },
   {
     "id": 3003,
@@ -24,7 +30,10 @@
     "manifest_url": "assets/wings/equip_wing_001003/char_manifest.json",
     "icon": "assets/wings/equip_wing_001003/thumb.png",
     "description": "Asas visuais de alto nível (equip_wing_001003). Concede poder e imponência ao personagem.",
-    "type": "wing"
+    "type": "wing",
+    "is_fly_mount": false,
+    "category_type": "wing",
+    "type_label": "Asa Mística"
   },
   {
     "id": "1678",
@@ -33,7 +42,10 @@
     "manifest_url": "assets/wings/equip_wing_002001/char_manifest.json",
     "icon": "assets/wings/equip_wing_002001/thumb.png",
     "description": "Đôi cánh đại diện cho tinh thần Vô Ưu Đại Lục",
-    "type": "wing"
+    "type": "wing",
+    "is_fly_mount": false,
+    "category_type": "wing",
+    "type_label": "Asa Mística"
   },
   {
     "id": 3005,
@@ -42,7 +54,10 @@
     "manifest_url": "assets/wings/equip_wing_002002/char_manifest.json",
     "icon": "assets/wings/equip_wing_002002/thumb.png",
     "description": "Asas visuais de alto nível (equip_wing_002002). Concede poder e imponência ao personagem.",
-    "type": "wing"
+    "type": "wing",
+    "is_fly_mount": false,
+    "category_type": "wing",
+    "type_label": "Asa Mística"
   },
   {
     "id": 3006,
@@ -51,7 +66,10 @@
     "manifest_url": "assets/wings/equip_wing_002003/char_manifest.json",
     "icon": "assets/wings/equip_wing_002003/thumb.png",
     "description": "Asas visuais de alto nível (equip_wing_002003). Concede poder e imponência ao personagem.",
-    "type": "wing"
+    "type": "wing",
+    "is_fly_mount": false,
+    "category_type": "wing",
+    "type_label": "Asa Mística"
   },
   {
     "id": "1677",
@@ -60,7 +78,10 @@
     "manifest_url": "assets/wings/equip_wing_003001/char_manifest.json",
     "icon": "assets/wings/equip_wing_003001/thumb.png",
     "description": "Đôi cánh mang đầy vẻ tà ác của ác ma",
-    "type": "wing"
+    "type": "wing",
+    "is_fly_mount": false,
+    "category_type": "wing",
+    "type_label": "Asa Mística"
   },
   {
     "id": 3008,
@@ -69,7 +90,10 @@
     "manifest_url": "assets/wings/equip_wing_003002/char_manifest.json",
     "icon": "assets/wings/equip_wing_003002/thumb.png",
     "description": "Asas visuais de alto nível (equip_wing_003002). Concede poder e imponência ao personagem.",
-    "type": "wing"
+    "type": "wing",
+    "is_fly_mount": false,
+    "category_type": "wing",
+    "type_label": "Asa Mística"
   },
   {
     "id": 3009,
@@ -78,7 +102,10 @@
     "manifest_url": "assets/wings/equip_wing_003003/char_manifest.json",
     "icon": "assets/wings/equip_wing_003003/thumb.png",
     "description": "Asas visuais de alto nível (equip_wing_003003). Concede poder e imponência ao personagem.",
-    "type": "wing"
+    "type": "wing",
+    "is_fly_mount": false,
+    "category_type": "wing",
+    "type_label": "Asa Mística"
   },
   {
     "id": "1676",
@@ -87,7 +114,10 @@
     "manifest_url": "assets/wings/equip_wing_004001/char_manifest.json",
     "icon": "assets/wings/equip_wing_004001/thumb.png",
     "description": "Đôi cánh thiên thần mang lại lời chúc phúc",
-    "type": "wing"
+    "type": "wing",
+    "is_fly_mount": false,
+    "category_type": "wing",
+    "type_label": "Asa Mística"
   },
   {
     "id": 3011,
@@ -96,7 +126,10 @@
     "manifest_url": "assets/wings/equip_wing_004002/char_manifest.json",
     "icon": "assets/wings/equip_wing_004002/thumb.png",
     "description": "Asas visuais de alto nível (equip_wing_004002). Concede poder e imponência ao personagem.",
-    "type": "wing"
+    "type": "wing",
+    "is_fly_mount": false,
+    "category_type": "wing",
+    "type_label": "Asa Mística"
   },
   {
     "id": 3012,
@@ -105,7 +138,10 @@
     "manifest_url": "assets/wings/equip_wing_004003/char_manifest.json",
     "icon": "assets/wings/equip_wing_004003/thumb.png",
     "description": "Asas visuais de alto nível (equip_wing_004003). Concede poder e imponência ao personagem.",
-    "type": "wing"
+    "type": "wing",
+    "is_fly_mount": false,
+    "category_type": "wing",
+    "type_label": "Asa Mística"
   },
   {
     "id": "1681",
@@ -114,7 +150,10 @@
     "manifest_url": "assets/wings/equip_wing_005003/char_manifest.json",
     "icon": "assets/wings/equip_wing_005003/thumb.png",
     "description": "Kết tinh của tự do và lòng can đảm của đại lục, \nmang theo ước mơ mãi vươn cao.",
-    "type": "wing"
+    "type": "wing",
+    "is_fly_mount": false,
+    "category_type": "wing",
+    "type_label": "Asa Mística"
   },
   {
     "id": 3014,
@@ -123,7 +162,10 @@
     "manifest_url": "assets/wings/equip_wing_006003/char_manifest.json",
     "icon": "assets/wings/equip_wing_006003/thumb.png",
     "description": "Asas visuais de alto nível (equip_wing_006003). Concede poder e imponência ao personagem.",
-    "type": "wing"
+    "type": "wing",
+    "is_fly_mount": false,
+    "category_type": "wing",
+    "type_label": "Asa Mística"
   },
   {
     "id": 3015,
@@ -132,7 +174,10 @@
     "manifest_url": "assets/wings/equip_wing_007003/char_manifest.json",
     "icon": "assets/wings/equip_wing_007003/thumb.png",
     "description": "Asas visuais de alto nível (equip_wing_007003). Concede poder e imponência ao personagem.",
-    "type": "wing"
+    "type": "wing",
+    "is_fly_mount": false,
+    "category_type": "wing",
+    "type_label": "Asa Mística"
   },
   {
     "id": 3016,
@@ -141,7 +186,10 @@
     "manifest_url": "assets/wings/equip_wing_008003/char_manifest.json",
     "icon": "assets/wings/equip_wing_008003/thumb.png",
     "description": "Asas visuais de alto nível (equip_wing_008003). Concede poder e imponência ao personagem.",
-    "type": "wing"
+    "type": "wing",
+    "is_fly_mount": false,
+    "category_type": "wing",
+    "type_label": "Asa Mística"
   },
   {
     "id": 3017,
@@ -150,7 +198,10 @@
     "manifest_url": "assets/wings/equip_wing_009003/char_manifest.json",
     "icon": "assets/wings/equip_wing_009003/thumb.png",
     "description": "Asas visuais de alto nível (equip_wing_009003). Concede poder e imponência ao personagem.",
-    "type": "wing"
+    "type": "wing",
+    "is_fly_mount": false,
+    "category_type": "wing",
+    "type_label": "Asa Mística"
   },
   {
     "id": 3018,
@@ -159,7 +210,10 @@
     "manifest_url": "assets/wings/equip_wing_060003/char_manifest.json",
     "icon": "assets/wings/equip_wing_060003/thumb.png",
     "description": "Asas visuais de alto nível (equip_wing_060003). Concede poder e imponência ao personagem.",
-    "type": "wing"
+    "type": "wing",
+    "is_fly_mount": false,
+    "category_type": "wing",
+    "type_label": "Asa Mística"
   },
   {
     "id": "1923",
@@ -168,7 +222,10 @@
     "manifest_url": "assets/wings/equip_wing_061003/char_manifest.json",
     "icon": "assets/wings/equip_wing_061003/thumb.png",
     "description": "Không",
-    "type": "wing"
+    "type": "wing",
+    "is_fly_mount": false,
+    "category_type": "wing",
+    "type_label": "Asa Mística"
   },
   {
     "id": "1930",
@@ -177,7 +234,10 @@
     "manifest_url": "assets/wings/equip_wing_062003/char_manifest.json",
     "icon": "assets/wings/equip_wing_062003/thumb.png",
     "description": "Không",
-    "type": "wing"
+    "type": "wing",
+    "is_fly_mount": false,
+    "category_type": "wing",
+    "type_label": "Asa Mística"
   },
   {
     "id": "1931",
@@ -186,141 +246,189 @@
     "manifest_url": "assets/wings/equip_wing_063003/char_manifest.json",
     "icon": "assets/wings/equip_wing_063003/thumb.png",
     "description": "Không",
-    "type": "wing"
+    "type": "wing",
+    "is_fly_mount": false,
+    "category_type": "wing",
+    "type_label": "Asa Mística"
   },
   {
     "id": 3022,
-    "name": "Cánh Phi Thiên 04",
+    "name": "Tapete Mágico Imperial",
     "model_id": "equip_fly_000004",
     "manifest_url": "assets/wings/equip_fly_000004/char_manifest.json",
     "icon": "assets/wings/equip_fly_000004/thumb.png",
-    "description": "Asas visuais de alto nível (equip_fly_000004). Concede poder e imponência ao personagem.",
-    "type": "wing"
+    "description": "Tapete místico lendário que flutua suavemente sob os pés do personagem.",
+    "type": "wing",
+    "is_fly_mount": true,
+    "category_type": "fly_mount",
+    "type_label": "Montaria Voadora"
   },
   {
     "id": 3023,
-    "name": "Cánh Phi Thiên 06",
+    "name": "Vassoura Encantada da Bruxa",
     "model_id": "equip_fly_000006",
     "manifest_url": "assets/wings/equip_fly_000006/char_manifest.json",
     "icon": "assets/wings/equip_fly_000006/thumb.png",
-    "description": "Asas visuais de alto nível (equip_fly_000006). Concede poder e imponência ao personagem.",
-    "type": "wing"
+    "description": "Vassoura mágica veloz que voa pelos ares sustentando o herói com encantos arcanos.",
+    "type": "wing",
+    "is_fly_mount": true,
+    "category_type": "fly_mount",
+    "type_label": "Montaria Voadora"
   },
   {
     "id": 3024,
-    "name": "Cánh Phi Thiên 07",
+    "name": "Prancha Cósmica Astral",
     "model_id": "equip_fly_000007",
     "manifest_url": "assets/wings/equip_fly_000007/char_manifest.json",
     "icon": "assets/wings/equip_fly_000007/thumb.png",
-    "description": "Asas visuais de alto nível (equip_fly_000007). Concede poder e imponência ao personagem.",
-    "type": "wing"
+    "description": "Prancha translúcida com energia das estrelas para surfar pelos céus do continente.",
+    "type": "wing",
+    "is_fly_mount": true,
+    "category_type": "fly_mount",
+    "type_label": "Montaria Voadora"
   },
   {
     "id": 3025,
-    "name": "Cánh Phi Thiên 08",
+    "name": "Tapete Voador da Aurora",
     "model_id": "equip_fly_000008",
     "manifest_url": "assets/wings/equip_fly_000008/char_manifest.json",
     "icon": "assets/wings/equip_fly_000008/thumb.png",
-    "description": "Asas visuais de alto nível (equip_fly_000008). Concede poder e imponência ao personagem.",
-    "type": "wing"
+    "description": "Tapete sagrado tecido com fios celestiais e poeira de estrelas cadentes.",
+    "type": "wing",
+    "is_fly_mount": true,
+    "category_type": "fly_mount",
+    "type_label": "Montaria Voadora"
   },
   {
     "id": 3026,
-    "name": "Cánh Phi Thiên 09",
+    "name": "Nuvem Mística dos Sábios",
     "model_id": "equip_fly_000009",
     "manifest_url": "assets/wings/equip_fly_000009/char_manifest.json",
     "icon": "assets/wings/equip_fly_000009/thumb.png",
-    "description": "Asas visuais de alto nível (equip_fly_000009). Concede poder e imponência ao personagem.",
-    "type": "wing"
+    "description": "Nuvem pura e luminosa dos antigos mestres que flutua suavemente sob os pés.",
+    "type": "wing",
+    "is_fly_mount": true,
+    "category_type": "fly_mount",
+    "type_label": "Montaria Voadora"
   },
   {
     "id": 3027,
-    "name": "Cánh Phi Thiên 10",
+    "name": "Espada Voadora Celestial",
     "model_id": "equip_fly_000010",
     "manifest_url": "assets/wings/equip_fly_000010/char_manifest.json",
     "icon": "assets/wings/equip_fly_000010/thumb.png",
-    "description": "Asas visuais de alto nível (equip_fly_000010). Concede poder e imponência ao personagem.",
-    "type": "wing"
+    "description": "Espada sagrada imbuída de mana arcano sobre a qual o herói cavalga os ventos.",
+    "type": "wing",
+    "is_fly_mount": true,
+    "category_type": "fly_mount",
+    "type_label": "Montaria Voadora"
   },
   {
     "id": 3028,
-    "name": "Cánh Phi Thiên 11",
+    "name": "Vassoura das Sombras",
     "model_id": "equip_fly_000011",
     "manifest_url": "assets/wings/equip_fly_000011/char_manifest.json",
     "icon": "assets/wings/equip_fly_000011/thumb.png",
-    "description": "Asas visuais de alto nível (equip_fly_000011). Concede poder e imponência ao personagem.",
-    "type": "wing"
+    "description": "Artefato místico noturno das bruxas das trevas para voo rápido e silencioso.",
+    "type": "wing",
+    "is_fly_mount": true,
+    "category_type": "fly_mount",
+    "type_label": "Montaria Voadora"
   },
   {
     "id": 3029,
-    "name": "Cánh Phi Thiên 14",
+    "name": "Prancha Solar Dourada",
     "model_id": "equip_fly_000014",
     "manifest_url": "assets/wings/equip_fly_000014/char_manifest.json",
     "icon": "assets/wings/equip_fly_000014/thumb.png",
-    "description": "Asas visuais de alto nível (equip_fly_000014). Concede poder e imponência ao personagem.",
-    "type": "wing"
+    "description": "Prancha de velocidade supersônica banhada com o poder do sol da alvorada.",
+    "type": "wing",
+    "is_fly_mount": true,
+    "category_type": "fly_mount",
+    "type_label": "Montaria Voadora"
   },
   {
     "id": 3030,
-    "name": "Cánh Phi Thiên 15",
+    "name": "Tapete Real dos Sultões",
     "model_id": "equip_fly_000015",
     "manifest_url": "assets/wings/equip_fly_000015/char_manifest.json",
     "icon": "assets/wings/equip_fly_000015/thumb.png",
-    "description": "Asas visuais de alto nível (equip_fly_000015). Concede poder e imponência ao personagem.",
-    "type": "wing"
+    "description": "Tapete ricamente bordado em ouro puro e pedras preciosas da corte real.",
+    "type": "wing",
+    "is_fly_mount": true,
+    "category_type": "fly_mount",
+    "type_label": "Montaria Voadora"
   },
   {
     "id": 3031,
-    "name": "Cánh Phi Thiên 17",
+    "name": "Prancha Glacial do Ártico",
     "model_id": "equip_fly_000017",
     "manifest_url": "assets/wings/equip_fly_000017/char_manifest.json",
     "icon": "assets/wings/equip_fly_000017/thumb.png",
-    "description": "Asas visuais de alto nível (equip_fly_000017). Concede poder e imponência ao personagem.",
-    "type": "wing"
+    "description": "Esculpida em gelo perpétuo dos cumes nevados, emana uma brisa refrescante.",
+    "type": "wing",
+    "is_fly_mount": true,
+    "category_type": "fly_mount",
+    "type_label": "Montaria Voadora"
   },
   {
     "id": 3032,
-    "name": "Cánh Phi Thiên 18",
+    "name": "Pássaro Mecânico Flutuante",
     "model_id": "equip_fly_000018",
     "manifest_url": "assets/wings/equip_fly_000018/char_manifest.json",
     "icon": "assets/wings/equip_fly_000018/thumb.png",
-    "description": "Asas visuais de alto nível (equip_fly_000018). Concede poder e imponência ao personagem.",
-    "type": "wing"
+    "description": "Engenhosa invenção aérea com engrenagens e asas mecânicas a vapor.",
+    "type": "wing",
+    "is_fly_mount": true,
+    "category_type": "fly_mount",
+    "type_label": "Montaria Voadora"
   },
   {
     "id": 3033,
-    "name": "Cánh Phi Thiên 19",
+    "name": "Nuvem Celestial do Trovão",
     "model_id": "equip_fly_000019",
     "manifest_url": "assets/wings/equip_fly_000019/char_manifest.json",
     "icon": "assets/wings/equip_fly_000019/thumb.png",
-    "description": "Asas visuais de alto nível (equip_fly_000019). Concede poder e imponência ao personagem.",
-    "type": "wing"
+    "description": "Nuvem de tempestade carregada com faíscas elétricas e relâmpagos.",
+    "type": "wing",
+    "is_fly_mount": true,
+    "category_type": "fly_mount",
+    "type_label": "Montaria Voadora"
   },
   {
     "id": 3034,
-    "name": "Cánh Phi Thiên 20",
+    "name": "Lótus Voadora Espiritual",
     "model_id": "equip_fly_000020",
     "manifest_url": "assets/wings/equip_fly_000020/char_manifest.json",
     "icon": "assets/wings/equip_fly_000020/thumb.png",
-    "description": "Asas visuais de alto nível (equip_fly_000020). Concede poder e imponência ao personagem.",
-    "type": "wing"
+    "description": "Flor sagrada de lótus flutuante que concede serenidade e voo gracioso.",
+    "type": "wing",
+    "is_fly_mount": true,
+    "category_type": "fly_mount",
+    "type_label": "Montaria Voadora"
   },
   {
     "id": 3035,
-    "name": "Cánh Phi Thiên 21",
+    "name": "Fênix Cósmica de Chamas",
     "model_id": "equip_fly_000021",
     "manifest_url": "assets/wings/equip_fly_000021/char_manifest.json",
     "icon": "assets/wings/equip_fly_000021/thumb.png",
-    "description": "Asas visuais de alto nível (equip_fly_000021). Concede poder e imponência ao personagem.",
-    "type": "wing"
+    "description": "Montaria voadora lendária que cruza os céus envolta em labaredas místicas.",
+    "type": "wing",
+    "is_fly_mount": true,
+    "category_type": "fly_mount",
+    "type_label": "Montaria Voadora"
   },
   {
     "id": 3036,
-    "name": "Cánh Phi Thiên 22",
+    "name": "Tapete Lendário do Dragão",
     "model_id": "equip_fly_000022",
     "manifest_url": "assets/wings/equip_fly_000022/char_manifest.json",
     "icon": "assets/wings/equip_fly_000022/thumb.png",
-    "description": "Asas visuais de alto nível (equip_fly_000022). Concede poder e imponência ao personagem.",
-    "type": "wing"
+    "description": "Tapeçaria ancestral forjada com a proteção mística do Dragão Supremo.",
+    "type": "wing",
+    "is_fly_mount": true,
+    "category_type": "fly_mount",
+    "type_label": "Montaria Voadora"
   }
 ]

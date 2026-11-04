@@ -25,15 +25,15 @@ async function initGame() {
     fetch("assets/map1/collision.bin").then(r => r.arrayBuffer()),
     fetch("assets/monsters/mushroom/visual_meta.json").then(r => r.json()),
     PIXI.Assets.load("assets/monsters/mushroom/atlas.json"),
-    fetch("assets/characters/catalog.json?v=1.5.3").then(r => r.json()).catch(() => ({ total_classes: 0, classes: [] })),
-    fetch("assets/monsters/catalog.json?v=1.5.3").then(r => r.json()).catch(() => ({ total_monsters: 0, monsters: [] })),
-    fetch("assets/mounts/catalog.json?v=1.5.3").then(r => r.json()).catch(() => ({ total_mounts: 0, mounts: [] })),
-    fetch("assets/npcs/catalog.json?v=1.5.3").then(r => r.json()).catch(() => ({ total_npcs: 0, npcs: [] })),
-    fetch("assets/maps/catalog.json?v=1.5.3").then(r => r.json()).catch(() => ({ total_maps: 0, maps: [] })),
-    fetch("assets/skills/catalog.json?v=1.5.3").then(r => r.json()).catch(() => ([])),
-    fetch("assets/effects/catalog.json?v=1.5.3").then(r => r.json()).catch(() => ([])),
-    fetch("assets/equipment/catalog.json?v=1.5.3").then(r => r.json()).catch(() => ({ items: [] })),
-    fetch("assets/wings/catalog.json?v=1.5.3").then(r => r.json()).catch(() => ([]))
+    fetch("assets/characters/catalog.json?v=1.5.4").then(r => r.json()).catch(() => ({ total_classes: 0, classes: [] })),
+    fetch("assets/monsters/catalog.json?v=1.5.4").then(r => r.json()).catch(() => ({ total_monsters: 0, monsters: [] })),
+    fetch("assets/mounts/catalog.json?v=1.5.4").then(r => r.json()).catch(() => ({ total_mounts: 0, mounts: [] })),
+    fetch("assets/npcs/catalog.json?v=1.5.4").then(r => r.json()).catch(() => ({ total_npcs: 0, npcs: [] })),
+    fetch("assets/maps/catalog.json?v=1.5.4").then(r => r.json()).catch(() => ({ total_maps: 0, maps: [] })),
+    fetch("assets/skills/catalog.json?v=1.5.4").then(r => r.json()).catch(() => ([])),
+    fetch("assets/effects/catalog.json?v=1.5.4").then(r => r.json()).catch(() => ([])),
+    fetch("assets/equipment/catalog.json?v=1.5.4").then(r => r.json()).catch(() => ({ items: [] })),
+    fetch("assets/wings/catalog.json?v=1.5.4").then(r => r.json()).catch(() => ([]))
   ]);
 
   let mapsCatalog = mapsCatalogData || { total_maps: 0, maps: [] };
@@ -869,12 +869,13 @@ async function initGame() {
 
   async function equipWing(item) {
     if (!item) {
+      const wasFly = playerEquippedWing && (playerEquippedWing.is_fly_mount || (currentWingModel && currentWingModel.startsWith("equip_fly_")));
       playerEquippedWing = null;
       currentWingModel = null;
       currentWingManifest = null;
       if (wingSprite) wingSprite.visible = false;
       localStorage.removeItem("mc_equipped_wing_id");
-      showWeaponToast("Asas desequipadas.");
+      showWeaponToast(wasFly ? "🧹 Montaria voadora recolhida." : "🪽 Asas desequipadas.");
       updateEquippedWingUI();
       if (typeof renderEquipmentGrid === 'function') renderEquipmentGrid(false);
       return;
@@ -886,7 +887,7 @@ async function initGame() {
     localStorage.setItem("mc_equipped_wing_id", String(item.id));
 
     try {
-      const manifestUrl = `assets/wings/${modelId}/char_manifest.json?v=1.5.3`;
+      const manifestUrl = `assets/wings/${modelId}/char_manifest.json?v=1.5.4`;
       const manifest = await fetch(manifestUrl).then(r => r.json());
       currentWingManifest = manifest;
 
@@ -904,10 +905,11 @@ async function initGame() {
       }
       await Promise.all(loadPromises);
       if (wingSprite) wingSprite.visible = true;
-      showWeaponToast(`🪽 Asas Equipadas: ${item.name}!`);
+      const isFly = item.is_fly_mount || (modelId && modelId.startsWith("equip_fly_"));
+      showWeaponToast(isFly ? `🧹 Montaria Voadora Ativada: ${item.name}!` : `🪽 Asas Equipadas: ${item.name}!`);
     } catch (e) {
       console.warn("Erro ao carregar modelo das asas:", modelId, e);
-      showWeaponToast(`🪽 Asas selecionadas: ${item.name}`);
+      showWeaponToast(`🪽 Selecionado: ${item.name}`);
     }
 
     updateEquippedWingUI();
@@ -951,7 +953,7 @@ async function initGame() {
     localStorage.setItem("mc_equipped_weapon_id", String(item.id));
 
     try {
-      const manifestUrl = `assets/weapons/${modelId}/char_manifest.json?v=1.5.3`;
+      const manifestUrl = `assets/weapons/${modelId}/char_manifest.json?v=1.5.4`;
       const manifest = await fetch(manifestUrl).then(r => r.json());
       currentWeaponManifest = manifest;
 
@@ -1180,13 +1182,35 @@ async function initGame() {
       updateHUD();
     }
 
+    // Verificação de Montaria Voadora (tapetes, vassouras, pranchas, nuvens)
+    const isFlyingMount = !!(playerEquippedWing && (
+      playerEquippedWing.is_fly_mount ||
+      (currentWingModel && currentWingModel.startsWith("equip_fly_")) ||
+      (playerEquippedWing.model_id && playerEquippedWing.model_id.startsWith("equip_fly_"))
+    ));
+
+    // Flutuação suave e elevação dinâmica em montarias voadoras
+    let hoverBob = 0;
+    let charOffsetY = PLAYER_GROUND_OFFSET_Y;
+    if (isFlyingMount) {
+      hoverBob = Math.sin(performance.now() * 0.0035) * 4;
+      charOffsetY = PLAYER_GROUND_OFFSET_Y - 30 + hoverBob; // Eleva o herói ~30px acima do chão para montar no veículo
+      if (shadow) {
+        shadow.scale.set(0.85, 0.85); // Sombra fica menor/mais suave durante o voo
+      }
+    } else {
+      if (shadow) {
+        shadow.scale.set(1.0, 1.0);
+      }
+    }
+
     if (isSpritesheet) {
       const tex = animFrames[player.frameIdx % animFrames.length];
       if (tex) {
         charSprite.texture = tex;
         const anchorY = currentMeta && currentMeta.anchor ? currentMeta.anchor[1] : 1.0;
         charSprite.anchor.set(0.5, anchorY);
-        charSprite.position.set(0, PLAYER_GROUND_OFFSET_Y);
+        charSprite.position.set(0, charOffsetY);
       }
     } else {
       const currentFrameData = animFrames[player.frameIdx % animFrames.length];
@@ -1194,11 +1218,11 @@ async function initGame() {
       if (tex) {
         charSprite.texture = tex;
         charSprite.anchor.set(0.5, 110 / 150);
-        charSprite.position.set(0, PLAYER_GROUND_OFFSET_Y);
+        charSprite.position.set(0, charOffsetY);
       }
     }
 
-    // Sincronizar asas na mesma direção e frame de ação
+    // Sincronizar asas / montarias voadoras na mesma direção e frame de ação
     if (wingSprite) {
       if (currentWingManifest) {
         const wingFrames = currentWingManifest[animKey] ||
@@ -1211,21 +1235,36 @@ async function initGame() {
           if (wfTex) {
             wingSprite.texture = wfTex;
             wingSprite.anchor.set(0.5, 0.5);
-            wingSprite.position.set(0, PLAYER_GROUND_OFFSET_Y - 38);
-            wingSprite.visible = true;
 
-            // Z-Order: se estiver virado de costas (Norte: dirs 3, 4, 5), asas ficam na frente do corpo
-            // Caso contrário (Frente/Sul/Lados: dirs 0, 1, 2, 6, 7), asas ficam atrás do corpo
-            if (player.dir === 3 || player.dir === 4 || player.dir === 5) {
+            if (isFlyingMount) {
+              // Montaria voadora posicionada sob os pés do personagem:
+              wingSprite.position.set(0, PLAYER_GROUND_OFFSET_Y - 6 + hoverBob);
+              wingSprite.visible = true;
+
+              // O herói deve sempre cavalgar EM CIMA da montaria voadora (renderizar por trás/sob o corpo)
               const bodyIdx = playerContainer.getChildIndex(charSprite);
               const curWingIdx = playerContainer.getChildIndex(wingSprite);
-              if (curWingIdx < bodyIdx) {
-                playerContainer.setChildIndex(wingSprite, bodyIdx);
+              if (curWingIdx > bodyIdx) {
+                playerContainer.setChildIndex(wingSprite, Math.max(0, bodyIdx - 1));
               }
             } else {
-              const curWingIdx = playerContainer.getChildIndex(wingSprite);
-              if (curWingIdx > 0) {
-                playerContainer.setChildIndex(wingSprite, 0);
+              // Asas normais equipadas nas costas:
+              wingSprite.position.set(0, PLAYER_GROUND_OFFSET_Y - 38);
+              wingSprite.visible = true;
+
+              // Z-Order: se virado de costas (Norte: dirs 3, 4, 5), asas na frente do corpo
+              // Caso contrário (Frente/Sul/Lados: dirs 0, 1, 2, 6, 7), asas atrás do corpo
+              if (player.dir === 3 || player.dir === 4 || player.dir === 5) {
+                const bodyIdx = playerContainer.getChildIndex(charSprite);
+                const curWingIdx = playerContainer.getChildIndex(wingSprite);
+                if (curWingIdx < bodyIdx) {
+                  playerContainer.setChildIndex(wingSprite, bodyIdx);
+                }
+              } else {
+                const curWingIdx = playerContainer.getChildIndex(wingSprite);
+                if (curWingIdx > 0) {
+                  playerContainer.setChildIndex(wingSprite, 0);
+                }
               }
             }
           }
@@ -1235,7 +1274,7 @@ async function initGame() {
       }
     }
 
-    // Sincronizar arma empunhada na mesma direção e frame de ação
+    // Sincronizar arma empunhada na mesma direção e frame de ação (acompanha elevação do corpo)
     if (weaponSprite) {
       if (currentWeaponManifest) {
         const weaponFrames = currentWeaponManifest[animKey] ||
@@ -1247,7 +1286,7 @@ async function initGame() {
           if (wTex) {
             weaponSprite.texture = wTex;
             weaponSprite.anchor.set(0.5, 110 / 150);
-            weaponSprite.position.set(0, PLAYER_GROUND_OFFSET_Y);
+            weaponSprite.position.set(0, charOffsetY);
             weaponSprite.visible = true;
           }
         }
@@ -3290,15 +3329,21 @@ async function initGame() {
   let equipmentList = Array.isArray(equipmentCatalogData?.items) ? equipmentCatalogData.items : (Array.isArray(equipmentCatalogData) ? equipmentCatalogData : []);
   let suitsMap = equipmentCatalogData?.suits || {};
   let selectedEquipmentFilter = "all";
+  let selectedWingSubFilter = "all";
   let equipmentRenderCount = 36; // Paginação virtual de 36 itens por bloco
 
   function renderEquipmentGrid(resetPagination = true) {
     if (!equipmentGrid) return;
     if (resetPagination) equipmentRenderCount = 36;
 
+    const subFilterWrap = document.getElementById("wings-subfilter-pills");
+    if (subFilterWrap) {
+      subFilterWrap.classList.toggle("hidden", selectedEquipmentFilter !== "wings");
+    }
+
     const q = (equipmentSearchInput ? equipmentSearchInput.value : "").trim().toLowerCase();
 
-    // Se filtro for 'wings' (Asas Animadas), usar o catálogo de asas
+    // Se filtro for 'wings' (Asas & Montarias Voadoras), usar o catálogo de asas
     let sourceList = equipmentList;
     if (selectedEquipmentFilter === "wings") {
       sourceList = Array.isArray(wingsCatalogData) && wingsCatalogData.length > 0 ? wingsCatalogData : [];
@@ -3306,7 +3351,12 @@ async function initGame() {
 
     // Filtro por categoria
     const filtered = sourceList.filter(item => {
-      if (selectedEquipmentFilter === "wings") return true;
+      if (selectedEquipmentFilter === "wings") {
+        const isFly = !!(item.is_fly_mount || (item.model_id && item.model_id.startsWith("equip_fly_")));
+        if (selectedWingSubFilter === "wings" && isFly) return false;
+        if (selectedWingSubFilter === "mounts" && !isFly) return false;
+        return true;
+      }
       if (selectedEquipmentFilter === "weapons" && item.category_group !== "weapons") return false;
       if (selectedEquipmentFilter === "offhand" && item.category_group !== "offhand") return false;
       if (selectedEquipmentFilter === "armor" && item.category_group !== "armor") return false;
@@ -3354,7 +3404,11 @@ async function initGame() {
               </div>
               <span class="equipment-card-orig">${item.name_orig}</span>
               <div class="equipment-tags-row">
-                <span class="equipment-slot-tag">${item.position_name}</span>
+                ${(item.type === "wing" || item.category_group === "wings" || item.position === 22) ? (
+                  (item.is_fly_mount || (item.model_id && item.model_id.startsWith("equip_fly_")))
+                    ? `<span class="equipment-slot-tag" style="background: rgba(180, 142, 173, 0.25); border: 1px solid #b48ead; color: #d8bee5;">🧹 Montaria Voadora</span>`
+                    : `<span class="equipment-slot-tag" style="background: rgba(136, 192, 208, 0.25); border: 1px solid #88c0d0; color: #88c0d0;">🪽 Asa Mística</span>`
+                ) : `<span class="equipment-slot-tag">${item.position_name}</span>`}
                 <span class="equipment-type-tag">${item.type_name}</span>
                 <span class="equipment-class-tag">${classText}</span>
                 ${suitBadge}
@@ -3370,11 +3424,20 @@ async function initGame() {
                 ${playerEquippedWeapon && playerEquippedWeapon.id === item.id ? '⚔️ Equipado' : '🖐️ Empunhar'}
               </button>
             ` : ''}
-            ${(item.type === "wing" || item.category_group === "wings" || item.position === 22) ? `
-              <button class="btn-wing-equip ${playerEquippedWing && (String(playerEquippedWing.id) === String(item.id) || playerEquippedWing.model_id === item.model_id) ? 'active' : ''}" data-wing-id="${item.id}" title="${playerEquippedWing && (String(playerEquippedWing.id) === String(item.id) || playerEquippedWing.model_id === item.model_id) ? 'Clique para desequipar as asas' : 'Clique para equipar as asas nas costas do personagem'}">
-                ${playerEquippedWing && (String(playerEquippedWing.id) === String(item.id) || playerEquippedWing.model_id === item.model_id) ? '🪽 Equipado' : '🪽 Equipar'}
-              </button>
-            ` : ''}
+            ${(item.type === "wing" || item.category_group === "wings" || item.position === 22) ? (() => {
+              const isFly = !!(item.is_fly_mount || (item.model_id && item.model_id.startsWith("equip_fly_")));
+              const isEquipped = !!(playerEquippedWing && (String(playerEquippedWing.id) === String(item.id) || playerEquippedWing.model_id === item.model_id));
+              const activeClass = isEquipped ? 'active' : '';
+              const btnLabel = isEquipped 
+                ? (isFly ? '🧹 Montado' : '🪽 Voando') 
+                : (isFly ? '🧹 Montar / Voar' : '🪽 Equipar Asa');
+              const btnTitle = isEquipped ? 'Clique para desequipar' : (isFly ? 'Clique para voar nesta montaria' : 'Clique para equipar asas');
+              return `
+                <button class="btn-wing-equip ${activeClass}" data-wing-id="${item.id}" title="${btnTitle}">
+                  ${btnLabel}
+                </button>
+              `;
+            })() : ''}
             ${(item.category_group === "wings_costumes" || item.position === 21) ? `
               <button class="btn-costume-equip ${playerEquippedCostume && String(playerEquippedCostume.id) === String(item.id) ? 'active' : ''}" data-costume-id="${item.id}" title="${playerEquippedCostume && String(playerEquippedCostume.id) === String(item.id) ? 'Clique para remover moda' : 'Clique para provar e vestir a skin no personagem'}">
                 ${playerEquippedCostume && String(playerEquippedCostume.id) === String(item.id) ? '👗 Vestindo' : '✨ Provar Traje'}
@@ -3485,6 +3548,18 @@ async function initGame() {
       equipmentFilterPills.querySelectorAll(".pill-filter").forEach(b => b.classList.remove("active"));
       btn.classList.add("active");
       selectedEquipmentFilter = btn.dataset.filter || "all";
+      renderEquipmentGrid(true);
+    });
+  }
+
+  const wingsSubfilterPills = document.getElementById("wings-subfilter-pills");
+  if (wingsSubfilterPills) {
+    wingsSubfilterPills.addEventListener("click", (e) => {
+      const btn = e.target.closest(".pill-subfilter");
+      if (!btn) return;
+      wingsSubfilterPills.querySelectorAll(".pill-subfilter").forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+      selectedWingSubFilter = btn.dataset.subfilter || "all";
       renderEquipmentGrid(true);
     });
   }
