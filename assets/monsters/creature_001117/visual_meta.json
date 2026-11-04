@@ -2,7 +2,7 @@
   "name": "Tí Hon Thủ Lĩnh",
   "anchor": [
     0.5,
-    1.0
+    0.875
   ],
   "width": 123,
   "height": 120,
@@ -44,5 +44,5 @@
   "db_id": "819",
   "res_code_num": 1117,
   "swf_hash": "a62d0dc9b355497a3da4a0da9a7c4d5f",
-  "feet_y": 120
+  "feet_y": 105
 }

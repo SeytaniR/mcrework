@@ -2,7 +2,7 @@
   "name": "Hộ Vệ Nhạc Công 【Nữ Lv50】",
   "anchor": [
     0.5,
-    0.8876
+    0.8107
   ],
   "width": 218,
   "height": 169,
@@ -44,5 +44,5 @@
   "db_id": "1715",
   "res_code_num": 200089,
   "swf_hash": "c44327ade9760c4b84987d08bc98d317",
-  "feet_y": 150
+  "feet_y": 137
 }

@@ -2,7 +2,7 @@
   "name": "Cờ Hiệu",
   "anchor": [
     0.5,
-    0.8057
+    0.7143
   ],
   "width": 153,
   "height": 175,
@@ -44,5 +44,5 @@
   "db_id": "1171",
   "res_code_num": 200057,
   "swf_hash": "12cb0c0ca4e71df14532ba07181082d2",
-  "feet_y": 141
+  "feet_y": 125
 }

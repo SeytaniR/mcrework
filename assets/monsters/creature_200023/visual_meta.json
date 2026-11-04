@@ -2,7 +2,7 @@
   "name": "Bảo Bình",
   "anchor": [
     0.5,
-    1.0
+    0.8217
   ],
   "width": 180,
   "height": 129,
@@ -43,5 +43,5 @@
   "db_id": "456",
   "res_code_num": 200023,
   "swf_hash": "570a23e661c3794c407a1d12ba798414",
-  "feet_y": 129
+  "feet_y": 106
 }

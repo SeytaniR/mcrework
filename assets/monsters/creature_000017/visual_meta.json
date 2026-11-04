@@ -2,7 +2,7 @@
   "name": "Thủy Lam Bọt",
   "anchor": [
     0.5,
-    0.9831
+    0.8814
   ],
   "width": 60,
   "height": 59,
@@ -44,5 +44,5 @@
   "db_id": "73",
   "res_code_num": 17,
   "swf_hash": "1153ef3e86bb8d81d8440bea478f6e07",
-  "feet_y": 58
+  "feet_y": 52
 }

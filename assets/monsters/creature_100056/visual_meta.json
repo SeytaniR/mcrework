@@ -2,7 +2,7 @@
   "name": "Huyền Minh Linh Vũ【Tiến Hóa】",
   "anchor": [
     0.5,
-    1.0
+    0.9434
   ],
   "width": 256,
   "height": 512,
@@ -44,5 +44,5 @@
   "db_id": "2282",
   "res_code_num": 100056,
   "swf_hash": "bacb151e13881e9c4b3bc2efe8a58149",
-  "feet_y": 512
+  "feet_y": 483
 }

@@ -2,7 +2,7 @@
   "name": "Dơi U Minh",
   "anchor": [
     0.5,
-    1.0
+    0.8169
   ],
   "width": 82,
   "height": 71,
@@ -44,5 +44,5 @@
   "db_id": "982",
   "res_code_num": 1140,
   "swf_hash": "809ebfeef2720abcbabd7e51c592aa2c",
-  "feet_y": 71
+  "feet_y": 58
 }

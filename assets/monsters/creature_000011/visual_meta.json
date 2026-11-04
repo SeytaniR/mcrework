@@ -2,7 +2,7 @@
   "name": "Tiểu Binh Ốc Vương",
   "anchor": [
     0.5,
-    0.8925
+    0.8387
   ],
   "width": 82,
   "height": 93,
@@ -44,5 +44,5 @@
   "db_id": "178",
   "res_code_num": 11,
   "swf_hash": "f2f8e96c1061fb6ffe88c5181947388a",
-  "feet_y": 83
+  "feet_y": 78
 }

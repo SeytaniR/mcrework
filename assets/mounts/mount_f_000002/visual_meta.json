@@ -2,7 +2,7 @@
   "name": "Nguyệt Dạ Hổ (Tigre da Noite Lunar)",
   "anchor": [
     0.5,
-    0.8909
+    0.8273
   ],
   "width": 95,
   "height": 110,
@@ -43,5 +43,5 @@
   "rel": "creature/PC_FEMALE_100002.swf",
   "type": "female_mount",
   "mount_tier": 2,
-  "feet_y": 98
+  "feet_y": 91
 }

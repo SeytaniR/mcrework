@@ -2,7 +2,7 @@
   "name": "Chu Ma Vương【Quái Chính 5 Chu Ma Điện】",
   "anchor": [
     0.5,
-    1.0
+    0.8951
   ],
   "width": 160,
   "height": 143,
@@ -44,5 +44,5 @@
   "db_id": "1245",
   "res_code_num": 1166,
   "swf_hash": "abede24eaa8b5c9994689aacd34aaedb",
-  "feet_y": 143
+  "feet_y": 128
 }

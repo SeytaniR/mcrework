@@ -2,7 +2,7 @@
   "name": "Võ Sĩ Shiba",
   "anchor": [
     0.5,
-    0.9612
+    0.932
   ],
   "width": 304,
   "height": 206,
@@ -44,5 +44,5 @@
   "db_id": "2246",
   "res_code_num": 100045,
   "swf_hash": "c66566c30693a215120d9e0a752d138a",
-  "feet_y": 198
+  "feet_y": 192
 }

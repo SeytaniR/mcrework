@@ -2,7 +2,7 @@
   "name": "Kiến Miệng Rộng",
   "anchor": [
     0.5,
-    1.0
+    0.9231
   ],
   "width": 78,
   "height": 78,
@@ -44,5 +44,5 @@
   "db_id": "41",
   "res_code_num": 1089,
   "swf_hash": "13d6d188e3a7dc24223c209f9ce0291a",
-  "feet_y": 78
+  "feet_y": 72
 }

@@ -2,7 +2,7 @@
   "name": "Xích Hà Châu",
   "anchor": [
     0.5,
-    1.0
+    0.8503
   ],
   "width": 154,
   "height": 167,
@@ -44,5 +44,5 @@
   "db_id": "1810",
   "res_code_num": 1187,
   "swf_hash": "477deb59a21f207a6e97d05d42371b6b",
-  "feet_y": 167
+  "feet_y": 142
 }

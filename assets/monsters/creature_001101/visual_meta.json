@@ -2,7 +2,7 @@
   "name": "Cánh Tay Viễn Cổ",
   "anchor": [
     0.5,
-    1.0
+    0.9161
   ],
   "width": 123,
   "height": 155,
@@ -44,5 +44,5 @@
   "db_id": "506",
   "res_code_num": 1101,
   "swf_hash": "04026f8042f5208c2d77846077393ece",
-  "feet_y": 155
+  "feet_y": 142
 }

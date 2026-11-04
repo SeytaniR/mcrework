@@ -2,7 +2,7 @@
   "name": "Thủy Long",
   "anchor": [
     0.5,
-    0.9913
+    0.8996
   ],
   "width": 247,
   "height": 229,
@@ -44,5 +44,5 @@
   "db_id": "85",
   "res_code_num": 45,
   "swf_hash": "6e7ed37889c5b78c4199fbc95d3d2808",
-  "feet_y": 227
+  "feet_y": 206
 }

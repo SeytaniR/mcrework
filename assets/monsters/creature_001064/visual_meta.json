@@ -2,7 +2,7 @@
   "name": "Ếch Xanh Medusa",
   "anchor": [
     0.5,
-    1.0
+    0.9052
   ],
   "width": 139,
   "height": 116,
@@ -44,5 +44,5 @@
   "db_id": "103",
   "res_code_num": 1064,
   "swf_hash": "485ccb1f92f4c4811905079f7dc4375e",
-  "feet_y": 116
+  "feet_y": 105
 }

@@ -2,7 +2,7 @@
   "name": "Can Tướng【HLVT】",
   "anchor": [
     0.5,
-    0.919
+    0.8619
   ],
   "width": 180,
   "height": 210,
@@ -44,5 +44,5 @@
   "db_id": "2194",
   "res_code_num": 200172,
   "swf_hash": "fee8e6522c6d8e041897301734fa9d76",
-  "feet_y": 193
+  "feet_y": 181
 }

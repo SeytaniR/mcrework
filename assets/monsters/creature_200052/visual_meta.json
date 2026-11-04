@@ -2,7 +2,7 @@
   "name": "Mestre-Sala",
   "anchor": [
     0.5,
-    0.7442
+    0.7151
   ],
   "width": 163,
   "height": 172,
@@ -44,5 +44,5 @@
   "db_id": "1170",
   "res_code_num": 200052,
   "swf_hash": "a49f41671e6bec814f000eeabfacca57",
-  "feet_y": 128
+  "feet_y": 123
 }

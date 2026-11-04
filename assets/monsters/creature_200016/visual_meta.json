@@ -2,7 +2,7 @@
   "name": "Cuồng Vũ Phong Điệp Cướp Xe Hoa",
   "anchor": [
     0.5,
-    0.902
+    0.8431
   ],
   "width": 165,
   "height": 153,
@@ -44,5 +44,5 @@
   "db_id": "426",
   "res_code_num": 200016,
   "swf_hash": "e9b5d893ec7d37d35d6c52972d68eea7",
-  "feet_y": 138
+  "feet_y": 129
 }

@@ -2,7 +2,7 @@
   "name": "Kiến Lớn",
   "anchor": [
     0.5,
-    1.0
+    0.8487
   ],
   "width": 163,
   "height": 119,
@@ -44,5 +44,5 @@
   "db_id": "62",
   "res_code_num": 50,
   "swf_hash": "d4ad3828232a5e71c868c09b16759530",
-  "feet_y": 119
+  "feet_y": 101
 }

@@ -2,7 +2,7 @@
   "name": "Mestre Mecatrônico Tier 2 (M)",
   "anchor": [
     0.5,
-    1.0
+    0.935
   ],
   "width": 80,
   "height": 123,
@@ -48,5 +48,5 @@
   "tier": 2,
   "res_code_num": 15,
   "swf_hash": "7ae83c8ad4f051d5abd3e2b95980866a",
-  "feet_y": 123
+  "feet_y": 115
 }

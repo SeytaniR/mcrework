@@ -2,7 +2,7 @@
   "name": "Nhện Độc Đỏ",
   "anchor": [
     0.5,
-    1.0
+    0.7879
   ],
   "width": 218,
   "height": 165,
@@ -44,5 +44,5 @@
   "db_id": "1119",
   "res_code_num": 1158,
   "swf_hash": "6f33cfa85df2528fc111f6aa3952fe87",
-  "feet_y": 165
+  "feet_y": 130
 }

@@ -2,7 +2,7 @@
   "name": "Thợ Săn Eskimos",
   "anchor": [
     0.5,
-    1.0
+    0.8527
   ],
   "width": 226,
   "height": 129,
@@ -44,5 +44,5 @@
   "db_id": "1000",
   "res_code_num": 1156,
   "swf_hash": "c752628101cadedecd34375f3ec22261",
-  "feet_y": 129
+  "feet_y": 110
 }

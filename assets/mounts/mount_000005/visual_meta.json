@@ -2,7 +2,7 @@
   "name": "Thanh Long Sư (Leão Dragão Celeste)",
   "anchor": [
     0.5,
-    1.0
+    0.9528
   ],
   "width": 81,
   "height": 106,
@@ -44,5 +44,5 @@
   "rel": "creature/PC_MALE_100005.swf",
   "type": "male_mount",
   "mount_tier": 5,
-  "feet_y": 106
+  "feet_y": 101
 }

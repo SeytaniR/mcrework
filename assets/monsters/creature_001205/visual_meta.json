@@ -2,7 +2,7 @@
   "name": "Tinh Anh Liên Quân ",
   "anchor": [
     0.5,
-    1.0
+    0.7778
   ],
   "width": 198,
   "height": 144,
@@ -44,5 +44,5 @@
   "db_id": "1866",
   "res_code_num": 1205,
   "swf_hash": "ff37046f27b1d5dddafdd798cfc0a3cd",
-  "feet_y": 144
+  "feet_y": 112
 }

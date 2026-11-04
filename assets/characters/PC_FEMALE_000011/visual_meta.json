@@ -2,7 +2,7 @@
   "name": "Guerreira Sagrada Tier 2 (F)",
   "anchor": [
     0.5,
-    1.0
+    0.9118
   ],
   "width": 104,
   "height": 136,
@@ -48,5 +48,5 @@
   "tier": 2,
   "res_code_num": 11,
   "swf_hash": "81b9d7917029ee7808907bead69d1e7a",
-  "feet_y": 136
+  "feet_y": 124
 }

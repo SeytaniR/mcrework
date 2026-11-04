@@ -2,7 +2,7 @@
   "name": "Linh Điểu (Pássaro Espiritual)",
   "anchor": [
     0.5,
-    1.0
+    0.8034
   ],
   "width": 158,
   "height": 117,
@@ -44,5 +44,5 @@
   "rel": "creature/PC_FEMALE_100003.swf",
   "type": "female_mount",
   "mount_tier": 3,
-  "feet_y": 117
+  "feet_y": 94
 }

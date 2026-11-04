@@ -2,7 +2,7 @@
   "name": "Bạch Dương",
   "anchor": [
     0.5,
-    1.0
+    0.9706
   ],
   "width": 211,
   "height": 170,
@@ -44,5 +44,5 @@
   "db_id": "458",
   "res_code_num": 200025,
   "swf_hash": "d91b26e41620ff12e325d33beeac985f",
-  "feet_y": 170
+  "feet_y": 165
 }

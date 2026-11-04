@@ -2,7 +2,7 @@
   "name": "Đại Thánh Chí Tôn",
   "anchor": [
     0.5,
-    0.9536
+    0.8402
   ],
   "width": 236,
   "height": 194,
@@ -44,5 +44,5 @@
   "db_id": "2145",
   "res_code_num": 100041,
   "swf_hash": "300f2afdea2baaaf28057cb463031e6b",
-  "feet_y": 185
+  "feet_y": 163
 }

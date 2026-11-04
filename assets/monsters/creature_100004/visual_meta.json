@@ -2,7 +2,7 @@
   "name": "Ác Ma Quấy Phá",
   "anchor": [
     0.5,
-    0.8235
+    0.6569
   ],
   "width": 116,
   "height": 102,
@@ -44,5 +44,5 @@
   "db_id": "20",
   "res_code_num": 100004,
   "swf_hash": "ca7451525a09f72176386179e9b69651",
-  "feet_y": 84
+  "feet_y": 67
 }

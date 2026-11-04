@@ -2,7 +2,7 @@
   "name": "Hổ Ruồi",
   "anchor": [
     0.5,
-    1.0
+    0.9432
   ],
   "width": 139,
   "height": 88,
@@ -44,5 +44,5 @@
   "db_id": "297",
   "res_code_num": 1077,
   "swf_hash": "a24e9c7940c6a0d3bbd77d9bb4a27e6b",
-  "feet_y": 88
+  "feet_y": 83
 }

@@ -2,7 +2,7 @@
   "name": "Thủ Lĩnh Sa Tặc 【Vòng】",
   "anchor": [
     0.5,
-    1.0
+    0.9535
   ],
   "width": 160,
   "height": 172,
@@ -44,5 +44,5 @@
   "db_id": "573",
   "res_code_num": 200014,
   "swf_hash": "859a3b6d471e62ca63157573ea1a7fce",
-  "feet_y": 172
+  "feet_y": 164
 }

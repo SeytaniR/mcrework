@@ -2,7 +2,7 @@
   "name": "Asmodeus",
   "anchor": [
     0.5,
-    1.0
+    0.7909
   ],
   "width": 121,
   "height": 110,
@@ -44,5 +44,5 @@
   "db_id": "480",
   "res_code_num": 1093,
   "swf_hash": "5514c0cdcedc35460a6531b162876202",
-  "feet_y": 110
+  "feet_y": 87
 }

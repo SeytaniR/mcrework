@@ -2,7 +2,7 @@
   "name": "Khảo Quan Đấu Trường Thiên Khung",
   "anchor": [
     0.5,
-    1.0
+    0.9528
   ],
   "width": 81,
   "height": 106,
@@ -44,5 +44,5 @@
   "db_id": "334",
   "res_code_num": 200033,
   "swf_hash": "17c4cd770896ec02d51e63dd72fe1142",
-  "feet_y": 106
+  "feet_y": 101
 }

@@ -2,7 +2,7 @@
   "name": "Thi Hành Quan Rota",
   "anchor": [
     0.5,
-    0.9895
+    0.9579
   ],
   "width": 62,
   "height": 95,
@@ -44,5 +44,5 @@
   "db_id": "219",
   "res_code_num": 200059,
   "swf_hash": "a450e762872f1a5e974a0dfe24ba0e9d",
-  "feet_y": 94
+  "feet_y": 91
 }

@@ -2,7 +2,7 @@
   "name": "Chiêu Tài Mao Cướp Xe Hoa",
   "anchor": [
     0.5,
-    0.8814
+    0.8136
   ],
   "width": 128,
   "height": 118,
@@ -44,5 +44,5 @@
   "db_id": "425",
   "res_code_num": 100011,
   "swf_hash": "60f12f7d969fdff35224f86d597c4d67",
-  "feet_y": 104
+  "feet_y": 96
 }

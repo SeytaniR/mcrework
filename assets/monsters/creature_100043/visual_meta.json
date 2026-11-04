@@ -2,7 +2,7 @@
   "name": "Moltres",
   "anchor": [
     0.5,
-    1.0
+    0.9115
   ],
   "width": 100,
   "height": 113,
@@ -44,5 +44,5 @@
   "db_id": "2221",
   "res_code_num": 100043,
   "swf_hash": "d9e18ec69b3ee7a998cd85aa3a8025de",
-  "feet_y": 113
+  "feet_y": 103
 }

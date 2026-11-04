@@ -2,7 +2,7 @@
   "name": "Hung Sát",
   "anchor": [
     0.5,
-    1.0
+    0.8776
   ],
   "width": 135,
   "height": 147,
@@ -44,5 +44,5 @@
   "db_id": "230",
   "res_code_num": 31,
   "swf_hash": "925b5f111f80d0e6d0fc4dc4d246216f",
-  "feet_y": 147
+  "feet_y": 129
 }

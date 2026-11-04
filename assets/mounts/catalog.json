@@ -14,8 +14,9 @@
       "thumb": "assets/mounts/mount_000001/thumb.webp",
       "anchor": [
         0.5,
-        0.8504
-      ]
+        0.8189
+      ],
+      "feet_y": 104
     },
     {
       "id": "mount_000002",
@@ -29,8 +30,9 @@
       "thumb": "assets/mounts/mount_000002/thumb.webp",
       "anchor": [
         0.5,
-        0.8571
-      ]
+        0.8151
+      ],
+      "feet_y": 97
     },
     {
       "id": "mount_000003",
@@ -44,8 +46,9 @@
       "thumb": "assets/mounts/mount_000003/thumb.webp",
       "anchor": [
         0.5,
-        0.8618
-      ]
+        0.8374
+      ],
+      "feet_y": 103
     },
     {
       "id": "mount_000004",
@@ -59,8 +62,9 @@
       "thumb": "assets/mounts/mount_000004/thumb.webp",
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9455
+      ],
+      "feet_y": 104
     },
     {
       "id": "mount_000005",
@@ -74,8 +78,9 @@
       "thumb": "assets/mounts/mount_000005/thumb.webp",
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9528
+      ],
+      "feet_y": 101
     },
     {
       "id": "mount_000006",
@@ -89,8 +94,9 @@
       "thumb": "assets/mounts/mount_000006/thumb.webp",
       "anchor": [
         0.5,
-        0.9083
-      ]
+        0.8083
+      ],
+      "feet_y": 97
     },
     {
       "id": "mount_f_000001",
@@ -104,8 +110,9 @@
       "thumb": "assets/mounts/mount_f_000001/thumb.webp",
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9009
+      ],
+      "feet_y": 100
     },
     {
       "id": "mount_f_000002",
@@ -119,8 +126,9 @@
       "thumb": "assets/mounts/mount_f_000002/thumb.webp",
       "anchor": [
         0.5,
-        0.8909
-      ]
+        0.8273
+      ],
+      "feet_y": 91
     },
     {
       "id": "mount_f_000003",
@@ -134,8 +142,9 @@
       "thumb": "assets/mounts/mount_f_000003/thumb.webp",
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8034
+      ],
+      "feet_y": 94
     },
     {
       "id": "mount_f_000004",
@@ -149,8 +158,9 @@
       "thumb": "assets/mounts/mount_f_000004/thumb.webp",
       "anchor": [
         0.5,
-        0.7313
-      ]
+        0.694
+      ],
+      "feet_y": 93
     },
     {
       "id": "mount_f_000005",
@@ -165,7 +175,8 @@
       "anchor": [
         0.5,
         0.8059
-      ]
+      ],
+      "feet_y": 137
     },
     {
       "id": "mount_f_000006",
@@ -179,8 +190,9 @@
       "thumb": "assets/mounts/mount_f_000006/thumb.webp",
       "anchor": [
         0.5,
-        0.8468
-      ]
+        0.7928
+      ],
+      "feet_y": 88
     },
     {
       "id": "mount_dress_010010",
@@ -195,7 +207,8 @@
       "anchor": [
         0.5,
         1.0
-      ]
+      ],
+      "feet_y": 316
     },
     {
       "id": "mount_dress_010011",
@@ -210,7 +223,8 @@
       "anchor": [
         0.5,
         1.0
-      ]
+      ],
+      "feet_y": 315
     },
     {
       "id": "mount_dress_010012",
@@ -225,7 +239,8 @@
       "anchor": [
         0.5,
         1.0
-      ]
+      ],
+      "feet_y": 234
     },
     {
       "id": "mount_dress_010016",
@@ -240,7 +255,8 @@
       "anchor": [
         0.5,
         0.9326
-      ]
+      ],
+      "feet_y": 249
     },
     {
       "id": "mount_dress_010017",
@@ -255,7 +271,8 @@
       "anchor": [
         0.5,
         1.0
-      ]
+      ],
+      "feet_y": 267
     },
     {
       "id": "mount_dress_010018",
@@ -270,7 +287,8 @@
       "anchor": [
         0.5,
         0.734
-      ]
+      ],
+      "feet_y": 218
     },
     {
       "id": "mount_dress_010019",
@@ -285,7 +303,8 @@
       "anchor": [
         0.5,
         1.0
-      ]
+      ],
+      "feet_y": 303
     },
     {
       "id": "mount_dress_010020",
@@ -300,7 +319,8 @@
       "anchor": [
         0.5,
         1.0
-      ]
+      ],
+      "feet_y": 358
     }
   ]
 }

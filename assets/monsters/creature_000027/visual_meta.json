@@ -2,7 +2,7 @@
   "name": "Cương Thi",
   "anchor": [
     0.5,
-    0.8333
+    0.787
   ],
   "width": 87,
   "height": 108,
@@ -44,5 +44,5 @@
   "db_id": "23",
   "res_code_num": 27,
   "swf_hash": "55129eb46d9603eda9fa08361eded6e3",
-  "feet_y": 90
+  "feet_y": 85
 }

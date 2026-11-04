@@ -2,7 +2,7 @@
   "name": "Huyết Dực Điểu (Pássaro de Sangue)",
   "anchor": [
     0.5,
-    0.8618
+    0.8374
   ],
   "width": 155,
   "height": 123,
@@ -44,5 +44,5 @@
   "rel": "creature/PC_MALE_100003.swf",
   "type": "male_mount",
   "mount_tier": 3,
-  "feet_y": 106
+  "feet_y": 103
 }

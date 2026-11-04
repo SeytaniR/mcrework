@@ -2,7 +2,7 @@
   "name": "Phù Thủy Blair",
   "anchor": [
     0.5,
-    1.0
+    0.9773
   ],
   "width": 122,
   "height": 132,
@@ -44,5 +44,5 @@
   "db_id": "917",
   "res_code_num": 200040,
   "swf_hash": "d2570dd42a86440a85ad163489354e69",
-  "feet_y": 132
+  "feet_y": 129
 }

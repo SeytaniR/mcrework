@@ -2,7 +2,7 @@
   "name": "Cua Yêu",
   "anchor": [
     0.5,
-    1.0
+    0.7597
   ],
   "width": 135,
   "height": 129,
@@ -44,5 +44,5 @@
   "db_id": "191",
   "res_code_num": 1105,
   "swf_hash": "2589298322a3da2b41c2b7fd79e5e986",
-  "feet_y": 129
+  "feet_y": 98
 }

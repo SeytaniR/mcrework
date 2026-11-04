@@ -2,7 +2,7 @@
   "name": "Bạch Kim Thuẫn",
   "anchor": [
     0.5,
-    1.0
+    0.8235
   ],
   "width": 94,
   "height": 85,
@@ -44,5 +44,5 @@
   "db_id": "609",
   "res_code_num": 1108,
   "swf_hash": "3d7eb1a7ec5e597e29c24425621f68d5",
-  "feet_y": 85
+  "feet_y": 70
 }

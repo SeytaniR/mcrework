@@ -2,7 +2,7 @@
   "name": "Thanh Anh Ác Ma",
   "anchor": [
     0.5,
-    0.9625
+    0.85
   ],
   "width": 178,
   "height": 160,
@@ -44,5 +44,5 @@
   "db_id": "1869",
   "res_code_num": 1220,
   "swf_hash": "00575f9d40bcf4b109586e716335df1a",
-  "feet_y": 154
+  "feet_y": 136
 }

@@ -2,7 +2,7 @@
   "name": "Hổ Tinh Chiến Sĩ",
   "anchor": [
     0.5,
-    1.0
+    0.9149
   ],
   "width": 81,
   "height": 94,
@@ -44,5 +44,5 @@
   "db_id": "451",
   "res_code_num": 1073,
   "swf_hash": "82d4060fec08799dc6047bcfedf75ea4",
-  "feet_y": 94
+  "feet_y": 86
 }

@@ -2,7 +2,7 @@
   "name": "Nấm Điện【Tiến Hóa】",
   "anchor": [
     0.5,
-    1.0
+    0.925
   ],
   "width": 121,
   "height": 120,
@@ -44,5 +44,5 @@
   "db_id": "1424",
   "res_code_num": 200119,
   "swf_hash": "200611c88abb1d012b89be85569a3b63",
-  "feet_y": 120
+  "feet_y": 111
 }

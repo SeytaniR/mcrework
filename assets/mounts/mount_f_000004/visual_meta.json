@@ -2,7 +2,7 @@
   "name": "Thần Thú Viêm Báo (Pantera de Chamas)",
   "anchor": [
     0.5,
-    0.7313
+    0.694
   ],
   "width": 125,
   "height": 134,
@@ -43,5 +43,5 @@
   "rel": "creature/PC_FEMALE_100004.swf",
   "type": "female_mount",
   "mount_tier": 4,
-  "feet_y": 98
+  "feet_y": 93
 }

@@ -2,7 +2,7 @@
   "name": "Bạch Mã (Cavalo Branco)",
   "anchor": [
     0.5,
-    0.8504
+    0.8189
   ],
   "width": 150,
   "height": 127,
@@ -44,5 +44,5 @@
   "rel": "creature/PC_MALE_100001.swf",
   "type": "male_mount",
   "mount_tier": 1,
-  "feet_y": 108
+  "feet_y": 104
 }

@@ -2,7 +2,7 @@
   "name": "Chiến Kỵ Ác Ma",
   "anchor": [
     0.5,
-    0.891
+    0.8233
   ],
   "width": 253,
   "height": 266,
@@ -44,5 +44,5 @@
   "db_id": "1868",
   "res_code_num": 1214,
   "swf_hash": "2ca7cf47dbcfc7cf270ac5ac39720c30",
-  "feet_y": 237
+  "feet_y": 219
 }

@@ -2,7 +2,7 @@
   "name": "Búp Bê Máy",
   "anchor": [
     0.5,
-    1.0
+    0.9394
   ],
   "width": 50,
   "height": 66,
@@ -44,5 +44,5 @@
   "db_id": "26",
   "res_code_num": 1075,
   "swf_hash": "596d8bd76607441b1d5365cae0874e73",
-  "feet_y": 66
+  "feet_y": 62
 }

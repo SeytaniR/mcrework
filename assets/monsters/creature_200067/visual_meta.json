@@ -2,7 +2,7 @@
   "name": "Phù Thủy Liệt Diễm 【Liệt Diễm Tầng 4】",
   "anchor": [
     0.5,
-    1.0
+    0.9762
   ],
   "width": 146,
   "height": 126,
@@ -44,5 +44,5 @@
   "db_id": "963",
   "res_code_num": 200067,
   "swf_hash": "97f9684072c90aea98b58b5bcd9f06d1",
-  "feet_y": 126
+  "feet_y": 123
 }

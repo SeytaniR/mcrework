@@ -2,7 +2,7 @@
   "name": "Nham Quái",
   "anchor": [
     0.5,
-    0.7841
+    0.7386
   ],
   "width": 113,
   "height": 88,
@@ -44,5 +44,5 @@
   "db_id": "51",
   "res_code_num": 55,
   "swf_hash": "8f40ea1af6d0a78fba41f4d6d1417789",
-  "feet_y": 69
+  "feet_y": 65
 }

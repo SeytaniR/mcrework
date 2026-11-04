@@ -2,7 +2,7 @@
   "name": "Bảo Rương Nhỏ",
   "anchor": [
     0.5,
-    1.0
+    0.8563
   ],
   "width": 154,
   "height": 167,
@@ -44,5 +44,5 @@
   "db_id": "1809",
   "res_code_num": 1186,
   "swf_hash": "26f17d853937ecfaace0b437c47ff5d4",
-  "feet_y": 167
+  "feet_y": 143
 }

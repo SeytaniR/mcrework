@@ -2,7 +2,7 @@
   "name": "Tộc Navi",
   "anchor": [
     0.5,
-    1.0
+    0.8047
   ],
   "width": 96,
   "height": 128,
@@ -44,5 +44,5 @@
   "db_id": "731",
   "res_code_num": 1121,
   "swf_hash": "fde7dc5022fe0f34d1614585cac6c284",
-  "feet_y": 128
+  "feet_y": 103
 }

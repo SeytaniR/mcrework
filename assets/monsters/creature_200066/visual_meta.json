@@ -2,7 +2,7 @@
   "name": "Carl 【BOSS Liệt Diễm 2】",
   "anchor": [
     0.5,
-    1.0
+    0.838
   ],
   "width": 135,
   "height": 142,
@@ -44,5 +44,5 @@
   "db_id": "959",
   "res_code_num": 200066,
   "swf_hash": "dfef3e64cfd8b46f1b6913d1e8566b97",
-  "feet_y": 142
+  "feet_y": 119
 }

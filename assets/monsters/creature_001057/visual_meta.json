@@ -2,7 +2,7 @@
   "name": "Ma Đói",
   "anchor": [
     0.5,
-    1.0
+    0.8624
   ],
   "width": 150,
   "height": 109,
@@ -44,5 +44,5 @@
   "db_id": "275",
   "res_code_num": 1057,
   "swf_hash": "47f36eba4641de040557f705d588fa8d",
-  "feet_y": 109
+  "feet_y": 94
 }

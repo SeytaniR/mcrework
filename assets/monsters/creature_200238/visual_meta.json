@@ -2,7 +2,7 @@
   "name": "Bula",
   "anchor": [
     0.5,
-    1.0
+    0.72
   ],
   "width": 307,
   "height": 225,
@@ -44,5 +44,5 @@
   "db_id": "2286",
   "res_code_num": 200238,
   "swf_hash": "b3eecf85a901aa7c79e5e1a42b40ae5b",
-  "feet_y": 225
+  "feet_y": 162
 }

@@ -2,7 +2,7 @@
   "name": "Hercules",
   "anchor": [
     0.5,
-    1.0
+    0.875
   ],
   "width": 197,
   "height": 248,
@@ -44,5 +44,5 @@
   "db_id": "905",
   "res_code_num": 200056,
   "swf_hash": "45d04edde36435a98305d01c0f5d5d4f",
-  "feet_y": 248
+  "feet_y": 217
 }

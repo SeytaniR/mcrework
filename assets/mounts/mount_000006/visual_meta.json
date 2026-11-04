@@ -2,7 +2,7 @@
   "name": "Cực Quang Thần Lộc (Cervo da Aurora)",
   "anchor": [
     0.5,
-    0.9083
+    0.8083
   ],
   "width": 145,
   "height": 120,
@@ -44,5 +44,5 @@
   "rel": "creature/PC_MALE_100006.swf",
   "type": "male_mount",
   "mount_tier": 6,
-  "feet_y": 109
+  "feet_y": 97
 }

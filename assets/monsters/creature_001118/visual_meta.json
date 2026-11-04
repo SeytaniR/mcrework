@@ -2,7 +2,7 @@
   "name": "Gấu Mật Mị Hoặc",
   "anchor": [
     0.5,
-    1.0
+    0.7719
   ],
   "width": 163,
   "height": 171,
@@ -44,5 +44,5 @@
   "db_id": "827",
   "res_code_num": 1118,
   "swf_hash": "f71fa80f80cd0458fea99986c12bf450",
-  "feet_y": 171
+  "feet_y": 132
 }

@@ -2,7 +2,7 @@
   "name": "Lan Thảo Tinh",
   "anchor": [
     0.5,
-    0.8
+    0.68
   ],
   "width": 159,
   "height": 175,
@@ -44,5 +44,5 @@
   "db_id": "40",
   "res_code_num": 49,
   "swf_hash": "7e04e2bd26adba40034c78dacc0d40d8",
-  "feet_y": 140
+  "feet_y": 119
 }

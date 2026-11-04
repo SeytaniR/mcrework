@@ -2,7 +2,7 @@
   "name": "Atula Vương",
   "anchor": [
     0.5,
-    1.0
+    0.7778
   ],
   "width": 143,
   "height": 198,
@@ -44,5 +44,5 @@
   "db_id": "786",
   "res_code_num": 1124,
   "swf_hash": "7363e9d0939e81b8043c520d946f3b79",
-  "feet_y": 198
+  "feet_y": 154
 }

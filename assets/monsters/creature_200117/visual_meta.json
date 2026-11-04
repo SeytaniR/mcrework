@@ -2,7 +2,7 @@
   "name": "Nhím Xanh【Tiến Hóa】",
   "anchor": [
     0.5,
-    0.9043
+    0.8
   ],
   "width": 140,
   "height": 115,
@@ -44,5 +44,5 @@
   "db_id": "1422",
   "res_code_num": 200117,
   "swf_hash": "efb886d6b71bc330f4aa8e38d2253857",
-  "feet_y": 104
+  "feet_y": 92
 }

@@ -2,7 +2,7 @@
   "name": "Đại Thánh Chí Tôn【Tiến Hóa】",
   "anchor": [
     0.5,
-    1.0
+    0.7183
   ],
   "width": 307,
   "height": 252,
@@ -44,5 +44,5 @@
   "db_id": "2146",
   "res_code_num": 100042,
   "swf_hash": "34f53fc59b654ebca5d132734be6de7b",
-  "feet_y": 252
+  "feet_y": 181
 }

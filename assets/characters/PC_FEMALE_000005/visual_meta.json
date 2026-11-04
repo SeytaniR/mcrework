@@ -2,7 +2,7 @@
   "name": "Artífice / Mecânica Base (F)",
   "anchor": [
     0.5,
-    0.8413
+    0.7778
   ],
   "width": 136,
   "height": 126,
@@ -45,5 +45,5 @@
   "tier": 1,
   "res_code_num": 5,
   "swf_hash": "49594e35d37179abd076b8834bd1a51d",
-  "feet_y": 106
+  "feet_y": 98
 }

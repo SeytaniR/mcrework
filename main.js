@@ -21,11 +21,11 @@ async function initGame() {
     fetch("assets/map1/collision.bin").then(r => r.arrayBuffer()),
     fetch("assets/monsters/mushroom/visual_meta.json").then(r => r.json()),
     PIXI.Assets.load("assets/monsters/mushroom/atlas.json"),
-    fetch("assets/characters/catalog.json?v=1.3.1").then(r => r.json()).catch(() => ({ total_classes: 0, classes: [] })),
-    fetch("assets/monsters/catalog.json?v=1.3.1").then(r => r.json()).catch(() => ({ total_monsters: 0, monsters: [] })),
-    fetch("assets/mounts/catalog.json?v=1.3.1").then(r => r.json()).catch(() => ({ total_mounts: 0, mounts: [] })),
-    fetch("assets/npcs/catalog.json?v=1.3.1").then(r => r.json()).catch(() => ({ total_npcs: 0, npcs: [] })),
-    fetch("assets/maps/catalog.json?v=1.3.1").then(r => r.json()).catch(() => ({ total_maps: 0, maps: [] }))
+    fetch("assets/characters/catalog.json?v=1.3.2").then(r => r.json()).catch(() => ({ total_classes: 0, classes: [] })),
+    fetch("assets/monsters/catalog.json?v=1.3.2").then(r => r.json()).catch(() => ({ total_monsters: 0, monsters: [] })),
+    fetch("assets/mounts/catalog.json?v=1.3.2").then(r => r.json()).catch(() => ({ total_mounts: 0, mounts: [] })),
+    fetch("assets/npcs/catalog.json?v=1.3.2").then(r => r.json()).catch(() => ({ total_npcs: 0, npcs: [] })),
+    fetch("assets/maps/catalog.json?v=1.3.2").then(r => r.json()).catch(() => ({ total_maps: 0, maps: [] }))
   ]);
 
   let mapsCatalog = mapsCatalogData || { total_maps: 0, maps: [] };
@@ -236,7 +236,7 @@ async function initGame() {
       // 3. Carregar malha de colisão binária se existir
       if (mapMeta.has_collision && mapMeta.collision_bin) {
         try {
-          const colBuf = await fetch(`${mapMeta.collision_bin}?v=1.3.1`).then(r => r.arrayBuffer());
+          const colBuf = await fetch(`${mapMeta.collision_bin}?v=1.3.2`).then(r => r.arrayBuffer());
           colBytes = new Uint8Array(colBuf);
           COL_WIDTH = mapMeta.col_width;
           COL_HEIGHT = mapMeta.col_height;
@@ -571,6 +571,7 @@ async function initGame() {
       mapMonsterSprite.texture = currentTexture;
       const monAnchorY = monsterMeta && monsterMeta.anchor ? monsterMeta.anchor[1] : 1.0;
       mapMonsterSprite.anchor.set(0.5, monAnchorY);
+      mapMonsterSprite.position.set(0, MONSTER_GROUND_OFFSET_Y);
     }
 
     mapMonsterGroup.x = monster.x + monster.offsetX;
@@ -639,6 +640,10 @@ async function initGame() {
   playerContainer.y = 1000;
   playerContainer.zIndex = 1000;
 
+  // Calibração de Solo & Contato com a Sombra (Pés no Chão)
+  const PLAYER_GROUND_OFFSET_Y = 5; // Baixa o personagem 8px para assentar as solas dos pés firmemente na elipse de sombra
+  const MONSTER_GROUND_OFFSET_Y = 4; // Baixa o monstro 6px para assentar sobre o piso
+
   // Sombra nos pés (0, 0) - proporção calibrada para escala 0.70 (-30%)
   const shadow = new PIXI.Graphics();
   shadow.beginFill(0x000000, 0.4);
@@ -651,7 +656,7 @@ async function initGame() {
   // Escala reduzida em 30% conforme feedback do usuário -> scale = 0.70!
   const charSprite = new PIXI.Sprite();
   charSprite.anchor.set(0.5, 110 / 150);
-  charSprite.position.set(0, 0);
+  charSprite.position.set(0, PLAYER_GROUND_OFFSET_Y);
   charSprite.scale.set(0.70);
   playerContainer.addChild(charSprite);
 
@@ -953,7 +958,7 @@ async function initGame() {
         charSprite.texture = tex;
         const anchorY = currentMeta && currentMeta.anchor ? currentMeta.anchor[1] : 1.0;
         charSprite.anchor.set(0.5, anchorY);
-        charSprite.position.set(0, 0);
+        charSprite.position.set(0, PLAYER_GROUND_OFFSET_Y);
       }
     } else {
       const currentFrameData = animFrames[player.frameIdx % animFrames.length];
@@ -961,7 +966,7 @@ async function initGame() {
       if (tex) {
         charSprite.texture = tex;
         charSprite.anchor.set(0.5, 110 / 150);
-        charSprite.position.set(0, 0);
+        charSprite.position.set(0, PLAYER_GROUND_OFFSET_Y);
       }
     }
   }
@@ -2530,6 +2535,10 @@ async function initGame() {
     npcsList,
     player,
     monster,
+    charSprite,
+    playerContainer,
+    mapMonsterSprite,
+    mapMonsterGroup,
     isWalkable,
     canStand,
     teleportTo,

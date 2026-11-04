@@ -2,7 +2,7 @@
   "name": "Cận Vệ Nữ Vương",
   "anchor": [
     0.5,
-    1.0
+    0.8
   ],
   "width": 80,
   "height": 90,
@@ -44,5 +44,5 @@
   "db_id": "304",
   "res_code_num": 1068,
   "swf_hash": "dd6307dc1409a18c7c116f81ca987eac",
-  "feet_y": 90
+  "feet_y": 72
 }

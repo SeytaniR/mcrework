@@ -2,7 +2,7 @@
   "name": "Bươm Bướm Xinh",
   "anchor": [
     0.5,
-    1.0
+    0.7326
   ],
   "width": 192,
   "height": 187,
@@ -44,5 +44,5 @@
   "db_id": "1336",
   "res_code_num": 1175,
   "swf_hash": "4c63bb72099b08c0ac6a3cec9f510b66",
-  "feet_y": 187
+  "feet_y": 137
 }

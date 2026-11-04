@@ -2,7 +2,7 @@
   "name": "Nấm Điện【Bản Trưởng Thành】",
   "anchor": [
     0.5,
-    1.0
+    0.8684
   ],
   "width": 102,
   "height": 114,
@@ -44,5 +44,5 @@
   "db_id": "1432",
   "res_code_num": 100030,
   "swf_hash": "473b8327e30a80f83fd5af6fbe77fcda",
-  "feet_y": 114
+  "feet_y": 99
 }

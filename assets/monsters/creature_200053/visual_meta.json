@@ -2,7 +2,7 @@
   "name": "Lâu La 【Tiểu Quái Sự Kiện Bắt Cua 4】",
   "anchor": [
     0.5,
-    1.0
+    0.802
   ],
   "width": 202,
   "height": 197,
@@ -44,5 +44,5 @@
   "db_id": "927",
   "res_code_num": 200053,
   "swf_hash": "14903e051fb4c9a599b38429f9fd794a",
-  "feet_y": 197
+  "feet_y": 158
 }

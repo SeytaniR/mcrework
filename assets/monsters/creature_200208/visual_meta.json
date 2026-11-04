@@ -2,7 +2,7 @@
   "name": "Thành Viên Nghiên Cứu [Kho Báu Bí Ẩn]",
   "anchor": [
     0.5,
-    1.0
+    0.8361
   ],
   "width": 148,
   "height": 122,
@@ -44,5 +44,5 @@
   "db_id": "2298",
   "res_code_num": 200208,
   "swf_hash": "217c4224cfc1e2edcd344abfc31bb489",
-  "feet_y": 122
+  "feet_y": 102
 }
