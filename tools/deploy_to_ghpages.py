@@ -5,23 +5,17 @@ sys.stdout.reconfigure(encoding='utf-8', errors='replace')
 ws = r'C:\Users\Dell\.gemini\antigravity\scratch\magic-campus-pixi'
 os.chdir(ws)
 
-print("Starting gh-pages deployment...")
+print("Starting clean gh-pages deployment for v1.5.0...")
 
-# 1. Ensure working directory on main is clean
-res = subprocess.run(['git', 'status', '--porcelain'], capture_output=True, text=True)
-if res.stdout.strip():
-    print("Warning: uncommitted changes on current branch:", res.stdout)
-
-# 2. Checkout gh-pages
+# 1. Checkout gh-pages
 print("Checking out gh-pages...")
 subprocess.run(['git', 'checkout', 'gh-pages'], check=True)
 
-# 3. Checkout web/ files from main directly into root of gh-pages!
-# In git: git checkout main -- web/
+# 2. Checkout web/ contents from main directly into root of gh-pages
 print("Checking out web/ contents from main...")
 subprocess.run(['git', 'checkout', 'main', '--', 'web'], check=True)
 
-# 4. Move files from web/ to root
+# 3. Move files from web/ to root
 print("Moving files from web/ to root...")
 web_dir = 'web'
 if os.path.exists(web_dir):
@@ -30,7 +24,6 @@ if os.path.exists(web_dir):
         d = os.path.join('.', item)
         if os.path.isdir(s):
             if os.path.exists(d):
-                # Copy tree
                 for root, dirs, files in os.walk(s):
                     rel = os.path.relpath(root, s)
                     target_root = os.path.join(d, rel)
@@ -43,24 +36,28 @@ if os.path.exists(web_dir):
             shutil.copyfile(s, d)
     shutil.rmtree(web_dir, ignore_errors=True)
 
-# 5. Stage all changes
-print("Staging all changes on gh-pages...")
-subprocess.run(['git', 'add', '-A'], check=True)
+# 4. Stage ONLY web files on gh-pages
+print("Staging web files on gh-pages...")
+subprocess.run(['git', 'add', 'index.html', 'main.js', 'style.css', 'assets/'], check=True)
 
-# 6. Commit
+# Remove any accidental tracked files if any exist
+for item in ['tools', 'mcgame', 'extracted_char', 'action_previews']:
+    subprocess.run(['git', 'rm', '-rf', '--cached', item], capture_output=True)
+
+# 5. Commit
 print("Committing on gh-pages...")
-commit_msg = "deploy(skills): update gh-pages v1.4.0 with 1.923 skills and 128 VFX effects"
+commit_msg = "deploy(equipment): update gh-pages v1.5.0 with 1.865 weapons, armors and sets"
 res = subprocess.run(['git', 'commit', '-m', commit_msg], capture_output=True, text=True)
 print(res.stdout)
 if res.stderr:
     print(res.stderr)
 
-# 7. Push to origin gh-pages
+# 6. Push to origin gh-pages
 print("Pushing to origin gh-pages...")
 subprocess.run(['git', 'push', 'origin', 'gh-pages'], check=True)
 
-# 8. Return to main
+# 7. Return to main
 print("Returning to branch main...")
 subprocess.run(['git', 'checkout', 'main'], check=True)
 
-print("\nDeployment to gh-pages completed successfully!")
+print("\nDeployment to gh-pages v1.5.0 completed successfully!")
