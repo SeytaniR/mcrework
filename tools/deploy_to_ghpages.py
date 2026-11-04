@@ -5,7 +5,7 @@ sys.stdout.reconfigure(encoding='utf-8', errors='replace')
 ws = r'C:\Users\Dell\.gemini\antigravity\scratch\magic-campus-pixi'
 os.chdir(ws)
 
-print("Starting clean gh-pages deployment for v1.5.0...")
+print("Starting clean gh-pages deployment for v1.5.1...")
 
 # 1. Checkout gh-pages
 print("Checking out gh-pages...")
@@ -46,7 +46,7 @@ for item in ['tools', 'mcgame', 'extracted_char', 'action_previews']:
 
 # 5. Commit
 print("Committing on gh-pages...")
-commit_msg = "deploy(equipment): update gh-pages v1.5.0 with 1.865 weapons, armors and sets"
+commit_msg = "deploy(weapons): update gh-pages v1.5.1 with dynamic hand-equipped weapon animations and wielding controls"
 res = subprocess.run(['git', 'commit', '-m', commit_msg], capture_output=True, text=True)
 print(res.stdout)
 if res.stderr:
@@ -60,4 +60,4 @@ subprocess.run(['git', 'push', 'origin', 'gh-pages'], check=True)
 print("Returning to branch main...")
 subprocess.run(['git', 'checkout', 'main'], check=True)
 
-print("\nDeployment to gh-pages v1.5.0 completed successfully!")
+print("\nDeployment to gh-pages v1.5.1 completed successfully!")
