@@ -1,0 +1,48 @@
+{
+  "name": "Sa Trần Mục Sư",
+  "anchor": [
+    0.5,
+    0.9381
+  ],
+  "width": 95,
+  "height": 97,
+  "bbox": [
+    18,
+    3,
+    113,
+    100
+  ],
+  "total_unique_bitmaps": 20,
+  "animations_count": 64,
+  "total_animation_frames": 704,
+  "actions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "directions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "atlas_size_kb": 56.0,
+  "atlas_dimensions": [
+    512,
+    512
+  ],
+  "id": "creature_000035",
+  "db_id": "222",
+  "res_code_num": 35,
+  "swf_hash": "f2adfc9fb850fde0cd79e4236531d708",
+  "feet_y": 91
+}

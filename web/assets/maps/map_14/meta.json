@@ -1,0 +1,31 @@
+{
+  "id": 14,
+  "name": "Hư Không Mạc",
+  "info": "Nơi có nhiều vật quý, nhưng là vùng đất chết, vô số sinh linh đã bị chôn vùi. Thích hợp cho cấp độ từ 56 - 60.",
+  "level": 30,
+  "width": 4070,
+  "height": 2624,
+  "col_width": 4250,
+  "col_height": 2877,
+  "has_collision": true,
+  "safe_x": 2057,
+  "safe_y": 1309,
+  "continent": 1,
+  "world_x": 267,
+  "world_y": 276,
+  "bg_image": "assets/maps/map_14/bg.jpg",
+  "thumb": "assets/maps/map_14/thumb.webp",
+  "collision_bin": "assets/maps/map_14/collision.bin",
+  "portals": [
+    {
+      "id": 747,
+      "target_name": "Tháp Khắc Nguyên",
+      "target_map_id": 8,
+      "x": 536,
+      "y": 266,
+      "dest_x": 850,
+      "dest_y": 900
+    }
+  ],
+  "creatures_count": 9
+}

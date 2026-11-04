@@ -1,0 +1,31 @@
+{
+  "id": 32,
+  "name": "Thiên Khung Tộc",
+  "info": "Nằm phía đông bắc đảo băng, là nơi lưu trú của các xạ thủ tinh anh, vững về kỹ thuật máy và năng lượng học",
+  "level": 10,
+  "width": 2100,
+  "height": 1500,
+  "col_width": 2196,
+  "col_height": 1598,
+  "has_collision": true,
+  "safe_x": 500,
+  "safe_y": 900,
+  "continent": 1,
+  "world_x": 647,
+  "world_y": 288,
+  "bg_image": "assets/maps/map_32/bg.jpg",
+  "thumb": "assets/maps/map_32/thumb.webp",
+  "collision_bin": "assets/maps/map_32/collision.bin",
+  "portals": [
+    {
+      "id": 797,
+      "target_name": "Lạp Tuyết Địa",
+      "target_map_id": 33,
+      "x": 980,
+      "y": 1360,
+      "dest_x": 1300,
+      "dest_y": 900
+    }
+  ],
+  "creatures_count": 0
+}

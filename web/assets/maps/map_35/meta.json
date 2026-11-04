@@ -1,0 +1,40 @@
+{
+  "id": 35,
+  "name": "Băng Tuyết Nguyên",
+  "info": "Mùa đông trường kỳ nơi đây khiến cho chim chóc không bay tới, hoa cỏ khó sinh sôi. Thích hợp cho cấp độ từ 71 - 75.",
+  "level": 60,
+  "width": 3000,
+  "height": 2000,
+  "col_width": 3076,
+  "col_height": 2110,
+  "has_collision": true,
+  "safe_x": 2000,
+  "safe_y": 250,
+  "continent": 1,
+  "world_x": 602,
+  "world_y": 403,
+  "bg_image": "assets/maps/map_35/bg.jpg",
+  "thumb": "assets/maps/map_35/thumb.webp",
+  "collision_bin": "assets/maps/map_35/collision.bin",
+  "portals": [
+    {
+      "id": 798,
+      "target_name": "Anh Vũ Cảnh",
+      "target_map_id": 34,
+      "x": 60,
+      "y": 87,
+      "dest_x": 1150,
+      "dest_y": 1000
+    },
+    {
+      "id": 1457,
+      "target_name": "Tuyết Lâm",
+      "target_map_id": 22,
+      "x": 65,
+      "y": 1611,
+      "dest_x": 1900,
+      "dest_y": 700
+    }
+  ],
+  "creatures_count": 4
+}

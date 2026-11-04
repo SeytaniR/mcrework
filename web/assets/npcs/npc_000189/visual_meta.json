@@ -1,0 +1,46 @@
+{
+  "name": "NPC 189",
+  "anchor": [
+    0.5,
+    1.0
+  ],
+  "width": 283,
+  "height": 206,
+  "bbox": [
+    5,
+    20,
+    288,
+    226
+  ],
+  "total_unique_bitmaps": 1,
+  "animations_count": 64,
+  "total_animation_frames": 704,
+  "actions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "directions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "atlas_size_kb": 26.5,
+  "atlas_dimensions": [
+    512,
+    256
+  ],
+  "res_path": "creature/NPC_FUNC_000189.swf",
+  "res_code_num": 189,
+  "type": "npc"
+}

@@ -1,0 +1,31 @@
+{
+  "id": 43,
+  "name": "Đoạn Cốc",
+  "info": "Vùng đất lạnh giá nhất nhưng có cảnh đẹp mê người, tuy nhiên cũng không phải không nguy hiểm. Thích hợp cho cấp độ từ 120 - 130.",
+  "level": 110,
+  "width": 3000,
+  "height": 2000,
+  "col_width": 3105,
+  "col_height": 2107,
+  "has_collision": true,
+  "safe_x": 1430,
+  "safe_y": 1050,
+  "continent": 1,
+  "world_x": 574,
+  "world_y": 445,
+  "bg_image": "assets/maps/map_43/bg.jpg",
+  "thumb": "assets/maps/map_43/thumb.webp",
+  "collision_bin": "assets/maps/map_43/collision.bin",
+  "portals": [
+    {
+      "id": 1959,
+      "target_name": "Tuyết Lâm",
+      "target_map_id": 22,
+      "x": 139,
+      "y": 1,
+      "dest_x": 1900,
+      "dest_y": 700
+    }
+  ],
+  "creatures_count": 9
+}

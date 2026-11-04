@@ -1,0 +1,40 @@
+{
+  "id": 16,
+  "name": "Ngọc Phong Lâm",
+  "info": "Chim hót véo von, bướm ong bay lượn, trăm hoa đua nở, tựa chốn thiên đường. Thích hợp cho cấp độ từ 71 - 75.",
+  "level": 65,
+  "width": 2500,
+  "height": 1600,
+  "col_width": 2542,
+  "col_height": 1648,
+  "has_collision": true,
+  "safe_x": 1600,
+  "safe_y": 500,
+  "continent": 1,
+  "world_x": 357,
+  "world_y": 318,
+  "bg_image": "assets/maps/map_16/bg.jpg",
+  "thumb": "assets/maps/map_16/thumb.webp",
+  "collision_bin": "assets/maps/map_16/collision.bin",
+  "portals": [
+    {
+      "id": 750,
+      "target_name": "Lê Dương Nam",
+      "target_map_id": 6,
+      "x": 813,
+      "y": 4,
+      "dest_x": 1800,
+      "dest_y": 800
+    },
+    {
+      "id": 751,
+      "target_name": "Quân Cổ Đạo",
+      "target_map_id": 7,
+      "x": 2295,
+      "y": 1095,
+      "dest_x": 721,
+      "dest_y": 486
+    }
+  ],
+  "creatures_count": 4
+}

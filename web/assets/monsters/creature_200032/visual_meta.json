@@ -1,0 +1,48 @@
+{
+  "name": "Hổ Cáp",
+  "anchor": [
+    0.5,
+    0.9291
+  ],
+  "width": 162,
+  "height": 127,
+  "bbox": [
+    0,
+    0,
+    162,
+    127
+  ],
+  "total_unique_bitmaps": 33,
+  "animations_count": 64,
+  "total_animation_frames": 704,
+  "actions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "directions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "atlas_size_kb": 70.6,
+  "atlas_dimensions": [
+    1024,
+    1024
+  ],
+  "id": "creature_200032",
+  "db_id": "453",
+  "res_code_num": 200032,
+  "swf_hash": "d931f71f3609d881dc939ee2b27ced98",
+  "feet_y": 118
+}

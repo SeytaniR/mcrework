@@ -1,0 +1,1815 @@
+{
+  "total_classes": 46,
+  "generated_at": "2026-11-02 10:33:41",
+  "classes": [
+    {
+      "id": "PC_FEMALE_000001",
+      "name": "Guerreira Base (F)",
+      "gender": "FEMALE",
+      "tier": 1,
+      "res_code_num": 1,
+      "actions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "directions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "width": 107,
+      "height": 111,
+      "total_frames": 704,
+      "atlas_size_kb": 189.2,
+      "path": "assets/characters/PC_FEMALE_000001/atlas.json",
+      "thumb": "assets/characters/PC_FEMALE_000001/thumb.webp",
+      "anchor": [
+        0.5,
+        0.9099
+      ],
+      "feet_y": 101
+    },
+    {
+      "id": "PC_FEMALE_000002",
+      "name": "Maga Base (F)",
+      "gender": "FEMALE",
+      "tier": 1,
+      "res_code_num": 2,
+      "actions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "directions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "width": 95,
+      "height": 111,
+      "total_frames": 704,
+      "atlas_size_kb": 200.1,
+      "path": "assets/characters/PC_FEMALE_000002/atlas.json",
+      "thumb": "assets/characters/PC_FEMALE_000002/thumb.webp",
+      "anchor": [
+        0.5,
+        0.8198
+      ],
+      "feet_y": 91
+    },
+    {
+      "id": "PC_FEMALE_000003",
+      "name": "Caçadora / Arqueira Base (F)",
+      "gender": "FEMALE",
+      "tier": 1,
+      "res_code_num": 3,
+      "actions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "directions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "width": 158,
+      "height": 120,
+      "total_frames": 704,
+      "atlas_size_kb": 188.3,
+      "path": "assets/characters/PC_FEMALE_000003/atlas.json",
+      "thumb": "assets/characters/PC_FEMALE_000003/thumb.webp",
+      "anchor": [
+        0.5,
+        0.8083
+      ],
+      "feet_y": 97
+    },
+    {
+      "id": "PC_FEMALE_000004",
+      "name": "Sacerdotisa Base (F)",
+      "gender": "FEMALE",
+      "tier": 1,
+      "res_code_num": 4,
+      "actions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "directions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "width": 125,
+      "height": 135,
+      "total_frames": 704,
+      "atlas_size_kb": 200.5,
+      "path": "assets/characters/PC_FEMALE_000004/atlas.json",
+      "thumb": "assets/characters/PC_FEMALE_000004/thumb.webp",
+      "anchor": [
+        0.5,
+        0.6815
+      ],
+      "feet_y": 92
+    },
+    {
+      "id": "PC_FEMALE_000005",
+      "name": "Artífice / Mecânica Base (F)",
+      "gender": "FEMALE",
+      "tier": 1,
+      "res_code_num": 5,
+      "actions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "directions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "width": 136,
+      "height": 126,
+      "total_frames": 704,
+      "atlas_size_kb": 179.2,
+      "path": "assets/characters/PC_FEMALE_000005/atlas.json",
+      "thumb": "assets/characters/PC_FEMALE_000005/thumb.webp",
+      "anchor": [
+        0.5,
+        0.7778
+      ],
+      "feet_y": 98
+    },
+    {
+      "id": "PC_FEMALE_000006",
+      "name": "Mística / Assassina Base (F)",
+      "gender": "FEMALE",
+      "tier": 1,
+      "res_code_num": 6,
+      "actions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "directions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "width": 117,
+      "height": 111,
+      "total_frames": 704,
+      "atlas_size_kb": 167.9,
+      "path": "assets/characters/PC_FEMALE_000006/atlas.json",
+      "thumb": "assets/characters/PC_FEMALE_000006/thumb.webp",
+      "anchor": [
+        0.5,
+        0.7928
+      ],
+      "feet_y": 88
+    },
+    {
+      "id": "PC_FEMALE_000011",
+      "name": "Guerreira Sagrada Tier 2 (F)",
+      "gender": "FEMALE",
+      "tier": 2,
+      "res_code_num": 11,
+      "actions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "directions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "width": 104,
+      "height": 136,
+      "total_frames": 1304,
+      "atlas_size_kb": 449.3,
+      "path": "assets/characters/PC_FEMALE_000011/atlas.json",
+      "thumb": "assets/characters/PC_FEMALE_000011/thumb.webp",
+      "anchor": [
+        0.5,
+        0.9118
+      ],
+      "feet_y": 124
+    },
+    {
+      "id": "PC_FEMALE_000012",
+      "name": "Arquimaga Suprema Tier 2 (F)",
+      "gender": "FEMALE",
+      "tier": 2,
+      "res_code_num": 12,
+      "actions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "directions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "width": 152,
+      "height": 141,
+      "total_frames": 1304,
+      "atlas_size_kb": 548.2,
+      "path": "assets/characters/PC_FEMALE_000012/atlas.json",
+      "thumb": "assets/characters/PC_FEMALE_000012/thumb.webp",
+      "anchor": [
+        0.5,
+        0.766
+      ],
+      "feet_y": 108
+    },
+    {
+      "id": "PC_FEMALE_000013",
+      "name": "Franco-Atiradora Tier 2 (F)",
+      "gender": "FEMALE",
+      "tier": 2,
+      "res_code_num": 13,
+      "actions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "directions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "width": 122,
+      "height": 142,
+      "total_frames": 1304,
+      "atlas_size_kb": 532.2,
+      "path": "assets/characters/PC_FEMALE_000013/atlas.json",
+      "thumb": "assets/characters/PC_FEMALE_000013/thumb.webp",
+      "anchor": [
+        0.5,
+        0.7606
+      ],
+      "feet_y": 108
+    },
+    {
+      "id": "PC_FEMALE_000014",
+      "name": "Suma Sacerdotisa Tier 2 (F)",
+      "gender": "FEMALE",
+      "tier": 2,
+      "res_code_num": 14,
+      "actions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "directions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "width": 124,
+      "height": 138,
+      "total_frames": 1304,
+      "atlas_size_kb": 510.1,
+      "path": "assets/characters/PC_FEMALE_000014/atlas.json",
+      "thumb": "assets/characters/PC_FEMALE_000014/thumb.webp",
+      "anchor": [
+        0.5,
+        0.6014
+      ],
+      "feet_y": 83
+    },
+    {
+      "id": "PC_FEMALE_000015",
+      "name": "Mestra Mecatrônica Tier 2 (F)",
+      "gender": "FEMALE",
+      "tier": 2,
+      "res_code_num": 15,
+      "actions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "directions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "width": 127,
+      "height": 138,
+      "total_frames": 1304,
+      "atlas_size_kb": 449.6,
+      "path": "assets/characters/PC_FEMALE_000015/atlas.json",
+      "thumb": "assets/characters/PC_FEMALE_000015/thumb.webp",
+      "anchor": [
+        0.5,
+        0.7971
+      ],
+      "feet_y": 110
+    },
+    {
+      "id": "PC_FEMALE_000016",
+      "name": "Lorde Mística Tier 2 (F)",
+      "gender": "FEMALE",
+      "tier": 2,
+      "res_code_num": 16,
+      "actions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "directions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "width": 128,
+      "height": 137,
+      "total_frames": 1304,
+      "atlas_size_kb": 406.5,
+      "path": "assets/characters/PC_FEMALE_000016/atlas.json",
+      "thumb": "assets/characters/PC_FEMALE_000016/thumb.webp",
+      "anchor": [
+        0.5,
+        0.8394
+      ],
+      "feet_y": 115
+    },
+    {
+      "id": "PC_FEMALE_010005",
+      "name": "Costume de Gala / Festa (F)",
+      "gender": "FEMALE",
+      "tier": "costume",
+      "res_code_num": 10005,
+      "actions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "directions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "width": 196,
+      "height": 170,
+      "total_frames": 1304,
+      "atlas_size_kb": 515.9,
+      "path": "assets/characters/PC_FEMALE_010005/atlas.json",
+      "thumb": "assets/characters/PC_FEMALE_010005/thumb.webp",
+      "anchor": [
+        0.5,
+        0.8059
+      ],
+      "feet_y": 137
+    },
+    {
+      "id": "PC_FEMALE_010010",
+      "name": "Vestido Nupcial Real (F)",
+      "gender": "FEMALE",
+      "tier": "costume",
+      "res_code_num": 10010,
+      "actions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "directions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "width": 346,
+      "height": 316,
+      "total_frames": 1304,
+      "atlas_size_kb": 1308.7,
+      "path": "assets/characters/PC_FEMALE_010010/atlas.json",
+      "thumb": "assets/characters/PC_FEMALE_010010/thumb.webp",
+      "anchor": [
+        0.5,
+        1.0
+      ],
+      "feet_y": 316
+    },
+    {
+      "id": "PC_FEMALE_010011",
+      "name": "Armadura Cerimonial Dourada (F)",
+      "gender": "FEMALE",
+      "tier": "costume",
+      "res_code_num": 10011,
+      "actions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "directions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "width": 345,
+      "height": 315,
+      "total_frames": 1304,
+      "atlas_size_kb": 1339.4,
+      "path": "assets/characters/PC_FEMALE_010011/atlas.json",
+      "thumb": "assets/characters/PC_FEMALE_010011/thumb.webp",
+      "anchor": [
+        0.5,
+        1.0
+      ],
+      "feet_y": 315
+    },
+    {
+      "id": "PC_FEMALE_010012",
+      "name": "Quimono Oriental da Primavera (F)",
+      "gender": "FEMALE",
+      "tier": "costume",
+      "res_code_num": 10012,
+      "actions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "directions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "width": 284,
+      "height": 234,
+      "total_frames": 1304,
+      "atlas_size_kb": 574.3,
+      "path": "assets/characters/PC_FEMALE_010012/atlas.json",
+      "thumb": "assets/characters/PC_FEMALE_010012/thumb.webp",
+      "anchor": [
+        0.5,
+        1.0
+      ],
+      "feet_y": 234
+    },
+    {
+      "id": "PC_FEMALE_010016",
+      "name": "Traje Angelical com Asas Divinas (F)",
+      "gender": "FEMALE",
+      "tier": "costume",
+      "res_code_num": 10016,
+      "actions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "directions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "width": 463,
+      "height": 267,
+      "total_frames": 1304,
+      "atlas_size_kb": 2217.3,
+      "path": "assets/characters/PC_FEMALE_010016/atlas.json",
+      "thumb": "assets/characters/PC_FEMALE_010016/thumb.webp",
+      "anchor": [
+        0.5,
+        0.9326
+      ],
+      "feet_y": 249
+    },
+    {
+      "id": "PC_FEMALE_010017",
+      "name": "Traje Casual Estudante (F)",
+      "gender": "FEMALE",
+      "tier": "costume",
+      "res_code_num": 10017,
+      "actions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "directions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "width": 313,
+      "height": 267,
+      "total_frames": 1304,
+      "atlas_size_kb": 964.7,
+      "path": "assets/characters/PC_FEMALE_010017/atlas.json",
+      "thumb": "assets/characters/PC_FEMALE_010017/thumb.webp",
+      "anchor": [
+        0.5,
+        1.0
+      ],
+      "feet_y": 267
+    },
+    {
+      "id": "PC_FEMALE_010018",
+      "name": "Armadura Valquíria da Alvorada (F)",
+      "gender": "FEMALE",
+      "tier": "costume",
+      "res_code_num": 10018,
+      "actions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "directions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "width": 414,
+      "height": 297,
+      "total_frames": 1304,
+      "atlas_size_kb": 2921.7,
+      "path": "assets/characters/PC_FEMALE_010018/atlas.json",
+      "thumb": "assets/characters/PC_FEMALE_010018/thumb.webp",
+      "anchor": [
+        0.5,
+        0.734
+      ],
+      "feet_y": 218
+    },
+    {
+      "id": "PC_FEMALE_010019",
+      "name": "Traje Festivo Celebração (F)",
+      "gender": "FEMALE",
+      "tier": "costume",
+      "res_code_num": 10019,
+      "actions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "directions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "width": 352,
+      "height": 303,
+      "total_frames": 1304,
+      "atlas_size_kb": 1447.1,
+      "path": "assets/characters/PC_FEMALE_010019/atlas.json",
+      "thumb": "assets/characters/PC_FEMALE_010019/thumb.webp",
+      "anchor": [
+        0.5,
+        1.0
+      ],
+      "feet_y": 303
+    },
+    {
+      "id": "PC_FEMALE_010020",
+      "name": "Armadura Rainha Dracônica (F)",
+      "gender": "FEMALE",
+      "tier": "costume",
+      "res_code_num": 10020,
+      "actions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "directions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "width": 401,
+      "height": 358,
+      "total_frames": 1304,
+      "atlas_size_kb": 2264.8,
+      "path": "assets/characters/PC_FEMALE_010020/atlas.json",
+      "thumb": "assets/characters/PC_FEMALE_010020/thumb.webp",
+      "anchor": [
+        0.5,
+        1.0
+      ],
+      "feet_y": 358
+    },
+    {
+      "id": "PC_FEMALE_100001",
+      "name": "Pose de Montaria Lobo (F)",
+      "gender": "FEMALE",
+      "tier": "mount",
+      "res_code_num": 100001,
+      "actions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "directions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "width": 107,
+      "height": 111,
+      "total_frames": 704,
+      "atlas_size_kb": 81.3,
+      "path": "assets/characters/PC_FEMALE_100001/atlas.json",
+      "thumb": "assets/characters/PC_FEMALE_100001/thumb.webp",
+      "anchor": [
+        0.5,
+        0.9009
+      ],
+      "feet_y": 100
+    },
+    {
+      "id": "PC_FEMALE_100002",
+      "name": "Pose de Montaria Tigre (F)",
+      "gender": "FEMALE",
+      "tier": "mount",
+      "res_code_num": 100002,
+      "actions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "directions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "width": 95,
+      "height": 110,
+      "total_frames": 616,
+      "atlas_size_kb": 91.9,
+      "path": "assets/characters/PC_FEMALE_100002/atlas.json",
+      "thumb": "assets/characters/PC_FEMALE_100002/thumb.webp",
+      "anchor": [
+        0.5,
+        0.8273
+      ],
+      "feet_y": 91
+    },
+    {
+      "id": "PC_FEMALE_100003",
+      "name": "Pose de Montaria Dragão (F)",
+      "gender": "FEMALE",
+      "tier": "mount",
+      "res_code_num": 100003,
+      "actions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "directions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "width": 158,
+      "height": 117,
+      "total_frames": 704,
+      "atlas_size_kb": 84.6,
+      "path": "assets/characters/PC_FEMALE_100003/atlas.json",
+      "thumb": "assets/characters/PC_FEMALE_100003/thumb.webp",
+      "anchor": [
+        0.5,
+        0.8034
+      ],
+      "feet_y": 94
+    },
+    {
+      "id": "PC_FEMALE_100004",
+      "name": "Pose de Montaria Pássaro (F)",
+      "gender": "FEMALE",
+      "tier": "mount",
+      "res_code_num": 100004,
+      "actions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "directions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "width": 125,
+      "height": 134,
+      "total_frames": 616,
+      "atlas_size_kb": 89.5,
+      "path": "assets/characters/PC_FEMALE_100004/atlas.json",
+      "thumb": "assets/characters/PC_FEMALE_100004/thumb.webp",
+      "anchor": [
+        0.5,
+        0.694
+      ],
+      "feet_y": 93
+    },
+    {
+      "id": "PC_FEMALE_100005",
+      "name": "Pose de Montaria Nuvem (F)",
+      "gender": "FEMALE",
+      "tier": "mount",
+      "res_code_num": 100005,
+      "actions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "directions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "width": 136,
+      "height": 125,
+      "total_frames": 704,
+      "atlas_size_kb": 78.8,
+      "path": "assets/characters/PC_FEMALE_100005/atlas.json",
+      "thumb": "assets/characters/PC_FEMALE_100005/thumb.webp",
+      "anchor": [
+        0.5,
+        0.768
+      ],
+      "feet_y": 96
+    },
+    {
+      "id": "PC_FEMALE_100006",
+      "name": "Pose de Montaria Tapete (F)",
+      "gender": "FEMALE",
+      "tier": "mount",
+      "res_code_num": 100006,
+      "actions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "directions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "width": 117,
+      "height": 111,
+      "total_frames": 695,
+      "atlas_size_kb": 72.7,
+      "path": "assets/characters/PC_FEMALE_100006/atlas.json",
+      "thumb": "assets/characters/PC_FEMALE_100006/thumb.webp",
+      "anchor": [
+        0.5,
+        0.7928
+      ],
+      "feet_y": 88
+    },
+    {
+      "id": "PC_MALE_000001",
+      "name": "Guerreiro Base (M)",
+      "gender": "MALE",
+      "tier": 1,
+      "res_code_num": 1,
+      "actions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "directions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "width": 150,
+      "height": 127,
+      "total_frames": 704,
+      "atlas_size_kb": 202.9,
+      "path": "assets/characters/PC_MALE_000001/atlas.json",
+      "thumb": "assets/characters/PC_MALE_000001/thumb.webp",
+      "anchor": [
+        0.5,
+        0.7953
+      ],
+      "feet_y": 101
+    },
+    {
+      "id": "PC_MALE_000002",
+      "name": "Mago Base (M)",
+      "gender": "MALE",
+      "tier": 1,
+      "res_code_num": 2,
+      "actions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "directions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "width": 136,
+      "height": 119,
+      "total_frames": 704,
+      "atlas_size_kb": 187.3,
+      "path": "assets/characters/PC_MALE_000002/atlas.json",
+      "thumb": "assets/characters/PC_MALE_000002/thumb.webp",
+      "anchor": [
+        0.5,
+        0.7983
+      ],
+      "feet_y": 95
+    },
+    {
+      "id": "PC_MALE_000003",
+      "name": "Caçador / Arqueiro Base (M)",
+      "gender": "MALE",
+      "tier": 1,
+      "res_code_num": 3,
+      "actions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "directions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "width": 155,
+      "height": 124,
+      "total_frames": 704,
+      "atlas_size_kb": 210.9,
+      "path": "assets/characters/PC_MALE_000003/atlas.json",
+      "thumb": "assets/characters/PC_MALE_000003/thumb.webp",
+      "anchor": [
+        0.5,
+        0.8145
+      ],
+      "feet_y": 101
+    },
+    {
+      "id": "PC_MALE_000004",
+      "name": "Sacerdote Base (M)",
+      "gender": "MALE",
+      "tier": 1,
+      "res_code_num": 4,
+      "actions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "directions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "width": 81,
+      "height": 112,
+      "total_frames": 704,
+      "atlas_size_kb": 198.8,
+      "path": "assets/characters/PC_MALE_000004/atlas.json",
+      "thumb": "assets/characters/PC_MALE_000004/thumb.webp",
+      "anchor": [
+        0.5,
+        0.9196
+      ],
+      "feet_y": 103
+    },
+    {
+      "id": "PC_MALE_000005",
+      "name": "Artífice / Mecânico Base (M)",
+      "gender": "MALE",
+      "tier": 1,
+      "res_code_num": 5,
+      "actions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "directions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "width": 81,
+      "height": 107,
+      "total_frames": 704,
+      "atlas_size_kb": 195.2,
+      "path": "assets/characters/PC_MALE_000005/atlas.json",
+      "thumb": "assets/characters/PC_MALE_000005/thumb.webp",
+      "anchor": [
+        0.5,
+        0.9346
+      ],
+      "feet_y": 100
+    },
+    {
+      "id": "PC_MALE_000006",
+      "name": "Místico / Assassino Base (M)",
+      "gender": "MALE",
+      "tier": 1,
+      "res_code_num": 6,
+      "actions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "directions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "width": 145,
+      "height": 120,
+      "total_frames": 704,
+      "atlas_size_kb": 209.9,
+      "path": "assets/characters/PC_MALE_000006/atlas.json",
+      "thumb": "assets/characters/PC_MALE_000006/thumb.webp",
+      "anchor": [
+        0.5,
+        0.8167
+      ],
+      "feet_y": 98
+    },
+    {
+      "id": "PC_MALE_000011",
+      "name": "Guerreiro Sagrado Tier 2 (M)",
+      "gender": "MALE",
+      "tier": 2,
+      "res_code_num": 11,
+      "actions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "directions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "width": 155,
+      "height": 149,
+      "total_frames": 1304,
+      "atlas_size_kb": 504.7,
+      "path": "assets/characters/PC_MALE_000011/atlas.json",
+      "thumb": "assets/characters/PC_MALE_000011/thumb.webp",
+      "anchor": [
+        0.5,
+        0.8255
+      ],
+      "feet_y": 123
+    },
+    {
+      "id": "PC_MALE_000012",
+      "name": "Arquimago Supremo Tier 2 (M)",
+      "gender": "MALE",
+      "tier": 2,
+      "res_code_num": 12,
+      "actions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "directions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "width": 138,
+      "height": 139,
+      "total_frames": 1304,
+      "atlas_size_kb": 489.9,
+      "path": "assets/characters/PC_MALE_000012/atlas.json",
+      "thumb": "assets/characters/PC_MALE_000012/thumb.webp",
+      "anchor": [
+        0.5,
+        0.8345
+      ],
+      "feet_y": 116
+    },
+    {
+      "id": "PC_MALE_000013",
+      "name": "Franco-Atirador Tier 2 (M)",
+      "gender": "MALE",
+      "tier": 2,
+      "res_code_num": 13,
+      "actions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "directions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "width": 152,
+      "height": 151,
+      "total_frames": 1304,
+      "atlas_size_kb": 484.1,
+      "path": "assets/characters/PC_MALE_000013/atlas.json",
+      "thumb": "assets/characters/PC_MALE_000013/thumb.webp",
+      "anchor": [
+        0.5,
+        0.8013
+      ],
+      "feet_y": 121
+    },
+    {
+      "id": "PC_MALE_000014",
+      "name": "Sumo Sacerdote Tier 2 (M)",
+      "gender": "MALE",
+      "tier": 2,
+      "res_code_num": 14,
+      "actions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "directions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "width": 86,
+      "height": 127,
+      "total_frames": 1304,
+      "atlas_size_kb": 466.5,
+      "path": "assets/characters/PC_MALE_000014/atlas.json",
+      "thumb": "assets/characters/PC_MALE_000014/thumb.webp",
+      "anchor": [
+        0.5,
+        0.9055
+      ],
+      "feet_y": 115
+    },
+    {
+      "id": "PC_MALE_000015",
+      "name": "Mestre Mecatrônico Tier 2 (M)",
+      "gender": "MALE",
+      "tier": 2,
+      "res_code_num": 15,
+      "actions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "directions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "width": 80,
+      "height": 123,
+      "total_frames": 1304,
+      "atlas_size_kb": 457.6,
+      "path": "assets/characters/PC_MALE_000015/atlas.json",
+      "thumb": "assets/characters/PC_MALE_000015/thumb.webp",
+      "anchor": [
+        0.5,
+        0.935
+      ],
+      "feet_y": 115
+    },
+    {
+      "id": "PC_MALE_000016",
+      "name": "Lorde Místico Tier 2 (M)",
+      "gender": "MALE",
+      "tier": 2,
+      "res_code_num": 16,
+      "actions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "directions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "width": 144,
+      "height": 145,
+      "total_frames": 1298,
+      "atlas_size_kb": 599.0,
+      "path": "assets/characters/PC_MALE_000016/atlas.json",
+      "thumb": "assets/characters/PC_MALE_000016/thumb.webp",
+      "anchor": [
+        0.5,
+        0.8276
+      ],
+      "feet_y": 120
+    },
+    {
+      "id": "PC_MALE_100000",
+      "name": "Pose de Montaria Cavalo (M)",
+      "gender": "MALE",
+      "tier": "mount",
+      "res_code_num": 100000,
+      "actions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "directions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "width": 145,
+      "height": 120,
+      "total_frames": 704,
+      "atlas_size_kb": 71.1,
+      "path": "assets/characters/PC_MALE_100000/atlas.json",
+      "thumb": "assets/characters/PC_MALE_100000/thumb.webp",
+      "anchor": [
+        0.5,
+        0.8167
+      ],
+      "feet_y": 98
+    },
+    {
+      "id": "PC_MALE_100001",
+      "name": "Pose de Montaria Lobo (M)",
+      "gender": "MALE",
+      "tier": "mount",
+      "res_code_num": 100001,
+      "actions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "directions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "width": 150,
+      "height": 127,
+      "total_frames": 704,
+      "atlas_size_kb": 91.3,
+      "path": "assets/characters/PC_MALE_100001/atlas.json",
+      "thumb": "assets/characters/PC_MALE_100001/thumb.webp",
+      "anchor": [
+        0.5,
+        0.8189
+      ],
+      "feet_y": 104
+    },
+    {
+      "id": "PC_MALE_100002",
+      "name": "Pose de Montaria Tigre (M)",
+      "gender": "MALE",
+      "tier": "mount",
+      "res_code_num": 100002,
+      "actions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "directions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "width": 136,
+      "height": 119,
+      "total_frames": 704,
+      "atlas_size_kb": 84.2,
+      "path": "assets/characters/PC_MALE_100002/atlas.json",
+      "thumb": "assets/characters/PC_MALE_100002/thumb.webp",
+      "anchor": [
+        0.5,
+        0.8151
+      ],
+      "feet_y": 97
+    },
+    {
+      "id": "PC_MALE_100003",
+      "name": "Pose de Montaria Dragão (M)",
+      "gender": "MALE",
+      "tier": "mount",
+      "res_code_num": 100003,
+      "actions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "directions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "width": 155,
+      "height": 123,
+      "total_frames": 704,
+      "atlas_size_kb": 94.1,
+      "path": "assets/characters/PC_MALE_100003/atlas.json",
+      "thumb": "assets/characters/PC_MALE_100003/thumb.webp",
+      "anchor": [
+        0.5,
+        0.8374
+      ],
+      "feet_y": 103
+    },
+    {
+      "id": "PC_MALE_100004",
+      "name": "Pose de Montaria Pássaro (M)",
+      "gender": "MALE",
+      "tier": "mount",
+      "res_code_num": 100004,
+      "actions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "directions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "width": 81,
+      "height": 110,
+      "total_frames": 704,
+      "atlas_size_kb": 88.6,
+      "path": "assets/characters/PC_MALE_100004/atlas.json",
+      "thumb": "assets/characters/PC_MALE_100004/thumb.webp",
+      "anchor": [
+        0.5,
+        0.9455
+      ],
+      "feet_y": 104
+    },
+    {
+      "id": "PC_MALE_100005",
+      "name": "Pose de Montaria Nuvem (M)",
+      "gender": "MALE",
+      "tier": "mount",
+      "res_code_num": 100005,
+      "actions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "directions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "width": 81,
+      "height": 106,
+      "total_frames": 704,
+      "atlas_size_kb": 84.5,
+      "path": "assets/characters/PC_MALE_100005/atlas.json",
+      "thumb": "assets/characters/PC_MALE_100005/thumb.webp",
+      "anchor": [
+        0.5,
+        0.9528
+      ],
+      "feet_y": 101
+    },
+    {
+      "id": "PC_MALE_100006",
+      "name": "Pose de Montaria Tapete (M)",
+      "gender": "MALE",
+      "tier": "mount",
+      "res_code_num": 100006,
+      "actions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "directions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "width": 145,
+      "height": 120,
+      "total_frames": 704,
+      "atlas_size_kb": 93.4,
+      "path": "assets/characters/PC_MALE_100006/atlas.json",
+      "thumb": "assets/characters/PC_MALE_100006/thumb.webp",
+      "anchor": [
+        0.5,
+        0.8083
+      ],
+      "feet_y": 97
+    }
+  ]
+}

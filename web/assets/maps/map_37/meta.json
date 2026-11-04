@@ -1,0 +1,31 @@
+{
+  "id": 37,
+  "name": "Cổ Thành",
+  "info": "Cổ Thành chứa đựng những năng lực tà ác và thần bí từ tàn tích chiến tranh năm xưa.Thích hợp cho cấp độ từ 146 - 150.",
+  "level": 140,
+  "width": 3000,
+  "height": 2000,
+  "col_width": 3023,
+  "col_height": 2031,
+  "has_collision": true,
+  "safe_x": 1440,
+  "safe_y": 1080,
+  "continent": 1,
+  "world_x": 391,
+  "world_y": 110,
+  "bg_image": "assets/maps/map_37/bg.jpg",
+  "thumb": "assets/maps/map_37/thumb.webp",
+  "collision_bin": "assets/maps/map_37/collision.bin",
+  "portals": [
+    {
+      "id": 3470,
+      "target_name": "Hộ Chi Địa",
+      "target_map_id": 24,
+      "x": 2501,
+      "y": 1,
+      "dest_x": 1309,
+      "dest_y": 1039
+    }
+  ],
+  "creatures_count": 0
+}

@@ -1,0 +1,40 @@
+{
+  "id": 29,
+  "name": "Mê Quang Tự",
+  "info": "Không ai có thể sống sót rời khỏi nơi đây để kể về vùng đất này. Thích hợp cho cấp độ từ 106 - 110.",
+  "level": 95,
+  "width": 2200,
+  "height": 1700,
+  "col_width": 2239,
+  "col_height": 1736,
+  "has_collision": true,
+  "safe_x": 1126,
+  "safe_y": 760,
+  "continent": 1,
+  "world_x": 342,
+  "world_y": 429,
+  "bg_image": "assets/maps/map_29/bg.jpg",
+  "thumb": "assets/maps/map_29/thumb.webp",
+  "collision_bin": "assets/maps/map_29/collision.bin",
+  "portals": [
+    {
+      "id": 1832,
+      "target_name": "Phục Ma Cốc",
+      "target_map_id": 23,
+      "x": 1902,
+      "y": 55,
+      "dest_x": 1440,
+      "dest_y": 970
+    },
+    {
+      "id": 1833,
+      "target_name": "Thần Di Cảnh",
+      "target_map_id": 36,
+      "x": 1214,
+      "y": 1566,
+      "dest_x": 1000,
+      "dest_y": 160
+    }
+  ],
+  "creatures_count": 0
+}

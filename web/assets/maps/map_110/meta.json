@@ -1,0 +1,21 @@
+{
+  "id": 110,
+  "name": "Huyết Sắc Cổ Bích",
+  "info": "NULL",
+  "level": 50,
+  "width": 3262,
+  "height": 2341,
+  "col_width": 3263,
+  "col_height": 2348,
+  "has_collision": true,
+  "safe_x": 2724,
+  "safe_y": 2222,
+  "continent": 2,
+  "world_x": null,
+  "world_y": null,
+  "bg_image": "assets/maps/map_110/bg.jpg",
+  "thumb": "assets/maps/map_110/thumb.webp",
+  "collision_bin": "assets/maps/map_110/collision.bin",
+  "portals": [],
+  "creatures_count": 0
+}

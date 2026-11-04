@@ -1,0 +1,31 @@
+{
+  "id": 18,
+  "name": "Kỳ Thạch Địa",
+  "info": "Vùng đất từng là nơi cư ngụ của một nền văn minh viễn cổ. Thích hợp cho cấp độ từ 86 - 90.",
+  "level": 80,
+  "width": 2500,
+  "height": 2000,
+  "col_width": 2608,
+  "col_height": 2112,
+  "has_collision": true,
+  "safe_x": 1351,
+  "safe_y": 1013,
+  "continent": 1,
+  "world_x": 417,
+  "world_y": 347,
+  "bg_image": "assets/maps/map_18/bg.jpg",
+  "thumb": "assets/maps/map_18/thumb.webp",
+  "collision_bin": "assets/maps/map_18/collision.bin",
+  "portals": [
+    {
+      "id": 755,
+      "target_name": "Quân Cổ Đạo",
+      "target_map_id": 7,
+      "x": 5,
+      "y": 1701,
+      "dest_x": 721,
+      "dest_y": 486
+    }
+  ],
+  "creatures_count": 0
+}

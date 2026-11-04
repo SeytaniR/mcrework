@@ -1,0 +1,48 @@
+{
+  "name": "Tộc Navi",
+  "anchor": [
+    0.5,
+    0.8047
+  ],
+  "width": 96,
+  "height": 128,
+  "bbox": [
+    64,
+    54,
+    160,
+    182
+  ],
+  "total_unique_bitmaps": 18,
+  "animations_count": 64,
+  "total_animation_frames": 704,
+  "actions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "directions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "atlas_size_kb": 63.4,
+  "atlas_dimensions": [
+    1024,
+    512
+  ],
+  "id": "creature_001121",
+  "db_id": "731",
+  "res_code_num": 1121,
+  "swf_hash": "fde7dc5022fe0f34d1614585cac6c284",
+  "feet_y": 103
+}

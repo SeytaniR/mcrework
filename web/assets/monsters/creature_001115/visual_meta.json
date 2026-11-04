@@ -1,0 +1,48 @@
+{
+  "name": "Bạo Liệt Long",
+  "anchor": [
+    0.5,
+    0.8056
+  ],
+  "width": 143,
+  "height": 144,
+  "bbox": [
+    20,
+    10,
+    163,
+    154
+  ],
+  "total_unique_bitmaps": 18,
+  "animations_count": 64,
+  "total_animation_frames": 704,
+  "actions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "directions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "atlas_size_kb": 86.8,
+  "atlas_dimensions": [
+    1024,
+    512
+  ],
+  "id": "creature_001115",
+  "db_id": "824",
+  "res_code_num": 1115,
+  "swf_hash": "60cbf96a7cb0b32bf695cbf35c2021e9",
+  "feet_y": 116
+}

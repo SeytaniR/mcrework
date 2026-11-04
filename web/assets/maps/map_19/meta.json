@@ -1,0 +1,40 @@
+{
+  "id": 19,
+  "name": "Linh Lan",
+  "info": "Đường mòn trong núi trải đầy cánh lan, khung cảnh đẹp nhưng tiềm tàng mối nguy hiểm. Thích hợp cho cấp độ từ 91 - 95.",
+  "level": 86,
+  "width": 3000,
+  "height": 2000,
+  "col_width": 3060,
+  "col_height": 2099,
+  "has_collision": true,
+  "safe_x": 900,
+  "safe_y": 300,
+  "continent": 1,
+  "world_x": 368,
+  "world_y": 380,
+  "bg_image": "assets/maps/map_19/bg.jpg",
+  "thumb": "assets/maps/map_19/thumb.webp",
+  "collision_bin": "assets/maps/map_19/collision.bin",
+  "portals": [
+    {
+      "id": 756,
+      "target_name": "Quân Cổ Đạo",
+      "target_map_id": 7,
+      "x": 2817,
+      "y": 500,
+      "dest_x": 721,
+      "dest_y": 486
+    },
+    {
+      "id": 1741,
+      "target_name": "Phục Ma Cốc",
+      "target_map_id": 23,
+      "x": 35,
+      "y": 1521,
+      "dest_x": 1440,
+      "dest_y": 970
+    }
+  ],
+  "creatures_count": 0
+}

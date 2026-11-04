@@ -1,0 +1,52 @@
+{
+  "name": "Armadura Rainha Dracônica (F)",
+  "anchor": [
+    0.5,
+    1.0
+  ],
+  "width": 401,
+  "height": 358,
+  "bbox": [
+    0,
+    15,
+    401,
+    373
+  ],
+  "total_unique_bitmaps": 161,
+  "animations_count": 88,
+  "total_animation_frames": 1304,
+  "actions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "directions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "atlas_size_kb": 2264.8,
+  "atlas_dimensions": [
+    8192,
+    4096
+  ],
+  "id": "PC_FEMALE_010020",
+  "gender": "FEMALE",
+  "tier": "costume",
+  "res_code_num": 10020,
+  "swf_hash": "e9b8bcd58625a17b473a2007a59bf06d",
+  "feet_y": 358
+}

@@ -1,0 +1,31 @@
+{
+  "id": 8,
+  "name": "Tháp Khắc Nguyên",
+  "info": "Rừng cây rộng lớn nằm giữa Lê Dương và Hư Không Mạc, là nơi ở của bầy sói. Thích hợp cho cấp độ từ 46 - 50.",
+  "level": 30,
+  "width": 3000,
+  "height": 2000,
+  "col_width": 3116,
+  "col_height": 2095,
+  "has_collision": true,
+  "safe_x": 850,
+  "safe_y": 900,
+  "continent": 1,
+  "world_x": 305,
+  "world_y": 235,
+  "bg_image": "assets/maps/map_8/bg.jpg",
+  "thumb": "assets/maps/map_8/thumb.webp",
+  "collision_bin": "assets/maps/map_8/collision.bin",
+  "portals": [
+    {
+      "id": 745,
+      "target_name": "Hư Không Mạc",
+      "target_map_id": 14,
+      "x": 75,
+      "y": 632,
+      "dest_x": 2057,
+      "dest_y": 1309
+    }
+  ],
+  "creatures_count": 9
+}

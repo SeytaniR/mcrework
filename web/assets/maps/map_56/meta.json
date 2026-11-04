@@ -1,0 +1,139 @@
+{
+  "id": 56,
+  "name": "Mị Hoặc Lâm",
+  "info": "Rừng rậm đầy yêu ma mê hoặc, rất dễ lạc lối. Thích hợp cho cấp độ từ 136 - 140.",
+  "level": 120,
+  "width": 2461,
+  "height": 1775,
+  "col_width": 2503,
+  "col_height": 1815,
+  "has_collision": true,
+  "safe_x": 770,
+  "safe_y": 245,
+  "continent": 2,
+  "world_x": 427,
+  "world_y": 205,
+  "bg_image": "assets/maps/map_56/bg.jpg",
+  "thumb": "assets/maps/map_56/thumb.webp",
+  "collision_bin": "assets/maps/map_56/collision.bin",
+  "portals": [
+    {
+      "id": 1998,
+      "target_name": "Mị Hoặc Lâm",
+      "target_map_id": 56,
+      "x": 1838,
+      "y": 785,
+      "dest_x": 770,
+      "dest_y": 245
+    },
+    {
+      "id": 1999,
+      "target_name": "Mị Hoặc Lâm",
+      "target_map_id": 56,
+      "x": 1450,
+      "y": 1615,
+      "dest_x": 770,
+      "dest_y": 245
+    },
+    {
+      "id": 2000,
+      "target_name": "Mị Hoặc Lâm",
+      "target_map_id": 56,
+      "x": 1066,
+      "y": 1458,
+      "dest_x": 770,
+      "dest_y": 245
+    },
+    {
+      "id": 2001,
+      "target_name": "Mị Hoặc Lâm",
+      "target_map_id": 56,
+      "x": 1642,
+      "y": 1097,
+      "dest_x": 770,
+      "dest_y": 245
+    },
+    {
+      "id": 2002,
+      "target_name": "Mị Hoặc Lâm",
+      "target_map_id": 56,
+      "x": 1876,
+      "y": 1520,
+      "dest_x": 770,
+      "dest_y": 245
+    },
+    {
+      "id": 2003,
+      "target_name": "Mị Hoặc Lâm",
+      "target_map_id": 56,
+      "x": 1642,
+      "y": 1501,
+      "dest_x": 770,
+      "dest_y": 245
+    },
+    {
+      "id": 2004,
+      "target_name": "Mị Hoặc Lâm",
+      "target_map_id": 56,
+      "x": 1882,
+      "y": 474,
+      "dest_x": 770,
+      "dest_y": 245
+    },
+    {
+      "id": 2005,
+      "target_name": "Mị Hoặc Lâm",
+      "target_map_id": 56,
+      "x": 955,
+      "y": 1543,
+      "dest_x": 770,
+      "dest_y": 245
+    },
+    {
+      "id": 2006,
+      "target_name": "Mị Hoặc Lâm",
+      "target_map_id": 56,
+      "x": 76,
+      "y": 924,
+      "dest_x": 770,
+      "dest_y": 245
+    },
+    {
+      "id": 2007,
+      "target_name": "Mị Hoặc Lâm",
+      "target_map_id": 56,
+      "x": 330,
+      "y": 887,
+      "dest_x": 770,
+      "dest_y": 245
+    },
+    {
+      "id": 2008,
+      "target_name": "Mị Hoặc Lâm",
+      "target_map_id": 56,
+      "x": 1678,
+      "y": 706,
+      "dest_x": 770,
+      "dest_y": 245
+    },
+    {
+      "id": 2009,
+      "target_name": "Mị Hoặc Lâm",
+      "target_map_id": 56,
+      "x": 1996,
+      "y": 329,
+      "dest_x": 770,
+      "dest_y": 245
+    },
+    {
+      "id": 2010,
+      "target_name": "Điêu Linh Thôn",
+      "target_map_id": 55,
+      "x": 229,
+      "y": 66,
+      "dest_x": 800,
+      "dest_y": 180
+    }
+  ],
+  "creatures_count": 4
+}

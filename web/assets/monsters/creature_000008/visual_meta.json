@@ -1,0 +1,48 @@
+{
+  "name": "Cát Hải Tinh",
+  "anchor": [
+    0.5,
+    0.8174
+  ],
+  "width": 118,
+  "height": 115,
+  "bbox": [
+    22,
+    18,
+    140,
+    133
+  ],
+  "total_unique_bitmaps": 20,
+  "animations_count": 64,
+  "total_animation_frames": 704,
+  "actions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "directions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "atlas_size_kb": 54.0,
+  "atlas_dimensions": [
+    1024,
+    512
+  ],
+  "id": "creature_000008",
+  "db_id": "8",
+  "res_code_num": 8,
+  "swf_hash": "3baf38e7f8f05a0580834e945923caec",
+  "feet_y": 94
+}

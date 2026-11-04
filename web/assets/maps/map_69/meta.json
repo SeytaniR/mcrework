@@ -1,0 +1,21 @@
+{
+  "id": 69,
+  "name": "Phụ Bản Quỷ Hút Máu",
+  "info": "Nơi hoang sơ cuối đường chân trời đỏ thẳm, hoang vu, chỉ còn tiếng gió rít hàng đêm. Nơi này hầu như đã bị chìm vào dĩ vãng của lịch sử. Thích hợp cho cấp độ từ 110 - 115.",
+  "level": 100,
+  "width": 2200,
+  "height": 1650,
+  "col_width": 2281,
+  "col_height": 1720,
+  "has_collision": true,
+  "safe_x": 1100,
+  "safe_y": 980,
+  "continent": 2,
+  "world_x": null,
+  "world_y": null,
+  "bg_image": "assets/maps/map_69/bg.jpg",
+  "thumb": "assets/maps/map_69/thumb.webp",
+  "collision_bin": "assets/maps/map_69/collision.bin",
+  "portals": [],
+  "creatures_count": 4
+}

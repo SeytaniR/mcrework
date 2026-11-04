@@ -1,0 +1,48 @@
+{
+  "name": "Phản Quân Đại Tướng",
+  "anchor": [
+    0.5,
+    0.9185
+  ],
+  "width": 208,
+  "height": 135,
+  "bbox": [
+    11,
+    0,
+    219,
+    135
+  ],
+  "total_unique_bitmaps": 20,
+  "animations_count": 57,
+  "total_animation_frames": 617,
+  "actions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "directions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "atlas_size_kb": 77.3,
+  "atlas_dimensions": [
+    1024,
+    1024
+  ],
+  "id": "creature_001071",
+  "db_id": "477",
+  "res_code_num": 1071,
+  "swf_hash": "9ffcd015f20c3733a334df67636ed8da",
+  "feet_y": 124
+}

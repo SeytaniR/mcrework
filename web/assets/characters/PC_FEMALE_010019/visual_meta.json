@@ -1,0 +1,52 @@
+{
+  "name": "Traje Festivo Celebração (F)",
+  "anchor": [
+    0.5,
+    1.0
+  ],
+  "width": 352,
+  "height": 303,
+  "bbox": [
+    49,
+    70,
+    401,
+    373
+  ],
+  "total_unique_bitmaps": 161,
+  "animations_count": 88,
+  "total_animation_frames": 1304,
+  "actions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "directions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "atlas_size_kb": 1447.1,
+  "atlas_dimensions": [
+    8192,
+    4096
+  ],
+  "id": "PC_FEMALE_010019",
+  "gender": "FEMALE",
+  "tier": "costume",
+  "res_code_num": 10019,
+  "swf_hash": "eed03acac02489c26f2e694a2b86f1d1",
+  "feet_y": 303
+}

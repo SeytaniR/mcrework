@@ -1,0 +1,47 @@
+{
+  "name": "Nguyệt Dạ Hổ (Tigre da Noite Lunar)",
+  "anchor": [
+    0.5,
+    0.8273
+  ],
+  "width": 95,
+  "height": 110,
+  "bbox": [
+    62,
+    41,
+    157,
+    151
+  ],
+  "total_unique_bitmaps": 32,
+  "animations_count": 56,
+  "total_animation_frames": 616,
+  "actions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "directions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "atlas_size_kb": 91.9,
+  "atlas_dimensions": [
+    1024,
+    512
+  ],
+  "id": "mount_f_000002",
+  "rel": "creature/PC_FEMALE_100002.swf",
+  "type": "female_mount",
+  "mount_tier": 2,
+  "feet_y": 91
+}

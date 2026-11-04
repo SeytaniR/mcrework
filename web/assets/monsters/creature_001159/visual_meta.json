@@ -1,0 +1,48 @@
+{
+  "name": "Giáp Chiến Thần",
+  "anchor": [
+    0.5,
+    0.874
+  ],
+  "width": 252,
+  "height": 254,
+  "bbox": [
+    111,
+    51,
+    363,
+    305
+  ],
+  "total_unique_bitmaps": 18,
+  "animations_count": 64,
+  "total_animation_frames": 704,
+  "actions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "directions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "atlas_size_kb": 161.8,
+  "atlas_dimensions": [
+    2048,
+    1024
+  ],
+  "id": "creature_001159",
+  "db_id": "1123",
+  "res_code_num": 1159,
+  "swf_hash": "e456facee2f5316c86e2f9416e7a006f",
+  "feet_y": 222
+}

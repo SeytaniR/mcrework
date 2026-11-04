@@ -1,0 +1,48 @@
+{
+  "name": "Atula Vương",
+  "anchor": [
+    0.5,
+    0.7778
+  ],
+  "width": 143,
+  "height": 198,
+  "bbox": [
+    77,
+    7,
+    220,
+    205
+  ],
+  "total_unique_bitmaps": 18,
+  "animations_count": 64,
+  "total_animation_frames": 704,
+  "actions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "directions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "atlas_size_kb": 89.6,
+  "atlas_dimensions": [
+    1024,
+    1024
+  ],
+  "id": "creature_001124",
+  "db_id": "786",
+  "res_code_num": 1124,
+  "swf_hash": "7363e9d0939e81b8043c520d946f3b79",
+  "feet_y": 154
+}

@@ -1,0 +1,67 @@
+{
+  "id": 22,
+  "name": "Tuyết Lâm",
+  "info": "Vùng đất tuyết phủ nhưng không kém phần tươi đẹp nhờ vào rừng hoa đỏ tươi rực rỡ. Thích hợp cho cấp độ từ 81 - 85.",
+  "level": 75,
+  "width": 3000,
+  "height": 2000,
+  "col_width": 3076,
+  "col_height": 2095,
+  "has_collision": true,
+  "safe_x": 1900,
+  "safe_y": 700,
+  "continent": 1,
+  "world_x": 563,
+  "world_y": 422,
+  "bg_image": "assets/maps/map_22/bg.jpg",
+  "thumb": "assets/maps/map_22/thumb.webp",
+  "collision_bin": "assets/maps/map_22/collision.bin",
+  "portals": [
+    {
+      "id": 2036,
+      "target_name": "Tuyết Lâm",
+      "target_map_id": 22,
+      "x": 827,
+      "y": 870,
+      "dest_x": 1900,
+      "dest_y": 700
+    },
+    {
+      "id": 2037,
+      "target_name": "Tuyết Lâm",
+      "target_map_id": 22,
+      "x": 1240,
+      "y": 792,
+      "dest_x": 1900,
+      "dest_y": 700
+    },
+    {
+      "id": 2038,
+      "target_name": "Tuyết Lâm",
+      "target_map_id": 22,
+      "x": 726,
+      "y": 982,
+      "dest_x": 1900,
+      "dest_y": 700
+    },
+    {
+      "id": 1458,
+      "target_name": "Băng Tuyết Nguyên",
+      "target_map_id": 35,
+      "x": 2791,
+      "y": 56,
+      "dest_x": 2000,
+      "dest_y": 250
+    },
+    {
+      "id": 1958,
+      "target_name": "Đoạn Cốc",
+      "target_map_id": 43,
+      "x": 2783,
+      "y": 1771,
+      "dest_x": 1430,
+      "dest_y": 1050
+    }
+  ],
+  "creatures_count": 0
+}

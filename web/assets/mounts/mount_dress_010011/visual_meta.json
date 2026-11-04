@@ -1,0 +1,51 @@
+{
+  "name": "Hàn Sương Thiểm Điện (Relâmpago Congelante)",
+  "anchor": [
+    0.5,
+    1.0
+  ],
+  "width": 345,
+  "height": 315,
+  "bbox": [
+    56,
+    58,
+    401,
+    373
+  ],
+  "total_unique_bitmaps": 97,
+  "animations_count": 88,
+  "total_animation_frames": 1304,
+  "actions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "directions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "atlas_size_kb": 1339.4,
+  "atlas_dimensions": [
+    4096,
+    4096
+  ],
+  "id": "mount_dress_010011",
+  "rel": "creature/PC_FEMALE_010011.swf",
+  "type": "divine_mount",
+  "mount_tier": 7,
+  "feet_y": 315
+}

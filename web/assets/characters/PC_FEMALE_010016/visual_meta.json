@@ -1,0 +1,52 @@
+{
+  "name": "Traje Angelical com Asas Divinas (F)",
+  "anchor": [
+    0.5,
+    0.9326
+  ],
+  "width": 463,
+  "height": 267,
+  "bbox": [
+    23,
+    124,
+    486,
+    391
+  ],
+  "total_unique_bitmaps": 161,
+  "animations_count": 88,
+  "total_animation_frames": 1304,
+  "actions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "directions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "atlas_size_kb": 2217.3,
+  "atlas_dimensions": [
+    8192,
+    4096
+  ],
+  "id": "PC_FEMALE_010016",
+  "gender": "FEMALE",
+  "tier": "costume",
+  "res_code_num": 10016,
+  "swf_hash": "00c35df982abeb019e69f3264b484b1a",
+  "feet_y": 249
+}

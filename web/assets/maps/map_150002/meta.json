@@ -1,0 +1,21 @@
+{
+  "id": 150002,
+  "name": "Trả Lời Ăn Ý",
+  "info": "NULL",
+  "level": 1,
+  "width": 1985,
+  "height": 1230,
+  "col_width": 1985,
+  "col_height": 1230,
+  "has_collision": true,
+  "safe_x": 1460,
+  "safe_y": 540,
+  "continent": 2,
+  "world_x": null,
+  "world_y": null,
+  "bg_image": "assets/maps/map_150002/bg.jpg",
+  "thumb": "assets/maps/map_150002/thumb.webp",
+  "collision_bin": "assets/maps/map_150002/collision.bin",
+  "portals": [],
+  "creatures_count": 0
+}

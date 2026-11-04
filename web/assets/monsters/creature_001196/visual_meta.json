@@ -1,0 +1,48 @@
+{
+  "name": "Giáp Binh Liên Quân ",
+  "anchor": [
+    0.5,
+    0.8333
+  ],
+  "width": 178,
+  "height": 120,
+  "bbox": [
+    81,
+    96,
+    259,
+    216
+  ],
+  "total_unique_bitmaps": 68,
+  "animations_count": 64,
+  "total_animation_frames": 704,
+  "actions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "directions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "atlas_size_kb": 189.7,
+  "atlas_dimensions": [
+    2048,
+    1024
+  ],
+  "id": "creature_001196",
+  "db_id": "1864",
+  "res_code_num": 1196,
+  "swf_hash": "3309cf09a621a44ceac2adbf1ab79f6a",
+  "feet_y": 100
+}

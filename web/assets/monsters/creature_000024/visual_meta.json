@@ -1,0 +1,48 @@
+{
+  "name": "Bà Ngoại Sói",
+  "anchor": [
+    0.5,
+    0.8451
+  ],
+  "width": 128,
+  "height": 142,
+  "bbox": [
+    14,
+    5,
+    142,
+    147
+  ],
+  "total_unique_bitmaps": 20,
+  "animations_count": 64,
+  "total_animation_frames": 704,
+  "actions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "directions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "atlas_size_kb": 95.9,
+  "atlas_dimensions": [
+    1024,
+    512
+  ],
+  "id": "creature_000024",
+  "db_id": "72",
+  "res_code_num": 24,
+  "swf_hash": "11e324a651fb6d1fe82e83323b8abb7a",
+  "feet_y": 120
+}

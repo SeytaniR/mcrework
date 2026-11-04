@@ -1,0 +1,48 @@
+{
+  "name": "Nội Tháp Ác Ma",
+  "anchor": [
+    0.5,
+    1.0
+  ],
+  "width": 493,
+  "height": 512,
+  "bbox": [
+    0,
+    0,
+    493,
+    512
+  ],
+  "total_unique_bitmaps": 7,
+  "animations_count": 64,
+  "total_animation_frames": 704,
+  "actions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "directions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "atlas_size_kb": 196.1,
+  "atlas_dimensions": [
+    2048,
+    2048
+  ],
+  "id": "creature_001223",
+  "db_id": "1863",
+  "res_code_num": 1223,
+  "swf_hash": "0fb3333e3c911963f14d0e579240b60d",
+  "feet_y": 512
+}

@@ -1,0 +1,31 @@
+{
+  "id": 1,
+  "name": "Xuất Vân Thôn",
+  "info": "Thôn nhỏ yên tĩnh nằm giữa đồi núi và đồng bằng phía tây đại lục, tương truyền là nơi khởi nguồn văn minh Đại Lục Vô Ưu.",
+  "level": 1,
+  "width": 2000,
+  "height": 1500,
+  "col_width": 2031,
+  "col_height": 1530,
+  "has_collision": true,
+  "safe_x": 1000,
+  "safe_y": 1000,
+  "continent": 1,
+  "world_x": 342,
+  "world_y": 185,
+  "bg_image": "assets/maps/map_1/bg.jpg",
+  "thumb": "assets/maps/map_1/thumb.webp",
+  "collision_bin": "assets/maps/map_1/collision.bin",
+  "portals": [
+    {
+      "id": 732,
+      "target_name": "Đông Xuất Vân",
+      "target_map_id": 2,
+      "x": 1649,
+      "y": 1306,
+      "dest_x": 2000,
+      "dest_y": 900
+    }
+  ],
+  "creatures_count": 0
+}

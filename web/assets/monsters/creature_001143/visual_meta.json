@@ -1,0 +1,48 @@
+{
+  "name": "Cáo Đen Tuyết Nguyên",
+  "anchor": [
+    0.5,
+    0.7765
+  ],
+  "width": 132,
+  "height": 85,
+  "bbox": [
+    25,
+    48,
+    157,
+    133
+  ],
+  "total_unique_bitmaps": 18,
+  "animations_count": 64,
+  "total_animation_frames": 704,
+  "actions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "directions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "atlas_size_kb": 40.3,
+  "atlas_dimensions": [
+    1024,
+    512
+  ],
+  "id": "creature_001143",
+  "db_id": "999",
+  "res_code_num": 1143,
+  "swf_hash": "b482bdb63dd4cb8ce35551e5cdd2b05b",
+  "feet_y": 66
+}

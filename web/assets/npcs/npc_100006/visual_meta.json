@@ -1,0 +1,46 @@
+{
+  "name": "NPC 100006",
+  "anchor": [
+    0.5,
+    1.0
+  ],
+  "width": 64,
+  "height": 55,
+  "bbox": [
+    8,
+    2,
+    72,
+    57
+  ],
+  "total_unique_bitmaps": 3,
+  "animations_count": 64,
+  "total_animation_frames": 704,
+  "actions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "directions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "atlas_size_kb": 5.8,
+  "atlas_dimensions": [
+    256,
+    256
+  ],
+  "res_path": "creature/NPC_FUNC_100006.swf",
+  "res_code_num": 100006,
+  "type": "npc"
+}

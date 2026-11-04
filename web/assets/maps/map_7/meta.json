@@ -1,0 +1,49 @@
+{
+  "id": 7,
+  "name": "Quân Cổ Đạo",
+  "info": "Nơi ở của thánh hiền quân tử, giúp rèn luyện tính khiêm tốn học hỏi, kiên cường bất khuất. Thích hợp cho cấp độ từ 81- 85.",
+  "level": 75,
+  "width": 2200,
+  "height": 1700,
+  "col_width": 2279,
+  "col_height": 1768,
+  "has_collision": true,
+  "safe_x": 721,
+  "safe_y": 486,
+  "continent": 1,
+  "world_x": 393,
+  "world_y": 355,
+  "bg_image": "assets/maps/map_7/bg.jpg",
+  "thumb": "assets/maps/map_7/thumb.webp",
+  "collision_bin": "assets/maps/map_7/collision.bin",
+  "portals": [
+    {
+      "id": 752,
+      "target_name": "Ngọc Phong Lâm",
+      "target_map_id": 16,
+      "x": 175,
+      "y": 22,
+      "dest_x": 1600,
+      "dest_y": 500
+    },
+    {
+      "id": 753,
+      "target_name": "Kỳ Thạch Địa",
+      "target_map_id": 18,
+      "x": 1916,
+      "y": 13,
+      "dest_x": 1351,
+      "dest_y": 1013
+    },
+    {
+      "id": 754,
+      "target_name": "Linh Lan",
+      "target_map_id": 19,
+      "x": 21,
+      "y": 1108,
+      "dest_x": 900,
+      "dest_y": 300
+    }
+  ],
+  "creatures_count": 0
+}

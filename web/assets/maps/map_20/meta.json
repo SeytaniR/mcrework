@@ -1,0 +1,40 @@
+{
+  "id": 20,
+  "name": "Thánh Ước Địa",
+  "info": "Nơi hẹn ước của công chúa và hoàng tử, giờ đây trở thành nơi hẹn ước của các đôi yêu nhau. Thích hợp cho cấp độ từ 116 - 120.",
+  "level": 105,
+  "width": 2400,
+  "height": 1800,
+  "col_width": 2416,
+  "col_height": 1817,
+  "has_collision": true,
+  "safe_x": 600,
+  "safe_y": 1200,
+  "continent": 1,
+  "world_x": 380,
+  "world_y": 459,
+  "bg_image": "assets/maps/map_20/bg.jpg",
+  "thumb": "assets/maps/map_20/thumb.webp",
+  "collision_bin": "assets/maps/map_20/collision.bin",
+  "portals": [
+    {
+      "id": 1841,
+      "target_name": "Thần Di Cảnh",
+      "target_map_id": 36,
+      "x": 47,
+      "y": 1307,
+      "dest_x": 1000,
+      "dest_y": 160
+    },
+    {
+      "id": 1842,
+      "target_name": "Quyến Cố Thành",
+      "target_map_id": 30,
+      "x": 1796,
+      "y": 163,
+      "dest_x": 800,
+      "dest_y": 1400
+    }
+  ],
+  "creatures_count": 0
+}

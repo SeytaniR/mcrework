@@ -1,0 +1,31 @@
+{
+  "id": 50,
+  "name": "Khoáng Động",
+  "info": "NULL",
+  "level": 60,
+  "width": 3000,
+  "height": 2000,
+  "col_width": 3133,
+  "col_height": 2115,
+  "has_collision": true,
+  "safe_x": 640,
+  "safe_y": 1900,
+  "continent": 1,
+  "world_x": null,
+  "world_y": null,
+  "bg_image": "assets/maps/map_50/bg.jpg",
+  "thumb": "assets/maps/map_50/thumb.webp",
+  "collision_bin": "assets/maps/map_50/collision.bin",
+  "portals": [
+    {
+      "id": 730,
+      "target_name": "Đông Huyền Thành",
+      "target_map_id": 9,
+      "x": 405,
+      "y": 1849,
+      "dest_x": 2057,
+      "dest_y": 1309
+    }
+  ],
+  "creatures_count": 2
+}

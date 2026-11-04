@@ -1,0 +1,31 @@
+{
+  "id": 61,
+  "name": "Tử Tức Đảo",
+  "info": "Hòn đảo sương mù vây quanh, chỉ nhìn thấy ánh sáng từ các tảng đá khổng lồ bí ẩn. Thích hợp cho cấp độ 100-105.",
+  "level": 100,
+  "width": 3000,
+  "height": 2000,
+  "col_width": 3077,
+  "col_height": 2064,
+  "has_collision": true,
+  "safe_x": 230,
+  "safe_y": 300,
+  "continent": 2,
+  "world_x": 296,
+  "world_y": 449,
+  "bg_image": "assets/maps/map_61/bg.jpg",
+  "thumb": "assets/maps/map_61/thumb.webp",
+  "collision_bin": "assets/maps/map_61/collision.bin",
+  "portals": [
+    {
+      "id": 3410,
+      "target_name": "Vĩnh Dạ Cảng",
+      "target_map_id": 67,
+      "x": 2789,
+      "y": 173,
+      "dest_x": 1460,
+      "dest_y": 220
+    }
+  ],
+  "creatures_count": 4
+}

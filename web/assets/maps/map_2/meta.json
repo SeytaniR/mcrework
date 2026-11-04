@@ -1,0 +1,40 @@
+{
+  "id": 2,
+  "name": "Đông Xuất Vân",
+  "info": "Vùng ngoại ô Xuất Vân dẫn đến Đông Huyền, là nơi săn bắn và luyện tập thích hợp cho cấp 6 - 10.",
+  "level": 5,
+  "width": 2400,
+  "height": 1600,
+  "col_width": 2450,
+  "col_height": 1649,
+  "has_collision": true,
+  "safe_x": 2000,
+  "safe_y": 900,
+  "continent": 1,
+  "world_x": 396,
+  "world_y": 212,
+  "bg_image": "assets/maps/map_2/bg.jpg",
+  "thumb": "assets/maps/map_2/thumb.webp",
+  "collision_bin": "assets/maps/map_2/collision.bin",
+  "portals": [
+    {
+      "id": 733,
+      "target_name": "Xuất Vân Thôn",
+      "target_map_id": 1,
+      "x": 120,
+      "y": 63,
+      "dest_x": 1000,
+      "dest_y": 1000
+    },
+    {
+      "id": 734,
+      "target_name": "Đông Huyền Thành",
+      "target_map_id": 9,
+      "x": 107,
+      "y": 1368,
+      "dest_x": 2057,
+      "dest_y": 1309
+    }
+  ],
+  "creatures_count": 9
+}

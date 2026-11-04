@@ -1,0 +1,49 @@
+{
+  "id": 9,
+  "name": "Đông Huyền Thành",
+  "info": "Thành phố nằm ngay giữa đại lục, là trung tâm hành chính, văn hóa, giao thông của đại lục.",
+  "level": 10,
+  "width": 4000,
+  "height": 2745,
+  "col_width": 4141,
+  "col_height": 2904,
+  "has_collision": true,
+  "safe_x": 2057,
+  "safe_y": 1309,
+  "continent": 1,
+  "world_x": 440,
+  "world_y": 228,
+  "bg_image": "assets/maps/map_9/bg.jpg",
+  "thumb": "assets/maps/map_9/thumb.webp",
+  "collision_bin": "assets/maps/map_9/collision.bin",
+  "portals": [
+    {
+      "id": 1455,
+      "target_name": "Cảnh Kỹ Trường",
+      "target_map_id": null,
+      "x": 256,
+      "y": 957,
+      "dest_x": null,
+      "dest_y": null
+    },
+    {
+      "id": 736,
+      "target_name": "Lê Dương Bắc",
+      "target_map_id": 15,
+      "x": 66,
+      "y": 2379,
+      "dest_x": 1126,
+      "dest_y": 760
+    },
+    {
+      "id": 922,
+      "target_name": "Đông Xuất Vân",
+      "target_map_id": 2,
+      "x": 2931,
+      "y": 1,
+      "dest_x": 2000,
+      "dest_y": 900
+    }
+  ],
+  "creatures_count": 0
+}

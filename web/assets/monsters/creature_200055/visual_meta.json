@@ -1,0 +1,48 @@
+{
+  "name": "Hi Thú Phù test",
+  "anchor": [
+    0.5,
+    0.8712
+  ],
+  "width": 130,
+  "height": 132,
+  "bbox": [
+    48,
+    25,
+    178,
+    157
+  ],
+  "total_unique_bitmaps": 18,
+  "animations_count": 64,
+  "total_animation_frames": 695,
+  "actions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "directions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "atlas_size_kb": 91.3,
+  "atlas_dimensions": [
+    1024,
+    512
+  ],
+  "id": "creature_200055",
+  "db_id": "858",
+  "res_code_num": 200055,
+  "swf_hash": "5674aa90756e683a6f2ca139a169972c",
+  "feet_y": 115
+}

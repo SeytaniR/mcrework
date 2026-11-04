@@ -1,0 +1,31 @@
+{
+  "id": 25,
+  "name": "Lưu Hỏa Tộc",
+  "info": "Tộc Lưu Hỏa nằm ở phía bắc đại lục, được thừa kế di sản về võ thuật do cổ nhân lưu truyền.",
+  "level": 10,
+  "width": 2400,
+  "height": 1800,
+  "col_width": 2468,
+  "col_height": 1887,
+  "has_collision": true,
+  "safe_x": 1690,
+  "safe_y": 1110,
+  "continent": 1,
+  "world_x": 454,
+  "world_y": 154,
+  "bg_image": "assets/maps/map_25/bg.jpg",
+  "thumb": "assets/maps/map_25/thumb.webp",
+  "collision_bin": "assets/maps/map_25/collision.bin",
+  "portals": [
+    {
+      "id": 767,
+      "target_name": "Quang Bình Nguyên",
+      "target_map_id": 26,
+      "x": 2103,
+      "y": 1493,
+      "dest_x": 1300,
+      "dest_y": 1500
+    }
+  ],
+  "creatures_count": 0
+}
