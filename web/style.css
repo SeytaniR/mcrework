@@ -2636,3 +2636,57 @@ body, html {
   padding: 1px 6px;
   border-radius: 4px;
 }
+
+/* Estilos da Arma Empunhada no Personagem */
+.btn-weapon-equip {
+  padding: 3px 8px;
+  font-size: 10px;
+  font-weight: 700;
+  border-radius: 12px;
+  cursor: pointer;
+  background: rgba(136, 192, 208, 0.15);
+  color: #88c0d0;
+  border: 1px solid rgba(136, 192, 208, 0.4);
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+}
+.btn-weapon-equip:hover {
+  background: rgba(136, 192, 208, 0.35);
+  border-color: #88c0d0;
+  transform: translateY(-1px);
+}
+.btn-weapon-equip.active {
+  background: linear-gradient(135deg, rgba(163, 190, 140, 0.35), rgba(163, 190, 140, 0.15));
+  color: #a3be8c;
+  border-color: #a3be8c;
+  box-shadow: 0 0 8px rgba(163, 190, 140, 0.4);
+}
+.btn-weapon-equip.active:hover {
+  background: rgba(191, 97, 106, 0.25);
+  color: #bf616a;
+  border-color: #bf616a;
+}
+.toast-weapon-equip {
+  position: fixed;
+  bottom: 80px;
+  left: 50%;
+  transform: translateX(-50%) translateY(20px);
+  background: rgba(20, 26, 40, 0.95);
+  border: 1px solid #ebcb8b;
+  color: #eceff4;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6), 0 0 10px rgba(235, 203, 139, 0.3);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  z-index: 10000;
+}
+.toast-weapon-equip.show {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}

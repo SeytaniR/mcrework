@@ -60177,7 +60177,11 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_110001.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_MC1_000001.swf"
+      "model_swf": "equip/EQUIP_MC1_000001.swf",
+      "model_id": "equip_mc1_000001",
+      "model_rel": "equip/EQUIP_MC1_000001.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc1_000001"
     },
     {
       "id": 201,
@@ -60216,7 +60220,11 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_120001.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_FC2_000001.swf"
+      "model_swf": "equip/EQUIP_FC2_000001.swf",
+      "model_id": "equip_mc2_000001",
+      "model_rel": "equip/EQUIP_MC2_000001.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc2_000001"
     },
     {
       "id": 202,
@@ -60255,7 +60263,11 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_160001.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_MC6_000001.swf"
+      "model_swf": "equip/EQUIP_MC6_000001.swf",
+      "model_id": "equip_mc6_000001",
+      "model_rel": "equip/EQUIP_MC6_000001.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc6_000001"
     },
     {
       "id": 203,
@@ -60294,7 +60306,11 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_060100.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc3_000001",
+      "model_rel": "equip/EQUIP_MC3_000001.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc3_000001"
     },
     {
       "id": 204,
@@ -60333,7 +60349,11 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_030100.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_MC5_000001.swf"
+      "model_swf": "equip/EQUIP_MC5_000001.swf",
+      "model_id": "equip_mc5_000001",
+      "model_rel": "equip/EQUIP_MC5_000001.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc5_000001"
     },
     {
       "id": 208,
@@ -60372,7 +60392,11 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_050100.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc4_000000",
+      "model_rel": "equip/EQUIP_MC4_000000.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc4_000000"
     },
     {
       "id": 14,
@@ -60416,7 +60440,11 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_060101.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc3_000002",
+      "model_rel": "equip/EQUIP_MC3_000002.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc3_000002"
     },
     {
       "id": 29,
@@ -60460,7 +60488,11 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_110002.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_MC1_000002.swf"
+      "model_swf": "equip/EQUIP_MC1_000002.swf",
+      "model_id": "equip_mc1_000002",
+      "model_rel": "equip/EQUIP_MC1_000002.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc1_000002"
     },
     {
       "id": 35,
@@ -60504,7 +60536,11 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_120002.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_FC2_000002.swf"
+      "model_swf": "equip/EQUIP_FC2_000002.swf",
+      "model_id": "equip_mc2_000002",
+      "model_rel": "equip/EQUIP_MC2_000002.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc2_000002"
     },
     {
       "id": 41,
@@ -60548,7 +60584,11 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_030101.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc5_000002",
+      "model_rel": "equip/EQUIP_MC5_000002.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc5_000002"
     },
     {
       "id": 134,
@@ -60592,7 +60632,11 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_050101.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc4_000001",
+      "model_rel": "equip/EQUIP_MC4_000001.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc4_000001"
     },
     {
       "id": 143,
@@ -60636,7 +60680,11 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_160002.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_FC6_000002.swf"
+      "model_swf": "equip/EQUIP_FC6_000002.swf",
+      "model_id": "equip_mc6_000002",
+      "model_rel": "equip/EQUIP_MC6_000002.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc6_000002"
     },
     {
       "id": 15,
@@ -60680,7 +60728,12 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_060102.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc3_000003",
+      "model_rel": "equip/EQUIP_MC3_000003.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc3_000003",
+      "is_fallback_model": true
     },
     {
       "id": 31,
@@ -60724,7 +60777,11 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_110003.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_MC1_000003.swf"
+      "model_swf": "equip/EQUIP_MC1_000003.swf",
+      "model_id": "equip_mc1_000003",
+      "model_rel": "equip/EQUIP_MC1_000003.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc1_000003"
     },
     {
       "id": 36,
@@ -60768,7 +60825,11 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_120003.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_FC2_000003.swf"
+      "model_swf": "equip/EQUIP_FC2_000003.swf",
+      "model_id": "equip_mc2_000003",
+      "model_rel": "equip/EQUIP_MC2_000003.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc2_000003"
     },
     {
       "id": 42,
@@ -60812,7 +60873,12 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_030106.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc5_000007",
+      "model_rel": "equip/EQUIP_MC5_000007.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc5_000007",
+      "is_fallback_model": true
     },
     {
       "id": 49,
@@ -60856,7 +60922,11 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_050102.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc4_000002",
+      "model_rel": "equip/EQUIP_MC4_000002.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc4_000002"
     },
     {
       "id": 144,
@@ -60900,7 +60970,12 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_160003.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_FC6_000003.swf"
+      "model_swf": "equip/EQUIP_FC6_000003.swf",
+      "model_id": "equip_mc6_000003",
+      "model_rel": "equip/EQUIP_MC6_000003.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc6_000003",
+      "is_fallback_model": true
     },
     {
       "id": 30,
@@ -60944,7 +61019,11 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_110004.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_MC1_000004.swf"
+      "model_swf": "equip/EQUIP_MC1_000004.swf",
+      "model_id": "equip_mc1_000004",
+      "model_rel": "equip/EQUIP_MC1_000004.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc1_000004"
     },
     {
       "id": 37,
@@ -60988,7 +61067,11 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_120004.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_FC2_000004.swf"
+      "model_swf": "equip/EQUIP_FC2_000004.swf",
+      "model_id": "equip_mc2_000004",
+      "model_rel": "equip/EQUIP_MC2_000004.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc2_000004"
     },
     {
       "id": 47,
@@ -61032,7 +61115,11 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_030102.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc5_000003",
+      "model_rel": "equip/EQUIP_MC5_000003.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc5_000003"
     },
     {
       "id": 135,
@@ -61076,7 +61163,11 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_050103.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc4_000003",
+      "model_rel": "equip/EQUIP_MC4_000003.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc4_000003"
     },
     {
       "id": 139,
@@ -61120,7 +61211,12 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_060103.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc3_000004",
+      "model_rel": "equip/EQUIP_MC3_000004.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc3_000004",
+      "is_fallback_model": true
     },
     {
       "id": 145,
@@ -61164,7 +61260,12 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_160004.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_FC6_000004.swf"
+      "model_swf": "equip/EQUIP_FC6_000004.swf",
+      "model_id": "equip_mc6_000004",
+      "model_rel": "equip/EQUIP_MC6_000004.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc6_000004",
+      "is_fallback_model": true
     },
     {
       "id": 32,
@@ -61208,7 +61309,11 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_110005.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_MC1_000005.swf"
+      "model_swf": "equip/EQUIP_MC1_000005.swf",
+      "model_id": "equip_mc1_000005",
+      "model_rel": "equip/EQUIP_MC1_000005.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc1_000005"
     },
     {
       "id": 38,
@@ -61252,7 +61357,12 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_120005.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_FC2_000005.swf"
+      "model_swf": "equip/EQUIP_FC2_000005.swf",
+      "model_id": "equip_mc2_000005",
+      "model_rel": "equip/EQUIP_MC2_000005.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc2_000005",
+      "is_fallback_model": true
     },
     {
       "id": 44,
@@ -61296,7 +61406,12 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_030103.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc5_000004",
+      "model_rel": "equip/EQUIP_MC5_000004.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc5_000004",
+      "is_fallback_model": true
     },
     {
       "id": 136,
@@ -61340,7 +61455,11 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_050104.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc4_000004",
+      "model_rel": "equip/EQUIP_MC4_000004.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc4_000004"
     },
     {
       "id": 140,
@@ -61384,7 +61503,12 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_060104.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc3_000005",
+      "model_rel": "equip/EQUIP_MC3_000005.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc3_000005",
+      "is_fallback_model": true
     },
     {
       "id": 146,
@@ -61428,7 +61552,12 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_160005.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_FC6_000005.swf"
+      "model_swf": "equip/EQUIP_FC6_000005.swf",
+      "model_id": "equip_mc6_000005",
+      "model_rel": "equip/EQUIP_MC6_000005.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc6_000005",
+      "is_fallback_model": true
     },
     {
       "id": 33,
@@ -61472,7 +61601,11 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_110006.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_MC1_000006.swf"
+      "model_swf": "equip/EQUIP_MC1_000006.swf",
+      "model_id": "equip_mc1_000006",
+      "model_rel": "equip/EQUIP_MC1_000006.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc1_000006"
     },
     {
       "id": 39,
@@ -61516,7 +61649,12 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_120006.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_FC2_000006.swf"
+      "model_swf": "equip/EQUIP_FC2_000006.swf",
+      "model_id": "equip_mc2_000006",
+      "model_rel": "equip/EQUIP_MC2_000006.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc2_000006",
+      "is_fallback_model": true
     },
     {
       "id": 46,
@@ -61560,7 +61698,12 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_030104.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc5_000005",
+      "model_rel": "equip/EQUIP_MC5_000005.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc5_000005",
+      "is_fallback_model": true
     },
     {
       "id": 137,
@@ -61604,7 +61747,11 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_050105.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc4_000005",
+      "model_rel": "equip/EQUIP_MC4_000005.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc4_000005"
     },
     {
       "id": 141,
@@ -61648,7 +61795,12 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_060105.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc3_000006",
+      "model_rel": "equip/EQUIP_MC3_000006.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc3_000006",
+      "is_fallback_model": true
     },
     {
       "id": 147,
@@ -61692,7 +61844,12 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_160006.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_FC6_000006.swf"
+      "model_swf": "equip/EQUIP_FC6_000006.swf",
+      "model_id": "equip_mc6_000006",
+      "model_rel": "equip/EQUIP_MC6_000006.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc6_000006",
+      "is_fallback_model": true
     },
     {
       "id": 1348,
@@ -61731,7 +61888,11 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_400101.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc1_000001",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc1_000001",
+      "is_fallback_model": true
     },
     {
       "id": 1349,
@@ -61770,7 +61931,11 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_400201.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc1_000001",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc1_000001",
+      "is_fallback_model": true
     },
     {
       "id": 1350,
@@ -61809,7 +61974,11 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_400301.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc1_000001",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc1_000001",
+      "is_fallback_model": true
     },
     {
       "id": 1351,
@@ -61848,7 +62017,11 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_400401.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc1_000001",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc1_000001",
+      "is_fallback_model": true
     },
     {
       "id": 1352,
@@ -61887,7 +62060,11 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_400601.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc1_000001",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc1_000001",
+      "is_fallback_model": true
     },
     {
       "id": 1353,
@@ -61926,7 +62103,11 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_400501.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc1_000001",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc1_000001",
+      "is_fallback_model": true
     },
     {
       "id": 1418,
@@ -61954,7 +62135,11 @@
       "stats": [],
       "icon": "assets/equipment/icons/equip_normal_410005.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc1_000001",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc1_000001",
+      "is_fallback_model": true
     },
     {
       "id": 1421,
@@ -61982,7 +62167,11 @@
       "stats": [],
       "icon": "assets/equipment/icons/equip_normal_410007.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc1_000001",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc1_000001",
+      "is_fallback_model": true
     },
     {
       "id": 1422,
@@ -62010,7 +62199,11 @@
       "stats": [],
       "icon": "assets/equipment/icons/equip_normal_410004.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc1_000001",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc1_000001",
+      "is_fallback_model": true
     },
     {
       "id": 1423,
@@ -62038,7 +62231,11 @@
       "stats": [],
       "icon": "assets/equipment/icons/equip_normal_410006.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc1_000001",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc1_000001",
+      "is_fallback_model": true
     },
     {
       "id": 1424,
@@ -62066,7 +62263,11 @@
       "stats": [],
       "icon": "assets/equipment/icons/equip_normal_410006.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc1_000001",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc1_000001",
+      "is_fallback_model": true
     },
     {
       "id": 1425,
@@ -62094,7 +62295,11 @@
       "stats": [],
       "icon": "assets/equipment/icons/equip_normal_410004.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc1_000001",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc1_000001",
+      "is_fallback_model": true
     },
     {
       "id": 1426,
@@ -62122,7 +62327,11 @@
       "stats": [],
       "icon": "assets/equipment/icons/equip_normal_410007.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc1_000001",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc1_000001",
+      "is_fallback_model": true
     },
     {
       "id": 1427,
@@ -62150,7 +62359,11 @@
       "stats": [],
       "icon": "assets/equipment/icons/equip_normal_410005.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc1_000001",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc1_000001",
+      "is_fallback_model": true
     },
     {
       "id": 1428,
@@ -62178,7 +62391,11 @@
       "stats": [],
       "icon": "assets/equipment/icons/equip_normal_410006.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc1_000001",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc1_000001",
+      "is_fallback_model": true
     },
     {
       "id": 1429,
@@ -62206,7 +62423,11 @@
       "stats": [],
       "icon": "assets/equipment/icons/equip_normal_410004.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc1_000001",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc1_000001",
+      "is_fallback_model": true
     },
     {
       "id": 1430,
@@ -62234,7 +62455,11 @@
       "stats": [],
       "icon": "assets/equipment/icons/equip_normal_410007.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc1_000001",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc1_000001",
+      "is_fallback_model": true
     },
     {
       "id": 1431,
@@ -62262,7 +62487,11 @@
       "stats": [],
       "icon": "assets/equipment/icons/equip_normal_410005.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc1_000001",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc1_000001",
+      "is_fallback_model": true
     },
     {
       "id": 1661,
@@ -62290,7 +62519,11 @@
       "stats": [],
       "icon": "assets/equipment/icons/equip_normal_410011.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc1_000001",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc1_000001",
+      "is_fallback_model": true
     },
     {
       "id": 1662,
@@ -62318,7 +62551,11 @@
       "stats": [],
       "icon": "assets/equipment/icons/equip_normal_410011.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc1_000001",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc1_000001",
+      "is_fallback_model": true
     },
     {
       "id": 1663,
@@ -62346,7 +62583,11 @@
       "stats": [],
       "icon": "assets/equipment/icons/equip_normal_410011.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc1_000001",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc1_000001",
+      "is_fallback_model": true
     },
     {
       "id": 34,
@@ -62390,7 +62631,11 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_110007.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_MC1_000007.swf"
+      "model_swf": "equip/EQUIP_MC1_000007.swf",
+      "model_id": "equip_mc1_000007",
+      "model_rel": "equip/EQUIP_MC1_000007.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc1_000007"
     },
     {
       "id": 40,
@@ -62434,7 +62679,12 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_120007.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_FC2_000007.swf"
+      "model_swf": "equip/EQUIP_FC2_000007.swf",
+      "model_id": "equip_mc2_000007",
+      "model_rel": "equip/EQUIP_MC2_000007.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc2_000007",
+      "is_fallback_model": true
     },
     {
       "id": 48,
@@ -62478,7 +62728,12 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_030105.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc5_000006",
+      "model_rel": "equip/EQUIP_MC5_000006.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc5_000006",
+      "is_fallback_model": true
     },
     {
       "id": 138,
@@ -62522,7 +62777,11 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_050106.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_MC4_000006.swf"
+      "model_swf": "equip/EQUIP_MC4_000006.swf",
+      "model_id": "equip_mc4_000006",
+      "model_rel": "equip/EQUIP_MC4_000006.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc4_000006"
     },
     {
       "id": 142,
@@ -62566,7 +62825,12 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_060106.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc3_000007",
+      "model_rel": "equip/EQUIP_MC3_000007.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc3_000007",
+      "is_fallback_model": true
     },
     {
       "id": 148,
@@ -62610,7 +62874,12 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_160007.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_FC6_000007.swf"
+      "model_swf": "equip/EQUIP_FC6_000007.swf",
+      "model_id": "equip_mc6_000007",
+      "model_rel": "equip/EQUIP_MC6_000007.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc6_000007",
+      "is_fallback_model": true
     },
     {
       "id": 189,
@@ -62654,7 +62923,12 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_050107.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_MC4_000007.swf"
+      "model_swf": "equip/EQUIP_MC4_000007.swf",
+      "model_id": "equip_mc4_000007",
+      "model_rel": "equip/EQUIP_MC4_000007.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc4_000007",
+      "is_fallback_model": true
     },
     {
       "id": 232,
@@ -62698,7 +62972,11 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_010108.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_FC1_000008.swf"
+      "model_swf": "equip/EQUIP_FC1_000008.swf",
+      "model_id": "equip_mc1_000008",
+      "model_rel": "equip/EQUIP_MC1_000008.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc1_000008"
     },
     {
       "id": 263,
@@ -62742,7 +63020,12 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_040108.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_FC2_000005.swf"
+      "model_swf": "equip/EQUIP_FC2_000005.swf",
+      "model_id": "equip_mc2_000008",
+      "model_rel": "equip/EQUIP_MC2_000008.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc2_000008",
+      "is_fallback_model": true
     },
     {
       "id": 294,
@@ -62786,7 +63069,12 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_020108.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_FC6_000005.swf"
+      "model_swf": "equip/EQUIP_FC6_000005.swf",
+      "model_id": "equip_mc6_000008",
+      "model_rel": "equip/EQUIP_MC6_000008.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc6_000008",
+      "is_fallback_model": true
     },
     {
       "id": 945,
@@ -62830,7 +63118,12 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_060108.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc3_000008",
+      "model_rel": "equip/EQUIP_MC3_000008.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc3_000008",
+      "is_fallback_model": true
     },
     {
       "id": 950,
@@ -62874,7 +63167,12 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_030107.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_MC5_000009.swf"
+      "model_swf": "equip/EQUIP_MC5_000009.swf",
+      "model_id": "equip_mc5_000009",
+      "model_rel": "equip/EQUIP_MC5_000009.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc5_000009",
+      "is_fallback_model": true
     },
     {
       "id": 197,
@@ -62918,7 +63216,12 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_050108.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_MC4_000008.swf"
+      "model_swf": "equip/EQUIP_MC4_000008.swf",
+      "model_id": "equip_mc4_000008",
+      "model_rel": "equip/EQUIP_MC4_000008.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc4_000008",
+      "is_fallback_model": true
     },
     {
       "id": 244,
@@ -62962,7 +63265,11 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_010109.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_MC1_000009.swf"
+      "model_swf": "equip/EQUIP_MC1_000009.swf",
+      "model_id": "equip_mc1_000009",
+      "model_rel": "equip/EQUIP_MC1_000009.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc1_000009"
     },
     {
       "id": 268,
@@ -63006,7 +63313,12 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_040109.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_FC2_000006.swf"
+      "model_swf": "equip/EQUIP_FC2_000006.swf",
+      "model_id": "equip_mc2_000009",
+      "model_rel": "equip/EQUIP_MC2_000009.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc2_000009",
+      "is_fallback_model": true
     },
     {
       "id": 299,
@@ -63050,7 +63362,12 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_020109.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_FC6_000006.swf"
+      "model_swf": "equip/EQUIP_FC6_000006.swf",
+      "model_id": "equip_mc6_000009",
+      "model_rel": "equip/EQUIP_MC6_000009.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc6_000009",
+      "is_fallback_model": true
     },
     {
       "id": 946,
@@ -63094,7 +63411,12 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_060107.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc3_000009",
+      "model_rel": "equip/EQUIP_MC3_000009.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc3_000009",
+      "is_fallback_model": true
     },
     {
       "id": 951,
@@ -63138,7 +63460,12 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_030108.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_MC5_000008.swf"
+      "model_swf": "equip/EQUIP_MC5_000008.swf",
+      "model_id": "equip_mc5_000008",
+      "model_rel": "equip/EQUIP_MC5_000008.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc5_000008",
+      "is_fallback_model": true
     },
     {
       "id": 198,
@@ -63182,7 +63509,12 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_050109.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc4_000010",
+      "model_rel": "equip/EQUIP_MC4_000010.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc4_000010",
+      "is_fallback_model": true
     },
     {
       "id": 236,
@@ -63226,7 +63558,11 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_010110.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_MC1_000010.swf"
+      "model_swf": "equip/EQUIP_MC1_000010.swf",
+      "model_id": "equip_mc1_000010",
+      "model_rel": "equip/EQUIP_MC1_000010.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc1_000010"
     },
     {
       "id": 273,
@@ -63270,7 +63606,12 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_040110.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_FC2_000007.swf"
+      "model_swf": "equip/EQUIP_FC2_000007.swf",
+      "model_id": "equip_mc2_000010",
+      "model_rel": "equip/EQUIP_MC2_000010.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc2_000010",
+      "is_fallback_model": true
     },
     {
       "id": 304,
@@ -63314,7 +63655,12 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_020110.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_FC6_000007.swf"
+      "model_swf": "equip/EQUIP_FC6_000007.swf",
+      "model_id": "equip_mc6_000010",
+      "model_rel": "equip/EQUIP_MC6_000010.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc6_000010",
+      "is_fallback_model": true
     },
     {
       "id": 947,
@@ -63358,7 +63704,12 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_060109.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc3_000010",
+      "model_rel": "equip/EQUIP_MC3_000010.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc3_000010",
+      "is_fallback_model": true
     },
     {
       "id": 952,
@@ -63402,7 +63753,12 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_030109.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_MC5_000010.swf"
+      "model_swf": "equip/EQUIP_MC5_000010.swf",
+      "model_id": "equip_mc5_000010",
+      "model_rel": "equip/EQUIP_MC5_000010.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc5_000010",
+      "is_fallback_model": true
     },
     {
       "id": 199,
@@ -63446,7 +63802,12 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_050110.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc4_000011",
+      "model_rel": "equip/EQUIP_MC4_000011.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc4_000011",
+      "is_fallback_model": true
     },
     {
       "id": 944,
@@ -63490,7 +63851,12 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_020111.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc6_000011",
+      "model_rel": "equip/EQUIP_MC6_000011.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc6_000011",
+      "is_fallback_model": true
     },
     {
       "id": 948,
@@ -63534,7 +63900,12 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_060110.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc3_000011",
+      "model_rel": "equip/EQUIP_MC3_000011.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc3_000011",
+      "is_fallback_model": true
     },
     {
       "id": 953,
@@ -63578,7 +63949,12 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_030110.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_MC5_000011.swf"
+      "model_swf": "equip/EQUIP_MC5_000011.swf",
+      "model_id": "equip_mc5_000011",
+      "model_rel": "equip/EQUIP_MC5_000011.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc5_000011",
+      "is_fallback_model": true
     },
     {
       "id": 954,
@@ -63622,7 +63998,12 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_040111.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc2_000011",
+      "model_rel": "equip/EQUIP_MC2_000011.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc2_000011",
+      "is_fallback_model": true
     },
     {
       "id": 955,
@@ -63666,7 +64047,11 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_010111.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_MC1_000010.swf"
+      "model_swf": "equip/EQUIP_MC1_000010.swf",
+      "model_id": "equip_mc1_000011",
+      "model_rel": "equip/EQUIP_MC1_000011.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc1_000011"
     },
     {
       "id": 1006,
@@ -63710,7 +64095,11 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_010112.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc1_000012",
+      "model_rel": "equip/EQUIP_MC1_000012.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc1_000012"
     },
     {
       "id": 1011,
@@ -63754,7 +64143,12 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_040112.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc2_000012",
+      "model_rel": "equip/EQUIP_MC2_000012.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc2_000012",
+      "is_fallback_model": true
     },
     {
       "id": 1012,
@@ -63798,7 +64192,12 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_060111.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc3_000012",
+      "model_rel": "equip/EQUIP_MC3_000012.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc3_000012",
+      "is_fallback_model": true
     },
     {
       "id": 1013,
@@ -63842,7 +64241,12 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_050111.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc4_000012",
+      "model_rel": "equip/EQUIP_MC4_000012.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc4_000012",
+      "is_fallback_model": true
     },
     {
       "id": 1014,
@@ -63886,7 +64290,12 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_030111.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc5_000012",
+      "model_rel": "equip/EQUIP_MC5_000012.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc5_000012",
+      "is_fallback_model": true
     },
     {
       "id": 1015,
@@ -63930,7 +64339,12 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_020112.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc6_000012",
+      "model_rel": "equip/EQUIP_MC6_000012.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc6_000012",
+      "is_fallback_model": true
     },
     {
       "id": 1067,
@@ -63974,7 +64388,11 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_010113.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc1_000013",
+      "model_rel": "equip/EQUIP_MC1_000013.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc1_000013"
     },
     {
       "id": 1068,
@@ -64018,7 +64436,12 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_040113.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc2_000013",
+      "model_rel": "equip/EQUIP_MC2_000013.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc2_000013",
+      "is_fallback_model": true
     },
     {
       "id": 1069,
@@ -64062,7 +64485,12 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_030112.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc5_000013",
+      "model_rel": "equip/EQUIP_MC5_000013.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc5_000013",
+      "is_fallback_model": true
     },
     {
       "id": 1070,
@@ -64106,7 +64534,12 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_050112.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc4_000013",
+      "model_rel": "equip/EQUIP_MC4_000013.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc4_000013",
+      "is_fallback_model": true
     },
     {
       "id": 1071,
@@ -64150,7 +64583,12 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_020113.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc6_000013",
+      "model_rel": "equip/EQUIP_MC6_000013.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc6_000013",
+      "is_fallback_model": true
     },
     {
       "id": 1072,
@@ -64194,7 +64632,12 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_060112.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc3_000013",
+      "model_rel": "equip/EQUIP_MC3_000013.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc3_000013",
+      "is_fallback_model": true
     },
     {
       "id": 1132,
@@ -64238,7 +64681,11 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_010114.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc1_000014",
+      "model_rel": "equip/EQUIP_MC1_000014.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc1_000014"
     },
     {
       "id": 1188,
@@ -64282,7 +64729,12 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_040114.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc2_000014",
+      "model_rel": "equip/EQUIP_MC2_000014.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc2_000014",
+      "is_fallback_model": true
     },
     {
       "id": 1189,
@@ -64326,7 +64778,12 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_030113.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc5_000014",
+      "model_rel": "equip/EQUIP_MC5_000014.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc5_000014",
+      "is_fallback_model": true
     },
     {
       "id": 1190,
@@ -64370,7 +64827,12 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_050113.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc4_000014",
+      "model_rel": "equip/EQUIP_MC4_000014.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc4_000014",
+      "is_fallback_model": true
     },
     {
       "id": 1191,
@@ -64414,7 +64876,12 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_020114.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc6_000014",
+      "model_rel": "equip/EQUIP_MC6_000014.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc6_000014",
+      "is_fallback_model": true
     },
     {
       "id": 1193,
@@ -64458,7 +64925,12 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_060113.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc3_000014",
+      "model_rel": "equip/EQUIP_MC3_000014.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc3_000014",
+      "is_fallback_model": true
     },
     {
       "id": 1362,
@@ -64502,7 +64974,11 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_010115.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc1_000015",
+      "model_rel": "equip/EQUIP_MC1_000015.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc1_000015"
     },
     {
       "id": 1363,
@@ -64546,7 +65022,12 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_040115.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc2_000015",
+      "model_rel": "equip/EQUIP_MC2_000015.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc2_000015",
+      "is_fallback_model": true
     },
     {
       "id": 1364,
@@ -64590,7 +65071,12 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_030114.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc5_000015",
+      "model_rel": "equip/EQUIP_MC5_000015.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc5_000015",
+      "is_fallback_model": true
     },
     {
       "id": 1365,
@@ -64634,7 +65120,12 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_050114.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc4_000015",
+      "model_rel": "equip/EQUIP_MC4_000015.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc4_000015",
+      "is_fallback_model": true
     },
     {
       "id": 1366,
@@ -64678,7 +65169,12 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_020115.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc6_000015",
+      "model_rel": "equip/EQUIP_MC6_000015.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc6_000015",
+      "is_fallback_model": true
     },
     {
       "id": 1367,
@@ -64722,7 +65218,12 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_060114.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc3_000015",
+      "model_rel": "equip/EQUIP_MC3_000015.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc3_000015",
+      "is_fallback_model": true
     },
     {
       "id": 1707,
@@ -64766,7 +65267,11 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_010116.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc1_000016",
+      "model_rel": "equip/EQUIP_MC1_000016.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc1_000016"
     },
     {
       "id": 1708,
@@ -64810,7 +65315,12 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_040116.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc2_000016",
+      "model_rel": "equip/EQUIP_MC2_000016.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc2_000016",
+      "is_fallback_model": true
     },
     {
       "id": 1709,
@@ -64854,7 +65364,12 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_030116.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc5_000016",
+      "model_rel": "equip/EQUIP_MC5_000016.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc5_000016",
+      "is_fallback_model": true
     },
     {
       "id": 1710,
@@ -64898,7 +65413,12 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_050116.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc4_000016",
+      "model_rel": "equip/EQUIP_MC4_000016.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc4_000016",
+      "is_fallback_model": true
     },
     {
       "id": 1711,
@@ -64942,7 +65462,12 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_020116.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc6_000016",
+      "model_rel": "equip/EQUIP_MC6_000016.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc6_000016",
+      "is_fallback_model": true
     },
     {
       "id": 1712,
@@ -64986,7 +65511,12 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_060116.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc3_000016",
+      "model_rel": "equip/EQUIP_MC3_000016.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc3_000016",
+      "is_fallback_model": true
     },
     {
       "id": 2142,
@@ -65030,7 +65560,11 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_010117.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc1_000016",
+      "model_rel": "equip/EQUIP_MC1_000016.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc1_000016"
     },
     {
       "id": 2143,
@@ -65074,7 +65608,12 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_040117.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc2_000016",
+      "model_rel": "equip/EQUIP_MC2_000016.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc2_000016",
+      "is_fallback_model": true
     },
     {
       "id": 2144,
@@ -65118,7 +65657,12 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_030117.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc5_000016",
+      "model_rel": "equip/EQUIP_MC5_000016.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc5_000016",
+      "is_fallback_model": true
     },
     {
       "id": 2145,
@@ -65162,7 +65706,12 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_050117.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc4_000016",
+      "model_rel": "equip/EQUIP_MC4_000016.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc4_000016",
+      "is_fallback_model": true
     },
     {
       "id": 2146,
@@ -65206,7 +65755,12 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_020117.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc6_000016",
+      "model_rel": "equip/EQUIP_MC6_000016.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc6_000016",
+      "is_fallback_model": true
     },
     {
       "id": 2147,
@@ -65250,7 +65804,12 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_060117.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_mc3_000016",
+      "model_rel": "equip/EQUIP_MC3_000016.swf",
+      "has_converted_model": true,
+      "active_weapon_model": "equip_mc3_000016",
+      "is_fallback_model": true
     },
     {
       "id": 1432,
@@ -65289,7 +65848,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_180051.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200042",
+      "model_rel": "creature/NPC_CRE_200042.swf"
     },
     {
       "id": 1433,
@@ -65328,7 +65889,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_180051.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200042",
+      "model_rel": "creature/NPC_CRE_200042.swf"
     },
     {
       "id": 1435,
@@ -65367,7 +65930,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_180053.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200044",
+      "model_rel": "creature/NPC_CRE_200044.swf"
     },
     {
       "id": 1436,
@@ -65406,7 +65971,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_180053.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200044",
+      "model_rel": "creature/NPC_CRE_200044.swf"
     },
     {
       "id": 1623,
@@ -65445,7 +66012,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_180345.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_001137",
+      "model_rel": "creature/NPC_CRE_001137.swf"
     },
     {
       "id": 1624,
@@ -65484,7 +66053,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_180345.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_001137",
+      "model_rel": "creature/NPC_CRE_001137.swf"
     },
     {
       "id": 1634,
@@ -65523,7 +66094,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_200052.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200052",
+      "model_rel": "creature/NPC_CRE_200052.swf"
     },
     {
       "id": 1635,
@@ -65562,7 +66135,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_200052.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200052",
+      "model_rel": "creature/NPC_CRE_200052.swf"
     },
     {
       "id": 1636,
@@ -65601,7 +66176,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_180179.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200062",
+      "model_rel": "creature/NPC_CRE_200062.swf"
     },
     {
       "id": 1637,
@@ -65640,7 +66217,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_180179.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200062",
+      "model_rel": "creature/NPC_CRE_200062.swf"
     },
     {
       "id": 1638,
@@ -65679,7 +66258,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_180306.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_001133",
+      "model_rel": "creature/NPC_CRE_001133.swf"
     },
     {
       "id": 1639,
@@ -65718,7 +66299,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_180306.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_001133",
+      "model_rel": "creature/NPC_CRE_001133.swf"
     },
     {
       "id": 1642,
@@ -65757,7 +66340,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_180053.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200044",
+      "model_rel": "creature/NPC_CRE_200044.swf"
     },
     {
       "id": 1658,
@@ -65796,7 +66381,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_180309.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_001131",
+      "model_rel": "creature/NPC_CRE_001131.swf"
     },
     {
       "id": 1659,
@@ -65835,7 +66422,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_180309.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_001131",
+      "model_rel": "creature/NPC_CRE_001131.swf"
     },
     {
       "id": 1660,
@@ -65874,7 +66463,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_180143.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200048",
+      "model_rel": "creature/NPC_CRE_200048.swf"
     },
     {
       "id": 1695,
@@ -65913,7 +66504,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_180384.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_001144",
+      "model_rel": "creature/NPC_CRE_001144.swf"
     },
     {
       "id": 1696,
@@ -65952,7 +66545,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_180384.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_001144",
+      "model_rel": "creature/NPC_CRE_001144.swf"
     },
     {
       "id": 1705,
@@ -65991,7 +66586,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_180408.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_001148",
+      "model_rel": "creature/NPC_CRE_001148.swf"
     },
     {
       "id": 1706,
@@ -66030,7 +66627,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_180408.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_001148",
+      "model_rel": "creature/NPC_CRE_001148.swf"
     },
     {
       "id": 1852,
@@ -66069,7 +66668,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_180507.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200068",
+      "model_rel": "creature/NPC_CRE_200068.swf"
     },
     {
       "id": 1853,
@@ -66108,7 +66709,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_180507.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200068",
+      "model_rel": "creature/NPC_CRE_200068.swf"
     },
     {
       "id": 1864,
@@ -66147,7 +66750,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_180541.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200070",
+      "model_rel": "creature/NPC_CRE_200070.swf"
     },
     {
       "id": 1865,
@@ -66186,7 +66791,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_180512.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200071",
+      "model_rel": "creature/NPC_CRE_200071.swf"
     },
     {
       "id": 1866,
@@ -66225,7 +66832,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_180513.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200072",
+      "model_rel": "creature/NPC_CRE_200072.swf"
     },
     {
       "id": 1906,
@@ -66264,7 +66873,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600007.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200077",
+      "model_rel": "creature/NPC_CRE_200077.swf"
     },
     {
       "id": 1907,
@@ -66303,7 +66914,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600007.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200077",
+      "model_rel": "creature/NPC_CRE_200077.swf"
     },
     {
       "id": 1910,
@@ -66342,7 +66955,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_180514.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200081",
+      "model_rel": "creature/NPC_CRE_200081.swf"
     },
     {
       "id": 1913,
@@ -66381,7 +66996,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_180542.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200084",
+      "model_rel": "creature/NPC_CRE_200084.swf"
     },
     {
       "id": 1914,
@@ -66420,7 +67037,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_180543.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200086",
+      "model_rel": "creature/NPC_CRE_200086.swf"
     },
     {
       "id": 1915,
@@ -66459,7 +67078,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_180544.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200088",
+      "model_rel": "creature/NPC_CRE_200088.swf"
     },
     {
       "id": 1916,
@@ -66498,7 +67119,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_180545.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200090",
+      "model_rel": "creature/NPC_CRE_200090.swf"
     },
     {
       "id": 1917,
@@ -66537,7 +67160,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_180546.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200092",
+      "model_rel": "creature/NPC_CRE_200092.swf"
     },
     {
       "id": 1918,
@@ -66576,7 +67201,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_180311.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200035",
+      "model_rel": "creature/NPC_CRE_200035.swf"
     },
     {
       "id": 1919,
@@ -66615,7 +67242,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_180544.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200088",
+      "model_rel": "creature/NPC_CRE_200088.swf"
     },
     {
       "id": 1920,
@@ -66654,7 +67283,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600010.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200125",
+      "model_rel": "creature/NPC_CRE_200125.swf"
     },
     {
       "id": 1921,
@@ -66693,7 +67324,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600011.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200126",
+      "model_rel": "creature/NPC_CRE_200126.swf"
     },
     {
       "id": 1924,
@@ -66732,7 +67365,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_180514.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200081",
+      "model_rel": "creature/NPC_CRE_200081.swf"
     },
     {
       "id": 1927,
@@ -66771,7 +67406,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_180513.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200072",
+      "model_rel": "creature/NPC_CRE_200072.swf"
     },
     {
       "id": 1929,
@@ -66810,7 +67447,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_180512.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200071",
+      "model_rel": "creature/NPC_CRE_200071.swf"
     },
     {
       "id": 1942,
@@ -66849,7 +67488,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600011.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200126",
+      "model_rel": "creature/NPC_CRE_200126.swf"
     },
     {
       "id": 1943,
@@ -66888,7 +67529,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600010.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200125",
+      "model_rel": "creature/NPC_CRE_200125.swf"
     },
     {
       "id": 1949,
@@ -66927,7 +67570,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600013.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200130",
+      "model_rel": "creature/NPC_CRE_200130.swf"
     },
     {
       "id": 1950,
@@ -66966,7 +67611,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600013.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200130",
+      "model_rel": "creature/NPC_CRE_200130.swf"
     },
     {
       "id": 1953,
@@ -67005,7 +67652,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600023.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200138",
+      "model_rel": "creature/NPC_CRE_200138.swf"
     },
     {
       "id": 1954,
@@ -67044,7 +67693,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600023.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200138",
+      "model_rel": "creature/NPC_CRE_200138.swf"
     },
     {
       "id": 1955,
@@ -67083,7 +67734,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600015.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200134",
+      "model_rel": "creature/NPC_CRE_200134.swf"
     },
     {
       "id": 1956,
@@ -67122,7 +67775,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600015.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200134",
+      "model_rel": "creature/NPC_CRE_200134.swf"
     },
     {
       "id": 1957,
@@ -67161,7 +67816,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600016.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200136",
+      "model_rel": "creature/NPC_CRE_200136.swf"
     },
     {
       "id": 1958,
@@ -67200,7 +67857,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600016.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200136",
+      "model_rel": "creature/NPC_CRE_200136.swf"
     },
     {
       "id": 1961,
@@ -67239,7 +67898,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_180051.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200042",
+      "model_rel": "creature/NPC_CRE_200042.swf"
     },
     {
       "id": 1962,
@@ -67278,7 +67939,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_200052.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200052",
+      "model_rel": "creature/NPC_CRE_200052.swf"
     },
     {
       "id": 1963,
@@ -67317,7 +67980,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_180408.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_001148",
+      "model_rel": "creature/NPC_CRE_001148.swf"
     },
     {
       "id": 1964,
@@ -67356,7 +68021,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_180345.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_001137",
+      "model_rel": "creature/NPC_CRE_001137.swf"
     },
     {
       "id": 1965,
@@ -67395,7 +68062,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600013.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200130",
+      "model_rel": "creature/NPC_CRE_200130.swf"
     },
     {
       "id": 1966,
@@ -67434,7 +68103,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_180384.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_001144",
+      "model_rel": "creature/NPC_CRE_001144.swf"
     },
     {
       "id": 1967,
@@ -67473,7 +68144,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600007.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200077",
+      "model_rel": "creature/NPC_CRE_200077.swf"
     },
     {
       "id": 1968,
@@ -67512,7 +68185,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_180513.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200072",
+      "model_rel": "creature/NPC_CRE_200072.swf"
     },
     {
       "id": 1969,
@@ -67551,7 +68226,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_180512.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200071",
+      "model_rel": "creature/NPC_CRE_200071.swf"
     },
     {
       "id": 1970,
@@ -67590,7 +68267,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600011.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200126",
+      "model_rel": "creature/NPC_CRE_200126.swf"
     },
     {
       "id": 1971,
@@ -67629,7 +68308,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600010.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200125",
+      "model_rel": "creature/NPC_CRE_200125.swf"
     },
     {
       "id": 1972,
@@ -67668,7 +68349,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_180179.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200062",
+      "model_rel": "creature/NPC_CRE_200062.swf"
     },
     {
       "id": 1973,
@@ -67707,7 +68390,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_180306.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_001133",
+      "model_rel": "creature/NPC_CRE_001133.swf"
     },
     {
       "id": 1974,
@@ -67746,7 +68431,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_180053.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200044",
+      "model_rel": "creature/NPC_CRE_200044.swf"
     },
     {
       "id": 1975,
@@ -67785,7 +68472,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_180507.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200068",
+      "model_rel": "creature/NPC_CRE_200068.swf"
     },
     {
       "id": 1976,
@@ -67824,7 +68513,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600016.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200136",
+      "model_rel": "creature/NPC_CRE_200136.swf"
     },
     {
       "id": 1978,
@@ -67863,7 +68554,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_180542.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200084",
+      "model_rel": "creature/NPC_CRE_200084.swf"
     },
     {
       "id": 1979,
@@ -67902,7 +68595,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_180544.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200088",
+      "model_rel": "creature/NPC_CRE_200088.swf"
     },
     {
       "id": 1980,
@@ -67941,7 +68636,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_180543.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200086",
+      "model_rel": "creature/NPC_CRE_200086.swf"
     },
     {
       "id": 1981,
@@ -67980,7 +68677,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_180546.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200092",
+      "model_rel": "creature/NPC_CRE_200092.swf"
     },
     {
       "id": 1982,
@@ -68019,7 +68718,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_180545.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200090",
+      "model_rel": "creature/NPC_CRE_200090.swf"
     },
     {
       "id": 1983,
@@ -68058,7 +68759,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_180541.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200070",
+      "model_rel": "creature/NPC_CRE_200070.swf"
     },
     {
       "id": 1998,
@@ -68097,7 +68800,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600019.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200140",
+      "model_rel": "creature/NPC_CRE_200140.swf"
     },
     {
       "id": 2000,
@@ -68136,7 +68841,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600021.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200142",
+      "model_rel": "creature/NPC_CRE_200142.swf"
     },
     {
       "id": 2001,
@@ -68175,7 +68882,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600021.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200142",
+      "model_rel": "creature/NPC_CRE_200142.swf"
     },
     {
       "id": 2002,
@@ -68214,7 +68923,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600023.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200138",
+      "model_rel": "creature/NPC_CRE_200138.swf"
     },
     {
       "id": 2003,
@@ -68253,7 +68964,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600015.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200134",
+      "model_rel": "creature/NPC_CRE_200134.swf"
     },
     {
       "id": 2005,
@@ -68292,7 +69005,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600024.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200144",
+      "model_rel": "creature/NPC_CRE_200144.swf"
     },
     {
       "id": 2006,
@@ -68331,7 +69046,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600026.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200146",
+      "model_rel": "creature/NPC_CRE_200146.swf"
     },
     {
       "id": 2007,
@@ -68370,7 +69087,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600025.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200145",
+      "model_rel": "creature/NPC_CRE_200145.swf"
     },
     {
       "id": 2008,
@@ -68409,7 +69128,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600027.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200147",
+      "model_rel": "creature/NPC_CRE_200147.swf"
     },
     {
       "id": 2009,
@@ -68448,7 +69169,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600028.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200148",
+      "model_rel": "creature/NPC_CRE_200148.swf"
     },
     {
       "id": 2010,
@@ -68487,7 +69210,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_180513.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200072",
+      "model_rel": "creature/NPC_CRE_200072.swf"
     },
     {
       "id": 2011,
@@ -68526,7 +69251,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_180512.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200071",
+      "model_rel": "creature/NPC_CRE_200071.swf"
     },
     {
       "id": 2012,
@@ -68565,7 +69292,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600011.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200126",
+      "model_rel": "creature/NPC_CRE_200126.swf"
     },
     {
       "id": 2013,
@@ -68604,7 +69333,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600010.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200125",
+      "model_rel": "creature/NPC_CRE_200125.swf"
     },
     {
       "id": 2014,
@@ -68643,7 +69374,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_180514.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200081",
+      "model_rel": "creature/NPC_CRE_200081.swf"
     },
     {
       "id": 2015,
@@ -68682,7 +69415,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600038.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200157",
+      "model_rel": "creature/NPC_CRE_200157.swf"
     },
     {
       "id": 2016,
@@ -68721,7 +69456,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600040.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200158",
+      "model_rel": "creature/NPC_CRE_200158.swf"
     },
     {
       "id": 2017,
@@ -68760,7 +69497,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600039.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200159",
+      "model_rel": "creature/NPC_CRE_200159.swf"
     },
     {
       "id": 2018,
@@ -68799,7 +69538,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600041.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200160",
+      "model_rel": "creature/NPC_CRE_200160.swf"
     },
     {
       "id": 2019,
@@ -68838,7 +69579,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600042.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200161",
+      "model_rel": "creature/NPC_CRE_200161.swf"
     },
     {
       "id": 2020,
@@ -68877,7 +69620,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600043.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200162",
+      "model_rel": "creature/NPC_CRE_200162.swf"
     },
     {
       "id": 2021,
@@ -68916,7 +69661,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600029.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200149",
+      "model_rel": "creature/NPC_CRE_200149.swf"
     },
     {
       "id": 2022,
@@ -68955,7 +69702,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600029.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200149",
+      "model_rel": "creature/NPC_CRE_200149.swf"
     },
     {
       "id": 2023,
@@ -68994,7 +69743,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600045.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200165",
+      "model_rel": "creature/NPC_CRE_200165.swf"
     },
     {
       "id": 2024,
@@ -69033,7 +69784,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600045.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200165",
+      "model_rel": "creature/NPC_CRE_200165.swf"
     },
     {
       "id": 2025,
@@ -69072,7 +69825,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600044.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200163",
+      "model_rel": "creature/NPC_CRE_200163.swf"
     },
     {
       "id": 2026,
@@ -69111,7 +69866,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600044.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200163",
+      "model_rel": "creature/NPC_CRE_200163.swf"
     },
     {
       "id": 2027,
@@ -69150,7 +69907,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600024.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200144",
+      "model_rel": "creature/NPC_CRE_200144.swf"
     },
     {
       "id": 2028,
@@ -69189,7 +69948,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600026.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200146",
+      "model_rel": "creature/NPC_CRE_200146.swf"
     },
     {
       "id": 2029,
@@ -69228,7 +69989,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600025.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200145",
+      "model_rel": "creature/NPC_CRE_200145.swf"
     },
     {
       "id": 2040,
@@ -69267,7 +70030,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600048.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200169",
+      "model_rel": "creature/NPC_CRE_200169.swf"
     },
     {
       "id": 2042,
@@ -69306,7 +70071,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_180514.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200081",
+      "model_rel": "creature/NPC_CRE_200081.swf"
     },
     {
       "id": 2043,
@@ -69345,7 +70112,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600026.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200146",
+      "model_rel": "creature/NPC_CRE_200146.swf"
     },
     {
       "id": 2044,
@@ -69384,7 +70153,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600028.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200148",
+      "model_rel": "creature/NPC_CRE_200148.swf"
     },
     {
       "id": 2045,
@@ -69423,7 +70194,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600027.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200147",
+      "model_rel": "creature/NPC_CRE_200147.swf"
     },
     {
       "id": 2046,
@@ -69462,7 +70235,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600025.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200145",
+      "model_rel": "creature/NPC_CRE_200145.swf"
     },
     {
       "id": 2047,
@@ -69501,7 +70276,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600024.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200144",
+      "model_rel": "creature/NPC_CRE_200144.swf"
     },
     {
       "id": 2048,
@@ -69540,7 +70317,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600021.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200142",
+      "model_rel": "creature/NPC_CRE_200142.swf"
     },
     {
       "id": 2049,
@@ -69579,7 +70358,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600029.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200149",
+      "model_rel": "creature/NPC_CRE_200149.swf"
     },
     {
       "id": 2050,
@@ -69618,7 +70399,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600045.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200165",
+      "model_rel": "creature/NPC_CRE_200165.swf"
     },
     {
       "id": 2051,
@@ -69657,7 +70440,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600044.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200163",
+      "model_rel": "creature/NPC_CRE_200163.swf"
     },
     {
       "id": 2052,
@@ -69696,7 +70481,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600048.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200169",
+      "model_rel": "creature/NPC_CRE_200169.swf"
     },
     {
       "id": 2054,
@@ -69735,7 +70522,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_200860.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200170",
+      "model_rel": "creature/NPC_CRE_200170.swf"
     },
     {
       "id": 2055,
@@ -69774,7 +70563,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_200860.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200170",
+      "model_rel": "creature/NPC_CRE_200170.swf"
     },
     {
       "id": 2056,
@@ -69813,7 +70604,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_200860.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200170",
+      "model_rel": "creature/NPC_CRE_200170.swf"
     },
     {
       "id": 2057,
@@ -69852,7 +70645,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600048.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200169",
+      "model_rel": "creature/NPC_CRE_200169.swf"
     },
     {
       "id": 2058,
@@ -69891,7 +70686,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_180514.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200081",
+      "model_rel": "creature/NPC_CRE_200081.swf"
     },
     {
       "id": 2059,
@@ -69930,7 +70727,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600025.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200145",
+      "model_rel": "creature/NPC_CRE_200145.swf"
     },
     {
       "id": 2060,
@@ -69969,7 +70768,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600024.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200144",
+      "model_rel": "creature/NPC_CRE_200144.swf"
     },
     {
       "id": 2061,
@@ -70008,7 +70809,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600021.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200142",
+      "model_rel": "creature/NPC_CRE_200142.swf"
     },
     {
       "id": 2062,
@@ -70047,7 +70850,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600029.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200149",
+      "model_rel": "creature/NPC_CRE_200149.swf"
     },
     {
       "id": 2063,
@@ -70086,7 +70891,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600045.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200165",
+      "model_rel": "creature/NPC_CRE_200165.swf"
     },
     {
       "id": 2064,
@@ -70125,7 +70932,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600044.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200163",
+      "model_rel": "creature/NPC_CRE_200163.swf"
     },
     {
       "id": 2065,
@@ -70164,7 +70973,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600012.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200132",
+      "model_rel": "creature/NPC_CRE_200132.swf"
     },
     {
       "id": 2066,
@@ -70203,7 +71014,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600015.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200134",
+      "model_rel": "creature/NPC_CRE_200134.swf"
     },
     {
       "id": 2067,
@@ -70242,7 +71055,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_180408.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_001148",
+      "model_rel": "creature/NPC_CRE_001148.swf"
     },
     {
       "id": 2068,
@@ -70281,7 +71096,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_200052.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200052",
+      "model_rel": "creature/NPC_CRE_200052.swf"
     },
     {
       "id": 2069,
@@ -70320,7 +71137,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_180512.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200071",
+      "model_rel": "creature/NPC_CRE_200071.swf"
     },
     {
       "id": 2070,
@@ -70359,7 +71178,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600013.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200130",
+      "model_rel": "creature/NPC_CRE_200130.swf"
     },
     {
       "id": 2071,
@@ -70398,7 +71219,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_180513.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200072",
+      "model_rel": "creature/NPC_CRE_200072.swf"
     },
     {
       "id": 2072,
@@ -70437,7 +71260,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_200864.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_001256",
+      "model_rel": "creature/NPC_CRE_001256.swf"
     },
     {
       "id": 2073,
@@ -70476,7 +71301,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_200859.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_001253",
+      "model_rel": "creature/NPC_CRE_001253.swf"
     },
     {
       "id": 2074,
@@ -70515,7 +71342,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_200862.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_001254",
+      "model_rel": "creature/NPC_CRE_001254.swf"
     },
     {
       "id": 2075,
@@ -70554,7 +71383,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_200863.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_001255",
+      "model_rel": "creature/NPC_CRE_001255.swf"
     },
     {
       "id": 2077,
@@ -70593,7 +71424,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600019.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200140",
+      "model_rel": "creature/NPC_CRE_200140.swf"
     },
     {
       "id": 2078,
@@ -70632,7 +71465,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_200863.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_001255",
+      "model_rel": "creature/NPC_CRE_001255.swf"
     },
     {
       "id": 2079,
@@ -70671,7 +71506,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_200862.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_001254",
+      "model_rel": "creature/NPC_CRE_001254.swf"
     },
     {
       "id": 2080,
@@ -70710,7 +71547,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_200859.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_001253",
+      "model_rel": "creature/NPC_CRE_001253.swf"
     },
     {
       "id": 2081,
@@ -70749,7 +71588,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_200864.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_001256",
+      "model_rel": "creature/NPC_CRE_001256.swf"
     },
     {
       "id": 2082,
@@ -70788,7 +71629,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_180309.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_001131",
+      "model_rel": "creature/NPC_CRE_001131.swf"
     },
     {
       "id": 2083,
@@ -70827,7 +71670,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_180311.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200035",
+      "model_rel": "creature/NPC_CRE_200035.swf"
     },
     {
       "id": 2094,
@@ -70866,7 +71711,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600057.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200172",
+      "model_rel": "creature/NPC_CRE_200172.swf"
     },
     {
       "id": 2095,
@@ -70905,7 +71752,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600057.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200172",
+      "model_rel": "creature/NPC_CRE_200172.swf"
     },
     {
       "id": 2096,
@@ -70944,7 +71793,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600057.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200172",
+      "model_rel": "creature/NPC_CRE_200172.swf"
     },
     {
       "id": 2097,
@@ -70983,7 +71834,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600057.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200172",
+      "model_rel": "creature/NPC_CRE_200172.swf"
     },
     {
       "id": 2196,
@@ -71022,7 +71875,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600058.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200174",
+      "model_rel": "creature/NPC_CRE_200174.swf"
     },
     {
       "id": 2197,
@@ -71061,7 +71916,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600058.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200174",
+      "model_rel": "creature/NPC_CRE_200174.swf"
     },
     {
       "id": 2198,
@@ -71100,7 +71957,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600058.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200174",
+      "model_rel": "creature/NPC_CRE_200174.swf"
     },
     {
       "id": 2199,
@@ -71139,7 +71998,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600058.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200174",
+      "model_rel": "creature/NPC_CRE_200174.swf"
     },
     {
       "id": 2200,
@@ -71178,7 +72039,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_160059.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200177",
+      "model_rel": "creature/NPC_CRE_200177.swf"
     },
     {
       "id": 2201,
@@ -71217,7 +72080,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_160059.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200177",
+      "model_rel": "creature/NPC_CRE_200177.swf"
     },
     {
       "id": 2202,
@@ -71256,7 +72121,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_160059.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200177",
+      "model_rel": "creature/NPC_CRE_200177.swf"
     },
     {
       "id": 2203,
@@ -71295,7 +72162,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_160059.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200177",
+      "model_rel": "creature/NPC_CRE_200177.swf"
     },
     {
       "id": 2216,
@@ -71334,7 +72203,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600071.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200179",
+      "model_rel": "creature/NPC_CRE_200179.swf"
     },
     {
       "id": 2217,
@@ -71373,7 +72244,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600071.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200179",
+      "model_rel": "creature/NPC_CRE_200179.swf"
     },
     {
       "id": 2218,
@@ -71412,7 +72285,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600071.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200179",
+      "model_rel": "creature/NPC_CRE_200179.swf"
     },
     {
       "id": 2219,
@@ -71451,7 +72326,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600071.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200179",
+      "model_rel": "creature/NPC_CRE_200179.swf"
     },
     {
       "id": 2220,
@@ -71490,7 +72367,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600073.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200181",
+      "model_rel": "creature/NPC_CRE_200181.swf"
     },
     {
       "id": 2221,
@@ -71529,7 +72408,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600073.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200181",
+      "model_rel": "creature/NPC_CRE_200181.swf"
     },
     {
       "id": 2222,
@@ -71568,7 +72449,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600073.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200181",
+      "model_rel": "creature/NPC_CRE_200181.swf"
     },
     {
       "id": 2223,
@@ -71607,7 +72490,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600073.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200181",
+      "model_rel": "creature/NPC_CRE_200181.swf"
     },
     {
       "id": 2224,
@@ -71646,7 +72531,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600076.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200188",
+      "model_rel": "creature/NPC_CRE_200188.swf"
     },
     {
       "id": 2225,
@@ -71685,7 +72572,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600075.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200189",
+      "model_rel": "creature/NPC_CRE_200189.swf"
     },
     {
       "id": 2226,
@@ -71724,7 +72613,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600074.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200196",
+      "model_rel": "creature/NPC_CRE_200196.swf"
     },
     {
       "id": 2251,
@@ -71763,7 +72654,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600078.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200186",
+      "model_rel": "creature/NPC_CRE_200186.swf"
     },
     {
       "id": 2252,
@@ -71802,7 +72695,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600078.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200186",
+      "model_rel": "creature/NPC_CRE_200186.swf"
     },
     {
       "id": 2253,
@@ -71841,7 +72736,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600078.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200186",
+      "model_rel": "creature/NPC_CRE_200186.swf"
     },
     {
       "id": 2254,
@@ -71880,7 +72777,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600078.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200186",
+      "model_rel": "creature/NPC_CRE_200186.swf"
     },
     {
       "id": 2255,
@@ -71919,7 +72818,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600079.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200191",
+      "model_rel": "creature/NPC_CRE_200191.swf"
     },
     {
       "id": 2256,
@@ -71958,7 +72859,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600080.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200192",
+      "model_rel": "creature/NPC_CRE_200192.swf"
     },
     {
       "id": 2257,
@@ -71997,7 +72900,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600081.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200193",
+      "model_rel": "creature/NPC_CRE_200193.swf"
     },
     {
       "id": 2270,
@@ -72036,7 +72941,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600082.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200195",
+      "model_rel": "creature/NPC_CRE_200195.swf"
     },
     {
       "id": 2271,
@@ -72075,7 +72982,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600083.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200197",
+      "model_rel": "creature/NPC_CRE_200197.swf"
     },
     {
       "id": 2272,
@@ -72114,7 +73023,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600084.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200198",
+      "model_rel": "creature/NPC_CRE_200198.swf"
     },
     {
       "id": 2273,
@@ -72153,7 +73064,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600085.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200199",
+      "model_rel": "creature/NPC_CRE_200199.swf"
     },
     {
       "id": 2274,
@@ -72192,7 +73105,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600086.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200202",
+      "model_rel": "creature/NPC_CRE_200202.swf"
     },
     {
       "id": 2288,
@@ -72231,7 +73146,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600100.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200204",
+      "model_rel": "creature/NPC_CRE_200204.swf"
     },
     {
       "id": 2293,
@@ -72270,7 +73187,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600105.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200205",
+      "model_rel": "creature/NPC_CRE_200205.swf"
     },
     {
       "id": 2294,
@@ -72309,7 +73228,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600106.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200207",
+      "model_rel": "creature/NPC_CRE_200207.swf"
     },
     {
       "id": 2295,
@@ -72348,7 +73269,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600107.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200209",
+      "model_rel": "creature/NPC_CRE_200209.swf"
     },
     {
       "id": 2296,
@@ -72387,7 +73310,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600108.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200211",
+      "model_rel": "creature/NPC_CRE_200211.swf"
     },
     {
       "id": 2310,
@@ -72426,7 +73351,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600122.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200213",
+      "model_rel": "creature/NPC_CRE_200213.swf"
     },
     {
       "id": 2318,
@@ -72465,7 +73392,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600127.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200215",
+      "model_rel": "creature/NPC_CRE_200215.swf"
     },
     {
       "id": 2321,
@@ -72504,7 +73433,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600130.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200217",
+      "model_rel": "creature/NPC_CRE_200217.swf"
     },
     {
       "id": 2323,
@@ -72543,7 +73474,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600132.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200219",
+      "model_rel": "creature/NPC_CRE_200219.swf"
     },
     {
       "id": 2324,
@@ -72582,7 +73515,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600133.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200221",
+      "model_rel": "creature/NPC_CRE_200221.swf"
     },
     {
       "id": 2326,
@@ -72621,7 +73556,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600130.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200217",
+      "model_rel": "creature/NPC_CRE_200217.swf"
     },
     {
       "id": 2327,
@@ -72660,7 +73597,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600127.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200215",
+      "model_rel": "creature/NPC_CRE_200215.swf"
     },
     {
       "id": 2328,
@@ -72699,7 +73638,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600122.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200213",
+      "model_rel": "creature/NPC_CRE_200213.swf"
     },
     {
       "id": 2329,
@@ -72738,7 +73679,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600106.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200207",
+      "model_rel": "creature/NPC_CRE_200207.swf"
     },
     {
       "id": 2330,
@@ -72777,7 +73720,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600086.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200202",
+      "model_rel": "creature/NPC_CRE_200202.swf"
     },
     {
       "id": 2331,
@@ -72816,7 +73761,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600082.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200195",
+      "model_rel": "creature/NPC_CRE_200195.swf"
     },
     {
       "id": 2332,
@@ -72855,7 +73802,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600078.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200186",
+      "model_rel": "creature/NPC_CRE_200186.swf"
     },
     {
       "id": 2333,
@@ -72894,7 +73843,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600073.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200181",
+      "model_rel": "creature/NPC_CRE_200181.swf"
     },
     {
       "id": 2334,
@@ -72933,7 +73884,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600071.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200179",
+      "model_rel": "creature/NPC_CRE_200179.swf"
     },
     {
       "id": 2335,
@@ -72972,7 +73925,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_160059.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200177",
+      "model_rel": "creature/NPC_CRE_200177.swf"
     },
     {
       "id": 2351,
@@ -73011,7 +73966,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600150.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200224",
+      "model_rel": "creature/NPC_CRE_200224.swf"
     },
     {
       "id": 2352,
@@ -73050,7 +74007,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600151.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200226",
+      "model_rel": "creature/NPC_CRE_200226.swf"
     },
     {
       "id": 2353,
@@ -73089,7 +74048,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600151.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200226",
+      "model_rel": "creature/NPC_CRE_200226.swf"
     },
     {
       "id": 2354,
@@ -73128,7 +74089,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600152.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200228",
+      "model_rel": "creature/NPC_CRE_200228.swf"
     },
     {
       "id": 2357,
@@ -73167,7 +74130,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600155.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200230",
+      "model_rel": "creature/NPC_CRE_200230.swf"
     },
     {
       "id": 2358,
@@ -73206,7 +74171,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600156.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200233",
+      "model_rel": "creature/NPC_CRE_200233.swf"
     },
     {
       "id": 2359,
@@ -73245,7 +74212,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600156.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200233",
+      "model_rel": "creature/NPC_CRE_200233.swf"
     },
     {
       "id": 2375,
@@ -73284,7 +74253,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600172.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200235",
+      "model_rel": "creature/NPC_CRE_200235.swf"
     },
     {
       "id": 2382,
@@ -73323,7 +74294,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600350.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200239",
+      "model_rel": "creature/NPC_CRE_200239.swf"
     },
     {
       "id": 2383,
@@ -73362,7 +74335,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600352.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200241",
+      "model_rel": "creature/NPC_CRE_200241.swf"
     },
     {
       "id": 2384,
@@ -73401,7 +74376,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600353.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200243",
+      "model_rel": "creature/NPC_CRE_200243.swf"
     },
     {
       "id": 2386,
@@ -73440,7 +74417,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600356.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200245",
+      "model_rel": "creature/NPC_CRE_200245.swf"
     },
     {
       "id": 2399,
@@ -73479,7 +74458,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600370.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200247",
+      "model_rel": "creature/NPC_CRE_200247.swf"
     },
     {
       "id": 2400,
@@ -73518,7 +74499,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600370.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200247",
+      "model_rel": "creature/NPC_CRE_200247.swf"
     },
     {
       "id": 2401,
@@ -73557,7 +74540,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600372.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200249",
+      "model_rel": "creature/NPC_CRE_200249.swf"
     },
     {
       "id": 2402,
@@ -73596,7 +74581,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600372.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200249",
+      "model_rel": "creature/NPC_CRE_200249.swf"
     },
     {
       "id": 2403,
@@ -73635,7 +74622,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600374.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200251",
+      "model_rel": "creature/NPC_CRE_200251.swf"
     },
     {
       "id": 2416,
@@ -73674,7 +74663,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600374.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200251",
+      "model_rel": "creature/NPC_CRE_200251.swf"
     },
     {
       "id": 2417,
@@ -73713,7 +74704,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600376.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200253",
+      "model_rel": "creature/NPC_CRE_200253.swf"
     },
     {
       "id": 2418,
@@ -73752,7 +74745,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600378.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200255",
+      "model_rel": "creature/NPC_CRE_200255.swf"
     },
     {
       "id": 2419,
@@ -73791,7 +74786,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600392.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200257",
+      "model_rel": "creature/NPC_CRE_200257.swf"
     },
     {
       "id": 2420,
@@ -73830,7 +74827,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600392.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200257",
+      "model_rel": "creature/NPC_CRE_200257.swf"
     },
     {
       "id": 2421,
@@ -73869,7 +74868,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600394.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200259",
+      "model_rel": "creature/NPC_CRE_200259.swf"
     },
     {
       "id": 2422,
@@ -73908,7 +74909,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600394.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200259",
+      "model_rel": "creature/NPC_CRE_200259.swf"
     },
     {
       "id": 2423,
@@ -73947,7 +74950,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600396.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200261",
+      "model_rel": "creature/NPC_CRE_200261.swf"
     },
     {
       "id": 2424,
@@ -73986,7 +74991,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600396.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200261",
+      "model_rel": "creature/NPC_CRE_200261.swf"
     },
     {
       "id": 2425,
@@ -74025,7 +75032,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600398.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200263",
+      "model_rel": "creature/NPC_CRE_200263.swf"
     },
     {
       "id": 2426,
@@ -74064,7 +75073,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600398.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200263",
+      "model_rel": "creature/NPC_CRE_200263.swf"
     },
     {
       "id": 2427,
@@ -74103,7 +75114,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600100.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200204",
+      "model_rel": "creature/NPC_CRE_200204.swf"
     },
     {
       "id": 2428,
@@ -74142,7 +75155,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600132.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200219",
+      "model_rel": "creature/NPC_CRE_200219.swf"
     },
     {
       "id": 2429,
@@ -74181,7 +75196,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600133.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200221",
+      "model_rel": "creature/NPC_CRE_200221.swf"
     },
     {
       "id": 2430,
@@ -74220,7 +75237,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600152.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200228",
+      "model_rel": "creature/NPC_CRE_200228.swf"
     },
     {
       "id": 1254,
@@ -74259,7 +75278,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_170003.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_fly_000003",
+      "model_rel": "equip/EQUIP_FLY_000003.swf"
     },
     {
       "id": 1643,
@@ -74287,7 +75308,9 @@
       "stats": [],
       "icon": "assets/equipment/icons/item_normal_180307.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200037",
+      "model_rel": "creature/NPC_CRE_200037.swf"
     },
     {
       "id": 1644,
@@ -74315,7 +75338,9 @@
       "stats": [],
       "icon": "assets/equipment/icons/item_normal_180311.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200035",
+      "model_rel": "creature/NPC_CRE_200035.swf"
     },
     {
       "id": 1645,
@@ -74343,7 +75368,9 @@
       "stats": [],
       "icon": "assets/equipment/icons/equip_normal_170006.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_FLY_000006.swf"
+      "model_swf": "equip/EQUIP_FLY_000006.swf",
+      "model_id": "equip_fly_000006",
+      "model_rel": "equip/EQUIP_FLY_000006.swf"
     },
     {
       "id": 1646,
@@ -74371,7 +75398,9 @@
       "stats": [],
       "icon": "assets/equipment/icons/item_normal_180309.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_001131",
+      "model_rel": "creature/NPC_CRE_001131.swf"
     },
     {
       "id": 1908,
@@ -74410,7 +75439,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_180311.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "npc_cre_200035",
+      "model_rel": "creature/NPC_CRE_200035.swf"
     },
     {
       "id": 1345,
@@ -74449,7 +75480,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_170001.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_fly_000001",
+      "model_rel": "equip/EQUIP_FLY_000001.swf"
     },
     {
       "id": 1346,
@@ -74488,7 +75521,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_170002.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_fly_000002",
+      "model_rel": "equip/EQUIP_FLY_000002.swf"
     },
     {
       "id": 1347,
@@ -74527,7 +75562,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_170003.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_fly_000003",
+      "model_rel": "equip/EQUIP_FLY_000003.swf"
     },
     {
       "id": 1434,
@@ -74566,7 +75603,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_170004.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_FLY_000004.swf"
+      "model_swf": "equip/EQUIP_FLY_000004.swf",
+      "model_id": "equip_fly_000004",
+      "model_rel": "equip/EQUIP_FLY_000004.swf"
     },
     {
       "id": 1625,
@@ -74605,7 +75644,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_170009.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_FLY_000009.swf"
+      "model_swf": "equip/EQUIP_FLY_000009.swf",
+      "model_id": "equip_fly_000009",
+      "model_rel": "equip/EQUIP_FLY_000009.swf"
     },
     {
       "id": 1626,
@@ -74644,7 +75685,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_170008.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_FLY_000008.swf"
+      "model_swf": "equip/EQUIP_FLY_000008.swf",
+      "model_id": "equip_fly_000008",
+      "model_rel": "equip/EQUIP_FLY_000008.swf"
     },
     {
       "id": 1627,
@@ -74683,7 +75726,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_170009.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_FLY_000009.swf"
+      "model_swf": "equip/EQUIP_FLY_000009.swf",
+      "model_id": "equip_fly_000009",
+      "model_rel": "equip/EQUIP_FLY_000009.swf"
     },
     {
       "id": 1628,
@@ -74722,7 +75767,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_170008.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_FLY_000008.swf"
+      "model_swf": "equip/EQUIP_FLY_000008.swf",
+      "model_id": "equip_fly_000008",
+      "model_rel": "equip/EQUIP_FLY_000008.swf"
     },
     {
       "id": 1633,
@@ -74761,7 +75808,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_170004.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_FLY_000004.swf"
+      "model_swf": "equip/EQUIP_FLY_000004.swf",
+      "model_id": "equip_fly_000004",
+      "model_rel": "equip/EQUIP_FLY_000004.swf"
     },
     {
       "id": 1640,
@@ -74800,7 +75849,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_170002.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_fly_000002",
+      "model_rel": "equip/EQUIP_FLY_000002.swf"
     },
     {
       "id": 1641,
@@ -74839,7 +75890,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_170005.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_fly_000005",
+      "model_rel": "equip/EQUIP_FLY_000005.swf"
     },
     {
       "id": 1647,
@@ -74878,7 +75931,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_180325.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_FLY_000020.swf"
+      "model_swf": "equip/EQUIP_FLY_000020.swf",
+      "model_id": "equip_fly_000020",
+      "model_rel": "equip/EQUIP_FLY_000020.swf"
     },
     {
       "id": 1692,
@@ -74917,7 +75972,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_170002.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_fly_000002",
+      "model_rel": "equip/EQUIP_FLY_000002.swf"
     },
     {
       "id": 1693,
@@ -74956,7 +76013,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_170003.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_fly_000003",
+      "model_rel": "equip/EQUIP_FLY_000003.swf"
     },
     {
       "id": 1694,
@@ -74995,7 +76054,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_170005.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_fly_000005",
+      "model_rel": "equip/EQUIP_FLY_000005.swf"
     },
     {
       "id": 1701,
@@ -75034,7 +76095,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_170010.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_FLY_000010.swf"
+      "model_swf": "equip/EQUIP_FLY_000010.swf",
+      "model_id": "equip_fly_000010",
+      "model_rel": "equip/EQUIP_FLY_000010.swf"
     },
     {
       "id": 1702,
@@ -75073,7 +76136,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_170010.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_FLY_000010.swf"
+      "model_swf": "equip/EQUIP_FLY_000010.swf",
+      "model_id": "equip_fly_000010",
+      "model_rel": "equip/EQUIP_FLY_000010.swf"
     },
     {
       "id": 1703,
@@ -75112,7 +76177,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_170011.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_FLY_000011.swf"
+      "model_swf": "equip/EQUIP_FLY_000011.swf",
+      "model_id": "equip_fly_000011",
+      "model_rel": "equip/EQUIP_FLY_000011.swf"
     },
     {
       "id": 1704,
@@ -75151,7 +76218,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_170011.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_FLY_000011.swf"
+      "model_swf": "equip/EQUIP_FLY_000011.swf",
+      "model_id": "equip_fly_000011",
+      "model_rel": "equip/EQUIP_FLY_000011.swf"
     },
     {
       "id": 1713,
@@ -75190,7 +76259,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_170010.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_FLY_000010.swf"
+      "model_swf": "equip/EQUIP_FLY_000010.swf",
+      "model_id": "equip_fly_000010",
+      "model_rel": "equip/EQUIP_FLY_000010.swf"
     },
     {
       "id": 1804,
@@ -75229,7 +76300,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_170012.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_fly_000012",
+      "model_rel": "equip/EQUIP_FLY_000012.swf"
     },
     {
       "id": 1805,
@@ -75268,7 +76341,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_170012.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_fly_000012",
+      "model_rel": "equip/EQUIP_FLY_000012.swf"
     },
     {
       "id": 1806,
@@ -75307,7 +76382,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_170008.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_fly_000012",
+      "model_rel": "equip/EQUIP_FLY_000012.swf"
     },
     {
       "id": 1807,
@@ -75346,7 +76423,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_170008.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_fly_000012",
+      "model_rel": "equip/EQUIP_FLY_000012.swf"
     },
     {
       "id": 1828,
@@ -75385,7 +76464,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_170009.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_FLY_000009.swf"
+      "model_swf": "equip/EQUIP_FLY_000009.swf",
+      "model_id": "equip_fly_000009",
+      "model_rel": "equip/EQUIP_FLY_000009.swf"
     },
     {
       "id": 1829,
@@ -75424,7 +76505,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_170013.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_fly_000013",
+      "model_rel": "equip/EQUIP_FLY_000013.swf"
     },
     {
       "id": 1844,
@@ -75463,7 +76546,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_170014.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_FLY_000014.swf"
+      "model_swf": "equip/EQUIP_FLY_000014.swf",
+      "model_id": "equip_fly_000014",
+      "model_rel": "equip/EQUIP_FLY_000014.swf"
     },
     {
       "id": 1845,
@@ -75502,7 +76587,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_170015.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_FLY_000015.swf"
+      "model_swf": "equip/EQUIP_FLY_000015.swf",
+      "model_id": "equip_fly_000015",
+      "model_rel": "equip/EQUIP_FLY_000015.swf"
     },
     {
       "id": 1846,
@@ -75541,7 +76628,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_170014.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_FLY_000014.swf"
+      "model_swf": "equip/EQUIP_FLY_000014.swf",
+      "model_id": "equip_fly_000014",
+      "model_rel": "equip/EQUIP_FLY_000014.swf"
     },
     {
       "id": 1847,
@@ -75580,7 +76669,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_170015.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_FLY_000015.swf"
+      "model_swf": "equip/EQUIP_FLY_000015.swf",
+      "model_id": "equip_fly_000015",
+      "model_rel": "equip/EQUIP_FLY_000015.swf"
     },
     {
       "id": 1848,
@@ -75619,7 +76710,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_170016.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_fly_000016",
+      "model_rel": "equip/EQUIP_FLY_000016.swf"
     },
     {
       "id": 1849,
@@ -75658,7 +76751,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_170016.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_fly_000016",
+      "model_rel": "equip/EQUIP_FLY_000016.swf"
     },
     {
       "id": 1850,
@@ -75697,7 +76792,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_170017.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_FLY_000017.swf"
+      "model_swf": "equip/EQUIP_FLY_000017.swf",
+      "model_id": "equip_fly_000017",
+      "model_rel": "equip/EQUIP_FLY_000017.swf"
     },
     {
       "id": 1851,
@@ -75736,7 +76833,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_170017.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_FLY_000017.swf"
+      "model_swf": "equip/EQUIP_FLY_000017.swf",
+      "model_id": "equip_fly_000017",
+      "model_rel": "equip/EQUIP_FLY_000017.swf"
     },
     {
       "id": 1922,
@@ -75775,7 +76874,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_170018.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_FLY_000018.swf"
+      "model_swf": "equip/EQUIP_FLY_000018.swf",
+      "model_id": "equip_fly_000018",
+      "model_rel": "equip/EQUIP_FLY_000018.swf"
     },
     {
       "id": 1947,
@@ -75814,7 +76915,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600014.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_FLY_000019.swf"
+      "model_swf": "equip/EQUIP_FLY_000019.swf",
+      "model_id": "equip_fly_000019",
+      "model_rel": "equip/EQUIP_FLY_000019.swf"
     },
     {
       "id": 1948,
@@ -75853,7 +76956,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600014.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_FLY_000019.swf"
+      "model_swf": "equip/EQUIP_FLY_000019.swf",
+      "model_id": "equip_fly_000019",
+      "model_rel": "equip/EQUIP_FLY_000019.swf"
     },
     {
       "id": 1959,
@@ -75892,7 +76997,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600022.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_FLY_000020.swf"
+      "model_swf": "equip/EQUIP_FLY_000020.swf",
+      "model_id": "equip_fly_000020",
+      "model_rel": "equip/EQUIP_FLY_000020.swf"
     },
     {
       "id": 1960,
@@ -75931,7 +77038,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600022.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_FLY_000020.swf"
+      "model_swf": "equip/EQUIP_FLY_000020.swf",
+      "model_id": "equip_fly_000020",
+      "model_rel": "equip/EQUIP_FLY_000020.swf"
     },
     {
       "id": 1984,
@@ -75970,7 +77079,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_170002.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_fly_000002",
+      "model_rel": "equip/EQUIP_FLY_000002.swf"
     },
     {
       "id": 1985,
@@ -76009,7 +77120,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_170003.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_fly_000003",
+      "model_rel": "equip/EQUIP_FLY_000003.swf"
     },
     {
       "id": 1986,
@@ -76048,7 +77161,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_170005.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_fly_000005",
+      "model_rel": "equip/EQUIP_FLY_000005.swf"
     },
     {
       "id": 1987,
@@ -76087,7 +77202,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600014.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_FLY_000019.swf"
+      "model_swf": "equip/EQUIP_FLY_000019.swf",
+      "model_id": "equip_fly_000019",
+      "model_rel": "equip/EQUIP_FLY_000019.swf"
     },
     {
       "id": 1988,
@@ -76126,7 +77243,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_170010.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_FLY_000010.swf"
+      "model_swf": "equip/EQUIP_FLY_000010.swf",
+      "model_id": "equip_fly_000010",
+      "model_rel": "equip/EQUIP_FLY_000010.swf"
     },
     {
       "id": 1989,
@@ -76165,7 +77284,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_170011.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_FLY_000011.swf"
+      "model_swf": "equip/EQUIP_FLY_000011.swf",
+      "model_id": "equip_fly_000011",
+      "model_rel": "equip/EQUIP_FLY_000011.swf"
     },
     {
       "id": 1990,
@@ -76204,7 +77325,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_170017.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_FLY_000017.swf"
+      "model_swf": "equip/EQUIP_FLY_000017.swf",
+      "model_id": "equip_fly_000017",
+      "model_rel": "equip/EQUIP_FLY_000017.swf"
     },
     {
       "id": 1991,
@@ -76243,7 +77366,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_170016.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_fly_000016",
+      "model_rel": "equip/EQUIP_FLY_000016.swf"
     },
     {
       "id": 1992,
@@ -76282,7 +77407,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_170015.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_FLY_000015.swf"
+      "model_swf": "equip/EQUIP_FLY_000015.swf",
+      "model_id": "equip_fly_000015",
+      "model_rel": "equip/EQUIP_FLY_000015.swf"
     },
     {
       "id": 1993,
@@ -76321,7 +77448,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_170014.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_FLY_000014.swf"
+      "model_swf": "equip/EQUIP_FLY_000014.swf",
+      "model_id": "equip_fly_000014",
+      "model_rel": "equip/EQUIP_FLY_000014.swf"
     },
     {
       "id": 1994,
@@ -76360,7 +77489,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_170012.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_fly_000012",
+      "model_rel": "equip/EQUIP_FLY_000012.swf"
     },
     {
       "id": 1995,
@@ -76399,7 +77530,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_170008.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_FLY_000008.swf"
+      "model_swf": "equip/EQUIP_FLY_000008.swf",
+      "model_id": "equip_fly_000008",
+      "model_rel": "equip/EQUIP_FLY_000008.swf"
     },
     {
       "id": 1996,
@@ -76438,7 +77571,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_170009.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_FLY_000009.swf"
+      "model_swf": "equip/EQUIP_FLY_000009.swf",
+      "model_id": "equip_fly_000009",
+      "model_rel": "equip/EQUIP_FLY_000009.swf"
     },
     {
       "id": 1997,
@@ -76477,7 +77612,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_170004.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_FLY_000004.swf"
+      "model_swf": "equip/EQUIP_FLY_000004.swf",
+      "model_id": "equip_fly_000004",
+      "model_rel": "equip/EQUIP_FLY_000004.swf"
     },
     {
       "id": 1999,
@@ -76516,7 +77653,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600020.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_FLY_000021.swf"
+      "model_swf": "equip/EQUIP_FLY_000021.swf",
+      "model_id": "equip_fly_000021",
+      "model_rel": "equip/EQUIP_FLY_000021.swf"
     },
     {
       "id": 2004,
@@ -76555,7 +77694,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600022.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_FLY_000020.swf"
+      "model_swf": "equip/EQUIP_FLY_000020.swf",
+      "model_id": "equip_fly_000020",
+      "model_rel": "equip/EQUIP_FLY_000020.swf"
     },
     {
       "id": 2041,
@@ -76594,7 +77735,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600048.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_FLY_000022.swf"
+      "model_swf": "equip/EQUIP_FLY_000022.swf",
+      "model_id": "equip_fly_000022",
+      "model_rel": "equip/EQUIP_FLY_000022.swf"
     },
     {
       "id": 2053,
@@ -76633,7 +77776,9 @@
       ],
       "icon": "assets/equipment/icons/item_normal_600048.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_FLY_000022.swf"
+      "model_swf": "equip/EQUIP_FLY_000022.swf",
+      "model_id": "equip_fly_000022",
+      "model_rel": "equip/EQUIP_FLY_000022.swf"
     },
     {
       "id": 2076,
@@ -76672,7 +77817,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_170018.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_FLY_000018.swf"
+      "model_swf": "equip/EQUIP_FLY_000018.swf",
+      "model_id": "equip_fly_000018",
+      "model_rel": "equip/EQUIP_FLY_000018.swf"
     },
     {
       "id": 2289,
@@ -76711,7 +77858,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600101.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_fly_000023",
+      "model_rel": "equip/EQUIP_FLY_000023.swf"
     },
     {
       "id": 2290,
@@ -76750,7 +77899,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600102.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_fly_000024",
+      "model_rel": "equip/EQUIP_FLY_000024.swf"
     },
     {
       "id": 2291,
@@ -76789,7 +77940,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600103.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_fly_000025",
+      "model_rel": "equip/EQUIP_FLY_000025.swf"
     },
     {
       "id": 2292,
@@ -76828,7 +77981,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600104.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_fly_000026",
+      "model_rel": "equip/EQUIP_FLY_000026.swf"
     },
     {
       "id": 2297,
@@ -76867,7 +78022,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600109.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_fly_000027",
+      "model_rel": "equip/EQUIP_FLY_000027.swf"
     },
     {
       "id": 2311,
@@ -76906,7 +78063,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600123.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_fly_000028",
+      "model_rel": "equip/EQUIP_FLY_000028.swf"
     },
     {
       "id": 2312,
@@ -76945,7 +78104,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600124.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_fly_000029",
+      "model_rel": "equip/EQUIP_FLY_000029.swf"
     },
     {
       "id": 2313,
@@ -76984,7 +78145,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600125.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_fly_000030",
+      "model_rel": "equip/EQUIP_FLY_000030.swf"
     },
     {
       "id": 2314,
@@ -77023,7 +78186,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600126.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_fly_000031",
+      "model_rel": "equip/EQUIP_FLY_000031.swf"
     },
     {
       "id": 2315,
@@ -77062,7 +78227,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600103.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_fly_000025",
+      "model_rel": "equip/EQUIP_FLY_000025.swf"
     },
     {
       "id": 2316,
@@ -77101,7 +78268,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600102.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_fly_000024",
+      "model_rel": "equip/EQUIP_FLY_000024.swf"
     },
     {
       "id": 2317,
@@ -77140,7 +78309,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600101.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_fly_000023",
+      "model_rel": "equip/EQUIP_FLY_000023.swf"
     },
     {
       "id": 2319,
@@ -77179,7 +78350,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600128.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_fly_000032",
+      "model_rel": "equip/EQUIP_FLY_000032.swf"
     },
     {
       "id": 2320,
@@ -77218,7 +78391,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600129.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_fly_000033",
+      "model_rel": "equip/EQUIP_FLY_000033.swf"
     },
     {
       "id": 2322,
@@ -77257,7 +78432,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600131.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_fly_000034",
+      "model_rel": "equip/EQUIP_FLY_000034.swf"
     },
     {
       "id": 2325,
@@ -77296,7 +78473,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600134.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_fly_000035",
+      "model_rel": "equip/EQUIP_FLY_000035.swf"
     },
     {
       "id": 2336,
@@ -77335,7 +78514,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600135.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_fly_000036",
+      "model_rel": "equip/EQUIP_FLY_000036.swf"
     },
     {
       "id": 2337,
@@ -77374,7 +78555,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600136.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_fly_000037",
+      "model_rel": "equip/EQUIP_FLY_000037.swf"
     },
     {
       "id": 2338,
@@ -77413,7 +78596,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600137.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_fly_000038",
+      "model_rel": "equip/EQUIP_FLY_000038.swf"
     },
     {
       "id": 2355,
@@ -77452,7 +78637,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600153.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_fly_000039",
+      "model_rel": "equip/EQUIP_FLY_000039.swf"
     },
     {
       "id": 2372,
@@ -77491,7 +78678,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600169.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_fly_000043",
+      "model_rel": "equip/EQUIP_FLY_000043.swf"
     },
     {
       "id": 2373,
@@ -77530,7 +78719,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600170.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_fly_000041",
+      "model_rel": "equip/EQUIP_FLY_000041.swf"
     },
     {
       "id": 2374,
@@ -77569,7 +78760,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600171.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_fly_000042",
+      "model_rel": "equip/EQUIP_FLY_000042.swf"
     },
     {
       "id": 2376,
@@ -77608,7 +78801,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600171.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_fly_000042",
+      "model_rel": "equip/EQUIP_FLY_000042.swf"
     },
     {
       "id": 2377,
@@ -77647,7 +78842,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600170.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_fly_000041",
+      "model_rel": "equip/EQUIP_FLY_000041.swf"
     },
     {
       "id": 2378,
@@ -77686,7 +78883,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600169.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_fly_000043",
+      "model_rel": "equip/EQUIP_FLY_000043.swf"
     },
     {
       "id": 2379,
@@ -77725,7 +78924,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600137.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_fly_000038",
+      "model_rel": "equip/EQUIP_FLY_000038.swf"
     },
     {
       "id": 2380,
@@ -77764,7 +78965,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600136.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_fly_000037",
+      "model_rel": "equip/EQUIP_FLY_000037.swf"
     },
     {
       "id": 2381,
@@ -77803,7 +79006,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600135.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_fly_000036",
+      "model_rel": "equip/EQUIP_FLY_000036.swf"
     },
     {
       "id": 2385,
@@ -77842,7 +79047,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600355.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_fly_000044",
+      "model_rel": "equip/EQUIP_FLY_000044.swf"
     },
     {
       "id": 1674,
@@ -77891,7 +79098,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_011213.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_FLY_200001.swf"
+      "model_swf": "equip/EQUIP_FLY_200001.swf",
+      "model_id": "equip_fly_200001",
+      "model_rel": "equip/EQUIP_FLY_200001.swf"
     },
     {
       "id": 1675,
@@ -77940,7 +79149,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_180001.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_WING_001001.swf"
+      "model_swf": "equip/EQUIP_WING_001001.swf",
+      "model_id": "equip_wing_001002",
+      "model_rel": "equip/EQUIP_WING_001002.swf"
     },
     {
       "id": 1676,
@@ -77989,7 +79200,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_180004.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_WING_004001.swf"
+      "model_swf": "equip/EQUIP_WING_004001.swf",
+      "model_id": "equip_wing_004002",
+      "model_rel": "equip/EQUIP_WING_004002.swf"
     },
     {
       "id": 1677,
@@ -78038,7 +79251,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_180003.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_WING_003001.swf"
+      "model_swf": "equip/EQUIP_WING_003001.swf",
+      "model_id": "equip_wing_003002",
+      "model_rel": "equip/EQUIP_WING_003002.swf"
     },
     {
       "id": 1678,
@@ -78087,7 +79302,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_180002.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_WING_002001.swf"
+      "model_swf": "equip/EQUIP_WING_002001.swf",
+      "model_id": "equip_wing_002002",
+      "model_rel": "equip/EQUIP_WING_002002.swf"
     },
     {
       "id": 1681,
@@ -78136,7 +79353,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_180005.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_WING_005003.swf"
+      "model_swf": "equip/EQUIP_WING_005003.swf",
+      "model_id": "equip_wing_005003",
+      "model_rel": "equip/EQUIP_WING_005003.swf"
     },
     {
       "id": 1911,
@@ -78185,7 +79404,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600008.png",
       "has_model": false,
-      "model_swf": null
+      "model_swf": null,
+      "model_id": "equip_wing_033003",
+      "model_rel": "equip/EQUIP_WING_033003.swf"
     },
     {
       "id": 1923,
@@ -78234,7 +79455,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600009.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_WING_061003.swf"
+      "model_swf": "equip/EQUIP_WING_061003.swf",
+      "model_id": "equip_wing_061003",
+      "model_rel": "equip/EQUIP_WING_061003.swf"
     },
     {
       "id": 1930,
@@ -78283,7 +79506,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600009.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_WING_062003.swf"
+      "model_swf": "equip/EQUIP_WING_062003.swf",
+      "model_id": "equip_wing_062003",
+      "model_rel": "equip/EQUIP_WING_062003.swf"
     },
     {
       "id": 1931,
@@ -78332,7 +79557,9 @@
       ],
       "icon": "assets/equipment/icons/equip_normal_600009.png",
       "has_model": true,
-      "model_swf": "equip/EQUIP_WING_063003.swf"
+      "model_swf": "equip/EQUIP_WING_063003.swf",
+      "model_id": "equip_wing_063003",
+      "model_rel": "equip/EQUIP_WING_063003.swf"
     }
   ]
 }
