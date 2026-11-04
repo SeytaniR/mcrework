@@ -160,6 +160,13 @@
             </div>
             <button id="btn-unequip-weapon" class="btn" style="display:none; padding: 2px 8px; font-size: 10px; border-radius: 10px; background: rgba(191, 97, 106, 0.2); color: #bf616a; border: 1px solid #bf616a;">🖐️ Desempunhar</button>
           </div>
+          <div class="stat-item" style="grid-column: 1 / -1; display: flex; align-items: center; justify-content: space-between; margin-top: 2px;">
+            <div>
+              <span class="stat-label">Asas Equipadas:</span>
+              <strong id="drawer-wing" style="color: #b48ead;">Nenhuma (Sem Asas)</strong>
+            </div>
+            <button id="btn-unequip-wing" class="btn" style="display:none; padding: 2px 8px; font-size: 10px; border-radius: 10px; background: rgba(191, 97, 106, 0.2); color: #bf616a; border: 1px solid #bf616a;">🪽 Desequipar</button>
+          </div>
         </div>
       </section>
 
@@ -469,7 +476,7 @@
     </div>
   </div>
 
-  <script src="main.js?v=1.5.1"></script>
+  <script src="main.js?v=1.5.2"></script>
 
   <!-- Modal 1: Provador de Classes & Skins (46 Visuais) -->
   <div id="modal-classes" class="catalog-modal hidden">
@@ -742,7 +749,8 @@
         <button class="pill-filter" data-filter="offhand">🛡️ Armas Secundárias (101)</button>
         <button class="pill-filter" data-filter="armor">🥋 Armaduras (600)</button>
         <button class="pill-filter" data-filter="jewelry">💍 Joias & Acessórios (137)</button>
-        <button class="pill-filter" data-filter="wings_costumes">🪽 Asas & Visuais (334)</button>
+        <button class="pill-filter" data-filter="wings">🪽 Asas Animadas (36)</button>
+        <button class="pill-filter" data-filter="wings_costumes">👗 Trajes & Visuais (334)</button>
         <button class="pill-filter" data-filter="pet">🐾 Pets (570)</button>
         <button class="pill-filter" data-filter="suits">👑 Conjuntos / Sets (248)</button>
       </div>

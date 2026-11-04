@@ -60181,7 +60181,8 @@
       "model_id": "equip_mc1_000001",
       "model_rel": "equip/EQUIP_MC1_000001.swf",
       "has_converted_model": true,
-      "active_weapon_model": "equip_mc1_000001"
+      "active_weapon_model": "equip_mc1_000001",
+      "active_female_weapon_model": "equip_fc1_000001"
     },
     {
       "id": 201,
@@ -60224,7 +60225,8 @@
       "model_id": "equip_mc2_000001",
       "model_rel": "equip/EQUIP_MC2_000001.swf",
       "has_converted_model": true,
-      "active_weapon_model": "equip_mc2_000001"
+      "active_weapon_model": "equip_mc2_000001",
+      "active_female_weapon_model": "equip_fc2_000001"
     },
     {
       "id": 202,
@@ -60267,7 +60269,8 @@
       "model_id": "equip_mc6_000001",
       "model_rel": "equip/EQUIP_MC6_000001.swf",
       "has_converted_model": true,
-      "active_weapon_model": "equip_mc6_000001"
+      "active_weapon_model": "equip_mc6_000001",
+      "active_female_weapon_model": "equip_fc6_000001"
     },
     {
       "id": 203,
@@ -60310,7 +60313,8 @@
       "model_id": "equip_mc3_000001",
       "model_rel": "equip/EQUIP_MC3_000001.swf",
       "has_converted_model": true,
-      "active_weapon_model": "equip_mc3_000001"
+      "active_weapon_model": "equip_mc3_000001",
+      "active_female_weapon_model": "equip_fc3_000001"
     },
     {
       "id": 204,
@@ -60353,7 +60357,8 @@
       "model_id": "equip_mc5_000001",
       "model_rel": "equip/EQUIP_MC5_000001.swf",
       "has_converted_model": true,
-      "active_weapon_model": "equip_mc5_000001"
+      "active_weapon_model": "equip_mc5_000001",
+      "active_female_weapon_model": "equip_fc5_000001"
     },
     {
       "id": 208,
@@ -60396,7 +60401,8 @@
       "model_id": "equip_mc4_000000",
       "model_rel": "equip/EQUIP_MC4_000000.swf",
       "has_converted_model": true,
-      "active_weapon_model": "equip_mc4_000000"
+      "active_weapon_model": "equip_mc4_000000",
+      "active_female_weapon_model": "equip_fc4_000000"
     },
     {
       "id": 14,
@@ -60444,7 +60450,8 @@
       "model_id": "equip_mc3_000002",
       "model_rel": "equip/EQUIP_MC3_000002.swf",
       "has_converted_model": true,
-      "active_weapon_model": "equip_mc3_000002"
+      "active_weapon_model": "equip_mc3_000002",
+      "active_female_weapon_model": "equip_fc3_000002"
     },
     {
       "id": 29,
@@ -60492,7 +60499,8 @@
       "model_id": "equip_mc1_000002",
       "model_rel": "equip/EQUIP_MC1_000002.swf",
       "has_converted_model": true,
-      "active_weapon_model": "equip_mc1_000002"
+      "active_weapon_model": "equip_mc1_000002",
+      "active_female_weapon_model": "equip_fc1_000002"
     },
     {
       "id": 35,
@@ -60540,7 +60548,8 @@
       "model_id": "equip_mc2_000002",
       "model_rel": "equip/EQUIP_MC2_000002.swf",
       "has_converted_model": true,
-      "active_weapon_model": "equip_mc2_000002"
+      "active_weapon_model": "equip_mc2_000002",
+      "active_female_weapon_model": "equip_fc2_000002"
     },
     {
       "id": 41,
@@ -60588,7 +60597,8 @@
       "model_id": "equip_mc5_000002",
       "model_rel": "equip/EQUIP_MC5_000002.swf",
       "has_converted_model": true,
-      "active_weapon_model": "equip_mc5_000002"
+      "active_weapon_model": "equip_mc5_000002",
+      "active_female_weapon_model": "equip_fc5_000002"
     },
     {
       "id": 134,
@@ -60636,7 +60646,8 @@
       "model_id": "equip_mc4_000001",
       "model_rel": "equip/EQUIP_MC4_000001.swf",
       "has_converted_model": true,
-      "active_weapon_model": "equip_mc4_000001"
+      "active_weapon_model": "equip_mc4_000001",
+      "active_female_weapon_model": "equip_fc4_000001"
     },
     {
       "id": 143,
@@ -60684,7 +60695,8 @@
       "model_id": "equip_mc6_000002",
       "model_rel": "equip/EQUIP_MC6_000002.swf",
       "has_converted_model": true,
-      "active_weapon_model": "equip_mc6_000002"
+      "active_weapon_model": "equip_mc6_000002",
+      "active_female_weapon_model": "equip_fc6_000002"
     },
     {
       "id": 15,
@@ -60733,7 +60745,8 @@
       "model_rel": "equip/EQUIP_MC3_000003.swf",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc3_000003",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc3_000003"
     },
     {
       "id": 31,
@@ -60781,7 +60794,8 @@
       "model_id": "equip_mc1_000003",
       "model_rel": "equip/EQUIP_MC1_000003.swf",
       "has_converted_model": true,
-      "active_weapon_model": "equip_mc1_000003"
+      "active_weapon_model": "equip_mc1_000003",
+      "active_female_weapon_model": "equip_fc1_000003"
     },
     {
       "id": 36,
@@ -60829,7 +60843,8 @@
       "model_id": "equip_mc2_000003",
       "model_rel": "equip/EQUIP_MC2_000003.swf",
       "has_converted_model": true,
-      "active_weapon_model": "equip_mc2_000003"
+      "active_weapon_model": "equip_mc2_000003",
+      "active_female_weapon_model": "equip_fc2_000003"
     },
     {
       "id": 42,
@@ -60878,7 +60893,8 @@
       "model_rel": "equip/EQUIP_MC5_000007.swf",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc5_000007",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc5_000003"
     },
     {
       "id": 49,
@@ -60926,7 +60942,8 @@
       "model_id": "equip_mc4_000002",
       "model_rel": "equip/EQUIP_MC4_000002.swf",
       "has_converted_model": true,
-      "active_weapon_model": "equip_mc4_000002"
+      "active_weapon_model": "equip_mc4_000002",
+      "active_female_weapon_model": "equip_fc4_000002"
     },
     {
       "id": 144,
@@ -60975,7 +60992,8 @@
       "model_rel": "equip/EQUIP_MC6_000003.swf",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc6_000003",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc6_000003"
     },
     {
       "id": 30,
@@ -61023,7 +61041,8 @@
       "model_id": "equip_mc1_000004",
       "model_rel": "equip/EQUIP_MC1_000004.swf",
       "has_converted_model": true,
-      "active_weapon_model": "equip_mc1_000004"
+      "active_weapon_model": "equip_mc1_000004",
+      "active_female_weapon_model": "equip_fc1_000004"
     },
     {
       "id": 37,
@@ -61071,7 +61090,8 @@
       "model_id": "equip_mc2_000004",
       "model_rel": "equip/EQUIP_MC2_000004.swf",
       "has_converted_model": true,
-      "active_weapon_model": "equip_mc2_000004"
+      "active_weapon_model": "equip_mc2_000004",
+      "active_female_weapon_model": "equip_fc2_000004"
     },
     {
       "id": 47,
@@ -61119,7 +61139,8 @@
       "model_id": "equip_mc5_000003",
       "model_rel": "equip/EQUIP_MC5_000003.swf",
       "has_converted_model": true,
-      "active_weapon_model": "equip_mc5_000003"
+      "active_weapon_model": "equip_mc5_000003",
+      "active_female_weapon_model": "equip_fc5_000004"
     },
     {
       "id": 135,
@@ -61167,7 +61188,8 @@
       "model_id": "equip_mc4_000003",
       "model_rel": "equip/EQUIP_MC4_000003.swf",
       "has_converted_model": true,
-      "active_weapon_model": "equip_mc4_000003"
+      "active_weapon_model": "equip_mc4_000003",
+      "active_female_weapon_model": "equip_fc4_000003"
     },
     {
       "id": 139,
@@ -61216,7 +61238,8 @@
       "model_rel": "equip/EQUIP_MC3_000004.swf",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc3_000004",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc3_000004"
     },
     {
       "id": 145,
@@ -61265,7 +61288,8 @@
       "model_rel": "equip/EQUIP_MC6_000004.swf",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc6_000004",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc6_000004"
     },
     {
       "id": 32,
@@ -61313,7 +61337,8 @@
       "model_id": "equip_mc1_000005",
       "model_rel": "equip/EQUIP_MC1_000005.swf",
       "has_converted_model": true,
-      "active_weapon_model": "equip_mc1_000005"
+      "active_weapon_model": "equip_mc1_000005",
+      "active_female_weapon_model": "equip_fc1_000005"
     },
     {
       "id": 38,
@@ -61362,7 +61387,8 @@
       "model_rel": "equip/EQUIP_MC2_000005.swf",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc2_000005",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc2_000005"
     },
     {
       "id": 44,
@@ -61411,7 +61437,8 @@
       "model_rel": "equip/EQUIP_MC5_000004.swf",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc5_000004",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc5_000005"
     },
     {
       "id": 136,
@@ -61459,7 +61486,8 @@
       "model_id": "equip_mc4_000004",
       "model_rel": "equip/EQUIP_MC4_000004.swf",
       "has_converted_model": true,
-      "active_weapon_model": "equip_mc4_000004"
+      "active_weapon_model": "equip_mc4_000004",
+      "active_female_weapon_model": "equip_fc4_000004"
     },
     {
       "id": 140,
@@ -61508,7 +61536,8 @@
       "model_rel": "equip/EQUIP_MC3_000005.swf",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc3_000005",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc3_000005"
     },
     {
       "id": 146,
@@ -61557,7 +61586,8 @@
       "model_rel": "equip/EQUIP_MC6_000005.swf",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc6_000005",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc6_000005"
     },
     {
       "id": 33,
@@ -61605,7 +61635,8 @@
       "model_id": "equip_mc1_000006",
       "model_rel": "equip/EQUIP_MC1_000006.swf",
       "has_converted_model": true,
-      "active_weapon_model": "equip_mc1_000006"
+      "active_weapon_model": "equip_mc1_000006",
+      "active_female_weapon_model": "equip_fc1_000006"
     },
     {
       "id": 39,
@@ -61654,7 +61685,8 @@
       "model_rel": "equip/EQUIP_MC2_000006.swf",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc2_000006",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc2_000006"
     },
     {
       "id": 46,
@@ -61703,7 +61735,8 @@
       "model_rel": "equip/EQUIP_MC5_000005.swf",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc5_000005",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc5_000006"
     },
     {
       "id": 137,
@@ -61751,7 +61784,8 @@
       "model_id": "equip_mc4_000005",
       "model_rel": "equip/EQUIP_MC4_000005.swf",
       "has_converted_model": true,
-      "active_weapon_model": "equip_mc4_000005"
+      "active_weapon_model": "equip_mc4_000005",
+      "active_female_weapon_model": "equip_fc4_000005"
     },
     {
       "id": 141,
@@ -61800,7 +61834,8 @@
       "model_rel": "equip/EQUIP_MC3_000006.swf",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc3_000006",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc3_000006"
     },
     {
       "id": 147,
@@ -61849,7 +61884,8 @@
       "model_rel": "equip/EQUIP_MC6_000006.swf",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc6_000006",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc6_000006"
     },
     {
       "id": 1348,
@@ -61892,7 +61928,8 @@
       "model_id": "equip_mc1_000001",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc1_000001",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc1_000001"
     },
     {
       "id": 1349,
@@ -61935,7 +61972,8 @@
       "model_id": "equip_mc1_000001",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc1_000001",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc1_000001"
     },
     {
       "id": 1350,
@@ -61978,7 +62016,8 @@
       "model_id": "equip_mc1_000001",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc1_000001",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc1_000001"
     },
     {
       "id": 1351,
@@ -62021,7 +62060,8 @@
       "model_id": "equip_mc1_000001",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc1_000001",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc1_000001"
     },
     {
       "id": 1352,
@@ -62064,7 +62104,8 @@
       "model_id": "equip_mc1_000001",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc1_000001",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc1_000001"
     },
     {
       "id": 1353,
@@ -62107,7 +62148,8 @@
       "model_id": "equip_mc1_000001",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc1_000001",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc1_000001"
     },
     {
       "id": 1418,
@@ -62139,7 +62181,8 @@
       "model_id": "equip_mc1_000001",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc1_000001",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc1_000001"
     },
     {
       "id": 1421,
@@ -62171,7 +62214,8 @@
       "model_id": "equip_mc1_000001",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc1_000001",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc1_000001"
     },
     {
       "id": 1422,
@@ -62203,7 +62247,8 @@
       "model_id": "equip_mc1_000001",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc1_000001",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc1_000001"
     },
     {
       "id": 1423,
@@ -62235,7 +62280,8 @@
       "model_id": "equip_mc1_000001",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc1_000001",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc1_000001"
     },
     {
       "id": 1424,
@@ -62267,7 +62313,8 @@
       "model_id": "equip_mc1_000001",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc1_000001",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc1_000001"
     },
     {
       "id": 1425,
@@ -62299,7 +62346,8 @@
       "model_id": "equip_mc1_000001",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc1_000001",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc1_000001"
     },
     {
       "id": 1426,
@@ -62331,7 +62379,8 @@
       "model_id": "equip_mc1_000001",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc1_000001",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc1_000001"
     },
     {
       "id": 1427,
@@ -62363,7 +62412,8 @@
       "model_id": "equip_mc1_000001",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc1_000001",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc1_000001"
     },
     {
       "id": 1428,
@@ -62395,7 +62445,8 @@
       "model_id": "equip_mc1_000001",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc1_000001",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc1_000001"
     },
     {
       "id": 1429,
@@ -62427,7 +62478,8 @@
       "model_id": "equip_mc1_000001",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc1_000001",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc1_000001"
     },
     {
       "id": 1430,
@@ -62459,7 +62511,8 @@
       "model_id": "equip_mc1_000001",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc1_000001",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc1_000001"
     },
     {
       "id": 1431,
@@ -62491,7 +62544,8 @@
       "model_id": "equip_mc1_000001",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc1_000001",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc1_000001"
     },
     {
       "id": 1661,
@@ -62523,7 +62577,8 @@
       "model_id": "equip_mc1_000001",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc1_000001",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc1_000001"
     },
     {
       "id": 1662,
@@ -62555,7 +62610,8 @@
       "model_id": "equip_mc1_000001",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc1_000001",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc1_000001"
     },
     {
       "id": 1663,
@@ -62587,7 +62643,8 @@
       "model_id": "equip_mc1_000001",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc1_000001",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc1_000001"
     },
     {
       "id": 34,
@@ -62635,7 +62692,8 @@
       "model_id": "equip_mc1_000007",
       "model_rel": "equip/EQUIP_MC1_000007.swf",
       "has_converted_model": true,
-      "active_weapon_model": "equip_mc1_000007"
+      "active_weapon_model": "equip_mc1_000007",
+      "active_female_weapon_model": "equip_fc1_000007"
     },
     {
       "id": 40,
@@ -62684,7 +62742,8 @@
       "model_rel": "equip/EQUIP_MC2_000007.swf",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc2_000007",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc2_000007"
     },
     {
       "id": 48,
@@ -62733,7 +62792,8 @@
       "model_rel": "equip/EQUIP_MC5_000006.swf",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc5_000006",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc5_000007"
     },
     {
       "id": 138,
@@ -62781,7 +62841,8 @@
       "model_id": "equip_mc4_000006",
       "model_rel": "equip/EQUIP_MC4_000006.swf",
       "has_converted_model": true,
-      "active_weapon_model": "equip_mc4_000006"
+      "active_weapon_model": "equip_mc4_000006",
+      "active_female_weapon_model": "equip_fc4_000006"
     },
     {
       "id": 142,
@@ -62830,7 +62891,8 @@
       "model_rel": "equip/EQUIP_MC3_000007.swf",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc3_000007",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc3_000007"
     },
     {
       "id": 148,
@@ -62879,7 +62941,8 @@
       "model_rel": "equip/EQUIP_MC6_000007.swf",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc6_000007",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc6_000007"
     },
     {
       "id": 189,
@@ -62928,7 +62991,8 @@
       "model_rel": "equip/EQUIP_MC4_000007.swf",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc4_000007",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc4_000007"
     },
     {
       "id": 232,
@@ -62976,7 +63040,8 @@
       "model_id": "equip_mc1_000008",
       "model_rel": "equip/EQUIP_MC1_000008.swf",
       "has_converted_model": true,
-      "active_weapon_model": "equip_mc1_000008"
+      "active_weapon_model": "equip_mc1_000008",
+      "active_female_weapon_model": "equip_fc1_000008"
     },
     {
       "id": 263,
@@ -63025,7 +63090,8 @@
       "model_rel": "equip/EQUIP_MC2_000008.swf",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc2_000008",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc2_000008"
     },
     {
       "id": 294,
@@ -63074,7 +63140,8 @@
       "model_rel": "equip/EQUIP_MC6_000008.swf",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc6_000008",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc6_000008"
     },
     {
       "id": 945,
@@ -63123,7 +63190,8 @@
       "model_rel": "equip/EQUIP_MC3_000008.swf",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc3_000008",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc3_000008"
     },
     {
       "id": 950,
@@ -63172,7 +63240,8 @@
       "model_rel": "equip/EQUIP_MC5_000009.swf",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc5_000009",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc5_000008"
     },
     {
       "id": 197,
@@ -63221,7 +63290,8 @@
       "model_rel": "equip/EQUIP_MC4_000008.swf",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc4_000008",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc4_000008"
     },
     {
       "id": 244,
@@ -63269,7 +63339,8 @@
       "model_id": "equip_mc1_000009",
       "model_rel": "equip/EQUIP_MC1_000009.swf",
       "has_converted_model": true,
-      "active_weapon_model": "equip_mc1_000009"
+      "active_weapon_model": "equip_mc1_000009",
+      "active_female_weapon_model": "equip_fc1_000009"
     },
     {
       "id": 268,
@@ -63318,7 +63389,8 @@
       "model_rel": "equip/EQUIP_MC2_000009.swf",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc2_000009",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc2_000009"
     },
     {
       "id": 299,
@@ -63367,7 +63439,8 @@
       "model_rel": "equip/EQUIP_MC6_000009.swf",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc6_000009",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc6_000009"
     },
     {
       "id": 946,
@@ -63416,7 +63489,8 @@
       "model_rel": "equip/EQUIP_MC3_000009.swf",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc3_000009",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc3_000009"
     },
     {
       "id": 951,
@@ -63465,7 +63539,8 @@
       "model_rel": "equip/EQUIP_MC5_000008.swf",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc5_000008",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc5_000009"
     },
     {
       "id": 198,
@@ -63514,7 +63589,8 @@
       "model_rel": "equip/EQUIP_MC4_000010.swf",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc4_000010",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc4_000010"
     },
     {
       "id": 236,
@@ -63562,7 +63638,8 @@
       "model_id": "equip_mc1_000010",
       "model_rel": "equip/EQUIP_MC1_000010.swf",
       "has_converted_model": true,
-      "active_weapon_model": "equip_mc1_000010"
+      "active_weapon_model": "equip_mc1_000010",
+      "active_female_weapon_model": "equip_fc1_000010"
     },
     {
       "id": 273,
@@ -63611,7 +63688,8 @@
       "model_rel": "equip/EQUIP_MC2_000010.swf",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc2_000010",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc2_000010"
     },
     {
       "id": 304,
@@ -63660,7 +63738,8 @@
       "model_rel": "equip/EQUIP_MC6_000010.swf",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc6_000010",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc6_000010"
     },
     {
       "id": 947,
@@ -63709,7 +63788,8 @@
       "model_rel": "equip/EQUIP_MC3_000010.swf",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc3_000010",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc3_000010"
     },
     {
       "id": 952,
@@ -63758,7 +63838,8 @@
       "model_rel": "equip/EQUIP_MC5_000010.swf",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc5_000010",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc5_000010"
     },
     {
       "id": 199,
@@ -63807,7 +63888,8 @@
       "model_rel": "equip/EQUIP_MC4_000011.swf",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc4_000011",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc4_000011"
     },
     {
       "id": 944,
@@ -63856,7 +63938,8 @@
       "model_rel": "equip/EQUIP_MC6_000011.swf",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc6_000011",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc6_000011"
     },
     {
       "id": 948,
@@ -63905,7 +63988,8 @@
       "model_rel": "equip/EQUIP_MC3_000011.swf",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc3_000011",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc3_000011"
     },
     {
       "id": 953,
@@ -63954,7 +64038,8 @@
       "model_rel": "equip/EQUIP_MC5_000011.swf",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc5_000011",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc5_000011"
     },
     {
       "id": 954,
@@ -64003,7 +64088,8 @@
       "model_rel": "equip/EQUIP_MC2_000011.swf",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc2_000011",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc2_000011"
     },
     {
       "id": 955,
@@ -64051,7 +64137,8 @@
       "model_id": "equip_mc1_000011",
       "model_rel": "equip/EQUIP_MC1_000011.swf",
       "has_converted_model": true,
-      "active_weapon_model": "equip_mc1_000011"
+      "active_weapon_model": "equip_mc1_000011",
+      "active_female_weapon_model": "equip_fc1_000011"
     },
     {
       "id": 1006,
@@ -64099,7 +64186,8 @@
       "model_id": "equip_mc1_000012",
       "model_rel": "equip/EQUIP_MC1_000012.swf",
       "has_converted_model": true,
-      "active_weapon_model": "equip_mc1_000012"
+      "active_weapon_model": "equip_mc1_000012",
+      "active_female_weapon_model": "equip_fc1_000012"
     },
     {
       "id": 1011,
@@ -64148,7 +64236,8 @@
       "model_rel": "equip/EQUIP_MC2_000012.swf",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc2_000012",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc2_000012"
     },
     {
       "id": 1012,
@@ -64197,7 +64286,8 @@
       "model_rel": "equip/EQUIP_MC3_000012.swf",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc3_000012",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc3_000012"
     },
     {
       "id": 1013,
@@ -64246,7 +64336,8 @@
       "model_rel": "equip/EQUIP_MC4_000012.swf",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc4_000012",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc4_000012"
     },
     {
       "id": 1014,
@@ -64295,7 +64386,8 @@
       "model_rel": "equip/EQUIP_MC5_000012.swf",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc5_000012",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc5_000012"
     },
     {
       "id": 1015,
@@ -64344,7 +64436,8 @@
       "model_rel": "equip/EQUIP_MC6_000012.swf",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc6_000012",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc6_000012"
     },
     {
       "id": 1067,
@@ -64392,7 +64485,8 @@
       "model_id": "equip_mc1_000013",
       "model_rel": "equip/EQUIP_MC1_000013.swf",
       "has_converted_model": true,
-      "active_weapon_model": "equip_mc1_000013"
+      "active_weapon_model": "equip_mc1_000013",
+      "active_female_weapon_model": "equip_fc1_000013"
     },
     {
       "id": 1068,
@@ -64441,7 +64535,8 @@
       "model_rel": "equip/EQUIP_MC2_000013.swf",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc2_000013",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc2_000013"
     },
     {
       "id": 1069,
@@ -64490,7 +64585,8 @@
       "model_rel": "equip/EQUIP_MC5_000013.swf",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc5_000013",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc5_000013"
     },
     {
       "id": 1070,
@@ -64539,7 +64635,8 @@
       "model_rel": "equip/EQUIP_MC4_000013.swf",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc4_000013",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc4_000013"
     },
     {
       "id": 1071,
@@ -64588,7 +64685,8 @@
       "model_rel": "equip/EQUIP_MC6_000013.swf",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc6_000013",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc6_000013"
     },
     {
       "id": 1072,
@@ -64637,7 +64735,8 @@
       "model_rel": "equip/EQUIP_MC3_000013.swf",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc3_000013",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc3_000013"
     },
     {
       "id": 1132,
@@ -64685,7 +64784,8 @@
       "model_id": "equip_mc1_000014",
       "model_rel": "equip/EQUIP_MC1_000014.swf",
       "has_converted_model": true,
-      "active_weapon_model": "equip_mc1_000014"
+      "active_weapon_model": "equip_mc1_000014",
+      "active_female_weapon_model": "equip_fc1_000014"
     },
     {
       "id": 1188,
@@ -64734,7 +64834,8 @@
       "model_rel": "equip/EQUIP_MC2_000014.swf",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc2_000014",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc2_000014"
     },
     {
       "id": 1189,
@@ -64783,7 +64884,8 @@
       "model_rel": "equip/EQUIP_MC5_000014.swf",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc5_000014",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc5_000014"
     },
     {
       "id": 1190,
@@ -64832,7 +64934,8 @@
       "model_rel": "equip/EQUIP_MC4_000014.swf",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc4_000014",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc4_000014"
     },
     {
       "id": 1191,
@@ -64881,7 +64984,8 @@
       "model_rel": "equip/EQUIP_MC6_000014.swf",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc6_000014",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc6_000014"
     },
     {
       "id": 1193,
@@ -64930,7 +65034,8 @@
       "model_rel": "equip/EQUIP_MC3_000014.swf",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc3_000014",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc3_000014"
     },
     {
       "id": 1362,
@@ -64978,7 +65083,8 @@
       "model_id": "equip_mc1_000015",
       "model_rel": "equip/EQUIP_MC1_000015.swf",
       "has_converted_model": true,
-      "active_weapon_model": "equip_mc1_000015"
+      "active_weapon_model": "equip_mc1_000015",
+      "active_female_weapon_model": "equip_fc1_000015"
     },
     {
       "id": 1363,
@@ -65027,7 +65133,8 @@
       "model_rel": "equip/EQUIP_MC2_000015.swf",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc2_000015",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc2_000015"
     },
     {
       "id": 1364,
@@ -65076,7 +65183,8 @@
       "model_rel": "equip/EQUIP_MC5_000015.swf",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc5_000015",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc5_000015"
     },
     {
       "id": 1365,
@@ -65125,7 +65233,8 @@
       "model_rel": "equip/EQUIP_MC4_000015.swf",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc4_000015",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc4_000015"
     },
     {
       "id": 1366,
@@ -65174,7 +65283,8 @@
       "model_rel": "equip/EQUIP_MC6_000015.swf",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc6_000015",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc6_000015"
     },
     {
       "id": 1367,
@@ -65223,7 +65333,8 @@
       "model_rel": "equip/EQUIP_MC3_000015.swf",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc3_000015",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc3_000015"
     },
     {
       "id": 1707,
@@ -65271,7 +65382,8 @@
       "model_id": "equip_mc1_000016",
       "model_rel": "equip/EQUIP_MC1_000016.swf",
       "has_converted_model": true,
-      "active_weapon_model": "equip_mc1_000016"
+      "active_weapon_model": "equip_mc1_000016",
+      "active_female_weapon_model": "equip_fc1_000016"
     },
     {
       "id": 1708,
@@ -65320,7 +65432,8 @@
       "model_rel": "equip/EQUIP_MC2_000016.swf",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc2_000016",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc2_000016"
     },
     {
       "id": 1709,
@@ -65369,7 +65482,8 @@
       "model_rel": "equip/EQUIP_MC5_000016.swf",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc5_000016",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc5_000016"
     },
     {
       "id": 1710,
@@ -65418,7 +65532,8 @@
       "model_rel": "equip/EQUIP_MC4_000016.swf",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc4_000016",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc4_000016"
     },
     {
       "id": 1711,
@@ -65467,7 +65582,8 @@
       "model_rel": "equip/EQUIP_MC6_000016.swf",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc6_000016",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc6_000016"
     },
     {
       "id": 1712,
@@ -65516,7 +65632,8 @@
       "model_rel": "equip/EQUIP_MC3_000016.swf",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc3_000016",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc3_000016"
     },
     {
       "id": 2142,
@@ -65564,7 +65681,8 @@
       "model_id": "equip_mc1_000016",
       "model_rel": "equip/EQUIP_MC1_000016.swf",
       "has_converted_model": true,
-      "active_weapon_model": "equip_mc1_000016"
+      "active_weapon_model": "equip_mc1_000016",
+      "active_female_weapon_model": "equip_fc1_000016"
     },
     {
       "id": 2143,
@@ -65613,7 +65731,8 @@
       "model_rel": "equip/EQUIP_MC2_000016.swf",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc2_000016",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc2_000016"
     },
     {
       "id": 2144,
@@ -65662,7 +65781,8 @@
       "model_rel": "equip/EQUIP_MC5_000016.swf",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc5_000016",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc5_000016"
     },
     {
       "id": 2145,
@@ -65711,7 +65831,8 @@
       "model_rel": "equip/EQUIP_MC4_000016.swf",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc4_000016",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc4_000016"
     },
     {
       "id": 2146,
@@ -65760,7 +65881,8 @@
       "model_rel": "equip/EQUIP_MC6_000016.swf",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc6_000016",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc6_000016"
     },
     {
       "id": 2147,
@@ -65809,7 +65931,8 @@
       "model_rel": "equip/EQUIP_MC3_000016.swf",
       "has_converted_model": true,
       "active_weapon_model": "equip_mc3_000016",
-      "is_fallback_model": true
+      "is_fallback_model": true,
+      "active_female_weapon_model": "equip_fc3_000016"
     },
     {
       "id": 1432,
@@ -79056,7 +79179,7 @@
       "name": "Asas Test",
       "name_orig": "Cánh Test",
       "description": "Cánh trong truyền thuyết",
-      "category_group": "wings_costumes",
+      "category_group": "wings",
       "position": 22,
       "position_name": "Asas Celestiais",
       "kind": 13,
@@ -79100,14 +79223,15 @@
       "has_model": true,
       "model_swf": "equip/EQUIP_FLY_200001.swf",
       "model_id": "equip_fly_200001",
-      "model_rel": "equip/EQUIP_FLY_200001.swf"
+      "model_rel": "equip/EQUIP_FLY_200001.swf",
+      "active_wing_model": "equip_wing_001001"
     },
     {
       "id": 1675,
       "name": "Asas Ánh Sáng",
       "name_orig": "Cánh Ánh Sáng",
       "description": "Hãy tung cánh bay lượn nào!",
-      "category_group": "wings_costumes",
+      "category_group": "wings",
       "position": 22,
       "position_name": "Asas Celestiais",
       "kind": 13,
@@ -79151,14 +79275,16 @@
       "has_model": true,
       "model_swf": "equip/EQUIP_WING_001001.swf",
       "model_id": "equip_wing_001002",
-      "model_rel": "equip/EQUIP_WING_001002.swf"
+      "model_rel": "equip/EQUIP_WING_001002.swf",
+      "active_wing_model": "equip_wing_001001",
+      "has_converted_model": true
     },
     {
       "id": 1676,
       "name": "Asas Thiên Sứ",
       "name_orig": "Cánh Thiên Sứ",
       "description": "Đôi cánh thiên thần mang lại lời chúc phúc",
-      "category_group": "wings_costumes",
+      "category_group": "wings",
       "position": 22,
       "position_name": "Asas Celestiais",
       "kind": 13,
@@ -79202,14 +79328,16 @@
       "has_model": true,
       "model_swf": "equip/EQUIP_WING_004001.swf",
       "model_id": "equip_wing_004002",
-      "model_rel": "equip/EQUIP_WING_004002.swf"
+      "model_rel": "equip/EQUIP_WING_004002.swf",
+      "active_wing_model": "equip_wing_004001",
+      "has_converted_model": true
     },
     {
       "id": 1677,
       "name": "Asas Ác Ma",
       "name_orig": "Cánh Ác Ma",
       "description": "Đôi cánh mang đầy vẻ tà ác của ác ma",
-      "category_group": "wings_costumes",
+      "category_group": "wings",
       "position": 22,
       "position_name": "Asas Celestiais",
       "kind": 13,
@@ -79253,14 +79381,16 @@
       "has_model": true,
       "model_swf": "equip/EQUIP_WING_003001.swf",
       "model_id": "equip_wing_003002",
-      "model_rel": "equip/EQUIP_WING_003002.swf"
+      "model_rel": "equip/EQUIP_WING_003002.swf",
+      "active_wing_model": "equip_wing_003001",
+      "has_converted_model": true
     },
     {
       "id": 1678,
       "name": "Asas Bích Không",
       "name_orig": "Cánh Bích Không",
       "description": "Đôi cánh đại diện cho tinh thần Vô Ưu Đại Lục",
-      "category_group": "wings_costumes",
+      "category_group": "wings",
       "position": 22,
       "position_name": "Asas Celestiais",
       "kind": 13,
@@ -79304,14 +79434,16 @@
       "has_model": true,
       "model_swf": "equip/EQUIP_WING_002001.swf",
       "model_id": "equip_wing_002002",
-      "model_rel": "equip/EQUIP_WING_002002.swf"
+      "model_rel": "equip/EQUIP_WING_002002.swf",
+      "active_wing_model": "equip_wing_002001",
+      "has_converted_model": true
     },
     {
       "id": 1681,
       "name": "Asas Chiến Thần",
       "name_orig": "Cánh Chiến Thần",
       "description": "Kết tinh của tự do và lòng can đảm của đại lục, \nmang theo ước mơ mãi vươn cao.",
-      "category_group": "wings_costumes",
+      "category_group": "wings",
       "position": 22,
       "position_name": "Asas Celestiais",
       "kind": 13,
@@ -79355,14 +79487,16 @@
       "has_model": true,
       "model_swf": "equip/EQUIP_WING_005003.swf",
       "model_id": "equip_wing_005003",
-      "model_rel": "equip/EQUIP_WING_005003.swf"
+      "model_rel": "equip/EQUIP_WING_005003.swf",
+      "active_wing_model": "equip_wing_005003",
+      "has_converted_model": true
     },
     {
       "id": 1911,
       "name": "Asas Chiến Thần Hoàng Kim",
       "name_orig": "Cánh Chiến Thần Hoàng Kim",
       "description": "Loại cánh xuất hiện từ thời \nthượng cổ, mang sức mạnh kỳ bí",
-      "category_group": "wings_costumes",
+      "category_group": "wings",
       "position": 22,
       "position_name": "Asas Celestiais",
       "kind": 13,
@@ -79406,14 +79540,15 @@
       "has_model": false,
       "model_swf": null,
       "model_id": "equip_wing_033003",
-      "model_rel": "equip/EQUIP_WING_033003.swf"
+      "model_rel": "equip/EQUIP_WING_033003.swf",
+      "active_wing_model": "equip_wing_001001"
     },
     {
       "id": 1923,
       "name": "Asas Khổng Tước Lam",
       "name_orig": "Cánh Khổng Tước Lam",
       "description": "Không",
-      "category_group": "wings_costumes",
+      "category_group": "wings",
       "position": 22,
       "position_name": "Asas Celestiais",
       "kind": 13,
@@ -79457,14 +79592,16 @@
       "has_model": true,
       "model_swf": "equip/EQUIP_WING_061003.swf",
       "model_id": "equip_wing_061003",
-      "model_rel": "equip/EQUIP_WING_061003.swf"
+      "model_rel": "equip/EQUIP_WING_061003.swf",
+      "active_wing_model": "equip_wing_061003",
+      "has_converted_model": true
     },
     {
       "id": 1930,
       "name": "Asas Khổng Tước Đỏ",
       "name_orig": "Cánh Khổng Tước Đỏ",
       "description": "Không",
-      "category_group": "wings_costumes",
+      "category_group": "wings",
       "position": 22,
       "position_name": "Asas Celestiais",
       "kind": 13,
@@ -79508,14 +79645,16 @@
       "has_model": true,
       "model_swf": "equip/EQUIP_WING_062003.swf",
       "model_id": "equip_wing_062003",
-      "model_rel": "equip/EQUIP_WING_062003.swf"
+      "model_rel": "equip/EQUIP_WING_062003.swf",
+      "active_wing_model": "equip_wing_062003",
+      "has_converted_model": true
     },
     {
       "id": 1931,
       "name": "Asas Hồ Khổng Tước Vàng",
       "name_orig": "Cánh Hồ Khổng Tước Vàng",
       "description": "Không",
-      "category_group": "wings_costumes",
+      "category_group": "wings",
       "position": 22,
       "position_name": "Asas Celestiais",
       "kind": 13,
@@ -79559,7 +79698,335 @@
       "has_model": true,
       "model_swf": "equip/EQUIP_WING_063003.swf",
       "model_id": "equip_wing_063003",
-      "model_rel": "equip/EQUIP_WING_063003.swf"
+      "model_rel": "equip/EQUIP_WING_063003.swf",
+      "active_wing_model": "equip_wing_063003",
+      "has_converted_model": true
+    }
+  ],
+  "wings": [
+    {
+      "id": "1675",
+      "name": "Cánh Ánh Sáng",
+      "model_id": "equip_wing_001001",
+      "manifest_url": "assets/wings/equip_wing_001001/char_manifest.json",
+      "icon": "assets/equipment/icons/EQUIP_NORMAL_180001.png",
+      "description": "Hãy tung cánh bay lượn nào!",
+      "type": "wing"
+    },
+    {
+      "id": 3002,
+      "name": "Cánh Ma Pháp 1002",
+      "model_id": "equip_wing_001002",
+      "manifest_url": "assets/wings/equip_wing_001002/char_manifest.json",
+      "icon": "assets/equipment/icons/EQUIP_NORMAL_180001.png",
+      "description": "Asas visuais de alto nível (equip_wing_001002). Concede poder e imponência ao personagem.",
+      "type": "wing"
+    },
+    {
+      "id": 3003,
+      "name": "Cánh Ma Pháp 1003",
+      "model_id": "equip_wing_001003",
+      "manifest_url": "assets/wings/equip_wing_001003/char_manifest.json",
+      "icon": "assets/equipment/icons/EQUIP_NORMAL_180001.png",
+      "description": "Asas visuais de alto nível (equip_wing_001003). Concede poder e imponência ao personagem.",
+      "type": "wing"
+    },
+    {
+      "id": "1678",
+      "name": "Cánh Bích Không",
+      "model_id": "equip_wing_002001",
+      "manifest_url": "assets/wings/equip_wing_002001/char_manifest.json",
+      "icon": "assets/equipment/icons/EQUIP_NORMAL_180002.png",
+      "description": "Đôi cánh đại diện cho tinh thần Vô Ưu Đại Lục",
+      "type": "wing"
+    },
+    {
+      "id": 3005,
+      "name": "Cánh Ma Pháp 2002",
+      "model_id": "equip_wing_002002",
+      "manifest_url": "assets/wings/equip_wing_002002/char_manifest.json",
+      "icon": "assets/equipment/icons/EQUIP_NORMAL_180001.png",
+      "description": "Asas visuais de alto nível (equip_wing_002002). Concede poder e imponência ao personagem.",
+      "type": "wing"
+    },
+    {
+      "id": 3006,
+      "name": "Cánh Ma Pháp 2003",
+      "model_id": "equip_wing_002003",
+      "manifest_url": "assets/wings/equip_wing_002003/char_manifest.json",
+      "icon": "assets/equipment/icons/EQUIP_NORMAL_180001.png",
+      "description": "Asas visuais de alto nível (equip_wing_002003). Concede poder e imponência ao personagem.",
+      "type": "wing"
+    },
+    {
+      "id": "1677",
+      "name": "Cánh Ác Ma",
+      "model_id": "equip_wing_003001",
+      "manifest_url": "assets/wings/equip_wing_003001/char_manifest.json",
+      "icon": "assets/equipment/icons/EQUIP_NORMAL_180003.png",
+      "description": "Đôi cánh mang đầy vẻ tà ác của ác ma",
+      "type": "wing"
+    },
+    {
+      "id": 3008,
+      "name": "Cánh Ma Pháp 3002",
+      "model_id": "equip_wing_003002",
+      "manifest_url": "assets/wings/equip_wing_003002/char_manifest.json",
+      "icon": "assets/equipment/icons/EQUIP_NORMAL_180001.png",
+      "description": "Asas visuais de alto nível (equip_wing_003002). Concede poder e imponência ao personagem.",
+      "type": "wing"
+    },
+    {
+      "id": 3009,
+      "name": "Cánh Ma Pháp 3003",
+      "model_id": "equip_wing_003003",
+      "manifest_url": "assets/wings/equip_wing_003003/char_manifest.json",
+      "icon": "assets/equipment/icons/EQUIP_NORMAL_180001.png",
+      "description": "Asas visuais de alto nível (equip_wing_003003). Concede poder e imponência ao personagem.",
+      "type": "wing"
+    },
+    {
+      "id": "1676",
+      "name": "Cánh Thiên Sứ",
+      "model_id": "equip_wing_004001",
+      "manifest_url": "assets/wings/equip_wing_004001/char_manifest.json",
+      "icon": "assets/equipment/icons/EQUIP_NORMAL_180004.png",
+      "description": "Đôi cánh thiên thần mang lại lời chúc phúc",
+      "type": "wing"
+    },
+    {
+      "id": 3011,
+      "name": "Cánh Ma Pháp 4002",
+      "model_id": "equip_wing_004002",
+      "manifest_url": "assets/wings/equip_wing_004002/char_manifest.json",
+      "icon": "assets/equipment/icons/EQUIP_NORMAL_180001.png",
+      "description": "Asas visuais de alto nível (equip_wing_004002). Concede poder e imponência ao personagem.",
+      "type": "wing"
+    },
+    {
+      "id": 3012,
+      "name": "Cánh Ma Pháp 4003",
+      "model_id": "equip_wing_004003",
+      "manifest_url": "assets/wings/equip_wing_004003/char_manifest.json",
+      "icon": "assets/equipment/icons/EQUIP_NORMAL_180001.png",
+      "description": "Asas visuais de alto nível (equip_wing_004003). Concede poder e imponência ao personagem.",
+      "type": "wing"
+    },
+    {
+      "id": "1681",
+      "name": "Cánh Chiến Thần",
+      "model_id": "equip_wing_005003",
+      "manifest_url": "assets/wings/equip_wing_005003/char_manifest.json",
+      "icon": "assets/equipment/icons/EQUIP_NORMAL_180005.png",
+      "description": "Kết tinh của tự do và lòng can đảm của đại lục, \nmang theo ước mơ mãi vươn cao.",
+      "type": "wing"
+    },
+    {
+      "id": 3014,
+      "name": "Cánh Ma Pháp 6003",
+      "model_id": "equip_wing_006003",
+      "manifest_url": "assets/wings/equip_wing_006003/char_manifest.json",
+      "icon": "assets/equipment/icons/EQUIP_NORMAL_180001.png",
+      "description": "Asas visuais de alto nível (equip_wing_006003). Concede poder e imponência ao personagem.",
+      "type": "wing"
+    },
+    {
+      "id": 3015,
+      "name": "Cánh Ma Pháp 7003",
+      "model_id": "equip_wing_007003",
+      "manifest_url": "assets/wings/equip_wing_007003/char_manifest.json",
+      "icon": "assets/equipment/icons/EQUIP_NORMAL_180001.png",
+      "description": "Asas visuais de alto nível (equip_wing_007003). Concede poder e imponência ao personagem.",
+      "type": "wing"
+    },
+    {
+      "id": 3016,
+      "name": "Cánh Ma Pháp 8003",
+      "model_id": "equip_wing_008003",
+      "manifest_url": "assets/wings/equip_wing_008003/char_manifest.json",
+      "icon": "assets/equipment/icons/EQUIP_NORMAL_180001.png",
+      "description": "Asas visuais de alto nível (equip_wing_008003). Concede poder e imponência ao personagem.",
+      "type": "wing"
+    },
+    {
+      "id": 3017,
+      "name": "Cánh Ma Pháp 9003",
+      "model_id": "equip_wing_009003",
+      "manifest_url": "assets/wings/equip_wing_009003/char_manifest.json",
+      "icon": "assets/equipment/icons/EQUIP_NORMAL_180001.png",
+      "description": "Asas visuais de alto nível (equip_wing_009003). Concede poder e imponência ao personagem.",
+      "type": "wing"
+    },
+    {
+      "id": 3018,
+      "name": "Cánh Ma Pháp 60003",
+      "model_id": "equip_wing_060003",
+      "manifest_url": "assets/wings/equip_wing_060003/char_manifest.json",
+      "icon": "assets/equipment/icons/EQUIP_NORMAL_180001.png",
+      "description": "Asas visuais de alto nível (equip_wing_060003). Concede poder e imponência ao personagem.",
+      "type": "wing"
+    },
+    {
+      "id": "1923",
+      "name": "Cánh Khổng Tước Lam",
+      "model_id": "equip_wing_061003",
+      "manifest_url": "assets/wings/equip_wing_061003/char_manifest.json",
+      "icon": "assets/equipment/icons/EQUIP_NORMAL_600009.png",
+      "description": "Không",
+      "type": "wing"
+    },
+    {
+      "id": "1930",
+      "name": "Cánh Khổng Tước Đỏ",
+      "model_id": "equip_wing_062003",
+      "manifest_url": "assets/wings/equip_wing_062003/char_manifest.json",
+      "icon": "assets/equipment/icons/EQUIP_NORMAL_600009.png",
+      "description": "Không",
+      "type": "wing"
+    },
+    {
+      "id": "1931",
+      "name": "Cánh Hồ Khổng Tước Vàng",
+      "model_id": "equip_wing_063003",
+      "manifest_url": "assets/wings/equip_wing_063003/char_manifest.json",
+      "icon": "assets/equipment/icons/EQUIP_NORMAL_600009.png",
+      "description": "Không",
+      "type": "wing"
+    },
+    {
+      "id": 3022,
+      "name": "Cánh Phi Thiên 04",
+      "model_id": "equip_fly_000004",
+      "manifest_url": "assets/wings/equip_fly_000004/char_manifest.json",
+      "icon": "assets/equipment/icons/EQUIP_NORMAL_180001.png",
+      "description": "Asas visuais de alto nível (equip_fly_000004). Concede poder e imponência ao personagem.",
+      "type": "wing"
+    },
+    {
+      "id": 3023,
+      "name": "Cánh Phi Thiên 06",
+      "model_id": "equip_fly_000006",
+      "manifest_url": "assets/wings/equip_fly_000006/char_manifest.json",
+      "icon": "assets/equipment/icons/EQUIP_NORMAL_180001.png",
+      "description": "Asas visuais de alto nível (equip_fly_000006). Concede poder e imponência ao personagem.",
+      "type": "wing"
+    },
+    {
+      "id": 3024,
+      "name": "Cánh Phi Thiên 07",
+      "model_id": "equip_fly_000007",
+      "manifest_url": "assets/wings/equip_fly_000007/char_manifest.json",
+      "icon": "assets/equipment/icons/EQUIP_NORMAL_180001.png",
+      "description": "Asas visuais de alto nível (equip_fly_000007). Concede poder e imponência ao personagem.",
+      "type": "wing"
+    },
+    {
+      "id": 3025,
+      "name": "Cánh Phi Thiên 08",
+      "model_id": "equip_fly_000008",
+      "manifest_url": "assets/wings/equip_fly_000008/char_manifest.json",
+      "icon": "assets/equipment/icons/EQUIP_NORMAL_180001.png",
+      "description": "Asas visuais de alto nível (equip_fly_000008). Concede poder e imponência ao personagem.",
+      "type": "wing"
+    },
+    {
+      "id": 3026,
+      "name": "Cánh Phi Thiên 09",
+      "model_id": "equip_fly_000009",
+      "manifest_url": "assets/wings/equip_fly_000009/char_manifest.json",
+      "icon": "assets/equipment/icons/EQUIP_NORMAL_180001.png",
+      "description": "Asas visuais de alto nível (equip_fly_000009). Concede poder e imponência ao personagem.",
+      "type": "wing"
+    },
+    {
+      "id": 3027,
+      "name": "Cánh Phi Thiên 10",
+      "model_id": "equip_fly_000010",
+      "manifest_url": "assets/wings/equip_fly_000010/char_manifest.json",
+      "icon": "assets/equipment/icons/EQUIP_NORMAL_180001.png",
+      "description": "Asas visuais de alto nível (equip_fly_000010). Concede poder e imponência ao personagem.",
+      "type": "wing"
+    },
+    {
+      "id": 3028,
+      "name": "Cánh Phi Thiên 11",
+      "model_id": "equip_fly_000011",
+      "manifest_url": "assets/wings/equip_fly_000011/char_manifest.json",
+      "icon": "assets/equipment/icons/EQUIP_NORMAL_180001.png",
+      "description": "Asas visuais de alto nível (equip_fly_000011). Concede poder e imponência ao personagem.",
+      "type": "wing"
+    },
+    {
+      "id": 3029,
+      "name": "Cánh Phi Thiên 14",
+      "model_id": "equip_fly_000014",
+      "manifest_url": "assets/wings/equip_fly_000014/char_manifest.json",
+      "icon": "assets/equipment/icons/EQUIP_NORMAL_180001.png",
+      "description": "Asas visuais de alto nível (equip_fly_000014). Concede poder e imponência ao personagem.",
+      "type": "wing"
+    },
+    {
+      "id": 3030,
+      "name": "Cánh Phi Thiên 15",
+      "model_id": "equip_fly_000015",
+      "manifest_url": "assets/wings/equip_fly_000015/char_manifest.json",
+      "icon": "assets/equipment/icons/EQUIP_NORMAL_180001.png",
+      "description": "Asas visuais de alto nível (equip_fly_000015). Concede poder e imponência ao personagem.",
+      "type": "wing"
+    },
+    {
+      "id": 3031,
+      "name": "Cánh Phi Thiên 17",
+      "model_id": "equip_fly_000017",
+      "manifest_url": "assets/wings/equip_fly_000017/char_manifest.json",
+      "icon": "assets/equipment/icons/EQUIP_NORMAL_180001.png",
+      "description": "Asas visuais de alto nível (equip_fly_000017). Concede poder e imponência ao personagem.",
+      "type": "wing"
+    },
+    {
+      "id": 3032,
+      "name": "Cánh Phi Thiên 18",
+      "model_id": "equip_fly_000018",
+      "manifest_url": "assets/wings/equip_fly_000018/char_manifest.json",
+      "icon": "assets/equipment/icons/EQUIP_NORMAL_180001.png",
+      "description": "Asas visuais de alto nível (equip_fly_000018). Concede poder e imponência ao personagem.",
+      "type": "wing"
+    },
+    {
+      "id": 3033,
+      "name": "Cánh Phi Thiên 19",
+      "model_id": "equip_fly_000019",
+      "manifest_url": "assets/wings/equip_fly_000019/char_manifest.json",
+      "icon": "assets/equipment/icons/EQUIP_NORMAL_180001.png",
+      "description": "Asas visuais de alto nível (equip_fly_000019). Concede poder e imponência ao personagem.",
+      "type": "wing"
+    },
+    {
+      "id": 3034,
+      "name": "Cánh Phi Thiên 20",
+      "model_id": "equip_fly_000020",
+      "manifest_url": "assets/wings/equip_fly_000020/char_manifest.json",
+      "icon": "assets/equipment/icons/EQUIP_NORMAL_180001.png",
+      "description": "Asas visuais de alto nível (equip_fly_000020). Concede poder e imponência ao personagem.",
+      "type": "wing"
+    },
+    {
+      "id": 3035,
+      "name": "Cánh Phi Thiên 21",
+      "model_id": "equip_fly_000021",
+      "manifest_url": "assets/wings/equip_fly_000021/char_manifest.json",
+      "icon": "assets/equipment/icons/EQUIP_NORMAL_180001.png",
+      "description": "Asas visuais de alto nível (equip_fly_000021). Concede poder e imponência ao personagem.",
+      "type": "wing"
+    },
+    {
+      "id": 3036,
+      "name": "Cánh Phi Thiên 22",
+      "model_id": "equip_fly_000022",
+      "manifest_url": "assets/wings/equip_fly_000022/char_manifest.json",
+      "icon": "assets/equipment/icons/EQUIP_NORMAL_180001.png",
+      "description": "Asas visuais de alto nível (equip_fly_000022). Concede poder e imponência ao personagem.",
+      "type": "wing"
     }
   ]
 }

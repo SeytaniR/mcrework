@@ -1,0 +1,6450 @@
+{
+  "0-0": [
+    {
+      "frame": 1,
+      "file": "assets/weapons/equip_fc3_000013/bmp_1.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 2,
+      "file": "assets/weapons/equip_fc3_000013/bmp_1.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 3,
+      "file": "assets/weapons/equip_fc3_000013/bmp_1.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 4,
+      "file": "assets/weapons/equip_fc3_000013/bmp_1.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 5,
+      "file": "assets/weapons/equip_fc3_000013/bmp_1.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 6,
+      "file": "assets/weapons/equip_fc3_000013/bmp_1.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 7,
+      "file": "assets/weapons/equip_fc3_000013/bmp_1.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 8,
+      "file": "assets/weapons/equip_fc3_000013/bmp_1.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 9,
+      "file": "assets/weapons/equip_fc3_000013/bmp_1.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 10,
+      "file": "assets/weapons/equip_fc3_000013/bmp_3.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 11,
+      "file": "assets/weapons/equip_fc3_000013/bmp_3.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 12,
+      "file": "assets/weapons/equip_fc3_000013/bmp_3.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 13,
+      "file": "assets/weapons/equip_fc3_000013/bmp_3.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 14,
+      "file": "assets/weapons/equip_fc3_000013/bmp_3.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 15,
+      "file": "assets/weapons/equip_fc3_000013/bmp_3.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 16,
+      "file": "assets/weapons/equip_fc3_000013/bmp_5.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 17,
+      "file": "assets/weapons/equip_fc3_000013/bmp_5.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 18,
+      "file": "assets/weapons/equip_fc3_000013/bmp_5.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 19,
+      "file": "assets/weapons/equip_fc3_000013/bmp_5.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 20,
+      "file": "assets/weapons/equip_fc3_000013/bmp_5.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 21,
+      "file": "assets/weapons/equip_fc3_000013/bmp_5.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 22,
+      "file": "assets/weapons/equip_fc3_000013/bmp_3.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 23,
+      "file": "assets/weapons/equip_fc3_000013/bmp_3.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 24,
+      "file": "assets/weapons/equip_fc3_000013/bmp_3.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 25,
+      "file": "assets/weapons/equip_fc3_000013/bmp_3.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 26,
+      "file": "assets/weapons/equip_fc3_000013/bmp_3.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 27,
+      "file": "assets/weapons/equip_fc3_000013/bmp_3.png",
+      "width": 450,
+      "height": 450
+    }
+  ],
+  "0-1": [
+    {
+      "frame": 28,
+      "file": "assets/weapons/equip_fc3_000013/bmp_7.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 29,
+      "file": "assets/weapons/equip_fc3_000013/bmp_7.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 30,
+      "file": "assets/weapons/equip_fc3_000013/bmp_9.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 31,
+      "file": "assets/weapons/equip_fc3_000013/bmp_9.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 32,
+      "file": "assets/weapons/equip_fc3_000013/bmp_11.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 33,
+      "file": "assets/weapons/equip_fc3_000013/bmp_11.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 34,
+      "file": "assets/weapons/equip_fc3_000013/bmp_13.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 35,
+      "file": "assets/weapons/equip_fc3_000013/bmp_13.png",
+      "width": 450,
+      "height": 450
+    }
+  ],
+  "0-2": [
+    {
+      "frame": 36,
+      "file": "assets/weapons/equip_fc3_000013/bmp_7.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 37,
+      "file": "assets/weapons/equip_fc3_000013/bmp_7.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 38,
+      "file": "assets/weapons/equip_fc3_000013/bmp_7.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 39,
+      "file": "assets/weapons/equip_fc3_000013/bmp_7.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 40,
+      "file": "assets/weapons/equip_fc3_000013/bmp_9.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 41,
+      "file": "assets/weapons/equip_fc3_000013/bmp_9.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 42,
+      "file": "assets/weapons/equip_fc3_000013/bmp_9.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 43,
+      "file": "assets/weapons/equip_fc3_000013/bmp_9.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 44,
+      "file": "assets/weapons/equip_fc3_000013/bmp_11.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 45,
+      "file": "assets/weapons/equip_fc3_000013/bmp_11.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 46,
+      "file": "assets/weapons/equip_fc3_000013/bmp_11.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 47,
+      "file": "assets/weapons/equip_fc3_000013/bmp_11.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 48,
+      "file": "assets/weapons/equip_fc3_000013/bmp_13.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 49,
+      "file": "assets/weapons/equip_fc3_000013/bmp_13.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 50,
+      "file": "assets/weapons/equip_fc3_000013/bmp_13.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 51,
+      "file": "assets/weapons/equip_fc3_000013/bmp_13.png",
+      "width": 450,
+      "height": 450
+    }
+  ],
+  "0-3": [
+    {
+      "frame": 52,
+      "file": "assets/weapons/equip_fc3_000013/bmp_15.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 53,
+      "file": "assets/weapons/equip_fc3_000013/bmp_15.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 54,
+      "file": "assets/weapons/equip_fc3_000013/bmp_15.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 55,
+      "file": "assets/weapons/equip_fc3_000013/bmp_15.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 56,
+      "file": "assets/weapons/equip_fc3_000013/bmp_17.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 57,
+      "file": "assets/weapons/equip_fc3_000013/bmp_17.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 58,
+      "file": "assets/weapons/equip_fc3_000013/bmp_19.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 59,
+      "file": "assets/weapons/equip_fc3_000013/bmp_19.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 60,
+      "file": "assets/weapons/equip_fc3_000013/bmp_19.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 61,
+      "file": "assets/weapons/equip_fc3_000013/bmp_19.png",
+      "width": 450,
+      "height": 450
+    }
+  ],
+  "0-4": [
+    {
+      "frame": 62,
+      "file": "assets/weapons/equip_fc3_000013/bmp_21.png",
+      "width": 450,
+      "height": 450
+    }
+  ],
+  "0-5": [
+    {
+      "frame": 63,
+      "file": "assets/weapons/equip_fc3_000013/bmp_23.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 64,
+      "file": "assets/weapons/equip_fc3_000013/bmp_23.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 65,
+      "file": "assets/weapons/equip_fc3_000013/bmp_23.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 66,
+      "file": "assets/weapons/equip_fc3_000013/bmp_23.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 67,
+      "file": "assets/weapons/equip_fc3_000013/bmp_23.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 68,
+      "file": "assets/weapons/equip_fc3_000013/bmp_23.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 69,
+      "file": "assets/weapons/equip_fc3_000013/bmp_23.png",
+      "width": 450,
+      "height": 450
+    }
+  ],
+  "0-6": [
+    {
+      "frame": 70,
+      "file": "assets/weapons/equip_fc3_000013/bmp_25.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 71,
+      "file": "assets/weapons/equip_fc3_000013/bmp_25.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 72,
+      "file": "assets/weapons/equip_fc3_000013/bmp_25.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 73,
+      "file": "assets/weapons/equip_fc3_000013/bmp_25.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 74,
+      "file": "assets/weapons/equip_fc3_000013/bmp_25.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 75,
+      "file": "assets/weapons/equip_fc3_000013/bmp_25.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 76,
+      "file": "assets/weapons/equip_fc3_000013/bmp_25.png",
+      "width": 450,
+      "height": 450
+    }
+  ],
+  "0-7": [
+    {
+      "frame": 77,
+      "file": "assets/weapons/equip_fc3_000013/bmp_27.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 78,
+      "file": "assets/weapons/equip_fc3_000013/bmp_27.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 79,
+      "file": "assets/weapons/equip_fc3_000013/bmp_27.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 80,
+      "file": "assets/weapons/equip_fc3_000013/bmp_27.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 81,
+      "file": "assets/weapons/equip_fc3_000013/bmp_29.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 82,
+      "file": "assets/weapons/equip_fc3_000013/bmp_29.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 83,
+      "file": "assets/weapons/equip_fc3_000013/bmp_31.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 84,
+      "file": "assets/weapons/equip_fc3_000013/bmp_31.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 85,
+      "file": "assets/weapons/equip_fc3_000013/bmp_31.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 86,
+      "file": "assets/weapons/equip_fc3_000013/bmp_31.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 87,
+      "file": "assets/weapons/equip_fc3_000013/bmp_31.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 88,
+      "file": "assets/weapons/equip_fc3_000013/bmp_31.png",
+      "width": 450,
+      "height": 450
+    }
+  ],
+  "1-0": [
+    {
+      "frame": 89,
+      "file": "assets/weapons/equip_fc3_000013/bmp_33.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 90,
+      "file": "assets/weapons/equip_fc3_000013/bmp_33.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 91,
+      "file": "assets/weapons/equip_fc3_000013/bmp_33.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 92,
+      "file": "assets/weapons/equip_fc3_000013/bmp_33.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 93,
+      "file": "assets/weapons/equip_fc3_000013/bmp_33.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 94,
+      "file": "assets/weapons/equip_fc3_000013/bmp_33.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 95,
+      "file": "assets/weapons/equip_fc3_000013/bmp_33.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 96,
+      "file": "assets/weapons/equip_fc3_000013/bmp_33.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 97,
+      "file": "assets/weapons/equip_fc3_000013/bmp_33.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 98,
+      "file": "assets/weapons/equip_fc3_000013/bmp_35.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 99,
+      "file": "assets/weapons/equip_fc3_000013/bmp_35.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 100,
+      "file": "assets/weapons/equip_fc3_000013/bmp_35.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 101,
+      "file": "assets/weapons/equip_fc3_000013/bmp_35.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 102,
+      "file": "assets/weapons/equip_fc3_000013/bmp_35.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 103,
+      "file": "assets/weapons/equip_fc3_000013/bmp_35.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 104,
+      "file": "assets/weapons/equip_fc3_000013/bmp_37.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 105,
+      "file": "assets/weapons/equip_fc3_000013/bmp_37.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 106,
+      "file": "assets/weapons/equip_fc3_000013/bmp_37.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 107,
+      "file": "assets/weapons/equip_fc3_000013/bmp_37.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 108,
+      "file": "assets/weapons/equip_fc3_000013/bmp_37.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 109,
+      "file": "assets/weapons/equip_fc3_000013/bmp_37.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 110,
+      "file": "assets/weapons/equip_fc3_000013/bmp_35.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 111,
+      "file": "assets/weapons/equip_fc3_000013/bmp_35.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 112,
+      "file": "assets/weapons/equip_fc3_000013/bmp_35.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 113,
+      "file": "assets/weapons/equip_fc3_000013/bmp_35.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 114,
+      "file": "assets/weapons/equip_fc3_000013/bmp_35.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 115,
+      "file": "assets/weapons/equip_fc3_000013/bmp_35.png",
+      "width": 450,
+      "height": 450
+    }
+  ],
+  "1-1": [
+    {
+      "frame": 116,
+      "file": "assets/weapons/equip_fc3_000013/bmp_39.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 117,
+      "file": "assets/weapons/equip_fc3_000013/bmp_39.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 118,
+      "file": "assets/weapons/equip_fc3_000013/bmp_41.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 119,
+      "file": "assets/weapons/equip_fc3_000013/bmp_41.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 120,
+      "file": "assets/weapons/equip_fc3_000013/bmp_43.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 121,
+      "file": "assets/weapons/equip_fc3_000013/bmp_43.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 122,
+      "file": "assets/weapons/equip_fc3_000013/bmp_45.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 123,
+      "file": "assets/weapons/equip_fc3_000013/bmp_45.png",
+      "width": 450,
+      "height": 450
+    }
+  ],
+  "1-2": [
+    {
+      "frame": 124,
+      "file": "assets/weapons/equip_fc3_000013/bmp_39.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 125,
+      "file": "assets/weapons/equip_fc3_000013/bmp_39.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 126,
+      "file": "assets/weapons/equip_fc3_000013/bmp_39.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 127,
+      "file": "assets/weapons/equip_fc3_000013/bmp_39.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 128,
+      "file": "assets/weapons/equip_fc3_000013/bmp_41.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 129,
+      "file": "assets/weapons/equip_fc3_000013/bmp_41.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 130,
+      "file": "assets/weapons/equip_fc3_000013/bmp_41.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 131,
+      "file": "assets/weapons/equip_fc3_000013/bmp_41.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 132,
+      "file": "assets/weapons/equip_fc3_000013/bmp_43.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 133,
+      "file": "assets/weapons/equip_fc3_000013/bmp_43.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 134,
+      "file": "assets/weapons/equip_fc3_000013/bmp_43.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 135,
+      "file": "assets/weapons/equip_fc3_000013/bmp_43.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 136,
+      "file": "assets/weapons/equip_fc3_000013/bmp_45.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 137,
+      "file": "assets/weapons/equip_fc3_000013/bmp_45.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 138,
+      "file": "assets/weapons/equip_fc3_000013/bmp_45.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 139,
+      "file": "assets/weapons/equip_fc3_000013/bmp_45.png",
+      "width": 450,
+      "height": 450
+    }
+  ],
+  "1-3": [
+    {
+      "frame": 140,
+      "file": "assets/weapons/equip_fc3_000013/bmp_15.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 141,
+      "file": "assets/weapons/equip_fc3_000013/bmp_15.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 142,
+      "file": "assets/weapons/equip_fc3_000013/bmp_15.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 143,
+      "file": "assets/weapons/equip_fc3_000013/bmp_15.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 144,
+      "file": "assets/weapons/equip_fc3_000013/bmp_17.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 145,
+      "file": "assets/weapons/equip_fc3_000013/bmp_17.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 146,
+      "file": "assets/weapons/equip_fc3_000013/bmp_19.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 147,
+      "file": "assets/weapons/equip_fc3_000013/bmp_19.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 148,
+      "file": "assets/weapons/equip_fc3_000013/bmp_19.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 149,
+      "file": "assets/weapons/equip_fc3_000013/bmp_19.png",
+      "width": 450,
+      "height": 450
+    }
+  ],
+  "1-4": [
+    {
+      "frame": 150,
+      "file": "assets/weapons/equip_fc3_000013/bmp_21.png",
+      "width": 450,
+      "height": 450
+    }
+  ],
+  "1-5": [
+    {
+      "frame": 151,
+      "file": "assets/weapons/equip_fc3_000013/bmp_23.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 152,
+      "file": "assets/weapons/equip_fc3_000013/bmp_23.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 153,
+      "file": "assets/weapons/equip_fc3_000013/bmp_23.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 154,
+      "file": "assets/weapons/equip_fc3_000013/bmp_23.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 155,
+      "file": "assets/weapons/equip_fc3_000013/bmp_23.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 156,
+      "file": "assets/weapons/equip_fc3_000013/bmp_23.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 157,
+      "file": "assets/weapons/equip_fc3_000013/bmp_23.png",
+      "width": 450,
+      "height": 450
+    }
+  ],
+  "1-6": [
+    {
+      "frame": 158,
+      "file": "assets/weapons/equip_fc3_000013/bmp_25.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 159,
+      "file": "assets/weapons/equip_fc3_000013/bmp_25.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 160,
+      "file": "assets/weapons/equip_fc3_000013/bmp_25.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 161,
+      "file": "assets/weapons/equip_fc3_000013/bmp_25.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 162,
+      "file": "assets/weapons/equip_fc3_000013/bmp_25.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 163,
+      "file": "assets/weapons/equip_fc3_000013/bmp_25.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 164,
+      "file": "assets/weapons/equip_fc3_000013/bmp_25.png",
+      "width": 450,
+      "height": 450
+    }
+  ],
+  "1-7": [
+    {
+      "frame": 165,
+      "file": "assets/weapons/equip_fc3_000013/bmp_27.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 166,
+      "file": "assets/weapons/equip_fc3_000013/bmp_27.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 167,
+      "file": "assets/weapons/equip_fc3_000013/bmp_27.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 168,
+      "file": "assets/weapons/equip_fc3_000013/bmp_27.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 169,
+      "file": "assets/weapons/equip_fc3_000013/bmp_29.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 170,
+      "file": "assets/weapons/equip_fc3_000013/bmp_29.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 171,
+      "file": "assets/weapons/equip_fc3_000013/bmp_31.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 172,
+      "file": "assets/weapons/equip_fc3_000013/bmp_31.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 173,
+      "file": "assets/weapons/equip_fc3_000013/bmp_31.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 174,
+      "file": "assets/weapons/equip_fc3_000013/bmp_31.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 175,
+      "file": "assets/weapons/equip_fc3_000013/bmp_31.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 176,
+      "file": "assets/weapons/equip_fc3_000013/bmp_31.png",
+      "width": 450,
+      "height": 450
+    }
+  ],
+  "2-0": [
+    {
+      "frame": 177,
+      "file": "assets/weapons/equip_fc3_000013/bmp_47.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 178,
+      "file": "assets/weapons/equip_fc3_000013/bmp_47.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 179,
+      "file": "assets/weapons/equip_fc3_000013/bmp_47.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 180,
+      "file": "assets/weapons/equip_fc3_000013/bmp_47.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 181,
+      "file": "assets/weapons/equip_fc3_000013/bmp_47.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 182,
+      "file": "assets/weapons/equip_fc3_000013/bmp_47.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 183,
+      "file": "assets/weapons/equip_fc3_000013/bmp_47.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 184,
+      "file": "assets/weapons/equip_fc3_000013/bmp_47.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 185,
+      "file": "assets/weapons/equip_fc3_000013/bmp_47.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 186,
+      "file": "assets/weapons/equip_fc3_000013/bmp_49.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 187,
+      "file": "assets/weapons/equip_fc3_000013/bmp_49.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 188,
+      "file": "assets/weapons/equip_fc3_000013/bmp_49.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 189,
+      "file": "assets/weapons/equip_fc3_000013/bmp_49.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 190,
+      "file": "assets/weapons/equip_fc3_000013/bmp_49.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 191,
+      "file": "assets/weapons/equip_fc3_000013/bmp_49.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 192,
+      "file": "assets/weapons/equip_fc3_000013/bmp_51.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 193,
+      "file": "assets/weapons/equip_fc3_000013/bmp_51.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 194,
+      "file": "assets/weapons/equip_fc3_000013/bmp_51.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 195,
+      "file": "assets/weapons/equip_fc3_000013/bmp_51.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 196,
+      "file": "assets/weapons/equip_fc3_000013/bmp_51.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 197,
+      "file": "assets/weapons/equip_fc3_000013/bmp_51.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 198,
+      "file": "assets/weapons/equip_fc3_000013/bmp_49.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 199,
+      "file": "assets/weapons/equip_fc3_000013/bmp_49.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 200,
+      "file": "assets/weapons/equip_fc3_000013/bmp_49.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 201,
+      "file": "assets/weapons/equip_fc3_000013/bmp_49.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 202,
+      "file": "assets/weapons/equip_fc3_000013/bmp_49.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 203,
+      "file": "assets/weapons/equip_fc3_000013/bmp_49.png",
+      "width": 450,
+      "height": 450
+    }
+  ],
+  "2-1": [
+    {
+      "frame": 204,
+      "file": "assets/weapons/equip_fc3_000013/bmp_53.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 205,
+      "file": "assets/weapons/equip_fc3_000013/bmp_53.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 206,
+      "file": "assets/weapons/equip_fc3_000013/bmp_55.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 207,
+      "file": "assets/weapons/equip_fc3_000013/bmp_55.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 208,
+      "file": "assets/weapons/equip_fc3_000013/bmp_57.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 209,
+      "file": "assets/weapons/equip_fc3_000013/bmp_57.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 210,
+      "file": "assets/weapons/equip_fc3_000013/bmp_59.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 211,
+      "file": "assets/weapons/equip_fc3_000013/bmp_59.png",
+      "width": 450,
+      "height": 450
+    }
+  ],
+  "2-2": [
+    {
+      "frame": 212,
+      "file": "assets/weapons/equip_fc3_000013/bmp_53.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 213,
+      "file": "assets/weapons/equip_fc3_000013/bmp_53.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 214,
+      "file": "assets/weapons/equip_fc3_000013/bmp_53.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 215,
+      "file": "assets/weapons/equip_fc3_000013/bmp_53.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 216,
+      "file": "assets/weapons/equip_fc3_000013/bmp_55.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 217,
+      "file": "assets/weapons/equip_fc3_000013/bmp_55.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 218,
+      "file": "assets/weapons/equip_fc3_000013/bmp_55.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 219,
+      "file": "assets/weapons/equip_fc3_000013/bmp_55.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 220,
+      "file": "assets/weapons/equip_fc3_000013/bmp_57.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 221,
+      "file": "assets/weapons/equip_fc3_000013/bmp_57.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 222,
+      "file": "assets/weapons/equip_fc3_000013/bmp_57.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 223,
+      "file": "assets/weapons/equip_fc3_000013/bmp_57.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 224,
+      "file": "assets/weapons/equip_fc3_000013/bmp_59.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 225,
+      "file": "assets/weapons/equip_fc3_000013/bmp_59.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 226,
+      "file": "assets/weapons/equip_fc3_000013/bmp_59.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 227,
+      "file": "assets/weapons/equip_fc3_000013/bmp_59.png",
+      "width": 450,
+      "height": 450
+    }
+  ],
+  "2-3": [
+    {
+      "frame": 228,
+      "file": "assets/weapons/equip_fc3_000013/bmp_15.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 229,
+      "file": "assets/weapons/equip_fc3_000013/bmp_15.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 230,
+      "file": "assets/weapons/equip_fc3_000013/bmp_15.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 231,
+      "file": "assets/weapons/equip_fc3_000013/bmp_15.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 232,
+      "file": "assets/weapons/equip_fc3_000013/bmp_17.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 233,
+      "file": "assets/weapons/equip_fc3_000013/bmp_17.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 234,
+      "file": "assets/weapons/equip_fc3_000013/bmp_19.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 235,
+      "file": "assets/weapons/equip_fc3_000013/bmp_19.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 236,
+      "file": "assets/weapons/equip_fc3_000013/bmp_19.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 237,
+      "file": "assets/weapons/equip_fc3_000013/bmp_19.png",
+      "width": 450,
+      "height": 450
+    }
+  ],
+  "2-4": [
+    {
+      "frame": 238,
+      "file": "assets/weapons/equip_fc3_000013/bmp_21.png",
+      "width": 450,
+      "height": 450
+    }
+  ],
+  "2-5": [
+    {
+      "frame": 239,
+      "file": "assets/weapons/equip_fc3_000013/bmp_23.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 240,
+      "file": "assets/weapons/equip_fc3_000013/bmp_23.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 241,
+      "file": "assets/weapons/equip_fc3_000013/bmp_23.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 242,
+      "file": "assets/weapons/equip_fc3_000013/bmp_23.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 243,
+      "file": "assets/weapons/equip_fc3_000013/bmp_23.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 244,
+      "file": "assets/weapons/equip_fc3_000013/bmp_23.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 245,
+      "file": "assets/weapons/equip_fc3_000013/bmp_23.png",
+      "width": 450,
+      "height": 450
+    }
+  ],
+  "2-6": [
+    {
+      "frame": 246,
+      "file": "assets/weapons/equip_fc3_000013/bmp_25.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 247,
+      "file": "assets/weapons/equip_fc3_000013/bmp_25.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 248,
+      "file": "assets/weapons/equip_fc3_000013/bmp_25.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 249,
+      "file": "assets/weapons/equip_fc3_000013/bmp_25.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 250,
+      "file": "assets/weapons/equip_fc3_000013/bmp_25.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 251,
+      "file": "assets/weapons/equip_fc3_000013/bmp_25.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 252,
+      "file": "assets/weapons/equip_fc3_000013/bmp_25.png",
+      "width": 450,
+      "height": 450
+    }
+  ],
+  "2-7": [
+    {
+      "frame": 253,
+      "file": "assets/weapons/equip_fc3_000013/bmp_27.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 254,
+      "file": "assets/weapons/equip_fc3_000013/bmp_27.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 255,
+      "file": "assets/weapons/equip_fc3_000013/bmp_27.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 256,
+      "file": "assets/weapons/equip_fc3_000013/bmp_27.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 257,
+      "file": "assets/weapons/equip_fc3_000013/bmp_29.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 258,
+      "file": "assets/weapons/equip_fc3_000013/bmp_29.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 259,
+      "file": "assets/weapons/equip_fc3_000013/bmp_31.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 260,
+      "file": "assets/weapons/equip_fc3_000013/bmp_31.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 261,
+      "file": "assets/weapons/equip_fc3_000013/bmp_31.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 262,
+      "file": "assets/weapons/equip_fc3_000013/bmp_31.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 263,
+      "file": "assets/weapons/equip_fc3_000013/bmp_31.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 264,
+      "file": "assets/weapons/equip_fc3_000013/bmp_31.png",
+      "width": 450,
+      "height": 450
+    }
+  ],
+  "3-0": [
+    {
+      "frame": 265,
+      "file": "assets/weapons/equip_fc3_000013/bmp_61.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 266,
+      "file": "assets/weapons/equip_fc3_000013/bmp_61.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 267,
+      "file": "assets/weapons/equip_fc3_000013/bmp_61.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 268,
+      "file": "assets/weapons/equip_fc3_000013/bmp_61.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 269,
+      "file": "assets/weapons/equip_fc3_000013/bmp_61.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 270,
+      "file": "assets/weapons/equip_fc3_000013/bmp_61.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 271,
+      "file": "assets/weapons/equip_fc3_000013/bmp_61.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 272,
+      "file": "assets/weapons/equip_fc3_000013/bmp_61.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 273,
+      "file": "assets/weapons/equip_fc3_000013/bmp_61.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 274,
+      "file": "assets/weapons/equip_fc3_000013/bmp_63.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 275,
+      "file": "assets/weapons/equip_fc3_000013/bmp_63.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 276,
+      "file": "assets/weapons/equip_fc3_000013/bmp_63.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 277,
+      "file": "assets/weapons/equip_fc3_000013/bmp_63.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 278,
+      "file": "assets/weapons/equip_fc3_000013/bmp_63.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 279,
+      "file": "assets/weapons/equip_fc3_000013/bmp_63.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 280,
+      "file": "assets/weapons/equip_fc3_000013/bmp_65.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 281,
+      "file": "assets/weapons/equip_fc3_000013/bmp_65.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 282,
+      "file": "assets/weapons/equip_fc3_000013/bmp_65.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 283,
+      "file": "assets/weapons/equip_fc3_000013/bmp_65.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 284,
+      "file": "assets/weapons/equip_fc3_000013/bmp_65.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 285,
+      "file": "assets/weapons/equip_fc3_000013/bmp_65.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 286,
+      "file": "assets/weapons/equip_fc3_000013/bmp_63.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 287,
+      "file": "assets/weapons/equip_fc3_000013/bmp_63.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 288,
+      "file": "assets/weapons/equip_fc3_000013/bmp_63.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 289,
+      "file": "assets/weapons/equip_fc3_000013/bmp_63.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 290,
+      "file": "assets/weapons/equip_fc3_000013/bmp_63.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 291,
+      "file": "assets/weapons/equip_fc3_000013/bmp_63.png",
+      "width": 450,
+      "height": 450
+    }
+  ],
+  "3-1": [
+    {
+      "frame": 292,
+      "file": "assets/weapons/equip_fc3_000013/bmp_67.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 293,
+      "file": "assets/weapons/equip_fc3_000013/bmp_67.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 294,
+      "file": "assets/weapons/equip_fc3_000013/bmp_69.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 295,
+      "file": "assets/weapons/equip_fc3_000013/bmp_69.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 296,
+      "file": "assets/weapons/equip_fc3_000013/bmp_71.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 297,
+      "file": "assets/weapons/equip_fc3_000013/bmp_71.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 298,
+      "file": "assets/weapons/equip_fc3_000013/bmp_73.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 299,
+      "file": "assets/weapons/equip_fc3_000013/bmp_73.png",
+      "width": 450,
+      "height": 450
+    }
+  ],
+  "3-2": [
+    {
+      "frame": 300,
+      "file": "assets/weapons/equip_fc3_000013/bmp_67.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 301,
+      "file": "assets/weapons/equip_fc3_000013/bmp_67.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 302,
+      "file": "assets/weapons/equip_fc3_000013/bmp_67.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 303,
+      "file": "assets/weapons/equip_fc3_000013/bmp_67.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 304,
+      "file": "assets/weapons/equip_fc3_000013/bmp_69.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 305,
+      "file": "assets/weapons/equip_fc3_000013/bmp_69.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 306,
+      "file": "assets/weapons/equip_fc3_000013/bmp_69.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 307,
+      "file": "assets/weapons/equip_fc3_000013/bmp_69.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 308,
+      "file": "assets/weapons/equip_fc3_000013/bmp_71.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 309,
+      "file": "assets/weapons/equip_fc3_000013/bmp_71.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 310,
+      "file": "assets/weapons/equip_fc3_000013/bmp_71.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 311,
+      "file": "assets/weapons/equip_fc3_000013/bmp_71.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 312,
+      "file": "assets/weapons/equip_fc3_000013/bmp_73.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 313,
+      "file": "assets/weapons/equip_fc3_000013/bmp_73.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 314,
+      "file": "assets/weapons/equip_fc3_000013/bmp_73.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 315,
+      "file": "assets/weapons/equip_fc3_000013/bmp_73.png",
+      "width": 450,
+      "height": 450
+    }
+  ],
+  "3-3": [
+    {
+      "frame": 316,
+      "file": "assets/weapons/equip_fc3_000013/bmp_15.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 317,
+      "file": "assets/weapons/equip_fc3_000013/bmp_15.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 318,
+      "file": "assets/weapons/equip_fc3_000013/bmp_15.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 319,
+      "file": "assets/weapons/equip_fc3_000013/bmp_15.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 320,
+      "file": "assets/weapons/equip_fc3_000013/bmp_17.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 321,
+      "file": "assets/weapons/equip_fc3_000013/bmp_17.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 322,
+      "file": "assets/weapons/equip_fc3_000013/bmp_19.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 323,
+      "file": "assets/weapons/equip_fc3_000013/bmp_19.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 324,
+      "file": "assets/weapons/equip_fc3_000013/bmp_19.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 325,
+      "file": "assets/weapons/equip_fc3_000013/bmp_19.png",
+      "width": 450,
+      "height": 450
+    }
+  ],
+  "3-4": [
+    {
+      "frame": 326,
+      "file": "assets/weapons/equip_fc3_000013/bmp_21.png",
+      "width": 450,
+      "height": 450
+    }
+  ],
+  "3-5": [
+    {
+      "frame": 327,
+      "file": "assets/weapons/equip_fc3_000013/bmp_23.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 328,
+      "file": "assets/weapons/equip_fc3_000013/bmp_23.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 329,
+      "file": "assets/weapons/equip_fc3_000013/bmp_23.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 330,
+      "file": "assets/weapons/equip_fc3_000013/bmp_23.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 331,
+      "file": "assets/weapons/equip_fc3_000013/bmp_23.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 332,
+      "file": "assets/weapons/equip_fc3_000013/bmp_23.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 333,
+      "file": "assets/weapons/equip_fc3_000013/bmp_23.png",
+      "width": 450,
+      "height": 450
+    }
+  ],
+  "3-6": [
+    {
+      "frame": 334,
+      "file": "assets/weapons/equip_fc3_000013/bmp_25.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 335,
+      "file": "assets/weapons/equip_fc3_000013/bmp_25.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 336,
+      "file": "assets/weapons/equip_fc3_000013/bmp_25.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 337,
+      "file": "assets/weapons/equip_fc3_000013/bmp_25.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 338,
+      "file": "assets/weapons/equip_fc3_000013/bmp_25.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 339,
+      "file": "assets/weapons/equip_fc3_000013/bmp_25.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 340,
+      "file": "assets/weapons/equip_fc3_000013/bmp_25.png",
+      "width": 450,
+      "height": 450
+    }
+  ],
+  "3-7": [
+    {
+      "frame": 341,
+      "file": "assets/weapons/equip_fc3_000013/bmp_27.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 342,
+      "file": "assets/weapons/equip_fc3_000013/bmp_27.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 343,
+      "file": "assets/weapons/equip_fc3_000013/bmp_27.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 344,
+      "file": "assets/weapons/equip_fc3_000013/bmp_27.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 345,
+      "file": "assets/weapons/equip_fc3_000013/bmp_29.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 346,
+      "file": "assets/weapons/equip_fc3_000013/bmp_29.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 347,
+      "file": "assets/weapons/equip_fc3_000013/bmp_31.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 348,
+      "file": "assets/weapons/equip_fc3_000013/bmp_31.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 349,
+      "file": "assets/weapons/equip_fc3_000013/bmp_31.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 350,
+      "file": "assets/weapons/equip_fc3_000013/bmp_31.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 351,
+      "file": "assets/weapons/equip_fc3_000013/bmp_31.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 352,
+      "file": "assets/weapons/equip_fc3_000013/bmp_31.png",
+      "width": 450,
+      "height": 450
+    }
+  ],
+  "4-0": [
+    {
+      "frame": 353,
+      "file": "assets/weapons/equip_fc3_000013/bmp_75.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 354,
+      "file": "assets/weapons/equip_fc3_000013/bmp_75.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 355,
+      "file": "assets/weapons/equip_fc3_000013/bmp_75.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 356,
+      "file": "assets/weapons/equip_fc3_000013/bmp_75.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 357,
+      "file": "assets/weapons/equip_fc3_000013/bmp_75.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 358,
+      "file": "assets/weapons/equip_fc3_000013/bmp_75.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 359,
+      "file": "assets/weapons/equip_fc3_000013/bmp_75.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 360,
+      "file": "assets/weapons/equip_fc3_000013/bmp_75.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 361,
+      "file": "assets/weapons/equip_fc3_000013/bmp_75.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 362,
+      "file": "assets/weapons/equip_fc3_000013/bmp_77.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 363,
+      "file": "assets/weapons/equip_fc3_000013/bmp_77.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 364,
+      "file": "assets/weapons/equip_fc3_000013/bmp_77.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 365,
+      "file": "assets/weapons/equip_fc3_000013/bmp_77.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 366,
+      "file": "assets/weapons/equip_fc3_000013/bmp_77.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 367,
+      "file": "assets/weapons/equip_fc3_000013/bmp_77.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 368,
+      "file": "assets/weapons/equip_fc3_000013/bmp_79.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 369,
+      "file": "assets/weapons/equip_fc3_000013/bmp_79.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 370,
+      "file": "assets/weapons/equip_fc3_000013/bmp_79.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 371,
+      "file": "assets/weapons/equip_fc3_000013/bmp_79.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 372,
+      "file": "assets/weapons/equip_fc3_000013/bmp_79.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 373,
+      "file": "assets/weapons/equip_fc3_000013/bmp_79.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 374,
+      "file": "assets/weapons/equip_fc3_000013/bmp_77.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 375,
+      "file": "assets/weapons/equip_fc3_000013/bmp_77.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 376,
+      "file": "assets/weapons/equip_fc3_000013/bmp_77.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 377,
+      "file": "assets/weapons/equip_fc3_000013/bmp_77.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 378,
+      "file": "assets/weapons/equip_fc3_000013/bmp_77.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 379,
+      "file": "assets/weapons/equip_fc3_000013/bmp_77.png",
+      "width": 450,
+      "height": 450
+    }
+  ],
+  "4-1": [
+    {
+      "frame": 380,
+      "file": "assets/weapons/equip_fc3_000013/bmp_81.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 381,
+      "file": "assets/weapons/equip_fc3_000013/bmp_81.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 382,
+      "file": "assets/weapons/equip_fc3_000013/bmp_83.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 383,
+      "file": "assets/weapons/equip_fc3_000013/bmp_83.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 384,
+      "file": "assets/weapons/equip_fc3_000013/bmp_85.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 385,
+      "file": "assets/weapons/equip_fc3_000013/bmp_85.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 386,
+      "file": "assets/weapons/equip_fc3_000013/bmp_87.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 387,
+      "file": "assets/weapons/equip_fc3_000013/bmp_87.png",
+      "width": 450,
+      "height": 450
+    }
+  ],
+  "4-2": [
+    {
+      "frame": 388,
+      "file": "assets/weapons/equip_fc3_000013/bmp_81.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 389,
+      "file": "assets/weapons/equip_fc3_000013/bmp_81.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 390,
+      "file": "assets/weapons/equip_fc3_000013/bmp_81.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 391,
+      "file": "assets/weapons/equip_fc3_000013/bmp_81.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 392,
+      "file": "assets/weapons/equip_fc3_000013/bmp_83.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 393,
+      "file": "assets/weapons/equip_fc3_000013/bmp_83.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 394,
+      "file": "assets/weapons/equip_fc3_000013/bmp_83.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 395,
+      "file": "assets/weapons/equip_fc3_000013/bmp_83.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 396,
+      "file": "assets/weapons/equip_fc3_000013/bmp_85.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 397,
+      "file": "assets/weapons/equip_fc3_000013/bmp_85.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 398,
+      "file": "assets/weapons/equip_fc3_000013/bmp_85.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 399,
+      "file": "assets/weapons/equip_fc3_000013/bmp_85.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 400,
+      "file": "assets/weapons/equip_fc3_000013/bmp_87.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 401,
+      "file": "assets/weapons/equip_fc3_000013/bmp_87.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 402,
+      "file": "assets/weapons/equip_fc3_000013/bmp_87.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 403,
+      "file": "assets/weapons/equip_fc3_000013/bmp_87.png",
+      "width": 450,
+      "height": 450
+    }
+  ],
+  "4-3": [
+    {
+      "frame": 404,
+      "file": "assets/weapons/equip_fc3_000013/bmp_89.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 405,
+      "file": "assets/weapons/equip_fc3_000013/bmp_89.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 406,
+      "file": "assets/weapons/equip_fc3_000013/bmp_89.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 407,
+      "file": "assets/weapons/equip_fc3_000013/bmp_89.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 408,
+      "file": "assets/weapons/equip_fc3_000013/bmp_91.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 409,
+      "file": "assets/weapons/equip_fc3_000013/bmp_91.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 410,
+      "file": "assets/weapons/equip_fc3_000013/bmp_93.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 411,
+      "file": "assets/weapons/equip_fc3_000013/bmp_93.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 412,
+      "file": "assets/weapons/equip_fc3_000013/bmp_93.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 413,
+      "file": "assets/weapons/equip_fc3_000013/bmp_93.png",
+      "width": 450,
+      "height": 450
+    }
+  ],
+  "4-4": [
+    {
+      "frame": 414,
+      "file": "assets/weapons/equip_fc3_000013/bmp_95.png",
+      "width": 450,
+      "height": 450
+    }
+  ],
+  "4-5": [
+    {
+      "frame": 415,
+      "file": "assets/weapons/equip_fc3_000013/bmp_97.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 416,
+      "file": "assets/weapons/equip_fc3_000013/bmp_97.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 417,
+      "file": "assets/weapons/equip_fc3_000013/bmp_97.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 418,
+      "file": "assets/weapons/equip_fc3_000013/bmp_97.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 419,
+      "file": "assets/weapons/equip_fc3_000013/bmp_97.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 420,
+      "file": "assets/weapons/equip_fc3_000013/bmp_97.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 421,
+      "file": "assets/weapons/equip_fc3_000013/bmp_97.png",
+      "width": 450,
+      "height": 450
+    }
+  ],
+  "4-6": [
+    {
+      "frame": 422,
+      "file": "assets/weapons/equip_fc3_000013/bmp_99.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 423,
+      "file": "assets/weapons/equip_fc3_000013/bmp_99.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 424,
+      "file": "assets/weapons/equip_fc3_000013/bmp_99.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 425,
+      "file": "assets/weapons/equip_fc3_000013/bmp_99.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 426,
+      "file": "assets/weapons/equip_fc3_000013/bmp_99.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 427,
+      "file": "assets/weapons/equip_fc3_000013/bmp_99.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 428,
+      "file": "assets/weapons/equip_fc3_000013/bmp_99.png",
+      "width": 450,
+      "height": 450
+    }
+  ],
+  "4-7": [
+    {
+      "frame": 429,
+      "file": "assets/weapons/equip_fc3_000013/bmp_101.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 430,
+      "file": "assets/weapons/equip_fc3_000013/bmp_101.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 431,
+      "file": "assets/weapons/equip_fc3_000013/bmp_101.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 432,
+      "file": "assets/weapons/equip_fc3_000013/bmp_101.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 433,
+      "file": "assets/weapons/equip_fc3_000013/bmp_103.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 434,
+      "file": "assets/weapons/equip_fc3_000013/bmp_103.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 435,
+      "file": "assets/weapons/equip_fc3_000013/bmp_105.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 436,
+      "file": "assets/weapons/equip_fc3_000013/bmp_105.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 437,
+      "file": "assets/weapons/equip_fc3_000013/bmp_105.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 438,
+      "file": "assets/weapons/equip_fc3_000013/bmp_105.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 439,
+      "file": "assets/weapons/equip_fc3_000013/bmp_105.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 440,
+      "file": "assets/weapons/equip_fc3_000013/bmp_105.png",
+      "width": 450,
+      "height": 450
+    }
+  ],
+  "5-0": [
+    {
+      "frame": 441,
+      "file": "assets/weapons/equip_fc3_000013/bmp_107.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 442,
+      "file": "assets/weapons/equip_fc3_000013/bmp_107.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 443,
+      "file": "assets/weapons/equip_fc3_000013/bmp_107.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 444,
+      "file": "assets/weapons/equip_fc3_000013/bmp_107.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 445,
+      "file": "assets/weapons/equip_fc3_000013/bmp_107.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 446,
+      "file": "assets/weapons/equip_fc3_000013/bmp_107.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 447,
+      "file": "assets/weapons/equip_fc3_000013/bmp_107.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 448,
+      "file": "assets/weapons/equip_fc3_000013/bmp_107.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 449,
+      "file": "assets/weapons/equip_fc3_000013/bmp_107.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 450,
+      "file": "assets/weapons/equip_fc3_000013/bmp_109.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 451,
+      "file": "assets/weapons/equip_fc3_000013/bmp_109.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 452,
+      "file": "assets/weapons/equip_fc3_000013/bmp_109.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 453,
+      "file": "assets/weapons/equip_fc3_000013/bmp_109.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 454,
+      "file": "assets/weapons/equip_fc3_000013/bmp_109.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 455,
+      "file": "assets/weapons/equip_fc3_000013/bmp_109.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 456,
+      "file": "assets/weapons/equip_fc3_000013/bmp_111.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 457,
+      "file": "assets/weapons/equip_fc3_000013/bmp_111.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 458,
+      "file": "assets/weapons/equip_fc3_000013/bmp_111.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 459,
+      "file": "assets/weapons/equip_fc3_000013/bmp_111.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 460,
+      "file": "assets/weapons/equip_fc3_000013/bmp_111.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 461,
+      "file": "assets/weapons/equip_fc3_000013/bmp_111.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 462,
+      "file": "assets/weapons/equip_fc3_000013/bmp_109.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 463,
+      "file": "assets/weapons/equip_fc3_000013/bmp_109.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 464,
+      "file": "assets/weapons/equip_fc3_000013/bmp_109.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 465,
+      "file": "assets/weapons/equip_fc3_000013/bmp_109.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 466,
+      "file": "assets/weapons/equip_fc3_000013/bmp_109.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 467,
+      "file": "assets/weapons/equip_fc3_000013/bmp_109.png",
+      "width": 450,
+      "height": 450
+    }
+  ],
+  "5-1": [
+    {
+      "frame": 468,
+      "file": "assets/weapons/equip_fc3_000013/bmp_113.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 469,
+      "file": "assets/weapons/equip_fc3_000013/bmp_113.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 470,
+      "file": "assets/weapons/equip_fc3_000013/bmp_115.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 471,
+      "file": "assets/weapons/equip_fc3_000013/bmp_115.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 472,
+      "file": "assets/weapons/equip_fc3_000013/bmp_117.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 473,
+      "file": "assets/weapons/equip_fc3_000013/bmp_117.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 474,
+      "file": "assets/weapons/equip_fc3_000013/bmp_119.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 475,
+      "file": "assets/weapons/equip_fc3_000013/bmp_119.png",
+      "width": 450,
+      "height": 450
+    }
+  ],
+  "5-2": [
+    {
+      "frame": 476,
+      "file": "assets/weapons/equip_fc3_000013/bmp_113.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 477,
+      "file": "assets/weapons/equip_fc3_000013/bmp_113.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 478,
+      "file": "assets/weapons/equip_fc3_000013/bmp_113.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 479,
+      "file": "assets/weapons/equip_fc3_000013/bmp_113.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 480,
+      "file": "assets/weapons/equip_fc3_000013/bmp_115.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 481,
+      "file": "assets/weapons/equip_fc3_000013/bmp_115.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 482,
+      "file": "assets/weapons/equip_fc3_000013/bmp_115.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 483,
+      "file": "assets/weapons/equip_fc3_000013/bmp_115.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 484,
+      "file": "assets/weapons/equip_fc3_000013/bmp_117.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 485,
+      "file": "assets/weapons/equip_fc3_000013/bmp_117.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 486,
+      "file": "assets/weapons/equip_fc3_000013/bmp_117.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 487,
+      "file": "assets/weapons/equip_fc3_000013/bmp_117.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 488,
+      "file": "assets/weapons/equip_fc3_000013/bmp_119.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 489,
+      "file": "assets/weapons/equip_fc3_000013/bmp_119.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 490,
+      "file": "assets/weapons/equip_fc3_000013/bmp_119.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 491,
+      "file": "assets/weapons/equip_fc3_000013/bmp_119.png",
+      "width": 450,
+      "height": 450
+    }
+  ],
+  "5-3": [
+    {
+      "frame": 492,
+      "file": "assets/weapons/equip_fc3_000013/bmp_89.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 493,
+      "file": "assets/weapons/equip_fc3_000013/bmp_89.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 494,
+      "file": "assets/weapons/equip_fc3_000013/bmp_89.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 495,
+      "file": "assets/weapons/equip_fc3_000013/bmp_89.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 496,
+      "file": "assets/weapons/equip_fc3_000013/bmp_91.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 497,
+      "file": "assets/weapons/equip_fc3_000013/bmp_91.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 498,
+      "file": "assets/weapons/equip_fc3_000013/bmp_93.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 499,
+      "file": "assets/weapons/equip_fc3_000013/bmp_93.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 500,
+      "file": "assets/weapons/equip_fc3_000013/bmp_93.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 501,
+      "file": "assets/weapons/equip_fc3_000013/bmp_93.png",
+      "width": 450,
+      "height": 450
+    }
+  ],
+  "5-4": [
+    {
+      "frame": 502,
+      "file": "assets/weapons/equip_fc3_000013/bmp_95.png",
+      "width": 450,
+      "height": 450
+    }
+  ],
+  "5-5": [
+    {
+      "frame": 503,
+      "file": "assets/weapons/equip_fc3_000013/bmp_97.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 504,
+      "file": "assets/weapons/equip_fc3_000013/bmp_97.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 505,
+      "file": "assets/weapons/equip_fc3_000013/bmp_97.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 506,
+      "file": "assets/weapons/equip_fc3_000013/bmp_97.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 507,
+      "file": "assets/weapons/equip_fc3_000013/bmp_97.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 508,
+      "file": "assets/weapons/equip_fc3_000013/bmp_97.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 509,
+      "file": "assets/weapons/equip_fc3_000013/bmp_97.png",
+      "width": 450,
+      "height": 450
+    }
+  ],
+  "5-6": [
+    {
+      "frame": 510,
+      "file": "assets/weapons/equip_fc3_000013/bmp_99.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 511,
+      "file": "assets/weapons/equip_fc3_000013/bmp_99.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 512,
+      "file": "assets/weapons/equip_fc3_000013/bmp_99.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 513,
+      "file": "assets/weapons/equip_fc3_000013/bmp_99.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 514,
+      "file": "assets/weapons/equip_fc3_000013/bmp_99.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 515,
+      "file": "assets/weapons/equip_fc3_000013/bmp_99.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 516,
+      "file": "assets/weapons/equip_fc3_000013/bmp_99.png",
+      "width": 450,
+      "height": 450
+    }
+  ],
+  "5-7": [
+    {
+      "frame": 517,
+      "file": "assets/weapons/equip_fc3_000013/bmp_101.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 518,
+      "file": "assets/weapons/equip_fc3_000013/bmp_101.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 519,
+      "file": "assets/weapons/equip_fc3_000013/bmp_101.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 520,
+      "file": "assets/weapons/equip_fc3_000013/bmp_101.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 521,
+      "file": "assets/weapons/equip_fc3_000013/bmp_103.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 522,
+      "file": "assets/weapons/equip_fc3_000013/bmp_103.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 523,
+      "file": "assets/weapons/equip_fc3_000013/bmp_105.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 524,
+      "file": "assets/weapons/equip_fc3_000013/bmp_105.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 525,
+      "file": "assets/weapons/equip_fc3_000013/bmp_105.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 526,
+      "file": "assets/weapons/equip_fc3_000013/bmp_105.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 527,
+      "file": "assets/weapons/equip_fc3_000013/bmp_105.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 528,
+      "file": "assets/weapons/equip_fc3_000013/bmp_105.png",
+      "width": 450,
+      "height": 450
+    }
+  ],
+  "6-0": [
+    {
+      "frame": 529,
+      "file": "assets/weapons/equip_fc3_000013/bmp_121.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 530,
+      "file": "assets/weapons/equip_fc3_000013/bmp_121.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 531,
+      "file": "assets/weapons/equip_fc3_000013/bmp_121.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 532,
+      "file": "assets/weapons/equip_fc3_000013/bmp_121.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 533,
+      "file": "assets/weapons/equip_fc3_000013/bmp_121.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 534,
+      "file": "assets/weapons/equip_fc3_000013/bmp_121.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 535,
+      "file": "assets/weapons/equip_fc3_000013/bmp_121.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 536,
+      "file": "assets/weapons/equip_fc3_000013/bmp_121.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 537,
+      "file": "assets/weapons/equip_fc3_000013/bmp_121.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 538,
+      "file": "assets/weapons/equip_fc3_000013/bmp_123.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 539,
+      "file": "assets/weapons/equip_fc3_000013/bmp_123.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 540,
+      "file": "assets/weapons/equip_fc3_000013/bmp_123.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 541,
+      "file": "assets/weapons/equip_fc3_000013/bmp_123.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 542,
+      "file": "assets/weapons/equip_fc3_000013/bmp_123.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 543,
+      "file": "assets/weapons/equip_fc3_000013/bmp_123.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 544,
+      "file": "assets/weapons/equip_fc3_000013/bmp_125.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 545,
+      "file": "assets/weapons/equip_fc3_000013/bmp_125.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 546,
+      "file": "assets/weapons/equip_fc3_000013/bmp_125.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 547,
+      "file": "assets/weapons/equip_fc3_000013/bmp_125.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 548,
+      "file": "assets/weapons/equip_fc3_000013/bmp_125.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 549,
+      "file": "assets/weapons/equip_fc3_000013/bmp_125.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 550,
+      "file": "assets/weapons/equip_fc3_000013/bmp_123.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 551,
+      "file": "assets/weapons/equip_fc3_000013/bmp_123.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 552,
+      "file": "assets/weapons/equip_fc3_000013/bmp_123.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 553,
+      "file": "assets/weapons/equip_fc3_000013/bmp_123.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 554,
+      "file": "assets/weapons/equip_fc3_000013/bmp_123.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 555,
+      "file": "assets/weapons/equip_fc3_000013/bmp_123.png",
+      "width": 450,
+      "height": 450
+    }
+  ],
+  "6-1": [
+    {
+      "frame": 556,
+      "file": "assets/weapons/equip_fc3_000013/bmp_127.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 557,
+      "file": "assets/weapons/equip_fc3_000013/bmp_127.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 558,
+      "file": "assets/weapons/equip_fc3_000013/bmp_129.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 559,
+      "file": "assets/weapons/equip_fc3_000013/bmp_129.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 560,
+      "file": "assets/weapons/equip_fc3_000013/bmp_131.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 561,
+      "file": "assets/weapons/equip_fc3_000013/bmp_131.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 562,
+      "file": "assets/weapons/equip_fc3_000013/bmp_133.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 563,
+      "file": "assets/weapons/equip_fc3_000013/bmp_133.png",
+      "width": 450,
+      "height": 450
+    }
+  ],
+  "6-2": [
+    {
+      "frame": 564,
+      "file": "assets/weapons/equip_fc3_000013/bmp_127.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 565,
+      "file": "assets/weapons/equip_fc3_000013/bmp_127.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 566,
+      "file": "assets/weapons/equip_fc3_000013/bmp_127.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 567,
+      "file": "assets/weapons/equip_fc3_000013/bmp_127.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 568,
+      "file": "assets/weapons/equip_fc3_000013/bmp_129.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 569,
+      "file": "assets/weapons/equip_fc3_000013/bmp_129.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 570,
+      "file": "assets/weapons/equip_fc3_000013/bmp_129.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 571,
+      "file": "assets/weapons/equip_fc3_000013/bmp_129.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 572,
+      "file": "assets/weapons/equip_fc3_000013/bmp_131.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 573,
+      "file": "assets/weapons/equip_fc3_000013/bmp_131.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 574,
+      "file": "assets/weapons/equip_fc3_000013/bmp_131.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 575,
+      "file": "assets/weapons/equip_fc3_000013/bmp_131.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 576,
+      "file": "assets/weapons/equip_fc3_000013/bmp_133.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 577,
+      "file": "assets/weapons/equip_fc3_000013/bmp_133.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 578,
+      "file": "assets/weapons/equip_fc3_000013/bmp_133.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 579,
+      "file": "assets/weapons/equip_fc3_000013/bmp_133.png",
+      "width": 450,
+      "height": 450
+    }
+  ],
+  "6-3": [
+    {
+      "frame": 580,
+      "file": "assets/weapons/equip_fc3_000013/bmp_89.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 581,
+      "file": "assets/weapons/equip_fc3_000013/bmp_89.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 582,
+      "file": "assets/weapons/equip_fc3_000013/bmp_89.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 583,
+      "file": "assets/weapons/equip_fc3_000013/bmp_89.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 584,
+      "file": "assets/weapons/equip_fc3_000013/bmp_91.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 585,
+      "file": "assets/weapons/equip_fc3_000013/bmp_91.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 586,
+      "file": "assets/weapons/equip_fc3_000013/bmp_93.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 587,
+      "file": "assets/weapons/equip_fc3_000013/bmp_93.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 588,
+      "file": "assets/weapons/equip_fc3_000013/bmp_93.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 589,
+      "file": "assets/weapons/equip_fc3_000013/bmp_93.png",
+      "width": 450,
+      "height": 450
+    }
+  ],
+  "6-4": [
+    {
+      "frame": 590,
+      "file": "assets/weapons/equip_fc3_000013/bmp_95.png",
+      "width": 450,
+      "height": 450
+    }
+  ],
+  "6-5": [
+    {
+      "frame": 591,
+      "file": "assets/weapons/equip_fc3_000013/bmp_97.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 592,
+      "file": "assets/weapons/equip_fc3_000013/bmp_97.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 593,
+      "file": "assets/weapons/equip_fc3_000013/bmp_97.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 594,
+      "file": "assets/weapons/equip_fc3_000013/bmp_97.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 595,
+      "file": "assets/weapons/equip_fc3_000013/bmp_97.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 596,
+      "file": "assets/weapons/equip_fc3_000013/bmp_97.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 597,
+      "file": "assets/weapons/equip_fc3_000013/bmp_97.png",
+      "width": 450,
+      "height": 450
+    }
+  ],
+  "6-6": [
+    {
+      "frame": 598,
+      "file": "assets/weapons/equip_fc3_000013/bmp_99.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 599,
+      "file": "assets/weapons/equip_fc3_000013/bmp_99.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 600,
+      "file": "assets/weapons/equip_fc3_000013/bmp_99.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 601,
+      "file": "assets/weapons/equip_fc3_000013/bmp_99.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 602,
+      "file": "assets/weapons/equip_fc3_000013/bmp_99.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 603,
+      "file": "assets/weapons/equip_fc3_000013/bmp_99.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 604,
+      "file": "assets/weapons/equip_fc3_000013/bmp_99.png",
+      "width": 450,
+      "height": 450
+    }
+  ],
+  "6-7": [
+    {
+      "frame": 605,
+      "file": "assets/weapons/equip_fc3_000013/bmp_101.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 606,
+      "file": "assets/weapons/equip_fc3_000013/bmp_101.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 607,
+      "file": "assets/weapons/equip_fc3_000013/bmp_101.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 608,
+      "file": "assets/weapons/equip_fc3_000013/bmp_101.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 609,
+      "file": "assets/weapons/equip_fc3_000013/bmp_103.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 610,
+      "file": "assets/weapons/equip_fc3_000013/bmp_103.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 611,
+      "file": "assets/weapons/equip_fc3_000013/bmp_105.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 612,
+      "file": "assets/weapons/equip_fc3_000013/bmp_105.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 613,
+      "file": "assets/weapons/equip_fc3_000013/bmp_105.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 614,
+      "file": "assets/weapons/equip_fc3_000013/bmp_105.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 615,
+      "file": "assets/weapons/equip_fc3_000013/bmp_105.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 616,
+      "file": "assets/weapons/equip_fc3_000013/bmp_105.png",
+      "width": 450,
+      "height": 450
+    }
+  ],
+  "7-0": [
+    {
+      "frame": 617,
+      "file": "assets/weapons/equip_fc3_000013/bmp_135.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 618,
+      "file": "assets/weapons/equip_fc3_000013/bmp_135.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 619,
+      "file": "assets/weapons/equip_fc3_000013/bmp_135.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 620,
+      "file": "assets/weapons/equip_fc3_000013/bmp_135.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 621,
+      "file": "assets/weapons/equip_fc3_000013/bmp_135.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 622,
+      "file": "assets/weapons/equip_fc3_000013/bmp_135.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 623,
+      "file": "assets/weapons/equip_fc3_000013/bmp_135.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 624,
+      "file": "assets/weapons/equip_fc3_000013/bmp_135.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 625,
+      "file": "assets/weapons/equip_fc3_000013/bmp_135.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 626,
+      "file": "assets/weapons/equip_fc3_000013/bmp_137.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 627,
+      "file": "assets/weapons/equip_fc3_000013/bmp_137.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 628,
+      "file": "assets/weapons/equip_fc3_000013/bmp_137.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 629,
+      "file": "assets/weapons/equip_fc3_000013/bmp_137.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 630,
+      "file": "assets/weapons/equip_fc3_000013/bmp_137.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 631,
+      "file": "assets/weapons/equip_fc3_000013/bmp_137.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 632,
+      "file": "assets/weapons/equip_fc3_000013/bmp_139.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 633,
+      "file": "assets/weapons/equip_fc3_000013/bmp_139.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 634,
+      "file": "assets/weapons/equip_fc3_000013/bmp_139.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 635,
+      "file": "assets/weapons/equip_fc3_000013/bmp_139.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 636,
+      "file": "assets/weapons/equip_fc3_000013/bmp_139.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 637,
+      "file": "assets/weapons/equip_fc3_000013/bmp_139.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 638,
+      "file": "assets/weapons/equip_fc3_000013/bmp_137.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 639,
+      "file": "assets/weapons/equip_fc3_000013/bmp_137.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 640,
+      "file": "assets/weapons/equip_fc3_000013/bmp_137.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 641,
+      "file": "assets/weapons/equip_fc3_000013/bmp_137.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 642,
+      "file": "assets/weapons/equip_fc3_000013/bmp_137.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 643,
+      "file": "assets/weapons/equip_fc3_000013/bmp_137.png",
+      "width": 450,
+      "height": 450
+    }
+  ],
+  "7-1": [
+    {
+      "frame": 644,
+      "file": "assets/weapons/equip_fc3_000013/bmp_141.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 645,
+      "file": "assets/weapons/equip_fc3_000013/bmp_141.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 646,
+      "file": "assets/weapons/equip_fc3_000013/bmp_143.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 647,
+      "file": "assets/weapons/equip_fc3_000013/bmp_143.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 648,
+      "file": "assets/weapons/equip_fc3_000013/bmp_145.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 649,
+      "file": "assets/weapons/equip_fc3_000013/bmp_145.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 650,
+      "file": "assets/weapons/equip_fc3_000013/bmp_147.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 651,
+      "file": "assets/weapons/equip_fc3_000013/bmp_147.png",
+      "width": 450,
+      "height": 450
+    }
+  ],
+  "7-2": [
+    {
+      "frame": 652,
+      "file": "assets/weapons/equip_fc3_000013/bmp_141.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 653,
+      "file": "assets/weapons/equip_fc3_000013/bmp_141.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 654,
+      "file": "assets/weapons/equip_fc3_000013/bmp_141.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 655,
+      "file": "assets/weapons/equip_fc3_000013/bmp_141.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 656,
+      "file": "assets/weapons/equip_fc3_000013/bmp_143.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 657,
+      "file": "assets/weapons/equip_fc3_000013/bmp_143.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 658,
+      "file": "assets/weapons/equip_fc3_000013/bmp_143.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 659,
+      "file": "assets/weapons/equip_fc3_000013/bmp_143.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 660,
+      "file": "assets/weapons/equip_fc3_000013/bmp_145.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 661,
+      "file": "assets/weapons/equip_fc3_000013/bmp_145.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 662,
+      "file": "assets/weapons/equip_fc3_000013/bmp_145.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 663,
+      "file": "assets/weapons/equip_fc3_000013/bmp_145.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 664,
+      "file": "assets/weapons/equip_fc3_000013/bmp_147.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 665,
+      "file": "assets/weapons/equip_fc3_000013/bmp_147.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 666,
+      "file": "assets/weapons/equip_fc3_000013/bmp_147.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 667,
+      "file": "assets/weapons/equip_fc3_000013/bmp_147.png",
+      "width": 450,
+      "height": 450
+    }
+  ],
+  "7-3": [
+    {
+      "frame": 668,
+      "file": "assets/weapons/equip_fc3_000013/bmp_89.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 669,
+      "file": "assets/weapons/equip_fc3_000013/bmp_89.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 670,
+      "file": "assets/weapons/equip_fc3_000013/bmp_89.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 671,
+      "file": "assets/weapons/equip_fc3_000013/bmp_89.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 672,
+      "file": "assets/weapons/equip_fc3_000013/bmp_91.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 673,
+      "file": "assets/weapons/equip_fc3_000013/bmp_91.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 674,
+      "file": "assets/weapons/equip_fc3_000013/bmp_93.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 675,
+      "file": "assets/weapons/equip_fc3_000013/bmp_93.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 676,
+      "file": "assets/weapons/equip_fc3_000013/bmp_93.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 677,
+      "file": "assets/weapons/equip_fc3_000013/bmp_93.png",
+      "width": 450,
+      "height": 450
+    }
+  ],
+  "7-4": [
+    {
+      "frame": 678,
+      "file": "assets/weapons/equip_fc3_000013/bmp_95.png",
+      "width": 450,
+      "height": 450
+    }
+  ],
+  "7-5": [
+    {
+      "frame": 679,
+      "file": "assets/weapons/equip_fc3_000013/bmp_97.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 680,
+      "file": "assets/weapons/equip_fc3_000013/bmp_97.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 681,
+      "file": "assets/weapons/equip_fc3_000013/bmp_97.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 682,
+      "file": "assets/weapons/equip_fc3_000013/bmp_97.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 683,
+      "file": "assets/weapons/equip_fc3_000013/bmp_97.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 684,
+      "file": "assets/weapons/equip_fc3_000013/bmp_97.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 685,
+      "file": "assets/weapons/equip_fc3_000013/bmp_97.png",
+      "width": 450,
+      "height": 450
+    }
+  ],
+  "7-6": [
+    {
+      "frame": 686,
+      "file": "assets/weapons/equip_fc3_000013/bmp_99.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 687,
+      "file": "assets/weapons/equip_fc3_000013/bmp_99.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 688,
+      "file": "assets/weapons/equip_fc3_000013/bmp_99.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 689,
+      "file": "assets/weapons/equip_fc3_000013/bmp_99.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 690,
+      "file": "assets/weapons/equip_fc3_000013/bmp_99.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 691,
+      "file": "assets/weapons/equip_fc3_000013/bmp_99.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 692,
+      "file": "assets/weapons/equip_fc3_000013/bmp_99.png",
+      "width": 450,
+      "height": 450
+    }
+  ],
+  "7-7": [
+    {
+      "frame": 693,
+      "file": "assets/weapons/equip_fc3_000013/bmp_101.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 694,
+      "file": "assets/weapons/equip_fc3_000013/bmp_101.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 695,
+      "file": "assets/weapons/equip_fc3_000013/bmp_101.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 696,
+      "file": "assets/weapons/equip_fc3_000013/bmp_101.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 697,
+      "file": "assets/weapons/equip_fc3_000013/bmp_103.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 698,
+      "file": "assets/weapons/equip_fc3_000013/bmp_103.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 699,
+      "file": "assets/weapons/equip_fc3_000013/bmp_105.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 700,
+      "file": "assets/weapons/equip_fc3_000013/bmp_105.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 701,
+      "file": "assets/weapons/equip_fc3_000013/bmp_105.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 702,
+      "file": "assets/weapons/equip_fc3_000013/bmp_105.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 703,
+      "file": "assets/weapons/equip_fc3_000013/bmp_105.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 704,
+      "file": "assets/weapons/equip_fc3_000013/bmp_105.png",
+      "width": 450,
+      "height": 450
+    }
+  ],
+  "0-8": [
+    {
+      "frame": 705,
+      "file": "assets/weapons/equip_fc3_000013/bmp_149.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 706,
+      "file": "assets/weapons/equip_fc3_000013/bmp_149.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 707,
+      "file": "assets/weapons/equip_fc3_000013/bmp_149.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 708,
+      "file": "assets/weapons/equip_fc3_000013/bmp_149.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 709,
+      "file": "assets/weapons/equip_fc3_000013/bmp_149.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 710,
+      "file": "assets/weapons/equip_fc3_000013/bmp_149.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 711,
+      "file": "assets/weapons/equip_fc3_000013/bmp_149.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 712,
+      "file": "assets/weapons/equip_fc3_000013/bmp_149.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 713,
+      "file": "assets/weapons/equip_fc3_000013/bmp_149.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 714,
+      "file": "assets/weapons/equip_fc3_000013/bmp_151.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 715,
+      "file": "assets/weapons/equip_fc3_000013/bmp_151.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 716,
+      "file": "assets/weapons/equip_fc3_000013/bmp_151.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 717,
+      "file": "assets/weapons/equip_fc3_000013/bmp_151.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 718,
+      "file": "assets/weapons/equip_fc3_000013/bmp_151.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 719,
+      "file": "assets/weapons/equip_fc3_000013/bmp_151.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 720,
+      "file": "assets/weapons/equip_fc3_000013/bmp_153.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 721,
+      "file": "assets/weapons/equip_fc3_000013/bmp_153.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 722,
+      "file": "assets/weapons/equip_fc3_000013/bmp_153.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 723,
+      "file": "assets/weapons/equip_fc3_000013/bmp_153.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 724,
+      "file": "assets/weapons/equip_fc3_000013/bmp_153.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 725,
+      "file": "assets/weapons/equip_fc3_000013/bmp_153.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 726,
+      "file": "assets/weapons/equip_fc3_000013/bmp_155.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 727,
+      "file": "assets/weapons/equip_fc3_000013/bmp_155.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 728,
+      "file": "assets/weapons/equip_fc3_000013/bmp_155.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 729,
+      "file": "assets/weapons/equip_fc3_000013/bmp_155.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 730,
+      "file": "assets/weapons/equip_fc3_000013/bmp_155.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 731,
+      "file": "assets/weapons/equip_fc3_000013/bmp_155.png",
+      "width": 450,
+      "height": 450
+    }
+  ],
+  "0-9": [
+    {
+      "frame": 732,
+      "file": "assets/weapons/equip_fc3_000013/bmp_157.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 733,
+      "file": "assets/weapons/equip_fc3_000013/bmp_157.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 734,
+      "file": "assets/weapons/equip_fc3_000013/bmp_159.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 735,
+      "file": "assets/weapons/equip_fc3_000013/bmp_159.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 736,
+      "file": "assets/weapons/equip_fc3_000013/bmp_161.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 737,
+      "file": "assets/weapons/equip_fc3_000013/bmp_161.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 738,
+      "file": "assets/weapons/equip_fc3_000013/bmp_163.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 739,
+      "file": "assets/weapons/equip_fc3_000013/bmp_163.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 740,
+      "file": "assets/weapons/equip_fc3_000013/bmp_165.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 741,
+      "file": "assets/weapons/equip_fc3_000013/bmp_165.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 742,
+      "file": "assets/weapons/equip_fc3_000013/bmp_167.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 743,
+      "file": "assets/weapons/equip_fc3_000013/bmp_167.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 744,
+      "file": "assets/weapons/equip_fc3_000013/bmp_169.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 745,
+      "file": "assets/weapons/equip_fc3_000013/bmp_169.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 746,
+      "file": "assets/weapons/equip_fc3_000013/bmp_171.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 747,
+      "file": "assets/weapons/equip_fc3_000013/bmp_171.png",
+      "width": 450,
+      "height": 450
+    }
+  ],
+  "1-8": [
+    {
+      "frame": 780,
+      "file": "assets/weapons/equip_fc3_000013/bmp_181.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 781,
+      "file": "assets/weapons/equip_fc3_000013/bmp_181.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 782,
+      "file": "assets/weapons/equip_fc3_000013/bmp_181.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 783,
+      "file": "assets/weapons/equip_fc3_000013/bmp_181.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 784,
+      "file": "assets/weapons/equip_fc3_000013/bmp_181.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 785,
+      "file": "assets/weapons/equip_fc3_000013/bmp_181.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 786,
+      "file": "assets/weapons/equip_fc3_000013/bmp_181.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 787,
+      "file": "assets/weapons/equip_fc3_000013/bmp_181.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 788,
+      "file": "assets/weapons/equip_fc3_000013/bmp_181.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 789,
+      "file": "assets/weapons/equip_fc3_000013/bmp_183.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 790,
+      "file": "assets/weapons/equip_fc3_000013/bmp_183.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 791,
+      "file": "assets/weapons/equip_fc3_000013/bmp_183.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 792,
+      "file": "assets/weapons/equip_fc3_000013/bmp_183.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 793,
+      "file": "assets/weapons/equip_fc3_000013/bmp_183.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 794,
+      "file": "assets/weapons/equip_fc3_000013/bmp_183.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 795,
+      "file": "assets/weapons/equip_fc3_000013/bmp_185.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 796,
+      "file": "assets/weapons/equip_fc3_000013/bmp_185.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 797,
+      "file": "assets/weapons/equip_fc3_000013/bmp_185.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 798,
+      "file": "assets/weapons/equip_fc3_000013/bmp_185.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 799,
+      "file": "assets/weapons/equip_fc3_000013/bmp_185.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 800,
+      "file": "assets/weapons/equip_fc3_000013/bmp_185.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 801,
+      "file": "assets/weapons/equip_fc3_000013/bmp_187.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 802,
+      "file": "assets/weapons/equip_fc3_000013/bmp_187.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 803,
+      "file": "assets/weapons/equip_fc3_000013/bmp_187.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 804,
+      "file": "assets/weapons/equip_fc3_000013/bmp_187.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 805,
+      "file": "assets/weapons/equip_fc3_000013/bmp_187.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 806,
+      "file": "assets/weapons/equip_fc3_000013/bmp_187.png",
+      "width": 450,
+      "height": 450
+    }
+  ],
+  "1-9": [
+    {
+      "frame": 807,
+      "file": "assets/weapons/equip_fc3_000013/bmp_189.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 808,
+      "file": "assets/weapons/equip_fc3_000013/bmp_189.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 809,
+      "file": "assets/weapons/equip_fc3_000013/bmp_191.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 810,
+      "file": "assets/weapons/equip_fc3_000013/bmp_191.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 811,
+      "file": "assets/weapons/equip_fc3_000013/bmp_193.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 812,
+      "file": "assets/weapons/equip_fc3_000013/bmp_193.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 813,
+      "file": "assets/weapons/equip_fc3_000013/bmp_195.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 814,
+      "file": "assets/weapons/equip_fc3_000013/bmp_195.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 815,
+      "file": "assets/weapons/equip_fc3_000013/bmp_197.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 816,
+      "file": "assets/weapons/equip_fc3_000013/bmp_197.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 817,
+      "file": "assets/weapons/equip_fc3_000013/bmp_199.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 818,
+      "file": "assets/weapons/equip_fc3_000013/bmp_199.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 819,
+      "file": "assets/weapons/equip_fc3_000013/bmp_201.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 820,
+      "file": "assets/weapons/equip_fc3_000013/bmp_201.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 821,
+      "file": "assets/weapons/equip_fc3_000013/bmp_203.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 822,
+      "file": "assets/weapons/equip_fc3_000013/bmp_203.png",
+      "width": 450,
+      "height": 450
+    }
+  ],
+  "2-8": [
+    {
+      "frame": 855,
+      "file": "assets/weapons/equip_fc3_000013/bmp_213.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 856,
+      "file": "assets/weapons/equip_fc3_000013/bmp_213.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 857,
+      "file": "assets/weapons/equip_fc3_000013/bmp_213.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 858,
+      "file": "assets/weapons/equip_fc3_000013/bmp_213.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 859,
+      "file": "assets/weapons/equip_fc3_000013/bmp_213.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 860,
+      "file": "assets/weapons/equip_fc3_000013/bmp_213.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 861,
+      "file": "assets/weapons/equip_fc3_000013/bmp_213.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 862,
+      "file": "assets/weapons/equip_fc3_000013/bmp_213.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 863,
+      "file": "assets/weapons/equip_fc3_000013/bmp_213.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 864,
+      "file": "assets/weapons/equip_fc3_000013/bmp_215.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 865,
+      "file": "assets/weapons/equip_fc3_000013/bmp_215.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 866,
+      "file": "assets/weapons/equip_fc3_000013/bmp_215.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 867,
+      "file": "assets/weapons/equip_fc3_000013/bmp_215.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 868,
+      "file": "assets/weapons/equip_fc3_000013/bmp_215.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 869,
+      "file": "assets/weapons/equip_fc3_000013/bmp_215.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 870,
+      "file": "assets/weapons/equip_fc3_000013/bmp_217.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 871,
+      "file": "assets/weapons/equip_fc3_000013/bmp_217.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 872,
+      "file": "assets/weapons/equip_fc3_000013/bmp_217.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 873,
+      "file": "assets/weapons/equip_fc3_000013/bmp_217.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 874,
+      "file": "assets/weapons/equip_fc3_000013/bmp_217.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 875,
+      "file": "assets/weapons/equip_fc3_000013/bmp_217.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 876,
+      "file": "assets/weapons/equip_fc3_000013/bmp_219.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 877,
+      "file": "assets/weapons/equip_fc3_000013/bmp_219.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 878,
+      "file": "assets/weapons/equip_fc3_000013/bmp_219.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 879,
+      "file": "assets/weapons/equip_fc3_000013/bmp_219.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 880,
+      "file": "assets/weapons/equip_fc3_000013/bmp_219.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 881,
+      "file": "assets/weapons/equip_fc3_000013/bmp_219.png",
+      "width": 450,
+      "height": 450
+    }
+  ],
+  "2-9": [
+    {
+      "frame": 882,
+      "file": "assets/weapons/equip_fc3_000013/bmp_221.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 883,
+      "file": "assets/weapons/equip_fc3_000013/bmp_221.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 884,
+      "file": "assets/weapons/equip_fc3_000013/bmp_223.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 885,
+      "file": "assets/weapons/equip_fc3_000013/bmp_223.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 886,
+      "file": "assets/weapons/equip_fc3_000013/bmp_225.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 887,
+      "file": "assets/weapons/equip_fc3_000013/bmp_225.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 888,
+      "file": "assets/weapons/equip_fc3_000013/bmp_227.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 889,
+      "file": "assets/weapons/equip_fc3_000013/bmp_227.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 890,
+      "file": "assets/weapons/equip_fc3_000013/bmp_229.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 891,
+      "file": "assets/weapons/equip_fc3_000013/bmp_229.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 892,
+      "file": "assets/weapons/equip_fc3_000013/bmp_231.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 893,
+      "file": "assets/weapons/equip_fc3_000013/bmp_231.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 894,
+      "file": "assets/weapons/equip_fc3_000013/bmp_233.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 895,
+      "file": "assets/weapons/equip_fc3_000013/bmp_233.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 896,
+      "file": "assets/weapons/equip_fc3_000013/bmp_235.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 897,
+      "file": "assets/weapons/equip_fc3_000013/bmp_235.png",
+      "width": 450,
+      "height": 450
+    }
+  ],
+  "3-8": [
+    {
+      "frame": 930,
+      "file": "assets/weapons/equip_fc3_000013/bmp_245.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 931,
+      "file": "assets/weapons/equip_fc3_000013/bmp_245.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 932,
+      "file": "assets/weapons/equip_fc3_000013/bmp_245.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 933,
+      "file": "assets/weapons/equip_fc3_000013/bmp_245.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 934,
+      "file": "assets/weapons/equip_fc3_000013/bmp_245.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 935,
+      "file": "assets/weapons/equip_fc3_000013/bmp_245.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 936,
+      "file": "assets/weapons/equip_fc3_000013/bmp_245.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 937,
+      "file": "assets/weapons/equip_fc3_000013/bmp_245.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 938,
+      "file": "assets/weapons/equip_fc3_000013/bmp_245.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 939,
+      "file": "assets/weapons/equip_fc3_000013/bmp_247.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 940,
+      "file": "assets/weapons/equip_fc3_000013/bmp_247.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 941,
+      "file": "assets/weapons/equip_fc3_000013/bmp_247.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 942,
+      "file": "assets/weapons/equip_fc3_000013/bmp_247.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 943,
+      "file": "assets/weapons/equip_fc3_000013/bmp_247.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 944,
+      "file": "assets/weapons/equip_fc3_000013/bmp_247.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 945,
+      "file": "assets/weapons/equip_fc3_000013/bmp_249.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 946,
+      "file": "assets/weapons/equip_fc3_000013/bmp_249.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 947,
+      "file": "assets/weapons/equip_fc3_000013/bmp_249.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 948,
+      "file": "assets/weapons/equip_fc3_000013/bmp_249.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 949,
+      "file": "assets/weapons/equip_fc3_000013/bmp_249.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 950,
+      "file": "assets/weapons/equip_fc3_000013/bmp_249.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 951,
+      "file": "assets/weapons/equip_fc3_000013/bmp_251.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 952,
+      "file": "assets/weapons/equip_fc3_000013/bmp_251.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 953,
+      "file": "assets/weapons/equip_fc3_000013/bmp_251.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 954,
+      "file": "assets/weapons/equip_fc3_000013/bmp_251.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 955,
+      "file": "assets/weapons/equip_fc3_000013/bmp_251.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 956,
+      "file": "assets/weapons/equip_fc3_000013/bmp_251.png",
+      "width": 450,
+      "height": 450
+    }
+  ],
+  "3-9": [
+    {
+      "frame": 957,
+      "file": "assets/weapons/equip_fc3_000013/bmp_253.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 958,
+      "file": "assets/weapons/equip_fc3_000013/bmp_253.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 959,
+      "file": "assets/weapons/equip_fc3_000013/bmp_255.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 960,
+      "file": "assets/weapons/equip_fc3_000013/bmp_255.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 961,
+      "file": "assets/weapons/equip_fc3_000013/bmp_257.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 962,
+      "file": "assets/weapons/equip_fc3_000013/bmp_257.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 963,
+      "file": "assets/weapons/equip_fc3_000013/bmp_259.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 964,
+      "file": "assets/weapons/equip_fc3_000013/bmp_259.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 965,
+      "file": "assets/weapons/equip_fc3_000013/bmp_261.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 966,
+      "file": "assets/weapons/equip_fc3_000013/bmp_261.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 967,
+      "file": "assets/weapons/equip_fc3_000013/bmp_263.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 968,
+      "file": "assets/weapons/equip_fc3_000013/bmp_263.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 969,
+      "file": "assets/weapons/equip_fc3_000013/bmp_265.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 970,
+      "file": "assets/weapons/equip_fc3_000013/bmp_265.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 971,
+      "file": "assets/weapons/equip_fc3_000013/bmp_267.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 972,
+      "file": "assets/weapons/equip_fc3_000013/bmp_267.png",
+      "width": 450,
+      "height": 450
+    }
+  ],
+  "4-8": [
+    {
+      "frame": 1005,
+      "file": "assets/weapons/equip_fc3_000013/bmp_277.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1006,
+      "file": "assets/weapons/equip_fc3_000013/bmp_277.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1007,
+      "file": "assets/weapons/equip_fc3_000013/bmp_277.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1008,
+      "file": "assets/weapons/equip_fc3_000013/bmp_277.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1009,
+      "file": "assets/weapons/equip_fc3_000013/bmp_277.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1010,
+      "file": "assets/weapons/equip_fc3_000013/bmp_277.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1011,
+      "file": "assets/weapons/equip_fc3_000013/bmp_277.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1012,
+      "file": "assets/weapons/equip_fc3_000013/bmp_277.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1013,
+      "file": "assets/weapons/equip_fc3_000013/bmp_277.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1014,
+      "file": "assets/weapons/equip_fc3_000013/bmp_279.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1015,
+      "file": "assets/weapons/equip_fc3_000013/bmp_279.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1016,
+      "file": "assets/weapons/equip_fc3_000013/bmp_279.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1017,
+      "file": "assets/weapons/equip_fc3_000013/bmp_279.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1018,
+      "file": "assets/weapons/equip_fc3_000013/bmp_279.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1019,
+      "file": "assets/weapons/equip_fc3_000013/bmp_279.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1020,
+      "file": "assets/weapons/equip_fc3_000013/bmp_281.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1021,
+      "file": "assets/weapons/equip_fc3_000013/bmp_281.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1022,
+      "file": "assets/weapons/equip_fc3_000013/bmp_281.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1023,
+      "file": "assets/weapons/equip_fc3_000013/bmp_281.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1024,
+      "file": "assets/weapons/equip_fc3_000013/bmp_281.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1025,
+      "file": "assets/weapons/equip_fc3_000013/bmp_281.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1026,
+      "file": "assets/weapons/equip_fc3_000013/bmp_283.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1027,
+      "file": "assets/weapons/equip_fc3_000013/bmp_283.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1028,
+      "file": "assets/weapons/equip_fc3_000013/bmp_283.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1029,
+      "file": "assets/weapons/equip_fc3_000013/bmp_283.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1030,
+      "file": "assets/weapons/equip_fc3_000013/bmp_283.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1031,
+      "file": "assets/weapons/equip_fc3_000013/bmp_283.png",
+      "width": 450,
+      "height": 450
+    }
+  ],
+  "4-9": [
+    {
+      "frame": 1032,
+      "file": "assets/weapons/equip_fc3_000013/bmp_285.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1033,
+      "file": "assets/weapons/equip_fc3_000013/bmp_285.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1034,
+      "file": "assets/weapons/equip_fc3_000013/bmp_287.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1035,
+      "file": "assets/weapons/equip_fc3_000013/bmp_287.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1036,
+      "file": "assets/weapons/equip_fc3_000013/bmp_289.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1037,
+      "file": "assets/weapons/equip_fc3_000013/bmp_289.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1038,
+      "file": "assets/weapons/equip_fc3_000013/bmp_291.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1039,
+      "file": "assets/weapons/equip_fc3_000013/bmp_291.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1040,
+      "file": "assets/weapons/equip_fc3_000013/bmp_293.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1041,
+      "file": "assets/weapons/equip_fc3_000013/bmp_293.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1042,
+      "file": "assets/weapons/equip_fc3_000013/bmp_295.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1043,
+      "file": "assets/weapons/equip_fc3_000013/bmp_295.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1044,
+      "file": "assets/weapons/equip_fc3_000013/bmp_297.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1045,
+      "file": "assets/weapons/equip_fc3_000013/bmp_297.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1046,
+      "file": "assets/weapons/equip_fc3_000013/bmp_299.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1047,
+      "file": "assets/weapons/equip_fc3_000013/bmp_299.png",
+      "width": 450,
+      "height": 450
+    }
+  ],
+  "5-8": [
+    {
+      "frame": 1080,
+      "file": "assets/weapons/equip_fc3_000013/bmp_309.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1081,
+      "file": "assets/weapons/equip_fc3_000013/bmp_309.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1082,
+      "file": "assets/weapons/equip_fc3_000013/bmp_309.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1083,
+      "file": "assets/weapons/equip_fc3_000013/bmp_309.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1084,
+      "file": "assets/weapons/equip_fc3_000013/bmp_309.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1085,
+      "file": "assets/weapons/equip_fc3_000013/bmp_309.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1086,
+      "file": "assets/weapons/equip_fc3_000013/bmp_309.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1087,
+      "file": "assets/weapons/equip_fc3_000013/bmp_309.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1088,
+      "file": "assets/weapons/equip_fc3_000013/bmp_309.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1089,
+      "file": "assets/weapons/equip_fc3_000013/bmp_311.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1090,
+      "file": "assets/weapons/equip_fc3_000013/bmp_311.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1091,
+      "file": "assets/weapons/equip_fc3_000013/bmp_311.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1092,
+      "file": "assets/weapons/equip_fc3_000013/bmp_311.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1093,
+      "file": "assets/weapons/equip_fc3_000013/bmp_311.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1094,
+      "file": "assets/weapons/equip_fc3_000013/bmp_311.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1095,
+      "file": "assets/weapons/equip_fc3_000013/bmp_313.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1096,
+      "file": "assets/weapons/equip_fc3_000013/bmp_313.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1097,
+      "file": "assets/weapons/equip_fc3_000013/bmp_313.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1098,
+      "file": "assets/weapons/equip_fc3_000013/bmp_313.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1099,
+      "file": "assets/weapons/equip_fc3_000013/bmp_313.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1100,
+      "file": "assets/weapons/equip_fc3_000013/bmp_313.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1101,
+      "file": "assets/weapons/equip_fc3_000013/bmp_315.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1102,
+      "file": "assets/weapons/equip_fc3_000013/bmp_315.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1103,
+      "file": "assets/weapons/equip_fc3_000013/bmp_315.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1104,
+      "file": "assets/weapons/equip_fc3_000013/bmp_315.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1105,
+      "file": "assets/weapons/equip_fc3_000013/bmp_315.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1106,
+      "file": "assets/weapons/equip_fc3_000013/bmp_315.png",
+      "width": 450,
+      "height": 450
+    }
+  ],
+  "5-9": [
+    {
+      "frame": 1107,
+      "file": "assets/weapons/equip_fc3_000013/bmp_317.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1108,
+      "file": "assets/weapons/equip_fc3_000013/bmp_317.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1109,
+      "file": "assets/weapons/equip_fc3_000013/bmp_319.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1110,
+      "file": "assets/weapons/equip_fc3_000013/bmp_319.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1111,
+      "file": "assets/weapons/equip_fc3_000013/bmp_321.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1112,
+      "file": "assets/weapons/equip_fc3_000013/bmp_321.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1113,
+      "file": "assets/weapons/equip_fc3_000013/bmp_323.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1114,
+      "file": "assets/weapons/equip_fc3_000013/bmp_323.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1115,
+      "file": "assets/weapons/equip_fc3_000013/bmp_325.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1116,
+      "file": "assets/weapons/equip_fc3_000013/bmp_325.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1117,
+      "file": "assets/weapons/equip_fc3_000013/bmp_327.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1118,
+      "file": "assets/weapons/equip_fc3_000013/bmp_327.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1119,
+      "file": "assets/weapons/equip_fc3_000013/bmp_329.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1120,
+      "file": "assets/weapons/equip_fc3_000013/bmp_329.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1121,
+      "file": "assets/weapons/equip_fc3_000013/bmp_331.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1122,
+      "file": "assets/weapons/equip_fc3_000013/bmp_331.png",
+      "width": 450,
+      "height": 450
+    }
+  ],
+  "6-8": [
+    {
+      "frame": 1155,
+      "file": "assets/weapons/equip_fc3_000013/bmp_341.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1156,
+      "file": "assets/weapons/equip_fc3_000013/bmp_341.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1157,
+      "file": "assets/weapons/equip_fc3_000013/bmp_341.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1158,
+      "file": "assets/weapons/equip_fc3_000013/bmp_341.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1159,
+      "file": "assets/weapons/equip_fc3_000013/bmp_341.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1160,
+      "file": "assets/weapons/equip_fc3_000013/bmp_341.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1161,
+      "file": "assets/weapons/equip_fc3_000013/bmp_341.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1162,
+      "file": "assets/weapons/equip_fc3_000013/bmp_341.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1163,
+      "file": "assets/weapons/equip_fc3_000013/bmp_341.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1164,
+      "file": "assets/weapons/equip_fc3_000013/bmp_343.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1165,
+      "file": "assets/weapons/equip_fc3_000013/bmp_343.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1166,
+      "file": "assets/weapons/equip_fc3_000013/bmp_343.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1167,
+      "file": "assets/weapons/equip_fc3_000013/bmp_343.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1168,
+      "file": "assets/weapons/equip_fc3_000013/bmp_343.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1169,
+      "file": "assets/weapons/equip_fc3_000013/bmp_343.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1170,
+      "file": "assets/weapons/equip_fc3_000013/bmp_345.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1171,
+      "file": "assets/weapons/equip_fc3_000013/bmp_345.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1172,
+      "file": "assets/weapons/equip_fc3_000013/bmp_345.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1173,
+      "file": "assets/weapons/equip_fc3_000013/bmp_345.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1174,
+      "file": "assets/weapons/equip_fc3_000013/bmp_345.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1175,
+      "file": "assets/weapons/equip_fc3_000013/bmp_345.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1176,
+      "file": "assets/weapons/equip_fc3_000013/bmp_347.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1177,
+      "file": "assets/weapons/equip_fc3_000013/bmp_347.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1178,
+      "file": "assets/weapons/equip_fc3_000013/bmp_347.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1179,
+      "file": "assets/weapons/equip_fc3_000013/bmp_347.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1180,
+      "file": "assets/weapons/equip_fc3_000013/bmp_347.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1181,
+      "file": "assets/weapons/equip_fc3_000013/bmp_347.png",
+      "width": 450,
+      "height": 450
+    }
+  ],
+  "6-9": [
+    {
+      "frame": 1182,
+      "file": "assets/weapons/equip_fc3_000013/bmp_349.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1183,
+      "file": "assets/weapons/equip_fc3_000013/bmp_349.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1184,
+      "file": "assets/weapons/equip_fc3_000013/bmp_351.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1185,
+      "file": "assets/weapons/equip_fc3_000013/bmp_351.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1186,
+      "file": "assets/weapons/equip_fc3_000013/bmp_353.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1187,
+      "file": "assets/weapons/equip_fc3_000013/bmp_353.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1188,
+      "file": "assets/weapons/equip_fc3_000013/bmp_355.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1189,
+      "file": "assets/weapons/equip_fc3_000013/bmp_355.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1190,
+      "file": "assets/weapons/equip_fc3_000013/bmp_357.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1191,
+      "file": "assets/weapons/equip_fc3_000013/bmp_357.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1192,
+      "file": "assets/weapons/equip_fc3_000013/bmp_359.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1193,
+      "file": "assets/weapons/equip_fc3_000013/bmp_359.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1194,
+      "file": "assets/weapons/equip_fc3_000013/bmp_361.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1195,
+      "file": "assets/weapons/equip_fc3_000013/bmp_361.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1196,
+      "file": "assets/weapons/equip_fc3_000013/bmp_363.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1197,
+      "file": "assets/weapons/equip_fc3_000013/bmp_363.png",
+      "width": 450,
+      "height": 450
+    }
+  ],
+  "7-8": [
+    {
+      "frame": 1230,
+      "file": "assets/weapons/equip_fc3_000013/bmp_373.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1231,
+      "file": "assets/weapons/equip_fc3_000013/bmp_373.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1232,
+      "file": "assets/weapons/equip_fc3_000013/bmp_373.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1233,
+      "file": "assets/weapons/equip_fc3_000013/bmp_373.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1234,
+      "file": "assets/weapons/equip_fc3_000013/bmp_373.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1235,
+      "file": "assets/weapons/equip_fc3_000013/bmp_373.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1236,
+      "file": "assets/weapons/equip_fc3_000013/bmp_373.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1237,
+      "file": "assets/weapons/equip_fc3_000013/bmp_373.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1238,
+      "file": "assets/weapons/equip_fc3_000013/bmp_373.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1239,
+      "file": "assets/weapons/equip_fc3_000013/bmp_375.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1240,
+      "file": "assets/weapons/equip_fc3_000013/bmp_375.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1241,
+      "file": "assets/weapons/equip_fc3_000013/bmp_375.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1242,
+      "file": "assets/weapons/equip_fc3_000013/bmp_375.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1243,
+      "file": "assets/weapons/equip_fc3_000013/bmp_375.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1244,
+      "file": "assets/weapons/equip_fc3_000013/bmp_375.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1245,
+      "file": "assets/weapons/equip_fc3_000013/bmp_377.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1246,
+      "file": "assets/weapons/equip_fc3_000013/bmp_377.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1247,
+      "file": "assets/weapons/equip_fc3_000013/bmp_377.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1248,
+      "file": "assets/weapons/equip_fc3_000013/bmp_377.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1249,
+      "file": "assets/weapons/equip_fc3_000013/bmp_377.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1250,
+      "file": "assets/weapons/equip_fc3_000013/bmp_377.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1251,
+      "file": "assets/weapons/equip_fc3_000013/bmp_379.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1252,
+      "file": "assets/weapons/equip_fc3_000013/bmp_379.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1253,
+      "file": "assets/weapons/equip_fc3_000013/bmp_379.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1254,
+      "file": "assets/weapons/equip_fc3_000013/bmp_379.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1255,
+      "file": "assets/weapons/equip_fc3_000013/bmp_379.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1256,
+      "file": "assets/weapons/equip_fc3_000013/bmp_379.png",
+      "width": 450,
+      "height": 450
+    }
+  ],
+  "7-9": [
+    {
+      "frame": 1257,
+      "file": "assets/weapons/equip_fc3_000013/bmp_381.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1258,
+      "file": "assets/weapons/equip_fc3_000013/bmp_381.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1259,
+      "file": "assets/weapons/equip_fc3_000013/bmp_383.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1260,
+      "file": "assets/weapons/equip_fc3_000013/bmp_383.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1261,
+      "file": "assets/weapons/equip_fc3_000013/bmp_385.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1262,
+      "file": "assets/weapons/equip_fc3_000013/bmp_385.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1263,
+      "file": "assets/weapons/equip_fc3_000013/bmp_387.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1264,
+      "file": "assets/weapons/equip_fc3_000013/bmp_387.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1265,
+      "file": "assets/weapons/equip_fc3_000013/bmp_389.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1266,
+      "file": "assets/weapons/equip_fc3_000013/bmp_389.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1267,
+      "file": "assets/weapons/equip_fc3_000013/bmp_391.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1268,
+      "file": "assets/weapons/equip_fc3_000013/bmp_391.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1269,
+      "file": "assets/weapons/equip_fc3_000013/bmp_393.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1270,
+      "file": "assets/weapons/equip_fc3_000013/bmp_393.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1271,
+      "file": "assets/weapons/equip_fc3_000013/bmp_395.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "frame": 1272,
+      "file": "assets/weapons/equip_fc3_000013/bmp_395.png",
+      "width": 450,
+      "height": 450
+    }
+  ]
+}

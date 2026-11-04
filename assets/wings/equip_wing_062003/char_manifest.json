@@ -1,0 +1,4354 @@
+{
+  "0-0": [
+    {
+      "frame": 1,
+      "file": "assets/wings/equip_wing_062003/bmp_1.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 2,
+      "file": "assets/wings/equip_wing_062003/bmp_1.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 3,
+      "file": "assets/wings/equip_wing_062003/bmp_1.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 4,
+      "file": "assets/wings/equip_wing_062003/bmp_1.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 5,
+      "file": "assets/wings/equip_wing_062003/bmp_1.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 6,
+      "file": "assets/wings/equip_wing_062003/bmp_1.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 7,
+      "file": "assets/wings/equip_wing_062003/bmp_1.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 8,
+      "file": "assets/wings/equip_wing_062003/bmp_1.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 9,
+      "file": "assets/wings/equip_wing_062003/bmp_1.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 10,
+      "file": "assets/wings/equip_wing_062003/bmp_3.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 11,
+      "file": "assets/wings/equip_wing_062003/bmp_3.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 12,
+      "file": "assets/wings/equip_wing_062003/bmp_3.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 13,
+      "file": "assets/wings/equip_wing_062003/bmp_3.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 14,
+      "file": "assets/wings/equip_wing_062003/bmp_3.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 15,
+      "file": "assets/wings/equip_wing_062003/bmp_3.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 16,
+      "file": "assets/wings/equip_wing_062003/bmp_5.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 17,
+      "file": "assets/wings/equip_wing_062003/bmp_5.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 18,
+      "file": "assets/wings/equip_wing_062003/bmp_5.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 19,
+      "file": "assets/wings/equip_wing_062003/bmp_5.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 20,
+      "file": "assets/wings/equip_wing_062003/bmp_5.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 21,
+      "file": "assets/wings/equip_wing_062003/bmp_5.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 22,
+      "file": "assets/wings/equip_wing_062003/bmp_7.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 23,
+      "file": "assets/wings/equip_wing_062003/bmp_7.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 24,
+      "file": "assets/wings/equip_wing_062003/bmp_7.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 25,
+      "file": "assets/wings/equip_wing_062003/bmp_7.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 26,
+      "file": "assets/wings/equip_wing_062003/bmp_7.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 27,
+      "file": "assets/wings/equip_wing_062003/bmp_7.png",
+      "width": 700,
+      "height": 700
+    }
+  ],
+  "0-1": [
+    {
+      "frame": 28,
+      "file": "assets/wings/equip_wing_062003/bmp_7.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 29,
+      "file": "assets/wings/equip_wing_062003/bmp_7.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 30,
+      "file": "assets/wings/equip_wing_062003/bmp_7.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 31,
+      "file": "assets/wings/equip_wing_062003/bmp_7.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 32,
+      "file": "assets/wings/equip_wing_062003/bmp_7.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 33,
+      "file": "assets/wings/equip_wing_062003/bmp_7.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 34,
+      "file": "assets/wings/equip_wing_062003/bmp_7.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 35,
+      "file": "assets/wings/equip_wing_062003/bmp_7.png",
+      "width": 700,
+      "height": 700
+    }
+  ],
+  "0-2": [
+    {
+      "frame": 36,
+      "file": "assets/wings/equip_wing_062003/bmp_7.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 37,
+      "file": "assets/wings/equip_wing_062003/bmp_7.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 38,
+      "file": "assets/wings/equip_wing_062003/bmp_7.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 39,
+      "file": "assets/wings/equip_wing_062003/bmp_7.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 40,
+      "file": "assets/wings/equip_wing_062003/bmp_7.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 41,
+      "file": "assets/wings/equip_wing_062003/bmp_7.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 42,
+      "file": "assets/wings/equip_wing_062003/bmp_7.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 43,
+      "file": "assets/wings/equip_wing_062003/bmp_7.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 44,
+      "file": "assets/wings/equip_wing_062003/bmp_7.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 45,
+      "file": "assets/wings/equip_wing_062003/bmp_7.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 46,
+      "file": "assets/wings/equip_wing_062003/bmp_7.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 47,
+      "file": "assets/wings/equip_wing_062003/bmp_7.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 48,
+      "file": "assets/wings/equip_wing_062003/bmp_7.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 49,
+      "file": "assets/wings/equip_wing_062003/bmp_7.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 50,
+      "file": "assets/wings/equip_wing_062003/bmp_7.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 51,
+      "file": "assets/wings/equip_wing_062003/bmp_7.png",
+      "width": 700,
+      "height": 700
+    }
+  ],
+  "0-3": [
+    {
+      "frame": 52,
+      "file": "assets/wings/equip_wing_062003/bmp_7.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 53,
+      "file": "assets/wings/equip_wing_062003/bmp_7.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 54,
+      "file": "assets/wings/equip_wing_062003/bmp_7.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 55,
+      "file": "assets/wings/equip_wing_062003/bmp_7.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 56,
+      "file": "assets/wings/equip_wing_062003/bmp_7.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 57,
+      "file": "assets/wings/equip_wing_062003/bmp_7.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 58,
+      "file": "assets/wings/equip_wing_062003/bmp_7.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 59,
+      "file": "assets/wings/equip_wing_062003/bmp_7.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 60,
+      "file": "assets/wings/equip_wing_062003/bmp_7.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 61,
+      "file": "assets/wings/equip_wing_062003/bmp_7.png",
+      "width": 700,
+      "height": 700
+    }
+  ],
+  "0-4": [
+    {
+      "frame": 62,
+      "file": "assets/wings/equip_wing_062003/bmp_7.png",
+      "width": 700,
+      "height": 700
+    }
+  ],
+  "0-5": [
+    {
+      "frame": 63,
+      "file": "assets/wings/equip_wing_062003/bmp_7.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 64,
+      "file": "assets/wings/equip_wing_062003/bmp_7.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 65,
+      "file": "assets/wings/equip_wing_062003/bmp_7.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 66,
+      "file": "assets/wings/equip_wing_062003/bmp_7.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 67,
+      "file": "assets/wings/equip_wing_062003/bmp_7.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 68,
+      "file": "assets/wings/equip_wing_062003/bmp_7.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 69,
+      "file": "assets/wings/equip_wing_062003/bmp_7.png",
+      "width": 700,
+      "height": 700
+    }
+  ],
+  "0-6": [
+    {
+      "frame": 70,
+      "file": "assets/wings/equip_wing_062003/bmp_7.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 71,
+      "file": "assets/wings/equip_wing_062003/bmp_7.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 72,
+      "file": "assets/wings/equip_wing_062003/bmp_7.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 73,
+      "file": "assets/wings/equip_wing_062003/bmp_7.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 74,
+      "file": "assets/wings/equip_wing_062003/bmp_7.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 75,
+      "file": "assets/wings/equip_wing_062003/bmp_7.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 76,
+      "file": "assets/wings/equip_wing_062003/bmp_7.png",
+      "width": 700,
+      "height": 700
+    }
+  ],
+  "0-7": [
+    {
+      "frame": 77,
+      "file": "assets/wings/equip_wing_062003/bmp_7.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 78,
+      "file": "assets/wings/equip_wing_062003/bmp_7.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 79,
+      "file": "assets/wings/equip_wing_062003/bmp_7.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 80,
+      "file": "assets/wings/equip_wing_062003/bmp_7.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 81,
+      "file": "assets/wings/equip_wing_062003/bmp_7.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 82,
+      "file": "assets/wings/equip_wing_062003/bmp_7.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 83,
+      "file": "assets/wings/equip_wing_062003/bmp_7.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 84,
+      "file": "assets/wings/equip_wing_062003/bmp_7.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 85,
+      "file": "assets/wings/equip_wing_062003/bmp_7.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 86,
+      "file": "assets/wings/equip_wing_062003/bmp_7.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 87,
+      "file": "assets/wings/equip_wing_062003/bmp_7.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 88,
+      "file": "assets/wings/equip_wing_062003/bmp_7.png",
+      "width": 700,
+      "height": 700
+    }
+  ],
+  "1-0": [
+    {
+      "frame": 89,
+      "file": "assets/wings/equip_wing_062003/bmp_9.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 90,
+      "file": "assets/wings/equip_wing_062003/bmp_9.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 91,
+      "file": "assets/wings/equip_wing_062003/bmp_9.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 92,
+      "file": "assets/wings/equip_wing_062003/bmp_9.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 93,
+      "file": "assets/wings/equip_wing_062003/bmp_9.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 94,
+      "file": "assets/wings/equip_wing_062003/bmp_9.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 95,
+      "file": "assets/wings/equip_wing_062003/bmp_9.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 96,
+      "file": "assets/wings/equip_wing_062003/bmp_9.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 97,
+      "file": "assets/wings/equip_wing_062003/bmp_9.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 98,
+      "file": "assets/wings/equip_wing_062003/bmp_11.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 99,
+      "file": "assets/wings/equip_wing_062003/bmp_11.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 100,
+      "file": "assets/wings/equip_wing_062003/bmp_11.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 101,
+      "file": "assets/wings/equip_wing_062003/bmp_11.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 102,
+      "file": "assets/wings/equip_wing_062003/bmp_11.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 103,
+      "file": "assets/wings/equip_wing_062003/bmp_11.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 104,
+      "file": "assets/wings/equip_wing_062003/bmp_13.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 105,
+      "file": "assets/wings/equip_wing_062003/bmp_13.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 106,
+      "file": "assets/wings/equip_wing_062003/bmp_13.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 107,
+      "file": "assets/wings/equip_wing_062003/bmp_13.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 108,
+      "file": "assets/wings/equip_wing_062003/bmp_13.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 109,
+      "file": "assets/wings/equip_wing_062003/bmp_13.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 110,
+      "file": "assets/wings/equip_wing_062003/bmp_15.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 111,
+      "file": "assets/wings/equip_wing_062003/bmp_15.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 112,
+      "file": "assets/wings/equip_wing_062003/bmp_15.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 113,
+      "file": "assets/wings/equip_wing_062003/bmp_15.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 114,
+      "file": "assets/wings/equip_wing_062003/bmp_15.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 115,
+      "file": "assets/wings/equip_wing_062003/bmp_15.png",
+      "width": 700,
+      "height": 700
+    }
+  ],
+  "1-1": [
+    {
+      "frame": 116,
+      "file": "assets/wings/equip_wing_062003/bmp_15.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 117,
+      "file": "assets/wings/equip_wing_062003/bmp_15.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 118,
+      "file": "assets/wings/equip_wing_062003/bmp_15.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 119,
+      "file": "assets/wings/equip_wing_062003/bmp_15.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 120,
+      "file": "assets/wings/equip_wing_062003/bmp_15.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 121,
+      "file": "assets/wings/equip_wing_062003/bmp_15.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 122,
+      "file": "assets/wings/equip_wing_062003/bmp_15.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 123,
+      "file": "assets/wings/equip_wing_062003/bmp_15.png",
+      "width": 700,
+      "height": 700
+    }
+  ],
+  "1-2": [
+    {
+      "frame": 124,
+      "file": "assets/wings/equip_wing_062003/bmp_15.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 125,
+      "file": "assets/wings/equip_wing_062003/bmp_15.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 126,
+      "file": "assets/wings/equip_wing_062003/bmp_15.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 127,
+      "file": "assets/wings/equip_wing_062003/bmp_15.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 128,
+      "file": "assets/wings/equip_wing_062003/bmp_15.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 129,
+      "file": "assets/wings/equip_wing_062003/bmp_15.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 130,
+      "file": "assets/wings/equip_wing_062003/bmp_15.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 131,
+      "file": "assets/wings/equip_wing_062003/bmp_15.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 132,
+      "file": "assets/wings/equip_wing_062003/bmp_15.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 133,
+      "file": "assets/wings/equip_wing_062003/bmp_15.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 134,
+      "file": "assets/wings/equip_wing_062003/bmp_15.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 135,
+      "file": "assets/wings/equip_wing_062003/bmp_15.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 136,
+      "file": "assets/wings/equip_wing_062003/bmp_15.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 137,
+      "file": "assets/wings/equip_wing_062003/bmp_15.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 138,
+      "file": "assets/wings/equip_wing_062003/bmp_15.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 139,
+      "file": "assets/wings/equip_wing_062003/bmp_15.png",
+      "width": 700,
+      "height": 700
+    }
+  ],
+  "1-3": [
+    {
+      "frame": 140,
+      "file": "assets/wings/equip_wing_062003/bmp_15.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 141,
+      "file": "assets/wings/equip_wing_062003/bmp_15.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 142,
+      "file": "assets/wings/equip_wing_062003/bmp_15.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 143,
+      "file": "assets/wings/equip_wing_062003/bmp_15.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 144,
+      "file": "assets/wings/equip_wing_062003/bmp_15.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 145,
+      "file": "assets/wings/equip_wing_062003/bmp_15.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 146,
+      "file": "assets/wings/equip_wing_062003/bmp_15.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 147,
+      "file": "assets/wings/equip_wing_062003/bmp_15.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 148,
+      "file": "assets/wings/equip_wing_062003/bmp_15.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 149,
+      "file": "assets/wings/equip_wing_062003/bmp_15.png",
+      "width": 700,
+      "height": 700
+    }
+  ],
+  "1-4": [
+    {
+      "frame": 150,
+      "file": "assets/wings/equip_wing_062003/bmp_15.png",
+      "width": 700,
+      "height": 700
+    }
+  ],
+  "1-5": [
+    {
+      "frame": 151,
+      "file": "assets/wings/equip_wing_062003/bmp_15.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 152,
+      "file": "assets/wings/equip_wing_062003/bmp_15.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 153,
+      "file": "assets/wings/equip_wing_062003/bmp_15.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 154,
+      "file": "assets/wings/equip_wing_062003/bmp_15.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 155,
+      "file": "assets/wings/equip_wing_062003/bmp_15.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 156,
+      "file": "assets/wings/equip_wing_062003/bmp_15.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 157,
+      "file": "assets/wings/equip_wing_062003/bmp_15.png",
+      "width": 700,
+      "height": 700
+    }
+  ],
+  "1-6": [
+    {
+      "frame": 158,
+      "file": "assets/wings/equip_wing_062003/bmp_15.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 159,
+      "file": "assets/wings/equip_wing_062003/bmp_15.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 160,
+      "file": "assets/wings/equip_wing_062003/bmp_15.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 161,
+      "file": "assets/wings/equip_wing_062003/bmp_15.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 162,
+      "file": "assets/wings/equip_wing_062003/bmp_15.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 163,
+      "file": "assets/wings/equip_wing_062003/bmp_15.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 164,
+      "file": "assets/wings/equip_wing_062003/bmp_15.png",
+      "width": 700,
+      "height": 700
+    }
+  ],
+  "1-7": [
+    {
+      "frame": 165,
+      "file": "assets/wings/equip_wing_062003/bmp_15.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 166,
+      "file": "assets/wings/equip_wing_062003/bmp_15.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 167,
+      "file": "assets/wings/equip_wing_062003/bmp_15.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 168,
+      "file": "assets/wings/equip_wing_062003/bmp_15.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 169,
+      "file": "assets/wings/equip_wing_062003/bmp_15.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 170,
+      "file": "assets/wings/equip_wing_062003/bmp_15.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 171,
+      "file": "assets/wings/equip_wing_062003/bmp_15.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 172,
+      "file": "assets/wings/equip_wing_062003/bmp_15.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 173,
+      "file": "assets/wings/equip_wing_062003/bmp_15.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 174,
+      "file": "assets/wings/equip_wing_062003/bmp_15.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 175,
+      "file": "assets/wings/equip_wing_062003/bmp_15.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 176,
+      "file": "assets/wings/equip_wing_062003/bmp_15.png",
+      "width": 700,
+      "height": 700
+    }
+  ],
+  "2-0": [
+    {
+      "frame": 177,
+      "file": "assets/wings/equip_wing_062003/bmp_17.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 178,
+      "file": "assets/wings/equip_wing_062003/bmp_17.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 179,
+      "file": "assets/wings/equip_wing_062003/bmp_17.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 180,
+      "file": "assets/wings/equip_wing_062003/bmp_17.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 181,
+      "file": "assets/wings/equip_wing_062003/bmp_17.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 182,
+      "file": "assets/wings/equip_wing_062003/bmp_17.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 183,
+      "file": "assets/wings/equip_wing_062003/bmp_17.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 184,
+      "file": "assets/wings/equip_wing_062003/bmp_17.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 185,
+      "file": "assets/wings/equip_wing_062003/bmp_17.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 186,
+      "file": "assets/wings/equip_wing_062003/bmp_19.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 187,
+      "file": "assets/wings/equip_wing_062003/bmp_19.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 188,
+      "file": "assets/wings/equip_wing_062003/bmp_19.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 189,
+      "file": "assets/wings/equip_wing_062003/bmp_19.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 190,
+      "file": "assets/wings/equip_wing_062003/bmp_19.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 191,
+      "file": "assets/wings/equip_wing_062003/bmp_19.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 192,
+      "file": "assets/wings/equip_wing_062003/bmp_21.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 193,
+      "file": "assets/wings/equip_wing_062003/bmp_21.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 194,
+      "file": "assets/wings/equip_wing_062003/bmp_21.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 195,
+      "file": "assets/wings/equip_wing_062003/bmp_21.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 196,
+      "file": "assets/wings/equip_wing_062003/bmp_21.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 197,
+      "file": "assets/wings/equip_wing_062003/bmp_21.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 198,
+      "file": "assets/wings/equip_wing_062003/bmp_23.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 199,
+      "file": "assets/wings/equip_wing_062003/bmp_23.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 200,
+      "file": "assets/wings/equip_wing_062003/bmp_23.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 201,
+      "file": "assets/wings/equip_wing_062003/bmp_23.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 202,
+      "file": "assets/wings/equip_wing_062003/bmp_23.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 203,
+      "file": "assets/wings/equip_wing_062003/bmp_23.png",
+      "width": 700,
+      "height": 700
+    }
+  ],
+  "2-1": [
+    {
+      "frame": 204,
+      "file": "assets/wings/equip_wing_062003/bmp_23.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 205,
+      "file": "assets/wings/equip_wing_062003/bmp_23.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 206,
+      "file": "assets/wings/equip_wing_062003/bmp_23.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 207,
+      "file": "assets/wings/equip_wing_062003/bmp_23.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 208,
+      "file": "assets/wings/equip_wing_062003/bmp_23.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 209,
+      "file": "assets/wings/equip_wing_062003/bmp_23.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 210,
+      "file": "assets/wings/equip_wing_062003/bmp_23.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 211,
+      "file": "assets/wings/equip_wing_062003/bmp_23.png",
+      "width": 700,
+      "height": 700
+    }
+  ],
+  "2-2": [
+    {
+      "frame": 212,
+      "file": "assets/wings/equip_wing_062003/bmp_23.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 213,
+      "file": "assets/wings/equip_wing_062003/bmp_23.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 214,
+      "file": "assets/wings/equip_wing_062003/bmp_23.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 215,
+      "file": "assets/wings/equip_wing_062003/bmp_23.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 216,
+      "file": "assets/wings/equip_wing_062003/bmp_23.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 217,
+      "file": "assets/wings/equip_wing_062003/bmp_23.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 218,
+      "file": "assets/wings/equip_wing_062003/bmp_23.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 219,
+      "file": "assets/wings/equip_wing_062003/bmp_23.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 220,
+      "file": "assets/wings/equip_wing_062003/bmp_23.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 221,
+      "file": "assets/wings/equip_wing_062003/bmp_23.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 222,
+      "file": "assets/wings/equip_wing_062003/bmp_23.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 223,
+      "file": "assets/wings/equip_wing_062003/bmp_23.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 224,
+      "file": "assets/wings/equip_wing_062003/bmp_23.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 225,
+      "file": "assets/wings/equip_wing_062003/bmp_23.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 226,
+      "file": "assets/wings/equip_wing_062003/bmp_23.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 227,
+      "file": "assets/wings/equip_wing_062003/bmp_23.png",
+      "width": 700,
+      "height": 700
+    }
+  ],
+  "2-3": [
+    {
+      "frame": 228,
+      "file": "assets/wings/equip_wing_062003/bmp_23.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 229,
+      "file": "assets/wings/equip_wing_062003/bmp_23.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 230,
+      "file": "assets/wings/equip_wing_062003/bmp_23.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 231,
+      "file": "assets/wings/equip_wing_062003/bmp_23.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 232,
+      "file": "assets/wings/equip_wing_062003/bmp_23.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 233,
+      "file": "assets/wings/equip_wing_062003/bmp_23.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 234,
+      "file": "assets/wings/equip_wing_062003/bmp_23.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 235,
+      "file": "assets/wings/equip_wing_062003/bmp_23.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 236,
+      "file": "assets/wings/equip_wing_062003/bmp_23.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 237,
+      "file": "assets/wings/equip_wing_062003/bmp_23.png",
+      "width": 700,
+      "height": 700
+    }
+  ],
+  "2-4": [
+    {
+      "frame": 238,
+      "file": "assets/wings/equip_wing_062003/bmp_23.png",
+      "width": 700,
+      "height": 700
+    }
+  ],
+  "2-5": [
+    {
+      "frame": 239,
+      "file": "assets/wings/equip_wing_062003/bmp_23.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 240,
+      "file": "assets/wings/equip_wing_062003/bmp_23.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 241,
+      "file": "assets/wings/equip_wing_062003/bmp_23.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 242,
+      "file": "assets/wings/equip_wing_062003/bmp_23.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 243,
+      "file": "assets/wings/equip_wing_062003/bmp_23.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 244,
+      "file": "assets/wings/equip_wing_062003/bmp_23.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 245,
+      "file": "assets/wings/equip_wing_062003/bmp_23.png",
+      "width": 700,
+      "height": 700
+    }
+  ],
+  "2-6": [
+    {
+      "frame": 246,
+      "file": "assets/wings/equip_wing_062003/bmp_23.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 247,
+      "file": "assets/wings/equip_wing_062003/bmp_23.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 248,
+      "file": "assets/wings/equip_wing_062003/bmp_23.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 249,
+      "file": "assets/wings/equip_wing_062003/bmp_23.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 250,
+      "file": "assets/wings/equip_wing_062003/bmp_23.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 251,
+      "file": "assets/wings/equip_wing_062003/bmp_23.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 252,
+      "file": "assets/wings/equip_wing_062003/bmp_23.png",
+      "width": 700,
+      "height": 700
+    }
+  ],
+  "2-7": [
+    {
+      "frame": 253,
+      "file": "assets/wings/equip_wing_062003/bmp_23.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 254,
+      "file": "assets/wings/equip_wing_062003/bmp_23.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 255,
+      "file": "assets/wings/equip_wing_062003/bmp_23.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 256,
+      "file": "assets/wings/equip_wing_062003/bmp_23.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 257,
+      "file": "assets/wings/equip_wing_062003/bmp_23.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 258,
+      "file": "assets/wings/equip_wing_062003/bmp_23.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 259,
+      "file": "assets/wings/equip_wing_062003/bmp_23.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 260,
+      "file": "assets/wings/equip_wing_062003/bmp_23.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 261,
+      "file": "assets/wings/equip_wing_062003/bmp_23.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 262,
+      "file": "assets/wings/equip_wing_062003/bmp_23.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 263,
+      "file": "assets/wings/equip_wing_062003/bmp_23.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 264,
+      "file": "assets/wings/equip_wing_062003/bmp_23.png",
+      "width": 700,
+      "height": 700
+    }
+  ],
+  "3-0": [
+    {
+      "frame": 265,
+      "file": "assets/wings/equip_wing_062003/bmp_25.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 266,
+      "file": "assets/wings/equip_wing_062003/bmp_25.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 267,
+      "file": "assets/wings/equip_wing_062003/bmp_25.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 268,
+      "file": "assets/wings/equip_wing_062003/bmp_25.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 269,
+      "file": "assets/wings/equip_wing_062003/bmp_25.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 270,
+      "file": "assets/wings/equip_wing_062003/bmp_25.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 271,
+      "file": "assets/wings/equip_wing_062003/bmp_25.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 272,
+      "file": "assets/wings/equip_wing_062003/bmp_25.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 273,
+      "file": "assets/wings/equip_wing_062003/bmp_25.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 274,
+      "file": "assets/wings/equip_wing_062003/bmp_27.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 275,
+      "file": "assets/wings/equip_wing_062003/bmp_27.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 276,
+      "file": "assets/wings/equip_wing_062003/bmp_27.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 277,
+      "file": "assets/wings/equip_wing_062003/bmp_27.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 278,
+      "file": "assets/wings/equip_wing_062003/bmp_27.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 279,
+      "file": "assets/wings/equip_wing_062003/bmp_27.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 280,
+      "file": "assets/wings/equip_wing_062003/bmp_29.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 281,
+      "file": "assets/wings/equip_wing_062003/bmp_29.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 282,
+      "file": "assets/wings/equip_wing_062003/bmp_29.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 283,
+      "file": "assets/wings/equip_wing_062003/bmp_29.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 284,
+      "file": "assets/wings/equip_wing_062003/bmp_29.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 285,
+      "file": "assets/wings/equip_wing_062003/bmp_29.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 286,
+      "file": "assets/wings/equip_wing_062003/bmp_31.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 287,
+      "file": "assets/wings/equip_wing_062003/bmp_31.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 288,
+      "file": "assets/wings/equip_wing_062003/bmp_31.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 289,
+      "file": "assets/wings/equip_wing_062003/bmp_31.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 290,
+      "file": "assets/wings/equip_wing_062003/bmp_31.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 291,
+      "file": "assets/wings/equip_wing_062003/bmp_31.png",
+      "width": 700,
+      "height": 700
+    }
+  ],
+  "3-1": [
+    {
+      "frame": 292,
+      "file": "assets/wings/equip_wing_062003/bmp_31.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 293,
+      "file": "assets/wings/equip_wing_062003/bmp_31.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 294,
+      "file": "assets/wings/equip_wing_062003/bmp_31.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 295,
+      "file": "assets/wings/equip_wing_062003/bmp_31.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 296,
+      "file": "assets/wings/equip_wing_062003/bmp_31.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 297,
+      "file": "assets/wings/equip_wing_062003/bmp_31.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 298,
+      "file": "assets/wings/equip_wing_062003/bmp_31.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 299,
+      "file": "assets/wings/equip_wing_062003/bmp_31.png",
+      "width": 700,
+      "height": 700
+    }
+  ],
+  "3-2": [
+    {
+      "frame": 300,
+      "file": "assets/wings/equip_wing_062003/bmp_31.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 301,
+      "file": "assets/wings/equip_wing_062003/bmp_31.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 302,
+      "file": "assets/wings/equip_wing_062003/bmp_31.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 303,
+      "file": "assets/wings/equip_wing_062003/bmp_31.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 304,
+      "file": "assets/wings/equip_wing_062003/bmp_31.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 305,
+      "file": "assets/wings/equip_wing_062003/bmp_31.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 306,
+      "file": "assets/wings/equip_wing_062003/bmp_31.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 307,
+      "file": "assets/wings/equip_wing_062003/bmp_31.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 308,
+      "file": "assets/wings/equip_wing_062003/bmp_31.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 309,
+      "file": "assets/wings/equip_wing_062003/bmp_31.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 310,
+      "file": "assets/wings/equip_wing_062003/bmp_31.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 311,
+      "file": "assets/wings/equip_wing_062003/bmp_31.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 312,
+      "file": "assets/wings/equip_wing_062003/bmp_31.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 313,
+      "file": "assets/wings/equip_wing_062003/bmp_31.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 314,
+      "file": "assets/wings/equip_wing_062003/bmp_31.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 315,
+      "file": "assets/wings/equip_wing_062003/bmp_31.png",
+      "width": 700,
+      "height": 700
+    }
+  ],
+  "3-3": [
+    {
+      "frame": 316,
+      "file": "assets/wings/equip_wing_062003/bmp_31.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 317,
+      "file": "assets/wings/equip_wing_062003/bmp_31.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 318,
+      "file": "assets/wings/equip_wing_062003/bmp_31.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 319,
+      "file": "assets/wings/equip_wing_062003/bmp_31.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 320,
+      "file": "assets/wings/equip_wing_062003/bmp_31.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 321,
+      "file": "assets/wings/equip_wing_062003/bmp_31.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 322,
+      "file": "assets/wings/equip_wing_062003/bmp_31.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 323,
+      "file": "assets/wings/equip_wing_062003/bmp_31.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 324,
+      "file": "assets/wings/equip_wing_062003/bmp_31.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 325,
+      "file": "assets/wings/equip_wing_062003/bmp_31.png",
+      "width": 700,
+      "height": 700
+    }
+  ],
+  "3-4": [
+    {
+      "frame": 326,
+      "file": "assets/wings/equip_wing_062003/bmp_31.png",
+      "width": 700,
+      "height": 700
+    }
+  ],
+  "3-5": [
+    {
+      "frame": 327,
+      "file": "assets/wings/equip_wing_062003/bmp_31.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 328,
+      "file": "assets/wings/equip_wing_062003/bmp_31.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 329,
+      "file": "assets/wings/equip_wing_062003/bmp_31.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 330,
+      "file": "assets/wings/equip_wing_062003/bmp_31.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 331,
+      "file": "assets/wings/equip_wing_062003/bmp_31.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 332,
+      "file": "assets/wings/equip_wing_062003/bmp_31.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 333,
+      "file": "assets/wings/equip_wing_062003/bmp_31.png",
+      "width": 700,
+      "height": 700
+    }
+  ],
+  "3-6": [
+    {
+      "frame": 334,
+      "file": "assets/wings/equip_wing_062003/bmp_31.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 335,
+      "file": "assets/wings/equip_wing_062003/bmp_31.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 336,
+      "file": "assets/wings/equip_wing_062003/bmp_31.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 337,
+      "file": "assets/wings/equip_wing_062003/bmp_31.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 338,
+      "file": "assets/wings/equip_wing_062003/bmp_31.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 339,
+      "file": "assets/wings/equip_wing_062003/bmp_31.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 340,
+      "file": "assets/wings/equip_wing_062003/bmp_31.png",
+      "width": 700,
+      "height": 700
+    }
+  ],
+  "3-7": [
+    {
+      "frame": 341,
+      "file": "assets/wings/equip_wing_062003/bmp_31.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 342,
+      "file": "assets/wings/equip_wing_062003/bmp_31.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 343,
+      "file": "assets/wings/equip_wing_062003/bmp_31.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 344,
+      "file": "assets/wings/equip_wing_062003/bmp_31.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 345,
+      "file": "assets/wings/equip_wing_062003/bmp_31.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 346,
+      "file": "assets/wings/equip_wing_062003/bmp_31.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 347,
+      "file": "assets/wings/equip_wing_062003/bmp_31.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 348,
+      "file": "assets/wings/equip_wing_062003/bmp_31.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 349,
+      "file": "assets/wings/equip_wing_062003/bmp_31.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 350,
+      "file": "assets/wings/equip_wing_062003/bmp_31.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 351,
+      "file": "assets/wings/equip_wing_062003/bmp_31.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 352,
+      "file": "assets/wings/equip_wing_062003/bmp_31.png",
+      "width": 700,
+      "height": 700
+    }
+  ],
+  "4-0": [
+    {
+      "frame": 353,
+      "file": "assets/wings/equip_wing_062003/bmp_33.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 354,
+      "file": "assets/wings/equip_wing_062003/bmp_33.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 355,
+      "file": "assets/wings/equip_wing_062003/bmp_33.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 356,
+      "file": "assets/wings/equip_wing_062003/bmp_33.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 357,
+      "file": "assets/wings/equip_wing_062003/bmp_33.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 358,
+      "file": "assets/wings/equip_wing_062003/bmp_33.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 359,
+      "file": "assets/wings/equip_wing_062003/bmp_33.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 360,
+      "file": "assets/wings/equip_wing_062003/bmp_33.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 361,
+      "file": "assets/wings/equip_wing_062003/bmp_33.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 362,
+      "file": "assets/wings/equip_wing_062003/bmp_35.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 363,
+      "file": "assets/wings/equip_wing_062003/bmp_35.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 364,
+      "file": "assets/wings/equip_wing_062003/bmp_35.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 365,
+      "file": "assets/wings/equip_wing_062003/bmp_35.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 366,
+      "file": "assets/wings/equip_wing_062003/bmp_35.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 367,
+      "file": "assets/wings/equip_wing_062003/bmp_35.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 368,
+      "file": "assets/wings/equip_wing_062003/bmp_37.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 369,
+      "file": "assets/wings/equip_wing_062003/bmp_37.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 370,
+      "file": "assets/wings/equip_wing_062003/bmp_37.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 371,
+      "file": "assets/wings/equip_wing_062003/bmp_37.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 372,
+      "file": "assets/wings/equip_wing_062003/bmp_37.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 373,
+      "file": "assets/wings/equip_wing_062003/bmp_37.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 374,
+      "file": "assets/wings/equip_wing_062003/bmp_39.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 375,
+      "file": "assets/wings/equip_wing_062003/bmp_39.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 376,
+      "file": "assets/wings/equip_wing_062003/bmp_39.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 377,
+      "file": "assets/wings/equip_wing_062003/bmp_39.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 378,
+      "file": "assets/wings/equip_wing_062003/bmp_39.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 379,
+      "file": "assets/wings/equip_wing_062003/bmp_39.png",
+      "width": 700,
+      "height": 700
+    }
+  ],
+  "4-1": [
+    {
+      "frame": 380,
+      "file": "assets/wings/equip_wing_062003/bmp_39.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 381,
+      "file": "assets/wings/equip_wing_062003/bmp_39.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 382,
+      "file": "assets/wings/equip_wing_062003/bmp_39.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 383,
+      "file": "assets/wings/equip_wing_062003/bmp_39.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 384,
+      "file": "assets/wings/equip_wing_062003/bmp_39.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 385,
+      "file": "assets/wings/equip_wing_062003/bmp_39.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 386,
+      "file": "assets/wings/equip_wing_062003/bmp_39.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 387,
+      "file": "assets/wings/equip_wing_062003/bmp_39.png",
+      "width": 700,
+      "height": 700
+    }
+  ],
+  "4-2": [
+    {
+      "frame": 388,
+      "file": "assets/wings/equip_wing_062003/bmp_39.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 389,
+      "file": "assets/wings/equip_wing_062003/bmp_39.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 390,
+      "file": "assets/wings/equip_wing_062003/bmp_39.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 391,
+      "file": "assets/wings/equip_wing_062003/bmp_39.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 392,
+      "file": "assets/wings/equip_wing_062003/bmp_39.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 393,
+      "file": "assets/wings/equip_wing_062003/bmp_39.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 394,
+      "file": "assets/wings/equip_wing_062003/bmp_39.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 395,
+      "file": "assets/wings/equip_wing_062003/bmp_39.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 396,
+      "file": "assets/wings/equip_wing_062003/bmp_39.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 397,
+      "file": "assets/wings/equip_wing_062003/bmp_39.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 398,
+      "file": "assets/wings/equip_wing_062003/bmp_39.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 399,
+      "file": "assets/wings/equip_wing_062003/bmp_39.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 400,
+      "file": "assets/wings/equip_wing_062003/bmp_39.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 401,
+      "file": "assets/wings/equip_wing_062003/bmp_39.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 402,
+      "file": "assets/wings/equip_wing_062003/bmp_39.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 403,
+      "file": "assets/wings/equip_wing_062003/bmp_39.png",
+      "width": 700,
+      "height": 700
+    }
+  ],
+  "4-3": [
+    {
+      "frame": 404,
+      "file": "assets/wings/equip_wing_062003/bmp_39.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 405,
+      "file": "assets/wings/equip_wing_062003/bmp_39.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 406,
+      "file": "assets/wings/equip_wing_062003/bmp_39.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 407,
+      "file": "assets/wings/equip_wing_062003/bmp_39.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 408,
+      "file": "assets/wings/equip_wing_062003/bmp_39.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 409,
+      "file": "assets/wings/equip_wing_062003/bmp_39.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 410,
+      "file": "assets/wings/equip_wing_062003/bmp_39.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 411,
+      "file": "assets/wings/equip_wing_062003/bmp_39.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 412,
+      "file": "assets/wings/equip_wing_062003/bmp_39.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 413,
+      "file": "assets/wings/equip_wing_062003/bmp_39.png",
+      "width": 700,
+      "height": 700
+    }
+  ],
+  "4-4": [
+    {
+      "frame": 414,
+      "file": "assets/wings/equip_wing_062003/bmp_39.png",
+      "width": 700,
+      "height": 700
+    }
+  ],
+  "4-5": [
+    {
+      "frame": 415,
+      "file": "assets/wings/equip_wing_062003/bmp_39.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 416,
+      "file": "assets/wings/equip_wing_062003/bmp_39.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 417,
+      "file": "assets/wings/equip_wing_062003/bmp_39.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 418,
+      "file": "assets/wings/equip_wing_062003/bmp_39.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 419,
+      "file": "assets/wings/equip_wing_062003/bmp_39.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 420,
+      "file": "assets/wings/equip_wing_062003/bmp_39.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 421,
+      "file": "assets/wings/equip_wing_062003/bmp_39.png",
+      "width": 700,
+      "height": 700
+    }
+  ],
+  "4-6": [
+    {
+      "frame": 422,
+      "file": "assets/wings/equip_wing_062003/bmp_39.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 423,
+      "file": "assets/wings/equip_wing_062003/bmp_39.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 424,
+      "file": "assets/wings/equip_wing_062003/bmp_39.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 425,
+      "file": "assets/wings/equip_wing_062003/bmp_39.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 426,
+      "file": "assets/wings/equip_wing_062003/bmp_39.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 427,
+      "file": "assets/wings/equip_wing_062003/bmp_39.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 428,
+      "file": "assets/wings/equip_wing_062003/bmp_39.png",
+      "width": 700,
+      "height": 700
+    }
+  ],
+  "4-7": [
+    {
+      "frame": 429,
+      "file": "assets/wings/equip_wing_062003/bmp_39.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 430,
+      "file": "assets/wings/equip_wing_062003/bmp_39.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 431,
+      "file": "assets/wings/equip_wing_062003/bmp_39.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 432,
+      "file": "assets/wings/equip_wing_062003/bmp_39.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 433,
+      "file": "assets/wings/equip_wing_062003/bmp_39.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 434,
+      "file": "assets/wings/equip_wing_062003/bmp_39.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 435,
+      "file": "assets/wings/equip_wing_062003/bmp_39.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 436,
+      "file": "assets/wings/equip_wing_062003/bmp_39.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 437,
+      "file": "assets/wings/equip_wing_062003/bmp_39.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 438,
+      "file": "assets/wings/equip_wing_062003/bmp_39.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 439,
+      "file": "assets/wings/equip_wing_062003/bmp_39.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 440,
+      "file": "assets/wings/equip_wing_062003/bmp_39.png",
+      "width": 700,
+      "height": 700
+    }
+  ],
+  "5-0": [
+    {
+      "frame": 441,
+      "file": "assets/wings/equip_wing_062003/bmp_41.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 442,
+      "file": "assets/wings/equip_wing_062003/bmp_41.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 443,
+      "file": "assets/wings/equip_wing_062003/bmp_41.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 444,
+      "file": "assets/wings/equip_wing_062003/bmp_41.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 445,
+      "file": "assets/wings/equip_wing_062003/bmp_41.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 446,
+      "file": "assets/wings/equip_wing_062003/bmp_41.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 447,
+      "file": "assets/wings/equip_wing_062003/bmp_41.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 448,
+      "file": "assets/wings/equip_wing_062003/bmp_41.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 449,
+      "file": "assets/wings/equip_wing_062003/bmp_41.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 450,
+      "file": "assets/wings/equip_wing_062003/bmp_43.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 451,
+      "file": "assets/wings/equip_wing_062003/bmp_43.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 452,
+      "file": "assets/wings/equip_wing_062003/bmp_43.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 453,
+      "file": "assets/wings/equip_wing_062003/bmp_43.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 454,
+      "file": "assets/wings/equip_wing_062003/bmp_43.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 455,
+      "file": "assets/wings/equip_wing_062003/bmp_43.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 456,
+      "file": "assets/wings/equip_wing_062003/bmp_45.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 457,
+      "file": "assets/wings/equip_wing_062003/bmp_45.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 458,
+      "file": "assets/wings/equip_wing_062003/bmp_45.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 459,
+      "file": "assets/wings/equip_wing_062003/bmp_45.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 460,
+      "file": "assets/wings/equip_wing_062003/bmp_45.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 461,
+      "file": "assets/wings/equip_wing_062003/bmp_45.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 462,
+      "file": "assets/wings/equip_wing_062003/bmp_47.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 463,
+      "file": "assets/wings/equip_wing_062003/bmp_47.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 464,
+      "file": "assets/wings/equip_wing_062003/bmp_47.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 465,
+      "file": "assets/wings/equip_wing_062003/bmp_47.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 466,
+      "file": "assets/wings/equip_wing_062003/bmp_47.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 467,
+      "file": "assets/wings/equip_wing_062003/bmp_47.png",
+      "width": 700,
+      "height": 700
+    }
+  ],
+  "5-1": [
+    {
+      "frame": 468,
+      "file": "assets/wings/equip_wing_062003/bmp_47.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 469,
+      "file": "assets/wings/equip_wing_062003/bmp_47.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 470,
+      "file": "assets/wings/equip_wing_062003/bmp_47.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 471,
+      "file": "assets/wings/equip_wing_062003/bmp_47.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 472,
+      "file": "assets/wings/equip_wing_062003/bmp_47.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 473,
+      "file": "assets/wings/equip_wing_062003/bmp_47.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 474,
+      "file": "assets/wings/equip_wing_062003/bmp_47.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 475,
+      "file": "assets/wings/equip_wing_062003/bmp_47.png",
+      "width": 700,
+      "height": 700
+    }
+  ],
+  "5-2": [
+    {
+      "frame": 476,
+      "file": "assets/wings/equip_wing_062003/bmp_47.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 477,
+      "file": "assets/wings/equip_wing_062003/bmp_47.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 478,
+      "file": "assets/wings/equip_wing_062003/bmp_47.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 479,
+      "file": "assets/wings/equip_wing_062003/bmp_47.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 480,
+      "file": "assets/wings/equip_wing_062003/bmp_47.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 481,
+      "file": "assets/wings/equip_wing_062003/bmp_47.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 482,
+      "file": "assets/wings/equip_wing_062003/bmp_47.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 483,
+      "file": "assets/wings/equip_wing_062003/bmp_47.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 484,
+      "file": "assets/wings/equip_wing_062003/bmp_47.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 485,
+      "file": "assets/wings/equip_wing_062003/bmp_47.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 486,
+      "file": "assets/wings/equip_wing_062003/bmp_47.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 487,
+      "file": "assets/wings/equip_wing_062003/bmp_47.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 488,
+      "file": "assets/wings/equip_wing_062003/bmp_47.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 489,
+      "file": "assets/wings/equip_wing_062003/bmp_47.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 490,
+      "file": "assets/wings/equip_wing_062003/bmp_47.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 491,
+      "file": "assets/wings/equip_wing_062003/bmp_47.png",
+      "width": 700,
+      "height": 700
+    }
+  ],
+  "5-3": [
+    {
+      "frame": 492,
+      "file": "assets/wings/equip_wing_062003/bmp_47.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 493,
+      "file": "assets/wings/equip_wing_062003/bmp_47.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 494,
+      "file": "assets/wings/equip_wing_062003/bmp_47.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 495,
+      "file": "assets/wings/equip_wing_062003/bmp_47.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 496,
+      "file": "assets/wings/equip_wing_062003/bmp_47.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 497,
+      "file": "assets/wings/equip_wing_062003/bmp_47.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 498,
+      "file": "assets/wings/equip_wing_062003/bmp_47.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 499,
+      "file": "assets/wings/equip_wing_062003/bmp_47.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 500,
+      "file": "assets/wings/equip_wing_062003/bmp_47.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 501,
+      "file": "assets/wings/equip_wing_062003/bmp_47.png",
+      "width": 700,
+      "height": 700
+    }
+  ],
+  "5-4": [
+    {
+      "frame": 502,
+      "file": "assets/wings/equip_wing_062003/bmp_47.png",
+      "width": 700,
+      "height": 700
+    }
+  ],
+  "5-5": [
+    {
+      "frame": 503,
+      "file": "assets/wings/equip_wing_062003/bmp_47.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 504,
+      "file": "assets/wings/equip_wing_062003/bmp_47.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 505,
+      "file": "assets/wings/equip_wing_062003/bmp_47.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 506,
+      "file": "assets/wings/equip_wing_062003/bmp_47.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 507,
+      "file": "assets/wings/equip_wing_062003/bmp_47.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 508,
+      "file": "assets/wings/equip_wing_062003/bmp_47.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 509,
+      "file": "assets/wings/equip_wing_062003/bmp_47.png",
+      "width": 700,
+      "height": 700
+    }
+  ],
+  "5-6": [
+    {
+      "frame": 510,
+      "file": "assets/wings/equip_wing_062003/bmp_47.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 511,
+      "file": "assets/wings/equip_wing_062003/bmp_47.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 512,
+      "file": "assets/wings/equip_wing_062003/bmp_47.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 513,
+      "file": "assets/wings/equip_wing_062003/bmp_47.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 514,
+      "file": "assets/wings/equip_wing_062003/bmp_47.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 515,
+      "file": "assets/wings/equip_wing_062003/bmp_47.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 516,
+      "file": "assets/wings/equip_wing_062003/bmp_47.png",
+      "width": 700,
+      "height": 700
+    }
+  ],
+  "5-7": [
+    {
+      "frame": 517,
+      "file": "assets/wings/equip_wing_062003/bmp_47.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 518,
+      "file": "assets/wings/equip_wing_062003/bmp_47.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 519,
+      "file": "assets/wings/equip_wing_062003/bmp_47.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 520,
+      "file": "assets/wings/equip_wing_062003/bmp_47.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 521,
+      "file": "assets/wings/equip_wing_062003/bmp_47.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 522,
+      "file": "assets/wings/equip_wing_062003/bmp_47.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 523,
+      "file": "assets/wings/equip_wing_062003/bmp_47.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 524,
+      "file": "assets/wings/equip_wing_062003/bmp_47.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 525,
+      "file": "assets/wings/equip_wing_062003/bmp_47.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 526,
+      "file": "assets/wings/equip_wing_062003/bmp_47.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 527,
+      "file": "assets/wings/equip_wing_062003/bmp_47.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 528,
+      "file": "assets/wings/equip_wing_062003/bmp_47.png",
+      "width": 700,
+      "height": 700
+    }
+  ],
+  "6-0": [
+    {
+      "frame": 529,
+      "file": "assets/wings/equip_wing_062003/bmp_49.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 530,
+      "file": "assets/wings/equip_wing_062003/bmp_49.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 531,
+      "file": "assets/wings/equip_wing_062003/bmp_49.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 532,
+      "file": "assets/wings/equip_wing_062003/bmp_49.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 533,
+      "file": "assets/wings/equip_wing_062003/bmp_49.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 534,
+      "file": "assets/wings/equip_wing_062003/bmp_49.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 535,
+      "file": "assets/wings/equip_wing_062003/bmp_49.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 536,
+      "file": "assets/wings/equip_wing_062003/bmp_49.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 537,
+      "file": "assets/wings/equip_wing_062003/bmp_49.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 538,
+      "file": "assets/wings/equip_wing_062003/bmp_51.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 539,
+      "file": "assets/wings/equip_wing_062003/bmp_51.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 540,
+      "file": "assets/wings/equip_wing_062003/bmp_51.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 541,
+      "file": "assets/wings/equip_wing_062003/bmp_51.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 542,
+      "file": "assets/wings/equip_wing_062003/bmp_51.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 543,
+      "file": "assets/wings/equip_wing_062003/bmp_51.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 544,
+      "file": "assets/wings/equip_wing_062003/bmp_53.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 545,
+      "file": "assets/wings/equip_wing_062003/bmp_53.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 546,
+      "file": "assets/wings/equip_wing_062003/bmp_53.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 547,
+      "file": "assets/wings/equip_wing_062003/bmp_53.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 548,
+      "file": "assets/wings/equip_wing_062003/bmp_53.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 549,
+      "file": "assets/wings/equip_wing_062003/bmp_53.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 550,
+      "file": "assets/wings/equip_wing_062003/bmp_55.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 551,
+      "file": "assets/wings/equip_wing_062003/bmp_55.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 552,
+      "file": "assets/wings/equip_wing_062003/bmp_55.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 553,
+      "file": "assets/wings/equip_wing_062003/bmp_55.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 554,
+      "file": "assets/wings/equip_wing_062003/bmp_55.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 555,
+      "file": "assets/wings/equip_wing_062003/bmp_55.png",
+      "width": 700,
+      "height": 700
+    }
+  ],
+  "6-1": [
+    {
+      "frame": 556,
+      "file": "assets/wings/equip_wing_062003/bmp_55.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 557,
+      "file": "assets/wings/equip_wing_062003/bmp_55.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 558,
+      "file": "assets/wings/equip_wing_062003/bmp_55.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 559,
+      "file": "assets/wings/equip_wing_062003/bmp_55.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 560,
+      "file": "assets/wings/equip_wing_062003/bmp_55.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 561,
+      "file": "assets/wings/equip_wing_062003/bmp_55.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 562,
+      "file": "assets/wings/equip_wing_062003/bmp_55.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 563,
+      "file": "assets/wings/equip_wing_062003/bmp_55.png",
+      "width": 700,
+      "height": 700
+    }
+  ],
+  "6-2": [
+    {
+      "frame": 564,
+      "file": "assets/wings/equip_wing_062003/bmp_55.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 565,
+      "file": "assets/wings/equip_wing_062003/bmp_55.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 566,
+      "file": "assets/wings/equip_wing_062003/bmp_55.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 567,
+      "file": "assets/wings/equip_wing_062003/bmp_55.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 568,
+      "file": "assets/wings/equip_wing_062003/bmp_55.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 569,
+      "file": "assets/wings/equip_wing_062003/bmp_55.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 570,
+      "file": "assets/wings/equip_wing_062003/bmp_55.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 571,
+      "file": "assets/wings/equip_wing_062003/bmp_55.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 572,
+      "file": "assets/wings/equip_wing_062003/bmp_55.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 573,
+      "file": "assets/wings/equip_wing_062003/bmp_55.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 574,
+      "file": "assets/wings/equip_wing_062003/bmp_55.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 575,
+      "file": "assets/wings/equip_wing_062003/bmp_55.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 576,
+      "file": "assets/wings/equip_wing_062003/bmp_55.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 577,
+      "file": "assets/wings/equip_wing_062003/bmp_55.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 578,
+      "file": "assets/wings/equip_wing_062003/bmp_55.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 579,
+      "file": "assets/wings/equip_wing_062003/bmp_55.png",
+      "width": 700,
+      "height": 700
+    }
+  ],
+  "6-3": [
+    {
+      "frame": 580,
+      "file": "assets/wings/equip_wing_062003/bmp_55.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 581,
+      "file": "assets/wings/equip_wing_062003/bmp_55.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 582,
+      "file": "assets/wings/equip_wing_062003/bmp_55.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 583,
+      "file": "assets/wings/equip_wing_062003/bmp_55.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 584,
+      "file": "assets/wings/equip_wing_062003/bmp_55.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 585,
+      "file": "assets/wings/equip_wing_062003/bmp_55.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 586,
+      "file": "assets/wings/equip_wing_062003/bmp_55.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 587,
+      "file": "assets/wings/equip_wing_062003/bmp_55.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 588,
+      "file": "assets/wings/equip_wing_062003/bmp_55.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 589,
+      "file": "assets/wings/equip_wing_062003/bmp_55.png",
+      "width": 700,
+      "height": 700
+    }
+  ],
+  "6-4": [
+    {
+      "frame": 590,
+      "file": "assets/wings/equip_wing_062003/bmp_55.png",
+      "width": 700,
+      "height": 700
+    }
+  ],
+  "6-5": [
+    {
+      "frame": 591,
+      "file": "assets/wings/equip_wing_062003/bmp_55.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 592,
+      "file": "assets/wings/equip_wing_062003/bmp_55.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 593,
+      "file": "assets/wings/equip_wing_062003/bmp_55.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 594,
+      "file": "assets/wings/equip_wing_062003/bmp_55.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 595,
+      "file": "assets/wings/equip_wing_062003/bmp_55.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 596,
+      "file": "assets/wings/equip_wing_062003/bmp_55.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 597,
+      "file": "assets/wings/equip_wing_062003/bmp_55.png",
+      "width": 700,
+      "height": 700
+    }
+  ],
+  "6-6": [
+    {
+      "frame": 598,
+      "file": "assets/wings/equip_wing_062003/bmp_55.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 599,
+      "file": "assets/wings/equip_wing_062003/bmp_55.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 600,
+      "file": "assets/wings/equip_wing_062003/bmp_55.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 601,
+      "file": "assets/wings/equip_wing_062003/bmp_55.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 602,
+      "file": "assets/wings/equip_wing_062003/bmp_55.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 603,
+      "file": "assets/wings/equip_wing_062003/bmp_55.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 604,
+      "file": "assets/wings/equip_wing_062003/bmp_55.png",
+      "width": 700,
+      "height": 700
+    }
+  ],
+  "6-7": [
+    {
+      "frame": 605,
+      "file": "assets/wings/equip_wing_062003/bmp_55.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 606,
+      "file": "assets/wings/equip_wing_062003/bmp_55.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 607,
+      "file": "assets/wings/equip_wing_062003/bmp_55.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 608,
+      "file": "assets/wings/equip_wing_062003/bmp_55.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 609,
+      "file": "assets/wings/equip_wing_062003/bmp_55.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 610,
+      "file": "assets/wings/equip_wing_062003/bmp_55.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 611,
+      "file": "assets/wings/equip_wing_062003/bmp_55.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 612,
+      "file": "assets/wings/equip_wing_062003/bmp_55.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 613,
+      "file": "assets/wings/equip_wing_062003/bmp_55.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 614,
+      "file": "assets/wings/equip_wing_062003/bmp_55.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 615,
+      "file": "assets/wings/equip_wing_062003/bmp_55.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 616,
+      "file": "assets/wings/equip_wing_062003/bmp_55.png",
+      "width": 700,
+      "height": 700
+    }
+  ],
+  "7-0": [
+    {
+      "frame": 617,
+      "file": "assets/wings/equip_wing_062003/bmp_57.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 618,
+      "file": "assets/wings/equip_wing_062003/bmp_57.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 619,
+      "file": "assets/wings/equip_wing_062003/bmp_57.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 620,
+      "file": "assets/wings/equip_wing_062003/bmp_57.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 621,
+      "file": "assets/wings/equip_wing_062003/bmp_57.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 622,
+      "file": "assets/wings/equip_wing_062003/bmp_57.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 623,
+      "file": "assets/wings/equip_wing_062003/bmp_57.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 624,
+      "file": "assets/wings/equip_wing_062003/bmp_57.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 625,
+      "file": "assets/wings/equip_wing_062003/bmp_57.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 626,
+      "file": "assets/wings/equip_wing_062003/bmp_59.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 627,
+      "file": "assets/wings/equip_wing_062003/bmp_59.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 628,
+      "file": "assets/wings/equip_wing_062003/bmp_59.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 629,
+      "file": "assets/wings/equip_wing_062003/bmp_59.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 630,
+      "file": "assets/wings/equip_wing_062003/bmp_59.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 631,
+      "file": "assets/wings/equip_wing_062003/bmp_59.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 632,
+      "file": "assets/wings/equip_wing_062003/bmp_61.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 633,
+      "file": "assets/wings/equip_wing_062003/bmp_61.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 634,
+      "file": "assets/wings/equip_wing_062003/bmp_61.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 635,
+      "file": "assets/wings/equip_wing_062003/bmp_61.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 636,
+      "file": "assets/wings/equip_wing_062003/bmp_61.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 637,
+      "file": "assets/wings/equip_wing_062003/bmp_61.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 638,
+      "file": "assets/wings/equip_wing_062003/bmp_63.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 639,
+      "file": "assets/wings/equip_wing_062003/bmp_63.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 640,
+      "file": "assets/wings/equip_wing_062003/bmp_63.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 641,
+      "file": "assets/wings/equip_wing_062003/bmp_63.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 642,
+      "file": "assets/wings/equip_wing_062003/bmp_63.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 643,
+      "file": "assets/wings/equip_wing_062003/bmp_63.png",
+      "width": 700,
+      "height": 700
+    }
+  ],
+  "7-1": [
+    {
+      "frame": 644,
+      "file": "assets/wings/equip_wing_062003/bmp_63.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 645,
+      "file": "assets/wings/equip_wing_062003/bmp_63.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 646,
+      "file": "assets/wings/equip_wing_062003/bmp_63.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 647,
+      "file": "assets/wings/equip_wing_062003/bmp_63.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 648,
+      "file": "assets/wings/equip_wing_062003/bmp_63.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 649,
+      "file": "assets/wings/equip_wing_062003/bmp_63.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 650,
+      "file": "assets/wings/equip_wing_062003/bmp_63.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 651,
+      "file": "assets/wings/equip_wing_062003/bmp_63.png",
+      "width": 700,
+      "height": 700
+    }
+  ],
+  "7-2": [
+    {
+      "frame": 652,
+      "file": "assets/wings/equip_wing_062003/bmp_63.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 653,
+      "file": "assets/wings/equip_wing_062003/bmp_63.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 654,
+      "file": "assets/wings/equip_wing_062003/bmp_63.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 655,
+      "file": "assets/wings/equip_wing_062003/bmp_63.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 656,
+      "file": "assets/wings/equip_wing_062003/bmp_63.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 657,
+      "file": "assets/wings/equip_wing_062003/bmp_63.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 658,
+      "file": "assets/wings/equip_wing_062003/bmp_63.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 659,
+      "file": "assets/wings/equip_wing_062003/bmp_63.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 660,
+      "file": "assets/wings/equip_wing_062003/bmp_63.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 661,
+      "file": "assets/wings/equip_wing_062003/bmp_63.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 662,
+      "file": "assets/wings/equip_wing_062003/bmp_63.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 663,
+      "file": "assets/wings/equip_wing_062003/bmp_63.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 664,
+      "file": "assets/wings/equip_wing_062003/bmp_63.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 665,
+      "file": "assets/wings/equip_wing_062003/bmp_63.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 666,
+      "file": "assets/wings/equip_wing_062003/bmp_63.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 667,
+      "file": "assets/wings/equip_wing_062003/bmp_63.png",
+      "width": 700,
+      "height": 700
+    }
+  ],
+  "7-3": [
+    {
+      "frame": 668,
+      "file": "assets/wings/equip_wing_062003/bmp_63.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 669,
+      "file": "assets/wings/equip_wing_062003/bmp_63.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 670,
+      "file": "assets/wings/equip_wing_062003/bmp_63.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 671,
+      "file": "assets/wings/equip_wing_062003/bmp_63.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 672,
+      "file": "assets/wings/equip_wing_062003/bmp_63.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 673,
+      "file": "assets/wings/equip_wing_062003/bmp_63.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 674,
+      "file": "assets/wings/equip_wing_062003/bmp_63.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 675,
+      "file": "assets/wings/equip_wing_062003/bmp_63.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 676,
+      "file": "assets/wings/equip_wing_062003/bmp_63.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 677,
+      "file": "assets/wings/equip_wing_062003/bmp_63.png",
+      "width": 700,
+      "height": 700
+    }
+  ],
+  "7-4": [
+    {
+      "frame": 678,
+      "file": "assets/wings/equip_wing_062003/bmp_63.png",
+      "width": 700,
+      "height": 700
+    }
+  ],
+  "7-5": [
+    {
+      "frame": 679,
+      "file": "assets/wings/equip_wing_062003/bmp_63.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 680,
+      "file": "assets/wings/equip_wing_062003/bmp_63.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 681,
+      "file": "assets/wings/equip_wing_062003/bmp_63.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 682,
+      "file": "assets/wings/equip_wing_062003/bmp_63.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 683,
+      "file": "assets/wings/equip_wing_062003/bmp_63.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 684,
+      "file": "assets/wings/equip_wing_062003/bmp_63.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 685,
+      "file": "assets/wings/equip_wing_062003/bmp_63.png",
+      "width": 700,
+      "height": 700
+    }
+  ],
+  "7-6": [
+    {
+      "frame": 686,
+      "file": "assets/wings/equip_wing_062003/bmp_63.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 687,
+      "file": "assets/wings/equip_wing_062003/bmp_63.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 688,
+      "file": "assets/wings/equip_wing_062003/bmp_63.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 689,
+      "file": "assets/wings/equip_wing_062003/bmp_63.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 690,
+      "file": "assets/wings/equip_wing_062003/bmp_63.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 691,
+      "file": "assets/wings/equip_wing_062003/bmp_63.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 692,
+      "file": "assets/wings/equip_wing_062003/bmp_63.png",
+      "width": 700,
+      "height": 700
+    }
+  ],
+  "7-7": [
+    {
+      "frame": 693,
+      "file": "assets/wings/equip_wing_062003/bmp_63.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 694,
+      "file": "assets/wings/equip_wing_062003/bmp_63.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 695,
+      "file": "assets/wings/equip_wing_062003/bmp_63.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 696,
+      "file": "assets/wings/equip_wing_062003/bmp_63.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 697,
+      "file": "assets/wings/equip_wing_062003/bmp_63.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 698,
+      "file": "assets/wings/equip_wing_062003/bmp_63.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 699,
+      "file": "assets/wings/equip_wing_062003/bmp_63.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 700,
+      "file": "assets/wings/equip_wing_062003/bmp_63.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 701,
+      "file": "assets/wings/equip_wing_062003/bmp_63.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 702,
+      "file": "assets/wings/equip_wing_062003/bmp_63.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 703,
+      "file": "assets/wings/equip_wing_062003/bmp_63.png",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "frame": 704,
+      "file": "assets/wings/equip_wing_062003/bmp_63.png",
+      "width": 700,
+      "height": 700
+    }
+  ]
+}
