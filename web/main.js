@@ -18,21 +18,22 @@ async function initGame() {
   const [
     npcsData, masksData, colArrayBuffer, initialMonsterMeta, initialMonsterSheet,
     classesCatalogData, monstersCatalogData, mountsCatalogData, npcsCatalogData, mapsCatalogData,
-    skillsCatalogData, effectsCatalogData, equipmentCatalogData
+    skillsCatalogData, effectsCatalogData, equipmentCatalogData, wingsCatalogData
   ] = await Promise.all([
     fetch("assets/map1/npcs.json").then(r => r.json()),
     fetch("assets/map1/masks.json").then(r => r.json()),
     fetch("assets/map1/collision.bin").then(r => r.arrayBuffer()),
     fetch("assets/monsters/mushroom/visual_meta.json").then(r => r.json()),
     PIXI.Assets.load("assets/monsters/mushroom/atlas.json"),
-    fetch("assets/characters/catalog.json?v=1.5.0").then(r => r.json()).catch(() => ({ total_classes: 0, classes: [] })),
-    fetch("assets/monsters/catalog.json?v=1.5.0").then(r => r.json()).catch(() => ({ total_monsters: 0, monsters: [] })),
-    fetch("assets/mounts/catalog.json?v=1.5.0").then(r => r.json()).catch(() => ({ total_mounts: 0, mounts: [] })),
-    fetch("assets/npcs/catalog.json?v=1.5.0").then(r => r.json()).catch(() => ({ total_npcs: 0, npcs: [] })),
-    fetch("assets/maps/catalog.json?v=1.5.0").then(r => r.json()).catch(() => ({ total_maps: 0, maps: [] })),
-    fetch("assets/skills/catalog.json?v=1.5.0").then(r => r.json()).catch(() => ([])),
-    fetch("assets/effects/catalog.json?v=1.5.0").then(r => r.json()).catch(() => ([])),
-    fetch("assets/equipment/catalog.json?v=1.5.0").then(r => r.json()).catch(() => ({ items: [] }))
+    fetch("assets/characters/catalog.json?v=1.5.2").then(r => r.json()).catch(() => ({ total_classes: 0, classes: [] })),
+    fetch("assets/monsters/catalog.json?v=1.5.2").then(r => r.json()).catch(() => ({ total_monsters: 0, monsters: [] })),
+    fetch("assets/mounts/catalog.json?v=1.5.2").then(r => r.json()).catch(() => ({ total_mounts: 0, mounts: [] })),
+    fetch("assets/npcs/catalog.json?v=1.5.2").then(r => r.json()).catch(() => ({ total_npcs: 0, npcs: [] })),
+    fetch("assets/maps/catalog.json?v=1.5.2").then(r => r.json()).catch(() => ({ total_maps: 0, maps: [] })),
+    fetch("assets/skills/catalog.json?v=1.5.2").then(r => r.json()).catch(() => ([])),
+    fetch("assets/effects/catalog.json?v=1.5.2").then(r => r.json()).catch(() => ([])),
+    fetch("assets/equipment/catalog.json?v=1.5.2").then(r => r.json()).catch(() => ({ items: [] })),
+    fetch("assets/wings/catalog.json?v=1.5.2").then(r => r.json()).catch(() => ([]))
   ]);
 
   let mapsCatalog = mapsCatalogData || { total_maps: 0, maps: [] };
@@ -667,6 +668,14 @@ async function initGame() {
   charSprite.scale.set(0.70);
   playerContainer.addChild(charSprite);
 
+  // Sprite animado das Asas (Renderizado atrás do corpo ou à frente nas costas)
+  const wingSprite = new PIXI.Sprite();
+  wingSprite.anchor.set(0.5, 0.5);
+  wingSprite.position.set(0, PLAYER_GROUND_OFFSET_Y - 38);
+  wingSprite.scale.set(0.70);
+  wingSprite.visible = false;
+  playerContainer.addChildAt(wingSprite, 0);
+
   // Sprite animado da Arma Empunhada (sincronizada milimetricamente com o corpo)
   const weaponSprite = new PIXI.Sprite();
   weaponSprite.anchor.set(0.5, 110 / 150);
@@ -803,6 +812,76 @@ async function initGame() {
   let playerEquippedWeapon = null;
   let currentWeaponManifest = null;
   let currentWeaponModel = null;
+
+  // Sistema de Asas Visuais Equipadas
+  let playerEquippedWing = null;
+  let currentWingManifest = null;
+  let currentWingModel = null;
+
+  async function equipWing(item) {
+    if (!item) {
+      playerEquippedWing = null;
+      currentWingModel = null;
+      currentWingManifest = null;
+      if (wingSprite) wingSprite.visible = false;
+      localStorage.removeItem("mc_equipped_wing_id");
+      showWeaponToast("Asas desequipadas.");
+      updateEquippedWingUI();
+      if (typeof renderEquipmentGrid === 'function') renderEquipmentGrid(false);
+      return;
+    }
+
+    const modelId = item.active_wing_model || item.model_id || "equip_wing_001001";
+    playerEquippedWing = item;
+    currentWingModel = modelId;
+    localStorage.setItem("mc_equipped_wing_id", String(item.id));
+
+    try {
+      const manifestUrl = `assets/wings/${modelId}/char_manifest.json?v=1.5.2`;
+      const manifest = await fetch(manifestUrl).then(r => r.json());
+      currentWingManifest = manifest;
+
+      const loadPromises = [];
+      for (const animKey in manifest) {
+        for (const frameInfo of manifest[animKey]) {
+          if (!textureCache[frameInfo.file]) {
+            loadPromises.push(
+              PIXI.Assets.load(frameInfo.file).then(tex => {
+                textureCache[frameInfo.file] = tex;
+              }).catch(() => {})
+            );
+          }
+        }
+      }
+      await Promise.all(loadPromises);
+      if (wingSprite) wingSprite.visible = true;
+      showWeaponToast(`🪽 Asas Equipadas: ${item.name}!`);
+    } catch (e) {
+      console.warn("Erro ao carregar modelo das asas:", modelId, e);
+      showWeaponToast(`🪽 Asas selecionadas: ${item.name}`);
+    }
+
+    updateEquippedWingUI();
+    if (typeof renderEquipmentGrid === 'function') renderEquipmentGrid(false);
+  }
+
+  function updateEquippedWingUI() {
+    const drawerWing = document.getElementById("drawer-wing");
+    const btnUnequipWing = document.getElementById("btn-unequip-wing");
+    if (drawerWing) {
+      if (playerEquippedWing) {
+        drawerWing.innerText = `🪽 ${playerEquippedWing.name}`;
+        drawerWing.style.color = "#88c0d0";
+      } else {
+        drawerWing.innerText = "Nenhuma (Sem Asas)";
+        drawerWing.style.color = "#94a3b8";
+      }
+    }
+    if (btnUnequipWing) {
+      btnUnequipWing.style.display = playerEquippedWing ? "inline-block" : "none";
+      btnUnequipWing.onclick = () => equipWing(null);
+    }
+  }
 
   async function equipWeapon(item) {
     if (!item) {
@@ -1067,6 +1146,43 @@ async function initGame() {
         charSprite.texture = tex;
         charSprite.anchor.set(0.5, 110 / 150);
         charSprite.position.set(0, PLAYER_GROUND_OFFSET_Y);
+      }
+    }
+
+    // Sincronizar asas na mesma direção e frame de ação
+    if (wingSprite) {
+      if (currentWingManifest) {
+        const wingFrames = currentWingManifest[animKey] ||
+                           currentWingManifest[`${player.dir}-0`] ||
+                           currentWingManifest[`0-${player.dir}`] ||
+                           currentWingManifest["0-0"];
+        if (wingFrames && wingFrames.length > 0) {
+          const wfData = wingFrames[player.frameIdx % wingFrames.length];
+          const wfTex = textureCache[wfData.file];
+          if (wfTex) {
+            wingSprite.texture = wfTex;
+            wingSprite.anchor.set(0.5, 0.5);
+            wingSprite.position.set(0, PLAYER_GROUND_OFFSET_Y - 38);
+            wingSprite.visible = true;
+
+            // Z-Order: se estiver virado de costas (Norte: dirs 3, 4, 5), asas ficam na frente do corpo
+            // Caso contrário (Frente/Sul/Lados: dirs 0, 1, 2, 6, 7), asas ficam atrás do corpo
+            if (player.dir === 3 || player.dir === 4 || player.dir === 5) {
+              const bodyIdx = playerContainer.getChildIndex(charSprite);
+              const curWingIdx = playerContainer.getChildIndex(wingSprite);
+              if (curWingIdx < bodyIdx) {
+                playerContainer.setChildIndex(wingSprite, bodyIdx);
+              }
+            } else {
+              const curWingIdx = playerContainer.getChildIndex(wingSprite);
+              if (curWingIdx > 0) {
+                playerContainer.setChildIndex(wingSprite, 0);
+              }
+            }
+          }
+        }
+      } else {
+        wingSprite.visible = false;
       }
     }
 
@@ -3047,8 +3163,15 @@ async function initGame() {
 
     const q = (equipmentSearchInput ? equipmentSearchInput.value : "").trim().toLowerCase();
 
+    // Se filtro for 'wings' (Asas Animadas), usar o catálogo de asas
+    let sourceList = equipmentList;
+    if (selectedEquipmentFilter === "wings") {
+      sourceList = Array.isArray(wingsCatalogData) && wingsCatalogData.length > 0 ? wingsCatalogData : [];
+    }
+
     // Filtro por categoria
-    const filtered = equipmentList.filter(item => {
+    const filtered = sourceList.filter(item => {
+      if (selectedEquipmentFilter === "wings") return true;
       if (selectedEquipmentFilter === "weapons" && item.category_group !== "weapons") return false;
       if (selectedEquipmentFilter === "offhand" && item.category_group !== "offhand") return false;
       if (selectedEquipmentFilter === "armor" && item.category_group !== "armor") return false;
@@ -3112,6 +3235,11 @@ async function initGame() {
                 ${playerEquippedWeapon && playerEquippedWeapon.id === item.id ? '⚔️ Equipado' : '🖐️ Empunhar'}
               </button>
             ` : ''}
+            ${(item.type === "wing" || item.category_group === "wings" || item.position === 22) ? `
+              <button class="btn-wing-equip ${playerEquippedWing && (String(playerEquippedWing.id) === String(item.id) || playerEquippedWing.model_id === item.model_id) ? 'active' : ''}" data-wing-id="${item.id}" title="${playerEquippedWing && (String(playerEquippedWing.id) === String(item.id) || playerEquippedWing.model_id === item.model_id) ? 'Clique para desequipar as asas' : 'Clique para equipar as asas nas costas do personagem'}">
+                ${playerEquippedWing && (String(playerEquippedWing.id) === String(item.id) || playerEquippedWing.model_id === item.model_id) ? '🪽 Equipado' : '🪽 Equipar'}
+              </button>
+            ` : ''}
             <span class="equipment-quality-badge" style="background: ${qualityColor}22; color: ${qualityColor}; border: 1px solid ${qualityColor}55;">
               ${item.quality}
             </span>
@@ -3144,6 +3272,21 @@ async function initGame() {
           equipWeapon(null);
         } else {
           equipWeapon(item);
+        }
+      };
+    });
+
+    equipmentGrid.querySelectorAll(".btn-wing-equip").forEach(btn => {
+      btn.onclick = (e) => {
+        e.stopPropagation();
+        const wingId = btn.dataset.wingId;
+        const item = (Array.isArray(wingsCatalogData) ? wingsCatalogData.find(x => String(x.id) === String(wingId)) : null) ||
+                     equipmentList.find(x => String(x.id) === String(wingId));
+        if (!item) return;
+        if (playerEquippedWing && (String(playerEquippedWing.id) === String(item.id) || playerEquippedWing.model_id === item.model_id)) {
+          equipWing(null);
+        } else {
+          equipWing(item);
         }
       };
     });
@@ -3200,6 +3343,17 @@ async function initGame() {
   } else if (equipmentList && equipmentList.length > 0) {
     const defItem = equipmentList.find(x => x.id === 170) || equipmentList.find(x => x.category_group === "weapons");
     if (defItem) equipWeapon(defItem);
+  }
+
+  // Restaurar asas equipadas salvas ou equipar inicial
+  const savedWingId = localStorage.getItem("mc_equipped_wing_id");
+  if (savedWingId) {
+    const savedW = (Array.isArray(wingsCatalogData) ? wingsCatalogData.find(x => String(x.id) === String(savedWingId)) : null) ||
+                   (equipmentList && equipmentList.find(x => String(x.id) === String(savedWingId)));
+    if (savedW) equipWing(savedW);
+  } else if (Array.isArray(wingsCatalogData) && wingsCatalogData.length > 0) {
+    const defW = wingsCatalogData.find(x => x.model_id === "equip_wing_001001") || wingsCatalogData[0];
+    if (defW) equipWing(defW);
   }
 
   console.log("Magic Campus Mobile Engine inicializado com sucesso!");

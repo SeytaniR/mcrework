@@ -2690,3 +2690,35 @@ body, html {
   opacity: 1;
   transform: translateX(-50%) translateY(0);
 }
+
+/* Estilos das Asas Equipadas no Personagem */
+.btn-wing-equip {
+  padding: 3px 8px;
+  font-size: 10px;
+  font-weight: 700;
+  border-radius: 12px;
+  cursor: pointer;
+  background: rgba(180, 142, 173, 0.18);
+  color: #b48ead;
+  border: 1px solid rgba(180, 142, 173, 0.45);
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+}
+.btn-wing-equip:hover {
+  background: rgba(180, 142, 173, 0.38);
+  border-color: #b48ead;
+  transform: translateY(-1px);
+}
+.btn-wing-equip.active {
+  background: linear-gradient(135deg, rgba(136, 192, 208, 0.35), rgba(180, 142, 173, 0.25));
+  color: #88c0d0;
+  border-color: #88c0d0;
+  box-shadow: 0 0 8px rgba(136, 192, 208, 0.4);
+}
+.btn-wing-equip.active:hover {
+  background: rgba(191, 97, 106, 0.25);
+  color: #bf616a;
+  border-color: #bf616a;
+}
