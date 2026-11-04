@@ -2,7 +2,7 @@
   "name": "Binh Sĩ Liên Quân",
   "anchor": [
     0.5,
-    1.0
+    0.8354
   ],
   "width": 124,
   "height": 164,
@@ -44,5 +44,5 @@
   "db_id": "1853",
   "res_code_num": 1193,
   "swf_hash": "3b39a8d91fe0a352f1e05b57a17e2290",
-  "feet_y": 164
+  "feet_y": 137
 }

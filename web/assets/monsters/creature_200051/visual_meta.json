@@ -2,7 +2,7 @@
   "name": "Abate 【BOSS Liệt Diễm 4】",
   "anchor": [
     0.5,
-    1.0
+    0.8115
   ],
   "width": 219,
   "height": 191,
@@ -44,5 +44,5 @@
   "db_id": "957",
   "res_code_num": 200051,
   "swf_hash": "1dbb7431d40f9587c34a4b703df5ce42",
-  "feet_y": 191
+  "feet_y": 155
 }

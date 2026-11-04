@@ -2,7 +2,7 @@
   "name": "Rùa Nika",
   "anchor": [
     0.5,
-    1.0
+    0.9214
   ],
   "width": 217,
   "height": 140,
@@ -44,5 +44,5 @@
   "db_id": "188",
   "res_code_num": 1099,
   "swf_hash": "ab328e08bef8cce4f2c0c29b8c5c0e7f",
-  "feet_y": 140
+  "feet_y": 129
 }

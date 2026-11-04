@@ -2,7 +2,7 @@
   "name": "Đinh Long",
   "anchor": [
     0.5,
-    1.0
+    0.8161
   ],
   "width": 94,
   "height": 87,
@@ -44,5 +44,5 @@
   "db_id": "486",
   "res_code_num": 100008,
   "swf_hash": "aedaf8447b55a416f2ba4f27228efbaa",
-  "feet_y": 87
+  "feet_y": 71
 }

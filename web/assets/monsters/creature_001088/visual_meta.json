@@ -2,7 +2,7 @@
   "name": "Phủ Ma",
   "anchor": [
     0.5,
-    1.0
+    0.8187
   ],
   "width": 404,
   "height": 364,
@@ -44,5 +44,5 @@
   "db_id": "130",
   "res_code_num": 1088,
   "swf_hash": "87f373e765cacd3bbab0a86894db15e8",
-  "feet_y": 364
+  "feet_y": 298
 }

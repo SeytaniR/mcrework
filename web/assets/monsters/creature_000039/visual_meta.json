@@ -2,7 +2,7 @@
   "name": "Băng Cung Chiến Tướng",
   "anchor": [
     0.5,
-    1.0
+    0.9409
   ],
   "width": 250,
   "height": 203,
@@ -44,5 +44,5 @@
   "db_id": "31",
   "res_code_num": 39,
   "swf_hash": "1781a52814d0eabdfeab70ee1d20c28a",
-  "feet_y": 203
+  "feet_y": 191
 }

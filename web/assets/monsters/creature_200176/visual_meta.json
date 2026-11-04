@@ -2,7 +2,7 @@
   "name": "Rada",
   "anchor": [
     0.5,
-    1.0
+    0.7827
   ],
   "width": 337,
   "height": 336,
@@ -44,5 +44,5 @@
   "db_id": "2196",
   "res_code_num": 200176,
   "swf_hash": "df145447964c16318ddfba585db749d0",
-  "feet_y": 336
+  "feet_y": 263
 }

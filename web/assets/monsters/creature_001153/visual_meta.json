@@ -2,7 +2,7 @@
   "name": "Cự Ma Chiến Tướng 【4 BOSS nhỏ Mê Huyễn】",
   "anchor": [
     0.5,
-    1.0
+    0.9338
   ],
   "width": 153,
   "height": 136,
@@ -44,5 +44,5 @@
   "db_id": "1008",
   "res_code_num": 1153,
   "swf_hash": "c5bed2c2e12bc421f85cf3f6c7da00b9",
-  "feet_y": 136
+  "feet_y": 127
 }

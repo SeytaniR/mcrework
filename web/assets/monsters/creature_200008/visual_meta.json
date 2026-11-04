@@ -2,7 +2,7 @@
   "name": "Tinh Linh Vương",
   "anchor": [
     0.5,
-    1.0
+    0.9485
   ],
   "width": 127,
   "height": 136,
@@ -44,5 +44,5 @@
   "db_id": "265",
   "res_code_num": 200008,
   "swf_hash": "a8ce17e69e9ee85d4c5f9e27379a0a3b",
-  "feet_y": 136
+  "feet_y": 129
 }

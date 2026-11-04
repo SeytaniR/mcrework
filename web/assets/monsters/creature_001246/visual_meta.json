@@ -2,7 +2,7 @@
   "name": "Aurora",
   "anchor": [
     0.5,
-    1.0
+    0.9138
   ],
   "width": 220,
   "height": 174,
@@ -44,5 +44,5 @@
   "db_id": "2098",
   "res_code_num": 1246,
   "swf_hash": "8dda2d659ec7dea5d4dc28631e33d35c",
-  "feet_y": 174
+  "feet_y": 159
 }

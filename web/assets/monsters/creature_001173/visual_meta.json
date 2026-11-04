@@ -2,7 +2,7 @@
   "name": "Cự Tượng Binh",
   "anchor": [
     0.5,
-    1.0
+    0.8239
   ],
   "width": 201,
   "height": 176,
@@ -44,5 +44,5 @@
   "db_id": "1327",
   "res_code_num": 1173,
   "swf_hash": "d7721c7626e8f8ff974a6101b5f23ad4",
-  "feet_y": 176
+  "feet_y": 145
 }

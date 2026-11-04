@@ -2,7 +2,7 @@
   "name": "Ba Đậu Yêu Ác Ma",
   "anchor": [
     0.5,
-    0.938
+    0.8605
   ],
   "width": 133,
   "height": 129,
@@ -44,5 +44,5 @@
   "db_id": "1481",
   "res_code_num": 200129,
   "swf_hash": "16a2ad8cdbfb5f5b2b41b23ddbd0b345",
-  "feet_y": 121
+  "feet_y": 111
 }

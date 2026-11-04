@@ -40,8 +40,9 @@
       "real_name": "Sa Tặc Cuồng Phong",
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9535
+      ],
+      "feet_y": 123
     },
     {
       "id": "creature_000002",
@@ -81,8 +82,9 @@
       "real_name": "Gà Tây May Mắn",
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.977
+      ],
+      "feet_y": 85
     },
     {
       "id": "creature_000002",
@@ -122,8 +124,9 @@
       "real_name": "Gà Tây May Mắn",
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.977
+      ],
+      "feet_y": 85
     },
     {
       "id": "creature_000003",
@@ -164,8 +167,9 @@
       "real_name": "Xương Rồng Cực Độc",
       "anchor": [
         0.5,
-        0.9882
-      ]
+        0.9529
+      ],
+      "feet_y": 81
     },
     {
       "id": "creature_000003",
@@ -206,8 +210,9 @@
       "real_name": "Xương Rồng Cực Độc",
       "anchor": [
         0.5,
-        0.9882
-      ]
+        0.9529
+      ],
+      "feet_y": 81
     },
     {
       "id": "creature_000004",
@@ -247,8 +252,9 @@
       "real_name": "Cây Ăn Quả Nhỏ",
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9196
+      ],
+      "feet_y": 103
     },
     {
       "id": "creature_000004",
@@ -288,8 +294,9 @@
       "real_name": "Cây Ăn Quả Nhỏ",
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9196
+      ],
+      "feet_y": 103
     },
     {
       "id": "creature_000005",
@@ -327,8 +334,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9346
+      ],
+      "feet_y": 100
     },
     {
       "id": "creature_000005",
@@ -366,8 +374,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9346
+      ],
+      "feet_y": 100
     },
     {
       "id": "creature_000006",
@@ -407,8 +416,9 @@
       "real_name": "Bạch Tuộc Lục",
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8209
+      ],
+      "feet_y": 55
     },
     {
       "id": "creature_000006",
@@ -448,8 +458,9 @@
       "real_name": "Bạch Tuộc Lục",
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8209
+      ],
+      "feet_y": 55
     },
     {
       "id": "creature_000006",
@@ -489,8 +500,9 @@
       "real_name": "Bạch Tuộc Lục",
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8209
+      ],
+      "feet_y": 55
     },
     {
       "id": "creature_000007",
@@ -530,8 +542,9 @@
       "real_name": "Tiểu Hải Tinh",
       "anchor": [
         0.5,
-        0.8478
-      ]
+        0.7935
+      ],
+      "feet_y": 73
     },
     {
       "id": "creature_000008",
@@ -572,8 +585,9 @@
       "real_name": "Hấp Huyết Hải Tinh",
       "anchor": [
         0.5,
-        0.8696
-      ]
+        0.8174
+      ],
+      "feet_y": 94
     },
     {
       "id": "creature_000009",
@@ -611,8 +625,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8718
+      ],
+      "feet_y": 68
     },
     {
       "id": "creature_000010",
@@ -650,8 +665,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9889
-      ]
+        0.8222
+      ],
+      "feet_y": 74
     },
     {
       "id": "creature_000011",
@@ -691,8 +707,9 @@
       "real_name": "Ốc Tiểu Binh",
       "anchor": [
         0.5,
-        0.8925
-      ]
+        0.8387
+      ],
+      "feet_y": 78
     },
     {
       "id": "creature_000012",
@@ -730,8 +747,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.8198
-      ]
+        0.7748
+      ],
+      "feet_y": 86
     },
     {
       "id": "creature_000013",
@@ -769,8 +787,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.8318
-      ]
+        0.7944
+      ],
+      "feet_y": 85
     },
     {
       "id": "creature_000014",
@@ -810,8 +829,9 @@
       "real_name": "Nấm Yêu",
       "anchor": [
         0.5,
-        0.8434
-      ]
+        0.759
+      ],
+      "feet_y": 63
     },
     {
       "id": "creature_000015",
@@ -851,8 +871,9 @@
       "real_name": "Nấm Kim Điệp",
       "anchor": [
         0.5,
-        0.9459
-      ]
+        0.8378
+      ],
+      "feet_y": 62
     },
     {
       "id": "creature_000016",
@@ -891,8 +912,9 @@
       "real_name": "Nấm Bắt Được",
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8211
+      ],
+      "feet_y": 78
     },
     {
       "id": "creature_000017",
@@ -932,8 +954,9 @@
       "real_name": "Tiểu Thủy Bào",
       "anchor": [
         0.5,
-        0.9831
-      ]
+        0.8814
+      ],
+      "feet_y": 52
     },
     {
       "id": "creature_000018",
@@ -973,8 +996,9 @@
       "real_name": "Tiểu Sơn Quái",
       "anchor": [
         0.5,
-        0.9083
-      ]
+        0.8257
+      ],
+      "feet_y": 90
     },
     {
       "id": "creature_000019",
@@ -1013,8 +1037,9 @@
       "real_name": "Độc Nhãn Ốc Đảo",
       "anchor": [
         0.5,
-        0.9083
-      ]
+        0.8257
+      ],
+      "feet_y": 90
     },
     {
       "id": "creature_000020",
@@ -1055,8 +1080,9 @@
       "real_name": "Mèo Kính Đen",
       "anchor": [
         0.5,
-        0.8214
-      ]
+        0.7619
+      ],
+      "feet_y": 64
     },
     {
       "id": "creature_000021",
@@ -1097,8 +1123,9 @@
       "real_name": "Hổ Bì Dương",
       "anchor": [
         0.5,
-        0.8195
-      ]
+        0.7519
+      ],
+      "feet_y": 100
     },
     {
       "id": "creature_000022",
@@ -1136,8 +1163,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.8595
-      ]
+        0.8264
+      ],
+      "feet_y": 100
     },
     {
       "id": "creature_000023",
@@ -1175,8 +1203,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9274
+      ],
+      "feet_y": 166
     },
     {
       "id": "creature_000024",
@@ -1214,8 +1243,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9155
-      ]
+        0.8451
+      ],
+      "feet_y": 120
     },
     {
       "id": "creature_000025",
@@ -1253,8 +1283,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9
-      ]
+        0.8222
+      ],
+      "feet_y": 148
     },
     {
       "id": "creature_000026",
@@ -1292,8 +1323,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.96
-      ]
+        0.87
+      ],
+      "feet_y": 87
     },
     {
       "id": "creature_000027",
@@ -1331,8 +1363,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.8333
-      ]
+        0.787
+      ],
+      "feet_y": 85
     },
     {
       "id": "creature_000028",
@@ -1370,8 +1403,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.8692
-      ]
+        0.8308
+      ],
+      "feet_y": 108
     },
     {
       "id": "creature_000028",
@@ -1409,8 +1443,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.8692
-      ]
+        0.8308
+      ],
+      "feet_y": 108
     },
     {
       "id": "creature_000029",
@@ -1451,7 +1486,8 @@
       "anchor": [
         0.5,
         0.9583
-      ]
+      ],
+      "feet_y": 115
     },
     {
       "id": "creature_000030",
@@ -1489,8 +1525,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8929
+      ],
+      "feet_y": 100
     },
     {
       "id": "creature_000031",
@@ -1528,8 +1565,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8776
+      ],
+      "feet_y": 129
     },
     {
       "id": "creature_000031",
@@ -1567,8 +1605,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8776
+      ],
+      "feet_y": 129
     },
     {
       "id": "creature_000032",
@@ -1609,8 +1648,9 @@
       "real_name": "Ảo Mộng Nữ Yêu 【BOSS Phi Hành lv135】",
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8235
+      ],
+      "feet_y": 98
     },
     {
       "id": "creature_000033",
@@ -1649,7 +1689,8 @@
       "anchor": [
         0.5,
         1.0
-      ]
+      ],
+      "feet_y": 93
     },
     {
       "id": "creature_000033",
@@ -1688,7 +1729,8 @@
       "anchor": [
         0.5,
         1.0
-      ]
+      ],
+      "feet_y": 93
     },
     {
       "id": "creature_000034",
@@ -1729,8 +1771,9 @@
       "real_name": "Gấu Trúc Kungfu",
       "anchor": [
         0.5,
-        0.8632
-      ]
+        0.8376
+      ],
+      "feet_y": 98
     },
     {
       "id": "creature_000035",
@@ -1768,8 +1811,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9588
-      ]
+        0.9381
+      ],
+      "feet_y": 91
     },
     {
       "id": "creature_000036",
@@ -1807,8 +1851,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9574
-      ]
+        0.8298
+      ],
+      "feet_y": 78
     },
     {
       "id": "creature_000037",
@@ -1849,8 +1894,9 @@
       "real_name": "Phi Tặc",
       "anchor": [
         0.5,
-        0.9279
-      ]
+        0.8378
+      ],
+      "feet_y": 93
     },
     {
       "id": "creature_000038",
@@ -1891,8 +1937,9 @@
       "real_name": "Thủ Lĩnh Hải Tặc",
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9147
+      ],
+      "feet_y": 118
     },
     {
       "id": "creature_000039",
@@ -1930,8 +1977,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9409
+      ],
+      "feet_y": 191
     },
     {
       "id": "creature_000040",
@@ -1969,8 +2017,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.7526
-      ]
+        0.5789
+      ],
+      "feet_y": 110
     },
     {
       "id": "creature_000041",
@@ -2008,8 +2057,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9865
-      ]
+        0.9324
+      ],
+      "feet_y": 69
     },
     {
       "id": "creature_000042",
@@ -2048,7 +2098,8 @@
       "anchor": [
         0.5,
         1.0
-      ]
+      ],
+      "feet_y": 142
     },
     {
       "id": "creature_000043",
@@ -2087,7 +2138,8 @@
       "anchor": [
         0.5,
         0.9286
-      ]
+      ],
+      "feet_y": 104
     },
     {
       "id": "creature_000044",
@@ -2125,8 +2177,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9485
-      ]
+        0.8015
+      ],
+      "feet_y": 109
     },
     {
       "id": "creature_000045",
@@ -2167,8 +2220,9 @@
       "real_name": "Leviathan",
       "anchor": [
         0.5,
-        0.9913
-      ]
+        0.8996
+      ],
+      "feet_y": 206
     },
     {
       "id": "creature_000046",
@@ -2206,8 +2260,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8592
+      ],
+      "feet_y": 122
     },
     {
       "id": "creature_000047",
@@ -2248,8 +2303,9 @@
       "real_name": "Tiểu Thái Dương",
       "anchor": [
         0.5,
-        0.9921
-      ]
+        0.9764
+      ],
+      "feet_y": 124
     },
     {
       "id": "creature_000048",
@@ -2288,7 +2344,8 @@
       "anchor": [
         0.5,
         0.8148
-      ]
+      ],
+      "feet_y": 132
     },
     {
       "id": "creature_000049",
@@ -2329,8 +2386,9 @@
       "real_name": "Bách Thảo Tinh",
       "anchor": [
         0.5,
-        0.8
-      ]
+        0.68
+      ],
+      "feet_y": 119
     },
     {
       "id": "creature_000050",
@@ -2368,8 +2426,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8487
+      ],
+      "feet_y": 101
     },
     {
       "id": "creature_000051",
@@ -2410,8 +2469,9 @@
       "real_name": "Thiên Diện Ma Vương",
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.7707
+      ],
+      "feet_y": 121
     },
     {
       "id": "creature_000052",
@@ -2449,8 +2509,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9
-      ]
+        0.8455
+      ],
+      "feet_y": 93
     },
     {
       "id": "creature_000053",
@@ -2488,8 +2549,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9764
-      ]
+        0.8976
+      ],
+      "feet_y": 114
     },
     {
       "id": "creature_000054",
@@ -2527,8 +2589,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.7583
-      ]
+        0.75
+      ],
+      "feet_y": 90
     },
     {
       "id": "creature_000055",
@@ -2566,8 +2629,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.7841
-      ]
+        0.7386
+      ],
+      "feet_y": 65
     },
     {
       "id": "creature_000061",
@@ -2606,7 +2670,8 @@
       "anchor": [
         0.5,
         1.0
-      ]
+      ],
+      "feet_y": 113
     },
     {
       "id": "creature_000073",
@@ -2644,8 +2709,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9149
+      ],
+      "feet_y": 86
     },
     {
       "id": "creature_000075",
@@ -2684,7 +2750,8 @@
       "anchor": [
         0.5,
         1.0
-      ]
+      ],
+      "feet_y": 94
     },
     {
       "id": "creature_000077",
@@ -2722,8 +2789,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9432
+      ],
+      "feet_y": 83
     },
     {
       "id": "creature_000079",
@@ -2761,8 +2829,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.8433
-      ]
+        0.8387
+      ],
+      "feet_y": 182
     },
     {
       "id": "creature_000080",
@@ -2800,8 +2869,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.8108
-      ]
+        0.7207
+      ],
+      "feet_y": 80
     },
     {
       "id": "creature_000083",
@@ -2839,8 +2909,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8771
+      ],
+      "feet_y": 207
     },
     {
       "id": "creature_000084",
@@ -2878,8 +2949,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8033
+      ],
+      "feet_y": 98
     },
     {
       "id": "creature_001000",
@@ -2918,7 +2990,8 @@
       "anchor": [
         0.5,
         0.8824
-      ]
+      ],
+      "feet_y": 90
     },
     {
       "id": "creature_001056",
@@ -2956,8 +3029,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.7851
+      ],
+      "feet_y": 95
     },
     {
       "id": "creature_001057",
@@ -2995,8 +3069,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8624
+      ],
+      "feet_y": 94
     },
     {
       "id": "creature_001058",
@@ -3034,8 +3109,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8496
+      ],
+      "feet_y": 96
     },
     {
       "id": "creature_001059",
@@ -3076,8 +3152,9 @@
       "real_name": "Ma Thần",
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9434
+      ],
+      "feet_y": 100
     },
     {
       "id": "creature_001060",
@@ -3115,8 +3192,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9167
-      ]
+        0.8583
+      ],
+      "feet_y": 103
     },
     {
       "id": "creature_001061",
@@ -3154,8 +3232,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8925
+      ],
+      "feet_y": 83
     },
     {
       "id": "creature_001062",
@@ -3193,8 +3272,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8882
+      ],
+      "feet_y": 135
     },
     {
       "id": "creature_001063",
@@ -3232,8 +3312,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9664
-      ]
+        0.916
+      ],
+      "feet_y": 109
     },
     {
       "id": "creature_001064",
@@ -3271,8 +3352,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9052
+      ],
+      "feet_y": 105
     },
     {
       "id": "creature_001065",
@@ -3310,8 +3392,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.7742
+      ],
+      "feet_y": 96
     },
     {
       "id": "creature_001066",
@@ -3349,8 +3432,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9783
+      ],
+      "feet_y": 180
     },
     {
       "id": "creature_001067",
@@ -3388,8 +3472,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9313
-      ]
+        0.8092
+      ],
+      "feet_y": 106
     },
     {
       "id": "creature_001068",
@@ -3427,8 +3512,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8
+      ],
+      "feet_y": 72
     },
     {
       "id": "creature_001069",
@@ -3469,8 +3555,9 @@
       "real_name": "Mèo Yêu Tinh Nghịch",
       "anchor": [
         0.5,
-        0.8812
-      ]
+        0.703
+      ],
+      "feet_y": 71
     },
     {
       "id": "creature_001070",
@@ -3510,8 +3597,9 @@
       "real_name": "Thỏ Lưu Manh",
       "anchor": [
         0.5,
-        0.8318
-      ]
+        0.785
+      ],
+      "feet_y": 84
     },
     {
       "id": "creature_001071",
@@ -3552,8 +3640,9 @@
       "real_name": "Phản Quân Đại Tướng",
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9185
+      ],
+      "feet_y": 124
     },
     {
       "id": "creature_001072",
@@ -3591,8 +3680,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.8705
-      ]
+        0.8273
+      ],
+      "feet_y": 115
     },
     {
       "id": "creature_001073",
@@ -3630,8 +3720,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9149
+      ],
+      "feet_y": 86
     },
     {
       "id": "creature_001074",
@@ -3669,8 +3760,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.906
+      ],
+      "feet_y": 106
     },
     {
       "id": "creature_001075",
@@ -3711,8 +3803,9 @@
       "real_name": "Búp Bê Máy",
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9394
+      ],
+      "feet_y": 62
     },
     {
       "id": "creature_001076",
@@ -3750,8 +3843,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.7769
+      ],
+      "feet_y": 94
     },
     {
       "id": "creature_001077",
@@ -3789,8 +3883,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9432
+      ],
+      "feet_y": 83
     },
     {
       "id": "creature_001078",
@@ -3828,8 +3923,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.7851
+      ],
+      "feet_y": 95
     },
     {
       "id": "creature_001079",
@@ -3867,8 +3963,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.7945
+      ],
+      "feet_y": 174
     },
     {
       "id": "creature_001080",
@@ -3906,8 +4003,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.7973
+      ],
+      "feet_y": 118
     },
     {
       "id": "creature_001081",
@@ -3945,8 +4043,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.8034
-      ]
+        0.7921
+      ],
+      "feet_y": 141
     },
     {
       "id": "creature_001082",
@@ -3987,8 +4086,9 @@
       "real_name": "Cây Nắp Ấm",
       "anchor": [
         0.5,
-        0.9449
-      ]
+        0.874
+      ],
+      "feet_y": 111
     },
     {
       "id": "creature_001083",
@@ -4026,8 +4126,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8771
+      ],
+      "feet_y": 207
     },
     {
       "id": "creature_001084",
@@ -4065,8 +4166,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9375
+      ],
+      "feet_y": 120
     },
     {
       "id": "creature_001085",
@@ -4104,8 +4206,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9636
+      ],
+      "feet_y": 106
     },
     {
       "id": "creature_001086",
@@ -4143,8 +4246,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8942
+      ],
+      "feet_y": 169
     },
     {
       "id": "creature_001087",
@@ -4182,8 +4286,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9034
-      ]
+        0.8276
+      ],
+      "feet_y": 120
     },
     {
       "id": "creature_001088",
@@ -4224,8 +4329,9 @@
       "real_name": "Phủ Ma",
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8187
+      ],
+      "feet_y": 298
     },
     {
       "id": "creature_001089",
@@ -4263,8 +4369,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9231
+      ],
+      "feet_y": 72
     },
     {
       "id": "creature_001090",
@@ -4306,7 +4413,8 @@
       "anchor": [
         0.5,
         0.7481
-      ]
+      ],
+      "feet_y": 98
     },
     {
       "id": "creature_001091",
@@ -4347,8 +4455,9 @@
       "real_name": "Lợi Trảo Long",
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8201
+      ],
+      "feet_y": 114
     },
     {
       "id": "creature_001092",
@@ -4389,8 +4498,9 @@
       "real_name": "Samael",
       "anchor": [
         0.5,
-        0.9591
-      ]
+        0.7895
+      ],
+      "feet_y": 135
     },
     {
       "id": "creature_001093",
@@ -4428,8 +4538,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.7909
+      ],
+      "feet_y": 87
     },
     {
       "id": "creature_001094",
@@ -4470,8 +4581,9 @@
       "real_name": "Thần Long Viễn Cổ",
       "anchor": [
         0.5,
-        0.9865
-      ]
+        0.9189
+      ],
+      "feet_y": 136
     },
     {
       "id": "creature_001095",
@@ -4510,7 +4622,8 @@
       "anchor": [
         0.5,
         1.0
-      ]
+      ],
+      "feet_y": 132
     },
     {
       "id": "creature_001096",
@@ -4551,8 +4664,9 @@
       "real_name": "Ma Chiến",
       "anchor": [
         0.5,
-        0.8914
-      ]
+        0.8416
+      ],
+      "feet_y": 186
     },
     {
       "id": "creature_001097",
@@ -4593,8 +4707,9 @@
       "real_name": "Mê Hồn Giáo Chủ",
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8897
+      ],
+      "feet_y": 129
     },
     {
       "id": "creature_001098",
@@ -4632,8 +4747,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.7917
+      ],
+      "feet_y": 152
     },
     {
       "id": "creature_001099",
@@ -4674,8 +4790,9 @@
       "real_name": "Rùa Nika",
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9214
+      ],
+      "feet_y": 129
     },
     {
       "id": "creature_001100",
@@ -4713,8 +4830,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9184
-      ]
+        0.9116
+      ],
+      "feet_y": 134
     },
     {
       "id": "creature_001101",
@@ -4752,8 +4870,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9161
+      ],
+      "feet_y": 142
     },
     {
       "id": "creature_001102",
@@ -4791,8 +4910,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.843
+      ],
+      "feet_y": 102
     },
     {
       "id": "creature_001103",
@@ -4830,8 +4950,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9118
+      ],
+      "feet_y": 93
     },
     {
       "id": "creature_001104",
@@ -4869,8 +4990,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9778
-      ]
+        0.8778
+      ],
+      "feet_y": 158
     },
     {
       "id": "creature_001105",
@@ -4911,8 +5033,9 @@
       "real_name": "Cua Yêu",
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.7597
+      ],
+      "feet_y": 98
     },
     {
       "id": "creature_001106",
@@ -4951,7 +5074,8 @@
       "anchor": [
         0.5,
         0.744
-      ]
+      ],
+      "feet_y": 93
     },
     {
       "id": "creature_001107",
@@ -4990,7 +5114,8 @@
       "anchor": [
         0.5,
         0.8411
-      ]
+      ],
+      "feet_y": 90
     },
     {
       "id": "creature_001108",
@@ -5028,8 +5153,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8235
+      ],
+      "feet_y": 70
     },
     {
       "id": "creature_001109",
@@ -5067,8 +5193,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8803
+      ],
+      "feet_y": 103
     },
     {
       "id": "creature_001110",
@@ -5106,8 +5233,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.8963
-      ]
+        0.837
+      ],
+      "feet_y": 113
     },
     {
       "id": "creature_001111",
@@ -5145,8 +5273,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8938
+      ],
+      "feet_y": 101
     },
     {
       "id": "creature_001112",
@@ -5184,8 +5313,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.945
+      ],
+      "feet_y": 103
     },
     {
       "id": "creature_001113",
@@ -5223,8 +5353,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.942
-      ]
+        0.7101
+      ],
+      "feet_y": 98
     },
     {
       "id": "creature_001114",
@@ -5262,8 +5393,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8167
+      ],
+      "feet_y": 98
     },
     {
       "id": "creature_001115",
@@ -5304,8 +5436,9 @@
       "real_name": "Bạo Liệt Long",
       "anchor": [
         0.5,
-        0.8542
-      ]
+        0.8056
+      ],
+      "feet_y": 116
     },
     {
       "id": "creature_001116",
@@ -5343,8 +5476,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.8322
-      ]
+        0.8188
+      ],
+      "feet_y": 122
     },
     {
       "id": "creature_001117",
@@ -5382,8 +5516,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.875
+      ],
+      "feet_y": 105
     },
     {
       "id": "creature_001118",
@@ -5421,8 +5556,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.7719
+      ],
+      "feet_y": 132
     },
     {
       "id": "creature_001119",
@@ -5460,8 +5596,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9583
+      ],
+      "feet_y": 115
     },
     {
       "id": "creature_001120",
@@ -5500,7 +5637,8 @@
       "anchor": [
         0.5,
         1.0
-      ]
+      ],
+      "feet_y": 107
     },
     {
       "id": "creature_001121",
@@ -5541,8 +5679,9 @@
       "real_name": "Tộc Navi",
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8047
+      ],
+      "feet_y": 103
     },
     {
       "id": "creature_001122",
@@ -5580,8 +5719,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.6918
+      ],
+      "feet_y": 101
     },
     {
       "id": "creature_001123",
@@ -5619,8 +5759,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9896
-      ]
+        0.8229
+      ],
+      "feet_y": 79
     },
     {
       "id": "creature_001124",
@@ -5661,8 +5802,9 @@
       "real_name": "Atula Vương",
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.7778
+      ],
+      "feet_y": 154
     },
     {
       "id": "creature_001125",
@@ -5703,8 +5845,9 @@
       "real_name": "Solomon",
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.7725
+      ],
+      "feet_y": 180
     },
     {
       "id": "creature_001126",
@@ -5742,8 +5885,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9771
-      ]
+        0.9037
+      ],
+      "feet_y": 197
     },
     {
       "id": "creature_001127",
@@ -5781,8 +5925,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.859
+      ],
+      "feet_y": 134
     },
     {
       "id": "creature_001128",
@@ -5823,8 +5968,9 @@
       "real_name": "Linh Long",
       "anchor": [
         0.5,
-        0.9292
-      ]
+        0.8673
+      ],
+      "feet_y": 98
     },
     {
       "id": "creature_001129",
@@ -5862,8 +6008,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9048
-      ]
+        0.8571
+      ],
+      "feet_y": 144
     },
     {
       "id": "creature_001130",
@@ -5901,8 +6048,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.6923
+      ],
+      "feet_y": 81
     },
     {
       "id": "creature_001131",
@@ -5940,8 +6088,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9191
+      ],
+      "feet_y": 125
     },
     {
       "id": "creature_001132",
@@ -5979,8 +6128,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9231
+      ],
+      "feet_y": 108
     },
     {
       "id": "creature_001133",
@@ -6018,8 +6168,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8618
+      ],
+      "feet_y": 131
     },
     {
       "id": "creature_001134",
@@ -6057,8 +6208,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.89
+      ],
+      "feet_y": 89
     },
     {
       "id": "creature_001135",
@@ -6096,8 +6248,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9173
+      ],
+      "feet_y": 122
     },
     {
       "id": "creature_001136",
@@ -6138,8 +6291,9 @@
       "real_name": "Tiểu Linh Long",
       "anchor": [
         0.5,
-        0.9683
-      ]
+        0.9206
+      ],
+      "feet_y": 116
     },
     {
       "id": "creature_001137",
@@ -6177,8 +6331,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9138
+      ],
+      "feet_y": 106
     },
     {
       "id": "creature_001138",
@@ -6216,8 +6371,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8846
+      ],
+      "feet_y": 115
     },
     {
       "id": "creature_001139",
@@ -6255,8 +6411,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9926
-      ]
+        0.8222
+      ],
+      "feet_y": 111
     },
     {
       "id": "creature_001140",
@@ -6294,8 +6451,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8169
+      ],
+      "feet_y": 58
     },
     {
       "id": "creature_001141",
@@ -6336,8 +6494,9 @@
       "real_name": "Ếch Độc Đầm Lầy",
       "anchor": [
         0.5,
-        0.8803
-      ]
+        0.8291
+      ],
+      "feet_y": 97
     },
     {
       "id": "creature_001142",
@@ -6375,8 +6534,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.7941
+      ],
+      "feet_y": 108
     },
     {
       "id": "creature_001143",
@@ -6414,8 +6574,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.8
-      ]
+        0.7765
+      ],
+      "feet_y": 66
     },
     {
       "id": "creature_001144",
@@ -6453,8 +6614,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.7343
+      ],
+      "feet_y": 105
     },
     {
       "id": "creature_001145",
@@ -6492,8 +6654,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.7926
+      ],
+      "feet_y": 107
     },
     {
       "id": "creature_001146",
@@ -6531,8 +6694,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9875
-      ]
+        0.7625
+      ],
+      "feet_y": 122
     },
     {
       "id": "creature_001147",
@@ -6570,8 +6734,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9636
-      ]
+        0.8727
+      ],
+      "feet_y": 96
     },
     {
       "id": "creature_001148",
@@ -6609,8 +6774,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8583
+      ],
+      "feet_y": 103
     },
     {
       "id": "creature_001149",
@@ -6648,8 +6814,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9663
-      ]
+        0.9438
+      ],
+      "feet_y": 84
     },
     {
       "id": "creature_001151",
@@ -6687,8 +6854,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8438
+      ],
+      "feet_y": 108
     },
     {
       "id": "creature_001152",
@@ -6726,8 +6894,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.989
-      ]
+        0.8571
+      ],
+      "feet_y": 78
     },
     {
       "id": "creature_001153",
@@ -6765,8 +6934,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9338
+      ],
+      "feet_y": 127
     },
     {
       "id": "creature_001154",
@@ -6804,8 +6974,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9259
+      ],
+      "feet_y": 125
     },
     {
       "id": "creature_001155",
@@ -6846,8 +7017,9 @@
       "real_name": "Cự Ma Mê Huyễn 【4 BOSS chính Mê Huyễn】",
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.7833
+      ],
+      "feet_y": 141
     },
     {
       "id": "creature_001156",
@@ -6885,8 +7057,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8527
+      ],
+      "feet_y": 110
     },
     {
       "id": "creature_001157",
@@ -6928,7 +7101,8 @@
       "anchor": [
         0.5,
         0.9032
-      ]
+      ],
+      "feet_y": 112
     },
     {
       "id": "creature_001158",
@@ -6966,8 +7140,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.7879
+      ],
+      "feet_y": 130
     },
     {
       "id": "creature_001159",
@@ -7005,8 +7180,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.874
+      ],
+      "feet_y": 222
     },
     {
       "id": "creature_001160",
@@ -7044,8 +7220,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8808
+      ],
+      "feet_y": 133
     },
     {
       "id": "creature_001161",
@@ -7083,8 +7260,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.6631
+      ],
+      "feet_y": 124
     },
     {
       "id": "creature_001162",
@@ -7122,8 +7300,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8675
+      ],
+      "feet_y": 72
     },
     {
       "id": "creature_001163",
@@ -7161,8 +7340,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8675
+      ],
+      "feet_y": 72
     },
     {
       "id": "creature_001164",
@@ -7203,8 +7383,9 @@
       "real_name": "Muỗi Đại Vương",
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8675
+      ],
+      "feet_y": 72
     },
     {
       "id": "creature_001165",
@@ -7246,7 +7427,8 @@
       "anchor": [
         0.5,
         0.9407
-      ]
+      ],
+      "feet_y": 111
     },
     {
       "id": "creature_001166",
@@ -7287,8 +7469,9 @@
       "real_name": "Chu Ma Vương【Quái Chính 5 Chu Ma Điện】",
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8951
+      ],
+      "feet_y": 128
     },
     {
       "id": "creature_001167",
@@ -7326,8 +7509,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.93
-      ]
+        0.805
+      ],
+      "feet_y": 161
     },
     {
       "id": "creature_001168",
@@ -7366,7 +7550,8 @@
       "anchor": [
         0.5,
         1.0
-      ]
+      ],
+      "feet_y": 280
     },
     {
       "id": "creature_001169",
@@ -7405,7 +7590,8 @@
       "anchor": [
         0.5,
         1.0
-      ]
+      ],
+      "feet_y": 313
     },
     {
       "id": "creature_001170",
@@ -7444,7 +7630,8 @@
       "anchor": [
         0.5,
         1.0
-      ]
+      ],
+      "feet_y": 291
     },
     {
       "id": "creature_001171",
@@ -7482,8 +7669,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8736
+      ],
+      "feet_y": 76
     },
     {
       "id": "creature_001172",
@@ -7524,8 +7712,9 @@
       "real_name": "Dây Rong",
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.883
+      ],
+      "feet_y": 83
     },
     {
       "id": "creature_001173",
@@ -7563,8 +7752,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8239
+      ],
+      "feet_y": 145
     },
     {
       "id": "creature_001174",
@@ -7602,8 +7792,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9914
-      ]
+        0.8879
+      ],
+      "feet_y": 103
     },
     {
       "id": "creature_001175",
@@ -7641,8 +7832,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.7326
+      ],
+      "feet_y": 137
     },
     {
       "id": "creature_001176",
@@ -7680,8 +7872,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.7273
+      ],
+      "feet_y": 152
     },
     {
       "id": "creature_001177",
@@ -7719,8 +7912,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.6961
+      ],
+      "feet_y": 126
     },
     {
       "id": "creature_001178",
@@ -7758,8 +7952,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.7467
+      ],
+      "feet_y": 112
     },
     {
       "id": "creature_001179",
@@ -7797,8 +7992,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9162
-      ]
+        0.8429
+      ],
+      "feet_y": 161
     },
     {
       "id": "creature_001180",
@@ -7836,8 +8032,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9005
+      ],
+      "feet_y": 190
     },
     {
       "id": "creature_001181",
@@ -7875,8 +8072,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9727
-      ]
+        0.8545
+      ],
+      "feet_y": 94
     },
     {
       "id": "creature_001182",
@@ -7914,8 +8112,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.991
-      ]
+        0.7387
+      ],
+      "feet_y": 164
     },
     {
       "id": "creature_001183",
@@ -7953,8 +8152,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9084
+      ],
+      "feet_y": 238
     },
     {
       "id": "creature_001184",
@@ -7992,8 +8192,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9955
+      ],
+      "feet_y": 220
     },
     {
       "id": "creature_001185",
@@ -8031,8 +8232,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8563
+      ],
+      "feet_y": 143
     },
     {
       "id": "creature_001186",
@@ -8070,8 +8272,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8563
+      ],
+      "feet_y": 143
     },
     {
       "id": "creature_001187",
@@ -8109,8 +8312,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8503
+      ],
+      "feet_y": 142
     },
     {
       "id": "creature_001188",
@@ -8148,8 +8352,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8563
+      ],
+      "feet_y": 143
     },
     {
       "id": "creature_001189",
@@ -8187,8 +8392,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8563
+      ],
+      "feet_y": 143
     },
     {
       "id": "creature_001190",
@@ -8226,8 +8432,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8563
+      ],
+      "feet_y": 143
     },
     {
       "id": "creature_001191",
@@ -8265,8 +8472,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.7727
+      ],
+      "feet_y": 136
     },
     {
       "id": "creature_001192",
@@ -8304,8 +8512,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8807
+      ],
+      "feet_y": 155
     },
     {
       "id": "creature_001193",
@@ -8343,8 +8552,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8354
+      ],
+      "feet_y": 137
     },
     {
       "id": "creature_001194",
@@ -8382,8 +8592,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8015
+      ],
+      "feet_y": 105
     },
     {
       "id": "creature_001195",
@@ -8421,8 +8632,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.916
+      ],
+      "feet_y": 120
     },
     {
       "id": "creature_001196",
@@ -8460,8 +8672,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8333
+      ],
+      "feet_y": 100
     },
     {
       "id": "creature_001197",
@@ -8499,8 +8712,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9137
-      ]
+        0.8784
+      ],
+      "feet_y": 224
     },
     {
       "id": "creature_001198",
@@ -8538,8 +8752,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9837
-      ]
+        0.9224
+      ],
+      "feet_y": 226
     },
     {
       "id": "creature_001199",
@@ -8577,8 +8792,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9137
-      ]
+        0.8588
+      ],
+      "feet_y": 219
     },
     {
       "id": "creature_001200",
@@ -8616,8 +8832,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9655
-      ]
+        0.8966
+      ],
+      "feet_y": 104
     },
     {
       "id": "creature_001201",
@@ -8655,8 +8872,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9655
-      ]
+        0.9483
+      ],
+      "feet_y": 110
     },
     {
       "id": "creature_001202",
@@ -8694,8 +8912,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9406
-      ]
+        0.8515
+      ],
+      "feet_y": 86
     },
     {
       "id": "creature_001203",
@@ -8733,8 +8952,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.7862
+      ],
+      "feet_y": 114
     },
     {
       "id": "creature_001204",
@@ -8772,8 +8992,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9034
+      ],
+      "feet_y": 131
     },
     {
       "id": "creature_001205",
@@ -8811,8 +9032,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.7778
+      ],
+      "feet_y": 112
     },
     {
       "id": "creature_001206",
@@ -8850,8 +9072,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.6944
+      ],
+      "feet_y": 100
     },
     {
       "id": "creature_001207",
@@ -8889,8 +9112,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8611
+      ],
+      "feet_y": 124
     },
     {
       "id": "creature_001208",
@@ -8928,8 +9152,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.7687
+      ],
+      "feet_y": 103
     },
     {
       "id": "creature_001209",
@@ -8967,8 +9192,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9016
-      ]
+        0.7596
+      ],
+      "feet_y": 139
     },
     {
       "id": "creature_001210",
@@ -9006,8 +9232,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9366
-      ]
+        0.8341
+      ],
+      "feet_y": 171
     },
     {
       "id": "creature_001211",
@@ -9045,8 +9272,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9016
-      ]
+        0.776
+      ],
+      "feet_y": 142
     },
     {
       "id": "creature_001212",
@@ -9084,8 +9312,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.891
-      ]
+        0.8008
+      ],
+      "feet_y": 213
     },
     {
       "id": "creature_001213",
@@ -9123,8 +9352,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.891
-      ]
+        0.8496
+      ],
+      "feet_y": 226
     },
     {
       "id": "creature_001214",
@@ -9162,8 +9392,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.891
-      ]
+        0.8233
+      ],
+      "feet_y": 219
     },
     {
       "id": "creature_001215",
@@ -9201,8 +9432,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9326
+      ],
+      "feet_y": 166
     },
     {
       "id": "creature_001216",
@@ -9240,8 +9472,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.809
+      ],
+      "feet_y": 144
     },
     {
       "id": "creature_001217",
@@ -9279,8 +9512,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8107
+      ],
+      "feet_y": 137
     },
     {
       "id": "creature_001218",
@@ -9318,8 +9552,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9625
-      ]
+        0.8625
+      ],
+      "feet_y": 138
     },
     {
       "id": "creature_001219",
@@ -9357,8 +9592,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9565
-      ]
+        0.8261
+      ],
+      "feet_y": 133
     },
     {
       "id": "creature_001220",
@@ -9396,8 +9632,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9625
-      ]
+        0.85
+      ],
+      "feet_y": 136
     },
     {
       "id": "creature_001221",
@@ -9436,7 +9673,8 @@
       "anchor": [
         0.5,
         1.0
-      ]
+      ],
+      "feet_y": 740
     },
     {
       "id": "creature_001222",
@@ -9475,7 +9713,8 @@
       "anchor": [
         0.5,
         1.0
-      ]
+      ],
+      "feet_y": 375
     },
     {
       "id": "creature_001223",
@@ -9514,7 +9753,8 @@
       "anchor": [
         0.5,
         1.0
-      ]
+      ],
+      "feet_y": 512
     },
     {
       "id": "creature_001224",
@@ -9553,7 +9793,8 @@
       "anchor": [
         0.5,
         1.0
-      ]
+      ],
+      "feet_y": 512
     },
     {
       "id": "creature_001225",
@@ -9592,7 +9833,8 @@
       "anchor": [
         0.5,
         1.0
-      ]
+      ],
+      "feet_y": 852
     },
     {
       "id": "creature_001226",
@@ -9631,7 +9873,8 @@
       "anchor": [
         0.5,
         1.0
-      ]
+      ],
+      "feet_y": 369
     },
     {
       "id": "creature_001227",
@@ -9670,7 +9913,8 @@
       "anchor": [
         0.5,
         1.0
-      ]
+      ],
+      "feet_y": 512
     },
     {
       "id": "creature_001228",
@@ -9709,7 +9953,8 @@
       "anchor": [
         0.5,
         1.0
-      ]
+      ],
+      "feet_y": 479
     },
     {
       "id": "creature_001229",
@@ -9751,7 +9996,8 @@
       "anchor": [
         0.5,
         1.0
-      ]
+      ],
+      "feet_y": 318
     },
     {
       "id": "creature_001230",
@@ -9793,7 +10039,8 @@
       "anchor": [
         0.5,
         1.0
-      ]
+      ],
+      "feet_y": 380
     },
     {
       "id": "creature_001231",
@@ -9835,7 +10082,8 @@
       "anchor": [
         0.5,
         1.0
-      ]
+      ],
+      "feet_y": 348
     },
     {
       "id": "creature_001232",
@@ -9877,7 +10125,8 @@
       "anchor": [
         0.5,
         1.0
-      ]
+      ],
+      "feet_y": 375
     },
     {
       "id": "creature_001233",
@@ -9919,7 +10168,8 @@
       "anchor": [
         0.5,
         1.0
-      ]
+      ],
+      "feet_y": 349
     },
     {
       "id": "creature_001234",
@@ -9961,7 +10211,8 @@
       "anchor": [
         0.5,
         1.0
-      ]
+      ],
+      "feet_y": 377
     },
     {
       "id": "creature_001235",
@@ -10003,7 +10254,8 @@
       "anchor": [
         0.5,
         1.0
-      ]
+      ],
+      "feet_y": 354
     },
     {
       "id": "creature_001236",
@@ -10045,7 +10297,8 @@
       "anchor": [
         0.5,
         1.0
-      ]
+      ],
+      "feet_y": 385
     },
     {
       "id": "creature_001237",
@@ -10086,8 +10339,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8144
+      ],
+      "feet_y": 158
     },
     {
       "id": "creature_001238",
@@ -10125,8 +10379,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.809
+      ],
+      "feet_y": 161
     },
     {
       "id": "creature_001239",
@@ -10164,8 +10419,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8586
+      ],
+      "feet_y": 170
     },
     {
       "id": "creature_001240",
@@ -10203,8 +10459,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8489
+      ],
+      "feet_y": 191
     },
     {
       "id": "creature_001241",
@@ -10242,8 +10499,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8161
+      ],
+      "feet_y": 142
     },
     {
       "id": "creature_001242",
@@ -10281,8 +10539,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9301
+      ],
+      "feet_y": 133
     },
     {
       "id": "creature_001243",
@@ -10320,8 +10579,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8559
+      ],
+      "feet_y": 202
     },
     {
       "id": "creature_001244",
@@ -10359,8 +10619,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.7337
+      ],
+      "feet_y": 146
     },
     {
       "id": "creature_001245",
@@ -10398,8 +10659,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9431
+      ],
+      "feet_y": 116
     },
     {
       "id": "creature_001246",
@@ -10437,8 +10699,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9138
+      ],
+      "feet_y": 159
     },
     {
       "id": "creature_001247",
@@ -10476,8 +10739,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8344
+      ],
+      "feet_y": 126
     },
     {
       "id": "creature_001248",
@@ -10518,8 +10782,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.6942
-      ]
+        0.6699
+      ],
+      "feet_y": 138
     },
     {
       "id": "creature_001249",
@@ -10560,8 +10825,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.7601
-      ]
+        0.7269
+      ],
+      "feet_y": 197
     },
     {
       "id": "creature_001250",
@@ -10599,8 +10865,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9793
-      ]
+        0.5809
+      ],
+      "feet_y": 140
     },
     {
       "id": "creature_001251",
@@ -10638,8 +10905,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.7101
+      ],
+      "feet_y": 147
     },
     {
       "id": "creature_001252",
@@ -10680,8 +10948,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9027
+      ],
+      "feet_y": 102
     },
     {
       "id": "creature_001253",
@@ -10722,8 +10991,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9664
+      ],
+      "feet_y": 115
     },
     {
       "id": "creature_001254",
@@ -10764,8 +11034,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9845
-      ]
+        0.8295
+      ],
+      "feet_y": 107
     },
     {
       "id": "creature_001255",
@@ -10806,8 +11077,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8933
+      ],
+      "feet_y": 134
     },
     {
       "id": "creature_001256",
@@ -10848,8 +11120,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8
+      ],
+      "feet_y": 128
     },
     {
       "id": "creature_001257",
@@ -10890,8 +11163,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8881
+      ],
+      "feet_y": 127
     },
     {
       "id": "creature_001258",
@@ -10929,8 +11203,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.8598
-      ]
+        0.7251
+      ],
+      "feet_y": 269
     },
     {
       "id": "creature_001259",
@@ -10968,8 +11243,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.6337
+      ],
+      "feet_y": 109
     },
     {
       "id": "creature_001260",
@@ -11007,8 +11283,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9514
-      ]
+        0.8866
+      ],
+      "feet_y": 219
     },
     {
       "id": "creature_001261",
@@ -11046,8 +11323,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.7663
+      ],
+      "feet_y": 223
     },
     {
       "id": "creature_001262",
@@ -11085,8 +11363,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9539
-      ]
+        0.9171
+      ],
+      "feet_y": 199
     },
     {
       "id": "creature_001263",
@@ -11124,8 +11403,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9
-      ]
+        0.8187
+      ],
+      "feet_y": 131
     },
     {
       "id": "creature_001264",
@@ -11163,8 +11443,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.8676
-      ]
+        0.7808
+      ],
+      "feet_y": 171
     },
     {
       "id": "creature_001265",
@@ -11202,8 +11483,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9896
-      ]
+        0.8368
+      ],
+      "feet_y": 241
     },
     {
       "id": "creature_001266",
@@ -11241,8 +11523,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.6994
+      ],
+      "feet_y": 121
     },
     {
       "id": "creature_001267",
@@ -11280,8 +11563,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9302
+      ],
+      "feet_y": 120
     },
     {
       "id": "creature_001268",
@@ -11319,8 +11603,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.8971
-      ]
+        0.8553
+      ],
+      "feet_y": 266
     },
     {
       "id": "creature_001269",
@@ -11358,8 +11643,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.8539
-      ]
+        0.7453
+      ],
+      "feet_y": 199
     },
     {
       "id": "creature_001270",
@@ -11397,8 +11683,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.8561
-      ]
+        0.8485
+      ],
+      "feet_y": 112
     },
     {
       "id": "creature_001271",
@@ -11436,8 +11723,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.774
+      ],
+      "feet_y": 137
     },
     {
       "id": "creature_001272",
@@ -11475,8 +11763,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8954
+      ],
+      "feet_y": 137
     },
     {
       "id": "creature_001273",
@@ -11514,8 +11803,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.7917
+      ],
+      "feet_y": 133
     },
     {
       "id": "creature_001274",
@@ -11553,8 +11843,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.7547
+      ],
+      "feet_y": 120
     },
     {
       "id": "creature_001901",
@@ -11593,7 +11884,8 @@
       "anchor": [
         0.5,
         1.0
-      ]
+      ],
+      "feet_y": 99
     },
     {
       "id": "creature_100000",
@@ -11634,8 +11926,9 @@
       "real_name": "Ác Long Sơ Sinh",
       "anchor": [
         0.5,
-        0.9083
-      ]
+        0.8167
+      ],
+      "feet_y": 98
     },
     {
       "id": "creature_100000",
@@ -11676,8 +11969,9 @@
       "real_name": "Ác Long Sơ Sinh",
       "anchor": [
         0.5,
-        0.9083
-      ]
+        0.8167
+      ],
+      "feet_y": 98
     },
     {
       "id": "creature_100001",
@@ -11718,8 +12012,9 @@
       "real_name": "Tân Niên Kim Ngưu",
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9328
+      ],
+      "feet_y": 222
     },
     {
       "id": "creature_100002",
@@ -11760,8 +12055,9 @@
       "real_name": "Huyết Ngưu Thuần Chủng",
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8441
+      ],
+      "feet_y": 157
     },
     {
       "id": "creature_100003",
@@ -11802,8 +12098,9 @@
       "real_name": "Thiên Sứ Mít Ướt",
       "anchor": [
         0.5,
-        0.9592
-      ]
+        0.7857
+      ],
+      "feet_y": 77
     },
     {
       "id": "creature_100004",
@@ -11844,8 +12141,9 @@
       "real_name": "Ác Ma Quấy Phá",
       "anchor": [
         0.5,
-        0.8235
-      ]
+        0.6569
+      ],
+      "feet_y": 67
     },
     {
       "id": "creature_100005",
@@ -11884,7 +12182,8 @@
       "anchor": [
         0.5,
         0.931
-      ]
+      ],
+      "feet_y": 135
     },
     {
       "id": "creature_100006",
@@ -11925,8 +12224,9 @@
       "real_name": "Tinh Linh Hộ Thú",
       "anchor": [
         0.5,
-        0.8785
-      ]
+        0.8505
+      ],
+      "feet_y": 91
     },
     {
       "id": "creature_100007",
@@ -11967,8 +12267,9 @@
       "real_name": "Y Tá MM",
       "anchor": [
         0.5,
-        0.9748
-      ]
+        0.8992
+      ],
+      "feet_y": 107
     },
     {
       "id": "creature_100008",
@@ -12009,8 +12310,9 @@
       "real_name": "Đinh Long",
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8161
+      ],
+      "feet_y": 71
     },
     {
       "id": "creature_100009",
@@ -12051,8 +12353,9 @@
       "real_name": "Dứa Mật",
       "anchor": [
         0.5,
-        0.9785
-      ]
+        0.9032
+      ],
+      "feet_y": 84
     },
     {
       "id": "creature_100010",
@@ -12093,8 +12396,9 @@
       "real_name": "Tiểu Lương Tử",
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8288
+      ],
+      "feet_y": 121
     },
     {
       "id": "creature_100011",
@@ -12135,8 +12439,9 @@
       "real_name": "Chiêu Tài Mao",
       "anchor": [
         0.5,
-        0.8814
-      ]
+        0.8136
+      ],
+      "feet_y": 96
     },
     {
       "id": "creature_100012",
@@ -12177,8 +12482,9 @@
       "real_name": "Dê Con II",
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9494
+      ],
+      "feet_y": 150
     },
     {
       "id": "creature_100013",
@@ -12219,8 +12525,9 @@
       "real_name": "Công Chúa Ác Ma",
       "anchor": [
         0.5,
-        0.9318
-      ]
+        0.9091
+      ],
+      "feet_y": 120
     },
     {
       "id": "creature_100014",
@@ -12261,8 +12568,9 @@
       "real_name": "Hoàng Tử Thiên Sứ",
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8365
+      ],
+      "feet_y": 133
     },
     {
       "id": "creature_100015",
@@ -12303,8 +12611,9 @@
       "real_name": "Kim Hổ",
       "anchor": [
         0.5,
-        0.911
-      ]
+        0.8356
+      ],
+      "feet_y": 122
     },
     {
       "id": "creature_100016",
@@ -12342,8 +12651,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8936
+      ],
+      "feet_y": 126
     },
     {
       "id": "creature_100017",
@@ -12384,8 +12694,9 @@
       "real_name": "Momo",
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8295
+      ],
+      "feet_y": 107
     },
     {
       "id": "creature_100018",
@@ -12426,8 +12737,9 @@
       "real_name": "Momo 2",
       "anchor": [
         0.5,
-        0.9618
-      ]
+        0.8779
+      ],
+      "feet_y": 115
     },
     {
       "id": "creature_100019",
@@ -12468,8 +12780,9 @@
       "real_name": "Nhím Xanh",
       "anchor": [
         0.5,
-        0.8051
-      ]
+        0.7034
+      ],
+      "feet_y": 83
     },
     {
       "id": "creature_100020",
@@ -12510,8 +12823,9 @@
       "real_name": "Thỏ Baby",
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9677
+      ],
+      "feet_y": 120
     },
     {
       "id": "creature_100021",
@@ -12552,8 +12866,9 @@
       "real_name": "Nấm Điện",
       "anchor": [
         0.5,
-        0.9922
-      ]
+        0.938
+      ],
+      "feet_y": 121
     },
     {
       "id": "creature_100022",
@@ -12594,8 +12909,9 @@
       "real_name": "Pony",
       "anchor": [
         0.5,
-        0.9346
-      ]
+        0.8785
+      ],
+      "feet_y": 94
     },
     {
       "id": "creature_100023",
@@ -12636,8 +12952,9 @@
       "real_name": "Camy",
       "anchor": [
         0.5,
-        0.9385
-      ]
+        0.8538
+      ],
+      "feet_y": 111
     },
     {
       "id": "creature_100024",
@@ -12675,8 +12992,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.7415
+      ],
+      "feet_y": 109
     },
     {
       "id": "creature_100025",
@@ -12717,8 +13035,9 @@
       "real_name": "Loni",
       "anchor": [
         0.5,
-        0.9804
-      ]
+        0.8627
+      ],
+      "feet_y": 88
     },
     {
       "id": "creature_100026",
@@ -12759,8 +13078,9 @@
       "real_name": "Chim Ưng",
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8113
+      ],
+      "feet_y": 86
     },
     {
       "id": "creature_100027",
@@ -12801,8 +13121,9 @@
       "real_name": "Hydra【Kiếp Nạn Vô Ưu - Atula】",
       "anchor": [
         0.5,
-        0.8423
-      ]
+        0.7742
+      ],
+      "feet_y": 216
     },
     {
       "id": "creature_100029",
@@ -12843,8 +13164,9 @@
       "real_name": "Kỳ Kỳ",
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8207
+      ],
+      "feet_y": 119
     },
     {
       "id": "creature_100030",
@@ -12885,8 +13207,9 @@
       "real_name": "Nấm Điện【Bản Trưởng Thành】",
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8684
+      ],
+      "feet_y": 99
     },
     {
       "id": "creature_100032",
@@ -12927,8 +13250,9 @@
       "real_name": "Hắc Nhân Mã",
       "anchor": [
         0.5,
-        0.8913
-      ]
+        0.8168
+      ],
+      "feet_y": 263
     },
     {
       "id": "creature_100033",
@@ -12966,8 +13290,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9094
-      ]
+        0.8504
+      ],
+      "feet_y": 216
     },
     {
       "id": "creature_100034",
@@ -13005,8 +13330,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9758
-      ]
+        0.7855
+      ],
+      "feet_y": 260
     },
     {
       "id": "creature_100035",
@@ -13044,8 +13370,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9516
-      ]
+        0.9462
+      ],
+      "feet_y": 176
     },
     {
       "id": "creature_100036",
@@ -13083,8 +13410,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.932
+      ],
+      "feet_y": 192
     },
     {
       "id": "creature_100037",
@@ -13122,8 +13450,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.932
+      ],
+      "feet_y": 192
     },
     {
       "id": "creature_100038",
@@ -13161,8 +13490,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9771
-      ]
+        0.8015
+      ],
+      "feet_y": 210
     },
     {
       "id": "creature_100039",
@@ -13200,8 +13530,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.824
+      ],
+      "feet_y": 220
     },
     {
       "id": "creature_100040",
@@ -13242,8 +13573,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.993
-      ]
+        0.9091
+      ],
+      "feet_y": 130
     },
     {
       "id": "creature_100041",
@@ -13284,8 +13616,9 @@
       "real_name": "Đại Thánh Chí Tôn",
       "anchor": [
         0.5,
-        0.9536
-      ]
+        0.8402
+      ],
+      "feet_y": 163
     },
     {
       "id": "creature_100042",
@@ -13323,8 +13656,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.7183
+      ],
+      "feet_y": 181
     },
     {
       "id": "creature_100043",
@@ -13365,8 +13699,9 @@
       "real_name": "Moltres",
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9115
+      ],
+      "feet_y": 103
     },
     {
       "id": "creature_100044",
@@ -13404,8 +13739,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8369
+      ],
+      "feet_y": 118
     },
     {
       "id": "creature_100045",
@@ -13446,8 +13782,9 @@
       "real_name": "Võ Sĩ Shiba",
       "anchor": [
         0.5,
-        0.9612
-      ]
+        0.932
+      ],
+      "feet_y": 192
     },
     {
       "id": "creature_100046",
@@ -13485,8 +13822,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9819
-      ]
+        0.9217
+      ],
+      "feet_y": 153
     },
     {
       "id": "creature_100047",
@@ -13524,8 +13862,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.8909
-      ]
+        0.7636
+      ],
+      "feet_y": 84
     },
     {
       "id": "creature_100048",
@@ -13566,8 +13905,9 @@
       "real_name": "Burin",
       "anchor": [
         0.5,
-        0.8909
-      ]
+        0.7636
+      ],
+      "feet_y": 84
     },
     {
       "id": "creature_100049",
@@ -13608,8 +13948,9 @@
       "real_name": "Jery",
       "anchor": [
         0.5,
-        0.9725
-      ]
+        0.9174
+      ],
+      "feet_y": 100
     },
     {
       "id": "creature_100050",
@@ -13647,8 +13988,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9259
+      ],
+      "feet_y": 100
     },
     {
       "id": "creature_100051",
@@ -13689,8 +14031,9 @@
       "real_name": "Long Tiểu Thanh",
       "anchor": [
         0.5,
-        0.9814
-      ]
+        0.7578
+      ],
+      "feet_y": 122
     },
     {
       "id": "creature_100052",
@@ -13728,8 +14071,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9636
-      ]
+        0.8582
+      ],
+      "feet_y": 236
     },
     {
       "id": "creature_100053",
@@ -13770,8 +14114,9 @@
       "real_name": "Kim Tước",
       "anchor": [
         0.5,
-        0.9277
-      ]
+        0.753
+      ],
+      "feet_y": 125
     },
     {
       "id": "creature_100054",
@@ -13809,8 +14154,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8427
+      ],
+      "feet_y": 300
     },
     {
       "id": "creature_100055",
@@ -13851,8 +14197,9 @@
       "real_name": "Huyền Minh Linh Vũ",
       "anchor": [
         0.5,
-        0.95
-      ]
+        0.8909
+      ],
+      "feet_y": 196
     },
     {
       "id": "creature_100056",
@@ -13890,8 +14237,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9434
+      ],
+      "feet_y": 483
     },
     {
       "id": "creature_100057",
@@ -13932,8 +14280,9 @@
       "real_name": "Bạch Hổ Cuồng Nộ",
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8599
+      ],
+      "feet_y": 135
     },
     {
       "id": "creature_100058",
@@ -13971,8 +14320,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.989
-      ]
+        0.9066
+      ],
+      "feet_y": 165
     },
     {
       "id": "creature_100059",
@@ -14013,8 +14363,9 @@
       "real_name": "Lôi Lân Ảnh",
       "anchor": [
         0.5,
-        0.994
-      ]
+        0.8095
+      ],
+      "feet_y": 136
     },
     {
       "id": "creature_100060",
@@ -14052,8 +14403,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9401
-      ]
+        0.794
+      ],
+      "feet_y": 212
     },
     {
       "id": "creature_110000",
@@ -14091,8 +14443,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.8454
-      ]
+        0.8351
+      ],
+      "feet_y": 81
     },
     {
       "id": "creature_200001",
@@ -14130,8 +14483,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9159
+      ],
+      "feet_y": 98
     },
     {
       "id": "creature_200002",
@@ -14169,8 +14523,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8811
+      ],
+      "feet_y": 252
     },
     {
       "id": "creature_200003",
@@ -14211,8 +14566,9 @@
       "real_name": "Thành Chủ【Boss Chính Tuyến】",
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8028
+      ],
+      "feet_y": 171
     },
     {
       "id": "creature_200004",
@@ -14250,8 +14606,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.8671
-      ]
+        0.8324
+      ],
+      "feet_y": 144
     },
     {
       "id": "creature_200005",
@@ -14289,8 +14646,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8585
+      ],
+      "feet_y": 182
     },
     {
       "id": "creature_200005",
@@ -14328,8 +14686,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8585
+      ],
+      "feet_y": 182
     },
     {
       "id": "creature_200006",
@@ -14367,8 +14726,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9932
-      ]
+        0.9527
+      ],
+      "feet_y": 141
     },
     {
       "id": "creature_200007",
@@ -14409,8 +14769,9 @@
       "real_name": "Dực Long",
       "anchor": [
         0.5,
-        0.9456
-      ]
+        0.8027
+      ],
+      "feet_y": 118
     },
     {
       "id": "creature_200008",
@@ -14448,8 +14809,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9485
+      ],
+      "feet_y": 129
     },
     {
       "id": "creature_200009",
@@ -14487,8 +14849,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8366
+      ],
+      "feet_y": 169
     },
     {
       "id": "creature_200010",
@@ -14526,8 +14889,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9816
-      ]
+        0.816
+      ],
+      "feet_y": 133
     },
     {
       "id": "creature_200011",
@@ -14565,8 +14929,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9882
+      ],
+      "feet_y": 168
     },
     {
       "id": "creature_200012",
@@ -14604,8 +14969,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9055
-      ]
+        0.8259
+      ],
+      "feet_y": 166
     },
     {
       "id": "creature_200013",
@@ -14643,8 +15009,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9658
-      ]
+        0.9589
+      ],
+      "feet_y": 140
     },
     {
       "id": "creature_200014",
@@ -14682,8 +15049,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9535
+      ],
+      "feet_y": 164
     },
     {
       "id": "creature_200015",
@@ -14721,8 +15089,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.8267
-      ]
+        0.78
+      ],
+      "feet_y": 117
     },
     {
       "id": "creature_200016",
@@ -14763,8 +15132,9 @@
       "real_name": "Phù Thủy Tà Ác 【Lục Tiên Cảnh】",
       "anchor": [
         0.5,
-        0.902
-      ]
+        0.8431
+      ],
+      "feet_y": 129
     },
     {
       "id": "creature_200017",
@@ -14805,8 +15175,9 @@
       "real_name": "Pharaoh Cabu III 【Kho Báu Đại Mạc】",
       "anchor": [
         0.5,
-        0.9579
-      ]
+        0.8411
+      ],
+      "feet_y": 180
     },
     {
       "id": "creature_200018",
@@ -14844,8 +15215,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8964
+      ],
+      "feet_y": 173
     },
     {
       "id": "creature_200019",
@@ -14883,8 +15255,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.75
+      ],
+      "feet_y": 156
     },
     {
       "id": "creature_200020",
@@ -14922,8 +15295,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.7755
-      ]
+        0.7347
+      ],
+      "feet_y": 108
     },
     {
       "id": "creature_200021",
@@ -14961,8 +15335,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9191
+      ],
+      "feet_y": 125
     },
     {
       "id": "creature_200022",
@@ -15000,8 +15375,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9847
-      ]
+        0.8473
+      ],
+      "feet_y": 111
     },
     {
       "id": "creature_200023",
@@ -15038,8 +15414,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8217
+      ],
+      "feet_y": 106
     },
     {
       "id": "creature_200024",
@@ -15077,8 +15454,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.8468
-      ]
+        0.7928
+      ],
+      "feet_y": 88
     },
     {
       "id": "creature_200025",
@@ -15116,8 +15494,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9706
+      ],
+      "feet_y": 165
     },
     {
       "id": "creature_200026",
@@ -15155,8 +15534,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9083
+      ],
+      "feet_y": 109
     },
     {
       "id": "creature_200027",
@@ -15194,8 +15574,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.8571
-      ]
+        0.8151
+      ],
+      "feet_y": 97
     },
     {
       "id": "creature_200028",
@@ -15233,8 +15614,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.8618
-      ]
+        0.8374
+      ],
+      "feet_y": 103
     },
     {
       "id": "creature_200029",
@@ -15271,8 +15653,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9643
+      ],
+      "feet_y": 108
     },
     {
       "id": "creature_200030",
@@ -15310,8 +15693,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.8909
-      ]
+        0.8273
+      ],
+      "feet_y": 91
     },
     {
       "id": "creature_200031",
@@ -15349,8 +15733,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9672
+      ],
+      "feet_y": 177
     },
     {
       "id": "creature_200032",
@@ -15388,8 +15773,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9291
+      ],
+      "feet_y": 118
     },
     {
       "id": "creature_200033",
@@ -15427,8 +15813,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9528
+      ],
+      "feet_y": 101
     },
     {
       "id": "creature_200034",
@@ -15466,8 +15853,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9083
-      ]
+        0.8083
+      ],
+      "feet_y": 97
     },
     {
       "id": "creature_200037",
@@ -15505,8 +15893,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9145
+      ],
+      "feet_y": 107
     },
     {
       "id": "creature_200038",
@@ -15544,8 +15933,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8482
+      ],
+      "feet_y": 95
     },
     {
       "id": "creature_200040",
@@ -15583,8 +15973,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9773
+      ],
+      "feet_y": 129
     },
     {
       "id": "creature_200041",
@@ -15622,8 +16013,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9581
+      ],
+      "feet_y": 160
     },
     {
       "id": "creature_200042",
@@ -15661,8 +16053,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8609
+      ],
+      "feet_y": 99
     },
     {
       "id": "creature_200043",
@@ -15700,8 +16093,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.8016
-      ]
+        0.7143
+      ],
+      "feet_y": 90
     },
     {
       "id": "creature_200044",
@@ -15739,8 +16133,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9907
-      ]
+        0.9065
+      ],
+      "feet_y": 97
     },
     {
       "id": "creature_200045",
@@ -15778,8 +16173,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.8621
-      ]
+        0.7672
+      ],
+      "feet_y": 89
     },
     {
       "id": "creature_200046",
@@ -15817,8 +16213,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9689
-      ]
+        0.7453
+      ],
+      "feet_y": 120
     },
     {
       "id": "creature_200047",
@@ -15856,8 +16253,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9689
-      ]
+        0.7453
+      ],
+      "feet_y": 120
     },
     {
       "id": "creature_200048",
@@ -15895,8 +16293,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9646
-      ]
+        0.8673
+      ],
+      "feet_y": 98
     },
     {
       "id": "creature_200049",
@@ -15934,8 +16333,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9646
-      ]
+        0.8673
+      ],
+      "feet_y": 98
     },
     {
       "id": "creature_200050",
@@ -15973,8 +16373,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.768
+      ],
+      "feet_y": 139
     },
     {
       "id": "creature_200051",
@@ -16015,8 +16416,9 @@
       "real_name": "Abate 【BOSS Liệt Diễm 4】",
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8115
+      ],
+      "feet_y": 155
     },
     {
       "id": "creature_200052",
@@ -16054,8 +16456,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.7442
-      ]
+        0.7151
+      ],
+      "feet_y": 123
     },
     {
       "id": "creature_200053",
@@ -16093,8 +16496,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.802
+      ],
+      "feet_y": 158
     },
     {
       "id": "creature_200054",
@@ -16135,8 +16539,9 @@
       "real_name": "Bàn Thạch Long",
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8384
+      ],
+      "feet_y": 192
     },
     {
       "id": "creature_200055",
@@ -16174,8 +16579,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8712
+      ],
+      "feet_y": 115
     },
     {
       "id": "creature_200056",
@@ -16213,8 +16619,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.875
+      ],
+      "feet_y": 217
     },
     {
       "id": "creature_200057",
@@ -16252,8 +16659,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.8057
-      ]
+        0.7143
+      ],
+      "feet_y": 125
     },
     {
       "id": "creature_200058",
@@ -16291,8 +16699,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9694
-      ]
+        0.9388
+      ],
+      "feet_y": 92
     },
     {
       "id": "creature_200059",
@@ -16330,8 +16739,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9895
-      ]
+        0.9579
+      ],
+      "feet_y": 91
     },
     {
       "id": "creature_200060",
@@ -16370,7 +16780,8 @@
       "anchor": [
         0.5,
         1.0
-      ]
+      ],
+      "feet_y": 98
     },
     {
       "id": "creature_200061",
@@ -16409,7 +16820,8 @@
       "anchor": [
         0.5,
         1.0
-      ]
+      ],
+      "feet_y": 95
     },
     {
       "id": "creature_200062",
@@ -16447,8 +16859,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.932
-      ]
+        0.8835
+      ],
+      "feet_y": 91
     },
     {
       "id": "creature_200063",
@@ -16486,8 +16899,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.8851
-      ]
+        0.8391
+      ],
+      "feet_y": 73
     },
     {
       "id": "creature_200064",
@@ -16525,8 +16939,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9012
-      ]
+        0.6977
+      ],
+      "feet_y": 120
     },
     {
       "id": "creature_200065",
@@ -16564,8 +16979,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.75
+      ],
+      "feet_y": 126
     },
     {
       "id": "creature_200066",
@@ -16606,8 +17022,9 @@
       "real_name": "Tiểu Binh Cổ Thành【BOSS lv150】",
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.838
+      ],
+      "feet_y": 119
     },
     {
       "id": "creature_200067",
@@ -16645,8 +17062,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9762
+      ],
+      "feet_y": 123
     },
     {
       "id": "creature_200068",
@@ -16684,8 +17102,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8279
+      ],
+      "feet_y": 101
     },
     {
       "id": "creature_200069",
@@ -16723,8 +17142,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.972
-      ]
+        0.8505
+      ],
+      "feet_y": 91
     },
     {
       "id": "creature_200070",
@@ -16762,8 +17182,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.7857
+      ],
+      "feet_y": 110
     },
     {
       "id": "creature_200071",
@@ -16801,8 +17222,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.8898
-      ]
+        0.8031
+      ],
+      "feet_y": 102
     },
     {
       "id": "creature_200072",
@@ -16840,8 +17262,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8783
+      ],
+      "feet_y": 101
     },
     {
       "id": "creature_200073",
@@ -16882,8 +17305,9 @@
       "real_name": "Ma Hồn【Kiếp Nạn Vô Ưu - Ma Hồn】",
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8482
+      ],
+      "feet_y": 162
     },
     {
       "id": "creature_200074",
@@ -16921,8 +17345,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.704
+      ],
+      "feet_y": 157
     },
     {
       "id": "creature_200075",
@@ -16960,8 +17385,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.7303
+      ],
+      "feet_y": 130
     },
     {
       "id": "creature_200076",
@@ -16999,8 +17425,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.7917
+      ],
+      "feet_y": 114
     },
     {
       "id": "creature_200077",
@@ -17038,8 +17465,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.907
+      ],
+      "feet_y": 117
     },
     {
       "id": "creature_200078",
@@ -17078,7 +17506,8 @@
       "anchor": [
         0.5,
         0.9065
-      ]
+      ],
+      "feet_y": 97
     },
     {
       "id": "creature_200083",
@@ -17116,8 +17545,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.8219
-      ]
+        0.8014
+      ],
+      "feet_y": 117
     },
     {
       "id": "creature_200084",
@@ -17155,8 +17585,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8362
+      ],
+      "feet_y": 148
     },
     {
       "id": "creature_200085",
@@ -17194,8 +17625,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8974
+      ],
+      "feet_y": 140
     },
     {
       "id": "creature_200086",
@@ -17233,8 +17665,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9315
-      ]
+        0.8493
+      ],
+      "feet_y": 124
     },
     {
       "id": "creature_200087",
@@ -17272,8 +17705,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.875
-      ]
+        0.7917
+      ],
+      "feet_y": 114
     },
     {
       "id": "creature_200088",
@@ -17311,8 +17745,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.8655
-      ]
+        0.8421
+      ],
+      "feet_y": 144
     },
     {
       "id": "creature_200089",
@@ -17350,8 +17785,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.8876
-      ]
+        0.8107
+      ],
+      "feet_y": 137
     },
     {
       "id": "creature_200090",
@@ -17389,8 +17825,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9419
+      ],
+      "feet_y": 146
     },
     {
       "id": "creature_200091",
@@ -17428,8 +17865,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.8354
-      ]
+        0.8291
+      ],
+      "feet_y": 131
     },
     {
       "id": "creature_200092",
@@ -17467,8 +17905,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9859
-      ]
+        0.9155
+      ],
+      "feet_y": 130
     },
     {
       "id": "creature_200093",
@@ -17506,8 +17945,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.871
-      ]
+        0.7984
+      ],
+      "feet_y": 99
     },
     {
       "id": "creature_200094",
@@ -17546,7 +17986,8 @@
       "anchor": [
         0.5,
         1.0
-      ]
+      ],
+      "feet_y": 30
     },
     {
       "id": "creature_200095",
@@ -17585,7 +18026,8 @@
       "anchor": [
         0.5,
         1.0
-      ]
+      ],
+      "feet_y": 30
     },
     {
       "id": "creature_200096",
@@ -17624,7 +18066,8 @@
       "anchor": [
         0.5,
         1.0
-      ]
+      ],
+      "feet_y": 30
     },
     {
       "id": "creature_200097",
@@ -17663,7 +18106,8 @@
       "anchor": [
         0.5,
         1.0
-      ]
+      ],
+      "feet_y": 30
     },
     {
       "id": "creature_200098",
@@ -17702,7 +18146,8 @@
       "anchor": [
         0.5,
         1.0
-      ]
+      ],
+      "feet_y": 30
     },
     {
       "id": "creature_200099",
@@ -17741,7 +18186,8 @@
       "anchor": [
         0.5,
         1.0
-      ]
+      ],
+      "feet_y": 30
     },
     {
       "id": "creature_200100",
@@ -17780,7 +18226,8 @@
       "anchor": [
         0.5,
         1.0
-      ]
+      ],
+      "feet_y": 30
     },
     {
       "id": "creature_200101",
@@ -17819,7 +18266,8 @@
       "anchor": [
         0.5,
         1.0
-      ]
+      ],
+      "feet_y": 30
     },
     {
       "id": "creature_200102",
@@ -17858,7 +18306,8 @@
       "anchor": [
         0.5,
         1.0
-      ]
+      ],
+      "feet_y": 30
     },
     {
       "id": "creature_200103",
@@ -17897,7 +18346,8 @@
       "anchor": [
         0.5,
         1.0
-      ]
+      ],
+      "feet_y": 30
     },
     {
       "id": "creature_200104",
@@ -17936,7 +18386,8 @@
       "anchor": [
         0.5,
         1.0
-      ]
+      ],
+      "feet_y": 30
     },
     {
       "id": "creature_200105",
@@ -17975,7 +18426,8 @@
       "anchor": [
         0.5,
         1.0
-      ]
+      ],
+      "feet_y": 31
     },
     {
       "id": "creature_200106",
@@ -18014,7 +18466,8 @@
       "anchor": [
         0.5,
         1.0
-      ]
+      ],
+      "feet_y": 30
     },
     {
       "id": "creature_200107",
@@ -18053,7 +18506,8 @@
       "anchor": [
         0.5,
         1.0
-      ]
+      ],
+      "feet_y": 30
     },
     {
       "id": "creature_200108",
@@ -18091,8 +18545,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.815
+      ],
+      "feet_y": 141
     },
     {
       "id": "creature_200111",
@@ -18130,8 +18585,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9417
-      ]
+        0.8917
+      ],
+      "feet_y": 107
     },
     {
       "id": "creature_200112",
@@ -18169,8 +18625,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9467
-      ]
+        0.9
+      ],
+      "feet_y": 135
     },
     {
       "id": "creature_200113",
@@ -18208,8 +18665,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9747
-      ]
+        0.8924
+      ],
+      "feet_y": 141
     },
     {
       "id": "creature_200114",
@@ -18247,8 +18705,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9441
-      ]
+        0.8944
+      ],
+      "feet_y": 144
     },
     {
       "id": "creature_200115",
@@ -18286,8 +18745,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9113
+      ],
+      "feet_y": 113
     },
     {
       "id": "creature_200116",
@@ -18325,8 +18785,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9339
-      ]
+        0.7355
+      ],
+      "feet_y": 89
     },
     {
       "id": "creature_200117",
@@ -18364,8 +18825,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9043
-      ]
+        0.8
+      ],
+      "feet_y": 92
     },
     {
       "id": "creature_200118",
@@ -18403,8 +18865,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8777
+      ],
+      "feet_y": 122
     },
     {
       "id": "creature_200119",
@@ -18442,8 +18905,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.925
+      ],
+      "feet_y": 111
     },
     {
       "id": "creature_200120",
@@ -18481,8 +18945,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.763
+      ],
+      "feet_y": 103
     },
     {
       "id": "creature_200121",
@@ -18520,8 +18985,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8372
+      ],
+      "feet_y": 108
     },
     {
       "id": "creature_200122",
@@ -18560,7 +19026,8 @@
       "anchor": [
         0.5,
         1.0
-      ]
+      ],
+      "feet_y": 175
     },
     {
       "id": "creature_200123",
@@ -18598,8 +19065,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9424
-      ]
+        0.8345
+      ],
+      "feet_y": 116
     },
     {
       "id": "creature_200124",
@@ -18638,7 +19106,8 @@
       "anchor": [
         0.5,
         0.9943
-      ]
+      ],
+      "feet_y": 174
     },
     {
       "id": "creature_200125",
@@ -18676,8 +19145,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8615
+      ],
+      "feet_y": 112
     },
     {
       "id": "creature_200126",
@@ -18715,8 +19185,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8364
+      ],
+      "feet_y": 92
     },
     {
       "id": "creature_200127",
@@ -18754,8 +19225,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9217
+      ],
+      "feet_y": 106
     },
     {
       "id": "creature_200128",
@@ -18793,8 +19265,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.8627
-      ]
+        0.7941
+      ],
+      "feet_y": 81
     },
     {
       "id": "creature_200129",
@@ -18832,8 +19305,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.938
-      ]
+        0.8605
+      ],
+      "feet_y": 111
     },
     {
       "id": "creature_200130",
@@ -18871,8 +19345,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9231
-      ]
+        0.7923
+      ],
+      "feet_y": 103
     },
     {
       "id": "creature_200131",
@@ -18910,8 +19385,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8054
+      ],
+      "feet_y": 149
     },
     {
       "id": "creature_200132",
@@ -18949,8 +19425,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9107
-      ]
+        0.9018
+      ],
+      "feet_y": 101
     },
     {
       "id": "creature_200133",
@@ -18988,8 +19465,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.7671
-      ]
+        0.7055
+      ],
+      "feet_y": 103
     },
     {
       "id": "creature_200134",
@@ -19028,7 +19506,8 @@
       "anchor": [
         0.5,
         1.0
-      ]
+      ],
+      "feet_y": 226
     },
     {
       "id": "creature_200135",
@@ -19066,8 +19545,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.952
+      ],
+      "feet_y": 218
     },
     {
       "id": "creature_200136",
@@ -19106,7 +19586,8 @@
       "anchor": [
         0.5,
         1.0
-      ]
+      ],
+      "feet_y": 226
     },
     {
       "id": "creature_200137",
@@ -19144,8 +19625,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.952
+      ],
+      "feet_y": 218
     },
     {
       "id": "creature_200138",
@@ -19183,8 +19665,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.6709
+      ],
+      "feet_y": 106
     },
     {
       "id": "creature_200139",
@@ -19222,8 +19705,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8692
+      ],
+      "feet_y": 93
     },
     {
       "id": "creature_200140",
@@ -19261,8 +19745,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9581
-      ]
+        0.8563
+      ],
+      "feet_y": 143
     },
     {
       "id": "creature_200141",
@@ -19300,8 +19785,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.75
+      ],
+      "feet_y": 132
     },
     {
       "id": "creature_200142",
@@ -19342,8 +19828,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9898
-      ]
+        0.9184
+      ],
+      "feet_y": 180
     },
     {
       "id": "creature_200143",
@@ -19384,8 +19871,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8242
+      ],
+      "feet_y": 136
     },
     {
       "id": "creature_200144",
@@ -19426,8 +19914,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8645
+      ],
+      "feet_y": 134
     },
     {
       "id": "creature_200145",
@@ -19468,8 +19957,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9154
+      ],
+      "feet_y": 184
     },
     {
       "id": "creature_200146",
@@ -19510,8 +20000,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9143
+      ],
+      "feet_y": 128
     },
     {
       "id": "creature_200147",
@@ -19552,8 +20043,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9919
+      ],
+      "feet_y": 123
     },
     {
       "id": "creature_200148",
@@ -19594,8 +20086,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9609
+      ],
+      "feet_y": 123
     },
     {
       "id": "creature_200149",
@@ -19636,8 +20129,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8217
+      ],
+      "feet_y": 106
     },
     {
       "id": "creature_200150",
@@ -19678,8 +20172,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9569
-      ]
+        0.8879
+      ],
+      "feet_y": 103
     },
     {
       "id": "creature_200151",
@@ -19717,8 +20212,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9018
+      ],
+      "feet_y": 101
     },
     {
       "id": "creature_200152",
@@ -19756,8 +20252,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.8468
-      ]
+        0.7928
+      ],
+      "feet_y": 88
     },
     {
       "id": "creature_200153",
@@ -19795,8 +20292,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.8919
-      ]
+        0.8198
+      ],
+      "feet_y": 91
     },
     {
       "id": "creature_200154",
@@ -19834,8 +20332,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.8571
-      ]
+        0.7857
+      ],
+      "feet_y": 99
     },
     {
       "id": "creature_200155",
@@ -19873,8 +20372,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.803
-      ]
+        0.7273
+      ],
+      "feet_y": 96
     },
     {
       "id": "creature_200156",
@@ -19912,8 +20412,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.7407
-      ]
+        0.6815
+      ],
+      "feet_y": 92
     },
     {
       "id": "creature_200157",
@@ -19951,8 +20452,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.8504
-      ]
+        0.7953
+      ],
+      "feet_y": 101
     },
     {
       "id": "creature_200158",
@@ -19990,8 +20492,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9083
-      ]
+        0.8167
+      ],
+      "feet_y": 98
     },
     {
       "id": "creature_200159",
@@ -20029,8 +20532,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.8571
-      ]
+        0.7983
+      ],
+      "feet_y": 95
     },
     {
       "id": "creature_200160",
@@ -20068,8 +20572,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9346
+      ],
+      "feet_y": 100
     },
     {
       "id": "creature_200161",
@@ -20107,8 +20612,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.8548
-      ]
+        0.8145
+      ],
+      "feet_y": 101
     },
     {
       "id": "creature_200162",
@@ -20146,8 +20652,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9196
+      ],
+      "feet_y": 103
     },
     {
       "id": "creature_200163",
@@ -20188,8 +20695,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9018
+      ],
+      "feet_y": 101
     },
     {
       "id": "creature_200164",
@@ -20230,8 +20738,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8443
+      ],
+      "feet_y": 103
     },
     {
       "id": "creature_200165",
@@ -20272,8 +20781,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8264
+      ],
+      "feet_y": 100
     },
     {
       "id": "creature_200166",
@@ -20314,8 +20824,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9487
-      ]
+        0.8291
+      ],
+      "feet_y": 97
     },
     {
       "id": "creature_200167",
@@ -20359,8 +20870,9 @@
       "real_name": "Chiến Dương",
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8647
+      ],
+      "feet_y": 115
     },
     {
       "id": "creature_200168",
@@ -20401,8 +20913,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9147
+      ],
+      "feet_y": 118
     },
     {
       "id": "creature_200169",
@@ -20443,8 +20956,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8187
+      ],
+      "feet_y": 131
     },
     {
       "id": "creature_200170",
@@ -20482,8 +20996,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.7969
+      ],
+      "feet_y": 204
     },
     {
       "id": "creature_200171",
@@ -20521,8 +21036,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9034
+      ],
+      "feet_y": 215
     },
     {
       "id": "creature_200172",
@@ -20560,8 +21076,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.919
-      ]
+        0.8619
+      ],
+      "feet_y": 181
     },
     {
       "id": "creature_200173",
@@ -20599,8 +21116,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9577
-      ]
+        0.8239
+      ],
+      "feet_y": 117
     },
     {
       "id": "creature_200174",
@@ -20638,8 +21156,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.7449
+      ],
+      "feet_y": 181
     },
     {
       "id": "creature_200175",
@@ -20677,8 +21196,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.7819
+      ],
+      "feet_y": 466
     },
     {
       "id": "creature_200176",
@@ -20716,8 +21236,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.7827
+      ],
+      "feet_y": 263
     },
     {
       "id": "creature_200177",
@@ -20755,8 +21276,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.96
+      ],
+      "feet_y": 96
     },
     {
       "id": "creature_200178",
@@ -20794,8 +21316,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.96
+      ],
+      "feet_y": 96
     },
     {
       "id": "creature_200179",
@@ -20833,8 +21356,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9792
-      ]
+        0.9444
+      ],
+      "feet_y": 136
     },
     {
       "id": "creature_200180",
@@ -20873,7 +21397,8 @@
       "anchor": [
         0.5,
         0.9412
-      ]
+      ],
+      "feet_y": 128
     },
     {
       "id": "creature_200181",
@@ -20911,8 +21436,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9065
-      ]
+        0.8224
+      ],
+      "feet_y": 88
     },
     {
       "id": "creature_200182",
@@ -20950,8 +21476,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9915
-      ]
+        0.9068
+      ],
+      "feet_y": 107
     },
     {
       "id": "creature_200183",
@@ -20989,8 +21516,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9267
-      ]
+        0.7382
+      ],
+      "feet_y": 141
     },
     {
       "id": "creature_200184",
@@ -21028,8 +21556,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.8561
-      ]
+        0.7424
+      ],
+      "feet_y": 98
     },
     {
       "id": "creature_200185",
@@ -21067,8 +21596,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9211
-      ]
+        0.8355
+      ],
+      "feet_y": 127
     },
     {
       "id": "creature_200186",
@@ -21106,8 +21636,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9802
-      ]
+        0.9109
+      ],
+      "feet_y": 92
     },
     {
       "id": "creature_200187",
@@ -21145,8 +21676,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9052
-      ]
+        0.8621
+      ],
+      "feet_y": 100
     },
     {
       "id": "creature_200188",
@@ -21184,8 +21716,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8819
+      ],
+      "feet_y": 112
     },
     {
       "id": "creature_200189",
@@ -21223,8 +21756,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9845
-      ]
+        0.7938
+      ],
+      "feet_y": 154
     },
     {
       "id": "creature_200190",
@@ -21262,8 +21796,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8603
+      ],
+      "feet_y": 154
     },
     {
       "id": "creature_200200",
@@ -21301,8 +21836,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.7151
+      ],
+      "feet_y": 133
     },
     {
       "id": "creature_200208",
@@ -21340,8 +21876,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8361
+      ],
+      "feet_y": 102
     },
     {
       "id": "creature_200220",
@@ -21379,8 +21916,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8306
+      ],
+      "feet_y": 103
     },
     {
       "id": "creature_200223",
@@ -21418,8 +21956,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.7985
-      ]
+        0.7164
+      ],
+      "feet_y": 96
     },
     {
       "id": "creature_200237",
@@ -21457,8 +21996,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9583
-      ]
+        0.651
+      ],
+      "feet_y": 125
     },
     {
       "id": "creature_200238",
@@ -21496,8 +22036,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.72
+      ],
+      "feet_y": 162
     },
     {
       "id": "creature_200263",
@@ -21535,8 +22076,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9859
-      ]
+        0.7324
+      ],
+      "feet_y": 104
     },
     {
       "id": "creature_200264",
@@ -21574,8 +22116,9 @@
       "catchable": false,
       "anchor": [
         0.5,
-        0.9492
-      ]
+        0.7966
+      ],
+      "feet_y": 94
     }
   ],
   "total_pets": 106,

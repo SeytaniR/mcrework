@@ -2,7 +2,7 @@
   "name": "Ma Nữ Fura",
   "anchor": [
     0.5,
-    1.0
+    0.7151
   ],
   "width": 188,
   "height": 186,
@@ -44,5 +44,5 @@
   "db_id": "2263",
   "res_code_num": 200200,
   "swf_hash": "28185fa70e677e130d9914f1ae667482",
-  "feet_y": 186
+  "feet_y": 133
 }

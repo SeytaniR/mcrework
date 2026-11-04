@@ -2,7 +2,7 @@
   "name": "Thầy Bắt Quỷ",
   "anchor": [
     0.5,
-    1.0
+    0.8808
   ],
   "width": 150,
   "height": 151,
@@ -44,5 +44,5 @@
   "db_id": "1121",
   "res_code_num": 1160,
   "swf_hash": "eadda8f6da16df3da67c619b7176a274",
-  "feet_y": 151
+  "feet_y": 133
 }

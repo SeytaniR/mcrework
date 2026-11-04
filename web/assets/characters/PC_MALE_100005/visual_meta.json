@@ -2,7 +2,7 @@
   "name": "Pose de Montaria Nuvem (M)",
   "anchor": [
     0.5,
-    1.0
+    0.9528
   ],
   "width": 81,
   "height": 106,
@@ -45,5 +45,5 @@
   "tier": "mount",
   "res_code_num": 100005,
   "swf_hash": "c6eb056b661a6d7bd550a634301cd9eb",
-  "feet_y": 106
+  "feet_y": 101
 }

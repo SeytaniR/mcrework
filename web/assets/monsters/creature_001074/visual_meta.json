@@ -2,7 +2,7 @@
   "name": "Ma Kiếm",
   "anchor": [
     0.5,
-    1.0
+    0.906
   ],
   "width": 97,
   "height": 117,
@@ -44,5 +44,5 @@
   "db_id": "140",
   "res_code_num": 1074,
   "swf_hash": "d26f4cee2a0f375b2d600f3787731c1d",
-  "feet_y": 117
+  "feet_y": 106
 }

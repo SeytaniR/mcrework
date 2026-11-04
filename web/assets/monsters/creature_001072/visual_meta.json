@@ -2,7 +2,7 @@
   "name": "Mặt Quỷ",
   "anchor": [
     0.5,
-    0.8705
+    0.8273
   ],
   "width": 157,
   "height": 139,
@@ -44,5 +44,5 @@
   "db_id": "53",
   "res_code_num": 1072,
   "swf_hash": "de6ceaf90dca0fe8465bc8af666828ac",
-  "feet_y": 121
+  "feet_y": 115
 }

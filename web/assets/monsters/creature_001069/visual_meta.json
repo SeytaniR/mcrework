@@ -2,7 +2,7 @@
   "name": "Mèo Yêu Tinh Nghịch",
   "anchor": [
     0.5,
-    0.8812
+    0.703
   ],
   "width": 141,
   "height": 101,
@@ -44,5 +44,5 @@
   "db_id": "38",
   "res_code_num": 1069,
   "swf_hash": "9e07a7d518e7ee2df9f61b39a6ed850d",
-  "feet_y": 89
+  "feet_y": 71
 }

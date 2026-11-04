@@ -2,7 +2,7 @@
   "name": "Điêu Linh Danh Y",
   "anchor": [
     0.5,
-    1.0
+    0.945
   ],
   "width": 128,
   "height": 109,
@@ -44,5 +44,5 @@
   "db_id": "821",
   "res_code_num": 1112,
   "swf_hash": "280d7820a22d257d8dde49f89acf84c1",
-  "feet_y": 109
+  "feet_y": 103
 }

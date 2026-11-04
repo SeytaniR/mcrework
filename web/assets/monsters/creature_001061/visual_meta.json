@@ -2,7 +2,7 @@
   "name": "Đồng Bì Thiết Vệ 【Kho Báu Đại Mạc】",
   "anchor": [
     0.5,
-    1.0
+    0.8925
   ],
   "width": 116,
   "height": 93,
@@ -44,5 +44,5 @@
   "db_id": "325",
   "res_code_num": 1061,
   "swf_hash": "49c422d6469649b781042f30f188b6ea",
-  "feet_y": 93
+  "feet_y": 83
 }

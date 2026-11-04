@@ -2,7 +2,7 @@
   "name": "Hộ Vệ Thợ Săn 【Nam Lv50】",
   "anchor": [
     0.5,
-    1.0
+    0.9419
   ],
   "width": 245,
   "height": 155,
@@ -44,5 +44,5 @@
   "db_id": "1712",
   "res_code_num": 200090,
   "swf_hash": "ec4d741cd84c9cc0dc9902ef470cf5a8",
-  "feet_y": 155
+  "feet_y": 146
 }

@@ -2,7 +2,7 @@
   "name": "Gai Nhọn Thâm Uyên 【Liệt Diễm Quái】",
   "anchor": [
     0.5,
-    1.0
+    0.9118
   ],
   "width": 102,
   "height": 102,
@@ -44,5 +44,5 @@
   "db_id": "955",
   "res_code_num": 1103,
   "swf_hash": "13ffff4878a2ae9ca6574cdf4f94bd46",
-  "feet_y": 102
+  "feet_y": 93
 }

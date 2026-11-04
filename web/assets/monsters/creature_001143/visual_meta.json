@@ -2,7 +2,7 @@
   "name": "Cáo Đen Tuyết Nguyên",
   "anchor": [
     0.5,
-    0.8
+    0.7765
   ],
   "width": 132,
   "height": 85,
@@ -44,5 +44,5 @@
   "db_id": "999",
   "res_code_num": 1143,
   "swf_hash": "b482bdb63dd4cb8ce35551e5cdd2b05b",
-  "feet_y": 68
+  "feet_y": 66
 }

@@ -2,7 +2,7 @@
   "name": "Test",
   "anchor": [
     0.5,
-    1.0
+    0.8811
   ],
   "width": 292,
   "height": 286,
@@ -44,5 +44,5 @@
   "db_id": "217",
   "res_code_num": 200002,
   "swf_hash": "8a4cae82e620f6193c007ed931e08e33",
-  "feet_y": 286
+  "feet_y": 252
 }

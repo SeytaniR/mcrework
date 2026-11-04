@@ -2,7 +2,7 @@
   "name": "Hộ Vệ Xạ Thủ 【Nữ Lv50】",
   "anchor": [
     0.5,
-    0.871
+    0.7984
   ],
   "width": 134,
   "height": 124,
@@ -44,5 +44,5 @@
   "db_id": "1717",
   "res_code_num": 200093,
   "swf_hash": "b94eeb28b25ef35d9a294331b6b699cf",
-  "feet_y": 108
+  "feet_y": 99
 }

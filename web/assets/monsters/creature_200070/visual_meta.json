@@ -2,7 +2,7 @@
   "name": "Hộ Vệ Hiệp Sĩ 【Nam Lv150】",
   "anchor": [
     0.5,
-    1.0
+    0.7857
   ],
   "width": 178,
   "height": 140,
@@ -44,5 +44,5 @@
   "db_id": "1773",
   "res_code_num": 200070,
   "swf_hash": "78f1bd1562ab87d4d37f1fa1ec0f9811",
-  "feet_y": 140
+  "feet_y": 110
 }

@@ -2,7 +2,7 @@
   "name": "Quỷ Vương",
   "anchor": [
     0.5,
-    1.0
+    0.8028
   ],
   "width": 176,
   "height": 213,
@@ -44,5 +44,5 @@
   "db_id": "536",
   "res_code_num": 200003,
   "swf_hash": "36e622617198462b5b33d1256d8b7668",
-  "feet_y": 213
+  "feet_y": 171
 }

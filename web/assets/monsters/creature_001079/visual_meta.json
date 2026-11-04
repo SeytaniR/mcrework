@@ -2,7 +2,7 @@
   "name": "Cự Phong Thần Tử",
   "anchor": [
     0.5,
-    1.0
+    0.7945
   ],
   "width": 250,
   "height": 219,
@@ -44,5 +44,5 @@
   "db_id": "307",
   "res_code_num": 1079,
   "swf_hash": "20bff2b72ffc1870f61f0373b59f672b",
-  "feet_y": 219
+  "feet_y": 174
 }

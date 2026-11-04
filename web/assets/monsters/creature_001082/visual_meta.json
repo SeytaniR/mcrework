@@ -2,7 +2,7 @@
   "name": "Nắp Ấm Tinh",
   "anchor": [
     0.5,
-    0.9449
+    0.874
   ],
   "width": 184,
   "height": 127,
@@ -44,5 +44,5 @@
   "db_id": "137",
   "res_code_num": 1082,
   "swf_hash": "baf6bcd14dbce2ed732d0d3c5297c1ad",
-  "feet_y": 120
+  "feet_y": 111
 }

@@ -2,7 +2,7 @@
   "name": "Hắc Nhân Mã",
   "anchor": [
     0.5,
-    0.8913
+    0.8168
   ],
   "width": 457,
   "height": 322,
@@ -44,5 +44,5 @@
   "db_id": "1672",
   "res_code_num": 100032,
   "swf_hash": "0571d74dda84c21a3e0285bc350c8dd9",
-  "feet_y": 287
+  "feet_y": 263
 }

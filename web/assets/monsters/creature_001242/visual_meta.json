@@ -2,7 +2,7 @@
   "name": "Hellock",
   "anchor": [
     0.5,
-    1.0
+    0.9301
   ],
   "width": 166,
   "height": 143,
@@ -44,5 +44,5 @@
   "db_id": "2096",
   "res_code_num": 1242,
   "swf_hash": "3a82af872bc10738ae10dd88570b1024",
-  "feet_y": 143
+  "feet_y": 133
 }

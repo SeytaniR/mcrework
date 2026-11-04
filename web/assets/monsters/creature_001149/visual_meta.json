@@ -2,7 +2,7 @@
   "name": "Vong Linh Thuẫn",
   "anchor": [
     0.5,
-    0.9663
+    0.9438
   ],
   "width": 105,
   "height": 89,
@@ -44,5 +44,5 @@
   "db_id": "1117",
   "res_code_num": 1149,
   "swf_hash": "1e5455db7102d3beb93739c2d9bd8029",
-  "feet_y": 86
+  "feet_y": 84
 }

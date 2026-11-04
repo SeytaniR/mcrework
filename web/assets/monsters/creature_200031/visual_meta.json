@@ -2,7 +2,7 @@
   "name": "Khảo Quan Lưu Hỏa",
   "anchor": [
     0.5,
-    1.0
+    0.9672
   ],
   "width": 205,
   "height": 183,
@@ -44,5 +44,5 @@
   "db_id": "330",
   "res_code_num": 200031,
   "swf_hash": "41d9fcedee985dfe6377bf8126853b6e",
-  "feet_y": 183
+  "feet_y": 177
 }

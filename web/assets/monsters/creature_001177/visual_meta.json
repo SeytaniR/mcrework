@@ -2,7 +2,7 @@
   "name": "Tuần Lộc Mị Ảnh",
   "anchor": [
     0.5,
-    1.0
+    0.6961
   ],
   "width": 186,
   "height": 181,
@@ -44,5 +44,5 @@
   "db_id": "1338",
   "res_code_num": 1177,
   "swf_hash": "eca8fefea02a390dc89da22e66ceb743",
-  "feet_y": 181
+  "feet_y": 126
 }

@@ -2,7 +2,7 @@
   "name": "Thất Vị Kê Lâu La",
   "anchor": [
     0.5,
-    1.0
+    0.977
   ],
   "width": 96,
   "height": 87,
@@ -44,5 +44,5 @@
   "db_id": "371",
   "res_code_num": 2,
   "swf_hash": "fc4a51d00b9f5b97c6da859474e496ec",
-  "feet_y": 87
+  "feet_y": 85
 }

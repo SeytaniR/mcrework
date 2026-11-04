@@ -2,7 +2,7 @@
   "name": "Thi Thể Ác Ma",
   "anchor": [
     0.5,
-    1.0
+    0.9581
   ],
   "width": 100,
   "height": 167,
@@ -44,5 +44,5 @@
   "db_id": "622",
   "res_code_num": 200041,
   "swf_hash": "f408062eb01c2902d567052902a709fe",
-  "feet_y": 167
+  "feet_y": 160
 }

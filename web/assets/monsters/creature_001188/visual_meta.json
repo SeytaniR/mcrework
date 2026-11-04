@@ -2,7 +2,7 @@
   "name": "Hổ Phách Châu",
   "anchor": [
     0.5,
-    1.0
+    0.8563
   ],
   "width": 154,
   "height": 167,
@@ -44,5 +44,5 @@
   "db_id": "1811",
   "res_code_num": 1188,
   "swf_hash": "f087ffdb1c9249bd4814ba0c85d5bf8e",
-  "feet_y": 167
+  "feet_y": 143
 }

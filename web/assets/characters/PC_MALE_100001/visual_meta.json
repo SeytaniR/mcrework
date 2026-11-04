@@ -2,7 +2,7 @@
   "name": "Pose de Montaria Lobo (M)",
   "anchor": [
     0.5,
-    0.8504
+    0.8189
   ],
   "width": 150,
   "height": 127,
@@ -45,5 +45,5 @@
   "tier": "mount",
   "res_code_num": 100001,
   "swf_hash": "64a4277d38b4c4f762a45dfdec017e38",
-  "feet_y": 108
+  "feet_y": 104
 }

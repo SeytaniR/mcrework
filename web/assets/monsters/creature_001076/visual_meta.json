@@ -2,7 +2,7 @@
   "name": "Xà Yêu Lãnh Chúa",
   "anchor": [
     0.5,
-    1.0
+    0.7769
   ],
   "width": 139,
   "height": 121,
@@ -44,5 +44,5 @@
   "db_id": "55",
   "res_code_num": 1076,
   "swf_hash": "679b4caa708a269ac9106fff5496fc87",
-  "feet_y": 121
+  "feet_y": 94
 }

@@ -2,7 +2,7 @@
   "name": "Muỗi Tiểu Binh (Giáp)",
   "anchor": [
     0.5,
-    1.0
+    0.8675
   ],
   "width": 103,
   "height": 83,
@@ -44,5 +44,5 @@
   "db_id": "1185",
   "res_code_num": 1162,
   "swf_hash": "d762e6b5bf17073cef8fc32506e51d01",
-  "feet_y": 83
+  "feet_y": 72
 }

@@ -2,7 +2,7 @@
   "name": "Bôn Lôi Thú (Fera do Trovão)",
   "anchor": [
     0.5,
-    1.0
+    0.9455
   ],
   "width": 81,
   "height": 110,
@@ -44,5 +44,5 @@
   "rel": "creature/PC_MALE_100004.swf",
   "type": "male_mount",
   "mount_tier": 4,
-  "feet_y": 110
+  "feet_y": 104
 }

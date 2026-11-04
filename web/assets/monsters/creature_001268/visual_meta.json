@@ -2,7 +2,7 @@
   "name": "Kho Báu Trên Không",
   "anchor": [
     0.5,
-    0.8971
+    0.8553
   ],
   "width": 362,
   "height": 311,
@@ -44,5 +44,5 @@
   "db_id": "2181",
   "res_code_num": 1268,
   "swf_hash": "7adf07f543f7a8e3102f801138161028",
-  "feet_y": 279
+  "feet_y": 266
 }

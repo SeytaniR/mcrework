@@ -2,7 +2,7 @@
   "name": "Momo【Tiến Hóa】",
   "anchor": [
     0.5,
-    1.0
+    0.8372
   ],
   "width": 154,
   "height": 129,
@@ -44,5 +44,5 @@
   "db_id": "1419",
   "res_code_num": 200121,
   "swf_hash": "810f74561eb2054d5ff7b58b65ae7988",
-  "feet_y": 129
+  "feet_y": 108
 }

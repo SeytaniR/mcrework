@@ -2,7 +2,7 @@
   "name": "Tuyết Thú",
   "anchor": [
     0.5,
-    1.0
+    0.8942
   ],
   "width": 163,
   "height": 189,
@@ -44,5 +44,5 @@
   "db_id": "292",
   "res_code_num": 1086,
   "swf_hash": "c3cac7b8fcaf8e8b414b246c4a220788",
-  "feet_y": 189
+  "feet_y": 169
 }

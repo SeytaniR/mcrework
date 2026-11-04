@@ -2,7 +2,7 @@
   "name": "Chiến Sĩ Sói",
   "anchor": [
     0.5,
-    1.0
+    0.9274
   ],
   "width": 172,
   "height": 179,
@@ -44,5 +44,5 @@
   "db_id": "70",
   "res_code_num": 23,
   "swf_hash": "f1f4ca0c9c65195bdc9bfe68a1ce39e8",
-  "feet_y": 179
+  "feet_y": 166
 }

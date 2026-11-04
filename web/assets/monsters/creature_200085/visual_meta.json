@@ -2,7 +2,7 @@
   "name": "Hộ Vệ Chiến Binh 【Nữ Lv50】",
   "anchor": [
     0.5,
-    1.0
+    0.8974
   ],
   "width": 162,
   "height": 156,
@@ -44,5 +44,5 @@
   "db_id": "1714",
   "res_code_num": 200085,
   "swf_hash": "4d32c15730e153d30223c4341ec07e9e",
-  "feet_y": 156
+  "feet_y": 140
 }

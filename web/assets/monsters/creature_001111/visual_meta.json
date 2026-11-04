@@ -2,7 +2,7 @@
   "name": "Điêu Linh Cuồng Chiến",
   "anchor": [
     0.5,
-    1.0
+    0.8938
   ],
   "width": 142,
   "height": 113,
@@ -44,5 +44,5 @@
   "db_id": "818",
   "res_code_num": 1111,
   "swf_hash": "5f6e40d5e4351195d5553fd568c6833a",
-  "feet_y": 113
+  "feet_y": 101
 }

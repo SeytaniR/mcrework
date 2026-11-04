@@ -2,7 +2,7 @@
   "name": "Chim Ưng",
   "anchor": [
     0.5,
-    1.0
+    0.8113
   ],
   "width": 146,
   "height": 106,
@@ -44,5 +44,5 @@
   "db_id": "1254",
   "res_code_num": 100026,
   "swf_hash": "ecc7ef17e793d7f4bb439371c53609d2",
-  "feet_y": 106
+  "feet_y": 86
 }

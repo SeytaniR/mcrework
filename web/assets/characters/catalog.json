@@ -36,8 +36,9 @@
       "thumb": "assets/characters/PC_FEMALE_000001/thumb.webp",
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9099
+      ],
+      "feet_y": 101
     },
     {
       "id": "PC_FEMALE_000002",
@@ -73,8 +74,9 @@
       "thumb": "assets/characters/PC_FEMALE_000002/thumb.webp",
       "anchor": [
         0.5,
-        0.8919
-      ]
+        0.8198
+      ],
+      "feet_y": 91
     },
     {
       "id": "PC_FEMALE_000003",
@@ -110,8 +112,9 @@
       "thumb": "assets/characters/PC_FEMALE_000003/thumb.webp",
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8083
+      ],
+      "feet_y": 97
     },
     {
       "id": "PC_FEMALE_000004",
@@ -147,8 +150,9 @@
       "thumb": "assets/characters/PC_FEMALE_000004/thumb.webp",
       "anchor": [
         0.5,
-        0.7407
-      ]
+        0.6815
+      ],
+      "feet_y": 92
     },
     {
       "id": "PC_FEMALE_000005",
@@ -184,8 +188,9 @@
       "thumb": "assets/characters/PC_FEMALE_000005/thumb.webp",
       "anchor": [
         0.5,
-        0.8413
-      ]
+        0.7778
+      ],
+      "feet_y": 98
     },
     {
       "id": "PC_FEMALE_000006",
@@ -221,8 +226,9 @@
       "thumb": "assets/characters/PC_FEMALE_000006/thumb.webp",
       "anchor": [
         0.5,
-        0.8468
-      ]
+        0.7928
+      ],
+      "feet_y": 88
     },
     {
       "id": "PC_FEMALE_000011",
@@ -261,8 +267,9 @@
       "thumb": "assets/characters/PC_FEMALE_000011/thumb.webp",
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9118
+      ],
+      "feet_y": 124
     },
     {
       "id": "PC_FEMALE_000012",
@@ -301,8 +308,9 @@
       "thumb": "assets/characters/PC_FEMALE_000012/thumb.webp",
       "anchor": [
         0.5,
-        0.8794
-      ]
+        0.766
+      ],
+      "feet_y": 108
     },
     {
       "id": "PC_FEMALE_000013",
@@ -341,8 +349,9 @@
       "thumb": "assets/characters/PC_FEMALE_000013/thumb.webp",
       "anchor": [
         0.5,
-        0.8944
-      ]
+        0.7606
+      ],
+      "feet_y": 108
     },
     {
       "id": "PC_FEMALE_000014",
@@ -381,8 +390,9 @@
       "thumb": "assets/characters/PC_FEMALE_000014/thumb.webp",
       "anchor": [
         0.5,
-        0.8188
-      ]
+        0.6014
+      ],
+      "feet_y": 83
     },
     {
       "id": "PC_FEMALE_000015",
@@ -421,8 +431,9 @@
       "thumb": "assets/characters/PC_FEMALE_000015/thumb.webp",
       "anchor": [
         0.5,
-        0.8623
-      ]
+        0.7971
+      ],
+      "feet_y": 110
     },
     {
       "id": "PC_FEMALE_000016",
@@ -461,8 +472,9 @@
       "thumb": "assets/characters/PC_FEMALE_000016/thumb.webp",
       "anchor": [
         0.5,
-        0.8613
-      ]
+        0.8394
+      ],
+      "feet_y": 115
     },
     {
       "id": "PC_FEMALE_010005",
@@ -502,7 +514,8 @@
       "anchor": [
         0.5,
         0.8059
-      ]
+      ],
+      "feet_y": 137
     },
     {
       "id": "PC_FEMALE_010010",
@@ -542,7 +555,8 @@
       "anchor": [
         0.5,
         1.0
-      ]
+      ],
+      "feet_y": 316
     },
     {
       "id": "PC_FEMALE_010011",
@@ -582,7 +596,8 @@
       "anchor": [
         0.5,
         1.0
-      ]
+      ],
+      "feet_y": 315
     },
     {
       "id": "PC_FEMALE_010012",
@@ -622,7 +637,8 @@
       "anchor": [
         0.5,
         1.0
-      ]
+      ],
+      "feet_y": 234
     },
     {
       "id": "PC_FEMALE_010016",
@@ -662,7 +678,8 @@
       "anchor": [
         0.5,
         0.9326
-      ]
+      ],
+      "feet_y": 249
     },
     {
       "id": "PC_FEMALE_010017",
@@ -702,7 +719,8 @@
       "anchor": [
         0.5,
         1.0
-      ]
+      ],
+      "feet_y": 267
     },
     {
       "id": "PC_FEMALE_010018",
@@ -742,7 +760,8 @@
       "anchor": [
         0.5,
         0.734
-      ]
+      ],
+      "feet_y": 218
     },
     {
       "id": "PC_FEMALE_010019",
@@ -782,7 +801,8 @@
       "anchor": [
         0.5,
         1.0
-      ]
+      ],
+      "feet_y": 303
     },
     {
       "id": "PC_FEMALE_010020",
@@ -822,7 +842,8 @@
       "anchor": [
         0.5,
         1.0
-      ]
+      ],
+      "feet_y": 358
     },
     {
       "id": "PC_FEMALE_100001",
@@ -858,8 +879,9 @@
       "thumb": "assets/characters/PC_FEMALE_100001/thumb.webp",
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9009
+      ],
+      "feet_y": 100
     },
     {
       "id": "PC_FEMALE_100002",
@@ -894,8 +916,9 @@
       "thumb": "assets/characters/PC_FEMALE_100002/thumb.webp",
       "anchor": [
         0.5,
-        0.8909
-      ]
+        0.8273
+      ],
+      "feet_y": 91
     },
     {
       "id": "PC_FEMALE_100003",
@@ -931,8 +954,9 @@
       "thumb": "assets/characters/PC_FEMALE_100003/thumb.webp",
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.8034
+      ],
+      "feet_y": 94
     },
     {
       "id": "PC_FEMALE_100004",
@@ -967,8 +991,9 @@
       "thumb": "assets/characters/PC_FEMALE_100004/thumb.webp",
       "anchor": [
         0.5,
-        0.7313
-      ]
+        0.694
+      ],
+      "feet_y": 93
     },
     {
       "id": "PC_FEMALE_100005",
@@ -1004,8 +1029,9 @@
       "thumb": "assets/characters/PC_FEMALE_100005/thumb.webp",
       "anchor": [
         0.5,
-        0.84
-      ]
+        0.768
+      ],
+      "feet_y": 96
     },
     {
       "id": "PC_FEMALE_100006",
@@ -1041,8 +1067,9 @@
       "thumb": "assets/characters/PC_FEMALE_100006/thumb.webp",
       "anchor": [
         0.5,
-        0.8468
-      ]
+        0.7928
+      ],
+      "feet_y": 88
     },
     {
       "id": "PC_MALE_000001",
@@ -1078,8 +1105,9 @@
       "thumb": "assets/characters/PC_MALE_000001/thumb.webp",
       "anchor": [
         0.5,
-        0.8504
-      ]
+        0.7953
+      ],
+      "feet_y": 101
     },
     {
       "id": "PC_MALE_000002",
@@ -1115,8 +1143,9 @@
       "thumb": "assets/characters/PC_MALE_000002/thumb.webp",
       "anchor": [
         0.5,
-        0.8571
-      ]
+        0.7983
+      ],
+      "feet_y": 95
     },
     {
       "id": "PC_MALE_000003",
@@ -1152,8 +1181,9 @@
       "thumb": "assets/characters/PC_MALE_000003/thumb.webp",
       "anchor": [
         0.5,
-        0.8548
-      ]
+        0.8145
+      ],
+      "feet_y": 101
     },
     {
       "id": "PC_MALE_000004",
@@ -1189,8 +1219,9 @@
       "thumb": "assets/characters/PC_MALE_000004/thumb.webp",
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9196
+      ],
+      "feet_y": 103
     },
     {
       "id": "PC_MALE_000005",
@@ -1226,8 +1257,9 @@
       "thumb": "assets/characters/PC_MALE_000005/thumb.webp",
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9346
+      ],
+      "feet_y": 100
     },
     {
       "id": "PC_MALE_000006",
@@ -1263,8 +1295,9 @@
       "thumb": "assets/characters/PC_MALE_000006/thumb.webp",
       "anchor": [
         0.5,
-        0.9083
-      ]
+        0.8167
+      ],
+      "feet_y": 98
     },
     {
       "id": "PC_MALE_000011",
@@ -1303,8 +1336,9 @@
       "thumb": "assets/characters/PC_MALE_000011/thumb.webp",
       "anchor": [
         0.5,
-        0.8792
-      ]
+        0.8255
+      ],
+      "feet_y": 123
     },
     {
       "id": "PC_MALE_000012",
@@ -1343,8 +1377,9 @@
       "thumb": "assets/characters/PC_MALE_000012/thumb.webp",
       "anchor": [
         0.5,
-        0.8705
-      ]
+        0.8345
+      ],
+      "feet_y": 116
     },
     {
       "id": "PC_MALE_000013",
@@ -1383,8 +1418,9 @@
       "thumb": "assets/characters/PC_MALE_000013/thumb.webp",
       "anchor": [
         0.5,
-        0.8477
-      ]
+        0.8013
+      ],
+      "feet_y": 121
     },
     {
       "id": "PC_MALE_000014",
@@ -1423,8 +1459,9 @@
       "thumb": "assets/characters/PC_MALE_000014/thumb.webp",
       "anchor": [
         0.5,
-        0.9843
-      ]
+        0.9055
+      ],
+      "feet_y": 115
     },
     {
       "id": "PC_MALE_000015",
@@ -1463,8 +1500,9 @@
       "thumb": "assets/characters/PC_MALE_000015/thumb.webp",
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.935
+      ],
+      "feet_y": 115
     },
     {
       "id": "PC_MALE_000016",
@@ -1503,8 +1541,9 @@
       "thumb": "assets/characters/PC_MALE_000016/thumb.webp",
       "anchor": [
         0.5,
-        0.9172
-      ]
+        0.8276
+      ],
+      "feet_y": 120
     },
     {
       "id": "PC_MALE_100000",
@@ -1540,8 +1579,9 @@
       "thumb": "assets/characters/PC_MALE_100000/thumb.webp",
       "anchor": [
         0.5,
-        0.9083
-      ]
+        0.8167
+      ],
+      "feet_y": 98
     },
     {
       "id": "PC_MALE_100001",
@@ -1577,8 +1617,9 @@
       "thumb": "assets/characters/PC_MALE_100001/thumb.webp",
       "anchor": [
         0.5,
-        0.8504
-      ]
+        0.8189
+      ],
+      "feet_y": 104
     },
     {
       "id": "PC_MALE_100002",
@@ -1614,8 +1655,9 @@
       "thumb": "assets/characters/PC_MALE_100002/thumb.webp",
       "anchor": [
         0.5,
-        0.8571
-      ]
+        0.8151
+      ],
+      "feet_y": 97
     },
     {
       "id": "PC_MALE_100003",
@@ -1651,8 +1693,9 @@
       "thumb": "assets/characters/PC_MALE_100003/thumb.webp",
       "anchor": [
         0.5,
-        0.8618
-      ]
+        0.8374
+      ],
+      "feet_y": 103
     },
     {
       "id": "PC_MALE_100004",
@@ -1688,8 +1731,9 @@
       "thumb": "assets/characters/PC_MALE_100004/thumb.webp",
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9455
+      ],
+      "feet_y": 104
     },
     {
       "id": "PC_MALE_100005",
@@ -1725,8 +1769,9 @@
       "thumb": "assets/characters/PC_MALE_100005/thumb.webp",
       "anchor": [
         0.5,
-        1.0
-      ]
+        0.9528
+      ],
+      "feet_y": 101
     },
     {
       "id": "PC_MALE_100006",
@@ -1762,8 +1807,9 @@
       "thumb": "assets/characters/PC_MALE_100006/thumb.webp",
       "anchor": [
         0.5,
-        0.9083
-      ]
+        0.8083
+      ],
+      "feet_y": 97
     }
   ]
 }

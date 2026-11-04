@@ -2,7 +2,7 @@
   "name": "Babatos",
   "anchor": [
     0.5,
-    1.0
+    0.8344
   ],
   "width": 164,
   "height": 151,
@@ -44,5 +44,5 @@
   "db_id": "2109",
   "res_code_num": 1247,
   "swf_hash": "3985b25e9e6c75160070d43d5f86dd9b",
-  "feet_y": 151
+  "feet_y": 126
 }

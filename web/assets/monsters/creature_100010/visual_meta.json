@@ -2,7 +2,7 @@
   "name": "Tiểu Lương Tử",
   "anchor": [
     0.5,
-    1.0
+    0.8288
   ],
   "width": 119,
   "height": 146,
@@ -44,5 +44,5 @@
   "db_id": "87",
   "res_code_num": 100010,
   "swf_hash": "f57ae92066b1238d34fd7f2a39174851",
-  "feet_y": 146
+  "feet_y": 121
 }

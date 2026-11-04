@@ -2,7 +2,7 @@
   "name": "Cận Vệ Của Rink",
   "anchor": [
     0.5,
-    1.0
+    0.9346
   ],
   "width": 81,
   "height": 107,
@@ -44,5 +44,5 @@
   "db_id": "220",
   "res_code_num": 5,
   "swf_hash": "5fd7d0051422b1a623fbf1af9c9c7683",
-  "feet_y": 107
+  "feet_y": 100
 }

@@ -2,7 +2,7 @@
   "name": "Hervor",
   "anchor": [
     0.5,
-    1.0
+    0.8586
   ],
   "width": 206,
   "height": 198,
@@ -44,5 +44,5 @@
   "db_id": "2092",
   "res_code_num": 1239,
   "swf_hash": "d3cac0338e3734723dac6e1920abd0cd",
-  "feet_y": 198
+  "feet_y": 170
 }

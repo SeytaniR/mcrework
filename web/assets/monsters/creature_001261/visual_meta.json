@@ -2,7 +2,7 @@
   "name": "Bạo Long Thú",
   "anchor": [
     0.5,
-    1.0
+    0.7663
   ],
   "width": 336,
   "height": 291,
@@ -44,5 +44,5 @@
   "db_id": "2157",
   "res_code_num": 1261,
   "swf_hash": "faaccded4584395f9ea646ba7fb22166",
-  "feet_y": 291
+  "feet_y": 223
 }

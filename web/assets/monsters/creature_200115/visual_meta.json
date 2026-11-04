@@ -2,7 +2,7 @@
   "name": "Thỏ Baby【Tiến Hóa】",
   "anchor": [
     0.5,
-    1.0
+    0.9113
   ],
   "width": 75,
   "height": 124,
@@ -44,5 +44,5 @@
   "db_id": "1423",
   "res_code_num": 200115,
   "swf_hash": "7a2d58ebc30a3a8c541dfb18565f225a",
-  "feet_y": 124
+  "feet_y": 113
 }

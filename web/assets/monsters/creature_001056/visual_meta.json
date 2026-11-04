@@ -2,7 +2,7 @@
   "name": "Chuột Tuyết Mạo Hiểm",
   "anchor": [
     0.5,
-    1.0
+    0.7851
   ],
   "width": 137,
   "height": 121,
@@ -44,5 +44,5 @@
   "db_id": "290",
   "res_code_num": 1056,
   "swf_hash": "c5be4d04f2ff9a1ce7a4eb6fdc5fb3e6",
-  "feet_y": 121
+  "feet_y": 95
 }

@@ -2,7 +2,7 @@
   "name": "Guerreira Base (F)",
   "anchor": [
     0.5,
-    1.0
+    0.9099
   ],
   "width": 107,
   "height": 111,
@@ -45,5 +45,5 @@
   "tier": 1,
   "res_code_num": 1,
   "swf_hash": "d0f31343c4877922fc9201747607b3b3",
-  "feet_y": 111
+  "feet_y": 101
 }

@@ -2,7 +2,7 @@
   "name": "Hiệp Khách Trục Phong",
   "anchor": [
     0.5,
-    1.0
+    0.768
   ],
   "width": 175,
   "height": 181,
@@ -44,5 +44,5 @@
   "db_id": "893",
   "res_code_num": 200050,
   "swf_hash": "3df5b9007247c3b6cc94970959402579",
-  "feet_y": 181
+  "feet_y": 139
 }

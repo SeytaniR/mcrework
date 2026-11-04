@@ -2,7 +2,7 @@
   "name": "Thỏ Baby",
   "anchor": [
     0.5,
-    1.0
+    0.9677
   ],
   "width": 130,
   "height": 124,
@@ -44,5 +44,5 @@
   "db_id": "903",
   "res_code_num": 100020,
   "swf_hash": "3bcaa8ab39477ea7586cdf5c1916ec00",
-  "feet_y": 124
+  "feet_y": 120
 }

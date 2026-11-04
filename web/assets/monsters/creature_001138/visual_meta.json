@@ -2,7 +2,7 @@
   "name": "Criatura #001138",
   "anchor": [
     0.5,
-    1.0
+    0.8846
   ],
   "width": 109,
   "height": 130,
@@ -44,5 +44,5 @@
   "db_id": "101138",
   "res_code_num": 1138,
   "swf_hash": "93124e2c535fa80a6df4e4b91b7162a9",
-  "feet_y": 130
+  "feet_y": 115
 }

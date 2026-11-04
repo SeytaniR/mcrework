@@ -2,7 +2,7 @@
   "name": "Bạch Tuyết Mã (Égua Branca Polar)",
   "anchor": [
     0.5,
-    1.0
+    0.9009
   ],
   "width": 107,
   "height": 111,
@@ -44,5 +44,5 @@
   "rel": "creature/PC_FEMALE_100001.swf",
   "type": "female_mount",
   "mount_tier": 1,
-  "feet_y": 111
+  "feet_y": 100
 }

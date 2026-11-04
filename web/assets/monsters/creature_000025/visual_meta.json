@@ -2,7 +2,7 @@
   "name": "Thảo Nguyên Gấu Vương",
   "anchor": [
     0.5,
-    0.9
+    0.8222
   ],
   "width": 167,
   "height": 180,
@@ -44,5 +44,5 @@
   "db_id": "242",
   "res_code_num": 25,
   "swf_hash": "e3043c838026c46ff9ad04b593cc7d97",
-  "feet_y": 162
+  "feet_y": 148
 }

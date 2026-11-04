@@ -2,7 +2,7 @@
   "name": "Thiên Sứ Mít Ướt【Tiến Hóa】",
   "anchor": [
     0.5,
-    1.0
+    0.9217
   ],
   "width": 117,
   "height": 115,
@@ -44,5 +44,5 @@
   "db_id": "1407",
   "res_code_num": 200127,
   "swf_hash": "81da1c7bd72e4c0793c92ce792d837bb",
-  "feet_y": 115
+  "feet_y": 106
 }

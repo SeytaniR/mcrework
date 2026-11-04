@@ -2,7 +2,7 @@
   "name": "Haka Leeds【Boss 1-1 VDRL】",
   "anchor": [
     0.5,
-    1.0
+    0.932
   ],
   "width": 220,
   "height": 206,
@@ -44,5 +44,5 @@
   "db_id": "1802",
   "res_code_num": 100036,
   "swf_hash": "ac95d85e1db5e0970bd5fd74b6c10f4b",
-  "feet_y": 206
+  "feet_y": 192
 }

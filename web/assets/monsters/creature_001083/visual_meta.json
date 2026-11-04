@@ -2,7 +2,7 @@
   "name": "Nộ Viêm Lam Đế",
   "anchor": [
     0.5,
-    1.0
+    0.8771
   ],
   "width": 329,
   "height": 236,
@@ -44,5 +44,5 @@
   "db_id": "303",
   "res_code_num": 1083,
   "swf_hash": "45681b08d8181ef8638a7d1bc096cbbc",
-  "feet_y": 236
+  "feet_y": 207
 }

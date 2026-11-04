@@ -2,7 +2,7 @@
   "name": "Cát Hải Tinh",
   "anchor": [
     0.5,
-    0.8696
+    0.8174
   ],
   "width": 118,
   "height": 115,
@@ -44,5 +44,5 @@
   "db_id": "8",
   "res_code_num": 8,
   "swf_hash": "3baf38e7f8f05a0580834e945923caec",
-  "feet_y": 100
+  "feet_y": 94
 }

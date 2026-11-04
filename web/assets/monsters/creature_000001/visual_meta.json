@@ -2,7 +2,7 @@
   "name": "Bang Hung",
   "anchor": [
     0.5,
-    1.0
+    0.9535
   ],
   "width": 119,
   "height": 129,
@@ -44,5 +44,5 @@
   "db_id": "27",
   "res_code_num": 1,
   "swf_hash": "baa063bf9c45975d5a335f7b1fe14be3",
-  "feet_y": 129
+  "feet_y": 123
 }

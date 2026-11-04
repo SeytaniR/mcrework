@@ -2,7 +2,7 @@
   "name": "Thiên Không Nấm",
   "anchor": [
     0.5,
-    1.0
+    0.6994
   ],
   "width": 276,
   "height": 173,
@@ -44,5 +44,5 @@
   "db_id": "2149",
   "res_code_num": 1266,
   "swf_hash": "44d8cbe73cff047ea4ee8e8f8791ed67",
-  "feet_y": 173
+  "feet_y": 121
 }

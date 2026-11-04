@@ -2,7 +2,7 @@
   "name": "Mộng Lão Ông",
   "anchor": [
     0.5,
-    1.0
+    0.8803
   ],
   "width": 118,
   "height": 117,
@@ -44,5 +44,5 @@
   "db_id": "613",
   "res_code_num": 1109,
   "swf_hash": "0aac2ca5c3eae11aca967206c0cc7d82",
-  "feet_y": 117
+  "feet_y": 103
 }

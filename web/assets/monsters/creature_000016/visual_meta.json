@@ -2,7 +2,7 @@
   "name": "Nấm Đỏ",
   "anchor": [
     0.5,
-    1.0
+    0.8211
   ],
   "width": 121,
   "height": 95,
@@ -43,5 +43,5 @@
   "db_id": "108",
   "res_code_num": 16,
   "swf_hash": "d85f2c0df2cbb7a35cfd1ae3093e0b06",
-  "feet_y": 95
+  "feet_y": 78
 }

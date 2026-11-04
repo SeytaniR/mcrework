@@ -2,7 +2,7 @@
   "name": "Tinh Huyền Châu",
   "anchor": [
     0.5,
-    1.0
+    0.8563
   ],
   "width": 154,
   "height": 167,
@@ -44,5 +44,5 @@
   "db_id": "1812",
   "res_code_num": 1189,
   "swf_hash": "a74b46ceed7726a49ea79920d7c2e7c4",
-  "feet_y": 167
+  "feet_y": 143
 }
