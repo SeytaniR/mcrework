@@ -1,0 +1,208 @@
+{
+  "frames": {
+    "469_00": {
+      "frame": {
+        "x": 2,
+        "y": 2,
+        "w": 49,
+        "h": 47
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 49,
+        "h": 47
+      },
+      "sourceSize": {
+        "w": 49,
+        "h": 47
+      }
+    },
+    "469_01": {
+      "frame": {
+        "x": 53,
+        "y": 2,
+        "w": 49,
+        "h": 47
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 49,
+        "h": 47
+      },
+      "sourceSize": {
+        "w": 49,
+        "h": 47
+      }
+    },
+    "469_02": {
+      "frame": {
+        "x": 104,
+        "y": 2,
+        "w": 49,
+        "h": 47
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 49,
+        "h": 47
+      },
+      "sourceSize": {
+        "w": 49,
+        "h": 47
+      }
+    },
+    "469_03": {
+      "frame": {
+        "x": 2,
+        "y": 51,
+        "w": 49,
+        "h": 47
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 49,
+        "h": 47
+      },
+      "sourceSize": {
+        "w": 49,
+        "h": 47
+      }
+    },
+    "469_04": {
+      "frame": {
+        "x": 53,
+        "y": 51,
+        "w": 49,
+        "h": 47
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 49,
+        "h": 47
+      },
+      "sourceSize": {
+        "w": 49,
+        "h": 47
+      }
+    },
+    "469_05": {
+      "frame": {
+        "x": 104,
+        "y": 51,
+        "w": 49,
+        "h": 47
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 49,
+        "h": 47
+      },
+      "sourceSize": {
+        "w": 49,
+        "h": 47
+      }
+    },
+    "469_06": {
+      "frame": {
+        "x": 2,
+        "y": 100,
+        "w": 49,
+        "h": 47
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 49,
+        "h": 47
+      },
+      "sourceSize": {
+        "w": 49,
+        "h": 47
+      }
+    },
+    "469_07": {
+      "frame": {
+        "x": 53,
+        "y": 100,
+        "w": 49,
+        "h": 47
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 49,
+        "h": 47
+      },
+      "sourceSize": {
+        "w": 49,
+        "h": 47
+      }
+    },
+    "469_08": {
+      "frame": {
+        "x": 104,
+        "y": 100,
+        "w": 49,
+        "h": 47
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 49,
+        "h": 47
+      },
+      "sourceSize": {
+        "w": 49,
+        "h": 47
+      }
+    }
+  },
+  "animations": {
+    "play": [
+      "469_00",
+      "469_01",
+      "469_02",
+      "469_03",
+      "469_04",
+      "469_05",
+      "469_06",
+      "469_07",
+      "469_08"
+    ]
+  },
+  "meta": {
+    "app": "MagicCampusEffectConverter",
+    "version": "1.0",
+    "image": "atlas.webp",
+    "format": "RGBA8888",
+    "size": {
+      "w": 155,
+      "h": 149
+    },
+    "scale": "1"
+  }
+}
