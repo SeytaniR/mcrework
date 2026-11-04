@@ -255,3 +255,23 @@ Acesse no navegador: `http://localhost:8080/`.
 * Aproxime o personagem do Cogumelo Selvagem ou clique no botão do menu lateral.
 * No painel de teste, dispare as animações individuais (Golpe, Magia, Suprema, Defesa, Dano, Caído) para inspecionar os efeitos visuais e o alinhamento corporal.
 * Ative o **🔄 Sparring Contínuo** para validar a execução contínua de loops de batalha.
+
+
+---
+
+## 7. Pipeline de Conversão de Habilidades e Efeitos Especiais (VFX)
+
+### 7.1. Arquitetura de Hashes e Resolução de Recursos
+O cliente Flash original do Magic Campus resolvia recursos através de códigos numéricos de 13 dígitos (`iconCode`, `resCode`) mapeados pela classe `UrlUtil.as`:
+* **Ícones de Habilidade:** Convertidos a partir de `icon/skill/SKILL_NORMAL_{num:06d}.png` para MD5 e extraídos para `web/assets/skills/icons/{num}.png` (411 ícones recuperados).
+* **Efeitos Especiais:** Localizados como `resource/effect/EFF_PLAYER_{num:06d}.swf` (128 arquivos SWF processados com sucesso).
+
+### 7.2. Rasterização Vetorial Headless e Geração de Spritesheets WebP
+Diferente dos monstros e personagens que continham bitmaps rasterizados internos, os efeitos especiais de magia e combate eram animações vetoriais Flash puras (`DefineSprite`, `DefineShape3`).
+* **Descompilação:** Uso de pipeline automatizado com JPEXS Decompiler (FFDec v26.4.0) em modo headless (`-ignorebackground -format sprite:png,frame:png -export sprite,frame`).
+* **Empacotamento WebP:** Para cada efeito, os quadros do `Timeline_1` / sprite principal foram recortados por sua caixa delimitadora global (*bounding box*) e montados em um atlas WebP de alta eficiência (`atlas.webp` + `atlas.json` + `visual_meta.json`).
+* **Metadados:** Cada efeito inclui FPS, duração em milissegundos (`duration_ms`), dimensões e pontos de âncora para centralização perfeita sobre o alvo.
+
+### 7.3. Catálogo de Habilidades e Desacoplamento Lógico
+* **Catálogo Unificado:** `web/assets/skills/catalog.json` consolida 1.923 habilidades distintas com níveis, descrições, classes requeridas, custos de MP/SP e vinculação ao respectivo efeito especial VFX (`effect_id`).
+* **Zero Fórmulas Antigas:** Nenhuma tabela de dano ou cálculo antigo foi importado, permitindo que o novo motor de combate defina livremente seus multiplicadores e balanceamento.

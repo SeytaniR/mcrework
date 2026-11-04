@@ -1,27 +1,30 @@
-import os
+import sys, os, re
 
-web_dir = r"C:\Users\Dell\.gemini\antigravity\scratch\magic-campus-pixi\web"
-main_js_path = os.path.join(web_dir, "main.js")
-index_html_path = os.path.join(web_dir, "index.html")
+sys.stdout.reconfigure(encoding='utf-8', errors='replace')
 
-with open(main_js_path, "r", encoding="utf-8") as f:
-    c = f.read()
+ws = r'C:\Users\Dell\.gemini\antigravity\scratch\magic-campus-pixi'
+os.chdir(ws)
 
-c = c.replace('fetch("assets/characters/catalog.json")', 'fetch("assets/characters/catalog.json?v=1.2.1")')
-c = c.replace('fetch("assets/monsters/catalog.json")', 'fetch("assets/monsters/catalog.json?v=1.2.1")')
-c = c.replace('fetch("assets/mounts/catalog.json")', 'fetch("assets/mounts/catalog.json?v=1.2.1")')
-c = c.replace('fetch("assets/npcs/catalog.json")', 'fetch("assets/npcs/catalog.json?v=1.2.1")')
+TARGET_VERSION = "1.4.0"
 
-with open(main_js_path, "w", encoding="utf-8", newline="\n") as f:
-    f.write(c)
+# 1. Update index.html
+with open('web/index.html', 'r', encoding='utf-8') as f:
+    html = f.read()
 
-with open(index_html_path, "r", encoding="utf-8") as f:
-    h = f.read()
+html = re.sub(r'style\.css\?v=[0-9a-zA-Z\.\-]+', f'style.css?v={TARGET_VERSION}', html)
+html = re.sub(r'main\.js\?v=[0-9a-zA-Z\.\-]+', f'main.js?v={TARGET_VERSION}', html)
 
-h = h.replace('style.css?v=1.2.0', 'style.css?v=1.2.1')
-h = h.replace('main.js?v=1.2.0', 'main.js?v=1.2.1')
+with open('web/index.html', 'w', encoding='utf-8') as f:
+    f.write(html)
 
-with open(index_html_path, "w", encoding="utf-8", newline="\n") as f:
-    f.write(h)
+# 2. Update main.js
+with open('web/main.js', 'r', encoding='utf-8') as f:
+    js = f.read()
 
-print("Cache busting updated to v=1.2.1 successfully")
+js = re.sub(r'catalog\.json\?v=[0-9a-zA-Z\.\-]+', f'catalog.json?v={TARGET_VERSION}', js)
+js = re.sub(r'collision\.bin\?v=[0-9a-zA-Z\.\-]+', f'collision.bin?v={TARGET_VERSION}', js)
+
+with open('web/main.js', 'w', encoding='utf-8') as f:
+    f.write(js)
+
+print(f"Updated cache bust version to v={TARGET_VERSION} in index.html and main.js!")

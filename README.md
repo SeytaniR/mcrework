@@ -29,6 +29,14 @@ Um projeto moderno de recriação de engine e modernização do clássico MMORPG
   * ✨ **Efeitos Visuais (VFX / Skills):** Explosões mágicas, projéteis arcanos e auras.
   * 🎨 **Ícones & Interface:** Ícones de habilidades, armaduras, armas e consumíveis.
 
+
+### 5. Acervo de Habilidades & Efeitos Especiais (VFX / SFX) 🔮✨
+* **Extração Visual Exclusiva:** Conforme a filosofia do projeto, nenhuma fórmula ou cálculo antigo foi importado. Todo o foco foi direcionado para a recuperação integral do patrimônio audiovisual de magias e efeitos:
+  * 🔮 **1.923 Habilidades Catalogadas:** Mapeadas com nomes, categorias (Classes, Pets, Despertar, Suporte), tipos de alvo e padrões de área.
+  * 🎨 **411 Ícones Oficiais (32×32 PNG):** Extraídos e organizados em `web/assets/skills/icons/`.
+  * ⚡ **128 Efeitos Especiais Animados (VFX):** Decompilados a partir dos arquivos SWF originais (`DefineSprite` e vetores Flash) e convertidos em spritesheets WebP compactos com transparência alfa e metadados de duração em `web/assets/effects/`.
+  * 📱 **Grimório Interativo no Cliente:** Provador de habilidades no topo do HUD mobile com busca em tempo real, filtros por classe/pet e botão de disparo imediato do efeito visual no jogo.
+
 ### 4. Separação Arquitetural em 3 Camadas
 ```mermaid
 flowchart TD

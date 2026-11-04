@@ -1,0 +1,1282 @@
+[
+  {
+    "id": 1,
+    "num": "1",
+    "swf": "EFF_PLAYER_000001.swf",
+    "frames": 9,
+    "width": 149,
+    "height": 119,
+    "duration_ms": 375,
+    "atlas": "assets/effects/1/atlas.json"
+  },
+  {
+    "id": 2,
+    "num": "2",
+    "swf": "EFF_PLAYER_000002.swf",
+    "frames": 25,
+    "width": 45,
+    "height": 21,
+    "duration_ms": 1041,
+    "atlas": "assets/effects/2/atlas.json"
+  },
+  {
+    "id": 3,
+    "num": "3",
+    "swf": "EFF_PLAYER_000003.swf",
+    "frames": 55,
+    "width": 8,
+    "height": 89,
+    "duration_ms": 2291,
+    "atlas": "assets/effects/3/atlas.json"
+  },
+  {
+    "id": 4,
+    "num": "4",
+    "swf": "EFF_PLAYER_000004.swf",
+    "frames": 24,
+    "width": 550,
+    "height": 400,
+    "duration_ms": 1000,
+    "atlas": "assets/effects/4/atlas.json"
+  },
+  {
+    "id": 5,
+    "num": "5",
+    "swf": "EFF_PLAYER_000005.swf",
+    "frames": 25,
+    "width": 550,
+    "height": 400,
+    "duration_ms": 1041,
+    "atlas": "assets/effects/5/atlas.json"
+  },
+  {
+    "id": 6,
+    "num": "6",
+    "swf": "EFF_PLAYER_000006.swf",
+    "frames": 25,
+    "width": 35,
+    "height": 22,
+    "duration_ms": 1041,
+    "atlas": "assets/effects/6/atlas.json"
+  },
+  {
+    "id": 8,
+    "num": "8",
+    "swf": "EFF_PLAYER_000008.swf",
+    "frames": 8,
+    "width": 153,
+    "height": 140,
+    "duration_ms": 333,
+    "atlas": "assets/effects/8/atlas.json"
+  },
+  {
+    "id": 9,
+    "num": "9",
+    "swf": "EFF_PLAYER_000009.swf",
+    "frames": 31,
+    "width": 267,
+    "height": 187,
+    "duration_ms": 1291,
+    "atlas": "assets/effects/9/atlas.json"
+  },
+  {
+    "id": 10,
+    "num": "10",
+    "swf": "EFF_PLAYER_000010.swf",
+    "frames": 30,
+    "width": 382,
+    "height": 383,
+    "duration_ms": 1250,
+    "atlas": "assets/effects/10/atlas.json"
+  },
+  {
+    "id": 12,
+    "num": "12",
+    "swf": "EFF_PLAYER_000012.swf",
+    "frames": 55,
+    "width": 8,
+    "height": 89,
+    "duration_ms": 2291,
+    "atlas": "assets/effects/12/atlas.json"
+  },
+  {
+    "id": 14,
+    "num": "14",
+    "swf": "EFF_PLAYER_000014.swf",
+    "frames": 30,
+    "width": 280,
+    "height": 259,
+    "duration_ms": 1250,
+    "atlas": "assets/effects/14/atlas.json"
+  },
+  {
+    "id": 15,
+    "num": "15",
+    "swf": "EFF_PLAYER_000015.swf",
+    "frames": 50,
+    "width": 93,
+    "height": 72,
+    "duration_ms": 2083,
+    "atlas": "assets/effects/15/atlas.json"
+  },
+  {
+    "id": 16,
+    "num": "16",
+    "swf": "EFF_PLAYER_000016.swf",
+    "frames": 57,
+    "width": 44,
+    "height": 57,
+    "duration_ms": 2375,
+    "atlas": "assets/effects/16/atlas.json"
+  },
+  {
+    "id": 17,
+    "num": "17",
+    "swf": "EFF_PLAYER_000017.swf",
+    "frames": 30,
+    "width": 67,
+    "height": 51,
+    "duration_ms": 1250,
+    "atlas": "assets/effects/17/atlas.json"
+  },
+  {
+    "id": 18,
+    "num": "18",
+    "swf": "EFF_PLAYER_000018.swf",
+    "frames": 30,
+    "width": 89,
+    "height": 86,
+    "duration_ms": 1250,
+    "atlas": "assets/effects/18/atlas.json"
+  },
+  {
+    "id": 19,
+    "num": "19",
+    "swf": "EFF_PLAYER_000019.swf",
+    "frames": 30,
+    "width": 115,
+    "height": 115,
+    "duration_ms": 1250,
+    "atlas": "assets/effects/19/atlas.json"
+  },
+  {
+    "id": 20,
+    "num": "20",
+    "swf": "EFF_PLAYER_000020.swf",
+    "frames": 47,
+    "width": 272,
+    "height": 269,
+    "duration_ms": 1958,
+    "atlas": "assets/effects/20/atlas.json"
+  },
+  {
+    "id": 21,
+    "num": "21",
+    "swf": "EFF_PLAYER_000021.swf",
+    "frames": 17,
+    "width": 120,
+    "height": 82,
+    "duration_ms": 708,
+    "atlas": "assets/effects/21/atlas.json"
+  },
+  {
+    "id": 22,
+    "num": "22",
+    "swf": "EFF_PLAYER_000022.swf",
+    "frames": 30,
+    "width": 299,
+    "height": 248,
+    "duration_ms": 1250,
+    "atlas": "assets/effects/22/atlas.json"
+  },
+  {
+    "id": 30,
+    "num": "30",
+    "swf": "EFF_PLAYER_000030.swf",
+    "frames": 17,
+    "width": 120,
+    "height": 82,
+    "duration_ms": 708,
+    "atlas": "assets/effects/30/atlas.json"
+  },
+  {
+    "id": 31,
+    "num": "31",
+    "swf": "EFF_PLAYER_000031.swf",
+    "frames": 30,
+    "width": 280,
+    "height": 259,
+    "duration_ms": 1250,
+    "atlas": "assets/effects/31/atlas.json"
+  },
+  {
+    "id": 32,
+    "num": "32",
+    "swf": "EFF_PLAYER_000032.swf",
+    "frames": 20,
+    "width": 90,
+    "height": 125,
+    "duration_ms": 833,
+    "atlas": "assets/effects/32/atlas.json"
+  },
+  {
+    "id": 33,
+    "num": "33",
+    "swf": "EFF_PLAYER_000033.swf",
+    "frames": 41,
+    "width": 85,
+    "height": 94,
+    "duration_ms": 1708,
+    "atlas": "assets/effects/33/atlas.json"
+  },
+  {
+    "id": 34,
+    "num": "34",
+    "swf": "EFF_PLAYER_000034.swf",
+    "frames": 16,
+    "width": 67,
+    "height": 52,
+    "duration_ms": 666,
+    "atlas": "assets/effects/34/atlas.json"
+  },
+  {
+    "id": 301,
+    "num": "301",
+    "swf": "EFF_PLAYER_000301.swf",
+    "frames": 10,
+    "width": 348,
+    "height": 348,
+    "duration_ms": 416,
+    "atlas": "assets/effects/301/atlas.json"
+  },
+  {
+    "id": 302,
+    "num": "302",
+    "swf": "EFF_PLAYER_000302.swf",
+    "frames": 9,
+    "width": 184,
+    "height": 183,
+    "duration_ms": 375,
+    "atlas": "assets/effects/302/atlas.json"
+  },
+  {
+    "id": 303,
+    "num": "303",
+    "swf": "EFF_PLAYER_000303.swf",
+    "frames": 30,
+    "width": 186,
+    "height": 266,
+    "duration_ms": 1250,
+    "atlas": "assets/effects/303/atlas.json"
+  },
+  {
+    "id": 307,
+    "num": "307",
+    "swf": "EFF_PLAYER_000307.swf",
+    "frames": 6,
+    "width": 346,
+    "height": 369,
+    "duration_ms": 250,
+    "atlas": "assets/effects/307/atlas.json"
+  },
+  {
+    "id": 310,
+    "num": "310",
+    "swf": "EFF_PLAYER_000310.swf",
+    "frames": 4,
+    "width": 816,
+    "height": 815,
+    "duration_ms": 166,
+    "atlas": "assets/effects/310/atlas.json"
+  },
+  {
+    "id": 312,
+    "num": "312",
+    "swf": "EFF_PLAYER_000312.swf",
+    "frames": 9,
+    "width": 99,
+    "height": 108,
+    "duration_ms": 375,
+    "atlas": "assets/effects/312/atlas.json"
+  },
+  {
+    "id": 313,
+    "num": "313",
+    "swf": "EFF_PLAYER_000313.swf",
+    "frames": 120,
+    "width": 364,
+    "height": 118,
+    "duration_ms": 5000,
+    "atlas": "assets/effects/313/atlas.json"
+  },
+  {
+    "id": 314,
+    "num": "314",
+    "swf": "EFF_PLAYER_000314.swf",
+    "frames": 30,
+    "width": 280,
+    "height": 259,
+    "duration_ms": 1250,
+    "atlas": "assets/effects/314/atlas.json"
+  },
+  {
+    "id": 318,
+    "num": "318",
+    "swf": "EFF_PLAYER_000318.swf",
+    "frames": 37,
+    "width": 161,
+    "height": 167,
+    "duration_ms": 1541,
+    "atlas": "assets/effects/318/atlas.json"
+  },
+  {
+    "id": 319,
+    "num": "319",
+    "swf": "EFF_PLAYER_000319.swf",
+    "frames": 31,
+    "width": 203,
+    "height": 152,
+    "duration_ms": 1291,
+    "atlas": "assets/effects/319/atlas.json"
+  },
+  {
+    "id": 320,
+    "num": "320",
+    "swf": "EFF_PLAYER_000320.swf",
+    "frames": 17,
+    "width": 229,
+    "height": 249,
+    "duration_ms": 708,
+    "atlas": "assets/effects/320/atlas.json"
+  },
+  {
+    "id": 325,
+    "num": "325",
+    "swf": "EFF_PLAYER_000325.swf",
+    "frames": 52,
+    "width": 115,
+    "height": 111,
+    "duration_ms": 2166,
+    "atlas": "assets/effects/325/atlas.json"
+  },
+  {
+    "id": 328,
+    "num": "328",
+    "swf": "EFF_PLAYER_000328.swf",
+    "frames": 49,
+    "width": 165,
+    "height": 236,
+    "duration_ms": 2041,
+    "atlas": "assets/effects/328/atlas.json"
+  },
+  {
+    "id": 329,
+    "num": "329",
+    "swf": "EFF_PLAYER_000329.swf",
+    "frames": 37,
+    "width": 244,
+    "height": 243,
+    "duration_ms": 1541,
+    "atlas": "assets/effects/329/atlas.json"
+  },
+  {
+    "id": 331,
+    "num": "331",
+    "swf": "EFF_PLAYER_000331.swf",
+    "frames": 36,
+    "width": 16,
+    "height": 16,
+    "duration_ms": 1500,
+    "atlas": "assets/effects/331/atlas.json"
+  },
+  {
+    "id": 332,
+    "num": "332",
+    "swf": "EFF_PLAYER_000332.swf",
+    "frames": 65,
+    "width": 201,
+    "height": 554,
+    "duration_ms": 2708,
+    "atlas": "assets/effects/332/atlas.json"
+  },
+  {
+    "id": 333,
+    "num": "333",
+    "swf": "EFF_PLAYER_000333.swf",
+    "frames": 41,
+    "width": 134,
+    "height": 167,
+    "duration_ms": 1708,
+    "atlas": "assets/effects/333/atlas.json"
+  },
+  {
+    "id": 334,
+    "num": "334",
+    "swf": "EFF_PLAYER_000334.swf",
+    "frames": 36,
+    "width": 16,
+    "height": 16,
+    "duration_ms": 1500,
+    "atlas": "assets/effects/334/atlas.json"
+  },
+  {
+    "id": 335,
+    "num": "335",
+    "swf": "EFF_PLAYER_000335.swf",
+    "frames": 36,
+    "width": 16,
+    "height": 16,
+    "duration_ms": 1500,
+    "atlas": "assets/effects/335/atlas.json"
+  },
+  {
+    "id": 402,
+    "num": "402",
+    "swf": "EFF_PLAYER_000402.swf",
+    "frames": 41,
+    "width": 202,
+    "height": 671,
+    "duration_ms": 1708,
+    "atlas": "assets/effects/402/atlas.json"
+  },
+  {
+    "id": 403,
+    "num": "403",
+    "swf": "EFF_PLAYER_000403.swf",
+    "frames": 17,
+    "width": 1461,
+    "height": 1508,
+    "duration_ms": 708,
+    "atlas": "assets/effects/403/atlas.json"
+  },
+  {
+    "id": 404,
+    "num": "404",
+    "swf": "EFF_PLAYER_000404.swf",
+    "frames": 30,
+    "width": 381,
+    "height": 425,
+    "duration_ms": 1250,
+    "atlas": "assets/effects/404/atlas.json"
+  },
+  {
+    "id": 406,
+    "num": "406",
+    "swf": "EFF_PLAYER_000406.swf",
+    "frames": 36,
+    "width": 16,
+    "height": 16,
+    "duration_ms": 1500,
+    "atlas": "assets/effects/406/atlas.json"
+  },
+  {
+    "id": 407,
+    "num": "407",
+    "swf": "EFF_PLAYER_000407.swf",
+    "frames": 10,
+    "width": 58,
+    "height": 69,
+    "duration_ms": 416,
+    "atlas": "assets/effects/407/atlas.json"
+  },
+  {
+    "id": 408,
+    "num": "408",
+    "swf": "EFF_PLAYER_000408.swf",
+    "frames": 32,
+    "width": 148,
+    "height": 67,
+    "duration_ms": 1333,
+    "atlas": "assets/effects/408/atlas.json"
+  },
+  {
+    "id": 409,
+    "num": "409",
+    "swf": "EFF_PLAYER_000409.swf",
+    "frames": 33,
+    "width": 171,
+    "height": 103,
+    "duration_ms": 1375,
+    "atlas": "assets/effects/409/atlas.json"
+  },
+  {
+    "id": 410,
+    "num": "410",
+    "swf": "EFF_PLAYER_000410.swf",
+    "frames": 35,
+    "width": 946,
+    "height": 477,
+    "duration_ms": 1458,
+    "atlas": "assets/effects/410/atlas.json"
+  },
+  {
+    "id": 411,
+    "num": "411",
+    "swf": "EFF_PLAYER_000411.swf",
+    "frames": 25,
+    "width": 790,
+    "height": 476,
+    "duration_ms": 1041,
+    "atlas": "assets/effects/411/atlas.json"
+  },
+  {
+    "id": 412,
+    "num": "412",
+    "swf": "EFF_PLAYER_000412.swf",
+    "frames": 35,
+    "width": 946,
+    "height": 477,
+    "duration_ms": 1458,
+    "atlas": "assets/effects/412/atlas.json"
+  },
+  {
+    "id": 413,
+    "num": "413",
+    "swf": "EFF_PLAYER_000413.swf",
+    "frames": 34,
+    "width": 688,
+    "height": 807,
+    "duration_ms": 1416,
+    "atlas": "assets/effects/413/atlas.json"
+  },
+  {
+    "id": 414,
+    "num": "414",
+    "swf": "EFF_PLAYER_000414.swf",
+    "frames": 42,
+    "width": 273,
+    "height": 305,
+    "duration_ms": 1750,
+    "atlas": "assets/effects/414/atlas.json"
+  },
+  {
+    "id": 415,
+    "num": "415",
+    "swf": "EFF_PLAYER_000415.swf",
+    "frames": 30,
+    "width": 267,
+    "height": 187,
+    "duration_ms": 1250,
+    "atlas": "assets/effects/415/atlas.json"
+  },
+  {
+    "id": 416,
+    "num": "416",
+    "swf": "EFF_PLAYER_000416.swf",
+    "frames": 12,
+    "width": 1249,
+    "height": 1233,
+    "duration_ms": 500,
+    "atlas": "assets/effects/416/atlas.json"
+  },
+  {
+    "id": 417,
+    "num": "417",
+    "swf": "EFF_PLAYER_000417.swf",
+    "frames": 20,
+    "width": 201,
+    "height": 238,
+    "duration_ms": 833,
+    "atlas": "assets/effects/417/atlas.json"
+  },
+  {
+    "id": 418,
+    "num": "418",
+    "swf": "EFF_PLAYER_000418.swf",
+    "frames": 120,
+    "width": 364,
+    "height": 118,
+    "duration_ms": 5000,
+    "atlas": "assets/effects/418/atlas.json"
+  },
+  {
+    "id": 419,
+    "num": "419",
+    "swf": "EFF_PLAYER_000419.swf",
+    "frames": 120,
+    "width": 364,
+    "height": 118,
+    "duration_ms": 5000,
+    "atlas": "assets/effects/419/atlas.json"
+  },
+  {
+    "id": 420,
+    "num": "420",
+    "swf": "EFF_PLAYER_000420.swf",
+    "frames": 120,
+    "width": 364,
+    "height": 118,
+    "duration_ms": 5000,
+    "atlas": "assets/effects/420/atlas.json"
+  },
+  {
+    "id": 421,
+    "num": "421",
+    "swf": "EFF_PLAYER_000421.swf",
+    "frames": 120,
+    "width": 364,
+    "height": 118,
+    "duration_ms": 5000,
+    "atlas": "assets/effects/421/atlas.json"
+  },
+  {
+    "id": 422,
+    "num": "422",
+    "swf": "EFF_PLAYER_000422.swf",
+    "frames": 120,
+    "width": 364,
+    "height": 118,
+    "duration_ms": 5000,
+    "atlas": "assets/effects/422/atlas.json"
+  },
+  {
+    "id": 423,
+    "num": "423",
+    "swf": "EFF_PLAYER_000423.swf",
+    "frames": 120,
+    "width": 364,
+    "height": 118,
+    "duration_ms": 5000,
+    "atlas": "assets/effects/423/atlas.json"
+  },
+  {
+    "id": 424,
+    "num": "424",
+    "swf": "EFF_PLAYER_000424.swf",
+    "frames": 25,
+    "width": 221,
+    "height": 165,
+    "duration_ms": 1041,
+    "atlas": "assets/effects/424/atlas.json"
+  },
+  {
+    "id": 425,
+    "num": "425",
+    "swf": "EFF_PLAYER_000425.swf",
+    "frames": 14,
+    "width": 387,
+    "height": 384,
+    "duration_ms": 583,
+    "atlas": "assets/effects/425/atlas.json"
+  },
+  {
+    "id": 427,
+    "num": "427",
+    "swf": "EFF_PLAYER_000427.swf",
+    "frames": 27,
+    "width": 428,
+    "height": 452,
+    "duration_ms": 1125,
+    "atlas": "assets/effects/427/atlas.json"
+  },
+  {
+    "id": 429,
+    "num": "429",
+    "swf": "EFF_PLAYER_000429.swf",
+    "frames": 31,
+    "width": 203,
+    "height": 151,
+    "duration_ms": 1291,
+    "atlas": "assets/effects/429/atlas.json"
+  },
+  {
+    "id": 430,
+    "num": "430",
+    "swf": "EFF_PLAYER_000430.swf",
+    "frames": 24,
+    "width": 910,
+    "height": 511,
+    "duration_ms": 1000,
+    "atlas": "assets/effects/430/atlas.json"
+  },
+  {
+    "id": 431,
+    "num": "431",
+    "swf": "EFF_PLAYER_000431.swf",
+    "frames": 31,
+    "width": 110,
+    "height": 110,
+    "duration_ms": 1291,
+    "atlas": "assets/effects/431/atlas.json"
+  },
+  {
+    "id": 432,
+    "num": "432",
+    "swf": "EFF_PLAYER_000432.swf",
+    "frames": 36,
+    "width": 24,
+    "height": 23,
+    "duration_ms": 1500,
+    "atlas": "assets/effects/432/atlas.json"
+  },
+  {
+    "id": 433,
+    "num": "433",
+    "swf": "EFF_PLAYER_000433.swf",
+    "frames": 17,
+    "width": 900,
+    "height": 570,
+    "duration_ms": 708,
+    "atlas": "assets/effects/433/atlas.json"
+  },
+  {
+    "id": 434,
+    "num": "434",
+    "swf": "EFF_PLAYER_000434.swf",
+    "frames": 10,
+    "width": 54,
+    "height": 65,
+    "duration_ms": 416,
+    "atlas": "assets/effects/434/atlas.json"
+  },
+  {
+    "id": 435,
+    "num": "435",
+    "swf": "EFF_PLAYER_000435.swf",
+    "frames": 17,
+    "width": 22,
+    "height": 28,
+    "duration_ms": 708,
+    "atlas": "assets/effects/435/atlas.json"
+  },
+  {
+    "id": 436,
+    "num": "436",
+    "swf": "EFF_PLAYER_000436.swf",
+    "frames": 15,
+    "width": 29,
+    "height": 614,
+    "duration_ms": 625,
+    "atlas": "assets/effects/436/atlas.json"
+  },
+  {
+    "id": 437,
+    "num": "437",
+    "swf": "EFF_PLAYER_000437.swf",
+    "frames": 15,
+    "width": 29,
+    "height": 614,
+    "duration_ms": 625,
+    "atlas": "assets/effects/437/atlas.json"
+  },
+  {
+    "id": 438,
+    "num": "438",
+    "swf": "EFF_PLAYER_000438.swf",
+    "frames": 10,
+    "width": 58,
+    "height": 68,
+    "duration_ms": 416,
+    "atlas": "assets/effects/438/atlas.json"
+  },
+  {
+    "id": 439,
+    "num": "439",
+    "swf": "EFF_PLAYER_000439.swf",
+    "frames": 12,
+    "width": 185,
+    "height": 124,
+    "duration_ms": 500,
+    "atlas": "assets/effects/439/atlas.json"
+  },
+  {
+    "id": 440,
+    "num": "440",
+    "swf": "EFF_PLAYER_000440.swf",
+    "frames": 12,
+    "width": 431,
+    "height": 149,
+    "duration_ms": 500,
+    "atlas": "assets/effects/440/atlas.json"
+  },
+  {
+    "id": 441,
+    "num": "441",
+    "swf": "EFF_PLAYER_000441.swf",
+    "frames": 44,
+    "width": 154,
+    "height": 152,
+    "duration_ms": 1833,
+    "atlas": "assets/effects/441/atlas.json"
+  },
+  {
+    "id": 442,
+    "num": "442",
+    "swf": "EFF_PLAYER_000442.swf",
+    "frames": 15,
+    "width": 234,
+    "height": 228,
+    "duration_ms": 625,
+    "atlas": "assets/effects/442/atlas.json"
+  },
+  {
+    "id": 443,
+    "num": "443",
+    "swf": "EFF_PLAYER_000443.swf",
+    "frames": 35,
+    "width": 170,
+    "height": 142,
+    "duration_ms": 1458,
+    "atlas": "assets/effects/443/atlas.json"
+  },
+  {
+    "id": 444,
+    "num": "444",
+    "swf": "EFF_PLAYER_000444.swf",
+    "frames": 35,
+    "width": 170,
+    "height": 142,
+    "duration_ms": 1458,
+    "atlas": "assets/effects/444/atlas.json"
+  },
+  {
+    "id": 445,
+    "num": "445",
+    "swf": "EFF_PLAYER_000445.swf",
+    "frames": 25,
+    "width": 162,
+    "height": 207,
+    "duration_ms": 1041,
+    "atlas": "assets/effects/445/atlas.json"
+  },
+  {
+    "id": 446,
+    "num": "446",
+    "swf": "EFF_PLAYER_000446.swf",
+    "frames": 19,
+    "width": 328,
+    "height": 468,
+    "duration_ms": 791,
+    "atlas": "assets/effects/446/atlas.json"
+  },
+  {
+    "id": 447,
+    "num": "447",
+    "swf": "EFF_PLAYER_000447.swf",
+    "frames": 11,
+    "width": 94,
+    "height": 125,
+    "duration_ms": 458,
+    "atlas": "assets/effects/447/atlas.json"
+  },
+  {
+    "id": 448,
+    "num": "448",
+    "swf": "EFF_PLAYER_000448.swf",
+    "frames": 15,
+    "width": 29,
+    "height": 614,
+    "duration_ms": 625,
+    "atlas": "assets/effects/448/atlas.json"
+  },
+  {
+    "id": 449,
+    "num": "449",
+    "swf": "EFF_PLAYER_000449.swf",
+    "frames": 15,
+    "width": 29,
+    "height": 614,
+    "duration_ms": 625,
+    "atlas": "assets/effects/449/atlas.json"
+  },
+  {
+    "id": 450,
+    "num": "450",
+    "swf": "EFF_PLAYER_000450.swf",
+    "frames": 31,
+    "width": 490,
+    "height": 411,
+    "duration_ms": 1291,
+    "atlas": "assets/effects/450/atlas.json"
+  },
+  {
+    "id": 451,
+    "num": "451",
+    "swf": "EFF_PLAYER_000451.swf",
+    "frames": 38,
+    "width": 360,
+    "height": 463,
+    "duration_ms": 1583,
+    "atlas": "assets/effects/451/atlas.json"
+  },
+  {
+    "id": 452,
+    "num": "452",
+    "swf": "EFF_PLAYER_000452.swf",
+    "frames": 30,
+    "width": 52,
+    "height": 222,
+    "duration_ms": 1250,
+    "atlas": "assets/effects/452/atlas.json"
+  },
+  {
+    "id": 453,
+    "num": "453",
+    "swf": "EFF_PLAYER_000453.swf",
+    "frames": 50,
+    "width": 164,
+    "height": 143,
+    "duration_ms": 2083,
+    "atlas": "assets/effects/453/atlas.json"
+  },
+  {
+    "id": 454,
+    "num": "454",
+    "swf": "EFF_PLAYER_000454.swf",
+    "frames": 50,
+    "width": 164,
+    "height": 143,
+    "duration_ms": 2083,
+    "atlas": "assets/effects/454/atlas.json"
+  },
+  {
+    "id": 455,
+    "num": "455",
+    "swf": "EFF_PLAYER_000455.swf",
+    "frames": 49,
+    "width": 141,
+    "height": 121,
+    "duration_ms": 2041,
+    "atlas": "assets/effects/455/atlas.json"
+  },
+  {
+    "id": 456,
+    "num": "456",
+    "swf": "EFF_PLAYER_000456.swf",
+    "frames": 49,
+    "width": 141,
+    "height": 121,
+    "duration_ms": 2041,
+    "atlas": "assets/effects/456/atlas.json"
+  },
+  {
+    "id": 457,
+    "num": "457",
+    "swf": "EFF_PLAYER_000457.swf",
+    "frames": 49,
+    "width": 141,
+    "height": 121,
+    "duration_ms": 2041,
+    "atlas": "assets/effects/457/atlas.json"
+  },
+  {
+    "id": 458,
+    "num": "458",
+    "swf": "EFF_PLAYER_000458.swf",
+    "frames": 65,
+    "width": 353,
+    "height": 439,
+    "duration_ms": 2708,
+    "atlas": "assets/effects/458/atlas.json"
+  },
+  {
+    "id": 459,
+    "num": "459",
+    "swf": "EFF_PLAYER_000459.swf",
+    "frames": 65,
+    "width": 353,
+    "height": 439,
+    "duration_ms": 2708,
+    "atlas": "assets/effects/459/atlas.json"
+  },
+  {
+    "id": 460,
+    "num": "460",
+    "swf": "EFF_PLAYER_000460.swf",
+    "frames": 65,
+    "width": 353,
+    "height": 439,
+    "duration_ms": 2708,
+    "atlas": "assets/effects/460/atlas.json"
+  },
+  {
+    "id": 461,
+    "num": "461",
+    "swf": "EFF_PLAYER_000461.swf",
+    "frames": 66,
+    "width": 75,
+    "height": 126,
+    "duration_ms": 2750,
+    "atlas": "assets/effects/461/atlas.json"
+  },
+  {
+    "id": 462,
+    "num": "462",
+    "swf": "EFF_PLAYER_000462.swf",
+    "frames": 66,
+    "width": 75,
+    "height": 126,
+    "duration_ms": 2750,
+    "atlas": "assets/effects/462/atlas.json"
+  },
+  {
+    "id": 463,
+    "num": "463",
+    "swf": "EFF_PLAYER_000463.swf",
+    "frames": 28,
+    "width": 550,
+    "height": 550,
+    "duration_ms": 1166,
+    "atlas": "assets/effects/463/atlas.json"
+  },
+  {
+    "id": 464,
+    "num": "464",
+    "swf": "EFF_PLAYER_000464.swf",
+    "frames": 24,
+    "width": 550,
+    "height": 550,
+    "duration_ms": 1000,
+    "atlas": "assets/effects/464/atlas.json"
+  },
+  {
+    "id": 465,
+    "num": "465",
+    "swf": "EFF_PLAYER_000465.swf",
+    "frames": 29,
+    "width": 550,
+    "height": 550,
+    "duration_ms": 1208,
+    "atlas": "assets/effects/465/atlas.json"
+  },
+  {
+    "id": 466,
+    "num": "466",
+    "swf": "EFF_PLAYER_000466.swf",
+    "frames": 1,
+    "width": 50,
+    "height": 50,
+    "duration_ms": 41,
+    "atlas": "assets/effects/466/atlas.json"
+  },
+  {
+    "id": 467,
+    "num": "467",
+    "swf": "EFF_PLAYER_000467.swf",
+    "frames": 18,
+    "width": 289,
+    "height": 319,
+    "duration_ms": 750,
+    "atlas": "assets/effects/467/atlas.json"
+  },
+  {
+    "id": 468,
+    "num": "468",
+    "swf": "EFF_PLAYER_000468.swf",
+    "frames": 40,
+    "width": 68,
+    "height": 170,
+    "duration_ms": 1666,
+    "atlas": "assets/effects/468/atlas.json"
+  },
+  {
+    "id": 469,
+    "num": "469",
+    "swf": "EFF_PLAYER_000469.swf",
+    "frames": 9,
+    "width": 49,
+    "height": 47,
+    "duration_ms": 375,
+    "atlas": "assets/effects/469/atlas.json"
+  },
+  {
+    "id": 1002,
+    "num": "1002",
+    "swf": "EFF_PLAYER_001002.swf",
+    "frames": 30,
+    "width": 280,
+    "height": 259,
+    "duration_ms": 1250,
+    "atlas": "assets/effects/1002/atlas.json"
+  },
+  {
+    "id": 1010,
+    "num": "1010",
+    "swf": "EFF_PLAYER_001010.swf",
+    "frames": 13,
+    "width": 58,
+    "height": 262,
+    "duration_ms": 541,
+    "atlas": "assets/effects/1010/atlas.json"
+  },
+  {
+    "id": 1013,
+    "num": "1013",
+    "swf": "EFF_PLAYER_001013.swf",
+    "frames": 18,
+    "width": 334,
+    "height": 296,
+    "duration_ms": 750,
+    "atlas": "assets/effects/1013/atlas.json"
+  },
+  {
+    "id": 1320,
+    "num": "1320",
+    "swf": "EFF_PLAYER_001320.swf",
+    "frames": 41,
+    "width": 144,
+    "height": 25,
+    "duration_ms": 1708,
+    "atlas": "assets/effects/1320/atlas.json"
+  },
+  {
+    "id": 1331,
+    "num": "1331",
+    "swf": "EFF_PLAYER_001331.swf",
+    "frames": 36,
+    "width": 16,
+    "height": 16,
+    "duration_ms": 1500,
+    "atlas": "assets/effects/1331/atlas.json"
+  },
+  {
+    "id": 10001,
+    "num": "10001",
+    "swf": "EFF_PLAYER_010001.swf",
+    "frames": 11,
+    "width": 216,
+    "height": 173,
+    "duration_ms": 458,
+    "atlas": "assets/effects/10001/atlas.json"
+  },
+  {
+    "id": 10002,
+    "num": "10002",
+    "swf": "EFF_PLAYER_010002.swf",
+    "frames": 12,
+    "width": 175,
+    "height": 130,
+    "duration_ms": 500,
+    "atlas": "assets/effects/10002/atlas.json"
+  },
+  {
+    "id": 10003,
+    "num": "10003",
+    "swf": "EFF_PLAYER_010003.swf",
+    "frames": 55,
+    "width": 8,
+    "height": 89,
+    "duration_ms": 2291,
+    "atlas": "assets/effects/10003/atlas.json"
+  },
+  {
+    "id": 10004,
+    "num": "10004",
+    "swf": "EFF_PLAYER_010004.swf",
+    "frames": 13,
+    "width": 119,
+    "height": 153,
+    "duration_ms": 541,
+    "atlas": "assets/effects/10004/atlas.json"
+  },
+  {
+    "id": 10005,
+    "num": "10005",
+    "swf": "EFF_PLAYER_010005.swf",
+    "frames": 8,
+    "width": 153,
+    "height": 140,
+    "duration_ms": 333,
+    "atlas": "assets/effects/10005/atlas.json"
+  },
+  {
+    "id": 10006,
+    "num": "10006",
+    "swf": "EFF_PLAYER_010006.swf",
+    "frames": 24,
+    "width": 117,
+    "height": 165,
+    "duration_ms": 1000,
+    "atlas": "assets/effects/10006/atlas.json"
+  },
+  {
+    "id": 10007,
+    "num": "10007",
+    "swf": "EFF_PLAYER_010007.swf",
+    "frames": 24,
+    "width": 117,
+    "height": 165,
+    "duration_ms": 1000,
+    "atlas": "assets/effects/10007/atlas.json"
+  },
+  {
+    "id": 10008,
+    "num": "10008",
+    "swf": "EFF_PLAYER_010008.swf",
+    "frames": 13,
+    "width": 134,
+    "height": 158,
+    "duration_ms": 541,
+    "atlas": "assets/effects/10008/atlas.json"
+  },
+  {
+    "id": 10009,
+    "num": "10009",
+    "swf": "EFF_PLAYER_010009.swf",
+    "frames": 12,
+    "width": 85,
+    "height": 72,
+    "duration_ms": 500,
+    "atlas": "assets/effects/10009/atlas.json"
+  },
+  {
+    "id": 10010,
+    "num": "10010",
+    "swf": "EFF_PLAYER_010010.swf",
+    "frames": 26,
+    "width": 189,
+    "height": 30,
+    "duration_ms": 1083,
+    "atlas": "assets/effects/10010/atlas.json"
+  },
+  {
+    "id": 10011,
+    "num": "10011",
+    "swf": "EFF_PLAYER_010011.swf",
+    "frames": 26,
+    "width": 153,
+    "height": 30,
+    "duration_ms": 1083,
+    "atlas": "assets/effects/10011/atlas.json"
+  },
+  {
+    "id": 10015,
+    "num": "10015",
+    "swf": "EFF_PLAYER_010015.swf",
+    "frames": 51,
+    "width": 150,
+    "height": 113,
+    "duration_ms": 2125,
+    "atlas": "assets/effects/10015/atlas.json"
+  },
+  {
+    "id": 10016,
+    "num": "10016",
+    "swf": "EFF_PLAYER_010016.swf",
+    "frames": 56,
+    "width": 8,
+    "height": 89,
+    "duration_ms": 2333,
+    "atlas": "assets/effects/10016/atlas.json"
+  },
+  {
+    "id": 10017,
+    "num": "10017",
+    "swf": "EFF_PLAYER_010017.swf",
+    "frames": 14,
+    "width": 17,
+    "height": 57,
+    "duration_ms": 583,
+    "atlas": "assets/effects/10017/atlas.json"
+  },
+  {
+    "id": 10018,
+    "num": "10018",
+    "swf": "EFF_PLAYER_010018.swf",
+    "frames": 66,
+    "width": 75,
+    "height": 126,
+    "duration_ms": 2750,
+    "atlas": "assets/effects/10018/atlas.json"
+  }
+]

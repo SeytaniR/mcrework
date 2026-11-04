@@ -1,0 +1,145 @@
+{
+  "frames": {
+    "307_00": {
+      "frame": {
+        "x": 2,
+        "y": 2,
+        "w": 346,
+        "h": 369
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 346,
+        "h": 369
+      },
+      "sourceSize": {
+        "w": 346,
+        "h": 369
+      }
+    },
+    "307_01": {
+      "frame": {
+        "x": 350,
+        "y": 2,
+        "w": 346,
+        "h": 369
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 346,
+        "h": 369
+      },
+      "sourceSize": {
+        "w": 346,
+        "h": 369
+      }
+    },
+    "307_02": {
+      "frame": {
+        "x": 698,
+        "y": 2,
+        "w": 346,
+        "h": 369
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 346,
+        "h": 369
+      },
+      "sourceSize": {
+        "w": 346,
+        "h": 369
+      }
+    },
+    "307_03": {
+      "frame": {
+        "x": 2,
+        "y": 373,
+        "w": 346,
+        "h": 369
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 346,
+        "h": 369
+      },
+      "sourceSize": {
+        "w": 346,
+        "h": 369
+      }
+    },
+    "307_04": {
+      "frame": {
+        "x": 350,
+        "y": 373,
+        "w": 346,
+        "h": 369
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 346,
+        "h": 369
+      },
+      "sourceSize": {
+        "w": 346,
+        "h": 369
+      }
+    },
+    "307_05": {
+      "frame": {
+        "x": 698,
+        "y": 373,
+        "w": 346,
+        "h": 369
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 346,
+        "h": 369
+      },
+      "sourceSize": {
+        "w": 346,
+        "h": 369
+      }
+    }
+  },
+  "animations": {
+    "play": [
+      "307_00",
+      "307_01",
+      "307_02",
+      "307_03",
+      "307_04",
+      "307_05"
+    ]
+  },
+  "meta": {
+    "app": "MagicCampusEffectConverter",
+    "version": "1.0",
+    "image": "atlas.webp",
+    "format": "RGBA8888",
+    "size": {
+      "w": 1046,
+      "h": 744
+    },
+    "scale": "1"
+  }
+}

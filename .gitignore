@@ -2,6 +2,8 @@
 mcgame/
 extracted_char/
 action_previews/
+tools/ffdec/
+tools/tmp_effect_export/
 
 # Imagens de teste temporárias
 *.png
