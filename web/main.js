@@ -667,6 +667,14 @@ async function initGame() {
   charSprite.scale.set(0.70);
   playerContainer.addChild(charSprite);
 
+  // Sprite animado da Arma Empunhada (sincronizada milimetricamente com o corpo)
+  const weaponSprite = new PIXI.Sprite();
+  weaponSprite.anchor.set(0.5, 110 / 150);
+  weaponSprite.position.set(0, PLAYER_GROUND_OFFSET_Y);
+  weaponSprite.scale.set(0.70);
+  weaponSprite.visible = false;
+  playerContainer.addChild(weaponSprite);
+
   // Nome do Jogador centralizado acima da cabeça (calibrado para escala 0.70)
   const playerName = new PIXI.Text("Guerreiro Evoluído", {
     fontFamily: "sans-serif",
@@ -789,6 +797,91 @@ async function initGame() {
     player.frameIdx = 0;
     player.frameTimer = 0;
     updateHUD();
+  }
+
+  // Sistema de Arma Empunhada (Armaria & Combate Visual)
+  let playerEquippedWeapon = null;
+  let currentWeaponManifest = null;
+  let currentWeaponModel = null;
+
+  async function equipWeapon(item) {
+    if (!item) {
+      playerEquippedWeapon = null;
+      currentWeaponModel = null;
+      currentWeaponManifest = null;
+      if (weaponSprite) weaponSprite.visible = false;
+      localStorage.removeItem("mc_equipped_weapon_id");
+      showWeaponToast("Arma desempunhada.");
+      updateEquippedWeaponUI();
+      if (typeof renderEquipmentGrid === 'function') renderEquipmentGrid(false);
+      return;
+    }
+
+    const modelId = item.active_weapon_model || item.model_id || "equip_mc1_000001";
+    playerEquippedWeapon = item;
+    currentWeaponModel = modelId;
+    localStorage.setItem("mc_equipped_weapon_id", String(item.id));
+
+    try {
+      const manifestUrl = `assets/weapons/${modelId}/char_manifest.json?v=1.5.1`;
+      const manifest = await fetch(manifestUrl).then(r => r.json());
+      currentWeaponManifest = manifest;
+
+      const loadPromises = [];
+      for (const animKey in manifest) {
+        for (const frameInfo of manifest[animKey]) {
+          if (!textureCache[frameInfo.file]) {
+            loadPromises.push(
+              PIXI.Assets.load(frameInfo.file).then(tex => {
+                textureCache[frameInfo.file] = tex;
+              }).catch(() => {})
+            );
+          }
+        }
+      }
+      await Promise.all(loadPromises);
+      if (weaponSprite) weaponSprite.visible = true;
+      showWeaponToast(`⚔️ Empunhado: ${item.name}!`);
+    } catch (e) {
+      console.warn("Erro ao carregar modelo da arma:", modelId, e);
+      showWeaponToast(`⚔️ Arma selecionada: ${item.name}`);
+    }
+
+    updateEquippedWeaponUI();
+    if (typeof renderEquipmentGrid === 'function') renderEquipmentGrid(false);
+  }
+
+  function showWeaponToast(msg) {
+    let toast = document.getElementById("toast-weapon");
+    if (!toast) {
+      toast = document.createElement("div");
+      toast.id = "toast-weapon";
+      toast.className = "toast-weapon-equip";
+      document.body.appendChild(toast);
+    }
+    toast.innerText = msg;
+    toast.classList.add("show");
+    setTimeout(() => {
+      toast.classList.remove("show");
+    }, 2500);
+  }
+
+  function updateEquippedWeaponUI() {
+    const drawerWeapon = document.getElementById("drawer-weapon");
+    const btnUnequip = document.getElementById("btn-unequip-weapon");
+    if (drawerWeapon) {
+      if (playerEquippedWeapon) {
+        drawerWeapon.innerText = `⚔️ ${playerEquippedWeapon.name}`;
+        drawerWeapon.style.color = playerEquippedWeapon.quality_color || "#ebcb8b";
+      } else {
+        drawerWeapon.innerText = "Nenhuma (Desarmado)";
+        drawerWeapon.style.color = "#94a3b8";
+      }
+    }
+    if (btnUnequip) {
+      btnUnequip.style.display = playerEquippedWeapon ? "inline-block" : "none";
+      btnUnequip.onclick = () => equipWeapon(null);
+    }
   }
 
   // 6. Entidade do Jogador & Parâmetros
@@ -974,6 +1067,27 @@ async function initGame() {
         charSprite.texture = tex;
         charSprite.anchor.set(0.5, 110 / 150);
         charSprite.position.set(0, PLAYER_GROUND_OFFSET_Y);
+      }
+    }
+
+    // Sincronizar arma empunhada na mesma direção e frame de ação
+    if (weaponSprite) {
+      if (currentWeaponManifest) {
+        const weaponFrames = currentWeaponManifest[animKey] ||
+                             currentWeaponManifest[`${player.dir}-0`] ||
+                             currentWeaponManifest["0-0"];
+        if (weaponFrames && weaponFrames.length > 0) {
+          const wFrameData = weaponFrames[player.frameIdx % weaponFrames.length];
+          const wTex = textureCache[wFrameData.file];
+          if (wTex) {
+            weaponSprite.texture = wTex;
+            weaponSprite.anchor.set(0.5, 110 / 150);
+            weaponSprite.position.set(0, PLAYER_GROUND_OFFSET_Y);
+            weaponSprite.visible = true;
+          }
+        }
+      } else {
+        weaponSprite.visible = false;
       }
     }
   }
@@ -2993,6 +3107,11 @@ async function initGame() {
           ${statsHtml ? `<div class="equipment-card-stats">${statsHtml}</div>` : ''}
           <div class="equipment-card-footer">
             <span class="equipment-durability">🛡️ Durabilidade: ${item.endure_max || '100%'}</span>
+            ${item.category_group === "weapons" ? `
+              <button class="btn-weapon-equip ${playerEquippedWeapon && playerEquippedWeapon.id === item.id ? 'active' : ''}" data-equip-id="${item.id}" title="${playerEquippedWeapon && playerEquippedWeapon.id === item.id ? 'Clique para desempunhar' : 'Clique para empunhar na mão do personagem'}">
+                ${playerEquippedWeapon && playerEquippedWeapon.id === item.id ? '⚔️ Equipado' : '🖐️ Empunhar'}
+              </button>
+            ` : ''}
             <span class="equipment-quality-badge" style="background: ${qualityColor}22; color: ${qualityColor}; border: 1px solid ${qualityColor}55;">
               ${item.quality}
             </span>
@@ -3015,6 +3134,20 @@ async function initGame() {
   }
 
   function bindEquipmentGridEvents() {
+    equipmentGrid.querySelectorAll(".btn-weapon-equip").forEach(btn => {
+      btn.onclick = (e) => {
+        e.stopPropagation();
+        const equipId = parseInt(btn.dataset.equipId, 10);
+        const item = equipmentList.find(x => x.id === equipId);
+        if (!item) return;
+        if (playerEquippedWeapon && playerEquippedWeapon.id === item.id) {
+          equipWeapon(null);
+        } else {
+          equipWeapon(item);
+        }
+      };
+    });
+
     const btnLoadMore = document.getElementById("btn-equipment-load-more");
     if (btnLoadMore) {
       btnLoadMore.onclick = () => {
@@ -3057,6 +3190,16 @@ async function initGame() {
       selectedEquipmentFilter = btn.dataset.filter || "all";
       renderEquipmentGrid(true);
     });
+  }
+
+  // Restaurar arma empunhada salva ou equipar inicial
+  const savedWeaponId = localStorage.getItem("mc_equipped_weapon_id");
+  if (savedWeaponId && equipmentList && equipmentList.length > 0) {
+    const savedItem = equipmentList.find(x => String(x.id) === String(savedWeaponId));
+    if (savedItem) equipWeapon(savedItem);
+  } else if (equipmentList && equipmentList.length > 0) {
+    const defItem = equipmentList.find(x => x.id === 170) || equipmentList.find(x => x.category_group === "weapons");
+    if (defItem) equipWeapon(defItem);
   }
 
   console.log("Magic Campus Mobile Engine inicializado com sucesso!");
