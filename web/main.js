@@ -25,15 +25,15 @@ async function initGame() {
     fetch("assets/map1/collision.bin").then(r => r.arrayBuffer()),
     fetch("assets/monsters/mushroom/visual_meta.json").then(r => r.json()),
     PIXI.Assets.load("assets/monsters/mushroom/atlas.json"),
-    fetch("assets/characters/catalog.json?v=1.6.0").then(r => r.json()).catch(() => ({ total_classes: 0, classes: [] })),
-    fetch("assets/monsters/catalog.json?v=1.6.0").then(r => r.json()).catch(() => ({ total_monsters: 0, monsters: [] })),
-    fetch("assets/mounts/catalog.json?v=1.6.0").then(r => r.json()).catch(() => ({ total_mounts: 0, mounts: [] })),
-    fetch("assets/npcs/catalog.json?v=1.6.0").then(r => r.json()).catch(() => ({ total_npcs: 0, npcs: [] })),
-    fetch("assets/maps/catalog.json?v=1.6.0").then(r => r.json()).catch(() => ({ total_maps: 0, maps: [] })),
-    fetch("assets/skills/catalog.json?v=1.6.0").then(r => r.json()).catch(() => ([])),
-    fetch("assets/effects/catalog.json?v=1.6.0").then(r => r.json()).catch(() => ([])),
-    fetch("assets/equipment/catalog.json?v=1.6.0").then(r => r.json()).catch(() => ({ items: [] })),
-    fetch("assets/wings/catalog.json?v=1.6.0").then(r => r.json()).catch(() => ([]))
+    fetch("assets/characters/catalog.json?v=1.6.1").then(r => r.json()).catch(() => ({ total_classes: 0, classes: [] })),
+    fetch("assets/monsters/catalog.json?v=1.6.1").then(r => r.json()).catch(() => ({ total_monsters: 0, monsters: [] })),
+    fetch("assets/mounts/catalog.json?v=1.6.1").then(r => r.json()).catch(() => ({ total_mounts: 0, mounts: [] })),
+    fetch("assets/npcs/catalog.json?v=1.6.1").then(r => r.json()).catch(() => ({ total_npcs: 0, npcs: [] })),
+    fetch("assets/maps/catalog.json?v=1.6.1").then(r => r.json()).catch(() => ({ total_maps: 0, maps: [] })),
+    fetch("assets/skills/catalog.json?v=1.6.1").then(r => r.json()).catch(() => ([])),
+    fetch("assets/effects/catalog.json?v=1.6.1").then(r => r.json()).catch(() => ([])),
+    fetch("assets/equipment/catalog.json?v=1.6.1").then(r => r.json()).catch(() => ({ items: [] })),
+    fetch("assets/wings/catalog.json?v=1.6.1").then(r => r.json()).catch(() => ([]))
   ]);
 
   let mapsCatalog = mapsCatalogData || { total_maps: 0, maps: [] };
@@ -52,7 +52,7 @@ async function initGame() {
   // 3. Malha de Colisão Binária Calibrada
   let colBytes = new Uint8Array(colArrayBuffer);
   let COL_WIDTH = (currentMapMeta && currentMapMeta.col_width) ? currentMapMeta.col_width : 2031;
-  let COL_HEIGHT = (currentMapMeta && currentMapMeta.col_height) ? currentMapMeta.col_height : 1530;
+  let COL_HEIGHT = (currentMapMeta && currentMapMeta.col_height) ? currentMapMeta.col_height : 1531;
   let MAP_WIDTH = (currentMapMeta && currentMapMeta.width) ? currentMapMeta.width : 2000;
   let MAP_HEIGHT = (currentMapMeta && currentMapMeta.height) ? currentMapMeta.height : 1500;
   console.log(`Malha de colisão binária inicial carregada: ${colBytes.length} bytes (stride ${COL_WIDTH}x${COL_HEIGHT})`);
@@ -269,7 +269,7 @@ async function initGame() {
       // 3. Carregar malha de colisão binária se existir
       if (mapMeta.has_collision && mapMeta.collision_bin) {
         try {
-          const colBuf = await fetch(`${mapMeta.collision_bin}?v=1.3.2`).then(r => r.arrayBuffer());
+          const colBuf = await fetch(`${mapMeta.collision_bin}?v=1.6.1`).then(r => r.arrayBuffer());
           colBytes = new Uint8Array(colBuf);
           COL_WIDTH = mapMeta.col_width;
           COL_HEIGHT = mapMeta.col_height;
@@ -737,7 +737,7 @@ async function initGame() {
     const masksUrl = (mapId === 1) ? "assets/map1/masks.json" : `assets/maps/map_${mapId}/masks.json`;
 
     try {
-      const resp = await fetch(`${masksUrl}?v=1.6.0`);
+      const resp = await fetch(`${masksUrl}?v=1.6.1`);
       if (!resp.ok) return;
       const mData = await resp.json();
       if (!Array.isArray(mData)) return;

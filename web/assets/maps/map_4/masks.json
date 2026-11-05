@@ -3,96 +3,88 @@
     "bitmap_id": 1,
     "file": "assets/maps/map_4/mask/mask_1.png",
     "x": 2648.0,
-    "y": 318.0,
-    "w": 144,
-    "h": 185
+    "y": 318.6,
+    "w": 143,
+    "h": 184
   },
   {
     "bitmap_id": 2,
     "file": "assets/maps/map_4/mask/mask_2.png",
     "x": 2376.0,
-    "y": 450.0,
-    "w": 114,
-    "h": 242
+    "y": 450.6,
+    "w": 113,
+    "h": 241
   },
   {
     "bitmap_id": 3,
     "file": "assets/maps/map_4/mask/mask_3.png",
-    "x": 660.0,
-    "y": 571.0,
-    "w": 136,
-    "h": 120
+    "x": 662.0,
+    "y": 571.6,
+    "w": 95,
+    "h": 107
   },
   {
     "bitmap_id": 4,
     "file": "assets/maps/map_4/mask/mask_4.png",
-    "x": 798.0,
-    "y": 610.0,
-    "w": 52,
-    "h": 75
+    "x": 2462.0,
+    "y": 633.6,
+    "w": 169,
+    "h": 210
   },
   {
     "bitmap_id": 5,
     "file": "assets/maps/map_4/mask/mask_5.png",
-    "x": 2461.0,
-    "y": 632.0,
-    "w": 170,
-    "h": 212
+    "x": 1242.0,
+    "y": 684.6,
+    "w": 173,
+    "h": 217
   },
   {
     "bitmap_id": 6,
     "file": "assets/maps/map_4/mask/mask_6.png",
-    "x": 1224.0,
-    "y": 683.0,
-    "w": 200,
-    "h": 238
+    "x": 1867.0,
+    "y": 685.6,
+    "w": 198,
+    "h": 132
   },
   {
     "bitmap_id": 7,
     "file": "assets/maps/map_4/mask/mask_7.png",
-    "x": 1866.0,
-    "y": 685.0,
-    "w": 199,
-    "h": 133
+    "x": 1819.0,
+    "y": 780.6,
+    "w": 42,
+    "h": 37
   },
   {
     "bitmap_id": 8,
     "file": "assets/maps/map_4/mask/mask_8.png",
-    "x": 1819.0,
-    "y": 780.0,
-    "w": 42,
-    "h": 38
+    "x": 839.0,
+    "y": 927.6,
+    "w": 165,
+    "h": 233
   },
   {
     "bitmap_id": 9,
     "file": "assets/maps/map_4/mask/mask_9.png",
-    "x": 1283.0,
-    "y": 909.0,
+    "x": 733.0,
+    "y": 967.6,
     "w": 57,
-    "h": 38
+    "h": 35
   },
   {
     "bitmap_id": 10,
     "file": "assets/maps/map_4/mask/mask_10.png",
-    "x": 845.0,
-    "y": 930.0,
-    "w": 169,
-    "h": 232
+    "x": 1561.0,
+    "y": 988.6,
+    "w": 159,
+    "h": 151
   },
   {
     "bitmap_id": 11,
     "file": "assets/maps/map_4/mask/mask_11.png",
-    "x": 1560.0,
-    "y": 988.0,
-    "w": 160,
-    "h": 152
-  },
-  {
-    "bitmap_id": 12,
-    "file": "assets/maps/map_4/mask/mask_12.png",
     "x": 311.0,
-    "y": 1632.0,
+    "y": 1632.6,
     "w": 166,
-    "h": 234
+    "h": 233
   }
 ]

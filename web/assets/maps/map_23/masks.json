@@ -2,65 +2,73 @@
   {
     "bitmap_id": 1,
     "file": "assets/maps/map_23/mask/mask_1.png",
-    "x": 1288.5,
-    "y": 406.5,
-    "w": 579,
-    "h": 231
+    "x": 1308.5,
+    "y": 416.5,
+    "w": 542,
+    "h": 221
   },
   {
-    "bitmap_id": 3,
-    "file": "assets/maps/map_23/mask/mask_3.png",
-    "x": 2499.8,
-    "y": 1440.85,
+    "bitmap_id": 2,
+    "file": "assets/maps/map_23/mask/mask_2.png",
+    "x": 0.0,
+    "y": 0.0,
     "w": 251,
     "h": 369
   },
   {
+    "bitmap_id": 3,
+    "file": "assets/maps/map_23/mask/mask_3.png",
+    "x": 132.0,
+    "y": 11.0,
+    "w": 76,
+    "h": 105
+  },
+  {
+    "bitmap_id": 4,
+    "file": "assets/maps/map_23/mask/mask_4.png",
+    "x": 65.0,
+    "y": 29.0,
+    "w": 38,
+    "h": 85
+  },
+  {
+    "bitmap_id": 5,
+    "file": "assets/maps/map_23/mask/mask_5.png",
+    "x": 2.0,
+    "y": 57.0,
+    "w": 39,
+    "h": 61
+  },
+  {
     "bitmap_id": 6,
     "file": "assets/maps/map_23/mask/mask_6.png",
-    "x": 1229.75,
-    "y": 984.85,
-    "w": 221,
-    "h": 122
+    "x": 0.0,
+    "y": 1.0,
+    "w": 113,
+    "h": 209
   },
   {
-    "bitmap_id": 9,
-    "file": "assets/maps/map_23/mask/mask_9.png",
-    "x": 2319.15,
-    "y": 1808.2,
-    "w": 114,
-    "h": 210
+    "bitmap_id": 7,
+    "file": "assets/maps/map_23/mask/mask_7.png",
+    "x": 36.0,
+    "y": 0.0,
+    "w": 347,
+    "h": 290
   },
   {
-    "bitmap_id": 9,
-    "file": "assets/maps/map_23/mask/mask_9.png",
-    "x": 2008.9,
-    "y": 1269.05,
-    "w": 114,
-    "h": 210
-  },
-  {
-    "bitmap_id": 12,
-    "file": "assets/maps/map_23/mask/mask_12.png",
-    "x": 2597.55,
-    "y": 1035.3,
-    "w": 383,
-    "h": 292
-  },
-  {
-    "bitmap_id": 15,
-    "file": "assets/maps/map_23/mask/mask_15.png",
-    "x": 599.7,
-    "y": 803.05,
+    "bitmap_id": 8,
+    "file": "assets/maps/map_23/mask/mask_8.png",
+    "x": 0.0,
+    "y": 0.0,
     "w": 356,
     "h": 443
   },
   {
-    "bitmap_id": 18,
-    "file": "assets/maps/map_23/mask/mask_18.png",
+    "bitmap_id": 9,
+    "file": "assets/maps/map_23/mask/mask_9.png",
     "x": 2835.05,
     "y": 599.05,
     "w": 179,
-    "h": 301
+    "h": 299
   }
 ]

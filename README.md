@@ -37,7 +37,19 @@ Um projeto moderno de recriação de engine e modernização do clássico MMORPG
   * ⚡ **128 Efeitos Especiais Animados (VFX):** Decompilados a partir dos arquivos SWF originais (`DefineSprite` e vetores Flash) e convertidos em spritesheets WebP compactos com transparência alfa e metadados de duração em `web/assets/effects/`.
   * 📱 **Grimório Interativo no Cliente:** Provador de habilidades no topo do HUD mobile com busca em tempo real, filtros por classe/pet e botão de disparo imediato do efeito visual no jogo.
 
-### 6. Revisão Profunda dos 76 Mapas, Transparência Universal & Portais Físicos (v1.6.0) 🗺️🌀
+### 6. Revisão Profunda dos 76 Mapas, Transparência Universal & Portais Físicos (v1.6.1) 🗺️🌀
+* **Correção Definitiva da Malha de Colisão em Todos os Mapas (Stride Bytecode AS3):**
+  * Descoberta e correção da causa raiz da inconsistência: no ActionScript 3 original (HitTestContainer.as), a largura de stride da malha é declarada como public var _mapWidth:uint. A atribuição a partir do double compilado (width) utiliza truncamento inteiro estrito (uint(val)), e **não** arredondamento (
+ound()).
+  * Em 46 mapas cujos valores em ponto flutuante possuíam decimais superiores a .5 (como Mapa 3 com 2628.85, Mapa 5 com 2096.55, Mapa 9 com 4140.7), o arredondamento anterior para +1 provocava deslocamento diagonal cumulativo de 1px a cada linha y, distorcendo a colisão em mais de 1000px nas linhas inferiores e criando paredes invisíveis em estradas abertas.
+  * Com a calibração inteira exata por truncamento AS3 (2628, 2096, 4140), todas as 46 malhas de colisão alinham perfeitamente com a topografia visual dos mapas.
+* **Renderização e Alinhamento Preciso das Máscaras de Transparência (247 Elementos em 32 Mapas):**
+  * Resolução da inconsistência de máscaras: nos mapas com formas vetoriais complexas e preenchimentos matriciais (DefineShapeTag com múltiplos FILLSTYLE em MAP_MASK.swf), a extração anterior utilizava apenas as texturas brutas descontextualizadas.
+  * O novo pipeline renderiza a forma vetorial completa com canal alfa via fdec -format shape:png -export shape, obtendo a malha composta em coordenadas de mundo com bounding boxes precisas (Xmin, Ymin).
+  * Foram gerados **247 elementos de sobreposição** rigorosamente limitados à área navegável (eliminando nós que vazavam para fora das bordas do mapa, como nos Mapas 2, 9 e 22), com fading suave para 35% de opacidade quando o jogador transita por trás de telhados, copas de árvores e pórticos.
+* **Calibração de Portais Físicos e Spawns em Terreno Andável (is_walkable == true):**
+  * Auditoria geométrica de todos os 117 portais e posições seguras de spawn: 39 portais e 8 spawns que estavam originalmente posicionados em margens rochosas ou cercas intransitáveis foram reposicionados suavemente para o piso navegável adjacente.
+  * Isso assegura que o toque no portal (movePlayerTo) alcance seu destino imediatamente e dispare o teleporte suave de 50px sem bloqueio de colisão.
 * **Máscaras de Transparência Dinâmica em 32 Mapas:**
   * Anteriormente, apenas o Mapa 1 (`Xuất Vân Thôn`) possuía máscaras de telhado e árvore configuradas. Todos os outros mapas não possuíam o arquivo `masks.json` e o cliente desativava a sobreposição.
   * Extração e calibração universal a partir dos arquivos originais `resource/scene/SCENE_FOLDER_*/MAP_MASK.swf`.
