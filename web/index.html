@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
   <meta name="mobile-web-app-capable" content="yes">
   <title>Magic Campus Mobile - Pixi.js Engine (Mapa 1 & Char 1)</title>
-  <link rel="stylesheet" href="style.css?v=1.6.1">
+  <link rel="stylesheet" href="style.css?v=1.6.2">
   <!-- Pixi.js v7 CDN -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/7.3.2/pixi.min.js"></script>
 </head>
@@ -152,6 +152,10 @@
           <div class="stat-item">
             <span class="stat-label">Sob Telhado/Árvore:</span>
             <strong id="drawer-occluded" style="color: #88c0d0;">NÃO (Visível)</strong>
+          </div>
+          <div class="stat-item">
+            <span class="stat-label">Sobreposição (Máscaras):</span>
+            <strong id="drawer-masks-total" style="color: #88c0d0;">0 no Mapa</strong>
           </div>
           <div class="stat-item" style="grid-column: 1 / -1; display: flex; align-items: center; justify-content: space-between;">
             <div>
@@ -316,11 +320,15 @@
             <input type="checkbox" id="chk-npcs" checked>
           </label>
           <label class="toggle-row highlight-row">
-            <span>🛡️ Malha de Colisão (Overlay Vermelho)</span>
+            <span>🚧 Malha de Colisão Dinâmica (Overlay Vermelho)</span>
             <input type="checkbox" id="chk-collision">
           </label>
+          <label class="toggle-row highlight-row">
+            <span>🪟 Caixas Visuais de Sobreposição (Máscaras Ciano/Ouro)</span>
+            <input type="checkbox" id="chk-masks-visual">
+          </label>
           <label class="toggle-row">
-            <span>🌲 Transparência de Telhados/Árvores</span>
+            <span>👻 Efeito de Transparência Dinâmica (Alfa 35%)</span>
             <input type="checkbox" id="chk-transparency" checked>
           </label>
         </div>
@@ -480,7 +488,7 @@
     </div>
   </div>
 
-  <script src="main.js?v=1.6.1"></script>
+  <script src="main.js?v=1.6.2"></script>
 
   <!-- Modal 1: Provador de Classes & Skins (46 Visuais) -->
   <div id="modal-classes" class="catalog-modal hidden">

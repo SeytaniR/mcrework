@@ -25,15 +25,15 @@ async function initGame() {
     fetch("assets/map1/collision.bin").then(r => r.arrayBuffer()),
     fetch("assets/monsters/mushroom/visual_meta.json").then(r => r.json()),
     PIXI.Assets.load("assets/monsters/mushroom/atlas.json"),
-    fetch("assets/characters/catalog.json?v=1.6.1").then(r => r.json()).catch(() => ({ total_classes: 0, classes: [] })),
-    fetch("assets/monsters/catalog.json?v=1.6.1").then(r => r.json()).catch(() => ({ total_monsters: 0, monsters: [] })),
-    fetch("assets/mounts/catalog.json?v=1.6.1").then(r => r.json()).catch(() => ({ total_mounts: 0, mounts: [] })),
-    fetch("assets/npcs/catalog.json?v=1.6.1").then(r => r.json()).catch(() => ({ total_npcs: 0, npcs: [] })),
-    fetch("assets/maps/catalog.json?v=1.6.1").then(r => r.json()).catch(() => ({ total_maps: 0, maps: [] })),
-    fetch("assets/skills/catalog.json?v=1.6.1").then(r => r.json()).catch(() => ([])),
-    fetch("assets/effects/catalog.json?v=1.6.1").then(r => r.json()).catch(() => ([])),
-    fetch("assets/equipment/catalog.json?v=1.6.1").then(r => r.json()).catch(() => ({ items: [] })),
-    fetch("assets/wings/catalog.json?v=1.6.1").then(r => r.json()).catch(() => ([]))
+    fetch("assets/characters/catalog.json?v=1.6.2").then(r => r.json()).catch(() => ({ total_classes: 0, classes: [] })),
+    fetch("assets/monsters/catalog.json?v=1.6.2").then(r => r.json()).catch(() => ({ total_monsters: 0, monsters: [] })),
+    fetch("assets/mounts/catalog.json?v=1.6.2").then(r => r.json()).catch(() => ({ total_mounts: 0, mounts: [] })),
+    fetch("assets/npcs/catalog.json?v=1.6.2").then(r => r.json()).catch(() => ({ total_npcs: 0, npcs: [] })),
+    fetch("assets/maps/catalog.json?v=1.6.2").then(r => r.json()).catch(() => ({ total_maps: 0, maps: [] })),
+    fetch("assets/skills/catalog.json?v=1.6.2").then(r => r.json()).catch(() => ([])),
+    fetch("assets/effects/catalog.json?v=1.6.2").then(r => r.json()).catch(() => ([])),
+    fetch("assets/equipment/catalog.json?v=1.6.2").then(r => r.json()).catch(() => ({ items: [] })),
+    fetch("assets/wings/catalog.json?v=1.6.2").then(r => r.json()).catch(() => ([]))
   ]);
 
   let mapsCatalog = mapsCatalogData || { total_maps: 0, maps: [] };
@@ -70,11 +70,9 @@ async function initGame() {
   }
 
   function canStand(x, y) {
-    if (!isWalkable(x, y)) return false;
-    // Pequeno footprint de 2px para máxima fluidez em caminhos e pontes estreitas
-    if (!isWalkable(x - 2, y) || !isWalkable(x + 2, y)) return false;
-    if (!isWalkable(x, y - 2) || !isWalkable(x, y + 2)) return false;
-    return true;
+    // Colisão 1:1 fiel ao Flash original (HitTestContainer.as: checkHitTest(x, y))
+    // Sem padding artificial para permitir navegação perfeita em pontes, escadas e esquinas estreitas
+    return isWalkable(x, y);
   }
 
   function findClosestWalkable(tx, ty, maxRadius = 150) {
@@ -106,11 +104,64 @@ async function initGame() {
   const portalsContainer = new PIXI.Container();
   world.addChild(portalsContainer);
 
-  // Camada 2: Overlay Visual da Colisão (Inspecionável / Debug)
-  const colOverlayTexture = await PIXI.Assets.load("assets/map1/collision_overlay.png");
-  const colOverlaySprite = new PIXI.Sprite(colOverlayTexture);
+  // Camada 2: Overlay Visual da Colisão Dinâmica 1:1 (Inspecionável / Debug Universal 76 Mapas)
+  const colOverlaySprite = new PIXI.Sprite();
   colOverlaySprite.visible = false;
   world.addChild(colOverlaySprite);
+
+  let colOverlayCanvas = null;
+  let showCollisionOverlay = false;
+
+  function updateCollisionOverlay() {
+    if (!colBytes || COL_WIDTH <= 0 || COL_HEIGHT <= 0) {
+      colOverlaySprite.visible = false;
+      return;
+    }
+    if (!showCollisionOverlay) {
+      colOverlaySprite.visible = false;
+      return;
+    }
+
+    // Gerar overlay dinâmico fiel aos colBytes do mapa atual
+    const scale = 2; // downsample 2x para geração instantânea (~3ms) mesmo em mapas 4000x3000
+    const cw = Math.ceil(MAP_WIDTH / scale);
+    const ch = Math.ceil(MAP_HEIGHT / scale);
+
+    if (!colOverlayCanvas) {
+      colOverlayCanvas = document.createElement("canvas");
+    }
+    colOverlayCanvas.width = cw;
+    colOverlayCanvas.height = ch;
+    const ctx = colOverlayCanvas.getContext("2d");
+    const imgData = ctx.createImageData(cw, ch);
+    const data32 = new Uint32Array(imgData.data.buffer);
+
+    // Vermelho translúcido para bloqueios (Little Endian ABGR: 0x660000EE)
+    const BLOCKED_COLOR = 0x660000EE;
+
+    for (let cy = 0; cy < ch; cy++) {
+      const srcY = cy * scale;
+      if (srcY >= COL_HEIGHT) break;
+      const rowOffset = srcY * COL_WIDTH;
+      const canvasRowOffset = cy * cw;
+
+      for (let cx = 0; cx < cw; cx++) {
+        const srcX = cx * scale;
+        if (srcX >= COL_WIDTH) break;
+        const idx = rowOffset + srcX;
+        const isWalkableBit = (colBytes[idx >> 3] & (1 << (idx & 7))) !== 0;
+        if (!isWalkableBit) {
+          data32[canvasRowOffset + cx] = BLOCKED_COLOR;
+        }
+      }
+    }
+
+    ctx.putImageData(imgData, 0, 0);
+    colOverlaySprite.texture = PIXI.Texture.from(colOverlayCanvas);
+    colOverlaySprite.width = MAP_WIDTH;
+    colOverlaySprite.height = MAP_HEIGHT;
+    colOverlaySprite.visible = true;
+  }
 
 
   // ==========================================================================
@@ -269,7 +320,7 @@ async function initGame() {
       // 3. Carregar malha de colisão binária se existir
       if (mapMeta.has_collision && mapMeta.collision_bin) {
         try {
-          const colBuf = await fetch(`${mapMeta.collision_bin}?v=1.6.1`).then(r => r.arrayBuffer());
+          const colBuf = await fetch(`${mapMeta.collision_bin}?v=1.6.2`).then(r => r.arrayBuffer());
           colBytes = new Uint8Array(colBuf);
           COL_WIDTH = mapMeta.col_width;
           COL_HEIGHT = mapMeta.col_height;
@@ -282,6 +333,8 @@ async function initGame() {
         COL_WIDTH = 0;
         COL_HEIGHT = 0;
       }
+      // Atualizar malha visual de colisão dinâmica se o overlay estiver ativo
+      updateCollisionOverlay();
 
       currentMapId = targetMapId;
       currentMapMeta = mapMeta;
@@ -728,19 +781,32 @@ async function initGame() {
   const maskContainer = new PIXI.Container();
   world.addChild(maskContainer);
 
+  // Camada 7: Overlay Visual de Caixas de Máscaras (Inspecionável / Debug)
+  const maskDebugContainer = new PIXI.Container();
+  maskDebugContainer.visible = false;
+  world.addChild(maskDebugContainer);
+  let showMasksVisual = false;
+
   const maskSprites = [];
 
   async function loadMapMasks(mapId) {
     if (maskContainer) maskContainer.removeChildren();
+    if (maskDebugContainer) maskDebugContainer.removeChildren();
     maskSprites.length = 0;
 
     const masksUrl = (mapId === 1) ? "assets/map1/masks.json" : `assets/maps/map_${mapId}/masks.json`;
 
     try {
-      const resp = await fetch(`${masksUrl}?v=1.6.1`);
-      if (!resp.ok) return;
+      const resp = await fetch(`${masksUrl}?v=1.6.2`);
+      if (!resp.ok) {
+        updateMasksDrawerCount(0);
+        return;
+      }
       const mData = await resp.json();
-      if (!Array.isArray(mData)) return;
+      if (!Array.isArray(mData)) {
+        updateMasksDrawerCount(0);
+        return;
+      }
 
       for (const maskInfo of mData) {
         try {
@@ -756,9 +822,56 @@ async function initGame() {
           console.warn(`Aviso ao carregar textura de máscara ${maskInfo.file}:`, errTex);
         }
       }
+      buildMaskDebugGraphics();
+      updateMasksDrawerCount(maskSprites.length);
       console.log(`Carregadas ${maskSprites.length} sobreposições de primeiro plano para o mapa #${mapId}.`);
     } catch (e) {
+      updateMasksDrawerCount(0);
       console.log(`Nenhuma sobreposição de primeiro plano para o mapa #${mapId}.`);
+    }
+  }
+
+  function updateMasksDrawerCount(count) {
+    const el = document.getElementById("drawer-masks-total");
+    if (el) el.textContent = `${count} no Mapa`;
+  }
+
+  function buildMaskDebugGraphics() {
+    if (maskDebugContainer) maskDebugContainer.removeChildren();
+    maskDebugContainer.visible = showMasksVisual;
+    if (!maskSprites || maskSprites.length === 0) return;
+
+    for (let i = 0; i < maskSprites.length; i++) {
+      const item = maskSprites[i];
+      const info = item.info;
+      const boxContainer = new PIXI.Container();
+
+      const g = new PIXI.Graphics();
+      g.lineStyle(2, 0x00e5ff, 0.85);
+      g.beginFill(0x00e5ff, 0.12);
+      g.drawRect(0, 0, info.w, info.h);
+      g.endFill();
+
+      const text = new PIXI.Text(`🪟 #${i + 1} (${Math.round(info.w)}x${Math.round(info.h)})`, {
+        fontFamily: "Arial, sans-serif",
+        fontSize: 11,
+        fill: 0xffffff,
+        fontWeight: "bold",
+        dropShadow: true,
+        dropShadowColor: 0x000000,
+        dropShadowDistance: 1,
+        dropShadowBlur: 2
+      });
+      text.x = 4;
+      text.y = 4;
+
+      boxContainer.x = info.x;
+      boxContainer.y = info.y;
+      boxContainer.addChild(g);
+      boxContainer.addChild(text);
+
+      maskDebugContainer.addChild(boxContainer);
+      item.debugBox = { container: boxContainer, graphics: g, text: text };
     }
   }
 
@@ -2075,28 +2188,69 @@ async function initGame() {
 
     // 4. Transparência Dinâmica dos Telhados e Árvores (Máscaras de Sobreposição)
     let anyOccluded = false;
-    if (enableTransparency) {
-      const pLeft = player.x - 25;
-      const pRight = player.x + 25;
-      const pTop = player.y - 85;
-      const pBottom = player.y;
+    let activeMaskNames = [];
+    if (enableTransparency && maskSprites.length > 0) {
+      // Envelope do jogador 2.5D: dos pés até o topo da cabeça/asas/montaria
+      const isMounted = (typeof playerEquippedWing !== "undefined" && playerEquippedWing && playerEquippedWing.is_fly_mount) || (typeof currentCharIndex !== "undefined" && currentCharIndex === 5);
+      const headOffset = isMounted ? 165 : 125;
+      const pLeft = player.x - 32;
+      const pRight = player.x + 32;
+      const pTop = player.y - headOffset;
+      const pBottom = player.y + 10;
 
-      for (const item of maskSprites) {
+      for (let i = 0; i < maskSprites.length; i++) {
+        const item = maskSprites[i];
         const s = item.sprite;
-        const mLeft = s.x;
-        const mRight = s.x + s.width;
-        const mTop = s.y;
-        const mBottom = s.y + s.height;
+        const info = item.info;
+        const mLeft = s.x - 10;
+        const mRight = s.x + s.width + 10;
+        const mTop = s.y - 10;
+        const mBottom = s.y + s.height + 10;
 
         // Bounding box overlap 2.5D
         const isOccluded = (pRight >= mLeft && pLeft <= mRight && pBottom >= mTop && pTop <= mBottom);
-        if (isOccluded) anyOccluded = true;
+        if (isOccluded) {
+          anyOccluded = true;
+          activeMaskNames.push(`#${i + 1}`);
+        }
         const targetAlpha = isOccluded ? 0.35 : 1.0;
         s.alpha += (targetAlpha - s.alpha) * 0.25;
+
+        // Atualizar visualização das caixas de debug
+        if (item.debugBox && item.debugBox.graphics) {
+          if (showMasksVisual) {
+            item.debugBox.container.visible = true;
+            item.debugBox.graphics.clear();
+            if (isOccluded) {
+              item.debugBox.graphics.lineStyle(3, 0xffb300, 1.0);
+              item.debugBox.graphics.beginFill(0xffb300, 0.35);
+              item.debugBox.graphics.drawRect(0, 0, info.w, info.h);
+              item.debugBox.graphics.endFill();
+              item.debugBox.text.text = `🔥 #${i + 1} ATIVA (${Math.round(s.alpha * 100)}%)`;
+              item.debugBox.text.style.fill = 0xffe082;
+            } else {
+              item.debugBox.graphics.lineStyle(2, 0x00e5ff, 0.85);
+              item.debugBox.graphics.beginFill(0x00e5ff, 0.12);
+              item.debugBox.graphics.drawRect(0, 0, info.w, info.h);
+              item.debugBox.graphics.endFill();
+              item.debugBox.text.text = `🪟 #${i + 1} (${Math.round(info.w)}x${Math.round(info.h)})`;
+              item.debugBox.text.style.fill = 0xffffff;
+            }
+          } else {
+            item.debugBox.container.visible = false;
+          }
+        }
       }
     }
-    drawerOccluded.innerText = anyOccluded ? "SIM (Transparente 35%)" : "NÃO (Visível 100%)";
-    drawerOccluded.style.color = anyOccluded ? "#ebcb8b" : "#88c0d0";
+    if (drawerOccluded) {
+      if (anyOccluded) {
+        drawerOccluded.innerText = `SIM (${activeMaskNames.join(", ")}) - 35%`;
+        drawerOccluded.style.color = "#ebcb8b";
+      } else {
+        drawerOccluded.innerText = "NÃO (Visível 100%)";
+        drawerOccluded.style.color = "#88c0d0";
+      }
+    }
 
     // Z-Ordering dinâmico de entidades no mundo 2.5D
     playerContainer.zIndex = Math.round(player.y);
@@ -2286,16 +2440,31 @@ async function initGame() {
   const btnAckDlg = document.getElementById("btn-ack-npc-dialog");
   if (btnAckDlg) btnAckDlg.onclick = closeNpcDlg;
 
-  document.getElementById("chk-collision").onchange = (e) => {
-    colOverlaySprite.visible = e.target.checked;
-  };
+  const chkCol = document.getElementById("chk-collision");
+  if (chkCol) {
+    chkCol.onchange = (e) => {
+      showCollisionOverlay = e.target.checked;
+      updateCollisionOverlay();
+    };
+  }
 
-  document.getElementById("chk-transparency").onchange = (e) => {
-    enableTransparency = e.target.checked;
-    if (!enableTransparency) {
-      maskSprites.forEach(m => m.sprite.alpha = 1.0);
-    }
-  };
+  const chkMasks = document.getElementById("chk-masks-visual");
+  if (chkMasks) {
+    chkMasks.onchange = (e) => {
+      showMasksVisual = e.target.checked;
+      if (maskDebugContainer) maskDebugContainer.visible = showMasksVisual;
+    };
+  }
+
+  const chkTransp = document.getElementById("chk-transparency");
+  if (chkTransp) {
+    chkTransp.onchange = (e) => {
+      enableTransparency = e.target.checked;
+      if (!enableTransparency) {
+        maskSprites.forEach(m => m.sprite.alpha = 1.0);
+      }
+    };
+  }
 
   // Botões do Painel de Teste de Combate
   const btnCloseCombat = document.getElementById("btn-close-combat-test");
@@ -3684,6 +3853,22 @@ async function initGame() {
   window.player = player;
   window.maskSprites = maskSprites;
   window.getCurrentMapPortals = () => currentMapPortals;
+  window.updateCollisionOverlay = updateCollisionOverlay;
+  window.maskDebugContainer = maskDebugContainer;
+  window.toggleMasksVisual = (val) => {
+    showMasksVisual = (val !== undefined) ? val : !showMasksVisual;
+    if (maskDebugContainer) maskDebugContainer.visible = showMasksVisual;
+    const chk = document.getElementById("chk-masks-visual");
+    if (chk) chk.checked = showMasksVisual;
+    return showMasksVisual;
+  };
+  window.toggleCollisionOverlay = (val) => {
+    showCollisionOverlay = (val !== undefined) ? val : !showCollisionOverlay;
+    updateCollisionOverlay();
+    const chk = document.getElementById("chk-collision");
+    if (chk) chk.checked = showCollisionOverlay;
+    return showCollisionOverlay;
+  };
 }
 
 window.onload = initGame;

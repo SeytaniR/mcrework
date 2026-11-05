@@ -37,6 +37,20 @@ Um projeto moderno de recriação de engine e modernização do clássico MMORPG
   * ⚡ **128 Efeitos Especiais Animados (VFX):** Decompilados a partir dos arquivos SWF originais (`DefineSprite` e vetores Flash) e convertidos em spritesheets WebP compactos com transparência alfa e metadados de duração em `web/assets/effects/`.
   * 📱 **Grimório Interativo no Cliente:** Provador de habilidades no topo do HUD mobile com busca em tempo real, filtros por classe/pet e botão de disparo imediato do efeito visual no jogo.
 
+### 7. Overlay Dinâmico de Colisão, Caixas Visuais de Sobreposição & Navegação Livre (v1.6.2) 🚀✨
+* **Overlay Visual de Colisão 100% Dinâmico para Todos os 76 Mapas:**
+  * Substituição do antigo overlay estático do Mapa 1 por um gerador procedural em tempo real (`updateCollisionOverlay`): ao ativar a visualização da malha de colisão na gaveta de depuração em qualquer mapa (ex: Mapa 2, Mapa 3, Mapa 9), a engine sintetiza a textura visual diretamente a partir do buffer binário `colBytes` do mapa ativo em menos de ~3ms.
+  * Elimina completamente a inconsistência em que marcações vermelhas do Mapa 1 apareciam sobrepostas em outros mapas onde o jogador conseguia andar livremente.
+* **Inspetor Visual de Caixas de Sobreposição (Máscaras Ciano / Ouro):**
+  * Novo controle no drawer (`chk-masks-visual`): projeta caixas delimitadoras vibrantes em ciano (`#00e5ff`) com etiquetas descritivas para todas as 247 máscaras de primeiro plano ativas no mapa.
+  * Detecção interativa em tempo real: no momento em que o personagem caminha sob a copa de uma árvore ou beiral de telhado, a caixa correspondente se ilumina instantaneamente em âmbar/ouro (`#ffb300`) com a tag `🔥 ATIVA (Alfa 35%)`, fornecendo feedback visual imediato da oclusão 2.5D.
+* **Eliminação de Colisões Exageradas & Navegação 1:1 com o Flash Original:**
+  * Remoção do padding artificial em cruz de $\pm 2\text{px}$ em `canStand`: alinhamento estrito com a função `checkHitTest(x, y)` do Flash (`HitTestContainer.as`). O personagem agora navega livremente até a borda exata dos obstáculos, atravessando pontes estreitas, escadarias e curvas sinuosas sem travar ou sofrer empurrões invisíveis.
+* **Envelope Expandido de Oclusão 2.5D:**
+  * Ajuste de altura e tolerância para montarias terrestres e aladas ($125\text{px}$ a $165\text{px}$ de altura e buffer de proximidade de $10\text{px}$), garantindo que telhados altos e copas densas esmaeçam suavemente mesmo quando o jogador se desloca por trás da base de sustentação.
+
+---
+
 ### 6. Revisão Profunda dos 76 Mapas, Transparência Universal & Portais Físicos (v1.6.1) 🗺️🌀
 * **Correção Definitiva da Malha de Colisão em Todos os Mapas (Stride Bytecode AS3):**
   * Descoberta e correção da causa raiz da inconsistência: no ActionScript 3 original (HitTestContainer.as), a largura de stride da malha é declarada como public var _mapWidth:uint. A atribuição a partir do double compilado (width) utiliza truncamento inteiro estrito (uint(val)), e **não** arredondamento (
