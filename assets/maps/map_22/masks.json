@@ -1,0 +1,226 @@
+[
+  {
+    "bitmap_id": 4,
+    "file": "assets/maps/map_22/mask/mask_4.png",
+    "x": 475.2,
+    "y": 68.1,
+    "w": 324,
+    "h": 291
+  },
+  {
+    "bitmap_id": 4,
+    "file": "assets/maps/map_22/mask/mask_4.png",
+    "x": 1117.85,
+    "y": 392.2,
+    "w": 324,
+    "h": 291
+  },
+  {
+    "bitmap_id": 3,
+    "file": "assets/maps/map_22/mask/mask_3.png",
+    "x": 1237.3,
+    "y": 776.3,
+    "w": 324,
+    "h": 291
+  },
+  {
+    "bitmap_id": 3,
+    "file": "assets/maps/map_22/mask/mask_3.png",
+    "x": 1150.25,
+    "y": 817.3,
+    "w": 324,
+    "h": 291
+  },
+  {
+    "bitmap_id": 3,
+    "file": "assets/maps/map_22/mask/mask_3.png",
+    "x": 826.2,
+    "y": 870.3,
+    "w": 324,
+    "h": 291
+  },
+  {
+    "bitmap_id": 3,
+    "file": "assets/maps/map_22/mask/mask_3.png",
+    "x": 725.2,
+    "y": 980.85,
+    "w": 324,
+    "h": 291
+  },
+  {
+    "bitmap_id": 3,
+    "file": "assets/maps/map_22/mask/mask_3.png",
+    "x": 742.2,
+    "y": 1111.9,
+    "w": 324,
+    "h": 291
+  },
+  {
+    "bitmap_id": 3,
+    "file": "assets/maps/map_22/mask/mask_3.png",
+    "x": 1370.3,
+    "y": 854.3,
+    "w": 324,
+    "h": 291
+  },
+  {
+    "bitmap_id": 3,
+    "file": "assets/maps/map_22/mask/mask_3.png",
+    "x": 896.25,
+    "y": 881.25,
+    "w": 324,
+    "h": 291
+  },
+  {
+    "bitmap_id": 3,
+    "file": "assets/maps/map_22/mask/mask_3.png",
+    "x": 1072.25,
+    "y": 859.3,
+    "w": 324,
+    "h": 291
+  },
+  {
+    "bitmap_id": 4,
+    "file": "assets/maps/map_22/mask/mask_4.png",
+    "x": 979.3,
+    "y": 905.3,
+    "w": 324,
+    "h": 291
+  },
+  {
+    "bitmap_id": 3,
+    "file": "assets/maps/map_22/mask/mask_3.png",
+    "x": 2568.6,
+    "y": 383.35,
+    "w": 324,
+    "h": 291
+  },
+  {
+    "bitmap_id": 4,
+    "file": "assets/maps/map_22/mask/mask_4.png",
+    "x": 2244.1,
+    "y": 983.85,
+    "w": 324,
+    "h": 291
+  },
+  {
+    "bitmap_id": 3,
+    "file": "assets/maps/map_22/mask/mask_3.png",
+    "x": 2070.5,
+    "y": 1095.25,
+    "w": 324,
+    "h": 291
+  },
+  {
+    "bitmap_id": 3,
+    "file": "assets/maps/map_22/mask/mask_3.png",
+    "x": 2733.2,
+    "y": 1390.25,
+    "w": 324,
+    "h": 291
+  },
+  {
+    "bitmap_id": 4,
+    "file": "assets/maps/map_22/mask/mask_4.png",
+    "x": 2468.15,
+    "y": 1669.05,
+    "w": 324,
+    "h": 291
+  },
+  {
+    "bitmap_id": 3,
+    "file": "assets/maps/map_22/mask/mask_3.png",
+    "x": 1810.15,
+    "y": 1656.05,
+    "w": 324,
+    "h": 291
+  },
+  {
+    "bitmap_id": 3,
+    "file": "assets/maps/map_22/mask/mask_3.png",
+    "x": 1664.1,
+    "y": 1846.1,
+    "w": 324,
+    "h": 291
+  },
+  {
+    "bitmap_id": 3,
+    "file": "assets/maps/map_22/mask/mask_3.png",
+    "x": 1370.05,
+    "y": 1797.1,
+    "w": 324,
+    "h": 291
+  },
+  {
+    "bitmap_id": 3,
+    "file": "assets/maps/map_22/mask/mask_3.png",
+    "x": 649.35,
+    "y": 1637.05,
+    "w": 324,
+    "h": 291
+  },
+  {
+    "bitmap_id": 3,
+    "file": "assets/maps/map_22/mask/mask_3.png",
+    "x": -47.0,
+    "y": 175.05,
+    "w": 324,
+    "h": 291
+  },
+  {
+    "bitmap_id": 3,
+    "file": "assets/maps/map_22/mask/mask_3.png",
+    "x": 13.0,
+    "y": 291.1,
+    "w": 324,
+    "h": 291
+  },
+  {
+    "bitmap_id": 4,
+    "file": "assets/maps/map_22/mask/mask_4.png",
+    "x": 1155.85,
+    "y": 140.1,
+    "w": 324,
+    "h": 291
+  },
+  {
+    "bitmap_id": 3,
+    "file": "assets/maps/map_22/mask/mask_3.png",
+    "x": 1502.35,
+    "y": 510.35,
+    "w": 324,
+    "h": 291
+  },
+  {
+    "bitmap_id": 3,
+    "file": "assets/maps/map_22/mask/mask_3.png",
+    "x": 1845.4,
+    "y": 39.25,
+    "w": 324,
+    "h": 291
+  },
+  {
+    "bitmap_id": 3,
+    "file": "assets/maps/map_22/mask/mask_3.png",
+    "x": 1154.0,
+    "y": 1420.0,
+    "w": 324,
+    "h": 291
+  },
+  {
+    "bitmap_id": 2,
+    "file": "assets/maps/map_22/mask/mask_2.png",
+    "x": 415.0,
+    "y": 661.3,
+    "w": 238,
+    "h": 143
+  },
+  {
+    "bitmap_id": 1,
+    "file": "assets/maps/map_22/mask/mask_1.png",
+    "x": 2642.2,
+    "y": -0.15,
+    "w": 91,
+    "h": 308
+  }
+]

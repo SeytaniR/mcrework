@@ -1,29 +1,10 @@
 {
-  "version": "1.3.0",
   "total_maps": 76,
-  "continents": [
-    {
-      "id": 1,
-      "name": "Đại Lục Vô Ưu (Continente Principal)",
-      "image": "assets/worldmap/world_map_1.jpg",
-      "width": 900,
-      "height": 570,
-      "maps_count": 50
-    },
-    {
-      "id": 2,
-      "name": "Đại Lục Thần Thánh (Novo Continente)",
-      "image": "assets/worldmap/world_map_2.jpg",
-      "width": 900,
-      "height": 570,
-      "maps_count": 26
-    }
-  ],
   "maps": [
     {
       "id": 1,
-      "name": "Xuất Vân Thôn",
-      "info": "Thôn nhỏ yên tĩnh nằm giữa đồi núi và đồng bằng phía tây đại lục, tương truyền là nơi khởi nguồn văn minh Đại Lục Vô Ưu.",
+      "name": "Xu\u1ea5t V\u00e2n Th\u00f4n",
+      "info": "Th\u00f4n nh\u1ecf y\u00ean t\u0129nh n\u1eb1m gi\u1eefa \u0111\u1ed3i n\u00fai v\u00e0 \u0111\u1ed3ng b\u1eb1ng ph\u00eda t\u00e2y \u0111\u1ea1i l\u1ee5c, t\u01b0\u01a1ng truy\u1ec1n l\u00e0 n\u01a1i kh\u1edfi ngu\u1ed3n v\u0103n minh \u0110\u1ea1i L\u1ee5c V\u00f4 \u01afu.",
       "level": 1,
       "width": 2000,
       "height": 1500,
@@ -41,20 +22,31 @@
       "portals": [
         {
           "id": 732,
-          "target_name": "Đông Xuất Vân",
+          "target_name": "\u0110\u00f4ng Xu\u1ea5t V\u00e2n",
           "target_map_id": 2,
           "x": 1649,
           "y": 1306,
           "dest_x": 2000,
           "dest_y": 900
+        },
+        {
+          "id": 731,
+          "target_name": "V\u00e2n \u0110\u00e0i",
+          "target_map_id": 3,
+          "x": 220,
+          "y": 420,
+          "dest_x": 100,
+          "dest_y": 1050
         }
       ],
-      "creatures_count": 0
+      "creatures_count": 0,
+      "has_masks": true,
+      "masks_count": 10
     },
     {
       "id": 2,
-      "name": "Đông Xuất Vân",
-      "info": "Vùng ngoại ô Xuất Vân dẫn đến Đông Huyền, là nơi săn bắn và luyện tập thích hợp cho cấp 6 - 10.",
+      "name": "\u0110\u00f4ng Xu\u1ea5t V\u00e2n",
+      "info": "V\u00f9ng ngo\u1ea1i \u00f4 Xu\u1ea5t V\u00e2n d\u1eabn \u0111\u1ebfn \u0110\u00f4ng Huy\u1ec1n, l\u00e0 n\u01a1i s\u0103n b\u1eafn v\u00e0 luy\u1ec7n t\u1eadp th\u00edch h\u1ee3p cho c\u1ea5p 6 - 10.",
       "level": 5,
       "width": 2400,
       "height": 1600,
@@ -72,7 +64,7 @@
       "portals": [
         {
           "id": 733,
-          "target_name": "Xuất Vân Thôn",
+          "target_name": "Xu\u1ea5t V\u00e2n Th\u00f4n",
           "target_map_id": 1,
           "x": 120,
           "y": 63,
@@ -81,7 +73,7 @@
         },
         {
           "id": 734,
-          "target_name": "Đông Huyền Thành",
+          "target_name": "\u0110\u00f4ng Huy\u1ec1n Th\u00e0nh",
           "target_map_id": 9,
           "x": 107,
           "y": 1368,
@@ -89,12 +81,14 @@
           "dest_y": 1309
         }
       ],
-      "creatures_count": 9
+      "creatures_count": 9,
+      "has_masks": true,
+      "masks_count": 9
     },
     {
       "id": 3,
-      "name": "Vân Đài",
-      "info": "Nơi bắt đầu học tập, nhận sự trợ giúp từ tự nhiên. Thích hợp cho cấp độ từ 1 - 5.",
+      "name": "V\u00e2n \u0110\u00e0i",
+      "info": "N\u01a1i b\u1eaft \u0111\u1ea7u h\u1ecdc t\u1eadp, nh\u1eadn s\u1ef1 tr\u1ee3 gi\u00fap t\u1eeb t\u1ef1 nhi\u00ean. Th\u00edch h\u1ee3p cho c\u1ea5p \u0111\u1ed9 t\u1eeb 1 - 5.",
       "level": 2,
       "width": 2500,
       "height": 1800,
@@ -112,7 +106,7 @@
       "portals": [
         {
           "id": 757,
-          "target_name": "Xuất Vân Thôn",
+          "target_name": "Xu\u1ea5t V\u00e2n Th\u00f4n",
           "target_map_id": 1,
           "x": 53,
           "y": 1094,
@@ -121,7 +115,7 @@
         },
         {
           "id": 758,
-          "target_name": "Thiện Tĩnh Địa",
+          "target_name": "Thi\u1ec7n T\u0129nh \u0110\u1ecba",
           "target_map_id": 4,
           "x": 2042,
           "y": 95,
@@ -129,12 +123,14 @@
           "dest_y": 800
         }
       ],
-      "creatures_count": 9
+      "creatures_count": 9,
+      "has_masks": true,
+      "masks_count": 6
     },
     {
       "id": 4,
-      "name": "Thiện Tĩnh Địa",
-      "info": "Vùng đất sơ khai, nơi có kiến thức nghìn năm lưu truyền lại. Thích hợp cho cấp độ từ 11 - 15.",
+      "name": "Thi\u1ec7n T\u0129nh \u0110\u1ecba",
+      "info": "V\u00f9ng \u0111\u1ea5t s\u01a1 khai, n\u01a1i c\u00f3 ki\u1ebfn th\u1ee9c ngh\u00ecn n\u0103m l\u01b0u truy\u1ec1n l\u1ea1i. Th\u00edch h\u1ee3p cho c\u1ea5p \u0111\u1ed9 t\u1eeb 11 - 15.",
       "level": 8,
       "width": 3000,
       "height": 2000,
@@ -152,7 +148,7 @@
       "portals": [
         {
           "id": 812,
-          "target_name": "Vân Đài",
+          "target_name": "V\u00e2n \u0110\u00e0i",
           "target_map_id": 3,
           "x": 176,
           "y": 1767,
@@ -160,12 +156,14 @@
           "dest_y": 1000
         }
       ],
-      "creatures_count": 9
+      "creatures_count": 9,
+      "has_masks": true,
+      "masks_count": 12
     },
     {
       "id": 5,
-      "name": "Lê Dương Thôn",
-      "info": "Thôn nhỏ ven hồ Lê Dương có phong cảnh hữu tình mê hoặc người lữ khách. Thích hợp cho cấp độ từ 51 - 55.",
+      "name": "L\u00ea D\u01b0\u01a1ng Th\u00f4n",
+      "info": "Th\u00f4n nh\u1ecf ven h\u1ed3 L\u00ea D\u01b0\u01a1ng c\u00f3 phong c\u1ea3nh h\u1eefu t\u00ecnh m\u00ea ho\u1eb7c ng\u01b0\u1eddi l\u1eef kh\u00e1ch. Th\u00edch h\u1ee3p cho c\u1ea5p \u0111\u1ed9 t\u1eeb 51 - 55.",
       "level": 30,
       "width": 2000,
       "height": 1700,
@@ -183,16 +181,16 @@
       "portals": [
         {
           "id": 742,
-          "target_name": "Lê Dương Đảo",
+          "target_name": "L\u00ea D\u01b0\u01a1ng \u0110\u1ea3o",
           "target_map_id": 17,
           "x": 895,
-          "y": -27,
+          "y": 55,
           "dest_x": 2265,
           "dest_y": 423
         },
         {
           "id": 743,
-          "target_name": "Lê Dương Nam",
+          "target_name": "L\u00ea D\u01b0\u01a1ng Nam",
           "target_map_id": 6,
           "x": 1718,
           "y": 1392,
@@ -200,12 +198,14 @@
           "dest_y": 800
         }
       ],
-      "creatures_count": 9
+      "creatures_count": 9,
+      "has_masks": true,
+      "masks_count": 7
     },
     {
       "id": 6,
-      "name": "Lê Dương Nam",
-      "info": "Vùng đất nguy hiểm nhất của Lê Dương, rất ít người qua lại. Thích hợp cho cấp độ từ 61 - 65.",
+      "name": "L\u00ea D\u01b0\u01a1ng Nam",
+      "info": "V\u00f9ng \u0111\u1ea5t nguy hi\u1ec3m nh\u1ea5t c\u1ee7a L\u00ea D\u01b0\u01a1ng, r\u1ea5t \u00edt ng\u01b0\u1eddi qua l\u1ea1i. Th\u00edch h\u1ee3p cho c\u1ea5p \u0111\u1ed9 t\u1eeb 61 - 65.",
       "level": 40,
       "width": 2500,
       "height": 1800,
@@ -223,7 +223,7 @@
       "portals": [
         {
           "id": 748,
-          "target_name": "Lê Dương Thôn",
+          "target_name": "L\u00ea D\u01b0\u01a1ng Th\u00f4n",
           "target_map_id": 5,
           "x": 68,
           "y": 1297,
@@ -232,7 +232,7 @@
         },
         {
           "id": 749,
-          "target_name": "Ngọc Phong Lâm",
+          "target_name": "Ng\u1ecdc Phong L\u00e2m",
           "target_map_id": 16,
           "x": 2314,
           "y": 1455,
@@ -240,12 +240,14 @@
           "dest_y": 500
         }
       ],
-      "creatures_count": 8
+      "creatures_count": 8,
+      "has_masks": true,
+      "masks_count": 1
     },
     {
       "id": 7,
-      "name": "Quân Cổ Đạo",
-      "info": "Nơi ở của thánh hiền quân tử, giúp rèn luyện tính khiêm tốn học hỏi, kiên cường bất khuất. Thích hợp cho cấp độ từ 81- 85.",
+      "name": "Qu\u00e2n C\u1ed5 \u0110\u1ea1o",
+      "info": "N\u01a1i \u1edf c\u1ee7a th\u00e1nh hi\u1ec1n qu\u00e2n t\u1eed, gi\u00fap r\u00e8n luy\u1ec7n t\u00ednh khi\u00eam t\u1ed1n h\u1ecdc h\u1ecfi, ki\u00ean c\u01b0\u1eddng b\u1ea5t khu\u1ea5t. Th\u00edch h\u1ee3p cho c\u1ea5p \u0111\u1ed9 t\u1eeb 81- 85.",
       "level": 75,
       "width": 2200,
       "height": 1700,
@@ -263,19 +265,19 @@
       "portals": [
         {
           "id": 752,
-          "target_name": "Ngọc Phong Lâm",
+          "target_name": "Ng\u1ecdc Phong L\u00e2m",
           "target_map_id": 16,
           "x": 175,
-          "y": 22,
+          "y": 55,
           "dest_x": 1600,
           "dest_y": 500
         },
         {
           "id": 753,
-          "target_name": "Kỳ Thạch Địa",
+          "target_name": "K\u1ef3 Th\u1ea1ch \u0110\u1ecba",
           "target_map_id": 18,
           "x": 1916,
-          "y": 13,
+          "y": 55,
           "dest_x": 1351,
           "dest_y": 1013
         },
@@ -283,18 +285,20 @@
           "id": 754,
           "target_name": "Linh Lan",
           "target_map_id": 19,
-          "x": 21,
+          "x": 45,
           "y": 1108,
           "dest_x": 900,
           "dest_y": 300
         }
       ],
-      "creatures_count": 0
+      "creatures_count": 0,
+      "has_masks": true,
+      "masks_count": 1
     },
     {
       "id": 8,
-      "name": "Tháp Khắc Nguyên",
-      "info": "Rừng cây rộng lớn nằm giữa Lê Dương và Hư Không Mạc, là nơi ở của bầy sói. Thích hợp cho cấp độ từ 46 - 50.",
+      "name": "Th\u00e1p Kh\u1eafc Nguy\u00ean",
+      "info": "R\u1eebng c\u00e2y r\u1ed9ng l\u1edbn n\u1eb1m gi\u1eefa L\u00ea D\u01b0\u01a1ng v\u00e0 H\u01b0 Kh\u00f4ng M\u1ea1c, l\u00e0 n\u01a1i \u1edf c\u1ee7a b\u1ea7y s\u00f3i. Th\u00edch h\u1ee3p cho c\u1ea5p \u0111\u1ed9 t\u1eeb 46 - 50.",
       "level": 30,
       "width": 3000,
       "height": 2000,
@@ -312,7 +316,7 @@
       "portals": [
         {
           "id": 745,
-          "target_name": "Hư Không Mạc",
+          "target_name": "H\u01b0 Kh\u00f4ng M\u1ea1c",
           "target_map_id": 14,
           "x": 75,
           "y": 632,
@@ -320,12 +324,14 @@
           "dest_y": 1309
         }
       ],
-      "creatures_count": 9
+      "creatures_count": 9,
+      "has_masks": false,
+      "masks_count": 0
     },
     {
       "id": 9,
-      "name": "Đông Huyền Thành",
-      "info": "Thành phố nằm ngay giữa đại lục, là trung tâm hành chính, văn hóa, giao thông của đại lục.",
+      "name": "\u0110\u00f4ng Huy\u1ec1n Th\u00e0nh",
+      "info": "Th\u00e0nh ph\u1ed1 n\u1eb1m ngay gi\u1eefa \u0111\u1ea1i l\u1ee5c, l\u00e0 trung t\u00e2m h\u00e0nh ch\u00ednh, v\u0103n h\u00f3a, giao th\u00f4ng c\u1ee7a \u0111\u1ea1i l\u1ee5c.",
       "level": 10,
       "width": 4000,
       "height": 2745,
@@ -343,16 +349,16 @@
       "portals": [
         {
           "id": 1455,
-          "target_name": "Cảnh Kỹ Trường",
-          "target_map_id": null,
+          "target_name": "C\u1ea3nh K\u1ef9 Tr\u01b0\u1eddng",
+          "target_map_id": 2000,
           "x": 256,
           "y": 957,
-          "dest_x": null,
-          "dest_y": null
+          "dest_x": 2057,
+          "dest_y": 1309
         },
         {
           "id": 736,
-          "target_name": "Lê Dương Bắc",
+          "target_name": "L\u00ea D\u01b0\u01a1ng B\u1eafc",
           "target_map_id": 15,
           "x": 66,
           "y": 2379,
@@ -361,20 +367,22 @@
         },
         {
           "id": 922,
-          "target_name": "Đông Xuất Vân",
+          "target_name": "\u0110\u00f4ng Xu\u1ea5t V\u00e2n",
           "target_map_id": 2,
           "x": 2931,
-          "y": 1,
+          "y": 55,
           "dest_x": 2000,
           "dest_y": 900
         }
       ],
-      "creatures_count": 0
+      "creatures_count": 0,
+      "has_masks": true,
+      "masks_count": 23
     },
     {
       "id": 10,
-      "name": "Tinh Linh Thành",
-      "info": "Thành phố xanh tươi nằm ven rừng, nổi tiếng với truyền thuyết tinh linh, mang đầy sức sống thiên nhiên.",
+      "name": "Tinh Linh Th\u00e0nh",
+      "info": "Th\u00e0nh ph\u1ed1 xanh t\u01b0\u01a1i n\u1eb1m ven r\u1eebng, n\u1ed5i ti\u1ebfng v\u1edbi truy\u1ec1n thuy\u1ebft tinh linh, mang \u0111\u1ea7y s\u1ee9c s\u1ed1ng thi\u00ean nhi\u00ean.",
       "level": 10,
       "width": 2800,
       "height": 2000,
@@ -392,16 +400,16 @@
       "portals": [
         {
           "id": 762,
-          "target_name": "Trầm Thụy Lâm",
+          "target_name": "Tr\u1ea7m Th\u1ee5y L\u00e2m",
           "target_map_id": 27,
           "x": 1790,
-          "y": 27,
+          "y": 55,
           "dest_x": 1000,
           "dest_y": 500
         },
         {
           "id": 761,
-          "target_name": "Quang Bình Nguyên",
+          "target_name": "Quang B\u00ecnh Nguy\u00ean",
           "target_map_id": 26,
           "x": 412,
           "y": 1786,
@@ -409,12 +417,14 @@
           "dest_y": 1500
         }
       ],
-      "creatures_count": 0
+      "creatures_count": 0,
+      "has_masks": true,
+      "masks_count": 9
     },
     {
       "id": 11,
-      "name": "Linh Vũ Tộc",
-      "info": "Tộc Linh Vũ nằm ở phía nam đại lục, là nơi đào tạo ra những danh y tài ba và thông hiểu lễ nghĩa.",
+      "name": "Linh V\u0169 T\u1ed9c",
+      "info": "T\u1ed9c Linh V\u0169 n\u1eb1m \u1edf ph\u00eda nam \u0111\u1ea1i l\u1ee5c, l\u00e0 n\u01a1i \u0111\u00e0o t\u1ea1o ra nh\u1eefng danh y t\u00e0i ba v\u00e0 th\u00f4ng hi\u1ec3u l\u1ec5 ngh\u0129a.",
       "level": 10,
       "width": 2100,
       "height": 1500,
@@ -432,20 +442,22 @@
       "portals": [
         {
           "id": 776,
-          "target_name": "Thiên Lục Châu",
+          "target_name": "Thi\u00ean L\u1ee5c Ch\u00e2u",
           "target_map_id": 40,
-          "x": 24,
+          "x": 45,
           "y": 1319,
           "dest_x": 1500,
           "dest_y": 1200
         }
       ],
-      "creatures_count": 0
+      "creatures_count": 0,
+      "has_masks": true,
+      "masks_count": 7
     },
     {
       "id": 12,
-      "name": "Bàn Địa Tộc",
-      "info": "Nằm phía đông nam Quang Bình Nguyên, đào tạo ra những chiến binh nổi danh với tên gọi \"Lá chắn của đại lục\".",
+      "name": "B\u00e0n \u0110\u1ecba T\u1ed9c",
+      "info": "N\u1eb1m ph\u00eda \u0111\u00f4ng nam Quang B\u00ecnh Nguy\u00ean, \u0111\u00e0o t\u1ea1o ra nh\u1eefng chi\u1ebfn binh n\u1ed5i danh v\u1edbi t\u00ean g\u1ecdi \"L\u00e1 ch\u1eafn c\u1ee7a \u0111\u1ea1i l\u1ee5c\".",
       "level": 10,
       "width": 2100,
       "height": 1500,
@@ -463,7 +475,7 @@
       "portals": [
         {
           "id": 766,
-          "target_name": "Quang Bình Nguyên",
+          "target_name": "Quang B\u00ecnh Nguy\u00ean",
           "target_map_id": 26,
           "x": 195,
           "y": 1347,
@@ -471,12 +483,14 @@
           "dest_y": 1500
         }
       ],
-      "creatures_count": 0
+      "creatures_count": 0,
+      "has_masks": false,
+      "masks_count": 0
     },
     {
       "id": 13,
-      "name": "Liêu Vân Tộc",
-      "info": "Nằm trên đỉnh núi tuyết phía tây, là cái nôi ươm tạo nghệ thuật gia âm nhạc.",
+      "name": "Li\u00eau V\u00e2n T\u1ed9c",
+      "info": "N\u1eb1m tr\u00ean \u0111\u1ec9nh n\u00fai tuy\u1ebft ph\u00eda t\u00e2y, l\u00e0 c\u00e1i n\u00f4i \u01b0\u01a1m t\u1ea1o ngh\u1ec7 thu\u1eadt gia \u00e2m nh\u1ea1c.",
       "level": 10,
       "width": 2100,
       "height": 1500,
@@ -494,7 +508,7 @@
       "portals": [
         {
           "id": 788,
-          "target_name": "Lạp Tuyết Địa",
+          "target_name": "L\u1ea1p Tuy\u1ebft \u0110\u1ecba",
           "target_map_id": 33,
           "x": 1829,
           "y": 1291,
@@ -502,12 +516,14 @@
           "dest_y": 900
         }
       ],
-      "creatures_count": 0
+      "creatures_count": 0,
+      "has_masks": false,
+      "masks_count": 0
     },
     {
       "id": 14,
-      "name": "Hư Không Mạc",
-      "info": "Nơi có nhiều vật quý, nhưng là vùng đất chết, vô số sinh linh đã bị chôn vùi. Thích hợp cho cấp độ từ 56 - 60.",
+      "name": "H\u01b0 Kh\u00f4ng M\u1ea1c",
+      "info": "N\u01a1i c\u00f3 nhi\u1ec1u v\u1eadt qu\u00fd, nh\u01b0ng l\u00e0 v\u00f9ng \u0111\u1ea5t ch\u1ebft, v\u00f4 s\u1ed1 sinh linh \u0111\u00e3 b\u1ecb ch\u00f4n v\u00f9i. Th\u00edch h\u1ee3p cho c\u1ea5p \u0111\u1ed9 t\u1eeb 56 - 60.",
       "level": 30,
       "width": 4070,
       "height": 2624,
@@ -525,7 +541,7 @@
       "portals": [
         {
           "id": 747,
-          "target_name": "Tháp Khắc Nguyên",
+          "target_name": "Th\u00e1p Kh\u1eafc Nguy\u00ean",
           "target_map_id": 8,
           "x": 536,
           "y": 266,
@@ -533,12 +549,14 @@
           "dest_y": 900
         }
       ],
-      "creatures_count": 9
+      "creatures_count": 9,
+      "has_masks": false,
+      "masks_count": 0
     },
     {
       "id": 15,
-      "name": "Lê Dương Bắc",
-      "info": "Phía bắc hồ Lê Dương là nguồn nước của Đông Huyền, tuy phong cảnh hữu tình nhưng khá nguy hiểm. Thích hợp cho cấp độ từ 16 - 20",
+      "name": "L\u00ea D\u01b0\u01a1ng B\u1eafc",
+      "info": "Ph\u00eda b\u1eafc h\u1ed3 L\u00ea D\u01b0\u01a1ng l\u00e0 ngu\u1ed3n n\u01b0\u1edbc c\u1ee7a \u0110\u00f4ng Huy\u1ec1n, tuy phong c\u1ea3nh h\u1eefu t\u00ecnh nh\u01b0ng kh\u00e1 nguy hi\u1ec3m. Th\u00edch h\u1ee3p cho c\u1ea5p \u0111\u1ed9 t\u1eeb 16 - 20",
       "level": 10,
       "width": 3000,
       "height": 2000,
@@ -556,7 +574,7 @@
       "portals": [
         {
           "id": 737,
-          "target_name": "Đông Huyền Thành",
+          "target_name": "\u0110\u00f4ng Huy\u1ec1n Th\u00e0nh",
           "target_map_id": 9,
           "x": 2424,
           "y": 207,
@@ -564,12 +582,14 @@
           "dest_y": 1309
         }
       ],
-      "creatures_count": 9
+      "creatures_count": 9,
+      "has_masks": true,
+      "masks_count": 5
     },
     {
       "id": 16,
-      "name": "Ngọc Phong Lâm",
-      "info": "Chim hót véo von, bướm ong bay lượn, trăm hoa đua nở, tựa chốn thiên đường. Thích hợp cho cấp độ từ 71 - 75.",
+      "name": "Ng\u1ecdc Phong L\u00e2m",
+      "info": "Chim h\u00f3t v\u00e9o von, b\u01b0\u1edbm ong bay l\u01b0\u1ee3n, tr\u0103m hoa \u0111ua n\u1edf, t\u1ef1a ch\u1ed1n thi\u00ean \u0111\u01b0\u1eddng. Th\u00edch h\u1ee3p cho c\u1ea5p \u0111\u1ed9 t\u1eeb 71 - 75.",
       "level": 65,
       "width": 2500,
       "height": 1600,
@@ -587,16 +607,16 @@
       "portals": [
         {
           "id": 750,
-          "target_name": "Lê Dương Nam",
+          "target_name": "L\u00ea D\u01b0\u01a1ng Nam",
           "target_map_id": 6,
           "x": 813,
-          "y": 4,
+          "y": 55,
           "dest_x": 1800,
           "dest_y": 800
         },
         {
           "id": 751,
-          "target_name": "Quân Cổ Đạo",
+          "target_name": "Qu\u00e2n C\u1ed5 \u0110\u1ea1o",
           "target_map_id": 7,
           "x": 2295,
           "y": 1095,
@@ -604,12 +624,14 @@
           "dest_y": 486
         }
       ],
-      "creatures_count": 4
+      "creatures_count": 4,
+      "has_masks": false,
+      "masks_count": 0
     },
     {
       "id": 17,
-      "name": "Lê Dương Đảo",
-      "info": "Hòn đảo bé nhỏ như con thuyền đậu trên mặt hồ, là nơi đi dễ khó về. Thích hợp cho cấp độ từ 21 - 30.",
+      "name": "L\u00ea D\u01b0\u01a1ng \u0110\u1ea3o",
+      "info": "H\u00f2n \u0111\u1ea3o b\u00e9 nh\u1ecf nh\u01b0 con thuy\u1ec1n \u0111\u1eadu tr\u00ean m\u1eb7t h\u1ed3, l\u00e0 n\u01a1i \u0111i d\u1ec5 kh\u00f3 v\u1ec1. Th\u00edch h\u1ee3p cho c\u1ea5p \u0111\u1ed9 t\u1eeb 21 - 30.",
       "level": 10,
       "width": 3000,
       "height": 2000,
@@ -627,7 +649,7 @@
       "portals": [
         {
           "id": 1078,
-          "target_name": "Lê Dương Thôn",
+          "target_name": "L\u00ea D\u01b0\u01a1ng Th\u00f4n",
           "target_map_id": 5,
           "x": 217,
           "y": 1852,
@@ -635,12 +657,14 @@
           "dest_y": 753
         }
       ],
-      "creatures_count": 9
+      "creatures_count": 9,
+      "has_masks": true,
+      "masks_count": 3
     },
     {
       "id": 18,
-      "name": "Kỳ Thạch Địa",
-      "info": "Vùng đất từng là nơi cư ngụ của một nền văn minh viễn cổ. Thích hợp cho cấp độ từ 86 - 90.",
+      "name": "K\u1ef3 Th\u1ea1ch \u0110\u1ecba",
+      "info": "V\u00f9ng \u0111\u1ea5t t\u1eebng l\u00e0 n\u01a1i c\u01b0 ng\u1ee5 c\u1ee7a m\u1ed9t n\u1ec1n v\u0103n minh vi\u1ec5n c\u1ed5. Th\u00edch h\u1ee3p cho c\u1ea5p \u0111\u1ed9 t\u1eeb 86 - 90.",
       "level": 80,
       "width": 2500,
       "height": 2000,
@@ -658,20 +682,22 @@
       "portals": [
         {
           "id": 755,
-          "target_name": "Quân Cổ Đạo",
+          "target_name": "Qu\u00e2n C\u1ed5 \u0110\u1ea1o",
           "target_map_id": 7,
-          "x": 5,
+          "x": 45,
           "y": 1701,
           "dest_x": 721,
           "dest_y": 486
         }
       ],
-      "creatures_count": 0
+      "creatures_count": 0,
+      "has_masks": true,
+      "masks_count": 5
     },
     {
       "id": 19,
       "name": "Linh Lan",
-      "info": "Đường mòn trong núi trải đầy cánh lan, khung cảnh đẹp nhưng tiềm tàng mối nguy hiểm. Thích hợp cho cấp độ từ 91 - 95.",
+      "info": "\u0110\u01b0\u1eddng m\u00f2n trong n\u00fai tr\u1ea3i \u0111\u1ea7y c\u00e1nh lan, khung c\u1ea3nh \u0111\u1eb9p nh\u01b0ng ti\u1ec1m t\u00e0ng m\u1ed1i nguy hi\u1ec3m. Th\u00edch h\u1ee3p cho c\u1ea5p \u0111\u1ed9 t\u1eeb 91 - 95.",
       "level": 86,
       "width": 3000,
       "height": 2000,
@@ -689,7 +715,7 @@
       "portals": [
         {
           "id": 756,
-          "target_name": "Quân Cổ Đạo",
+          "target_name": "Qu\u00e2n C\u1ed5 \u0110\u1ea1o",
           "target_map_id": 7,
           "x": 2817,
           "y": 500,
@@ -698,20 +724,22 @@
         },
         {
           "id": 1741,
-          "target_name": "Phục Ma Cốc",
+          "target_name": "Ph\u1ee5c Ma C\u1ed1c",
           "target_map_id": 23,
-          "x": 35,
+          "x": 45,
           "y": 1521,
           "dest_x": 1440,
           "dest_y": 970
         }
       ],
-      "creatures_count": 0
+      "creatures_count": 0,
+      "has_masks": false,
+      "masks_count": 0
     },
     {
       "id": 20,
-      "name": "Thánh Ước Địa",
-      "info": "Nơi hẹn ước của công chúa và hoàng tử, giờ đây trở thành nơi hẹn ước của các đôi yêu nhau. Thích hợp cho cấp độ từ 116 - 120.",
+      "name": "Th\u00e1nh \u01af\u1edbc \u0110\u1ecba",
+      "info": "N\u01a1i h\u1eb9n \u01b0\u1edbc c\u1ee7a c\u00f4ng ch\u00faa v\u00e0 ho\u00e0ng t\u1eed, gi\u1edd \u0111\u00e2y tr\u1edf th\u00e0nh n\u01a1i h\u1eb9n \u01b0\u1edbc c\u1ee7a c\u00e1c \u0111\u00f4i y\u00eau nhau. Th\u00edch h\u1ee3p cho c\u1ea5p \u0111\u1ed9 t\u1eeb 116 - 120.",
       "level": 105,
       "width": 2400,
       "height": 1800,
@@ -729,7 +757,7 @@
       "portals": [
         {
           "id": 1841,
-          "target_name": "Thần Di Cảnh",
+          "target_name": "Th\u1ea7n Di C\u1ea3nh",
           "target_map_id": 36,
           "x": 47,
           "y": 1307,
@@ -738,7 +766,7 @@
         },
         {
           "id": 1842,
-          "target_name": "Quyến Cố Thành",
+          "target_name": "Quy\u1ebfn C\u1ed1 Th\u00e0nh",
           "target_map_id": 30,
           "x": 1796,
           "y": 163,
@@ -746,12 +774,14 @@
           "dest_y": 1400
         }
       ],
-      "creatures_count": 0
+      "creatures_count": 0,
+      "has_masks": false,
+      "masks_count": 0
     },
     {
       "id": 21,
-      "name": "Chỉ Phong Cốc",
-      "info": "Vùng đất khô cằn chết chóc. Thích hợp cho cấp độ từ 91 - 95.",
+      "name": "Ch\u1ec9 Phong C\u1ed1c",
+      "info": "V\u00f9ng \u0111\u1ea5t kh\u00f4 c\u1eb1n ch\u1ebft ch\u00f3c. Th\u00edch h\u1ee3p cho c\u1ea5p \u0111\u1ed9 t\u1eeb 91 - 95.",
       "level": 86,
       "width": 3000,
       "height": 2000,
@@ -769,7 +799,7 @@
       "portals": [
         {
           "id": 3472,
-          "target_name": "Đăng Vân Địa",
+          "target_name": "\u0110\u0103ng V\u00e2n \u0110\u1ecba",
           "target_map_id": 44,
           "x": 51,
           "y": 1504,
@@ -778,7 +808,7 @@
         },
         {
           "id": 1460,
-          "target_name": "Cổ Đạo",
+          "target_name": "C\u1ed5 \u0110\u1ea1o",
           "target_map_id": 42,
           "x": 2780,
           "y": 83,
@@ -786,12 +816,14 @@
           "dest_y": 800
         }
       ],
-      "creatures_count": 0
+      "creatures_count": 0,
+      "has_masks": true,
+      "masks_count": 7
     },
     {
       "id": 22,
-      "name": "Tuyết Lâm",
-      "info": "Vùng đất tuyết phủ nhưng không kém phần tươi đẹp nhờ vào rừng hoa đỏ tươi rực rỡ. Thích hợp cho cấp độ từ 81 - 85.",
+      "name": "Tuy\u1ebft L\u00e2m",
+      "info": "V\u00f9ng \u0111\u1ea5t tuy\u1ebft ph\u1ee7 nh\u01b0ng kh\u00f4ng k\u00e9m ph\u1ea7n t\u01b0\u01a1i \u0111\u1eb9p nh\u1edd v\u00e0o r\u1eebng hoa \u0111\u1ecf t\u01b0\u01a1i r\u1ef1c r\u1ee1. Th\u00edch h\u1ee3p cho c\u1ea5p \u0111\u1ed9 t\u1eeb 81 - 85.",
       "level": 75,
       "width": 3000,
       "height": 2000,
@@ -809,7 +841,7 @@
       "portals": [
         {
           "id": 2036,
-          "target_name": "Tuyết Lâm",
+          "target_name": "Tuy\u1ebft L\u00e2m",
           "target_map_id": 22,
           "x": 827,
           "y": 870,
@@ -818,7 +850,7 @@
         },
         {
           "id": 2037,
-          "target_name": "Tuyết Lâm",
+          "target_name": "Tuy\u1ebft L\u00e2m",
           "target_map_id": 22,
           "x": 1240,
           "y": 792,
@@ -827,7 +859,7 @@
         },
         {
           "id": 2038,
-          "target_name": "Tuyết Lâm",
+          "target_name": "Tuy\u1ebft L\u00e2m",
           "target_map_id": 22,
           "x": 726,
           "y": 982,
@@ -836,7 +868,7 @@
         },
         {
           "id": 1458,
-          "target_name": "Băng Tuyết Nguyên",
+          "target_name": "B\u0103ng Tuy\u1ebft Nguy\u00ean",
           "target_map_id": 35,
           "x": 2791,
           "y": 56,
@@ -845,7 +877,7 @@
         },
         {
           "id": 1958,
-          "target_name": "Đoạn Cốc",
+          "target_name": "\u0110o\u1ea1n C\u1ed1c",
           "target_map_id": 43,
           "x": 2783,
           "y": 1771,
@@ -853,12 +885,14 @@
           "dest_y": 1050
         }
       ],
-      "creatures_count": 0
+      "creatures_count": 0,
+      "has_masks": true,
+      "masks_count": 28
     },
     {
       "id": 23,
-      "name": "Phục Ma Cốc",
-      "info": "Hang động tối tăm vô cùng đáng sợ. Yêu cầu cấp độ 96 - 100.",
+      "name": "Ph\u1ee5c Ma C\u1ed1c",
+      "info": "Hang \u0111\u1ed9ng t\u1ed1i t\u0103m v\u00f4 c\u00f9ng \u0111\u00e1ng s\u1ee3. Y\u00eau c\u1ea7u c\u1ea5p \u0111\u1ed9 96 - 100.",
       "level": 90,
       "width": 3000,
       "height": 2000,
@@ -885,7 +919,7 @@
         },
         {
           "id": 1740,
-          "target_name": "Mê Quang Tự",
+          "target_name": "M\u00ea Quang T\u1ef1",
           "target_map_id": 29,
           "x": 83,
           "y": 1803,
@@ -893,12 +927,14 @@
           "dest_y": 760
         }
       ],
-      "creatures_count": 0
+      "creatures_count": 0,
+      "has_masks": true,
+      "masks_count": 8
     },
     {
       "id": 24,
-      "name": "Hộ Chi Địa",
-      "info": "Việc bảo hộ là mãi mãi, nhưng anh hùng lại không thể bất tử. Thích hợp cho cấp độ từ 101 - 110.",
+      "name": "H\u1ed9 Chi \u0110\u1ecba",
+      "info": "Vi\u1ec7c b\u1ea3o h\u1ed9 l\u00e0 m\u00e3i m\u00e3i, nh\u01b0ng anh h\u00f9ng l\u1ea1i kh\u00f4ng th\u1ec3 b\u1ea5t t\u1eed. Th\u00edch h\u1ee3p cho c\u1ea5p \u0111\u1ed9 t\u1eeb 101 - 110.",
       "level": 95,
       "width": 3000,
       "height": 2000,
@@ -916,29 +952,31 @@
       "portals": [
         {
           "id": 1756,
-          "target_name": "Vân Lộc Sơn",
+          "target_name": "V\u00e2n L\u1ed9c S\u01a1n",
           "target_map_id": 28,
           "x": 2733,
-          "y": 50,
+          "y": 55,
           "dest_x": 900,
           "dest_y": 1282
         },
         {
           "id": 1764,
-          "target_name": "Cổ Thành",
+          "target_name": "C\u1ed5 Th\u00e0nh",
           "target_map_id": 37,
-          "x": 17,
+          "x": 45,
           "y": 929,
           "dest_x": 1440,
           "dest_y": 1080
         }
       ],
-      "creatures_count": 0
+      "creatures_count": 0,
+      "has_masks": true,
+      "masks_count": 12
     },
     {
       "id": 25,
-      "name": "Lưu Hỏa Tộc",
-      "info": "Tộc Lưu Hỏa nằm ở phía bắc đại lục, được thừa kế di sản về võ thuật do cổ nhân lưu truyền.",
+      "name": "L\u01b0u H\u1ecfa T\u1ed9c",
+      "info": "T\u1ed9c L\u01b0u H\u1ecfa n\u1eb1m \u1edf ph\u00eda b\u1eafc \u0111\u1ea1i l\u1ee5c, \u0111\u01b0\u1ee3c th\u1eeba k\u1ebf di s\u1ea3n v\u1ec1 v\u00f5 thu\u1eadt do c\u1ed5 nh\u00e2n l\u01b0u truy\u1ec1n.",
       "level": 10,
       "width": 2400,
       "height": 1800,
@@ -956,7 +994,7 @@
       "portals": [
         {
           "id": 767,
-          "target_name": "Quang Bình Nguyên",
+          "target_name": "Quang B\u00ecnh Nguy\u00ean",
           "target_map_id": 26,
           "x": 2103,
           "y": 1493,
@@ -964,12 +1002,14 @@
           "dest_y": 1500
         }
       ],
-      "creatures_count": 0
+      "creatures_count": 0,
+      "has_masks": true,
+      "masks_count": 2
     },
     {
       "id": 26,
-      "name": "Quang Bình Nguyên",
-      "info": "Vùng đất nằm ở hướng mặt trời mọc, nơi sinh sống của các tinh linh. Thích hợp cho cấp độ từ 26 - 30.",
+      "name": "Quang B\u00ecnh Nguy\u00ean",
+      "info": "V\u00f9ng \u0111\u1ea5t n\u1eb1m \u1edf h\u01b0\u1edbng m\u1eb7t tr\u1eddi m\u1ecdc, n\u01a1i sinh s\u1ed1ng c\u1ee7a c\u00e1c tinh linh. Th\u00edch h\u1ee3p cho c\u1ea5p \u0111\u1ed9 t\u1eeb 26 - 30.",
       "level": 10,
       "width": 3000,
       "height": 2000,
@@ -987,16 +1027,16 @@
       "portals": [
         {
           "id": 764,
-          "target_name": "Tinh Linh Thành",
+          "target_name": "Tinh Linh Th\u00e0nh",
           "target_map_id": 10,
           "x": 1662,
-          "y": 24,
+          "y": 55,
           "dest_x": 2000,
           "dest_y": 1000
         },
         {
           "id": 765,
-          "target_name": "Bàn Địa Tộc",
+          "target_name": "B\u00e0n \u0110\u1ecba T\u1ed9c",
           "target_map_id": 12,
           "x": 2709,
           "y": 1344,
@@ -1005,20 +1045,22 @@
         },
         {
           "id": 1383,
-          "target_name": "Lưu Hỏa Tộc",
+          "target_name": "L\u01b0u H\u1ecfa T\u1ed9c",
           "target_map_id": 25,
-          "x": 16,
+          "x": 45,
           "y": 1483,
           "dest_x": 1690,
           "dest_y": 1110
         }
       ],
-      "creatures_count": 9
+      "creatures_count": 9,
+      "has_masks": true,
+      "masks_count": 8
     },
     {
       "id": 27,
-      "name": "Trầm Thụy Lâm",
-      "info": "Vùng rừng cây rậm rạp, mặt trời không chiếu tới, sương mù dày đặc. Thích hợp cho cấp độ từ 41 - 45.",
+      "name": "Tr\u1ea7m Th\u1ee5y L\u00e2m",
+      "info": "V\u00f9ng r\u1eebng c\u00e2y r\u1eadm r\u1ea1p, m\u1eb7t tr\u1eddi kh\u00f4ng chi\u1ebfu t\u1edbi, s\u01b0\u01a1ng m\u00f9 d\u00e0y \u0111\u1eb7c. Th\u00edch h\u1ee3p cho c\u1ea5p \u0111\u1ed9 t\u1eeb 41 - 45.",
       "level": 30,
       "width": 3000,
       "height": 2000,
@@ -1036,7 +1078,7 @@
       "portals": [
         {
           "id": 769,
-          "target_name": "Vân Lộc Sơn",
+          "target_name": "V\u00e2n L\u1ed9c S\u01a1n",
           "target_map_id": 28,
           "x": 103,
           "y": 120,
@@ -1045,7 +1087,7 @@
         },
         {
           "id": 768,
-          "target_name": "Tinh Linh Thành",
+          "target_name": "Tinh Linh Th\u00e0nh",
           "target_map_id": 10,
           "x": 2585,
           "y": 1787,
@@ -1053,12 +1095,14 @@
           "dest_y": 1000
         }
       ],
-      "creatures_count": 9
+      "creatures_count": 9,
+      "has_masks": true,
+      "masks_count": 8
     },
     {
       "id": 28,
-      "name": "Vân Lộc Sơn",
-      "info": "Ban ngày có mây trắng bao phủ, nhưng đêm xuống lại có thể nhìn rõ bầu trời sao sáng rực. Thích hợp cho cấp độ từ 76 - 80.",
+      "name": "V\u00e2n L\u1ed9c S\u01a1n",
+      "info": "Ban ng\u00e0y c\u00f3 m\u00e2y tr\u1eafng bao ph\u1ee7, nh\u01b0ng \u0111\u00eam xu\u1ed1ng l\u1ea1i c\u00f3 th\u1ec3 nh\u00ecn r\u00f5 b\u1ea7u tr\u1eddi sao s\u00e1ng r\u1ef1c. Th\u00edch h\u1ee3p cho c\u1ea5p \u0111\u1ed9 t\u1eeb 76 - 80.",
       "level": 70,
       "width": 3000,
       "height": 2000,
@@ -1076,7 +1120,7 @@
       "portals": [
         {
           "id": 770,
-          "target_name": "Trầm Thụy Lâm",
+          "target_name": "Tr\u1ea7m Th\u1ee5y L\u00e2m",
           "target_map_id": 27,
           "x": 2714,
           "y": 1215,
@@ -1085,7 +1129,7 @@
         },
         {
           "id": 1757,
-          "target_name": "Hộ Chi Địa",
+          "target_name": "H\u1ed9 Chi \u0110\u1ecba",
           "target_map_id": 24,
           "x": 289,
           "y": 1809,
@@ -1093,12 +1137,14 @@
           "dest_y": 1039
         }
       ],
-      "creatures_count": 4
+      "creatures_count": 4,
+      "has_masks": true,
+      "masks_count": 12
     },
     {
       "id": 29,
-      "name": "Mê Quang Tự",
-      "info": "Không ai có thể sống sót rời khỏi nơi đây để kể về vùng đất này. Thích hợp cho cấp độ từ 106 - 110.",
+      "name": "M\u00ea Quang T\u1ef1",
+      "info": "Kh\u00f4ng ai c\u00f3 th\u1ec3 s\u1ed1ng s\u00f3t r\u1eddi kh\u1ecfi n\u01a1i \u0111\u00e2y \u0111\u1ec3 k\u1ec3 v\u1ec1 v\u00f9ng \u0111\u1ea5t n\u00e0y. Th\u00edch h\u1ee3p cho c\u1ea5p \u0111\u1ed9 t\u1eeb 106 - 110.",
       "level": 95,
       "width": 2200,
       "height": 1700,
@@ -1116,7 +1162,7 @@
       "portals": [
         {
           "id": 1832,
-          "target_name": "Phục Ma Cốc",
+          "target_name": "Ph\u1ee5c Ma C\u1ed1c",
           "target_map_id": 23,
           "x": 1902,
           "y": 55,
@@ -1125,7 +1171,7 @@
         },
         {
           "id": 1833,
-          "target_name": "Thần Di Cảnh",
+          "target_name": "Th\u1ea7n Di C\u1ea3nh",
           "target_map_id": 36,
           "x": 1214,
           "y": 1566,
@@ -1133,12 +1179,14 @@
           "dest_y": 160
         }
       ],
-      "creatures_count": 0
+      "creatures_count": 0,
+      "has_masks": false,
+      "masks_count": 0
     },
     {
       "id": 30,
-      "name": "Quyến Cố Thành",
-      "info": "Nhờ được thiên thần bảo hộ mà người dân nơi đây luôn được sống thanh bình.",
+      "name": "Quy\u1ebfn C\u1ed1 Th\u00e0nh",
+      "info": "Nh\u1edd \u0111\u01b0\u1ee3c thi\u00ean th\u1ea7n b\u1ea3o h\u1ed9 m\u00e0 ng\u01b0\u1eddi d\u00e2n n\u01a1i \u0111\u00e2y lu\u00f4n \u0111\u01b0\u1ee3c s\u1ed1ng thanh b\u00ecnh.",
       "level": 50,
       "width": 3000,
       "height": 2000,
@@ -1156,7 +1204,7 @@
       "portals": [
         {
           "id": 1858,
-          "target_name": "Thánh Ước Địa",
+          "target_name": "Th\u00e1nh \u01af\u1edbc \u0110\u1ecba",
           "target_map_id": 20,
           "x": 68,
           "y": 1754,
@@ -1164,12 +1212,14 @@
           "dest_y": 1200
         }
       ],
-      "creatures_count": 0
+      "creatures_count": 0,
+      "has_masks": false,
+      "masks_count": 0
     },
     {
       "id": 31,
-      "name": "Tiên Lạp Thành",
-      "info": "Thành phố xinh đẹp nằm ở đông đảo băng, nổi danh với tên gọi Thành phố của nghệ thuật.",
+      "name": "Ti\u00ean L\u1ea1p Th\u00e0nh",
+      "info": "Th\u00e0nh ph\u1ed1 xinh \u0111\u1eb9p n\u1eb1m \u1edf \u0111\u00f4ng \u0111\u1ea3o b\u0103ng, n\u1ed5i danh v\u1edbi t\u00ean g\u1ecdi Th\u00e0nh ph\u1ed1 c\u1ee7a ngh\u1ec7 thu\u1eadt.",
       "level": 10,
       "width": 4500,
       "height": 2500,
@@ -1187,16 +1237,16 @@
       "portals": [
         {
           "id": 794,
-          "target_name": "Lạp Tuyết Địa",
+          "target_name": "L\u1ea1p Tuy\u1ebft \u0110\u1ecba",
           "target_map_id": 33,
-          "x": 26,
+          "x": 45,
           "y": 61,
           "dest_x": 1300,
           "dest_y": 900
         },
         {
           "id": 795,
-          "target_name": "Anh Vũ Cảnh",
+          "target_name": "Anh V\u0169 C\u1ea3nh",
           "target_map_id": 34,
           "x": 4166,
           "y": 2282,
@@ -1204,12 +1254,14 @@
           "dest_y": 1000
         }
       ],
-      "creatures_count": 0
+      "creatures_count": 0,
+      "has_masks": true,
+      "masks_count": 8
     },
     {
       "id": 32,
-      "name": "Thiên Khung Tộc",
-      "info": "Nằm phía đông bắc đảo băng, là nơi lưu trú của các xạ thủ tinh anh, vững về kỹ thuật máy và năng lượng học",
+      "name": "Thi\u00ean Khung T\u1ed9c",
+      "info": "N\u1eb1m ph\u00eda \u0111\u00f4ng b\u1eafc \u0111\u1ea3o b\u0103ng, l\u00e0 n\u01a1i l\u01b0u tr\u00fa c\u1ee7a c\u00e1c x\u1ea1 th\u1ee7 tinh anh, v\u1eefng v\u1ec1 k\u1ef9 thu\u1eadt m\u00e1y v\u00e0 n\u0103ng l\u01b0\u1ee3ng h\u1ecdc",
       "level": 10,
       "width": 2100,
       "height": 1500,
@@ -1227,7 +1279,7 @@
       "portals": [
         {
           "id": 797,
-          "target_name": "Lạp Tuyết Địa",
+          "target_name": "L\u1ea1p Tuy\u1ebft \u0110\u1ecba",
           "target_map_id": 33,
           "x": 980,
           "y": 1360,
@@ -1235,12 +1287,14 @@
           "dest_y": 900
         }
       ],
-      "creatures_count": 0
+      "creatures_count": 0,
+      "has_masks": false,
+      "masks_count": 0
     },
     {
       "id": 33,
-      "name": "Lạp Tuyết Địa",
-      "info": "Vùng đất bên ngoài thành Tiên Lạp, băng tuyết phủ đầy trên mặt đất. Thích hợp cho cấp độ từ 21 - 25.",
+      "name": "L\u1ea1p Tuy\u1ebft \u0110\u1ecba",
+      "info": "V\u00f9ng \u0111\u1ea5t b\u00ean ngo\u00e0i th\u00e0nh Ti\u00ean L\u1ea1p, b\u0103ng tuy\u1ebft ph\u1ee7 \u0111\u1ea7y tr\u00ean m\u1eb7t \u0111\u1ea5t. Th\u00edch h\u1ee3p cho c\u1ea5p \u0111\u1ed9 t\u1eeb 21 - 25.",
       "level": 10,
       "width": 3000,
       "height": 2000,
@@ -1258,16 +1312,16 @@
       "portals": [
         {
           "id": 789,
-          "target_name": "Liêu Vân Tộc",
+          "target_name": "Li\u00eau V\u00e2n T\u1ed9c",
           "target_map_id": 13,
           "x": 110,
-          "y": 48,
+          "y": 55,
           "dest_x": 1000,
           "dest_y": 1000
         },
         {
           "id": 790,
-          "target_name": "Thiên Khung Tộc",
+          "target_name": "Thi\u00ean Khung T\u1ed9c",
           "target_map_id": 32,
           "x": 2736,
           "y": 117,
@@ -1276,7 +1330,7 @@
         },
         {
           "id": 791,
-          "target_name": "Tiên Lạp Thành",
+          "target_name": "Ti\u00ean L\u1ea1p Th\u00e0nh",
           "target_map_id": 31,
           "x": 894,
           "y": 1829,
@@ -1284,12 +1338,14 @@
           "dest_y": 1800
         }
       ],
-      "creatures_count": 9
+      "creatures_count": 9,
+      "has_masks": true,
+      "masks_count": 3
     },
     {
       "id": 34,
-      "name": "Anh Vũ Cảnh",
-      "info": "Vùng đất trên đỉnh núi tuyết, đầy vẻ mê hoặc nhưng cũng nguy hiểm khó lường. Thích hợp cho cấp độ từ 36 - 40.",
+      "name": "Anh V\u0169 C\u1ea3nh",
+      "info": "V\u00f9ng \u0111\u1ea5t tr\u00ean \u0111\u1ec9nh n\u00fai tuy\u1ebft, \u0111\u1ea7y v\u1ebb m\u00ea ho\u1eb7c nh\u01b0ng c\u0169ng nguy hi\u1ec3m kh\u00f3 l\u01b0\u1eddng. Th\u00edch h\u1ee3p cho c\u1ea5p \u0111\u1ed9 t\u1eeb 36 - 40.",
       "level": 20,
       "width": 3000,
       "height": 2000,
@@ -1307,16 +1363,16 @@
       "portals": [
         {
           "id": 792,
-          "target_name": "Tiên Lạp Thành",
+          "target_name": "Ti\u00ean L\u1ea1p Th\u00e0nh",
           "target_map_id": 31,
-          "x": 30,
-          "y": 20,
+          "x": 45,
+          "y": 55,
           "dest_x": 3000,
           "dest_y": 1800
         },
         {
           "id": 793,
-          "target_name": "Băng Tuyết Nguyên",
+          "target_name": "B\u0103ng Tuy\u1ebft Nguy\u00ean",
           "target_map_id": 35,
           "x": 2480,
           "y": 421,
@@ -1324,12 +1380,14 @@
           "dest_y": 250
         }
       ],
-      "creatures_count": 9
+      "creatures_count": 9,
+      "has_masks": true,
+      "masks_count": 4
     },
     {
       "id": 35,
-      "name": "Băng Tuyết Nguyên",
-      "info": "Mùa đông trường kỳ nơi đây khiến cho chim chóc không bay tới, hoa cỏ khó sinh sôi. Thích hợp cho cấp độ từ 71 - 75.",
+      "name": "B\u0103ng Tuy\u1ebft Nguy\u00ean",
+      "info": "M\u00f9a \u0111\u00f4ng tr\u01b0\u1eddng k\u1ef3 n\u01a1i \u0111\u00e2y khi\u1ebfn cho chim ch\u00f3c kh\u00f4ng bay t\u1edbi, hoa c\u1ecf kh\u00f3 sinh s\u00f4i. Th\u00edch h\u1ee3p cho c\u1ea5p \u0111\u1ed9 t\u1eeb 71 - 75.",
       "level": 60,
       "width": 3000,
       "height": 2000,
@@ -1347,7 +1405,7 @@
       "portals": [
         {
           "id": 798,
-          "target_name": "Anh Vũ Cảnh",
+          "target_name": "Anh V\u0169 C\u1ea3nh",
           "target_map_id": 34,
           "x": 60,
           "y": 87,
@@ -1356,7 +1414,7 @@
         },
         {
           "id": 1457,
-          "target_name": "Tuyết Lâm",
+          "target_name": "Tuy\u1ebft L\u00e2m",
           "target_map_id": 22,
           "x": 65,
           "y": 1611,
@@ -1364,12 +1422,14 @@
           "dest_y": 700
         }
       ],
-      "creatures_count": 4
+      "creatures_count": 4,
+      "has_masks": true,
+      "masks_count": 6
     },
     {
       "id": 36,
-      "name": "Thần Di Cảnh",
-      "info": "Vùng đất bị lãng quên và trở thành nơi bắt nguồn của ác ma. Thích hợp cho cấp độ từ 111 - 115.",
+      "name": "Th\u1ea7n Di C\u1ea3nh",
+      "info": "V\u00f9ng \u0111\u1ea5t b\u1ecb l\u00e3ng qu\u00ean v\u00e0 tr\u1edf th\u00e0nh n\u01a1i b\u1eaft ngu\u1ed3n c\u1ee7a \u00e1c ma. Th\u00edch h\u1ee3p cho c\u1ea5p \u0111\u1ed9 t\u1eeb 111 - 115.",
       "level": 100,
       "width": 3000,
       "height": 2000,
@@ -1387,16 +1447,16 @@
       "portals": [
         {
           "id": 1839,
-          "target_name": "Mê Quang Tự",
+          "target_name": "M\u00ea Quang T\u1ef1",
           "target_map_id": 29,
           "x": 744,
-          "y": 5,
+          "y": 55,
           "dest_x": 1126,
           "dest_y": 760
         },
         {
           "id": 1840,
-          "target_name": "Thánh Ước Địa",
+          "target_name": "Th\u00e1nh \u01af\u1edbc \u0110\u1ecba",
           "target_map_id": 20,
           "x": 2666,
           "y": 1658,
@@ -1404,12 +1464,14 @@
           "dest_y": 1200
         }
       ],
-      "creatures_count": 4
+      "creatures_count": 4,
+      "has_masks": false,
+      "masks_count": 0
     },
     {
       "id": 37,
-      "name": "Cổ Thành",
-      "info": "Cổ Thành chứa đựng những năng lực tà ác và thần bí từ tàn tích chiến tranh năm xưa.Thích hợp cho cấp độ từ 146 - 150.",
+      "name": "C\u1ed5 Th\u00e0nh",
+      "info": "C\u1ed5 Th\u00e0nh ch\u1ee9a \u0111\u1ef1ng nh\u1eefng n\u0103ng l\u1ef1c t\u00e0 \u00e1c v\u00e0 th\u1ea7n b\u00ed t\u1eeb t\u00e0n t\u00edch chi\u1ebfn tranh n\u0103m x\u01b0a.Th\u00edch h\u1ee3p cho c\u1ea5p \u0111\u1ed9 t\u1eeb 146 - 150.",
       "level": 140,
       "width": 3000,
       "height": 2000,
@@ -1427,20 +1489,22 @@
       "portals": [
         {
           "id": 3470,
-          "target_name": "Hộ Chi Địa",
+          "target_name": "H\u1ed9 Chi \u0110\u1ecba",
           "target_map_id": 24,
           "x": 2501,
-          "y": 1,
+          "y": 55,
           "dest_x": 1309,
           "dest_y": 1039
         }
       ],
-      "creatures_count": 0
+      "creatures_count": 0,
+      "has_masks": false,
+      "masks_count": 0
     },
     {
       "id": 38,
-      "name": "Bàng Bối Thành",
-      "info": "Thành cổ sừng sững tại tây nam đại lục, được ca tụng là thành trì của anh hùng.",
+      "name": "B\u00e0ng B\u1ed1i Th\u00e0nh",
+      "info": "Th\u00e0nh c\u1ed5 s\u1eebng s\u1eefng t\u1ea1i t\u00e2y nam \u0111\u1ea1i l\u1ee5c, \u0111\u01b0\u1ee3c ca t\u1ee5ng l\u00e0 th\u00e0nh tr\u00ec c\u1ee7a anh h\u00f9ng.",
       "level": 10,
       "width": 3000,
       "height": 2000,
@@ -1458,7 +1522,7 @@
       "portals": [
         {
           "id": 773,
-          "target_name": "Thiên Lục Châu",
+          "target_name": "Thi\u00ean L\u1ee5c Ch\u00e2u",
           "target_map_id": 40,
           "x": 2120,
           "y": 149,
@@ -1467,7 +1531,7 @@
         },
         {
           "id": 775,
-          "target_name": "Kỵ Bình Nguyên",
+          "target_name": "K\u1ef5 B\u00ecnh Nguy\u00ean",
           "target_map_id": 41,
           "x": 2641,
           "y": 1797,
@@ -1475,12 +1539,14 @@
           "dest_y": 680
         }
       ],
-      "creatures_count": 0
+      "creatures_count": 0,
+      "has_masks": true,
+      "masks_count": 8
     },
     {
       "id": 39,
-      "name": "Huyền Lâm Tộc",
-      "info": "Tộc Huyền Lâm nằm ở bờ tây đại lục, nổi tiếng với những thợ săn dày dạn kinh nghiệm và kỹ năng thuần phục Pet.",
+      "name": "Huy\u1ec1n L\u00e2m T\u1ed9c",
+      "info": "T\u1ed9c Huy\u1ec1n L\u00e2m n\u1eb1m \u1edf b\u1edd t\u00e2y \u0111\u1ea1i l\u1ee5c, n\u1ed5i ti\u1ebfng v\u1edbi nh\u1eefng th\u1ee3 s\u0103n d\u00e0y d\u1ea1n kinh nghi\u1ec7m v\u00e0 k\u1ef9 n\u0103ng thu\u1ea7n ph\u1ee5c Pet.",
       "level": 10,
       "width": 2100,
       "height": 1500,
@@ -1498,20 +1564,22 @@
       "portals": [
         {
           "id": 786,
-          "target_name": "Thiên Lục Châu",
+          "target_name": "Thi\u00ean L\u1ee5c Ch\u00e2u",
           "target_map_id": 40,
-          "x": 39,
+          "x": 45,
           "y": 1230,
           "dest_x": 1500,
           "dest_y": 1200
         }
       ],
-      "creatures_count": 0
+      "creatures_count": 0,
+      "has_masks": true,
+      "masks_count": 2
     },
     {
       "id": 40,
-      "name": "Thiên Lục Châu",
-      "info": "Nơi dừng chân của khách lữ hành, thương nhân ra vào tấp nập. Thích hợp cho cấp độ từ 16 - 20.",
+      "name": "Thi\u00ean L\u1ee5c Ch\u00e2u",
+      "info": "N\u01a1i d\u1eebng ch\u00e2n c\u1ee7a kh\u00e1ch l\u1eef h\u00e0nh, th\u01b0\u01a1ng nh\u00e2n ra v\u00e0o t\u1ea5p n\u1eadp. Th\u00edch h\u1ee3p cho c\u1ea5p \u0111\u1ed9 t\u1eeb 16 - 20.",
       "level": 10,
       "width": 3200,
       "height": 2000,
@@ -1529,7 +1597,7 @@
       "portals": [
         {
           "id": 777,
-          "target_name": "Linh Vũ Tộc",
+          "target_name": "Linh V\u0169 T\u1ed9c",
           "target_map_id": 11,
           "x": 2974,
           "y": 1388,
@@ -1538,16 +1606,16 @@
         },
         {
           "id": 778,
-          "target_name": "Huyền Lâm Tộc",
+          "target_name": "Huy\u1ec1n L\u00e2m T\u1ed9c",
           "target_map_id": 39,
           "x": 2744,
-          "y": 7,
+          "y": 55,
           "dest_x": 500,
           "dest_y": 1000
         },
         {
           "id": 779,
-          "target_name": "Bàng Bối Thành",
+          "target_name": "B\u00e0ng B\u1ed1i Th\u00e0nh",
           "target_map_id": 38,
           "x": 90,
           "y": 1760,
@@ -1555,12 +1623,14 @@
           "dest_y": 1163
         }
       ],
-      "creatures_count": 9
+      "creatures_count": 9,
+      "has_masks": true,
+      "masks_count": 1
     },
     {
       "id": 41,
-      "name": "Kỵ Bình Nguyên",
-      "info": "Con đường huyết mạch dẫn đến Bàng Bối, có cuồng nhân ẩn cư và còn lại vết tích của người xưa. Thích hợp cho cấp độ từ 31- 35.",
+      "name": "K\u1ef5 B\u00ecnh Nguy\u00ean",
+      "info": "Con \u0111\u01b0\u1eddng huy\u1ebft m\u1ea1ch d\u1eabn \u0111\u1ebfn B\u00e0ng B\u1ed1i, c\u00f3 cu\u1ed3ng nh\u00e2n \u1ea9n c\u01b0 v\u00e0 c\u00f2n l\u1ea1i v\u1ebft t\u00edch c\u1ee7a ng\u01b0\u1eddi x\u01b0a. Th\u00edch h\u1ee3p cho c\u1ea5p \u0111\u1ed9 t\u1eeb 31- 35.",
       "level": 20,
       "width": 3000,
       "height": 2000,
@@ -1578,7 +1648,7 @@
       "portals": [
         {
           "id": 780,
-          "target_name": "Bàng Bối Thành",
+          "target_name": "B\u00e0ng B\u1ed1i Th\u00e0nh",
           "target_map_id": 38,
           "x": 215,
           "y": 181,
@@ -1587,7 +1657,7 @@
         },
         {
           "id": 781,
-          "target_name": "Cổ Đạo",
+          "target_name": "C\u1ed5 \u0110\u1ea1o",
           "target_map_id": 42,
           "x": 2495,
           "y": 1774,
@@ -1595,12 +1665,14 @@
           "dest_y": 800
         }
       ],
-      "creatures_count": 9
+      "creatures_count": 9,
+      "has_masks": true,
+      "masks_count": 6
     },
     {
       "id": 42,
-      "name": "Cổ Đạo",
-      "info": "Ba nghìn chiến binh đã vùi thân tại đây, ý chí bất diệt, hồn thiêng động trời. Thích hợp cho cấp độ từ 66 - 70.",
+      "name": "C\u1ed5 \u0110\u1ea1o",
+      "info": "Ba ngh\u00ecn chi\u1ebfn binh \u0111\u00e3 v\u00f9i th\u00e2n t\u1ea1i \u0111\u00e2y, \u00fd ch\u00ed b\u1ea5t di\u1ec7t, h\u1ed3n thi\u00eang \u0111\u1ed9ng tr\u1eddi. Th\u00edch h\u1ee3p cho c\u1ea5p \u0111\u1ed9 t\u1eeb 66 - 70.",
       "level": 50,
       "width": 3000,
       "height": 2000,
@@ -1618,16 +1690,16 @@
       "portals": [
         {
           "id": 782,
-          "target_name": "Kỵ Bình Nguyên",
+          "target_name": "K\u1ef5 B\u00ecnh Nguy\u00ean",
           "target_map_id": 41,
-          "x": -12,
+          "x": 45,
           "y": 64,
           "dest_x": 1100,
           "dest_y": 680
         },
         {
           "id": 1459,
-          "target_name": "Chỉ Phong Cốc",
+          "target_name": "Ch\u1ec9 Phong C\u1ed1c",
           "target_map_id": 21,
           "x": 2134,
           "y": 1794,
@@ -1635,12 +1707,14 @@
           "dest_y": 800
         }
       ],
-      "creatures_count": 5
+      "creatures_count": 5,
+      "has_masks": true,
+      "masks_count": 3
     },
     {
       "id": 43,
-      "name": "Đoạn Cốc",
-      "info": "Vùng đất lạnh giá nhất nhưng có cảnh đẹp mê người, tuy nhiên cũng không phải không nguy hiểm. Thích hợp cho cấp độ từ 120 - 130.",
+      "name": "\u0110o\u1ea1n C\u1ed1c",
+      "info": "V\u00f9ng \u0111\u1ea5t l\u1ea1nh gi\u00e1 nh\u1ea5t nh\u01b0ng c\u00f3 c\u1ea3nh \u0111\u1eb9p m\u00ea ng\u01b0\u1eddi, tuy nhi\u00ean c\u0169ng kh\u00f4ng ph\u1ea3i kh\u00f4ng nguy hi\u1ec3m. Th\u00edch h\u1ee3p cho c\u1ea5p \u0111\u1ed9 t\u1eeb 120 - 130.",
       "level": 110,
       "width": 3000,
       "height": 2000,
@@ -1658,20 +1732,22 @@
       "portals": [
         {
           "id": 1959,
-          "target_name": "Tuyết Lâm",
+          "target_name": "Tuy\u1ebft L\u00e2m",
           "target_map_id": 22,
           "x": 139,
-          "y": 1,
+          "y": 55,
           "dest_x": 1900,
           "dest_y": 700
         }
       ],
-      "creatures_count": 9
+      "creatures_count": 9,
+      "has_masks": false,
+      "masks_count": 0
     },
     {
       "id": 44,
-      "name": "Đăng Vân Địa",
-      "info": "Ẩn sâu trong những đám mây trắng là một nguồn sức mạnh tà ác. Thích hợp cho cấp độ từ 141 - 145.",
+      "name": "\u0110\u0103ng V\u00e2n \u0110\u1ecba",
+      "info": "\u1ea8n s\u00e2u trong nh\u1eefng \u0111\u00e1m m\u00e2y tr\u1eafng l\u00e0 m\u1ed9t ngu\u1ed3n s\u1ee9c m\u1ea1nh t\u00e0 \u00e1c. Th\u00edch h\u1ee3p cho c\u1ea5p \u0111\u1ed9 t\u1eeb 141 - 145.",
       "level": 135,
       "width": 3000,
       "height": 2000,
@@ -1689,7 +1765,7 @@
       "portals": [
         {
           "id": 3471,
-          "target_name": "Chỉ Phong Cốc",
+          "target_name": "Ch\u1ec9 Phong C\u1ed1c",
           "target_map_id": 21,
           "x": 2762,
           "y": 1633,
@@ -1697,11 +1773,13 @@
           "dest_y": 800
         }
       ],
-      "creatures_count": 5
+      "creatures_count": 5,
+      "has_masks": false,
+      "masks_count": 0
     },
     {
       "id": 45,
-      "name": "Tử Mộng Cảnh",
+      "name": "T\u1eed M\u1ed9ng C\u1ea3nh",
       "info": "NULL",
       "level": 50,
       "width": 1500,
@@ -1718,11 +1796,13 @@
       "thumb": "assets/maps/map_45/thumb.webp",
       "collision_bin": "assets/maps/map_45/collision.bin",
       "portals": [],
-      "creatures_count": 5
+      "creatures_count": 5,
+      "has_masks": false,
+      "masks_count": 0
     },
     {
       "id": 46,
-      "name": "Kiếm Hồn Cảnh",
+      "name": "Ki\u1ebfm H\u1ed3n C\u1ea3nh",
       "info": "NULL",
       "level": 1,
       "width": 1500,
@@ -1739,11 +1819,13 @@
       "thumb": "assets/maps/map_46/thumb.webp",
       "collision_bin": "assets/maps/map_46/collision.bin",
       "portals": [],
-      "creatures_count": 0
+      "creatures_count": 0,
+      "has_masks": false,
+      "masks_count": 0
     },
     {
       "id": 48,
-      "name": "Trấn Ma Tháp",
+      "name": "Tr\u1ea5n Ma Th\u00e1p",
       "info": "NULL",
       "level": 30,
       "width": 1500,
@@ -1760,11 +1842,13 @@
       "thumb": "assets/maps/map_48/thumb.webp",
       "collision_bin": "assets/maps/map_48/collision.bin",
       "portals": [],
-      "creatures_count": 0
+      "creatures_count": 0,
+      "has_masks": false,
+      "masks_count": 0
     },
     {
       "id": 49,
-      "name": "Bang Hội",
+      "name": "Bang H\u1ed9i",
       "info": "NULL",
       "level": 30,
       "width": 3000,
@@ -1781,11 +1865,13 @@
       "thumb": "assets/maps/map_49/thumb.webp",
       "collision_bin": "assets/maps/map_49/collision.bin",
       "portals": [],
-      "creatures_count": 0
+      "creatures_count": 0,
+      "has_masks": false,
+      "masks_count": 0
     },
     {
       "id": 50,
-      "name": "Khoáng Động",
+      "name": "Kho\u00e1ng \u0110\u1ed9ng",
       "info": "NULL",
       "level": 60,
       "width": 3000,
@@ -1804,7 +1890,7 @@
       "portals": [
         {
           "id": 730,
-          "target_name": "Đông Huyền Thành",
+          "target_name": "\u0110\u00f4ng Huy\u1ec1n Th\u00e0nh",
           "target_map_id": 9,
           "x": 405,
           "y": 1849,
@@ -1812,11 +1898,13 @@
           "dest_y": 1309
         }
       ],
-      "creatures_count": 2
+      "creatures_count": 2,
+      "has_masks": false,
+      "masks_count": 0
     },
     {
       "id": 54,
-      "name": "Chiến Trường Bang Hội",
+      "name": "Chi\u1ebfn Tr\u01b0\u1eddng Bang H\u1ed9i",
       "info": "NULL",
       "level": 30,
       "width": 4000,
@@ -1833,12 +1921,14 @@
       "thumb": "assets/maps/map_54/thumb.webp",
       "collision_bin": "assets/maps/map_54/collision.bin",
       "portals": [],
-      "creatures_count": 0
+      "creatures_count": 0,
+      "has_masks": false,
+      "masks_count": 0
     },
     {
       "id": 55,
-      "name": "Điêu Linh Thôn",
-      "info": "Nơi ở của Thiên Binh khi xưa, nay đã bị quái vật bay chiếm lĩnh, trở nên hoang tàn. Thích hợp cho cấp độ từ 131 - 135.",
+      "name": "\u0110i\u00eau Linh Th\u00f4n",
+      "info": "N\u01a1i \u1edf c\u1ee7a Thi\u00ean Binh khi x\u01b0a, nay \u0111\u00e3 b\u1ecb qu\u00e1i v\u1eadt bay chi\u1ebfm l\u0129nh, tr\u1edf n\u00ean hoang t\u00e0n. Th\u00edch h\u1ee3p cho c\u1ea5p \u0111\u1ed9 t\u1eeb 131 - 135.",
       "level": 50,
       "width": 2000,
       "height": 1440,
@@ -1856,7 +1946,7 @@
       "portals": [
         {
           "id": 1986,
-          "target_name": "Điêu Linh Thôn",
+          "target_name": "\u0110i\u00eau Linh Th\u00f4n",
           "target_map_id": 55,
           "x": 1441,
           "y": 1283,
@@ -1865,7 +1955,7 @@
         },
         {
           "id": 1987,
-          "target_name": "Điêu Linh Thôn",
+          "target_name": "\u0110i\u00eau Linh Th\u00f4n",
           "target_map_id": 55,
           "x": 1551,
           "y": 609,
@@ -1874,7 +1964,7 @@
         },
         {
           "id": 1988,
-          "target_name": "Điêu Linh Thôn",
+          "target_name": "\u0110i\u00eau Linh Th\u00f4n",
           "target_map_id": 55,
           "x": 1384,
           "y": 1213,
@@ -1883,7 +1973,7 @@
         },
         {
           "id": 1989,
-          "target_name": "Điêu Linh Thôn",
+          "target_name": "\u0110i\u00eau Linh Th\u00f4n",
           "target_map_id": 55,
           "x": 1155,
           "y": 552,
@@ -1892,7 +1982,7 @@
         },
         {
           "id": 1990,
-          "target_name": "Điêu Linh Thôn",
+          "target_name": "\u0110i\u00eau Linh Th\u00f4n",
           "target_map_id": 55,
           "x": 108,
           "y": 1123,
@@ -1901,7 +1991,7 @@
         },
         {
           "id": 1991,
-          "target_name": "Điêu Linh Thôn",
+          "target_name": "\u0110i\u00eau Linh Th\u00f4n",
           "target_map_id": 55,
           "x": 473,
           "y": 293,
@@ -1910,7 +2000,7 @@
         },
         {
           "id": 1992,
-          "target_name": "Điêu Linh Thôn",
+          "target_name": "\u0110i\u00eau Linh Th\u00f4n",
           "target_map_id": 55,
           "x": 242,
           "y": 575,
@@ -1919,7 +2009,7 @@
         },
         {
           "id": 1993,
-          "target_name": "Điêu Linh Thôn",
+          "target_name": "\u0110i\u00eau Linh Th\u00f4n",
           "target_map_id": 55,
           "x": 1435,
           "y": 1004,
@@ -1928,7 +2018,7 @@
         },
         {
           "id": 1994,
-          "target_name": "Điêu Linh Thôn",
+          "target_name": "\u0110i\u00eau Linh Th\u00f4n",
           "target_map_id": 55,
           "x": 817,
           "y": 1117,
@@ -1937,7 +2027,7 @@
         },
         {
           "id": 1995,
-          "target_name": "Điêu Linh Thôn",
+          "target_name": "\u0110i\u00eau Linh Th\u00f4n",
           "target_map_id": 55,
           "x": 762,
           "y": 880,
@@ -1946,7 +2036,7 @@
         },
         {
           "id": 1996,
-          "target_name": "Điêu Linh Thôn",
+          "target_name": "\u0110i\u00eau Linh Th\u00f4n",
           "target_map_id": 55,
           "x": 434,
           "y": 1033,
@@ -1955,7 +2045,7 @@
         },
         {
           "id": 1997,
-          "target_name": "Điêu Linh Thôn",
+          "target_name": "\u0110i\u00eau Linh Th\u00f4n",
           "target_map_id": 55,
           "x": 681,
           "y": 455,
@@ -1964,7 +2054,7 @@
         },
         {
           "id": 1985,
-          "target_name": "Mị Hoặc Lâm",
+          "target_name": "M\u1ecb Ho\u1eb7c L\u00e2m",
           "target_map_id": 56,
           "x": 1644,
           "y": 1241,
@@ -1972,12 +2062,14 @@
           "dest_y": 245
         }
       ],
-      "creatures_count": 4
+      "creatures_count": 4,
+      "has_masks": false,
+      "masks_count": 0
     },
     {
       "id": 56,
-      "name": "Mị Hoặc Lâm",
-      "info": "Rừng rậm đầy yêu ma mê hoặc, rất dễ lạc lối. Thích hợp cho cấp độ từ 136 - 140.",
+      "name": "M\u1ecb Ho\u1eb7c L\u00e2m",
+      "info": "R\u1eebng r\u1eadm \u0111\u1ea7y y\u00eau ma m\u00ea ho\u1eb7c, r\u1ea5t d\u1ec5 l\u1ea1c l\u1ed1i. Th\u00edch h\u1ee3p cho c\u1ea5p \u0111\u1ed9 t\u1eeb 136 - 140.",
       "level": 120,
       "width": 2461,
       "height": 1775,
@@ -1995,7 +2087,7 @@
       "portals": [
         {
           "id": 1998,
-          "target_name": "Mị Hoặc Lâm",
+          "target_name": "M\u1ecb Ho\u1eb7c L\u00e2m",
           "target_map_id": 56,
           "x": 1838,
           "y": 785,
@@ -2004,7 +2096,7 @@
         },
         {
           "id": 1999,
-          "target_name": "Mị Hoặc Lâm",
+          "target_name": "M\u1ecb Ho\u1eb7c L\u00e2m",
           "target_map_id": 56,
           "x": 1450,
           "y": 1615,
@@ -2013,7 +2105,7 @@
         },
         {
           "id": 2000,
-          "target_name": "Mị Hoặc Lâm",
+          "target_name": "M\u1ecb Ho\u1eb7c L\u00e2m",
           "target_map_id": 56,
           "x": 1066,
           "y": 1458,
@@ -2022,7 +2114,7 @@
         },
         {
           "id": 2001,
-          "target_name": "Mị Hoặc Lâm",
+          "target_name": "M\u1ecb Ho\u1eb7c L\u00e2m",
           "target_map_id": 56,
           "x": 1642,
           "y": 1097,
@@ -2031,7 +2123,7 @@
         },
         {
           "id": 2002,
-          "target_name": "Mị Hoặc Lâm",
+          "target_name": "M\u1ecb Ho\u1eb7c L\u00e2m",
           "target_map_id": 56,
           "x": 1876,
           "y": 1520,
@@ -2040,7 +2132,7 @@
         },
         {
           "id": 2003,
-          "target_name": "Mị Hoặc Lâm",
+          "target_name": "M\u1ecb Ho\u1eb7c L\u00e2m",
           "target_map_id": 56,
           "x": 1642,
           "y": 1501,
@@ -2049,7 +2141,7 @@
         },
         {
           "id": 2004,
-          "target_name": "Mị Hoặc Lâm",
+          "target_name": "M\u1ecb Ho\u1eb7c L\u00e2m",
           "target_map_id": 56,
           "x": 1882,
           "y": 474,
@@ -2058,7 +2150,7 @@
         },
         {
           "id": 2005,
-          "target_name": "Mị Hoặc Lâm",
+          "target_name": "M\u1ecb Ho\u1eb7c L\u00e2m",
           "target_map_id": 56,
           "x": 955,
           "y": 1543,
@@ -2067,7 +2159,7 @@
         },
         {
           "id": 2006,
-          "target_name": "Mị Hoặc Lâm",
+          "target_name": "M\u1ecb Ho\u1eb7c L\u00e2m",
           "target_map_id": 56,
           "x": 76,
           "y": 924,
@@ -2076,7 +2168,7 @@
         },
         {
           "id": 2007,
-          "target_name": "Mị Hoặc Lâm",
+          "target_name": "M\u1ecb Ho\u1eb7c L\u00e2m",
           "target_map_id": 56,
           "x": 330,
           "y": 887,
@@ -2085,7 +2177,7 @@
         },
         {
           "id": 2008,
-          "target_name": "Mị Hoặc Lâm",
+          "target_name": "M\u1ecb Ho\u1eb7c L\u00e2m",
           "target_map_id": 56,
           "x": 1678,
           "y": 706,
@@ -2094,7 +2186,7 @@
         },
         {
           "id": 2009,
-          "target_name": "Mị Hoặc Lâm",
+          "target_name": "M\u1ecb Ho\u1eb7c L\u00e2m",
           "target_map_id": 56,
           "x": 1996,
           "y": 329,
@@ -2103,7 +2195,7 @@
         },
         {
           "id": 2010,
-          "target_name": "Điêu Linh Thôn",
+          "target_name": "\u0110i\u00eau Linh Th\u00f4n",
           "target_map_id": 55,
           "x": 229,
           "y": 66,
@@ -2111,11 +2203,13 @@
           "dest_y": 180
         }
       ],
-      "creatures_count": 4
+      "creatures_count": 4,
+      "has_masks": false,
+      "masks_count": 0
     },
     {
       "id": 57,
-      "name": "Nông Trường Số 1",
+      "name": "N\u00f4ng Tr\u01b0\u1eddng S\u1ed1 1",
       "info": "NULL",
       "level": 50,
       "width": 3000,
@@ -2134,7 +2228,7 @@
       "portals": [
         {
           "id": 2018,
-          "target_name": "Điêu Linh Thôn",
+          "target_name": "\u0110i\u00eau Linh Th\u00f4n",
           "target_map_id": 55,
           "x": 183,
           "y": 1737,
@@ -2142,11 +2236,13 @@
           "dest_y": 180
         }
       ],
-      "creatures_count": 4
+      "creatures_count": 4,
+      "has_masks": false,
+      "masks_count": 0
     },
     {
       "id": 58,
-      "name": "Nông Trường Số 2",
+      "name": "N\u00f4ng Tr\u01b0\u1eddng S\u1ed1 2",
       "info": "NULL",
       "level": 50,
       "width": 4000,
@@ -2165,7 +2261,7 @@
       "portals": [
         {
           "id": 2020,
-          "target_name": "Điêu Linh Thôn",
+          "target_name": "\u0110i\u00eau Linh Th\u00f4n",
           "target_map_id": 55,
           "x": 183,
           "y": 1737,
@@ -2173,12 +2269,14 @@
           "dest_y": 180
         }
       ],
-      "creatures_count": 4
+      "creatures_count": 4,
+      "has_masks": false,
+      "masks_count": 0
     },
     {
       "id": 61,
-      "name": "Tử Tức Đảo",
-      "info": "Hòn đảo sương mù vây quanh, chỉ nhìn thấy ánh sáng từ các tảng đá khổng lồ bí ẩn. Thích hợp cho cấp độ 100-105.",
+      "name": "T\u1eed T\u1ee9c \u0110\u1ea3o",
+      "info": "H\u00f2n \u0111\u1ea3o s\u01b0\u01a1ng m\u00f9 v\u00e2y quanh, ch\u1ec9 nh\u00ecn th\u1ea5y \u00e1nh s\u00e1ng t\u1eeb c\u00e1c t\u1ea3ng \u0111\u00e1 kh\u1ed5ng l\u1ed3 b\u00ed \u1ea9n. Th\u00edch h\u1ee3p cho c\u1ea5p \u0111\u1ed9 100-105.",
       "level": 100,
       "width": 3000,
       "height": 2000,
@@ -2196,7 +2294,7 @@
       "portals": [
         {
           "id": 3410,
-          "target_name": "Vĩnh Dạ Cảng",
+          "target_name": "V\u0129nh D\u1ea1 C\u1ea3ng",
           "target_map_id": 67,
           "x": 2789,
           "y": 173,
@@ -2204,11 +2302,13 @@
           "dest_y": 220
         }
       ],
-      "creatures_count": 4
+      "creatures_count": 4,
+      "has_masks": false,
+      "masks_count": 0
     },
     {
       "id": 62,
-      "name": "Bản đồ mới ++2",
+      "name": "B\u1ea3n \u0111\u1ed3 m\u1edbi ++2",
       "info": "NULL",
       "level": 200,
       "width": 3000,
@@ -2225,11 +2325,13 @@
       "thumb": "assets/maps/map_62/thumb.webp",
       "collision_bin": "assets/maps/map_62/collision.bin",
       "portals": [],
-      "creatures_count": 4
+      "creatures_count": 4,
+      "has_masks": false,
+      "masks_count": 0
     },
     {
       "id": 63,
-      "name": "Lễ Đường Hôn Lễ Cao Cấp",
+      "name": "L\u1ec5 \u0110\u01b0\u1eddng H\u00f4n L\u1ec5 Cao C\u1ea5p",
       "info": "NULL",
       "level": 1,
       "width": 2500,
@@ -2246,11 +2348,13 @@
       "thumb": "assets/maps/map_63/thumb.webp",
       "collision_bin": "assets/maps/map_63/collision.bin",
       "portals": [],
-      "creatures_count": 0
+      "creatures_count": 0,
+      "has_masks": false,
+      "masks_count": 0
     },
     {
       "id": 64,
-      "name": "Lễ Đường Hôn Lễ Thông Thường",
+      "name": "L\u1ec5 \u0110\u01b0\u1eddng H\u00f4n L\u1ec5 Th\u00f4ng Th\u01b0\u1eddng",
       "info": "NULL",
       "level": 1,
       "width": 2500,
@@ -2267,11 +2371,13 @@
       "thumb": "assets/maps/map_64/thumb.webp",
       "collision_bin": "assets/maps/map_64/collision.bin",
       "portals": [],
-      "creatures_count": 0
+      "creatures_count": 0,
+      "has_masks": false,
+      "masks_count": 0
     },
     {
       "id": 65,
-      "name": "Lễ Đường Hôn Lễ Quý Giá",
+      "name": "L\u1ec5 \u0110\u01b0\u1eddng H\u00f4n L\u1ec5 Qu\u00fd Gi\u00e1",
       "info": "NULL",
       "level": 1,
       "width": 2500,
@@ -2288,12 +2394,14 @@
       "thumb": "assets/maps/map_65/thumb.webp",
       "collision_bin": "assets/maps/map_65/collision.bin",
       "portals": [],
-      "creatures_count": 0
+      "creatures_count": 0,
+      "has_masks": false,
+      "masks_count": 0
     },
     {
       "id": 66,
-      "name": "Khu Hoang Mạc",
-      "info": "Không ai muốn biết nơi thần bí này. Đây là nơi tận cùng của không gian và thời gian, là nơi an nghỉ của những thủ hộ Vô Ưu. Thích hợp cho cấp độ từ 120-125.",
+      "name": "Khu Hoang M\u1ea1c",
+      "info": "Kh\u00f4ng ai mu\u1ed1n bi\u1ebft n\u01a1i th\u1ea7n b\u00ed n\u00e0y. \u0110\u00e2y l\u00e0 n\u01a1i t\u1eadn c\u00f9ng c\u1ee7a kh\u00f4ng gian v\u00e0 th\u1eddi gian, l\u00e0 n\u01a1i an ngh\u1ec9 c\u1ee7a nh\u1eefng th\u1ee7 h\u1ed9 V\u00f4 \u01afu. Th\u00edch h\u1ee3p cho c\u1ea5p \u0111\u1ed9 t\u1eeb 120-125.",
       "level": 30,
       "width": 2200,
       "height": 1650,
@@ -2309,12 +2417,14 @@
       "thumb": "assets/maps/map_66/thumb.webp",
       "collision_bin": "assets/maps/map_66/collision.bin",
       "portals": [],
-      "creatures_count": 9
+      "creatures_count": 9,
+      "has_masks": false,
+      "masks_count": 0
     },
     {
       "id": 67,
-      "name": "Vĩnh Dạ Cảng",
-      "info": "Hải cảng thần bí ẩn hiện dưới ánh trăng mờ ảo. Thích hợp cấp độ 105 - 110.",
+      "name": "V\u0129nh D\u1ea1 C\u1ea3ng",
+      "info": "H\u1ea3i c\u1ea3ng th\u1ea7n b\u00ed \u1ea9n hi\u1ec7n d\u01b0\u1edbi \u00e1nh tr\u0103ng m\u1edd \u1ea3o. Th\u00edch h\u1ee3p c\u1ea5p \u0111\u1ed9 105 - 110.",
       "level": 100,
       "width": 5500,
       "height": 4800,
@@ -2332,7 +2442,7 @@
       "portals": [
         {
           "id": 3411,
-          "target_name": "Tử Tức Đảo",
+          "target_name": "T\u1eed T\u1ee9c \u0110\u1ea3o",
           "target_map_id": 61,
           "x": 75,
           "y": 1340,
@@ -2341,7 +2451,7 @@
         },
         {
           "id": 3439,
-          "target_name": "Mã Thạch Tuyết",
+          "target_name": "M\u00e3 Th\u1ea1ch Tuy\u1ebft",
           "target_map_id": 70,
           "x": 1933,
           "y": 577,
@@ -2349,12 +2459,14 @@
           "dest_y": 2370
         }
       ],
-      "creatures_count": 4
+      "creatures_count": 4,
+      "has_masks": false,
+      "masks_count": 0
     },
     {
       "id": 68,
-      "name": "Phong Bạo Cốc",
-      "info": "Thung lùng quanh năm bị bão táp tàn phá chỉ còn lại tàn tích. Thích hợp cho cấp độ từ 115 - 120.",
+      "name": "Phong B\u1ea1o C\u1ed1c",
+      "info": "Thung l\u00f9ng quanh n\u0103m b\u1ecb b\u00e3o t\u00e1p t\u00e0n ph\u00e1 ch\u1ec9 c\u00f2n l\u1ea1i t\u00e0n t\u00edch. Th\u00edch h\u1ee3p cho c\u1ea5p \u0111\u1ed9 t\u1eeb 115 - 120.",
       "level": 100,
       "width": 2166,
       "height": 1560,
@@ -2370,12 +2482,14 @@
       "thumb": "assets/maps/map_68/thumb.webp",
       "collision_bin": "assets/maps/map_68/collision.bin",
       "portals": [],
-      "creatures_count": 4
+      "creatures_count": 4,
+      "has_masks": false,
+      "masks_count": 0
     },
     {
       "id": 69,
-      "name": "Phụ Bản Quỷ Hút Máu",
-      "info": "Nơi hoang sơ cuối đường chân trời đỏ thẳm, hoang vu, chỉ còn tiếng gió rít hàng đêm. Nơi này hầu như đã bị chìm vào dĩ vãng của lịch sử. Thích hợp cho cấp độ từ 110 - 115.",
+      "name": "Ph\u1ee5 B\u1ea3n Qu\u1ef7 H\u00fat M\u00e1u",
+      "info": "N\u01a1i hoang s\u01a1 cu\u1ed1i \u0111\u01b0\u1eddng ch\u00e2n tr\u1eddi \u0111\u1ecf th\u1eb3m, hoang vu, ch\u1ec9 c\u00f2n ti\u1ebfng gi\u00f3 r\u00edt h\u00e0ng \u0111\u00eam. N\u01a1i n\u00e0y h\u1ea7u nh\u01b0 \u0111\u00e3 b\u1ecb ch\u00ecm v\u00e0o d\u0129 v\u00e3ng c\u1ee7a l\u1ecbch s\u1eed. Th\u00edch h\u1ee3p cho c\u1ea5p \u0111\u1ed9 t\u1eeb 110 - 115.",
       "level": 100,
       "width": 2200,
       "height": 1650,
@@ -2391,12 +2505,14 @@
       "thumb": "assets/maps/map_69/thumb.webp",
       "collision_bin": "assets/maps/map_69/collision.bin",
       "portals": [],
-      "creatures_count": 4
+      "creatures_count": 4,
+      "has_masks": false,
+      "masks_count": 0
     },
     {
       "id": 70,
-      "name": "Mã Thạch Tuyết",
-      "info": "Hoang mạc lạnh giá, quái vật ở đây còn lạnh lùng hơn khí hậu. Thích hợp cho cấp độ 110 - 115.",
+      "name": "M\u00e3 Th\u1ea1ch Tuy\u1ebft",
+      "info": "Hoang m\u1ea1c l\u1ea1nh gi\u00e1, qu\u00e1i v\u1eadt \u1edf \u0111\u00e2y c\u00f2n l\u1ea1nh l\u00f9ng h\u01a1n kh\u00ed h\u1eadu. Th\u00edch h\u1ee3p cho c\u1ea5p \u0111\u1ed9 110 - 115.",
       "level": 105,
       "width": 3000,
       "height": 3000,
@@ -2414,7 +2530,7 @@
       "portals": [
         {
           "id": 3438,
-          "target_name": "Vĩnh Dạ Cảng",
+          "target_name": "V\u0129nh D\u1ea1 C\u1ea3ng",
           "target_map_id": 67,
           "x": 61,
           "y": 2466,
@@ -2422,12 +2538,14 @@
           "dest_y": 220
         }
       ],
-      "creatures_count": 4
+      "creatures_count": 4,
+      "has_masks": false,
+      "masks_count": 0
     },
     {
       "id": 71,
-      "name": "Thiên Đường Thần Thánh",
-      "info": "Nơi sinh linh đồ thán, vong hồn tứ tán, bay lượn ngợp trời. Thích hợp cho cấp độ từ 56-60.",
+      "name": "Thi\u00ean \u0110\u01b0\u1eddng Th\u1ea7n Th\u00e1nh",
+      "info": "N\u01a1i sinh linh \u0111\u1ed3 th\u00e1n, vong h\u1ed3n t\u1ee9 t\u00e1n, bay l\u01b0\u1ee3n ng\u1ee3p tr\u1eddi. Th\u00edch h\u1ee3p cho c\u1ea5p \u0111\u1ed9 t\u1eeb 56-60.",
       "level": 120,
       "width": 3000,
       "height": 2000,
@@ -2443,11 +2561,13 @@
       "thumb": "assets/maps/map_71/thumb.webp",
       "collision_bin": "assets/maps/map_71/collision.bin",
       "portals": [],
-      "creatures_count": 4
+      "creatures_count": 4,
+      "has_masks": false,
+      "masks_count": 0
     },
     {
       "id": 110,
-      "name": "Huyết Sắc Cổ Bích",
+      "name": "Huy\u1ebft S\u1eafc C\u1ed5 B\u00edch",
       "info": "NULL",
       "level": 50,
       "width": 3262,
@@ -2464,11 +2584,13 @@
       "thumb": "assets/maps/map_110/thumb.webp",
       "collision_bin": "assets/maps/map_110/collision.bin",
       "portals": [],
-      "creatures_count": 0
+      "creatures_count": 0,
+      "has_masks": false,
+      "masks_count": 0
     },
     {
       "id": 2000,
-      "name": "Cạnh Kỹ Trường",
+      "name": "C\u1ea1nh K\u1ef9 Tr\u01b0\u1eddng",
       "info": "NULL",
       "level": 1,
       "width": 4000,
@@ -2487,7 +2609,7 @@
       "portals": [
         {
           "id": 1456,
-          "target_name": "Đông Huyền Thành",
+          "target_name": "\u0110\u00f4ng Huy\u1ec1n Th\u00e0nh",
           "target_map_id": 9,
           "x": 610,
           "y": 1374,
@@ -2495,11 +2617,13 @@
           "dest_y": 1309
         }
       ],
-      "creatures_count": 0
+      "creatures_count": 0,
+      "has_masks": true,
+      "masks_count": 7
     },
     {
       "id": 2007,
-      "name": "Mê Trận",
+      "name": "M\u00ea Tr\u1eadn",
       "info": "NULL",
       "level": 120,
       "width": 1500,
@@ -2516,11 +2640,13 @@
       "thumb": "assets/maps/map_2007/thumb.webp",
       "collision_bin": "assets/maps/map_2007/collision.bin",
       "portals": [],
-      "creatures_count": 0
+      "creatures_count": 0,
+      "has_masks": false,
+      "masks_count": 0
     },
     {
       "id": 2008,
-      "name": "Mê Trận",
+      "name": "M\u00ea Tr\u1eadn",
       "info": "NULL",
       "level": 120,
       "width": 1500,
@@ -2537,11 +2663,13 @@
       "thumb": "assets/maps/map_2008/thumb.webp",
       "collision_bin": "assets/maps/map_2008/collision.bin",
       "portals": [],
-      "creatures_count": 0
+      "creatures_count": 0,
+      "has_masks": false,
+      "masks_count": 0
     },
     {
       "id": 2009,
-      "name": "Mê Trận",
+      "name": "M\u00ea Tr\u1eadn",
       "info": "NULL",
       "level": 120,
       "width": 1500,
@@ -2558,11 +2686,13 @@
       "thumb": "assets/maps/map_2009/thumb.webp",
       "collision_bin": "assets/maps/map_2009/collision.bin",
       "portals": [],
-      "creatures_count": 0
+      "creatures_count": 0,
+      "has_masks": false,
+      "masks_count": 0
     },
     {
       "id": 140104,
-      "name": "Mật Đạo 3",
+      "name": "M\u1eadt \u0110\u1ea1o 3",
       "info": "NULL",
       "level": 30,
       "width": 2200,
@@ -2581,7 +2711,7 @@
       "portals": [
         {
           "id": 1947,
-          "target_name": "Mật Đạo 2",
+          "target_name": "M\u1eadt \u0110\u1ea1o 2",
           "target_map_id": 140105,
           "x": 1304,
           "y": 664,
@@ -2589,11 +2719,13 @@
           "dest_y": 700
         }
       ],
-      "creatures_count": 0
+      "creatures_count": 0,
+      "has_masks": true,
+      "masks_count": 2
     },
     {
       "id": 140105,
-      "name": "Mật Đạo 2",
+      "name": "M\u1eadt \u0110\u1ea1o 2",
       "info": "NULL",
       "level": 30,
       "width": 3000,
@@ -2612,7 +2744,7 @@
       "portals": [
         {
           "id": 1478,
-          "target_name": "Mật Đạo 1",
+          "target_name": "M\u1eadt \u0110\u1ea1o 1",
           "target_map_id": 140106,
           "x": 1323,
           "y": 685,
@@ -2620,11 +2752,13 @@
           "dest_y": 122
         }
       ],
-      "creatures_count": 0
+      "creatures_count": 0,
+      "has_masks": false,
+      "masks_count": 0
     },
     {
       "id": 140106,
-      "name": "Mật Đạo 1",
+      "name": "M\u1eadt \u0110\u1ea1o 1",
       "info": "NULL",
       "level": 30,
       "width": 4000,
@@ -2643,19 +2777,21 @@
       "portals": [
         {
           "id": 1477,
-          "target_name": "Mật Đạo 2",
+          "target_name": "M\u1eadt \u0110\u1ea1o 2",
           "target_map_id": 140105,
           "x": 100,
-          "y": 33,
+          "y": 55,
           "dest_x": 1225,
           "dest_y": 700
         }
       ],
-      "creatures_count": 0
+      "creatures_count": 0,
+      "has_masks": false,
+      "masks_count": 0
     },
     {
       "id": 150001,
-      "name": "Thách Đấu Tốc Độ",
+      "name": "Th\u00e1ch \u0110\u1ea5u T\u1ed1c \u0110\u1ed9",
       "info": "NULL",
       "level": 1,
       "width": 1985,
@@ -2672,11 +2808,13 @@
       "thumb": "assets/maps/map_150001/thumb.webp",
       "collision_bin": "assets/maps/map_150001/collision.bin",
       "portals": [],
-      "creatures_count": 0
+      "creatures_count": 0,
+      "has_masks": false,
+      "masks_count": 0
     },
     {
       "id": 150002,
-      "name": "Trả Lời Ăn Ý",
+      "name": "Tr\u1ea3 L\u1eddi \u0102n \u00dd",
       "info": "NULL",
       "level": 1,
       "width": 1985,
@@ -2693,11 +2831,13 @@
       "thumb": "assets/maps/map_150002/thumb.webp",
       "collision_bin": "assets/maps/map_150002/collision.bin",
       "portals": [],
-      "creatures_count": 0
+      "creatures_count": 0,
+      "has_masks": false,
+      "masks_count": 0
     },
     {
       "id": 150003,
-      "name": "Huấn Luyện Cân Bằng",
+      "name": "Hu\u1ea5n Luy\u1ec7n C\u00e2n B\u1eb1ng",
       "info": "NULL",
       "level": 1,
       "width": 1985,
@@ -2714,7 +2854,9 @@
       "thumb": "assets/maps/map_150003/thumb.webp",
       "collision_bin": "assets/maps/map_150003/collision.bin",
       "portals": [],
-      "creatures_count": 0
+      "creatures_count": 0,
+      "has_masks": false,
+      "masks_count": 0
     }
   ]
 }
