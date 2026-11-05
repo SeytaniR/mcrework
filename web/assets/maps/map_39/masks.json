@@ -1,0 +1,18 @@
+[
+  {
+    "bitmap_id": 1,
+    "file": "assets/maps/map_39/mask/mask_1.png",
+    "x": 211.0,
+    "y": 223.0,
+    "w": 394,
+    "h": 413
+  },
+  {
+    "bitmap_id": 2,
+    "file": "assets/maps/map_39/mask/mask_2.png",
+    "x": 1357.0,
+    "y": 683.0,
+    "w": 107,
+    "h": 259
+  }
+]

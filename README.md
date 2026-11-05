@@ -37,6 +37,27 @@ Um projeto moderno de recriação de engine e modernização do clássico MMORPG
   * ⚡ **128 Efeitos Especiais Animados (VFX):** Decompilados a partir dos arquivos SWF originais (`DefineSprite` e vetores Flash) e convertidos em spritesheets WebP compactos com transparência alfa e metadados de duração em `web/assets/effects/`.
   * 📱 **Grimório Interativo no Cliente:** Provador de habilidades no topo do HUD mobile com busca em tempo real, filtros por classe/pet e botão de disparo imediato do efeito visual no jogo.
 
+### 6. Revisão Profunda dos 76 Mapas, Transparência Universal & Portais Físicos (v1.6.0) 🗺️🌀
+* **Máscaras de Transparência Dinâmica em 32 Mapas:**
+  * Anteriormente, apenas o Mapa 1 (`Xuất Vân Thôn`) possuía máscaras de telhado e árvore configuradas. Todos os outros mapas não possuíam o arquivo `masks.json` e o cliente desativava a sobreposição.
+  * Extração e calibração universal a partir dos arquivos originais `resource/scene/SCENE_FOLDER_*/MAP_MASK.swf`.
+  * **233 elementos de máscara** configurados e otimizados:
+    * Mapas com sprites discretos posicionados por matrizes SWF (ex: Mapa 1 com 10 máscaras, Mapa 5 com 7 máscaras, Mapa 9 com 23 máscaras, Mapa 22 com 28 máscaras, Mapa 24 com 12 máscaras).
+    * Mapas com sobreposição contínua segmentados cirurgicamente em clusters conectados via análise morfológica (ex: Mapa 2 com 9 máscaras, Mapa 4 com 12 máscaras, Mapa 28 com 12 máscaras).
+  * Oclusão dinâmica 2.5D no loop do motor Pixi.js: qualquer telhado ou árvore sobre a qual o personagem caminhe transiciona suavemente para 35% de opacidade (`alpha = 0.35`), revelando o herói com feedback em tempo real no drawer de diagnóstico mobile (`SIM (Transparente 35%)`).
+* **Calibração Oficial das Malhas de Colisão Binária:**
+  * Extração exata dos valores float/double compilados no pool de constantes ActionScript 3 dos arquivos `MAP_HIT_NEW.swf` (`COL_WIDTH` e `COL_HEIGHT`), eliminando distorções de alinhamento diagonal e garantindo precisão milimétrica em trilhas, pontes e caminhos estreitos em todos os 76 mapas.
+* **Sistema de Portais de Teleporte Físicos e Interativos:**
+  * **117 portais interligados** entre mapas adjacentes com coordenadas corrigidas, destinações válidas e margens seguras.
+  * **Visual Rúnico Físico 2.5D no Solo:**
+    * Aura ciano suave no solo (`glow`).
+    * Dois anéis rúnicos concêntricos girando em direções opostas (`outerRing` horário, `innerRing` anti-horário).
+    * Vórtice de energia luminoso pulsante no centro.
+    * Placa de destino flutuante em levitação vertical suave com nome do mapa, ID e chamada para ação: `👉 Toque para viajar`.
+  * **Interação Mobile Responsiva:**
+    * Toque/clique no portal: se o herói estiver longe, move o personagem automaticamente até o portal com aviso visual (`🚶 Indo para o portal de...`).
+    * Gatilho de proximidade (`dist <= 50px`): ao pisar na plataforma do portal, aciona o teleporte instantâneo com cooldown de proteção contra ricochete.
+
 ### 4. Separação Arquitetural em 3 Camadas
 ```mermaid
 flowchart TD
