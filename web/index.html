@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
   <meta name="mobile-web-app-capable" content="yes">
   <title>Magic Campus Mobile - Pixi.js Engine (Mapa 1 & Char 1)</title>
-  <link rel="stylesheet" href="style.css?v=1.6.2">
+  <link rel="stylesheet" href="style.css?v=1.6.3">
   <!-- Pixi.js v7 CDN -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/7.3.2/pixi.min.js"></script>
 </head>
@@ -53,6 +53,10 @@
       <button id="btn-open-equipment-modal" class="nav-pill-btn nav-equipment" title="Armaria de Equipamentos, Armas e Conjuntos (1.865 Itens)">
         <span class="nav-icon">🛡️</span>
         <span class="nav-txt">Armaria <span class="nav-count">1865</span></span>
+      </button>
+      <button id="btn-open-items-modal" class="nav-pill-btn nav-items" title="Mochila & Inventário de Itens (6.468 Itens & 1.695 Ícones)">
+        <span class="nav-icon">🎒</span>
+        <span class="nav-txt">Mochila <span class="nav-count">6468</span></span>
       </button>
       <button id="btn-open-npcs-modal" class="nav-pill-btn nav-npcs" title="Enciclopédia de NPCs (365 NPCs)">
         <span class="nav-icon">👥</span>
@@ -488,7 +492,7 @@
     </div>
   </div>
 
-  <script src="main.js?v=1.6.2"></script>
+  <script src="main.js?v=1.6.3"></script>
 
   <!-- Modal 1: Provador de Classes & Skins (46 Visuais) -->
   <div id="modal-classes" class="catalog-modal hidden">
@@ -798,6 +802,40 @@
       </div>
     </div>
   </div>
+
+  <!-- Modal 8: Mochila & Inventário de Itens (6.468 Itens / 1.695 Ícones) -->
+  <div id="modal-items" class="catalog-modal hidden">
+    <div class="modal-card">
+      <div class="modal-header">
+        <div class="modal-title-group">
+          <h3>🎒 Mochila & Inventário de Itens</h3>
+          <span class="modal-subtitle">6.468 itens originais de consumíveis, livros, poções e materiais forjáveis com 1.695 ícones extraídos.</span>
+        </div>
+        <button id="btn-close-items-modal" class="modal-close-btn">✕</button>
+      </div>
+
+      <div class="modal-search-bar">
+        <input type="text" id="items-search-input" placeholder="🔍 Buscar por nome, ID ou efeito (ex: Cầu Mệnh, Sách, Sinh Mệnh, Ngọc, 110)..." />
+      </div>
+
+      <div class="modal-filter-pills" id="items-filter-pills">
+        <button class="pill-filter active" data-filter="all">🌟 Todos (6468)</button>
+        <button class="pill-filter" data-filter="potions">🧪 Poções & Vida (339)</button>
+        <button class="pill-filter" data-filter="books">📖 Livros de Skill (378)</button>
+        <button class="pill-filter" data-filter="materials">⛏️ Materiais & Forja (292)</button>
+        <button class="pill-filter" data-filter="gems">💎 Gemas & Pedras (144)</button>
+        <button class="pill-filter" data-filter="scrolls">📜 Pergaminhos (178)</button>
+        <button class="pill-filter" data-filter="quest">🗺️ Quests & Missões (25)</button>
+        <button class="pill-filter" data-filter="other">📦 Outros Itens</button>
+      </div>
+
+      <div class="modal-grid-container" id="items-grid-container">
+        <!-- Renderizado dinamicamente via JS a partir de assets/items/items_catalog.json -->
+      </div>
+    </div>
+  </div>
+
+  <div id="toast-item" class="toast-item-info hidden"></div>
 
   <div id="toast-weapon" class="toast-weapon-equip"></div>
 </body>

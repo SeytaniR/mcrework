@@ -37,6 +37,26 @@ Um projeto moderno de recriação de engine e modernização do clássico MMORPG
   * ⚡ **128 Efeitos Especiais Animados (VFX):** Decompilados a partir dos arquivos SWF originais (`DefineSprite` e vetores Flash) e convertidos em spritesheets WebP compactos com transparência alfa e metadados de duração em `web/assets/effects/`.
   * 📱 **Grimório Interativo no Cliente:** Provador de habilidades no topo do HUD mobile com busca em tempo real, filtros por classe/pet e botão de disparo imediato do efeito visual no jogo.
 
+### 8. Importação do Inventário & Mochila: 1.695 Ícones Originais & 6.468 Itens do Jogo (v1.6.3) 🎒✨
+* **Extração Completa dos 1.695 Ícones de Itens Originais (`icon/item/ITEM_NORMAL_*.png`):**
+  * Decodificação e mapeamento de todos os 1.695 arquivos PNG de ícones do cliente Flash original a partir do storage de hash MD5 (`mcgame/frontend/s/res`), organizados em `web/assets/items/icons/`.
+  * Preservação da arte em pixel art autêntica com transparência alfa e proporções clássicas de Magic Campus.
+* **Catálogo Estruturado de 6.468 Itens de Inventário (`items_catalog.json`):**
+  * Processamento integral do banco relacional `data_tbl_item_template.sql`, associando cada item ao seu respectivo ícone, raridade, preço, descrição, dados funcionais e regras de empilhamento:
+    * **339 Poções e Elixires de Recuperação** (HP/MP, pílulas de vitalidade e reviver).
+    * **378 Livros e Grimórios de Habilidades** (Manuais de skills de classes e companheiros).
+    * **292 Materiais de Forja & Mineração** (Metais, couros, tecidos, madeiras e essências).
+    * **144 Gemas, Pedras Preciosas & Runas de Engaste**.
+    * **178 Pergaminhos Mágicos, Ordens e Amuletos de Teleporte**.
+    * **25 Itens de Missões Principais & Secundárias**.
+    * **5.112 Itens Diversos, Insumos e Consumíveis Especiais**.
+* **Nova Interface de Mochila & Provador de Itens no HUD Mobile:**
+  * Adicionado o botão **"🎒 Mochila (6468)"** na barra superior de ações compactas do HUD.
+  * Modal mobile interativo com busca em tempo real por nome/código, filtros rápidos por categoria (Poções, Livros, Materiais, Gemas, etc.) e renderização virtual fluida com infinite scroll em blocos de 48 itens.
+  * Ao tocar em qualquer item, um card flutuante translúcido exibe nome na cor de raridade (Normal, Incomum, Raro, Épico, Lendário, Mítico), efeito de uso em destaque, descrição de lore, limite de stack e preço em moedas de ouro.
+
+---
+
 ### 7. Overlay Dinâmico de Colisão, Caixas Visuais de Sobreposição & Navegação Livre (v1.6.2) 🚀✨
 * **Overlay Visual de Colisão 100% Dinâmico para Todos os 76 Mapas:**
   * Substituição do antigo overlay estático do Mapa 1 por um gerador procedural em tempo real (`updateCollisionOverlay`): ao ativar a visualização da malha de colisão na gaveta de depuração em qualquer mapa (ex: Mapa 2, Mapa 3, Mapa 9), a engine sintetiza a textura visual diretamente a partir do buffer binário `colBytes` do mapa ativo em menos de ~3ms.
