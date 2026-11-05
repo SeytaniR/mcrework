@@ -9,7 +9,7 @@
       "width": 2000,
       "height": 1500,
       "col_width": 2031,
-      "col_height": 1530,
+      "col_height": 1531,
       "has_collision": true,
       "safe_x": 1000,
       "safe_y": 1000,
@@ -33,15 +33,15 @@
           "id": 731,
           "target_name": "V\u00e2n \u0110\u00e0i",
           "target_map_id": 3,
-          "x": 220,
-          "y": 420,
+          "x": 350,
+          "y": 550,
           "dest_x": 100,
           "dest_y": 1050
         }
       ],
       "creatures_count": 0,
       "has_masks": true,
-      "masks_count": 10
+      "masks_count": 12
     },
     {
       "id": 2,
@@ -51,10 +51,10 @@
       "width": 2400,
       "height": 1600,
       "col_width": 2450,
-      "col_height": 1649,
+      "col_height": 1650,
       "has_collision": true,
-      "safe_x": 2000,
-      "safe_y": 900,
+      "safe_x": 1993,
+      "safe_y": 883,
       "continent": 1,
       "world_x": 396,
       "world_y": 212,
@@ -66,8 +66,8 @@
           "id": 733,
           "target_name": "Xu\u1ea5t V\u00e2n Th\u00f4n",
           "target_map_id": 1,
-          "x": 120,
-          "y": 63,
+          "x": 142,
+          "y": 117,
           "dest_x": 1000,
           "dest_y": 1000
         },
@@ -75,7 +75,7 @@
           "id": 734,
           "target_name": "\u0110\u00f4ng Huy\u1ec1n Th\u00e0nh",
           "target_map_id": 9,
-          "x": 107,
+          "x": 125,
           "y": 1368,
           "dest_x": 2057,
           "dest_y": 1309
@@ -83,7 +83,7 @@
       ],
       "creatures_count": 9,
       "has_masks": true,
-      "masks_count": 9
+      "masks_count": 6
     },
     {
       "id": 3,
@@ -92,7 +92,7 @@
       "level": 2,
       "width": 2500,
       "height": 1800,
-      "col_width": 2629,
+      "col_width": 2628,
       "col_height": 2012,
       "has_collision": true,
       "safe_x": 1000,
@@ -118,14 +118,14 @@
           "target_name": "Thi\u1ec7n T\u0129nh \u0110\u1ecba",
           "target_map_id": 4,
           "x": 2042,
-          "y": 95,
+          "y": 155,
           "dest_x": 1500,
           "dest_y": 800
         }
       ],
       "creatures_count": 9,
       "has_masks": true,
-      "masks_count": 6
+      "masks_count": 5
     },
     {
       "id": 4,
@@ -150,15 +150,15 @@
           "id": 812,
           "target_name": "V\u00e2n \u0110\u00e0i",
           "target_map_id": 3,
-          "x": 176,
-          "y": 1767,
+          "x": 215,
+          "y": 1861,
           "dest_x": 1000,
           "dest_y": 1000
         }
       ],
       "creatures_count": 9,
       "has_masks": true,
-      "masks_count": 12
+      "masks_count": 11
     },
     {
       "id": 5,
@@ -167,8 +167,8 @@
       "level": 30,
       "width": 2000,
       "height": 1700,
-      "col_width": 2097,
-      "col_height": 1780,
+      "col_width": 2096,
+      "col_height": 1781,
       "has_collision": true,
       "safe_x": 885,
       "safe_y": 753,
@@ -200,7 +200,7 @@
       ],
       "creatures_count": 9,
       "has_masks": true,
-      "masks_count": 7
+      "masks_count": 6
     },
     {
       "id": 6,
@@ -209,7 +209,7 @@
       "level": 40,
       "width": 2500,
       "height": 1800,
-      "col_width": 3008,
+      "col_width": 3007,
       "col_height": 2296,
       "has_collision": true,
       "safe_x": 1800,
@@ -225,7 +225,7 @@
           "id": 748,
           "target_name": "L\u00ea D\u01b0\u01a1ng Th\u00f4n",
           "target_map_id": 5,
-          "x": 68,
+          "x": 0,
           "y": 1297,
           "dest_x": 885,
           "dest_y": 753
@@ -285,8 +285,8 @@
           "id": 754,
           "target_name": "Linh Lan",
           "target_map_id": 19,
-          "x": 45,
-          "y": 1108,
+          "x": 58,
+          "y": 1121,
           "dest_x": 900,
           "dest_y": 300
         }
@@ -335,7 +335,7 @@
       "level": 10,
       "width": 4000,
       "height": 2745,
-      "col_width": 4141,
+      "col_width": 4140,
       "col_height": 2904,
       "has_collision": true,
       "safe_x": 2057,
@@ -351,8 +351,8 @@
           "id": 1455,
           "target_name": "C\u1ea3nh K\u1ef9 Tr\u01b0\u1eddng",
           "target_map_id": 2000,
-          "x": 256,
-          "y": 957,
+          "x": 294,
+          "y": 1049,
           "dest_x": 2057,
           "dest_y": 1309
         },
@@ -419,7 +419,7 @@
       ],
       "creatures_count": 0,
       "has_masks": true,
-      "masks_count": 9
+      "masks_count": 10
     },
     {
       "id": 11,
@@ -444,15 +444,15 @@
           "id": 776,
           "target_name": "Thi\u00ean L\u1ee5c Ch\u00e2u",
           "target_map_id": 40,
-          "x": 45,
-          "y": 1319,
+          "x": 69,
+          "y": 1376,
           "dest_x": 1500,
           "dest_y": 1200
         }
       ],
       "creatures_count": 0,
       "has_masks": true,
-      "masks_count": 7
+      "masks_count": 6
     },
     {
       "id": 12,
@@ -478,7 +478,7 @@
           "target_name": "Quang B\u00ecnh Nguy\u00ean",
           "target_map_id": 26,
           "x": 195,
-          "y": 1347,
+          "y": 1385,
           "dest_x": 1300,
           "dest_y": 1500
         }
@@ -495,7 +495,7 @@
       "width": 2100,
       "height": 1500,
       "col_width": 2188,
-      "col_height": 1578,
+      "col_height": 1579,
       "has_collision": true,
       "safe_x": 1000,
       "safe_y": 1000,
@@ -528,7 +528,7 @@
       "width": 4070,
       "height": 2624,
       "col_width": 4250,
-      "col_height": 2877,
+      "col_height": 2878,
       "has_collision": true,
       "safe_x": 2057,
       "safe_y": 1309,
@@ -543,8 +543,8 @@
           "id": 747,
           "target_name": "Th\u00e1p Kh\u1eafc Nguy\u00ean",
           "target_map_id": 8,
-          "x": 536,
-          "y": 266,
+          "x": 551,
+          "y": 303,
           "dest_x": 850,
           "dest_y": 900
         }
@@ -561,7 +561,7 @@
       "width": 3000,
       "height": 2000,
       "col_width": 3076,
-      "col_height": 2110,
+      "col_height": 2111,
       "has_collision": true,
       "safe_x": 1126,
       "safe_y": 760,
@@ -584,7 +584,7 @@
       ],
       "creatures_count": 9,
       "has_masks": true,
-      "masks_count": 5
+      "masks_count": 4
     },
     {
       "id": 16,
@@ -593,7 +593,7 @@
       "level": 65,
       "width": 2500,
       "height": 1600,
-      "col_width": 2542,
+      "col_width": 2541,
       "col_height": 1648,
       "has_collision": true,
       "safe_x": 1600,
@@ -651,8 +651,8 @@
           "id": 1078,
           "target_name": "L\u00ea D\u01b0\u01a1ng Th\u00f4n",
           "target_map_id": 5,
-          "x": 217,
-          "y": 1852,
+          "x": 241,
+          "y": 1911,
           "dest_x": 885,
           "dest_y": 753
         }
@@ -668,7 +668,7 @@
       "level": 80,
       "width": 2500,
       "height": 2000,
-      "col_width": 2608,
+      "col_width": 2607,
       "col_height": 2112,
       "has_collision": true,
       "safe_x": 1351,
@@ -684,7 +684,7 @@
           "id": 755,
           "target_name": "Qu\u00e2n C\u1ed5 \u0110\u1ea1o",
           "target_map_id": 7,
-          "x": 45,
+          "x": 59,
           "y": 1701,
           "dest_x": 721,
           "dest_y": 486
@@ -692,7 +692,7 @@
       ],
       "creatures_count": 0,
       "has_masks": true,
-      "masks_count": 5
+      "masks_count": 7
     },
     {
       "id": 19,
@@ -702,7 +702,7 @@
       "width": 3000,
       "height": 2000,
       "col_width": 3060,
-      "col_height": 2099,
+      "col_height": 2100,
       "has_collision": true,
       "safe_x": 900,
       "safe_y": 300,
@@ -717,7 +717,7 @@
           "id": 756,
           "target_name": "Qu\u00e2n C\u1ed5 \u0110\u1ea1o",
           "target_map_id": 7,
-          "x": 2817,
+          "x": 2855,
           "y": 500,
           "dest_x": 721,
           "dest_y": 486
@@ -759,8 +759,8 @@
           "id": 1841,
           "target_name": "Th\u1ea7n Di C\u1ea3nh",
           "target_map_id": 36,
-          "x": 47,
-          "y": 1307,
+          "x": 50,
+          "y": 1314,
           "dest_x": 1000,
           "dest_y": 160
         },
@@ -768,8 +768,8 @@
           "id": 1842,
           "target_name": "Quy\u1ebfn C\u1ed1 Th\u00e0nh",
           "target_map_id": 30,
-          "x": 1796,
-          "y": 163,
+          "x": 1841,
+          "y": 208,
           "dest_x": 800,
           "dest_y": 1400
         }
@@ -788,8 +788,8 @@
       "col_width": 3073,
       "col_height": 2062,
       "has_collision": true,
-      "safe_x": 1500,
-      "safe_y": 800,
+      "safe_x": 1497,
+      "safe_y": 793,
       "continent": 1,
       "world_x": 302,
       "world_y": 519,
@@ -818,7 +818,7 @@
       ],
       "creatures_count": 0,
       "has_masks": true,
-      "masks_count": 7
+      "masks_count": 2
     },
     {
       "id": 22,
@@ -887,7 +887,7 @@
       ],
       "creatures_count": 0,
       "has_masks": true,
-      "masks_count": 28
+      "masks_count": 25
     },
     {
       "id": 23,
@@ -896,8 +896,8 @@
       "level": 90,
       "width": 3000,
       "height": 2000,
-      "col_width": 3054,
-      "col_height": 2056,
+      "col_width": 3053,
+      "col_height": 2057,
       "has_collision": true,
       "safe_x": 1440,
       "safe_y": 970,
@@ -912,8 +912,8 @@
           "id": 1739,
           "target_name": "Linh Lan",
           "target_map_id": 19,
-          "x": 2804,
-          "y": 95,
+          "x": 2859,
+          "y": 150,
           "dest_x": 900,
           "dest_y": 300
         },
@@ -921,15 +921,15 @@
           "id": 1740,
           "target_name": "M\u00ea Quang T\u1ef1",
           "target_map_id": 29,
-          "x": 83,
-          "y": 1803,
+          "x": 113,
+          "y": 1833,
           "dest_x": 1126,
           "dest_y": 760
         }
       ],
       "creatures_count": 0,
       "has_masks": true,
-      "masks_count": 8
+      "masks_count": 9
     },
     {
       "id": 24,
@@ -939,7 +939,7 @@
       "width": 3000,
       "height": 2000,
       "col_width": 3045,
-      "col_height": 2054,
+      "col_height": 2055,
       "has_collision": true,
       "safe_x": 1309,
       "safe_y": 1039,
@@ -964,14 +964,14 @@
           "target_name": "C\u1ed5 Th\u00e0nh",
           "target_map_id": 37,
           "x": 45,
-          "y": 929,
+          "y": 951,
           "dest_x": 1440,
           "dest_y": 1080
         }
       ],
       "creatures_count": 0,
       "has_masks": true,
-      "masks_count": 12
+      "masks_count": 5
     },
     {
       "id": 25,
@@ -1004,7 +1004,7 @@
       ],
       "creatures_count": 0,
       "has_masks": true,
-      "masks_count": 2
+      "masks_count": 5
     },
     {
       "id": 26,
@@ -1047,15 +1047,15 @@
           "id": 1383,
           "target_name": "L\u01b0u H\u1ecfa T\u1ed9c",
           "target_map_id": 25,
-          "x": 45,
-          "y": 1483,
+          "x": 49,
+          "y": 1485,
           "dest_x": 1690,
           "dest_y": 1110
         }
       ],
       "creatures_count": 9,
       "has_masks": true,
-      "masks_count": 8
+      "masks_count": 7
     },
     {
       "id": 27,
@@ -1123,7 +1123,7 @@
           "target_name": "Tr\u1ea7m Th\u1ee5y L\u00e2m",
           "target_map_id": 27,
           "x": 2714,
-          "y": 1215,
+          "y": 1239,
           "dest_x": 1000,
           "dest_y": 500
         },
@@ -1139,7 +1139,7 @@
       ],
       "creatures_count": 4,
       "has_masks": true,
-      "masks_count": 12
+      "masks_count": 7
     },
     {
       "id": 29,
@@ -1148,8 +1148,8 @@
       "level": 95,
       "width": 2200,
       "height": 1700,
-      "col_width": 2239,
-      "col_height": 1736,
+      "col_width": 2238,
+      "col_height": 1737,
       "has_collision": true,
       "safe_x": 1126,
       "safe_y": 760,
@@ -1224,7 +1224,7 @@
       "width": 4500,
       "height": 2500,
       "col_width": 4574,
-      "col_height": 2608,
+      "col_height": 2609,
       "has_collision": true,
       "safe_x": 3000,
       "safe_y": 1800,
@@ -1256,7 +1256,7 @@
       ],
       "creatures_count": 0,
       "has_masks": true,
-      "masks_count": 8
+      "masks_count": 39
     },
     {
       "id": 32,
@@ -1266,7 +1266,7 @@
       "width": 2100,
       "height": 1500,
       "col_width": 2196,
-      "col_height": 1598,
+      "col_height": 1599,
       "has_collision": true,
       "safe_x": 500,
       "safe_y": 900,
@@ -1314,8 +1314,8 @@
           "id": 789,
           "target_name": "Li\u00eau V\u00e2n T\u1ed9c",
           "target_map_id": 13,
-          "x": 110,
-          "y": 55,
+          "x": 125,
+          "y": 90,
           "dest_x": 1000,
           "dest_y": 1000
         },
@@ -1392,7 +1392,7 @@
       "width": 3000,
       "height": 2000,
       "col_width": 3076,
-      "col_height": 2110,
+      "col_height": 2111,
       "has_collision": true,
       "safe_x": 2000,
       "safe_y": 250,
@@ -1424,7 +1424,7 @@
       ],
       "creatures_count": 4,
       "has_masks": true,
-      "masks_count": 6
+      "masks_count": 5
     },
     {
       "id": 36,
@@ -1433,8 +1433,8 @@
       "level": 100,
       "width": 3000,
       "height": 2000,
-      "col_width": 3078,
-      "col_height": 2076,
+      "col_width": 3077,
+      "col_height": 2077,
       "has_collision": true,
       "safe_x": 1000,
       "safe_y": 160,
@@ -1449,8 +1449,8 @@
           "id": 1839,
           "target_name": "M\u00ea Quang T\u1ef1",
           "target_map_id": 29,
-          "x": 744,
-          "y": 55,
+          "x": 755,
+          "y": 60,
           "dest_x": 1126,
           "dest_y": 760
         },
@@ -1475,8 +1475,8 @@
       "level": 140,
       "width": 3000,
       "height": 2000,
-      "col_width": 3023,
-      "col_height": 2031,
+      "col_width": 3022,
+      "col_height": 2032,
       "has_collision": true,
       "safe_x": 1440,
       "safe_y": 1080,
@@ -1524,8 +1524,8 @@
           "id": 773,
           "target_name": "Thi\u00ean L\u1ee5c Ch\u00e2u",
           "target_map_id": 40,
-          "x": 2120,
-          "y": 149,
+          "x": 2134,
+          "y": 182,
           "dest_x": 1500,
           "dest_y": 1200
         },
@@ -1541,7 +1541,7 @@
       ],
       "creatures_count": 0,
       "has_masks": true,
-      "masks_count": 8
+      "masks_count": 7
     },
     {
       "id": 39,
@@ -1634,8 +1634,8 @@
       "level": 20,
       "width": 3000,
       "height": 2000,
-      "col_width": 3137,
-      "col_height": 2100,
+      "col_width": 3136,
+      "col_height": 2101,
       "has_collision": true,
       "safe_x": 1100,
       "safe_y": 680,
@@ -1676,8 +1676,8 @@
       "level": 50,
       "width": 3000,
       "height": 2000,
-      "col_width": 3097,
-      "col_height": 2108,
+      "col_width": 3096,
+      "col_height": 2109,
       "has_collision": true,
       "safe_x": 1500,
       "safe_y": 800,
@@ -1709,7 +1709,7 @@
       ],
       "creatures_count": 5,
       "has_masks": true,
-      "masks_count": 3
+      "masks_count": 7
     },
     {
       "id": 43,
@@ -1734,8 +1734,8 @@
           "id": 1959,
           "target_name": "Tuy\u1ebft L\u00e2m",
           "target_map_id": 22,
-          "x": 139,
-          "y": 55,
+          "x": 155,
+          "y": 71,
           "dest_x": 1900,
           "dest_y": 700
         }
@@ -1752,7 +1752,7 @@
       "width": 3000,
       "height": 2000,
       "col_width": 3076,
-      "col_height": 2067,
+      "col_height": 2068,
       "has_collision": true,
       "safe_x": 1420,
       "safe_y": 1060,
@@ -1808,7 +1808,7 @@
       "width": 1500,
       "height": 1000,
       "col_width": 1568,
-      "col_height": 1072,
+      "col_height": 1073,
       "has_collision": true,
       "safe_x": 800,
       "safe_y": 580,
@@ -1831,7 +1831,7 @@
       "width": 1500,
       "height": 1000,
       "col_width": 1568,
-      "col_height": 1072,
+      "col_height": 1073,
       "has_collision": true,
       "safe_x": 1050,
       "safe_y": 220,
@@ -1853,11 +1853,11 @@
       "level": 30,
       "width": 3000,
       "height": 2000,
-      "col_width": 3126,
-      "col_height": 2148,
+      "col_width": 3125,
+      "col_height": 2149,
       "has_collision": true,
-      "safe_x": 1225,
-      "safe_y": 700,
+      "safe_x": 1217,
+      "safe_y": 692,
       "continent": 1,
       "world_x": null,
       "world_y": null,
@@ -1876,8 +1876,8 @@
       "level": 60,
       "width": 3000,
       "height": 2000,
-      "col_width": 3133,
-      "col_height": 2115,
+      "col_width": 3132,
+      "col_height": 2116,
       "has_collision": true,
       "safe_x": 640,
       "safe_y": 1900,
@@ -1892,8 +1892,8 @@
           "id": 730,
           "target_name": "\u0110\u00f4ng Huy\u1ec1n Th\u00e0nh",
           "target_map_id": 9,
-          "x": 405,
-          "y": 1849,
+          "x": 427,
+          "y": 1903,
           "dest_x": 2057,
           "dest_y": 1309
         }
@@ -1932,8 +1932,8 @@
       "level": 50,
       "width": 2000,
       "height": 1440,
-      "col_width": 2161,
-      "col_height": 1604,
+      "col_width": 2160,
+      "col_height": 1605,
       "has_collision": true,
       "safe_x": 800,
       "safe_y": 180,
@@ -1984,7 +1984,7 @@
           "id": 1990,
           "target_name": "\u0110i\u00eau Linh Th\u00f4n",
           "target_map_id": 55,
-          "x": 108,
+          "x": 206,
           "y": 1123,
           "dest_x": 800,
           "dest_y": 180
@@ -2002,7 +2002,7 @@
           "id": 1992,
           "target_name": "\u0110i\u00eau Linh Th\u00f4n",
           "target_map_id": 55,
-          "x": 242,
+          "x": 270,
           "y": 575,
           "dest_x": 800,
           "dest_y": 180
@@ -2073,7 +2073,7 @@
       "level": 120,
       "width": 2461,
       "height": 1775,
-      "col_width": 2503,
+      "col_width": 2502,
       "col_height": 1815,
       "has_collision": true,
       "safe_x": 770,
@@ -2107,8 +2107,8 @@
           "id": 2000,
           "target_name": "M\u1ecb Ho\u1eb7c L\u00e2m",
           "target_map_id": 56,
-          "x": 1066,
-          "y": 1458,
+          "x": 1067,
+          "y": 1460,
           "dest_x": 770,
           "dest_y": 245
         },
@@ -2161,8 +2161,8 @@
           "id": 2006,
           "target_name": "M\u1ecb Ho\u1eb7c L\u00e2m",
           "target_map_id": 56,
-          "x": 76,
-          "y": 924,
+          "x": 133,
+          "y": 948,
           "dest_x": 770,
           "dest_y": 245
         },
@@ -2197,8 +2197,8 @@
           "id": 2010,
           "target_name": "\u0110i\u00eau Linh Th\u00f4n",
           "target_map_id": 55,
-          "x": 229,
-          "y": 66,
+          "x": 224,
+          "y": 77,
           "dest_x": 800,
           "dest_y": 180
         }
@@ -2214,8 +2214,8 @@
       "level": 50,
       "width": 3000,
       "height": 2000,
-      "col_width": 3156,
-      "col_height": 2091,
+      "col_width": 3155,
+      "col_height": 2092,
       "has_collision": true,
       "safe_x": 710,
       "safe_y": 1520,
@@ -2230,8 +2230,8 @@
           "id": 2018,
           "target_name": "\u0110i\u00eau Linh Th\u00f4n",
           "target_map_id": 55,
-          "x": 183,
-          "y": 1737,
+          "x": 188,
+          "y": 1724,
           "dest_x": 800,
           "dest_y": 180
         }
@@ -2280,8 +2280,8 @@
       "level": 100,
       "width": 3000,
       "height": 2000,
-      "col_width": 3077,
-      "col_height": 2064,
+      "col_width": 3076,
+      "col_height": 2065,
       "has_collision": true,
       "safe_x": 230,
       "safe_y": 300,
@@ -2296,8 +2296,8 @@
           "id": 3410,
           "target_name": "V\u0129nh D\u1ea1 C\u1ea3ng",
           "target_map_id": 67,
-          "x": 2789,
-          "y": 173,
+          "x": 2782,
+          "y": 190,
           "dest_x": 1460,
           "dest_y": 220
         }
@@ -2313,11 +2313,11 @@
       "level": 200,
       "width": 3000,
       "height": 2000,
-      "col_width": 3023,
-      "col_height": 2031,
+      "col_width": 3022,
+      "col_height": 2032,
       "has_collision": true,
       "safe_x": 770,
-      "safe_y": 245,
+      "safe_y": 207,
       "continent": 2,
       "world_x": null,
       "world_y": null,
@@ -2336,8 +2336,8 @@
       "level": 1,
       "width": 2500,
       "height": 1875,
-      "col_width": 2569,
-      "col_height": 1956,
+      "col_width": 2568,
+      "col_height": 1957,
       "has_collision": true,
       "safe_x": 800,
       "safe_y": 1400,
@@ -2359,8 +2359,8 @@
       "level": 1,
       "width": 2500,
       "height": 1875,
-      "col_width": 2569,
-      "col_height": 1956,
+      "col_width": 2568,
+      "col_height": 1957,
       "has_collision": true,
       "safe_x": 800,
       "safe_y": 1400,
@@ -2382,8 +2382,8 @@
       "level": 1,
       "width": 2500,
       "height": 1875,
-      "col_width": 2569,
-      "col_height": 1956,
+      "col_width": 2568,
+      "col_height": 1957,
       "has_collision": true,
       "safe_x": 800,
       "safe_y": 1400,
@@ -2405,8 +2405,8 @@
       "level": 30,
       "width": 2200,
       "height": 1650,
-      "col_width": 2261,
-      "col_height": 1712,
+      "col_width": 2260,
+      "col_height": 1713,
       "has_collision": true,
       "safe_x": 2057,
       "safe_y": 1309,
@@ -2453,8 +2453,8 @@
           "id": 3439,
           "target_name": "M\u00e3 Th\u1ea1ch Tuy\u1ebft",
           "target_map_id": 70,
-          "x": 1933,
-          "y": 577,
+          "x": 1949,
+          "y": 538,
           "dest_x": 1410,
           "dest_y": 2370
         }
@@ -2470,8 +2470,8 @@
       "level": 100,
       "width": 2166,
       "height": 1560,
-      "col_width": 2229,
-      "col_height": 1632,
+      "col_width": 2228,
+      "col_height": 1633,
       "has_collision": true,
       "safe_x": 1360,
       "safe_y": 460,
@@ -2493,8 +2493,8 @@
       "level": 100,
       "width": 2200,
       "height": 1650,
-      "col_width": 2281,
-      "col_height": 1720,
+      "col_width": 2280,
+      "col_height": 1721,
       "has_collision": true,
       "safe_x": 1100,
       "safe_y": 980,
@@ -2516,7 +2516,7 @@
       "level": 105,
       "width": 3000,
       "height": 3000,
-      "col_width": 3133,
+      "col_width": 3132,
       "col_height": 3133,
       "has_collision": true,
       "safe_x": 1410,
@@ -2549,8 +2549,8 @@
       "level": 120,
       "width": 3000,
       "height": 2000,
-      "col_width": 3081,
-      "col_height": 2080,
+      "col_width": 3080,
+      "col_height": 2081,
       "has_collision": true,
       "safe_x": 1490,
       "safe_y": 810,
@@ -2595,8 +2595,8 @@
       "level": 1,
       "width": 4000,
       "height": 2300,
-      "col_width": 4113,
-      "col_height": 2388,
+      "col_width": 4112,
+      "col_height": 2389,
       "has_collision": true,
       "safe_x": 2057,
       "safe_y": 1309,
@@ -2611,8 +2611,8 @@
           "id": 1456,
           "target_name": "\u0110\u00f4ng Huy\u1ec1n Th\u00e0nh",
           "target_map_id": 9,
-          "x": 610,
-          "y": 1374,
+          "x": 627,
+          "y": 1391,
           "dest_x": 2057,
           "dest_y": 1309
         }
@@ -2629,7 +2629,7 @@
       "width": 1500,
       "height": 1000,
       "col_width": 1624,
-      "col_height": 1136,
+      "col_height": 1137,
       "has_collision": true,
       "safe_x": 670,
       "safe_y": 230,
@@ -2652,7 +2652,7 @@
       "width": 1500,
       "height": 1000,
       "col_width": 1564,
-      "col_height": 1098,
+      "col_height": 1099,
       "has_collision": true,
       "safe_x": 670,
       "safe_y": 230,
@@ -2675,7 +2675,7 @@
       "width": 1500,
       "height": 1000,
       "col_width": 1578,
-      "col_height": 1071,
+      "col_height": 1072,
       "has_collision": true,
       "safe_x": 670,
       "safe_y": 230,
@@ -2697,11 +2697,11 @@
       "level": 30,
       "width": 2200,
       "height": 1500,
-      "col_width": 2310,
+      "col_width": 2309,
       "col_height": 1597,
       "has_collision": true,
-      "safe_x": 1225,
-      "safe_y": 700,
+      "safe_x": 1236,
+      "safe_y": 728,
       "continent": 2,
       "world_x": null,
       "world_y": null,
@@ -2713,15 +2713,15 @@
           "id": 1947,
           "target_name": "M\u1eadt \u0110\u1ea1o 2",
           "target_map_id": 140105,
-          "x": 1304,
-          "y": 664,
+          "x": 1316,
+          "y": 694,
           "dest_x": 1225,
           "dest_y": 700
         }
       ],
       "creatures_count": 0,
       "has_masks": true,
-      "masks_count": 2
+      "masks_count": 3
     },
     {
       "id": 140105,
@@ -2733,8 +2733,8 @@
       "col_width": 3021,
       "col_height": 2018,
       "has_collision": true,
-      "safe_x": 1225,
-      "safe_y": 700,
+      "safe_x": 1198,
+      "safe_y": 673,
       "continent": 2,
       "world_x": null,
       "world_y": null,
@@ -2746,8 +2746,8 @@
           "id": 1478,
           "target_name": "M\u1eadt \u0110\u1ea1o 1",
           "target_map_id": 140106,
-          "x": 1323,
-          "y": 685,
+          "x": 1296,
+          "y": 620,
           "dest_x": 216,
           "dest_y": 122
         }
@@ -2764,7 +2764,7 @@
       "width": 4000,
       "height": 2600,
       "col_width": 4092,
-      "col_height": 2694,
+      "col_height": 2695,
       "has_collision": true,
       "safe_x": 216,
       "safe_y": 122,
@@ -2779,7 +2779,7 @@
           "id": 1477,
           "target_name": "M\u1eadt \u0110\u1ea1o 2",
           "target_map_id": 140105,
-          "x": 100,
+          "x": 0,
           "y": 55,
           "dest_x": 1225,
           "dest_y": 700

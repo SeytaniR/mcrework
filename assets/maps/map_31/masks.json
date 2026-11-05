@@ -2,65 +2,313 @@
   {
     "bitmap_id": 1,
     "file": "assets/maps/map_31/mask/mask_1.png",
-    "x": 0.0,
+    "x": 3404.9,
     "y": 0.0,
-    "w": 4500,
-    "h": 2500
-  },
-  {
-    "bitmap_id": 1,
-    "file": "assets/maps/map_31/mask/mask_1.png",
-    "x": 866.0,
-    "y": 442.4,
-    "w": 4500,
-    "h": 2500
-  },
-  {
-    "bitmap_id": 1,
-    "file": "assets/maps/map_31/mask/mask_1.png",
-    "x": 1166.0,
-    "y": 592.8,
-    "w": 4500,
-    "h": 2500
-  },
-  {
-    "bitmap_id": 1,
-    "file": "assets/maps/map_31/mask/mask_1.png",
-    "x": -347.2,
-    "y": -173.6,
-    "w": 4500,
-    "h": 2500
-  },
-  {
-    "bitmap_id": 1,
-    "file": "assets/maps/map_31/mask/mask_1.png",
-    "x": -622.4,
-    "y": 307.2,
-    "w": 4500,
-    "h": 2500
-  },
-  {
-    "bitmap_id": 1,
-    "file": "assets/maps/map_31/mask/mask_1.png",
-    "x": -960.0,
-    "y": 479.2,
-    "w": 4500,
-    "h": 2500
-  },
-  {
-    "bitmap_id": 3,
-    "file": "assets/maps/map_31/mask/mask_3.png",
-    "x": 172.45,
-    "y": 151.5,
-    "w": 345,
-    "h": 339
+    "w": 298,
+    "h": 236
   },
   {
     "bitmap_id": 2,
     "file": "assets/maps/map_31/mask/mask_2.png",
-    "x": -0.1,
-    "y": 1043.15,
-    "w": 966,
-    "h": 1314
+    "x": 3837.9,
+    "y": 1.0,
+    "w": 282,
+    "h": 269
+  },
+  {
+    "bitmap_id": 3,
+    "file": "assets/maps/map_31/mask/mask_3.png",
+    "x": 231.9,
+    "y": 154.0,
+    "w": 285,
+    "h": 329
+  },
+  {
+    "bitmap_id": 4,
+    "file": "assets/maps/map_31/mask/mask_4.png",
+    "x": 3277.9,
+    "y": 186.0,
+    "w": 56,
+    "h": 148
+  },
+  {
+    "bitmap_id": 5,
+    "file": "assets/maps/map_31/mask/mask_5.png",
+    "x": 3625.9,
+    "y": 362.0,
+    "w": 56,
+    "h": 140
+  },
+  {
+    "bitmap_id": 6,
+    "file": "assets/maps/map_31/mask/mask_6.png",
+    "x": 929.9,
+    "y": 383.0,
+    "w": 558,
+    "h": 333
+  },
+  {
+    "bitmap_id": 7,
+    "file": "assets/maps/map_31/mask/mask_7.png",
+    "x": 3976.9,
+    "y": 536.0,
+    "w": 56,
+    "h": 157
+  },
+  {
+    "bitmap_id": 8,
+    "file": "assets/maps/map_31/mask/mask_8.png",
+    "x": 2204.9,
+    "y": 551.0,
+    "w": 475,
+    "h": 269
+  },
+  {
+    "bitmap_id": 9,
+    "file": "assets/maps/map_31/mask/mask_9.png",
+    "x": 2001.9,
+    "y": 612.0,
+    "w": 132,
+    "h": 94
+  },
+  {
+    "bitmap_id": 10,
+    "file": "assets/maps/map_31/mask/mask_10.png",
+    "x": 549.9,
+    "y": 614.0,
+    "w": 266,
+    "h": 245
+  },
+  {
+    "bitmap_id": 11,
+    "file": "assets/maps/map_31/mask/mask_11.png",
+    "x": 830.9,
+    "y": 667.0,
+    "w": 37,
+    "h": 49
+  },
+  {
+    "bitmap_id": 12,
+    "file": "assets/maps/map_31/mask/mask_12.png",
+    "x": 1869.9,
+    "y": 677.0,
+    "w": 131,
+    "h": 95
+  },
+  {
+    "bitmap_id": 13,
+    "file": "assets/maps/map_31/mask/mask_13.png",
+    "x": 816.9,
+    "y": 697.0,
+    "w": 43,
+    "h": 174
+  },
+  {
+    "bitmap_id": 14,
+    "file": "assets/maps/map_31/mask/mask_14.png",
+    "x": 27.9,
+    "y": 740.0,
+    "w": 290,
+    "h": 296
+  },
+  {
+    "bitmap_id": 15,
+    "file": "assets/maps/map_31/mask/mask_15.png",
+    "x": 1735.9,
+    "y": 744.0,
+    "w": 132,
+    "h": 95
+  },
+  {
+    "bitmap_id": 16,
+    "file": "assets/maps/map_31/mask/mask_16.png",
+    "x": 2692.9,
+    "y": 786.0,
+    "w": 163,
+    "h": 92
+  },
+  {
+    "bitmap_id": 17,
+    "file": "assets/maps/map_31/mask/mask_17.png",
+    "x": 1603.9,
+    "y": 811.0,
+    "w": 131,
+    "h": 93
+  },
+  {
+    "bitmap_id": 18,
+    "file": "assets/maps/map_31/mask/mask_18.png",
+    "x": 1469.9,
+    "y": 879.0,
+    "w": 132,
+    "h": 93
+  },
+  {
+    "bitmap_id": 19,
+    "file": "assets/maps/map_31/mask/mask_19.png",
+    "x": 3995.9,
+    "y": 898.0,
+    "w": 474,
+    "h": 281
+  },
+  {
+    "bitmap_id": 20,
+    "file": "assets/maps/map_31/mask/mask_20.png",
+    "x": 1337.9,
+    "y": 944.0,
+    "w": 130,
+    "h": 94
+  },
+  {
+    "bitmap_id": 21,
+    "file": "assets/maps/map_31/mask/mask_21.png",
+    "x": 3090.9,
+    "y": 977.0,
+    "w": 174,
+    "h": 107
+  },
+  {
+    "bitmap_id": 22,
+    "file": "assets/maps/map_31/mask/mask_22.png",
+    "x": 1204.9,
+    "y": 1012.0,
+    "w": 130,
+    "h": 93
+  },
+  {
+    "bitmap_id": 23,
+    "file": "assets/maps/map_31/mask/mask_23.png",
+    "x": 2655.9,
+    "y": 1025.0,
+    "w": 369,
+    "h": 499
+  },
+  {
+    "bitmap_id": 24,
+    "file": "assets/maps/map_31/mask/mask_24.png",
+    "x": 1071.9,
+    "y": 1079.0,
+    "w": 131,
+    "h": 93
+  },
+  {
+    "bitmap_id": 25,
+    "file": "assets/maps/map_31/mask/mask_25.png",
+    "x": 859.9,
+    "y": 1145.0,
+    "w": 210,
+    "h": 140
+  },
+  {
+    "bitmap_id": 26,
+    "file": "assets/maps/map_31/mask/mask_26.png",
+    "x": 337.9,
+    "y": 1249.0,
+    "w": 56,
+    "h": 156
+  },
+  {
+    "bitmap_id": 27,
+    "file": "assets/maps/map_31/mask/mask_27.png",
+    "x": 516.9,
+    "y": 1393.0,
+    "w": 473,
+    "h": 310
+  },
+  {
+    "bitmap_id": 28,
+    "file": "assets/maps/map_31/mask/mask_28.png",
+    "x": 4064.9,
+    "y": 1430.0,
+    "w": 56,
+    "h": 157
+  },
+  {
+    "bitmap_id": 29,
+    "file": "assets/maps/map_31/mask/mask_29.png",
+    "x": 244.9,
+    "y": 1513.0,
+    "w": 485,
+    "h": 734
+  },
+  {
+    "bitmap_id": 30,
+    "file": "assets/maps/map_31/mask/mask_30.png",
+    "x": 3722.9,
+    "y": 1602.0,
+    "w": 56,
+    "h": 157
+  },
+  {
+    "bitmap_id": 31,
+    "file": "assets/maps/map_31/mask/mask_31.png",
+    "x": 1203.9,
+    "y": 1691.0,
+    "w": 56,
+    "h": 157
+  },
+  {
+    "bitmap_id": 32,
+    "file": "assets/maps/map_31/mask/mask_32.png",
+    "x": 97.9,
+    "y": 1760.0,
+    "w": 67,
+    "h": 166
+  },
+  {
+    "bitmap_id": 33,
+    "file": "assets/maps/map_31/mask/mask_33.png",
+    "x": 1503.9,
+    "y": 1841.0,
+    "w": 56,
+    "h": 157
+  },
+  {
+    "bitmap_id": 34,
+    "file": "assets/maps/map_31/mask/mask_34.png",
+    "x": 3099.9,
+    "y": 1909.0,
+    "w": 56,
+    "h": 158
+  },
+  {
+    "bitmap_id": 35,
+    "file": "assets/maps/map_31/mask/mask_35.png",
+    "x": 3283.9,
+    "y": 1962.0,
+    "w": 474,
+    "h": 283
+  },
+  {
+    "bitmap_id": 36,
+    "file": "assets/maps/map_31/mask/mask_36.png",
+    "x": 2762.9,
+    "y": 2082.0,
+    "w": 56,
+    "h": 157
+  },
+  {
+    "bitmap_id": 37,
+    "file": "assets/maps/map_31/mask/mask_37.png",
+    "x": 2029.9,
+    "y": 2099.0,
+    "w": 57,
+    "h": 159
+  },
+  {
+    "bitmap_id": 38,
+    "file": "assets/maps/map_31/mask/mask_38.png",
+    "x": 1470.9,
+    "y": 2174.0,
+    "w": 475,
+    "h": 294
+  },
+  {
+    "bitmap_id": 39,
+    "file": "assets/maps/map_31/mask/mask_39.png",
+    "x": 2377.9,
+    "y": 2274.0,
+    "w": 56,
+    "h": 157
   }
 ]
