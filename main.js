@@ -18,22 +18,23 @@ async function initGame() {
   const [
     npcsData, masksData, colArrayBuffer, initialMonsterMeta, initialMonsterSheet,
     classesCatalogData, monstersCatalogData, mountsCatalogData, npcsCatalogData, mapsCatalogData,
-    skillsCatalogData, effectsCatalogData, equipmentCatalogData, wingsCatalogData
+    skillsCatalogData, effectsCatalogData, equipmentCatalogData, wingsCatalogData, itemsCatalogData
   ] = await Promise.all([
     fetch("assets/map1/npcs.json").then(r => r.json()),
     fetch("assets/map1/masks.json").then(r => r.json()),
     fetch("assets/map1/collision.bin").then(r => r.arrayBuffer()),
     fetch("assets/monsters/mushroom/visual_meta.json").then(r => r.json()),
     PIXI.Assets.load("assets/monsters/mushroom/atlas.json"),
-    fetch("assets/characters/catalog.json?v=1.6.2").then(r => r.json()).catch(() => ({ total_classes: 0, classes: [] })),
-    fetch("assets/monsters/catalog.json?v=1.6.2").then(r => r.json()).catch(() => ({ total_monsters: 0, monsters: [] })),
-    fetch("assets/mounts/catalog.json?v=1.6.2").then(r => r.json()).catch(() => ({ total_mounts: 0, mounts: [] })),
-    fetch("assets/npcs/catalog.json?v=1.6.2").then(r => r.json()).catch(() => ({ total_npcs: 0, npcs: [] })),
-    fetch("assets/maps/catalog.json?v=1.6.2").then(r => r.json()).catch(() => ({ total_maps: 0, maps: [] })),
-    fetch("assets/skills/catalog.json?v=1.6.2").then(r => r.json()).catch(() => ([])),
-    fetch("assets/effects/catalog.json?v=1.6.2").then(r => r.json()).catch(() => ([])),
-    fetch("assets/equipment/catalog.json?v=1.6.2").then(r => r.json()).catch(() => ({ items: [] })),
-    fetch("assets/wings/catalog.json?v=1.6.2").then(r => r.json()).catch(() => ([]))
+    fetch("assets/characters/catalog.json?v=1.6.3").then(r => r.json()).catch(() => ({ total_classes: 0, classes: [] })),
+    fetch("assets/monsters/catalog.json?v=1.6.3").then(r => r.json()).catch(() => ({ total_monsters: 0, monsters: [] })),
+    fetch("assets/mounts/catalog.json?v=1.6.3").then(r => r.json()).catch(() => ({ total_mounts: 0, mounts: [] })),
+    fetch("assets/npcs/catalog.json?v=1.6.3").then(r => r.json()).catch(() => ({ total_npcs: 0, npcs: [] })),
+    fetch("assets/maps/catalog.json?v=1.6.3").then(r => r.json()).catch(() => ({ total_maps: 0, maps: [] })),
+    fetch("assets/skills/catalog.json?v=1.6.3").then(r => r.json()).catch(() => ([])),
+    fetch("assets/effects/catalog.json?v=1.6.3").then(r => r.json()).catch(() => ([])),
+    fetch("assets/equipment/catalog.json?v=1.6.3").then(r => r.json()).catch(() => ({ items: [] })),
+    fetch("assets/wings/catalog.json?v=1.6.3").then(r => r.json()).catch(() => ([])),
+    fetch("assets/items/items_catalog.json?v=1.6.3").then(r => r.json()).catch(() => ({ total_items: 0, items: [] }))
   ]);
 
   let mapsCatalog = mapsCatalogData || { total_maps: 0, maps: [] };
@@ -320,7 +321,7 @@ async function initGame() {
       // 3. Carregar malha de colisão binária se existir
       if (mapMeta.has_collision && mapMeta.collision_bin) {
         try {
-          const colBuf = await fetch(`${mapMeta.collision_bin}?v=1.6.2`).then(r => r.arrayBuffer());
+          const colBuf = await fetch(`${mapMeta.collision_bin}?v=1.6.3`).then(r => r.arrayBuffer());
           colBytes = new Uint8Array(colBuf);
           COL_WIDTH = mapMeta.col_width;
           COL_HEIGHT = mapMeta.col_height;
@@ -797,7 +798,7 @@ async function initGame() {
     const masksUrl = (mapId === 1) ? "assets/map1/masks.json" : `assets/maps/map_${mapId}/masks.json`;
 
     try {
-      const resp = await fetch(`${masksUrl}?v=1.6.2`);
+      const resp = await fetch(`${masksUrl}?v=1.6.3`);
       if (!resp.ok) {
         updateMasksDrawerCount(0);
         return;
@@ -3846,6 +3847,187 @@ async function initGame() {
   if (savedCostumeId && equipmentList && equipmentList.length > 0) {
     const savedC = equipmentList.find(x => String(x.id) === String(savedCostumeId));
     if (savedC) equipCostume(savedC);
+  }
+
+
+  // ==========================================
+  // MODAL 8: MOCHILA & INVENTÁRIO (6.468 Itens & 1.695 Ícones)
+  // ==========================================
+  const modalItems = document.getElementById("modal-items");
+  const itemsGrid = document.getElementById("items-grid-container");
+  const itemsSearchInput = document.getElementById("items-search-input");
+  const itemsFilterPills = document.getElementById("items-filter-pills");
+  const toastItem = document.getElementById("toast-item");
+
+  let fullItemsList = Array.isArray(itemsCatalogData?.items) ? itemsCatalogData.items : [];
+  let selectedItemFilter = "all";
+  let itemsRenderCount = 48; // Paginação em blocos de 48 itens para máxima fluidez
+
+  const rarityColorMap = {
+    "-1": "#9e9e9e", // Cinza / Comum
+    "0": "#eceff4",  // Branco / Normal
+    "1": "#a3be8c",  // Verde / Incomum
+    "2": "#88c0d0",  // Azul / Raro
+    "3": "#b48ead",  // Roxo / Épico
+    "4": "#ebcb8b",  // Dourado / Lendário
+    "5": "#d08770"   // Laranja / Mítico
+  };
+
+  const categoryNameMap = {
+    "potions": "🧪 Poção",
+    "books": "📖 Livro",
+    "materials": "⛏️ Material",
+    "gems": "💎 Gema",
+    "scrolls": "📜 Pergaminho",
+    "quest": "🗺️ Missão",
+    "other": "📦 Item"
+  };
+
+  function showItemToast(item) {
+    if (!toastItem) return;
+    const color = rarityColorMap[String(item.color)] || "#eceff4";
+    const catLabel = categoryNameMap[item.category] || "📦 Item";
+    const iconTag = item.icon_path ? `<img src="${item.icon_path}" style="width:36px; height:36px; object-fit:contain; image-rendering:pixelated;" />` : `<span style="font-size:28px;">🎒</span>`;
+    
+    toastItem.innerHTML = `
+      <div style="display:flex; align-items:center; gap:10px; margin-bottom:6px;">
+        <div style="width:42px; height:42px; background:rgba(0,0,0,0.4); border:1px solid ${color}; border-radius:8px; display:flex; align-items:center; justify-content:center;">
+          ${iconTag}
+        </div>
+        <div>
+          <div style="font-size:14px; font-weight:bold; color:${color};">${item.name}</div>
+          <div style="font-size:10px; color:#88c0d0;">${catLabel} • ${item.rarity || 'Normal'}</div>
+        </div>
+      </div>
+      ${item.info ? `<div style="font-size:11px; color:#a3be8c; background:rgba(163,190,140,0.12); padding:4px 8px; border-radius:6px; margin-bottom:4px;">${item.info}</div>` : ''}
+      <div style="font-size:11px; color:#d8dee9; line-height:1.3; margin-bottom:6px;">${item.description || 'Nenhuma descrição adicional disponível.'}</div>
+      <div style="display:flex; justify-content:space-between; font-size:10px; color:#ebcb8b; border-top:1px solid rgba(255,255,255,0.1); padding-top:4px;">
+        <span>🪙 Preço: ${item.price.toLocaleString()} Moedas</span>
+        <span>📦 Limite Stack: ${item.stack_max.toLocaleString()}</span>
+      </div>
+    `;
+    toastItem.classList.remove("hidden");
+    clearTimeout(toastItem._timer);
+    toastItem._timer = setTimeout(() => {
+      toastItem.classList.add("hidden");
+    }, 4000);
+  }
+
+  function renderItemsGrid(resetPagination = true) {
+    if (!itemsGrid) return;
+    if (resetPagination) itemsRenderCount = 48;
+
+    const q = (itemsSearchInput ? itemsSearchInput.value : "").trim().toLowerCase();
+
+    const filtered = fullItemsList.filter(item => {
+      if (selectedItemFilter !== "all" && item.category !== selectedItemFilter) {
+        return false;
+      }
+      if (q) {
+        const queryStr = `${item.name} ${item.description || ''} ${item.info || ''} ${item.id}`.toLowerCase();
+        if (!queryStr.includes(q)) return false;
+      }
+      return true;
+    });
+
+    const slice = filtered.slice(0, itemsRenderCount);
+    let html = slice.map(item => {
+      const color = rarityColorMap[String(item.color)] || "#eceff4";
+      const catLabel = categoryNameMap[item.category] || "📦 Item";
+      const iconTag = item.icon_path
+        ? `<img src="${item.icon_path}" alt="${item.name}" class="item-card-icon" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" /><span style="display:none; font-size:20px;">🎒</span>`
+        : `<span style="font-size: 20px;">🎒</span>`;
+      
+      const stackTag = item.stack_max > 1 ? `<span class="item-card-stack-badge">${item.stack_max > 999 ? '999+' : item.stack_max}</span>` : '';
+      const infoBox = item.info ? `<div class="item-card-info-box">${item.info}</div>` : '';
+
+      return `
+        <div class="item-card" data-item-id="${item.id}" style="border-top: 2px solid ${color};">
+          <div class="item-card-header">
+            <div class="item-card-icon-wrap" style="border-color: ${color}44;">
+              ${iconTag}
+              ${stackTag}
+            </div>
+            <div class="item-card-title-col">
+              <div class="item-card-name" style="color: ${color};" title="${item.name}">${item.name}</div>
+              <span class="item-card-cat-badge">${catLabel}</span>
+            </div>
+          </div>
+          <div class="item-card-desc" title="${item.description}">${item.description || 'Item de Magic Campus'}</div>
+          ${infoBox}
+          <div class="item-card-footer">
+            <span class="item-card-price">🪙 ${item.price.toLocaleString()}</span>
+            <span class="item-card-id">#${item.id}</span>
+          </div>
+        </div>
+      `;
+    }).join("");
+
+    if (slice.length < filtered.length) {
+      html += `
+        <div style="grid-column: 1 / -1; display:flex; justify-content:center; padding:16px;">
+          <button id="btn-items-load-more" class="btn-primary" style="padding: 10px 24px; border-radius:20px; font-weight:700;">
+            ⬇️ Carregar Mais (+48 de ${filtered.length - slice.length} restantes)
+          </button>
+        </div>
+      `;
+    }
+
+    if (filtered.length === 0) {
+      html = `<div style="grid-column: 1 / -1; text-align:center; padding: 40px; color:#88c0d0;">Nenhum item encontrado com os filtros atuais.</div>`;
+    }
+
+    itemsGrid.innerHTML = html;
+
+    // Click handler para exibir Toast / Detalhes
+    itemsGrid.querySelectorAll(".item-card").forEach(card => {
+      card.addEventListener("click", () => {
+        const id = card.dataset.itemId;
+        const it = fullItemsList.find(x => String(x.id) === String(id));
+        if (it) showItemToast(it);
+      });
+    });
+
+    const btnLoadMore = document.getElementById("btn-items-load-more");
+    if (btnLoadMore) {
+      btnLoadMore.onclick = () => {
+        itemsRenderCount += 48;
+        renderItemsGrid(false);
+      };
+    }
+  }
+
+  function openItemsModal() {
+    if (modalItems) {
+      modalItems.classList.remove("hidden");
+      renderItemsGrid();
+    }
+  }
+  function closeItemsModal() {
+    if (modalItems) modalItems.classList.add("hidden");
+  }
+
+  const btnTopItems = document.getElementById("btn-open-items-modal");
+  const btnCloseItems = document.getElementById("btn-close-items-modal");
+
+  if (btnTopItems) btnTopItems.addEventListener("click", openItemsModal);
+  if (btnCloseItems) btnCloseItems.addEventListener("click", closeItemsModal);
+
+  if (itemsSearchInput) {
+    itemsSearchInput.addEventListener("input", () => {
+      renderItemsGrid(true);
+    });
+  }
+
+  if (itemsFilterPills) {
+    itemsFilterPills.addEventListener("click", (e) => {
+      const btn = e.target.closest(".pill-filter");
+      if (!btn) return;
+      itemsFilterPills.querySelectorAll(".pill-filter").forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+      selectedItemFilter = btn.dataset.filter || "all";
+      renderItemsGrid(true);
+    });
   }
 
   console.log("Magic Campus Mobile Engine inicializado com sucesso!");
