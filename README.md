@@ -37,6 +37,22 @@ Um projeto moderno de recriação de engine e modernização do clássico MMORPG
   * ⚡ **128 Efeitos Especiais Animados (VFX):** Decompilados a partir dos arquivos SWF originais (`DefineSprite` e vetores Flash) e convertidos em spritesheets WebP compactos com transparência alfa e metadados de duração em `web/assets/effects/`.
   * 📱 **Grimório Interativo no Cliente:** Provador de habilidades no topo do HUD mobile com busca em tempo real, filtros por classe/pet e botão de disparo imediato do efeito visual no jogo.
 
+### 9. Importação Integral dos Assets Restantes: Ícones de Skill, Armas Femininas, Retratos, Scene Items, Emojis & Projéteis (v1.6.4) 💎🌟
+* **154 Ícones Oficiais de Habilidades (`assets/skills/icons/`):**
+  * Extraídos do cache original (`icon/skill/SKILL_NORMAL_*.png`) e associados diretamente a **1.729 habilidades do Grimório**, substituindo ícones genéricos por pixel art oficial de alta qualidade.
+* **126 Modelos de Armas Femininas (`assets/weapons/equip_fc1_*` a `fc6_*`):**
+  * Todas as armas femininas das 6 classes de Magic Campus (`FC1` a `FC6`), totalizando **254 pastas de modelos de armas** completas (128 masculinas + 126 femininas) com sprites e manifests de 64 ações.
+* **27 Retratos / Avatares em Alta Resolução (`assets/portraits/`):**
+  * Retratos de personagens masculinos e femininos (`PC_MALE_000001-6`, `PC_FEMALE_000001-6`), mascotes e NPCs catalogados em `portraits_catalog.json`.
+* **39 Objetos Interativos de Cenário / Scene Items (`assets/sceneitems/`):**
+  * Baús de tesouro, flores e ervas de coleta, casas e pontos de spawn interativos com frames extraídos e catalogados em `sceneitems_catalog.json`.
+* **23 Emojis / Expressões de Personagem (`assets/emotions/`):**
+  * Animações de balões de emoção sobre a cabeça dos avatares (coração, suor, raiva, exclamação, riso) catalogados em `emotions_catalog.json`.
+* **2 Projéteis de Disparo Mágico & Balístico (`assets/bullets/`):**
+  * Projéteis de combate catalogados em `bullets_catalog.json`.
+
+---
+
 ### 8. Importação do Inventário & Mochila: 1.695 Ícones Originais & 6.468 Itens do Jogo (v1.6.3) 🎒✨
 * **Extração Completa dos 1.695 Ícones de Itens Originais (`icon/item/ITEM_NORMAL_*.png`):**
   * Decodificação e mapeamento de todos os 1.695 arquivos PNG de ícones do cliente Flash original a partir do storage de hash MD5 (`mcgame/frontend/s/res`), organizados em `web/assets/items/icons/`.

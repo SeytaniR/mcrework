@@ -25,16 +25,16 @@ async function initGame() {
     fetch("assets/map1/collision.bin").then(r => r.arrayBuffer()),
     fetch("assets/monsters/mushroom/visual_meta.json").then(r => r.json()),
     PIXI.Assets.load("assets/monsters/mushroom/atlas.json"),
-    fetch("assets/characters/catalog.json?v=1.6.3").then(r => r.json()).catch(() => ({ total_classes: 0, classes: [] })),
-    fetch("assets/monsters/catalog.json?v=1.6.3").then(r => r.json()).catch(() => ({ total_monsters: 0, monsters: [] })),
-    fetch("assets/mounts/catalog.json?v=1.6.3").then(r => r.json()).catch(() => ({ total_mounts: 0, mounts: [] })),
-    fetch("assets/npcs/catalog.json?v=1.6.3").then(r => r.json()).catch(() => ({ total_npcs: 0, npcs: [] })),
-    fetch("assets/maps/catalog.json?v=1.6.3").then(r => r.json()).catch(() => ({ total_maps: 0, maps: [] })),
-    fetch("assets/skills/catalog.json?v=1.6.3").then(r => r.json()).catch(() => ([])),
-    fetch("assets/effects/catalog.json?v=1.6.3").then(r => r.json()).catch(() => ([])),
-    fetch("assets/equipment/catalog.json?v=1.6.3").then(r => r.json()).catch(() => ({ items: [] })),
-    fetch("assets/wings/catalog.json?v=1.6.3").then(r => r.json()).catch(() => ([])),
-    fetch("assets/items/items_catalog.json?v=1.6.3").then(r => r.json()).catch(() => ({ total_items: 0, items: [] }))
+    fetch("assets/characters/catalog.json?v=1.6.4").then(r => r.json()).catch(() => ({ total_classes: 0, classes: [] })),
+    fetch("assets/monsters/catalog.json?v=1.6.4").then(r => r.json()).catch(() => ({ total_monsters: 0, monsters: [] })),
+    fetch("assets/mounts/catalog.json?v=1.6.4").then(r => r.json()).catch(() => ({ total_mounts: 0, mounts: [] })),
+    fetch("assets/npcs/catalog.json?v=1.6.4").then(r => r.json()).catch(() => ({ total_npcs: 0, npcs: [] })),
+    fetch("assets/maps/catalog.json?v=1.6.4").then(r => r.json()).catch(() => ({ total_maps: 0, maps: [] })),
+    fetch("assets/skills/catalog.json?v=1.6.4").then(r => r.json()).catch(() => ([])),
+    fetch("assets/effects/catalog.json?v=1.6.4").then(r => r.json()).catch(() => ([])),
+    fetch("assets/equipment/catalog.json?v=1.6.4").then(r => r.json()).catch(() => ({ items: [] })),
+    fetch("assets/wings/catalog.json?v=1.6.4").then(r => r.json()).catch(() => ([])),
+    fetch("assets/items/items_catalog.json?v=1.6.4").then(r => r.json()).catch(() => ({ total_items: 0, items: [] }))
   ]);
 
   let mapsCatalog = mapsCatalogData || { total_maps: 0, maps: [] };
@@ -321,7 +321,7 @@ async function initGame() {
       // 3. Carregar malha de colisão binária se existir
       if (mapMeta.has_collision && mapMeta.collision_bin) {
         try {
-          const colBuf = await fetch(`${mapMeta.collision_bin}?v=1.6.3`).then(r => r.arrayBuffer());
+          const colBuf = await fetch(`${mapMeta.collision_bin}?v=1.6.4`).then(r => r.arrayBuffer());
           colBytes = new Uint8Array(colBuf);
           COL_WIDTH = mapMeta.col_width;
           COL_HEIGHT = mapMeta.col_height;
@@ -798,7 +798,7 @@ async function initGame() {
     const masksUrl = (mapId === 1) ? "assets/map1/masks.json" : `assets/maps/map_${mapId}/masks.json`;
 
     try {
-      const resp = await fetch(`${masksUrl}?v=1.6.3`);
+      const resp = await fetch(`${masksUrl}?v=1.6.4`);
       if (!resp.ok) {
         updateMasksDrawerCount(0);
         return;
@@ -3389,7 +3389,7 @@ async function initGame() {
 
     const slice = filteredSkills.slice(0, skillsRenderCount);
     let html = slice.map(s => {
-      const iconImg = s.icon ? `<img src="${s.icon}" alt="${s.name}" class="skill-icon-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" /><span style="display:none; font-size: 18px;">🔮</span>` : `<span style="font-size: 18px;">🔮</span>`;
+      const iconImg = (s.icon || s.icon_path) ? `<img src="${s.icon}" alt="${s.name}" class="skill-icon-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" /><span style="display:none; font-size: 18px;">🔮</span>` : `<span style="font-size: 18px;">🔮</span>`;
       const classNames = s.req_classes && s.req_classes.length > 0 ? s.req_classes.join(', ') : 'Geral';
       return `
         <div class="skill-card" data-skill-id="${s.id}" onclick="window.__castSkillFromCard(${s.id})">
