@@ -1,0 +1,21 @@
+{
+  "total_bullets": 2,
+  "bullets": [
+    {
+      "id": "blt_normal_000001",
+      "name": "Blt Normal 000001",
+      "original_url": "resource/bullet/BLT_NORMAL_000001.swf",
+      "folder": "assets/bullets/blt_normal_000001",
+      "total_frames": 0,
+      "frames": []
+    },
+    {
+      "id": "blt_normal_000002",
+      "name": "Blt Normal 000002",
+      "original_url": "resource/bullet/BLT_NORMAL_000002.swf",
+      "folder": "assets/bullets/blt_normal_000002",
+      "total_frames": 0,
+      "frames": []
+    }
+  ]
+}

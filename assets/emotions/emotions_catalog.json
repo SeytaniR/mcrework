@@ -1,0 +1,189 @@
+{
+  "total_emotions": 23,
+  "emotions": [
+    {
+      "id": "em_normal_000001",
+      "name": "Em Normal 000001",
+      "original_url": "resource/emotion/EM_NORMAL_000001.swf",
+      "folder": "assets/emotions/em_normal_000001",
+      "total_frames": 0,
+      "frames": []
+    },
+    {
+      "id": "em_normal_000002",
+      "name": "Em Normal 000002",
+      "original_url": "resource/emotion/EM_NORMAL_000002.swf",
+      "folder": "assets/emotions/em_normal_000002",
+      "total_frames": 0,
+      "frames": []
+    },
+    {
+      "id": "em_normal_000003",
+      "name": "Em Normal 000003",
+      "original_url": "resource/emotion/EM_NORMAL_000003.swf",
+      "folder": "assets/emotions/em_normal_000003",
+      "total_frames": 0,
+      "frames": []
+    },
+    {
+      "id": "em_normal_000004",
+      "name": "Em Normal 000004",
+      "original_url": "resource/emotion/EM_NORMAL_000004.swf",
+      "folder": "assets/emotions/em_normal_000004",
+      "total_frames": 0,
+      "frames": []
+    },
+    {
+      "id": "em_normal_000005",
+      "name": "Em Normal 000005",
+      "original_url": "resource/emotion/EM_NORMAL_000005.swf",
+      "folder": "assets/emotions/em_normal_000005",
+      "total_frames": 0,
+      "frames": []
+    },
+    {
+      "id": "em_normal_000006",
+      "name": "Em Normal 000006",
+      "original_url": "resource/emotion/EM_NORMAL_000006.swf",
+      "folder": "assets/emotions/em_normal_000006",
+      "total_frames": 0,
+      "frames": []
+    },
+    {
+      "id": "em_normal_000007",
+      "name": "Em Normal 000007",
+      "original_url": "resource/emotion/EM_NORMAL_000007.swf",
+      "folder": "assets/emotions/em_normal_000007",
+      "total_frames": 0,
+      "frames": []
+    },
+    {
+      "id": "em_normal_000008",
+      "name": "Em Normal 000008",
+      "original_url": "resource/emotion/EM_NORMAL_000008.swf",
+      "folder": "assets/emotions/em_normal_000008",
+      "total_frames": 0,
+      "frames": []
+    },
+    {
+      "id": "em_normal_000009",
+      "name": "Em Normal 000009",
+      "original_url": "resource/emotion/EM_NORMAL_000009.swf",
+      "folder": "assets/emotions/em_normal_000009",
+      "total_frames": 0,
+      "frames": []
+    },
+    {
+      "id": "em_normal_000010",
+      "name": "Em Normal 000010",
+      "original_url": "resource/emotion/EM_NORMAL_000010.swf",
+      "folder": "assets/emotions/em_normal_000010",
+      "total_frames": 0,
+      "frames": []
+    },
+    {
+      "id": "em_normal_000011",
+      "name": "Em Normal 000011",
+      "original_url": "resource/emotion/EM_NORMAL_000011.swf",
+      "folder": "assets/emotions/em_normal_000011",
+      "total_frames": 0,
+      "frames": []
+    },
+    {
+      "id": "em_normal_000012",
+      "name": "Em Normal 000012",
+      "original_url": "resource/emotion/EM_NORMAL_000012.swf",
+      "folder": "assets/emotions/em_normal_000012",
+      "total_frames": 0,
+      "frames": []
+    },
+    {
+      "id": "em_normal_000013",
+      "name": "Em Normal 000013",
+      "original_url": "resource/emotion/EM_NORMAL_000013.swf",
+      "folder": "assets/emotions/em_normal_000013",
+      "total_frames": 0,
+      "frames": []
+    },
+    {
+      "id": "em_normal_000014",
+      "name": "Em Normal 000014",
+      "original_url": "resource/emotion/EM_NORMAL_000014.swf",
+      "folder": "assets/emotions/em_normal_000014",
+      "total_frames": 0,
+      "frames": []
+    },
+    {
+      "id": "em_normal_000015",
+      "name": "Em Normal 000015",
+      "original_url": "resource/emotion/EM_NORMAL_000015.swf",
+      "folder": "assets/emotions/em_normal_000015",
+      "total_frames": 0,
+      "frames": []
+    },
+    {
+      "id": "em_normal_000016",
+      "name": "Em Normal 000016",
+      "original_url": "resource/emotion/EM_NORMAL_000016.swf",
+      "folder": "assets/emotions/em_normal_000016",
+      "total_frames": 0,
+      "frames": []
+    },
+    {
+      "id": "em_normal_000017",
+      "name": "Em Normal 000017",
+      "original_url": "resource/emotion/EM_NORMAL_000017.swf",
+      "folder": "assets/emotions/em_normal_000017",
+      "total_frames": 0,
+      "frames": []
+    },
+    {
+      "id": "em_normal_000018",
+      "name": "Em Normal 000018",
+      "original_url": "resource/emotion/EM_NORMAL_000018.swf",
+      "folder": "assets/emotions/em_normal_000018",
+      "total_frames": 0,
+      "frames": []
+    },
+    {
+      "id": "em_normal_000019",
+      "name": "Em Normal 000019",
+      "original_url": "resource/emotion/EM_NORMAL_000019.swf",
+      "folder": "assets/emotions/em_normal_000019",
+      "total_frames": 0,
+      "frames": []
+    },
+    {
+      "id": "em_normal_000020",
+      "name": "Em Normal 000020",
+      "original_url": "resource/emotion/EM_NORMAL_000020.swf",
+      "folder": "assets/emotions/em_normal_000020",
+      "total_frames": 0,
+      "frames": []
+    },
+    {
+      "id": "em_normal_000021",
+      "name": "Em Normal 000021",
+      "original_url": "resource/emotion/EM_NORMAL_000021.swf",
+      "folder": "assets/emotions/em_normal_000021",
+      "total_frames": 0,
+      "frames": []
+    },
+    {
+      "id": "em_normal_000022",
+      "name": "Em Normal 000022",
+      "original_url": "resource/emotion/EM_NORMAL_000022.swf",
+      "folder": "assets/emotions/em_normal_000022",
+      "total_frames": 0,
+      "frames": []
+    },
+    {
+      "id": "em_normal_000023",
+      "name": "Em Normal 000023",
+      "original_url": "resource/emotion/EM_NORMAL_000023.swf",
+      "folder": "assets/emotions/em_normal_000023",
+      "total_frames": 0,
+      "frames": []
+    }
+  ]
+}
